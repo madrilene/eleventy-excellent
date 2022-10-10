@@ -5,8 +5,6 @@ description: "That's a markdown page"
 layout: page
 ---
 
-# h1 Heading
-
 Jelly sesame snaps gummies cookie oat cake. Cake gingerbread bonbon muffin gummies gummies oat cake candy icing. Danish bear claw marshmallow gingerbread jelly beans. Icing muffin ice cream pastry chupa chups. Topping jelly-o wafer croissant marshmallow topping jelly-o carrot cake croissant. Chocolate cake croissant liquorice shortbread muffin candy. Danish toffee dragée powder chocolate icing apple pie. Jujubes candy chocolate jelly pastry cheesecake dragée. Tiramisu sugar plum sesame snaps cake caramels sugar plum sweet roll. Marzipan dragée powder apple pie chocolate cake. Fruitcake marshmallow dessert macaroon cheesecake pie sweet roll dragée gummi bears. Gummi bears lollipop cookie chocolate cookie.
 
 ## h2 Heading

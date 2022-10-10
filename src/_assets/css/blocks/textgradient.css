@@ -1,0 +1,18 @@
+.gradient-text {
+	color: transparent;
+	background: conic-gradient(
+		var(--color-primary) 12%,
+		var(--color-primary) 12%,
+		var(--color-primary) 33%,
+		var(--color-secondary) 33%,
+		var(--color-secondary) 55%,
+		#1471bb 55%,
+		#1471bb 70%,
+		#ff8b59 70%,
+		#ff8b59 87%,
+		#c569bc 87%
+	);
+	background-size: 50%;
+	background-clip: text;
+	-webkit-background-clip: text;
+}

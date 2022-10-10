@@ -6,9 +6,14 @@
 
 <meta
   name="description"
-  content="{% if description %}{{ description }}{% else %}{{
-    meta.siteDescription
-  }}{% endif %}"
+  content="
+  {% if seo.description %} {{ seo.description }}
+  {% elif description %}
+  {{ description }}
+  {% else %}
+  {{ meta.siteDescription }}
+  {% endif %}
+  "
 />
 
 <meta name="robots" content="index,follow" /><!-- All Search Engines -->
@@ -19,7 +24,14 @@
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="{{ meta.siteURL }}{{ page.url }}" />
 
-<title>{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}</title>
+<title>
+  {% if seo.title %} {{ seo.title }}
+  {% elif title %}
+  {{ title }}
+  {% else %}
+  {{ meta.siteName }}
+  {% endif %}
+</title>
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
