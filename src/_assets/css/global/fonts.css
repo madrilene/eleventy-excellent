@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Outfit;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/_assets/fonts/outfit/outfit-v5-latin-regular.woff2) format('woff2'),
+    url(/assets/fonts/outfit/outfit-v5-latin-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: Outfit;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''),
+    url(/_assets/fonts/outfit/outfit-v5-latin-700-webfont.woff2) format('woff2'),
+    url(/assets/fonts/outfit/outfit-v5-latin-700-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: Charter;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local(''), url(/_assets/fonts/charter/charter_regular.woff2) format('woff2'),
+    url(/assets/fonts/charter/charter_regular.woff) format('woff');
+}
+@font-face {
+  font-family: Charter;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local(''), url(/_assets/fonts/charter/charter_bold.woff2) format('woff2'),
+    url(/assets/fonts/charter/charter_bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local(''),
+    url(/_assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2)
+      format('woff2'),
+    url(/_assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff)
+      format('woff');
+}

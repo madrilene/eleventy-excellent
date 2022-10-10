@@ -1,0 +1,571 @@
+---
+title: Testing webC plugin
+permalink: /test/index.html
+description: This is just a testing environment
+layout: page
+---
+
+<h1>Testing webc</h1>
+<p>
+  Icing jelly soufflé shortbread chocolate cake muffin gummies cotton candy lemon drops.
+  Cake gummi bears dragée chocolate sweet croissant sweet croissant.
+</p>
+
+{% renderTemplate "webc" %}
+<fancy-rule></fancy-rule>
+{% endrenderTemplate %}
+
+<p>
+  Marzipan croissant halvah sweet wafer sesame snaps cheesecake. Jelly candy canes toffee
+  macaroon fruitcake liquorice. Carrot cake jelly chocolate chupa chups tart danish icing.
+  Wafer dessert gummi bears cake jujubes caramels sesame snaps carrot cake. Candy cake pie
+  apple pie marshmallow. Powder apple pie tart carrot cake pudding dessert.
+</p>
+
+<h2>JS not working like that?</h2>
+
+<p>
+  {% renderTemplate "webc" %}
+  <my-counter></my-counter>
+  {% endrenderTemplate %}
+</p>
+
+<h2>Let's try with is-land</h2>
+
+<p>
+  A new performance-focused way to add interactive client-side components to your web
+  site.
+</p>
+
+<p>
+  Or, more technically: a framework independent partial hydration islands architecture
+  implementation.
+</p>
+
+<p>Features:</p>
+
+<ul>
+  <li>Easy to add to existing components</li>
+  <li>Zero dependencies</li>
+  <li>Small footprint</li>
+  <li>Not tightly coupled to a server framework or site generator tool.</li>
+  <li>
+    Server-rendering (SSR) component examples available for SSR-friendly frameworks (Lit,
+    Svelte, Vue, and Preact are provided)
+  </li>
+</ul>
+
+<h2>Standalone</h2>
+
+<p>
+  This is a control to make sure the component initializes as expected without an island.
+</p>
+
+<vanilla-web-component class="demo-component"
+  >Vanilla web component</vanilla-web-component
+>
+
+<h2>Defaults</h2>
+
+<p>These islands are eagerly loaded and initialized.</p>
+
+<is-land>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>Gnarly nesting</p>
+
+<is-land>
+  <vanilla-web-component class="demo-component" custom-attribute some other attributes>
+    Vanilla web component 1a
+    <vanilla-web-component class="demo-component"
+      >Vanilla web component 1b</vanilla-web-component
+    >
+    Vanilla web component 1c
+    <vanilla-web-component class="demo-component"
+      >Vanilla web component 1d</vanilla-web-component
+    >
+  </vanilla-web-component>
+  <p>Testing A</p>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component 2</vanilla-web-component
+  >
+  <p>Testing B</p>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component 3</vanilla-web-component
+  >
+</is-land>
+
+<h2>Scroll down</h2>
+
+<hr style="height: 100vh" />
+
+<h2><code>on:visible</code></h2>
+<is-land on:visible>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<h3>Works with &lt;details&gt;</h3>
+<details>
+  <summary>
+    The child content in this &lt;details&gt; will not be initialized until you open it
+  </summary>
+
+  <is-land on:visible>
+    <vanilla-web-component class="demo-component"
+      >Vanilla web component</vanilla-web-component
+    >
+  </is-land>
+</details>
+
+<h2><code>on:visible</code> nested group</h2>
+
+<p>
+  Parent island has <code>on:visible</code> but none of the child components have an
+  explicit loading condition. They will inherit the loading conditions of all of the
+  ancestors.
+</p>
+
+<is-land on:visible>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+
+  Here’s a nested island:
+
+  <is-land
+    autoinit="petite-vue"
+    import="https://unpkg.com/petite-vue@0.4.1/dist/petite-vue.es.js"
+    v-scope="{ count: 0 }"
+  >
+    Petite Vue
+    <template data-island>
+      <button @click="count++">⬆️</button>
+      <button @click="count--">⬇️</button>
+      <span v-html="count">0</span>
+    </template>
+  </is-land>
+</is-land>
+
+<h2><code>on:idle</code></h2>
+
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+<is-land on:idle>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<h2><code>on:interaction</code></h2>
+
+<p>Requires one of: touchstart, click.</p>
+<p>
+  Note here that we used one parent island to group both of these components, and
+  interacting with either initializes the whole group.
+</p>
+
+<is-land on:interaction>
+  <is-land
+    autoinit="petite-vue"
+    import="https://unpkg.com/petite-vue@0.4.1/dist/petite-vue.es.js"
+    v-scope="{ count: 0 }"
+  >
+    Petite Vue
+    <template data-island>
+      <button @click="count++">⬆️</button>
+      <button @click="count--">⬇️</button>
+      <span v-html="count">0</span>
+    </template>
+  </is-land>
+
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>Use <code>on:interaction="mouseenter,focusin"</code> to override the events.</p>
+<is-land on:interaction="mouseenter,focusin">
+  <is-land
+    autoinit="petite-vue"
+    import="https://unpkg.com/petite-vue@0.4.1/dist/petite-vue.es.js"
+    v-scope="{ count: 0 }"
+  >
+    Petite Vue
+    <template data-island>
+      <button @click="count++">⬆️</button>
+      <button @click="count--">⬇️</button>
+      <span v-html="count">0</span>
+    </template>
+  </is-land>
+
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>
+  In this example we use a third party web component (<a
+    href="https://github.com/zachleat/details-utils"
+    >&lt;details-utils&gt;</a
+  >) without any code changes made to the component. Note that children here are
+  maintained before and after initialization (e.g. click the summary to expand before init
+  and it keeps that state after init).
+</p>
+
+<is-land on:interaction import="./lib/details-utils.js">
+  <button type="button" onclick="console.log('Click test')">
+    Click test (log to console)
+  </button>
+
+  <details-utils close-click-outside>
+    <details open>
+      <summary>
+        Toggle Menu (Default open: click outside to close after island initializes)
+      </summary>
+      <p>
+        Note that interacting with content inside of the menu works without closing the
+        menu.
+      </p>
+    </details>
+
+    <details>
+      <summary>
+        Toggle Menu (Default closed: will toggle before island initializes)
+      </summary>
+      <p>
+        Note that interacting with content inside of the menu works without closing the
+        menu.
+      </p>
+    </details>
+  </details-utils>
+</is-land>
+
+<h2><code>on:media</code></h2>
+<h3>Viewport size</h3>
+<p><code>on:media="(min-width: 64em)"</code></p>
+<p>
+  This only runs when the viewport is greater than or equal to 1024px wide:
+  <code>on:media="(min-width: 64em)"</code>
+</p>
+<is-land on:media="(min-width: 64em)">
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>
+  This only runs when the viewport is less than 1024px wide:
+  <code>on:media="(max-width: 63.9375em)"</code>
+</p>
+<is-land on:media="(max-width: 63.9375em)">
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<h3>Reduced Motion</h3>
+<p>
+  This runs when the user prefers reduced motion:
+  <code>on:media="(prefers-reduced-motion)"</code>
+</p>
+
+<is-land on:media="(prefers-reduced-motion)">
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>
+  This runs when does not have a reduced motion preference:
+  <code>on:media="(prefers-reduced-motion: no-preference)"</code>
+</p>
+
+<is-land on:media="(prefers-reduced-motion: no-preference)">
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<h2><code>on:save-data</code></h2>
+
+<p>
+  This runs when the user has
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/saveData"
+    >Save Data</a
+  >
+  enabled:
+</p>
+
+<is-land on:save-data>
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<p>
+  <code>on:save-data="false"</code> This runs when the user does not have
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/saveData"
+    >Save Data</a
+  >
+  enabled:
+</p>
+
+<is-land on:save-data="false">
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component</vanilla-web-component
+  >
+</is-land>
+
+<h2>Controlling fallback content</h2>
+
+<p>
+  If you put child content in a &lt;template&gt; it will be JavaScript-only (no fallback).
+  Use this to your advantage! You can mix and match &lt;template&gt; with other
+  progressively enhanced content in the island.
+</p>
+
+<is-land on:interaction>
+  <form>
+    <button type="button">Hydrate the island</button>
+  </form>
+
+  <vanilla-web-component class="demo-component"
+    >Vanilla web component (JS not required for fallback content)</vanilla-web-component
+  >
+
+  <template data-island>
+    These are nested in a &lt;template&gt;:
+
+    <vanilla-web-component class="demo-component"
+      >Vanilla web component (JS is required for fallback)</vanilla-web-component
+    >
+
+    <is-land
+      autoinit="petite-vue"
+      import="https://unpkg.com/petite-vue@0.4.1/dist/petite-vue.es.js"
+      v-scope="{ count: 0 }"
+    >
+      Petite Vue (JS is required for fallback):
+      <template data-island>
+        <button @click="count++">⬆️</button>
+        <button @click="count--">⬇️</button>
+        <span v-html="count">0</span>
+      </template>
+    </is-land>
+  </template>
+</is-land>
+
+<p>
+  Use the <code>ready</code> attribute on <code>&lt;is-land&gt;</code> (added when the
+  island is hydrated) for additional styling!
+</p>
+<is-land on:interaction id="demo-island-ready">
+  <style>
+    #demo-island-ready[ready] {
+      font-weight: bold;
+    }
+    #demo-island-ready[ready] .emoji {
+      display: none;
+    }
+  </style>
+
+  <form>
+    <button type="button">Hydrate the island</button>
+  </form>
+
+  <vanilla-web-component class="demo-component">
+    When hydrated the text turns bold and the clock goes away
+    <span class="emoji">⏰</span>
+  </vanilla-web-component>
+</is-land>
+
+<p>
+  Use <code>data-island="replace"</code> to replace the island content with the template.
+  If more than one of these exists in an island, only the first is used.
+</p>
+
+<is-land on:interaction>
+  <form>
+    <button type="button">Hydrate the island</button>
+  </form>
+
+  <p>This content is pre-JS. This is where your loading spinner goes 😈</p>
+
+  <template data-island="replace">
+    <vanilla-web-component class="demo-component"
+      >Vanilla web component (requires JS)</vanilla-web-component
+    >
+  </template>
+</is-land>
+
+<p>
+  Do you know the aspect ratio of the hydrated content? On my
+  <a href="https://www.zachleat.com/web/eleventy-rendering-modes/">personal web site</a> I
+  use this to hydrate a
+  <a href="https://github.com/paulirish/lite-youtube-embed"
+    >&lt;lite-youtube&gt; component</a
+  >. Works great with
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio"
+    >CSS <code>aspect-ratio</code></a
+  >!
+</p>
+
+<style>
+  #demo-aspect-ratio {
+    aspect-ratio: 16/9;
+    max-width: 400px;
+    background-size: 68px 48px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 68 48"><path fill="%23f00" fill-opacity="0.8" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path d="M 45,24 27,14 27,34" fill="%23fff"></path></svg>');
+  }
+  #demo-aspect-ratio[ready] {
+    background-image: none;
+  }
+</style>
+<is-land on:interaction id="demo-aspect-ratio">
+  <form>
+    <button type="button">Hydrate the island</button>
+  </form>
+  <template data-island="replace">Your video player here.</template>
+</is-land>
+
+<h2>Custom Lazy Asset Loading</h2>
+
+<is-land on:interaction id="script-style-loading">
+  <form>
+    <button type="button">Hydrate the island</button>
+  </form>
+
+  <p>
+    Nest any inline <code>&lt;script&gt;</code>, <code>&lt;script src&gt;</code>,
+    <code>&lt;style&gt;</code>, <code>&lt;link rel="stylesheet"&gt;</code> inside a
+    <code>&lt;template data-island&gt;</code> to execute when conditions are met. The text
+    will turn red when the inline CSS loads and bold when the external stylesheet loads.
+  </p>
+
+  <is-land on:interaction>
+    <form>
+      <button type="button">Hydrate the nested island</button>
+    </form>
+    <template data-island>
+      <script type="module">
+        console.log('Nested Inline JS executed.');
+      </script>
+    </template>
+  </is-land>
+
+  <template data-island>
+    <script type="module">
+      console.log('Inline JS executed.');
+    </script>
+    <script type="module" src="./lib/js-file.js"></script>
+    <style>
+      #script-style-loading {
+        color: red;
+      }
+    </style>
+    <link rel="stylesheet" href="./lib/css-file.css" />
+  </template>
+</is-land>
+
+<h2>Once per page template</h2>
+
+<h3>Group 1</h3>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 1: You should only see this once.');
+    </script>
+  </template>
+</is-land>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 1: You should only see this once.');
+    </script>
+  </template>
+</is-land>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 1: You should only see this once.');
+    </script>
+  </template>
+</is-land>
+<h3>Group 2</h3>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 2: You should only see this once.');
+    </script>
+  </template>
+</is-land>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 2: You should only see this once.');
+    </script>
+  </template>
+</is-land>
+<is-land on:visible>
+  Each of these islands has a console.log but you should only see one.
+  <template data-island="once">
+    <script type="module">
+      console.log('Group 2: You should only see this once.');
+    </script>
+  </template>
+</is-land>

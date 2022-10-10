@@ -1,0 +1,64 @@
+details {
+  padding: 1em;
+  background-color: #eee;
+  border-radius: 0.5em;
+}
+details:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+p:first-child {
+  margin-top: 0;
+}
+body {
+  padding-bottom: 20vh;
+}
+
+/* Demo styles */
+is-land,
+.demo-component {
+  display: block;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  outline: 2px solid lightblue;
+}
+is-land:last-child,
+.demo-component:last-child {
+  margin-bottom: 0;
+}
+is-land:first-child,
+.demo-component:first-child {
+  margin-top: 0;
+}
+is-land[on\:idle],
+is-land[on\:idle][ready] {
+  display: inline-flex;
+  gap: 0.25em;
+  align-items: center;
+}
+is-land span {
+  display: inline-flex;
+  width: 2em;
+  margin: 0 0.25em;
+}
+
+/* Demo loading states */
+is-land[ready] {
+  display: block;
+  background-color: rgba(114, 233, 110, 0.2);
+  outline: 2px solid rgb(85, 173, 82);
+}
+.test-c-finish {
+  background-color: rgba(112, 110, 233, 0.2);
+  outline: 2px solid rgb(97, 82, 173);
+}
+
+/* List logos */
+.examples {
+  line-height: 2;
+}
+.examples img {
+  margin-right: 0.3em;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: text-bottom;
+}

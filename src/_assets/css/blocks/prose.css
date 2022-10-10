@@ -1,0 +1,37 @@
+.prose {
+  --flow-space: var(--space-l-xl);
+  --wrapper-max-width: 55rem;
+}
+
+.prose :is(h2, h3, h4) + * {
+  --flow-space: var(--space-s-m);
+}
+
+.prose blockquote {
+  border-inline-start: 10px solid var(--color-secondary);
+  padding: var(--space-m-l);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--size-step-2);
+}
+
+.prose blockquote > * + * {
+  margin-top: var(--space-m-l);
+}
+
+.prose blockquote :last-child {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-size: var(--size-step-1);
+}
+
+.prose .heading-anchor:is(:hover, :focus) {
+  text-decoration: underline;
+}
+.prose .heading-anchor {
+  text-decoration: none;
+}
+
+.prose mark {
+  background: var(--color-primary-glare);
+}

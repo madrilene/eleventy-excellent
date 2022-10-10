@@ -1,0 +1,70 @@
+<!-- https://htmlhead.dev / https://www.matuzo.at/blog/html-boilerplate/
+-->
+
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="{{ page.url }}" />
+
+<meta
+  name="description"
+  content="{% if description %}{{ description }}{% else %}{{
+    meta.siteDescription
+  }}{% endif %}"
+/>
+
+<meta name="robots" content="index,follow" /><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow" /><!-- Google Specific -->
+<meta name="generator" content="eleventy" /><!-- thank you, Zach Leatherman -->
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="{{ meta.siteURL }}{{ page.url }}" />
+
+<title>{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}</title>
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+<!-- Favicon -->
+<link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
+<link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
+<link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
+<meta name="theme-color" content="#FF7F5C" />
+<meta name="generator" content="Eleventy" />
+
+<!-- Facebook Open Graph meta -->
+<meta property="og:url" content="{{ meta.siteURL }}{{ page.url }}" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}"
+/>
+
+<meta
+  property="og:image"
+  content="{% if meta.env == 'production' %}{{
+    meta.siteURL
+  }}{% endif %}{% if featured_image  %}{{ featured_image | replace('./src', '') }}{% else %}{{
+    meta.meta_data.opengraph_default
+  }}{% endif %}"
+/>
+
+<meta
+  property="og:description"
+  content="{% if description %}{{ description }}{% else %}{{
+    meta.siteDescription
+  }}{% endif %}"
+/>
+<meta property="og:site_name" content="{{ meta.siteName }}" />
+<meta property="og:locale" content="{{ meta.locale }}" />
+<meta property="article:author" content="{{ meta.author }}" />
+
+<!-- Twitter Open Graph meta -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{ meta.meta_data.twitterSite }}" />
+<meta name="twitter:creator" content="{{ meta.meta_data.twitterCreator }}" />
+
+<!-- disallow Twitter from using your site's info for personalization purposes -->
+<meta name="twitter:dnt" content="on" />

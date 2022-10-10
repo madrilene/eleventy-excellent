@@ -1,0 +1,14 @@
+.signoff h2 {
+  font-weight: 400;
+  font-size: var(--size-step-1);
+  max-width: 30ch;
+  letter-spacing: var(--tracking);
+}
+
+.signoff p {
+  font-size: var(--size-step-6);
+  font-weight: 700;
+  letter-spacing: var(--tracking-s);
+  line-height: 1;
+  color: var(--color-primary);
+}

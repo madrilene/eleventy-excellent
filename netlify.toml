@@ -1,0 +1,23 @@
+[[plugins]]
+  package = "@netlify/plugin-a11y"
+  [plugins.inputs]
+    # Do not fail the build if a11y issues are found
+    failWithIssues = false
+    # Perform a11y check against WCAG 2.1 AAA
+    wcagLevel = 'WCAG2AAA'
+
+
+[[headers]]
+    for = "/*"
+    [headers.values]
+    Content-Security-Policy = "upgrade-insecure-requests; block-all-mixed-content;"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
+
+
+[build]
+  command = "npm run build"
+  publish = "dist"

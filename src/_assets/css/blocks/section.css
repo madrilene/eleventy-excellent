@@ -1,0 +1,19 @@
+.section > .curve:first-child {
+  transform: rotate(180deg) translateY(-1px);
+}
+
+.section__inner {
+  background: var(--spot-color, var(--color-dark));
+  color: var(--color-light);
+}
+
+.section blockquote {
+  font-weight: 700;
+  line-height: 1;
+  font-size: var(--size-step-4);
+  letter-spacing: var(--tracking-s);
+}
+
+.section :is(h1, h2, h3, blockquote) {
+  opacity: 95%;
+}

@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "@id": "{{ url }}",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ location }}"
+      },
+      "name": "{{ location }}"
+    },
+    "name": "{{ title }}",
+    "description": "{{ description }}",
+    "startDate": "{{ date  }}",
+    "endDate": "{{ ending  }}",
+    "performer": "{{ artist  }}",
+    "organizer": "{{ meta.siteName }}"
+  }
+</script>

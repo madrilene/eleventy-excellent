@@ -1,0 +1,65 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="{{ meta.lang }} ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/meta-info.njk" %}
+
+    <!-- fonts preload -->
+    <link
+      rel="preload"
+      href="/_assets/fonts/outfit/outfit-v5-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- activating webc scoped styles und scripts -->
+    {% renderTemplate "webc" %}
+    <style @html="this.getCSS(this.page.url)"></style>
+    <script @html="this.getJS(this.page.url)"></script>
+    {% endrenderTemplate %}
+
+    <link rel="stylesheet" href="/_assets/css/global.css?{{ assetHash }}" />
+
+    <!--  Add facility for pages to declare an array of stylesheet paths -->
+    {% if pageStylesheets %} {% for item in pageStylesheets %}
+    <link
+      rel="stylesheet"
+      media="print"
+      href="{{ item }}?{{ assetHash }}"
+      onload="this.media='all'"
+    />
+    {% endfor %} {% endif %}
+
+    <!-- defer js  -->
+    <script type="module" src="/_assets/app.js" defer></script>
+    <script type="module" src="/_assets/is-land.js" defer></script>
+
+    <!-- <script type="module" src="/is-land.js"></script> -->
+
+    <!-- plausible for gdpr-compliant stats
+        <script
+        defer
+        data-domain="lene.dev"
+        src="https://plausible.io/js/plausible.js"
+      ></script> -->
+
+    <!-- include base schema  -->
+    {%- include "schemas/base-schema.njk" %}
+  </head>
+
+  <body>
+    <!-- header -->
+    {% include "partials/header.njk" %}
+
+    <!-- content slot -->
+    <main id="main" class="flow">{{ content | safe }}</main>
+
+    <!-- footer -->
+    {% include "partials/footer.njk" %}
+  </body>
+</html>

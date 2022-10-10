@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "{{ meta.siteURL }}#website",
+				"url": "{{ meta.siteURL }}",
+				"name": "{{ meta.siteName }}",
+				"description": "{{ meta[locale].metaDescription }}",
+				"inLanguage": "{{ meta[locale].localeCode }}"
+			}
+		]
+	}
+</script>

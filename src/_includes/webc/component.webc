@@ -1,0 +1,11 @@
+Hallo ich bin ein webC
+
+<style webc:scoped>
+  :host {
+    font-weight: bold;
+  }
+</style>
+
+<script>
+  console.log('hello component', this);
+</script>

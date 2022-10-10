@@ -1,0 +1,6 @@
+.curve {
+  display: block;
+  height: 3.5em;
+  width: 100%;
+  fill: var(--spot-color, var(--color-light));
+}

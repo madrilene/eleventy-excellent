@@ -1,0 +1,16 @@
+.site-foot {
+  padding: var(--space-s-m);
+  background: var(--color-dark);
+  color: var(--color-light);
+}
+
+.site-foot__inner {
+  display: flex;
+  gap: var(--space-s-m);
+  align-items: center;
+}
+
+.site-foot svg {
+  width: 3em;
+  height: 3em;
+}

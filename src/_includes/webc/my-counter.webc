@@ -1,0 +1,52 @@
+<button class="test-button" type="button">Add</button>
+<output @html="2"></output>
+
+<template @html="'Template HTML'"></template>
+
+<style webc:scoped>
+  :host > button {
+    padding: var(--space-xs) var(--space-xl);
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 0.6818181818em;
+    box-shadow: 0.3181818182em 0.3181818182em 0 black;
+    color: var(--color-dark);
+    display: inline-block;
+    font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 0.45em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  :host > output {
+    padding: var(--space-xs) var(--space-xl);
+  }
+</style>
+
+<script>
+  window.customElements.define(
+    'my-counter',
+    class extends HTMLElement {
+      connectedCallback() {
+        let btn2 = this.querySelector('button');
+        let btn = this.querySelector(':scope button');
+        let output = this.querySelector(':scope template');
+        // let value = parseInt(output.innerHTML);
+
+        console.log(btn2, btn, output, this);
+
+        btn.addEventListener('click', () => {
+          output.innerText = '++value';
+          console.log(btn);
+        });
+      }
+    }
+  );
+</script>

@@ -1,0 +1,31 @@
+<is-land
+  on:visible
+  :import="`/web/dist/${this.pkg.version}/lite-yt-embed.js`"
+  class="fluid-width-video-wrapper"
+>
+  <lite-youtube
+    :videoid="this.slug"
+    :params="this.start ? `start=${this.start}` : false"
+    :playlabel="`Play${this.label ? `: ${this.label}` : ''}`"
+    :style="`background-image:url('${this.poster || `https://i.ytimg.com/vi/${this.slug}/maxresdefault.jpg`}'); max-width: 100%`"
+  >
+    <a
+      :href="`https://youtube.com/watch?v=${this.slug}`"
+      class="lty-playbtn"
+      title="Play Video"
+      ><span
+        class="lyt-visually-hidden"
+        @html="`Play Video${this.label ? `: ${this.label}` : ''}`"
+      ></span
+    ></a>
+  </lite-youtube>
+  <template data-island>
+    <style>
+      /* Plugin bug: clicking the red youtube play icon in the center would navigate to youtube.com */
+      lite-youtube:defined .lty-playbtn {
+        pointer-events: none;
+      }
+    </style>
+    <link rel="stylesheet" :href="`/web/dist/${this.pkg.version}/lite-yt-embed.css`" />
+  </template>
+</is-land>

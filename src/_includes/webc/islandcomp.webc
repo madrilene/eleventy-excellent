@@ -1,0 +1,14 @@
+<is-land on:visible>
+  <template data-island>
+    asdf
+    <!-- CSS -->
+    <style webc:keep>
+      /* This is on-visible CSS */
+    </style>
+
+    <!-- JS -->
+    <script type="module" webc:keep>
+      console.log('This is on-visible JavaScript');
+    </script>
+  </template>
+</is-land>

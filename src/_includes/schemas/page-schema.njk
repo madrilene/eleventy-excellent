@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+	{
+		"@type": "WebPage",
+		"mainEntityOfPage": {
+			"@type": "WebPage"
+		},
+		"isPartOf": {
+			"@id": "{{ meta.siteURL }}#website"
+		},
+		"headline": "{{ title or meta.siteName }}",
+		"description": "{{ seo.description or meta.siteDescription }}",
+		"image": "{% if seo.image %}/_assets/images/{{ seo.image }}{% else %}{{ meta.siteImage }}{% endif %}",
+		"inLanguage": "{{ meta.locale }}",
+		"publisher": {
+			"@type": "{{ meta.siteType }}",
+			"name": "{{ meta.authorName }}",
+			"url": "{{ meta.siteURL }}"
+		}
+	}
+</script>

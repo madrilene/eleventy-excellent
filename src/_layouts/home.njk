@@ -1,0 +1,67 @@
+---
+layout: base
+---
+
+<header class="section spot-color-primary">
+  <div class="section__inner">
+    <div class="wrapper flow region">
+      <h1>{{ title }}</h1>
+      <p>{{ item.summary | md | safe }}</p>
+    </div>
+  </div>
+  {% include 'svg/divider-pixels.svg' %}
+</header>
+<article class="region flow">
+  <div class="wrapper">
+    <h2>{{ principles.title }}</h2>
+    <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+      {% for item in principles.items %}
+      <li class="card flow">
+        <h3>{{ item.title }}</h3>
+        {{ item.summary | md | safe }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="section flow-space-2xl-3xl spot-color-secondary">
+    {% include 'svg/divider-pixels.svg' %}
+    <div class="section__inner region">
+      <blockquote class="wrapper">
+        <p>{{ principles.quote }}</p>
+      </blockquote>
+    </div>
+    {% include 'svg/divider-pixels.svg' %}
+  </div>
+</article>
+<article class="region">
+  <div class="wrapper flow prose">
+    {{ content | safe }}
+  </div>
+</article>
+<article class="section spot-color-primary">
+  {% include 'svg/divider-curve.svg' %}
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <h2>{{ tools.title }}</h2>
+      <p>{{ tools.summary }}</p>
+      <ul class="features grid mt-l-xl" role="list">
+        {% for item in tools.items %}
+        <li class="flow">
+          <div aria-hidden="true">{% include 'icons/' + item.icon %}</div>
+          <h3>
+            <a href="{{ item.link }}">{{ item.title }}</a>
+          </h3>
+          <p>{{ item.summary | md | safe }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% include 'svg/divider-curve.svg' %}
+</article>
+<article class="signoff region">
+  <div class="wrapper flow flow-space-s-m">
+    <h2>{{ signoff.title }}</h2>
+    <p>{{ signoff.summary }}</p>
+  </div>
+</article>
