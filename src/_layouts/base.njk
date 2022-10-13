@@ -20,7 +20,6 @@
     <!-- activating webc scoped styles und scripts -->
     {% renderTemplate "webc" %}
     <style @html="this.getCSS(this.page.url)"></style>
-    <script @html="this.getJS(this.page.url)"></script>
     {% endrenderTemplate %}
 
     <link rel="stylesheet" href="/_assets/css/global.css?{{ assetHash }}" />
@@ -34,12 +33,6 @@
       onload="this.media='all'"
     />
     {% endfor %} {% endif %}
-
-    <!-- defer js  -->
-    <script type="module" src="/_assets/app.js" defer></script>
-    <script type="module" src="/_assets/is-land.js" defer></script>
-
-    <!-- <script type="module" src="/is-land.js"></script> -->
 
     <!-- plausible for gdpr-compliant stats
         <script
@@ -61,5 +54,14 @@
 
     <!-- footer -->
     {% include "partials/footer.njk" %}
+
+    <!-- activating webc scoped styles und scripts -->
+    {% renderTemplate "webc" %}
+    <script @html="this.getJS(this.page.url)"></script>
+    {% endrenderTemplate %}
+
+    <!-- defer js  -->
+    <script type="module" src="/_assets/app.js" defer></script>
+    <script type="module" src="/_assets/is-land.js" defer></script>
   </body>
 </html>

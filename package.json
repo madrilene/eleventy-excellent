@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "dev:postcss": "postcss src/_assets/css/global.css --o dist/_assets/css/global.css --watch --verbose",
-    "dev:scripts": "esbuild src/_assets/scripts/app.js src/_assets/scripts/is-land.js --watch --outdir=dist/_assets",
+    "dev:scripts": "esbuild src/_assets/scripts/app.js src/_assets/scripts/is-land.js --bundle --watch --outdir=dist/_assets",
     "dev:11ty": "eleventy --serve --watch",
     "build:postcss": "NODE_ENV=production postcss src/_assets/css/global.css -o dist/_assets/css/global.css",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
@@ -31,9 +31,8 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "@11ty/eleventy-plugin-webc": "^0.4.0",
     "@11ty/is-land": "^2.0.3",
-    "install": "^0.13.0",
+    "gsap": "^3.11.3",
     "markdown-it-footnote": "^3.0.3",
-    "npm": "^8.19.2",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {

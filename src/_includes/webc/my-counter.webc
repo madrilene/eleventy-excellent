@@ -1,8 +1,6 @@
 <button class="test-button" type="button">Add</button>
 <output @html="2"></output>
 
-<template @html="'Template HTML'"></template>
-
 <style webc:scoped>
   :host > button {
     padding: var(--space-xs) var(--space-xl);
@@ -35,16 +33,15 @@
     'my-counter',
     class extends HTMLElement {
       connectedCallback() {
-        let btn2 = this.querySelector('button');
+        console.log(this);
         let btn = this.querySelector(':scope button');
-        let output = this.querySelector(':scope template');
-        // let value = parseInt(output.innerHTML);
+        let output = this.querySelector(':scope output');
+        let value = parseInt(output.innerText);
 
-        console.log(btn2, btn, output, this);
+        console.log(this, btn);
 
         btn.addEventListener('click', () => {
-          output.innerText = '++value';
-          console.log(btn);
+          output.innerText = ++value;
         });
       }
     }

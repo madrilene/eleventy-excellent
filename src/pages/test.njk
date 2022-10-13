@@ -10,6 +10,21 @@ layout: page
   Cake gummi bears dragée chocolate sweet croissant sweet croissant.
 </p>
 
+<h2>Testing counter</h2>
+
+<p>counter inside island, activate on interaction</p>
+
+{% renderTemplate "webc" %}
+<is-land on:interaction>
+  <my-counter></my-counter>
+</is-land>
+{% endrenderTemplate %}
+
+<p>
+  Icing jelly soufflé shortbread chocolate cake muffin gummies cotton candy lemon drops.
+  Cake gummi bears dragée chocolate sweet croissant sweet croissant.
+</p>
+
 {% renderTemplate "webc" %}
 <fancy-rule></fancy-rule>
 {% endrenderTemplate %}
@@ -19,14 +34,6 @@ layout: page
   macaroon fruitcake liquorice. Carrot cake jelly chocolate chupa chups tart danish icing.
   Wafer dessert gummi bears cake jujubes caramels sesame snaps carrot cake. Candy cake pie
   apple pie marshmallow. Powder apple pie tart carrot cake pudding dessert.
-</p>
-
-<h2>JS not working like that?</h2>
-
-<p>
-  {% renderTemplate "webc" %}
-  <my-counter></my-counter>
-  {% endrenderTemplate %}
 </p>
 
 <h2>Let's try with is-land</h2>
