@@ -13,7 +13,7 @@ module.exports = {
   meta_data: {
     twitterSite: '@lenesaile',
     twitterCreator: '@lenesaile',
-    opengraph_default: '/_assets/images/opengraph-default.jpg'
+    opengraph_default: '/assets/images/opengraph-default.jpg'
   },
   pagination: {
     itemsPerPage: 20

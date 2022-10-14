@@ -36,6 +36,6 @@
 </style>
 
 <script>
-  import {testGSAP} from '../../_assets/scripts/components/gsap.js';
+  import {testGSAP} from '../../assets/scripts/components/gsap.js';
   gsap();
 </script>

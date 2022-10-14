@@ -8,12 +8,12 @@
   "main": ".eleventy.js",
   "scripts": {
     "clean": "rimraf dist",
-    "dev:postcss": "postcss src/_assets/css/global.css --o dist/_assets/css/global.css --watch --verbose",
-    "dev:scripts": "esbuild src/_assets/scripts/app.js src/_assets/scripts/is-land.js --bundle --watch --outdir=dist/_assets",
+    "dev:postcss": "postcss src/assets/css/global.css --o dist/assets/css/global.css --watch --verbose",
+    "dev:scripts": "esbuild src/assets/scripts/app.js src/assets/scripts/is-land.js --bundle --watch --outdir=dist/assets",
     "dev:11ty": "eleventy --serve --watch",
-    "build:postcss": "NODE_ENV=production postcss src/_assets/css/global.css -o dist/_assets/css/global.css",
+    "build:postcss": "NODE_ENV=production postcss src/assets/css/global.css -o dist/assets/css/global.css",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/_assets/scripts/app.js src/_assets/scripts/is-land.js --bundle --minify --outdir=dist/_assets --platform=node --tree-shaking=true",
+    "build:scripts": "esbuild src/assets/scripts/app.js src/assets/scripts/is-land.js --bundle --minify --outdir=dist/assets --platform=node --tree-shaking=true",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
@@ -32,12 +32,12 @@
     "@11ty/eleventy-plugin-webc": "^0.4.0",
     "@11ty/is-land": "^2.0.3",
     "gsap": "^3.11.3",
-    "markdown-it-footnote": "^3.0.3",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
     "@netlify/plugin-a11y": "^1.0.0-beta.1",
     "@toycode/markdown-it-class": "^1.2.4",
+    "artificial-chart": "^2.0.3",
     "clean-css": "^5.3.1",
     "concurrently": "^7.4.0",
     "cross-env": "^7.0.3",
@@ -49,11 +49,13 @@
     "eslint-plugin-prettier": "^4.2.1",
     "glob": "^8.0.3",
     "html-minifier": "^4.0.0",
+    "lite-youtube-embed": "^0.2.0",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^8.6.5",
     "markdown-it-emoji": "^2.0.2",
+    "markdown-it-footnote": "^3.0.3",
     "markdown-it-link-attributes": "^4.0.1",
     "markdown-it-mark": "^3.0.1",
     "markdown-it-prism": "^2.3.0",
@@ -68,6 +70,7 @@
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "sanitize-html": "^2.7.2",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "speedlify-score": "^2.0.2"
   }
 }

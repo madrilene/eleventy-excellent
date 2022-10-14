@@ -11,7 +11,7 @@
     <!-- fonts preload -->
     <link
       rel="preload"
-      href="/_assets/fonts/outfit/outfit-v5-latin-regular.woff2"
+      href="/assets/fonts/outfit/outfit-v5-latin-regular.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -22,7 +22,7 @@
     <style @html="this.getCSS(this.page.url)"></style>
     {% endrenderTemplate %}
 
-    <link rel="stylesheet" href="/_assets/css/global.css?{{ assetHash }}" />
+    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
     <!--  Add facility for pages to declare an array of stylesheet paths -->
     {% if pageStylesheets %} {% for item in pageStylesheets %}
@@ -61,7 +61,7 @@
     {% endrenderTemplate %}
 
     <!-- defer js  -->
-    <script type="module" src="/_assets/app.js" defer></script>
-    <script type="module" src="/_assets/is-land.js" defer></script>
+    <script type="module" src="/assets/app.js" defer></script>
+    <script type="module" src="/assets/components/is-land.js" defer></script>
   </body>
 </html>
