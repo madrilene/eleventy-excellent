@@ -5,41 +5,31 @@ description: This is just a testing environment
 layout: page
 ---
 
-Version number {{ meta.pkv }}
+Version number
 
 <!-- sdfg -->
 
-{% renderTemplate "webc" %}
 <my-marquee>dsfgdfg</my-marquee>
-{% endrenderTemplate %}
 
 <p>
   Icing jelly soufflé shortbread chocolate cake muffin gummies cotton candy lemon drops.
   Cake gummi bears dragée chocolate sweet croissant sweet croissant.
 </p>
 
-{% renderTemplate "webc" %}
-<youtube-lite-player @slug="DC5fP_8Q8uQ" @label="{{ title }}"></youtube-lite-player>
-{% endrenderTemplate %}
+<youtube-lite-player @slug="g2aTwnLgAc8" @label="{{ title }}"></youtube-lite-player>
 
 <h2>Testing counter</h2>
 
 <p>counter inside island, activate on interaction</p>
 
-{% renderTemplate "webc" %}
-<is-land on:interaction>
-  <my-counter></my-counter>
-</is-land>
-{% endrenderTemplate %}
+<speedlify-score></speedlify-score>
 
 <p>
   Icing jelly soufflé shortbread chocolate cake muffin gummies cotton candy lemon drops.
   Cake gummi bears dragée chocolate sweet croissant sweet croissant.
 </p>
 
-{% renderTemplate "webc" %}
 <fancy-rule></fancy-rule>
-{% endrenderTemplate %}
 
 <p>
   Marzipan croissant halvah sweet wafer sesame snaps cheesecake. Jelly candy canes toffee

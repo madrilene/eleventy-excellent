@@ -24,6 +24,10 @@
 
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
+    <!-- defer js  -->
+    <script type="module" src="/assets/app.js" defer></script>
+    <script type="module" src="/assets/components/is-land.js" defer></script>
+
     <!--  Add facility for pages to declare an array of stylesheet paths -->
     {% if pageStylesheets %} {% for item in pageStylesheets %}
     <link
@@ -59,9 +63,5 @@
     {% renderTemplate "webc" %}
     <script @html="this.getJS(this.page.url)"></script>
     {% endrenderTemplate %}
-
-    <!-- defer js  -->
-    <script type="module" src="/assets/app.js" defer></script>
-    <script type="module" src="/assets/components/is-land.js" defer></script>
   </body>
 </html>
