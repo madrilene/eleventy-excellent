@@ -7,6 +7,9 @@
  *  - `src/config/transforms.js`
  */
 
+// get package.json
+const pkg = require('./package.json');
+
 // module import filters
 const {
   wordCount,
@@ -108,6 +111,12 @@ module.exports = eleventyConfig => {
   });
 
   // 	--------------------- Passthrough File Copy -----------------------
+
+  // webc js and css dependencies
+  eleventyConfig.addPassthroughCopy({
+    'src/_includes/webc/*.css': `assets/components/`,
+    'src/_includes/webc/*.js': `assets/components/`
+  });
 
   // node modules
   eleventyConfig.addPassthroughCopy({

@@ -1,3 +1,5 @@
+const package = require('../../package.json');
+
 module.exports = {
   siteName: 'Lene Saile',
   siteDescription:
@@ -32,5 +34,6 @@ module.exports = {
   menu: {
     closedText: 'Menu'
   },
-  env: process.env.ELEVENTY_ENV === 'production'
+  env: process.env.ELEVENTY_ENV === 'production',
+  pkv: package.version || 'v1'
 };

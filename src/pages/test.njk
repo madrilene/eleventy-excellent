@@ -5,10 +5,22 @@ description: This is just a testing environment
 layout: page
 ---
 
+Version number {{ meta.pkv }}
+
+<!-- sdfg -->
+
+{% renderTemplate "webc" %}
+<my-marquee>dsfgdfg</my-marquee>
+{% endrenderTemplate %}
+
 <p>
   Icing jelly soufflé shortbread chocolate cake muffin gummies cotton candy lemon drops.
   Cake gummi bears dragée chocolate sweet croissant sweet croissant.
 </p>
+
+{% renderTemplate "webc" %}
+<youtube-lite-player @slug="DC5fP_8Q8uQ" @label="{{ title }}"></youtube-lite-player>
+{% endrenderTemplate %}
 
 <h2>Testing counter</h2>
 

@@ -1,0 +1,21 @@
+<marquee>Lorem ipsum dolor sit amet, consectetur</marquee>
+
+<style webc:scoped>
+  :host:defined {
+    font-size: 3rem;
+  }
+</style>
+
+<script>
+  customElements.define(
+    'my-marquee',
+    class extends HTMLElement {
+      connectedCallback() {
+        console.log(this);
+        this.addEventListener('click', () => {
+          console.log('clicked');
+        });
+      }
+    }
+  );
+</script>

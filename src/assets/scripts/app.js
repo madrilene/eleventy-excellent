@@ -1,5 +1,3 @@
-import {testGSAP} from './components/gsap';
-
 // ------------------- cards redundant click, accessible whole card clickable solution by Heydon Pickering
 
 const cards = [...document.querySelectorAll('.card')];
@@ -62,7 +60,3 @@ document.querySelectorAll('img').forEach(img => {
   }
   img.addEventListener('load', () => img.removeAttribute('data-is-loading'));
 });
-
-// GSAP
-
-// testGSAP();

@@ -1,0 +1,16 @@
+---
+title: Github
+permalink: /github/index.html
+description: This is just a testing environment
+layout: page
+---
+
+<ul>
+  {% for repository in github %}
+  <li>
+    <a href="{{ repository.html_url }}">{{ repository.name }} </a>
+  </li>
+  {% else %}
+  <li>This would display if the 'item' collection were empty</li>
+  {% endfor %}
+</ul>
