@@ -46,17 +46,21 @@ h3 {
   max-width: 20ch;
 }
 
-/* More generic elements */
-blockquote:not([class]) {
+blockquote {
+  border-inline-start: 0.8rem solid var(--color-primary);
+  padding: var(--space-m-l);
   font-family: var(--font-serif);
   font-size: var(--size-step-2);
 }
 
-/* Markdown blockquuote:not([class])s aren't ideal, so we're presuming the person quoted is the last p */
-blockquote:not([class]) p:last-of-type {
+blockquote > * + * {
+  margin-top: var(--space-m-l);
+}
+
+blockquote :last-child {
   font-family: var(--font-base);
+  font-style: normal;
   font-size: var(--size-step-1);
-  font-weight: normal;
 }
 
 svg {

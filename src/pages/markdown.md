@@ -5,7 +5,7 @@ description: "That's a markdown page"
 layout: page
 ---
 
-Jelly sesame snaps gummies cookie oat cake. Cake gingerbread bonbon muffin gummies gummies oat cake candy icing. Danish bear claw marshmallow gingerbread jelly beans. Icing muffin ice cream pastry chupa chups. Topping jelly-o wafer croissant marshmallow topping jelly-o carrot cake croissant. Chocolate cake croissant liquorice shortbread muffin candy. Danish toffee dragée powder chocolate icing apple pie. Jujubes candy chocolate jelly pastry cheesecake dragée. Tiramisu sugar plum sesame snaps cake caramels sugar plum sweet roll. Marzipan dragée powder apple pie chocolate cake. Fruitcake marshmallow dessert macaroon cheesecake pie sweet roll dragée gummi bears. Gummi bears lollipop cookie chocolate cookie.
+Jelly sesame snaps gummies cookie oat cake. Cake gingerbread bonbon muffin gummies gummies oat cake candy icing. Danish bear claw marshmallow gingerbread jelly beans. Icing muffin ice cream pastry chupa chups.
 
 ## h2 Heading
 
@@ -13,11 +13,11 @@ Jelly sesame snaps gummies cookie oat cake. Cake gingerbread bonbon muffin gummi
 
 #### h4 Heading
 
-Muffin bonbon jujubes cheesecake chupa chups shortbread ice cream cotton candy cake. Jelly-o biscuit dessert danish dessert pastry tootsie roll lemon drops gingerbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears. Cotton candy cookie croissant fruitcake liquorice fruitcake. Dragée dragée muffin gingerbread chocolate. Toffee sweet cotton candy sweet gingerbread macaroon liquorice ice cream. Carrot cake soufflé chocolate icing gummies marzipan sweet. Biscuit sesame snaps jelly danish donut cotton candy cake. Cupcake danish wafer cotton candy cotton candy marzipan tootsie roll brownie chocolate cake. Brownie cookie gingerbread cake cookie pudding tart jujubes. Jelly-o halvah oat cake sweet roll wafer tootsie roll muffin. Carrot cake sugar plum marzipan brownie pie danish dragée danish marzipan.
+Muffin bonbon jujubes cheesecake chupa chups shortbread ice cream cotton candy cake. Jelly-o biscuit dessert danish dessert pastry tootsie roll lemon drops gingerbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears.
 
-Soufflé topping shortbread lemon
+Soufflé topping shortbread lemon.
 
-## Horizontal Rule hr
+## hr
 
 ---
 
@@ -45,38 +45,24 @@ test.. test... test..... test?..... test!....
 _This is italic text_
 ~~Strikethrough~~
 
-## Blockquotes
+## Blockquote
 
 > rbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears. Cotton candy cookie croissant fruitcake.
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other... erbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears. Cotton candy cookie croissant fruitcake
+> by very smart author
 
 ## Lists
 
-Unordered
+### Unordered lists
 
 - Create a list by starting a line with `+`, `-`, or `*`
 - Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
 - Very easy!
 
-Ordered
+### Ordered lists
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
 
 ## Code
 
@@ -98,26 +84,13 @@ console.log(foo(5));
 | engine | engine to be used for processing templates. Handlebars is the default.    |
 | ext    | extension to be used for dest files.                                      |
 
-Right aligned columns
-
-| Option |                                                               Description |
-| -----: | ------------------------------------------------------------------------: |
-|   data | path to data files to supply the data that will be passed into templates. |
-| engine |    engine to be used for processing templates. Handlebars is the default. |
-|    ext |                                      extension to be used for dest files. |
-
 ## Links
 
-`rel="noreferrer noopener"` and `target="_blank"` is added automatically to external links.
-
+`rel="noreferrer noopener"` and `target="_blank"` is added automatically to external links. So is an indicator icon, see global-styles.css
 [link text](http://dev.nodeca.com)
 [link with title](http://nodeca.github.io/pica/demo/ 'title text!')
 
 Autoconverted link https://github.com/nodeca/pica (enabled via linkify)
-
-## Images
-
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg 'The Stormtroopocat')
 
 ### Emojis
 
@@ -140,13 +113,5 @@ Duplicated footnote reference[^second].
     and multiple paragraphs.
 
 [^second]: Footnote text.
-
-### Abbreviations
-
-Todo: not working.,
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 \*[HTML]: Hyper Text Markup Language
