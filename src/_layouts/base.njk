@@ -17,11 +17,6 @@
       crossorigin
     />
 
-    <!-- activating webc scoped styles und scripts -->
-    {% renderTemplate "webc" %}
-    <style @html="this.getCSS(this.page.url)"></style>
-    {% endrenderTemplate %}
-
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
     <!-- defer js  -->
@@ -38,13 +33,6 @@
     />
     {% endfor %} {% endif %}
 
-    <!-- plausible for gdpr-compliant stats
-        <script
-        defer
-        data-domain="lene.dev"
-        src="https://plausible.io/js/plausible.js"
-      ></script> -->
-
     <!-- include base schema  -->
     {%- include "schemas/base-schema.njk" %}
   </head>
@@ -58,10 +46,5 @@
 
     <!-- footer -->
     {% include "partials/footer.njk" %}
-
-    <!-- activating webc scoped styles und scripts -->
-    {% renderTemplate "webc" %}
-    <script @html="this.getJS(this.page.url)"></script>
-    {% endrenderTemplate %}
   </body>
 </html>

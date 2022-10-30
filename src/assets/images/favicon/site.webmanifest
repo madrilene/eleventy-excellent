@@ -1,7 +1,7 @@
 {
-  "name": "Lene Saile - Frontend developer",
-  "short_name": "Lene Saile",
-  "start_url": "https://www.lene.dev",
+  "name": "Eleventy Excellent - Starter based on buildexcellentwebsite.es",
+  "short_name": "Eleventy Excellent",
+  "start_url": "https://eleventy-excellent.netlify.app",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -20,7 +20,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#FF7F5C",
-  "background_color": "#FF7F5C",
+  "theme_color": "#FF5678",
+  "background_color": "#FF5678",
   "display": "standalone"
 }

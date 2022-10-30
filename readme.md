@@ -25,6 +25,8 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 ## Using this
 
+Search and replace 'eleventy-excellent.netlify.app' with your own domain.
+
 ### Install dependencies
 
 ```
@@ -49,21 +51,21 @@ npm run build
 
 ## Credits and Thank yous
 
+**Andy Bell**
+
+His CSS methodology makes sense to me. It also goes hand in hand with the Every Layout solutions he co-authors. An ardent opponent of the utility class framework Tailwind CSS. But has recently published an approach that incorporates Tailwind CSS into his methodology. This is built into my website and I'm working on tweaking it.
+I learned how to use Eleventy in 2020 with his (now free) course.
+
+- https://cube.fyi/
+- https://buildexcellentwebsit.es/
+- https://learneleventyfromscratch.com/
+
 **Heydon Pickering**
 
 I strongly orientate myself on Heydon's approaches and love his books.
 
 - https://every-layout.dev/
 - https://inclusive-components.design/
-
-**Andy Bell**
-
-His CSS methodology makes sense to me. I'm still working on understanding it fully and using it consistently. It also goes hand in hand with the Every Layout solutions he co-authors. An ardent opponent of the utility class framework Tailwind CSS. But has recently published an approach that incorporates Tailwind CSS into his methodology. This is built into my website and I'm working on tweaking it.
-I learned how to use Eleventy in 2020 with his (now free) course.
-
-- https://cube.fyi/
-- https://buildexcellentwebsit.es/
-- https://learneleventyfromscratch.com/
 
 **Zach Leatherman**
 
@@ -81,13 +83,21 @@ She provides a lot of resources for Eleventy and modern CSS.
 
 **Aleksandr Hovhannisyan**
 
-I love order and structure. Aleksandr Hovhannisyan does this in an exemplary way, which is why I based the structure of eleventy.js on his online resume and blog. Also, he writes great tutorials in his blog.
+I love order and structure. Aleksandr does this in an exemplary way, which is why I based the structure of eleventy.js on his personal site. The 301 redirect solution I'm using is from his blog.
 
 - https://github.com/AleksandrHovhannisyan
+- https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/
 
-**Josh Comeau**
+**Oliver Schöndorfer**
 
-He created a fantastic CSS course that I am currently working through. Also, his in-depth tutorials are a great resource.
+Oliver is a type expert. He writes the Pimp my Type Newsletter where I dscovered the font I'm using for this website.
 
-- https://www.joshwcomeau.com/tutorials/
-- https://courses.joshwcomeau.com/css-for-js
+- https://pimpmytype.com/outfit/
+- https://pimpmytype.com/category/fontfriday/
+
+**Manuel Matuzović**
+
+Manuel is an accessibility expert. The menu I'm using is from one of his articles on web.dev.
+
+- https://web.dev/website-navigation/
+- https://www.matuzo.at/

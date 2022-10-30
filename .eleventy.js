@@ -5,10 +5,8 @@
  *  - `src/config/plugins.js`
  *  - `src/config/shortcodes.js`
  *  - `src/config/transforms.js`
+ * Based on https://github.com/AleksandrHovhannisyan.
  */
-
-// get package.json
-const pkg = require('./package.json');
 
 // module import filters
 const {
@@ -19,6 +17,8 @@ const {
   where,
   toISOString,
   formatDate,
+  formatDateES,
+  formatDateDE,
   dividedBy,
   newlineToBr,
   toAbsoluteUrl,
@@ -49,7 +49,6 @@ const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const {slugifyString} = require('./config/utils');
 const {escape} = require('lodash');
-const pluginWebc = require('@11ty/eleventy-plugin-webc');
 
 module.exports = eleventyConfig => {
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
@@ -74,6 +73,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('toHtml', toHtml);
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
+  eleventyConfig.addFilter('formatDateES', formatDateES);
+  eleventyConfig.addFilter('formatDateDE', formatDateDE);
   eleventyConfig.addFilter('dividedBy', dividedBy);
   eleventyConfig.addFilter('newlineToBr', newlineToBr);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
@@ -106,28 +107,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.setLibrary('md', markdownLib);
-  eleventyConfig.addPlugin(pluginWebc, {
-    components: 'src/_includes/webc/*.webc'
-  });
 
   // 	--------------------- Passthrough File Copy -----------------------
-
-  // webc js and css dependencies
-  eleventyConfig.addPassthroughCopy({
-    'src/_includes/webc/*.css': `assets/components/`,
-    'src/_includes/webc/*.js': `assets/components/`
-  });
-
-  // node modules
-  eleventyConfig.addPassthroughCopy({
-    'node_modules/speedlify-score/speedlify-score.css': `assets/components/speedlify-score.css`,
-    'node_modules/speedlify-score/speedlify-score.js': `assets/components/speedlify-score.js`,
-    'node_modules/lite-youtube-embed/src/lite-yt-embed.css': `assets/components/lite-yt-embed.css`,
-    'node_modules/lite-youtube-embed/src/lite-yt-embed.js': `assets/components/lite-yt-embed.js`,
-    'node_modules/artificial-chart/artificial-chart.css': `assets/components/artificial-chart.css`,
-    'node_modules/artificial-chart/artificial-chart.js': `assets/components/artificial-chart.js`,
-    'node_modules/@11ty/is-land/is-land.js': `assets/components/is-land.js`
-  });
 
   eleventyConfig.addPassthroughCopy('src/assets/fonts/');
   eleventyConfig.addPassthroughCopy('src/assets/images/');

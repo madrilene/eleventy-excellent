@@ -92,7 +92,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='lene.dev'])::after {
+article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
   display: inline-block;
   width: 1em;
   height: 1em;
