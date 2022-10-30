@@ -3,25 +3,15 @@
 Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <https://buildexcellentwebsit.es/>.
 
 - [Eleventy starter](#eleventy-starter)
-  - [Logbook](#logbook)
-    - [22-10-03](#22-10-03)
-    - [22-10-04](#22-10-04)
   - [Using this](#using-this)
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
+  - [Logbook](#logbook)
+    - [22-10-30](#22-10-30)
+    - [22-10-03](#22-10-03)
+    - [22-10-04](#22-10-04)
   - [Credits and Thank yous](#credits-and-thank-yous)
-
-## Logbook
-
-### 22-10-03
-
-- first commit. Updated
-
-### 22-10-04
-
-- All markdown syntax set. Some tests with web components and webC.
-- TODO: dark mode
 
 ## Using this
 
@@ -48,6 +38,21 @@ Minify JS, inline and minify CSS.
 ```
 npm run build
 ```
+
+## Logbook
+
+### 22-10-30
+
+WebC in own branch, simplify main branch
+
+### 22-10-03
+
+- first commit. Updated
+
+### 22-10-04
+
+- All markdown syntax set. Some tests with web components and webC.
+- TODO: dark mode
 
 ## Credits and Thank yous
 
