@@ -5,7 +5,7 @@ description: 'Key principles using modern CSS, fluid type, fluid space, flexible
 layout: 'home'
 ---
 
-## A opiniated Eleventy starter
+## An opiniated Eleventy starter
 
 Based on the companion website of Andy Bell's talk 'Be the browser’s mentor, not its micromanager'.
 This approach promotes modern CSS with methodologies, fluid type & Space, flexible Layouts and Progressive Enhancement.
