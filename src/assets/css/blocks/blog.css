@@ -1,0 +1,11 @@
+.blog h1 {
+  font-size: var(--size-step-4);
+}
+
+.blog h2 {
+  font-size: var(--size-step-3);
+}
+
+.blog h3 {
+  font-size: var(--size-step-2);
+}

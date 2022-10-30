@@ -1,9 +1,9 @@
 /** Returns all blog posts as a collection. */
-const getAllProjects = collection => {
-	const projects = collection.getFilteredByGlob('./src/projects/*.md');
-	return projects.reverse();
+const getAllPosts = collection => {
+  const projects = collection.getFilteredByGlob('./src/posts/*.md');
+  return projects.reverse();
 };
 
 module.exports = {
-	getAllProjects
+  getAllPosts
 };

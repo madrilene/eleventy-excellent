@@ -1,4 +1,4 @@
-.section > .curve:first-child {
+.section > .seperator:first-child {
   transform: rotate(180deg) translateY(-1px);
 }
 

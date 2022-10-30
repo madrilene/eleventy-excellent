@@ -39,7 +39,7 @@ const {
 } = require('./config/shortcodes/index.js');
 
 // module import collections
-const {getAllProjects} = require('./config/collections/index.js');
+const {getAllPosts} = require('./config/collections/index.js');
 
 // module import transforms
 
@@ -101,7 +101,7 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom transforms ---------------------
 
   // 	--------------------- Custom collections -----------------------
-  eleventyConfig.addCollection('projects', getAllProjects);
+  eleventyConfig.addCollection('posts', getAllPosts);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);

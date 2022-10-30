@@ -17,3 +17,24 @@ layout: base
     {{ content | safe }}
   </div>
 </article>
+
+<article class="wrapper region">
+  <div class="wrapper flow prose">
+    <h2>{{ blog.title }}</h2>
+    <p>{{ blog.intro }}</p>
+  </div>
+  <!-- TODO: duplicate of partials/blog.njk -->
+
+  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %}
+
+    <li class="card flow clickable-card overflow-hidden">
+      <h3>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h3>
+      {% set definedDate = post.date %} {% include "partials/date.njk" %}
+      <p>{{ post.data.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</article>
