@@ -1,10 +1,36 @@
 <footer class="site-foot" role="contentinfo">
   <div class="wrapper">
     <div class="site-foot__inner">
-      &copy; {% year %} {{ meta.siteName }}
-      <a href="/imprint/"> Imprint </a>
+      <nav id="footernav" class="site-foot__inner">
+        <a href="/">&copy; {% year %} {{ meta.siteName }}</a>
 
-      <a href="/privacy/"> Privacy </a><br />
+        {% for item in navigation.bottom %}
+
+        <a
+          href="{{ item.url }}"
+          {{
+          helpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+          }}
+          >{{ item.text }}</a
+        >
+
+        {% endfor %}
+      </nav>
+
+      <div id="social" class="site-foot__inner">
+        {% for item in social %}
+        <a href="{{ item.url }}">
+          <span class="sr-only">{{ item.platform }}</span>
+          <div aria-hidden="true">{% include 'icons/social-' + item.icon %}</div></a
+        >
+
+        {% endfor %}
+      </div>
     </div>
   </div>
+
+  <!-- lang menu -->
 </footer>

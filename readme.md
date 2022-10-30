@@ -5,7 +5,8 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
   - [Features](#features)
-  - [Using this](#using-this)
+  - [First steps](#first-steps)
+  - [Development](#development)
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
@@ -23,27 +24,30 @@ https://eleventy-excellent.netlify.app/
 
 This eleventy starter already includes:
 
-- accessible site navigation, editable in \_data/navigation.js
+- Accessible site navigation, editable in \_data/navigation.js
 - Image optimisation with Eleventy-img
 - SEO (XML-sitemap, metadata)
 - dayjs handling dates & times
 - Many filters and shortcodes
 - The whole CSS workflow as suggested by buildexcellentwebsit.es
 - 301 redirects for netlify
-- all kind of markdown handling
-- bundling via esbuild
+- All kind of markdown handling
+- Bundling via esbuild
 
-## Using this
+## First steps
 
 - Search and replace 'eleventy-excellent.netlify.app' with your own domain.
 - Set your icons in assets/images/favicon
 - edit meta data in \_data/meta.js
+- edit your social media in \_data/social.js and \_includes/icons. Icons must be prefixed with "social-".
 - delete \_data/github.js and pages/github.njk, as they are just an example
 - changed routes:
 
 ```
 redirectFrom: ['/old-route/', '/optionally-another-old-route/']
 ```
+
+## Development
 
 ### Install dependencies
 

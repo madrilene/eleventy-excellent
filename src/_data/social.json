@@ -1,0 +1,12 @@
+[
+  {
+    "platform": "github",
+    "url": "https://github.com/madrilene/eleventy-excellent",
+    "icon": "github.svg"
+  },
+  {
+    "platform": "twitter",
+    "url": "https://twitter.com/lenesaile",
+    "icon": "twitter.svg"
+  }
+]
