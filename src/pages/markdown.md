@@ -119,16 +119,16 @@ Autoconverted link https://github.com/nodeca/pica (enabled via linkify)
 
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg 'The Stormtroopocat')
 
-### [Emojis](https://github.com/markdown-it/markdown-it-emoji)
+### Emojis
 
 Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 Shortcuts (emoticons): :-) :-( 8-) ;)
 
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+### mark
 
 ==Marked text==
 
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+### Footnotes
 
 Footnote 1 link[^first].
 Footnote 2 link[^second].
@@ -141,7 +141,7 @@ Duplicated footnote reference[^second].
 
 [^second]: Footnote text.
 
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+### Abbreviations
 
 Todo: not working.,
 

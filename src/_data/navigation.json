@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/"
-    },
-
-    {
       "text": "Markdown",
       "url": "/markdown/"
     },
