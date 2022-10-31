@@ -25,7 +25,8 @@ https://eleventy-excellent.netlify.app/
 This starter includes:
 
 - Accessible site navigation, editable in \_data/navigation.js
-- Image optimisation with Eleventy-img
+- Image optimization with Eleventy-img (see blog post)
+- Youtube embed with lite-youtube (see blog post)
 - Syntax highliting via eleventy-plugin-syntaxhighlight
 - SEO (XML-sitemap, metadata)
 - dayjs handling dates & times

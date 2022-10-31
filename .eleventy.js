@@ -25,7 +25,6 @@ const {
 const {
   asideShortcode,
   insertionShortcode,
-  imageShortcode,
   imageShortcodePlaceholder,
   liteYoutube
 } = require('./config/shortcodes/index.js');
@@ -77,7 +76,6 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addPairedShortcode('aside', asideShortcode);
   eleventyConfig.addPairedShortcode('insertion', insertionShortcode);
-  eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
   eleventyConfig.addNunjucksAsyncShortcode('imagePlaceholder', imageShortcodePlaceholder);
   eleventyConfig.addShortcode('youtube', liteYoutube);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
@@ -102,46 +100,33 @@ module.exports = eleventyConfig => {
 
   // social images to root
 
-  [
-    'src/assets/images/favicon/site.webmanifest',
-    'src/assets/images/favicon/favicon.ico',
-    'src/assets/images/favicon/favicon.svg',
-    'src/assets/images/favicon/apple-touch-icon.png',
-    'src/assets/images/favicon/favicon-32x32.png',
-    'src/assets/images/favicon/favicon-16x16.png',
-    'src/assets/images/favicon/android-chrome-192x192.png',
-    'src/assets/images/favicon/android-chrome-512x512.png',
-    'src/assets/images/favicon/maskable.png'
-  ].forEach(path => eleventyConfig.addPassthroughCopy(path.replace('assets', '')));
-
-  // social icons von images zu root
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/site.webmanifest': 'site.webmanifest'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/favicon.ico': 'favicon.ico'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/favicon.svg': 'favicon.svg'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png'
-  // });
-  // eleventyConfig.addPassthroughCopy({
-  //   'src/assets/images/favicon/maskable.png': 'maskable.png'
-  // });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/site.webmanifest': 'site.webmanifest'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/favicon.ico': 'favicon.ico'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/favicon.svg': 'favicon.svg'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png'
+  });
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/images/favicon/maskable.png': 'maskable.png'
+  });
 
   // 	--------------------- Config -----------------------
 

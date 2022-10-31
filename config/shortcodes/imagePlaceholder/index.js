@@ -2,15 +2,7 @@ const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const htmlmin = require('html-minifier');
 
-const imageShortcodePlaceholder = async (
-  src,
-  fcls,
-  pcls,
-  cls,
-  alt,
-  caption,
-  sizes = '100vw'
-) => {
+const imageShortcodePlaceholder = async (src, alt, caption, sizes = '100vw') => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
@@ -40,8 +32,8 @@ const imageShortcodePlaceholder = async (
   }
 
   return htmlmin.minify(
-    `<figure class="${fcls}">
-     <picture class="${pcls}">
+    `<figure>
+     <picture>
     ${Object.values(metadata)
       .map(imageFormat => {
         return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat
@@ -52,7 +44,6 @@ const imageShortcodePlaceholder = async (
       <img
         src="/assets/images/image-placeholder.png"
         data-src="${lowsrc.url}"
-        class="${cls}"
         width="${lowsrc.width}"
         height="${lowsrc.height}"
         alt="${alt}"
@@ -61,8 +52,7 @@ const imageShortcodePlaceholder = async (
     </picture>
     ${
       caption
-        ? `<figcaption class="cluster font-display"><p>${caption}</p> <img
-        src="/assets/svg/arrow.svg" alt="Arrow icon" width="78" height="75" aria-hidden="true" />
+        ? `<figcaption class="cluster font-display"><p>${caption}</p>
 	</figcaption>`
         : ``
     }
