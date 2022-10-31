@@ -10,21 +10,13 @@
 
 // module import filters
 const {
-  wordCount,
   limit,
-  sortByKey,
   toHtml,
   where,
   toISOString,
   formatDate,
-  formatDateES,
-  formatDateDE,
-  dividedBy,
-  newlineToBr,
   toAbsoluteUrl,
-  stripNewlines,
   stripHtml,
-  getLatestCollectionItemDate,
   minifyCss,
   mdInline
 } = require('./config/filters/index.js');
@@ -65,25 +57,17 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('post', 'post.njk');
 
   // 	---------------------  Custom filters -----------------------
-  eleventyConfig.addFilter('wordCount', wordCount);
   eleventyConfig.addFilter('limit', limit);
-  eleventyConfig.addFilter('sortByKey', sortByKey);
   eleventyConfig.addFilter('where', where);
   eleventyConfig.addFilter('escape', escape);
   eleventyConfig.addFilter('toHtml', toHtml);
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
-  eleventyConfig.addFilter('formatDateES', formatDateES);
-  eleventyConfig.addFilter('formatDateDE', formatDateDE);
-  eleventyConfig.addFilter('dividedBy', dividedBy);
-  eleventyConfig.addFilter('newlineToBr', newlineToBr);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
-  eleventyConfig.addFilter('stripNewlines', stripNewlines);
   eleventyConfig.addFilter('stripHtml', stripHtml);
   eleventyConfig.addFilter('slugify', slugifyString);
   eleventyConfig.addFilter('toJson', JSON.stringify);
   eleventyConfig.addFilter('fromJson', JSON.parse);
-  eleventyConfig.addFilter('getLatestCollectionItemDate', getLatestCollectionItemDate);
   eleventyConfig.addFilter('cssmin', minifyCss);
   eleventyConfig.addFilter('md', mdInline);
   eleventyConfig.addFilter('keys', Object.keys);
@@ -110,37 +94,56 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Passthrough File Copy -----------------------
 
-  eleventyConfig.addPassthroughCopy('src/assets/fonts/');
-  eleventyConfig.addPassthroughCopy('src/assets/images/');
+  // same path
+
+  ['src/assets/fonts/', 'src/assets/images/'].forEach(path =>
+    eleventyConfig.addPassthroughCopy(path)
+  );
+
+  // social images to root
+
+  [
+    'src/assets/images/favicon/site.webmanifest',
+    'src/assets/images/favicon/favicon.ico',
+    'src/assets/images/favicon/favicon.svg',
+    'src/assets/images/favicon/apple-touch-icon.png',
+    'src/assets/images/favicon/favicon-32x32.png',
+    'src/assets/images/favicon/favicon-16x16.png',
+    'src/assets/images/favicon/android-chrome-192x192.png',
+    'src/assets/images/favicon/android-chrome-512x512.png',
+    'src/assets/images/favicon/maskable.png'
+  ].forEach(path => eleventyConfig.addPassthroughCopy(path.replace('assets', '')));
 
   // social icons von images zu root
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/site.webmanifest': 'site.webmanifest'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.ico': 'favicon.ico'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.svg': 'favicon.svg'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/maskable.png': 'maskable.png'
-  });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/site.webmanifest': 'site.webmanifest'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/favicon.ico': 'favicon.ico'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/favicon.svg': 'favicon.svg'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png'
+  // });
+  // eleventyConfig.addPassthroughCopy({
+  //   'src/assets/images/favicon/maskable.png': 'maskable.png'
+  // });
+
+  // 	--------------------- Config -----------------------
 
   return {
     dir: {

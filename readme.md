@@ -22,13 +22,14 @@ https://eleventy-excellent.netlify.app/
 
 ## Features
 
-This eleventy starter already includes:
+This starter includes:
 
 - Accessible site navigation, editable in \_data/navigation.js
 - Image optimisation with Eleventy-img
+- Syntax highliting via eleventy-plugin-syntaxhighlight
 - SEO (XML-sitemap, metadata)
 - dayjs handling dates & times
-- Many filters and shortcodes
+- filters and shortcodes for ..
 - The whole CSS workflow as suggested by buildexcellentwebsit.es
 - 301 redirects for netlify
 - All kind of markdown handling
