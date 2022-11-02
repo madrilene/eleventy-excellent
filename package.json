@@ -34,7 +34,6 @@
   "devDependencies": {
     "@netlify/plugin-a11y": "^1.0.0-beta.1",
     "@toycode/markdown-it-class": "^1.2.4",
-    "artificial-chart": "^2.0.3",
     "clean-css": "^5.3.1",
     "concurrently": "^7.4.0",
     "cross-env": "^7.0.3",
@@ -47,7 +46,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "glob": "^8.0.3",
     "html-minifier": "^4.0.0",
-    "lite-youtube-embed": "^0.2.0",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
     "markdown-it-abbr": "^1.0.4",
@@ -69,7 +67,6 @@
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "sanitize-html": "^2.7.2",
-    "slugify": "^1.6.5",
-    "speedlify-score": "^2.0.2"
+    "slugify": "^1.6.5"
   }
 }
