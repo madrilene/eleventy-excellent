@@ -7,7 +7,7 @@ description: Imprint infos
 layout: page
 ---
 
-Imprint infos.
+Edit your details in `_data/meta.js`
 
 {{ meta.address.firma }}
 {{ meta.address.street }}

@@ -1,7 +1,7 @@
 /* Global variables */
 :root {
   --gutter: var(--space-s-m);
-  --border-radius: var(--size-step-0);
+  --border-radius: 0.5rem;
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
   --transition-fade: 200ms ease;

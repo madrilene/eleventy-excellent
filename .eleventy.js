@@ -22,12 +22,7 @@ const {
 } = require('./config/filters/index.js');
 
 // module import shortcodes
-const {
-  asideShortcode,
-  insertionShortcode,
-  imageShortcodePlaceholder,
-  liteYoutube
-} = require('./config/shortcodes/index.js');
+const {imageShortcodePlaceholder, liteYoutube} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
@@ -53,6 +48,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('base', 'base.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('home', 'home.njk');
+  eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
 
   // 	---------------------  Custom filters -----------------------
@@ -74,8 +70,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('entries', Object.entries);
 
   // 	--------------------- Custom shortcodes ---------------------
-  eleventyConfig.addPairedShortcode('aside', asideShortcode);
-  eleventyConfig.addPairedShortcode('insertion', insertionShortcode);
   eleventyConfig.addNunjucksAsyncShortcode('imagePlaceholder', imageShortcodePlaceholder);
   eleventyConfig.addShortcode('youtube', liteYoutube);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles

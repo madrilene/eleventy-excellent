@@ -7,9 +7,7 @@ description: I respect the EU General Data Protection Regulation (GDPR). This po
 layout: page
 ---
 
-I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
-
-...
+Edit your details in `_data/meta.js`
 
 **Data controller**
 {{ meta.address.firma }}

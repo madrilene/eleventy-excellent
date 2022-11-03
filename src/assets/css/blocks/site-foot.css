@@ -6,8 +6,10 @@
 
 .site-foot__inner {
   display: flex;
-  gap: var(--space-s-m);
+  gap: var(--space-xs-s);
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .site-foot svg {

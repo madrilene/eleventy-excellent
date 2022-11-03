@@ -1,12 +1,12 @@
 module.exports = {
   top: [
     {
-      text: 'Markdown',
-      url: '/markdown/'
+      text: 'About',
+      url: '/about/'
     },
     {
-      text: 'Github Fetch',
-      url: '/github/'
+      text: 'Blog',
+      url: '/blog/'
     }
   ],
   bottom: [

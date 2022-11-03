@@ -5,17 +5,11 @@ description: 'Key principles using modern CSS, fluid type, fluid space, flexible
 layout: 'home'
 blog:
   title: 'Blog'
-  intro: "I'm writing about everything I know!"
+  intro: "I'm showing the last 4 blog posts!"
 ---
 
-## An opiniated Eleventy starter
+## An Eleventy starter
 
-Based on the companion website of [Andy Bell](https://twitter.com/hankchizljaw/)'s talk 'Be the browser’s mentor, not its micromanager'.
-This approach promotes modern CSS with methodologies, fluid type & Space, flexible Layouts and Progressive Enhancement.
+This (opiniated) [Eleventy](https://www.11ty.dev/) starter is based on [Andy Bell](https://twitter.com/piccalilli_)'s talk 'Be the browser’s mentor, not its micromanager' and it's companion website buildexcellentwebsit.es.
 
-This starter really just exists to hopefully spread the use of this excellent workflow. To work with it efficiently you should be familiar with cube.fyi, utopia.fyi and every-layout.dev.
-
-Page based on this starter: www.lenesaile.com
-
-- Find out more on https://buildexcellentwebsit.es/.
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
+Roughly speaking, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spaceing, as well as modern CSS features. In this way we try to shape frontends that look good to everyone, regardless of device, connection speed or context.
