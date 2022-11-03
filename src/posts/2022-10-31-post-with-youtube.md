@@ -1,8 +1,10 @@
 ---
 title: 'Post with a video '
-description: 'Every post starts with planning. Carrot cake chocolate sweet bear claw sesame snaps. Muffin cheesecake cotton candy lollipop bonbon oat cake chocolate bar. Chocolate bar gummi bears wafer.'
+description: "This starter uses Justin Ribeiro's lite-youtube web component. Add `youtube: true` to frontmatter to activate."
 date: 2022-10-31
 youtube: true
 ---
+
+This starter uses Justin Ribeiro's lite-youtube web component. Add `youtube: true` to frontmatter to activate.
 
 {% youtube 'qvrNwWaNVGo', 'Alberto Ballesteros - Una Película A Medias' %}

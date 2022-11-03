@@ -10,3 +10,16 @@
   color: var(--color-dark);
   background: var(--color-secondary);
 }
+
+.card ::selection {
+  color: var(--color-dark);
+  background: var(--color-secondary);
+}
+
+.card h3 a {
+  text-decoration: none;
+}
+
+.card time {
+  opacity: 0.8;
+}

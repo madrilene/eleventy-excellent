@@ -48,7 +48,6 @@ _This is italic text_
 ## Blockquote
 
 > rbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears. Cotton candy cookie croissant fruitcake.
-> by very smart author
 
 ## Lists
 

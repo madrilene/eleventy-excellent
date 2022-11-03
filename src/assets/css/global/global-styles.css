@@ -19,6 +19,7 @@ h2,
 h3 {
   line-height: 1;
   letter-spacing: var(--tracking-s);
+  font-family: var(--font-display);
 }
 
 h1 {
@@ -49,7 +50,6 @@ h3 {
 blockquote {
   border-inline-start: 0.8rem solid var(--color-primary);
   padding: var(--space-m-l);
-  font-family: var(--font-serif);
   font-size: var(--size-step-2);
 }
 
