@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-xs);
+  letter-spacing: -0.08rem;
 }
 
 @media (min-width: 48em) {
@@ -33,9 +34,9 @@
 }
 
 nav.navbar {
-  position: var(--nav-position, fixed);
+  position: var(--nav-position, absolute);
   /* inset-block-start: 0.5rem; */
-  inset-inline-end: 1rem;
+  inset-inline-end: 0.1rem;
 }
 
 /* Remove default list styling and create layout for list */
@@ -112,6 +113,9 @@ nav.navbar span {
 nav.navbar svg {
   height: 100%;
   width: auto;
+}
+header svg {
+  transform: translateY(-0.1em);
 }
 
 nav.navbar [aria-expanded='true'] svg {

@@ -17,14 +17,14 @@ layout: base
   </div>
 </article>
 
-<article class="wrapper region">
+<article class="region">
   <div class="wrapper flow prose">
     <h2>{{ blog.title }}</h2>
     <p>{{ blog.intro }}</p>
   </div>
   <!-- TODO: duplicate of partials/blog.njk -->
 
-  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
     {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %} {%
     include "partials/blog-card.njk" %} {% endfor %}
   </ul>

@@ -9,12 +9,14 @@ date: 2022-08-28
 This is an example of fetching external data, in this case, my public repositories with a cache duration of 1 day.
 Edit in `_data/github.js.`
 
-<ul>
-  {% for repository in github %}
-  <li>
-    <a href="{{ repository.html_url }}">{{ repository.name }} </a>
-  </li>
-  {% else %}
-  <li>This would display if the 'item' collection were empty</li>
-  {% endfor %}
-</ul>
+{% for repository in github %}
+
+## [{{ repository.name }}]({{ repository.html_url }})
+
+{% include 'svg/star.svg' %} {{ repository.stargazers_count }} / {{ repository.description }}
+
+{% else %}
+
+This would display if the 'item' collection were empty
+
+{% endfor %}
