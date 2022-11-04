@@ -11,6 +11,7 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
   - [Logbook](#logbook)
+    - [22-11-04](#22-11-04)
     - [22-10-30](#22-10-30)
     - [22-10-03](#22-10-03)
     - [22-10-04](#22-10-04)
@@ -24,16 +25,15 @@ https://eleventy-excellent.netlify.app/
 
 This starter includes:
 
+- The whole CSS workflow as suggested by buildexcellentwebsit.es
 - Accessible site navigation, editable in \_data/navigation.js
 - Image optimization with Eleventy-img (see blog post)
 - Youtube embed with lite-youtube (see blog post)
-- Syntax highliting via eleventy-plugin-syntaxhighlight
+- Syntax highlighting via eleventy-plugin-syntaxhighlight
 - SEO (XML-sitemap, metadata)
 - dayjs handling dates & times
-- filters and shortcodes for ..
-- The whole CSS workflow as suggested by buildexcellentwebsit.es
 - 301 redirects for netlify
-- All kind of markdown handling
+- markdown handling
 - Bundling via esbuild
 
 ## First steps
@@ -74,6 +74,10 @@ npm run build
 ```
 
 ## Logbook
+
+### 22-11-04
+
+Adding blog posts for feature explanation.
 
 ### 22-10-30
 
