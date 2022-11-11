@@ -1,11 +1,12 @@
 .logo {
   font-weight: bold;
   text-transform: uppercase;
-  margin-block: var(--space-xs);
+
   display: flex;
   align-items: center;
   gap: var(--space-xs);
   letter-spacing: -0.08rem;
+  padding: var(--space-xs) 0;
 }
 
 @media (min-width: 48em) {
