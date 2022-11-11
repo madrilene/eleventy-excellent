@@ -101,6 +101,7 @@ nav.navbar button {
   z-index: 2;
   cursor: pointer;
   align-items: center;
+  padding: var(--space-xs) 0;
 }
 
 nav.navbar span {

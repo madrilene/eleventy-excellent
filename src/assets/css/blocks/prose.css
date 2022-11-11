@@ -1,5 +1,5 @@
 .prose {
-  --flow-space: var(--space-l-xl);
+  --flow-space: var(--space-m-l);
   --wrapper-max-width: 55rem;
 }
 
