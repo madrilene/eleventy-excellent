@@ -15,7 +15,6 @@ const markdownLib = markdownIt({
   linkify: true,
   typographer: true
 })
-  // https://github.com/11ty/eleventy/issues/2438
   .disable('code')
   .use(markdownItPrism, {
     defaultLanguage: 'plaintext'
@@ -31,14 +30,18 @@ const markdownLib = markdownIt({
     ol: 'list',
     ul: 'list'
   })
-  .use(markdownItLinkAttributes, {
-    // Only external links (explicit protocol; internal links use relative paths)
-    pattern: /^https?:/,
-    attrs: {
-      target: '_blank',
-      rel: 'noreferrer noopener'
+  .use(markdownItLinkAttributes, [
+    {
+      // match external links
+      matcher(href) {
+        return href.match(/^https?:\/\//);
+      },
+      attrs: {
+        target: '_blank',
+        rel: 'noreferrer noopener'
+      }
     }
-  })
+  ])
   .use(markdownItEmoji)
   .use(markdownItFootnote)
   .use(markdownitMark)
