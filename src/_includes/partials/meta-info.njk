@@ -56,9 +56,9 @@
 
 <meta
   property="og:image"
-  content="{% if meta.env == 'production' %}{{
+  content="{{
     meta.url
-  }}{% endif %}{% if featured_image  %}{{ featured_image | replace('./src', '') }}{% else %}{{
+  }}{% if featured_image  %}{{ featured_image | replace('./src', '') }}{% else %}{{
     meta.meta_data.opengraph_default
   }}{% endif %}"
 />
