@@ -1,11 +1,12 @@
 const package = require('../../package.json');
 
 module.exports = {
+  pkv: package.version || 'v1',
+  url: process.env.URL || 'http://localhost:8080',
   siteName: 'Eleventy Excellent',
   siteDescription:
     "Eleventy starter based on the workflow suggested by Andy Bell's https://buildexcellentwebsit.es/.",
   siteType: 'Person', // schema
-  siteURL: 'https://eleventy-excellent.netlify.app',
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
@@ -33,7 +34,5 @@ module.exports = {
   },
   menu: {
     closedText: 'Menu'
-  },
-  env: process.env.ELEVENTY_ENV === 'production',
-  pkv: package.version || 'v1'
+  }
 };

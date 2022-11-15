@@ -13,7 +13,7 @@ excludeFromSitemap: true
   {% endif %}
 
     <url>
-        <loc>{{ meta.siteURL }}{{ page.url }}</loc>
+        <loc>{{ meta.url }}{{ page.url }}</loc>
         <lastmod>{{ lastmod | toIsoString }}</lastmod>
     </url>
     {% endif %}

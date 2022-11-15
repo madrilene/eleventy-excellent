@@ -5,7 +5,7 @@
       "@type": "WebPage"
     },
     "isPartOf": {
-      "@id": "{{ meta.siteURL }}#website"
+      "@id": "{{ meta.url }}#website"
     },
     "headline": "{{ title or meta.siteName }}",
     "description": "{{ seo.description or meta.siteDescription }}",
@@ -14,7 +14,7 @@
     "publisher": {
       "@type": "{{ meta.siteType }}",
       "name": "{{ meta.authorName }}",
-      "url": "{{ meta.siteURL }}"
+      "url": "{{ meta.url }}"
     }
   }
 </script>
