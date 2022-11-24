@@ -84,7 +84,7 @@ a:hover {
 }
 
 :focus {
-  outline: 2px solid;
+  outline: 3px solid;
   outline-offset: 0.3ch;
 }
 
