@@ -4,6 +4,7 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
+  - [Deploy to Netlify](#deploy-to-netlify)
   - [Features](#features)
   - [First steps](#first-steps)
   - [Development](#development)
@@ -11,6 +12,7 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
   - [Logbook](#logbook)
+    - [22-11-24](#22-11-24)
     - [22-11-04](#22-11-04)
     - [22-10-30](#22-10-30)
     - [22-10-03](#22-10-03)
@@ -20,6 +22,10 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 ## Preview
 
 https://eleventy-excellent.netlify.app/
+
+## Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
 
 ## Features
 
@@ -38,16 +44,12 @@ This starter includes:
 
 ## First steps
 
-- Search and replace 'eleventy-excellent.netlify.app' with your own domain.
-- Set your icons in assets/images/favicon
-- edit meta data in \_data/meta.js
-- edit your social media in \_data/social.js and \_includes/icons. Icons must be prefixed with "social-".
-- delete \_data/github.js and pages/github.njk, as they are just an example
-- changed routes:
-
-```
-redirectFrom: ['/old-route/', '/optionally-another-old-route/']
-```
+- Important: edit meta data in `src/_data/meta.js`, it's being used all over the template.
+- Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain.
+- Edit your social media in `src/_data/social.js` and `src/_includes/icons`. New icons must be prefixed with "social-".
+- Delete `src/_data/**github.js**` and the blog posts, as these serve only as an example.
+- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/css/design-tokens`.
+- Optional: set your (favicon) icons in `src/assets/images/favicon`
 
 ## Development
 
@@ -74,6 +76,12 @@ npm run build
 ```
 
 ## Logbook
+
+### 22-11-24
+
+- updated required node version in package.json
+- meta.js now controls most of the templates defaults
+- added RSS feed, because of course!
 
 ### 22-11-04
 
