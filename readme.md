@@ -82,6 +82,7 @@ npm run build
 - updated required node version in package.json
 - meta.js now controls most of the templates defaults
 - added RSS feed, because of course!
+- Made twitter and other meta data OPTIONAL. Added Mastodon.
 
 ### 22-11-04
 
