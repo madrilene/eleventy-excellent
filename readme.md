@@ -1,6 +1,8 @@
 # Eleventy starter
 
-Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <https://buildexcellentwebsit.es/>.
+Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.
+If you end up using this starter, [feel free to send me a link](mailto:hola@lenesaile.com), I'd love to see it!
+Let me know if you miss any features. Currently in planning are automatically generated OpenGraph images (as fallback) and mode.
 
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
@@ -15,8 +17,8 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
     - [22-11-24](#22-11-24)
     - [22-11-04](#22-11-04)
     - [22-10-30](#22-10-30)
-    - [22-10-03](#22-10-03)
     - [22-10-04](#22-10-04)
+    - [22-10-03](#22-10-03)
   - [Credits and Thank yous](#credits-and-thank-yous)
 
 ## Preview
@@ -39,7 +41,7 @@ https://eleventy-excellent.netlify.app/
 - Advanced markdown handling
 - Bundling via esbuild
 - RSS feed
-- Links to spcial networks in footer
+- Links to social networks in footer
 - Mastodon domain verification snippet
 
 ## First steps
@@ -86,33 +88,32 @@ npm run build
 - updated required node version in package.json
 - meta.js now controls most of the templates defaults
 - added RSS feed, because of course!!
-- Made twitter and other meta data OPTIONAL
-- Added Mastodon verification and more social icon defaults
+- made twitter and other meta data OPTIONAL
+- added Mastodon verification and more social icon defaults
 - focus-within for the cards
 
 ### 22-11-04
 
-- Adding blog posts for feature explanation
+- added blog posts for feature explanation
 
 ### 22-10-30
 
 - WebC in own branch
 - simplify main branch
 
+### 22-10-04
+
+- all markdown syntax set
+
 ### 22-10-03
 
 - first commit. Updated
-
-### 22-10-04
-
-- All markdown syntax set.
 
 ## Credits and Thank yous
 
 **Andy Bell**
 
-His CSS methodology makes sense to me. It also goes hand in hand with the Every Layout solutions he co-authors. An ardent opponent of the utility class framework Tailwind CSS. But has recently published an approach that incorporates Tailwind CSS into his methodology. This is built into my website and I'm working on tweaking it.
-I learned how to use Eleventy in 2020 with his (now free) course.
+His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every Layout_ (which he co-authors). He has recently published an approach that incorporates Tailwind CSS into his methodology. Also, I learned how to use Eleventy in 2020 with his (now free) course.
 
 - https://cube.fyi/
 - https://buildexcellentwebsit.es/
@@ -120,21 +121,21 @@ I learned how to use Eleventy in 2020 with his (now free) course.
 
 **Heydon Pickering**
 
-I strongly orientate myself on Heydon's approaches and love his books.
+I strongly orientate myself on Heydon's approaches and really love his books.
 
 - https://every-layout.dev/
 - https://inclusive-components.design/
 
 **Zach Leatherman**
 
-He is developing Eleventy.
+He is developing Eleventy and is constantly making it even better!
 
 - https://www.11ty.dev/
 - https://www.zachleat.com/
 
 **Stephanie Eckles**
 
-She provides a lot of resources for Eleventy and modern CSS.
+Stephanie provides a lot of resources for Eleventy and modern CSS.
 
 - https://smolcss.dev/
 - https://moderncss.dev/
@@ -145,13 +146,6 @@ I love order and structure. Aleksandr does this in an exemplary way, which is wh
 
 - https://github.com/AleksandrHovhannisyan
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/
-
-**Oliver Schöndorfer**
-
-Oliver is a type expert. He writes the Pimp my Type Newsletter where I dscovered the font I'm using for this website.
-
-- https://pimpmytype.com/outfit/
-- https://pimpmytype.com/category/fontfriday/
 
 **Manuel Matuzović**
 
