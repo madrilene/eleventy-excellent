@@ -4,9 +4,9 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
-  - [Deploy to Netlify](#deploy-to-netlify)
   - [Features](#features)
   - [First steps](#first-steps)
+  - [Deploy directly to Netlify](#deploy-directly-to-netlify)
   - [Development](#development)
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
@@ -23,16 +23,12 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 https://eleventy-excellent.netlify.app/
 
-## Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
-
 ## Features
 
 This starter includes:
 
 - The whole CSS workflow as suggested by buildexcellentwebsit.es
-- Accessible site navigation, editable in \_data/navigation.js
+- Accessible site navigation, editable in `src/_data/navigation.js`
 - Image optimization with Eleventy-img (see blog post)
 - Youtube embed with lite-youtube (see blog post)
 - Syntax highlighting via eleventy-plugin-syntaxhighlight
@@ -44,12 +40,16 @@ This starter includes:
 
 ## First steps
 
-- Important: edit meta data in `src/_data/meta.js`, it's being used all over the template.
+- **Important:** edit meta data in `src/_data/meta.js`, it's being used all over the template.
 - Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain.
-- Edit your social media in `src/_data/social.js` and `src/_includes/icons`. New icons must be prefixed with "social-".
-- Delete `src/_data/**github.js**` and the blog posts, as these serve only as an example.
+- Edit your social media in `src/_data/social.js` and `src/_includes/icons`. If you add new icons they must be prefixed with "social-". Great resource: https://lucide.dev/
+- Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
 - Edit your preferences (colors, fluid text sizes etc.) in `src/assets/css/design-tokens`.
-- Optional: set your (favicon) icons in `src/assets/images/favicon`
+- Optional: set your (favicon) icons in `src/assets/images/favicon`.
+
+## Deploy directly to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
 
 ## Development
 
@@ -85,11 +85,12 @@ npm run build
 
 ### 22-11-04
 
-Adding blog posts for feature explanation.
+- Adding blog posts for feature explanation
 
 ### 22-10-30
 
-WebC in own branch, simplify main branch
+- WebC in own branch
+- simplify main branch
 
 ### 22-10-03
 
@@ -97,8 +98,7 @@ WebC in own branch, simplify main branch
 
 ### 22-10-04
 
-- All markdown syntax set. Some tests with web components and webC.
-- TODO: dark mode
+- All markdown syntax set.
 
 ## Credits and Thank yous
 
