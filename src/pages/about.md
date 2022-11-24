@@ -14,7 +14,7 @@ This starter exists to hopefully spread the use of this _excellent_ workflow. To
 - Find out more on https://buildexcellentwebsit.es/.
 - Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
 
-Edit your preferences in `assets/css/design-tokens`.
+Edit your preferences (colors, fonts, fluid text sizes etc.) in `src/assets/css/design-tokens`.
 
 ## Watch the talk
 

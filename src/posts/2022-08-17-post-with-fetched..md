@@ -6,17 +6,17 @@ date: 2022-08-28
 
 [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) fetches and caches resources - at configurable intervals.
 
-This is an example of fetching external data, in this case, my public repositories with a cache duration of 1 day.
-Edit in `_data/github.js.`
+This is an example of fetching external data.
+In this case, my public repositories (with more than one stargazer) and a cache duration of 1 day.
 
-{% for repository in github %}
+Endpoint editable in `_data/github.js.`
+
+{% for repository in github  %}
+{% if repository.stargazers_count > 0 %}
 
 ## [{{ repository.name }}]({{ repository.html_url }})
 
 {% include 'svg/star.svg' %} {{ repository.stargazers_count }} / {{ repository.description }}
 
-{% else %}
-
-This would display if the 'item' collection were empty
-
+{% endif %}
 {% endfor %}

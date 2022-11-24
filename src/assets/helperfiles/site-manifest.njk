@@ -1,7 +1,12 @@
+---
+permalink: /site.manifest
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
 {
-  "name": "Eleventy Excellent - Starter based on buildexcellentwebsite.es",
-  "short_name": "Eleventy Excellent",
-  "start_url": "https://eleventy-excellent.netlify.app",
+  "name": "{{ meta.siteName }} - {{ meta.siteDescription }}",
+  "short_name": "{{ meta.siteName }}",
+  "start_url": "{{ meta.url }}",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -20,7 +25,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#FF5678",
-  "background_color": "#FF5678",
+  "theme_color": "{{ meta.themeColor }}",
+  "background_color": "{{ meta.themeBgColor }}",
   "display": "standalone"
 }

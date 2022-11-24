@@ -43,7 +43,13 @@
 <link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
 <link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
-<meta name="theme-color" content="#FF7F5C" />
+
+{% if meta.meta_data.mastodonProfile %}
+<!-- Mastodon verified site -->
+<link rel="me" href="{{ meta.meta_data.mastodonProfile }}" />
+{% endif %}
+
+<meta name="theme-color" content="{{ meta.themeColor }}" />
 <meta name="generator" content="Eleventy" />
 
 <!-- Facebook Open Graph meta -->
@@ -75,8 +81,11 @@
 
 <!-- Twitter Open Graph meta -->
 <meta name="twitter:card" content="summary_large_image" />
+{% if meta.meta_data.twitterSite %}
 <meta name="twitter:site" content="{{ meta.meta_data.twitterSite }}" />
+{% endif %} {% if meta.meta_data.twitterCreator %}
 <meta name="twitter:creator" content="{{ meta.meta_data.twitterCreator }}" />
+{% endif %}
 
 <!-- disallow Twitter from using your site's info for personalization purposes -->
 <meta name="twitter:dnt" content="on" />
