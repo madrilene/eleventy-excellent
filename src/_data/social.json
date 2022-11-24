@@ -5,6 +5,11 @@
     "icon": "github.svg"
   },
   {
+    "platform": "mastodon",
+    "url": "https://front-end.social/@lene",
+    "icon": "mastodon.svg"
+  },
+  {
     "platform": "twitter",
     "url": "https://twitter.com/lenesaile",
     "icon": "twitter.svg"
