@@ -1,8 +1,9 @@
 # Eleventy starter
 
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.
-If you end up using this starter, [feel free to send me a link](mailto:hola@lenesaile.com), I'd love to see it!
-Let me know if you miss any features. Currently in planning are automatically generated OpenGraph images (as fallback) and mode.
+
+If you end up using this starter, feel free to send me a link, I'd love to see it!
+Also let me know if you miss any features. Currently in planning: automatically generated OpenGraph images (as fallback) and dark mode.
 
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
@@ -37,7 +38,7 @@ https://eleventy-excellent.netlify.app/
 - Syntax highlighting via eleventy-plugin-syntaxhighlight _(see blog post)_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
-- 301 redirects for netlify
+- 301 redirects for Netlify
 - Advanced markdown handling
 - Bundling via esbuild
 - RSS feed
