@@ -1,3 +1,5 @@
+/** © Andy Bell - https://buildexcellentwebsit.es/ */
+
 const viewports = require('../design-tokens/viewports.json');
 
 /**

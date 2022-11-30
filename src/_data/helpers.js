@@ -1,3 +1,5 @@
+/** © Andy Bell - https://buildexcellentwebsit.es/ */
+
 module.exports = {
   /**
    * Returns back some attributes based on wether the

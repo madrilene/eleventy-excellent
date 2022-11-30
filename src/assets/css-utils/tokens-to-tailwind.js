@@ -1,3 +1,5 @@
+/** © Andy Bell - https://buildexcellentwebsit.es/ */
+
 const slugify = require('slugify');
 
 /**

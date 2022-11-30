@@ -1,3 +1,5 @@
+/* © Andy Bell - https://buildexcellentwebsit.es/ */
+
 const plugin = require('tailwindcss/plugin');
 const postcss = require('postcss');
 const postcssJs = require('postcss-js');

@@ -1,11 +1,10 @@
 /**
  * I strive to keep the `.eleventy.js` file clean and uncluttered. Most adjustments must be made in:
- *  - `src/config/collections.js`
- *  - `src/config/filters.js`
- *  - `src/config/plugins.js`
- *  - `src/config/shortcodes.js`
- *  - `src/config/transforms.js`
- * Based on https://github.com/AleksandrHovhannisyan.
+ *  - `./config/collections/index.js`
+ *  - `./config/filters/index.js`
+ *  - `./config/plugins/index.js`
+ *  - `./config/shortcodes/index.js`
+ *  - `./config/transforms/index.js`
  */
 
 // module import filters
@@ -36,8 +35,7 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const {slugifyString} = require('./config/utils');
 const {escape} = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const inclusiveLangPlugin = require("@11ty/eleventy-plugin-inclusive-language");
-
+const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 
 module.exports = eleventyConfig => {
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

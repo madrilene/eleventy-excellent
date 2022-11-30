@@ -1,5 +1,3 @@
-<!-- https://web.dev/website-navigation/ -->
-
 <nav id="mainnav" class="navbar">
   <ul>
     {% for item in navigation.top %}
@@ -20,7 +18,7 @@
   </ul>
 </nav>
 
-<!--  template element holding a button that needs to be injected when JavaScript is finally available. Source: https://web.dev/website-navigation/ -->
+<!--  template element holding a button that needs to be injected when JavaScript is finally available. based on an article by Manuel Matuzovic, https://web.dev/website-navigation/, see also https://kittygiraudel.com/2022/09/30/templating-in-html/ -->
 
 <template id="burger-template">
   <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
