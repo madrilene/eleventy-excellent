@@ -10,9 +10,9 @@
     },
     "@id": "{{ url }}",
     "headline": "{{ title or meta.siteName }}",
-    "description": "{{ excerpt or meta.siteDescription }}",
+    "description": "{{ seo.description or description or meta.siteDescription }}",
     "image": "{% if seo.image %}/assets/images/{{ seo.image }}{% else %}{{ meta.siteImage }}{% endif %}",
-    "inLanguage": "{{ meta[locale].localeCode }}",
+    "inLanguage": "{{ meta.locale }}",
     "publisher": {
       "@type": "{{ meta.siteType }}",
       "name": "{{ meta.authorName }}",

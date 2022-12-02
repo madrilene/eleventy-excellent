@@ -8,7 +8,7 @@
       "@id": "{{ meta.url }}#website"
     },
     "headline": "{{ title or meta.siteName }}",
-    "description": "{{ seo.description or meta.siteDescription }}",
+    "description": "{{ seo.description or description or meta.siteDescription }}",
     "image": "{% if seo.image %}/assets/images/{{ seo.image }}{% else %}{{ meta.siteImage }}{% endif %}",
     "inLanguage": "{{ meta.locale }}",
     "publisher": {

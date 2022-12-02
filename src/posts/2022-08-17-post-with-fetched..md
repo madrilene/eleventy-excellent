@@ -7,7 +7,7 @@ date: 2022-08-28
 [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) fetches and caches resources - at configurable intervals.
 
 This is an example of fetching external data.
-In this case, my public repositories (with more than one stargazer) and a cache duration of 1 day.
+In this case, my public repositories (with more than zero stargazer) and a cache duration of 1 day.
 
 Endpoint editable in `_data/github.js.`
 

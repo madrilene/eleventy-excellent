@@ -2,7 +2,8 @@
   <div class="wrapper">
     <div class="site-foot__inner">
       <nav id="footernav" class="site-foot__inner">
-        &copy; {% year %} <a href="/">{{ meta.siteName }}</a>
+        {% set activePage = page.url | url %}
+        &copy; {% year %} <a href="/" {% if activePage === '/' %} aria-current="page" {% endif %}>{{ meta.siteName }}</a>
 
         {% for item in navigation.bottom %}
 
