@@ -90,36 +90,13 @@ module.exports = eleventyConfig => {
   // 	--------------------- Passthrough File Copy -----------------------
 
   // same path
-
   ['src/assets/fonts/', 'src/assets/images/'].forEach(path =>
     eleventyConfig.addPassthroughCopy(path)
   );
 
-  // social images to root
-
+  //  social icons and manifest to root directory
   eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.ico': 'favicon.ico'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon.svg': 'favicon.svg'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/apple-touch-icon.png': 'apple-touch-icon.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-32x32.png': 'favicon-32x32.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/favicon-16x16.png': 'favicon-16x16.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-192x192.png': 'android-chrome-192x192.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/android-chrome-512x512.png': 'android-chrome-512x512.png'
-  });
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/images/favicon/maskable.png': 'maskable.png'
+    'src/assets/images/favicon/*': '/'
   });
 
   // 	--------------------- Config -----------------------
