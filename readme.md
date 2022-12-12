@@ -86,9 +86,9 @@ npm run build
 
 ## Built with Eleventy Excellent
 
-- [www.lenesaile.com](https://www.lenesaile.com/)
 - [stephenanfield.com](https://stephenanfield.com/)
 - [krgr.dev](https://krgr.dev/)
+- [lenesaile.com](https://www.lenesaile.com/)
 
 ## Logbook
 
