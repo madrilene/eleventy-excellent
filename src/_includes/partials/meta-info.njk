@@ -1,7 +1,3 @@
-<!-- https://htmlhead.dev / https://www.matuzo.at/blog/html-boilerplate/
--->
-
-<!-- Set the base URL for all relative URLs within the document -->
 <base href="{{ page.url }}" />
 
 <meta
@@ -16,50 +12,30 @@
   "
 />
 
+<meta name="theme-color" content="{{ meta.themeColor }}" />
 <meta name="robots" content="index,follow" /><!-- All Search Engines -->
 <meta name="googlebot" content="index,follow" /><!-- Google Specific -->
-<meta name="generator" content="eleventy" /><!-- thank you, Zach Leatherman -->
+<meta name="generator" content="{{ eleventy.generator }}" /><!-- thank you, Zach -->
 <!-- Disable automatic detection and formatting of possible phone numbers -->
 <meta name="format-detection" content="telephone=no" />
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
 
-<title>
-  {% if seo.title %} {{ seo.title }}
-  {% elif title %}
-  {{ title }}
-  {% else %}
-  {{ meta.siteName }}
-  {% endif %}
-</title>
-
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
-
-<!-- Favicon -->
-<link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
-<link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
-<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
-<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
-<link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
 
 {% if meta.meta_data.mastodonProfile %}
 <!-- Mastodon verified site -->
 <link rel="me" href="{{ meta.meta_data.mastodonProfile }}" />
 {% endif %}
 
-<meta name="theme-color" content="{{ meta.themeColor }}" />
-<meta name="generator" content="Eleventy" />
-
-<!-- Facebook Open Graph meta -->
+<!-- Open Graph meta  -->
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
   content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}"
 />
-
 <meta
   property="og:image"
   content="{{
@@ -68,7 +44,6 @@
     meta.meta_data.opengraph_default
   }}{% endif %}"
 />
-
 <meta
   property="og:description"
   content="{% if description %}{{ description }}{% else %}{{
@@ -79,13 +54,19 @@
 <meta property="og:locale" content="{{ meta.locale }}" />
 <meta property="article:author" content="{{ meta.author }}" />
 
-<!-- Twitter Open Graph meta -->
+<!-- Twitter meta -->
 <meta name="twitter:card" content="summary_large_image" />
 {% if meta.meta_data.twitterSite %}
 <meta name="twitter:site" content="{{ meta.meta_data.twitterSite }}" />
 {% endif %} {% if meta.meta_data.twitterCreator %}
 <meta name="twitter:creator" content="{{ meta.meta_data.twitterCreator }}" />
 {% endif %}
-
-<!-- disallow Twitter from using your site's info for personalization purposes -->
 <meta name="twitter:dnt" content="on" />
+
+<!-- Favicon -->
+<link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
+<link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
+<link rel="manifest" href="{{ '/site.webmanifest' | url }}" />

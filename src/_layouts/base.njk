@@ -3,13 +3,28 @@
 <!DOCTYPE html>
 <html lang="{{ meta.lang }}">
   <head>
+    <!-- charset/http-equiv/viewport -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    {% include "partials/meta-info.njk" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- fonts preload -->
+    <!-- title -->
+    <title>
+      {% if seo.title %} {{ seo.title }}
+      {% elif title %}
+      {{ title }}
+      {% else %}
+      {{ meta.siteName }}
+      {% endif %}
+    </title>
 
+    <!-- synchronous js / schema  -->
+    {% include "schemas/base-schema.njk" %}
+
+    <!-- synchronous css / inline css  -->
+    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
+
+    <!-- preloads -->
     <link
       rel="preload"
       href="/assets/fonts/inter/inter-v7-latin-500.woff2"
@@ -17,7 +32,6 @@
       type="font/woff2"
       crossorigin
     />
-
     <link
       rel="preload"
       href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
@@ -26,23 +40,11 @@
       crossorigin
     />
 
-    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
-
-    <!-- defer js  -->
+    <!-- defered js  -->
     <script type="module" src="/assets/app.js" defer></script>
 
-    <!--  Add facility for pages to declare an array of stylesheet paths -->
-    {% if pageStylesheets %} {% for item in pageStylesheets %}
-    <link
-      rel="stylesheet"
-      media="print"
-      href="{{ item }}?{{ assetHash }}"
-      onload="this.media='all'"
-    />
-    {% endfor %} {% endif %}
-
-    <!-- include base schema  -->
-    {% include "schemas/base-schema.njk" %}
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    {% include "partials/meta-info.njk" %}
   </head>
 
   <body>

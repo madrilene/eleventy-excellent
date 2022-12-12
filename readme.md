@@ -1,11 +1,11 @@
-# Eleventy starter
+# Eleventy Excellent
 
-Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.
+Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 Also let me know if you miss any features. Currently in planning: automatically generated OpenGraph images (as fallback) and dark mode.
 
-- [Eleventy starter](#eleventy-starter)
+- [Eleventy Excellent](#eleventy-excellent)
   - [Preview](#preview)
   - [Features](#features)
   - [First steps](#first-steps)
@@ -14,7 +14,9 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
+  - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [22-12-12](#22-12-12)
     - [22-11-24](#22-11-24)
     - [22-11-04](#22-11-04)
     - [22-10-30](#22-10-30)
@@ -36,10 +38,10 @@ https://eleventy-excellent.netlify.app/
 - Youtube embed with lite-youtube _(see blog post)_
 - Easy resource fetching with eleventy-fetch _(see blog post)_
 - Syntax highlighting via eleventy-plugin-syntaxhighlight _(see blog post)_
+- Advanced markdown handling _(see blog post)_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
 - 301 redirects for Netlify
-- Advanced markdown handling
 - Bundling via esbuild
 - RSS feed
 - Links to social networks in footer
@@ -82,7 +84,19 @@ Minify JS, inline and minify CSS.
 npm run build
 ```
 
+## Built with Eleventy Excellent
+
+- [www.lenesaile.com](https://www.lenesaile.com/)
+- [stephenanfield.com](https://stephenanfield.com/)
+- [krgr.dev](https://krgr.dev/)
+
 ## Logbook
+
+### 22-12-12
+
+- updated head structure for better performance
+- added "built with this" section in readme
+- added note for internal links in markdown blog post
 
 ### 22-11-24
 

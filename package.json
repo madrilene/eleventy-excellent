@@ -42,7 +42,7 @@
     "cssnano": "^5.1.7",
     "dayjs": "^1.11.5",
     "dotenv": "^16.0.3",
-    "esbuild": "^0.15.10",
+    "esbuild": "^0.16.4",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
