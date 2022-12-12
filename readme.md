@@ -97,6 +97,7 @@ npm run build
 - updated head structure for better performance
 - added "built with this" section in readme
 - added note for internal links in markdown blog post
+- adding page based preload option, making preload of monospaced font in posts default to avoid CLS
 
 ### 22-11-24
 
