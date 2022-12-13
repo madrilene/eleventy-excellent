@@ -8,12 +8,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "clean": "rimraf dist",
-    "dev:postcss": "postcss src/assets/css/global.css --o dist/assets/css/global.css --watch --verbose",
-    "dev:scripts": "esbuild src/assets/scripts/app.js --bundle --watch --outdir=dist/assets",
     "dev:11ty": "eleventy --serve --watch",
-    "build:postcss": "NODE_ENV=production postcss src/assets/css/global.css -o dist/assets/css/global.css",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/assets/scripts/app.js --bundle --minify --outdir=dist/assets --platform=node --tree-shaking=true",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
@@ -36,6 +32,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@netlify/plugin-a11y": "^1.0.0-beta.1",
     "@toycode/markdown-it-class": "^1.2.4",
+    "autoprefixer": "^10.4.13",
     "clean-css": "^5.3.1",
     "concurrently": "^7.4.0",
     "cross-env": "^7.0.3",

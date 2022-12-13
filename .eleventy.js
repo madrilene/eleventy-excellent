@@ -99,7 +99,12 @@ module.exports = eleventyConfig => {
     'src/assets/images/favicon/*': '/'
   });
 
-  // 	--------------------- Config -----------------------
+  // 	--------------------- Custom Template Languages ---------------------
+
+  eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
+  eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
+
+  // 	--------------------- general config -----------------------
 
   return {
     dir: {
