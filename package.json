@@ -44,7 +44,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "glob": "^8.0.3",
-    "html-minifier": "^4.0.0",
+    "html-minifier-terser": "^7.1.0",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
     "markdown-it-abbr": "^1.0.4",

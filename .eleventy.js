@@ -77,6 +77,13 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Custom transforms ---------------------
 
+  eleventyConfig.addPlugin(require('./config/transforms/html-config.js'));
+
+  // 	--------------------- Custom Template Languages ---------------------
+
+  eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
+  eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
+
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
 
@@ -98,11 +105,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
   });
-
-  // 	--------------------- Custom Template Languages ---------------------
-
-  eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
-  eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
 
   // 	--------------------- general config -----------------------
 
