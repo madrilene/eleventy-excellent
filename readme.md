@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [22-12-13](#22-12-13)
     - [22-12-12](#22-12-12)
     - [22-11-24](#22-11-24)
     - [22-11-04](#22-11-04)
@@ -91,6 +92,11 @@ npm run build
 - [lenesaile.com](https://www.lenesaile.com/)
 
 ## Logbook
+
+### 22-12-13
+
+- added JS and CSS as as first-class citizens in Eleventy, out of the npm scripts.
+- imported htmlmin transform, css and js processing with `eleventyConfig.addPlugin(require("other-config-file.js"))`, see https://front-end.social/@eleventy@fosstodon.org/109501433721579265
 
 ### 22-12-12
 
