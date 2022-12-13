@@ -17,6 +17,11 @@
   background: var(--color-secondary);
 }
 
+.card h2 {
+  font-size: var(--size-step-3);
+}
+
+.card h2 a,
 .card h3 a {
   text-decoration: none;
 }

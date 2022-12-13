@@ -28,7 +28,16 @@ layout: base
   <!-- TODO: duplicate of partials/blog.njk -->
 
   <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %} {%
-    include "partials/blog-card.njk" %} {% endfor %}
+    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %}
+
+    <li class="card flow clickable-card overflow-hidden">
+      <h3>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h3>
+      {% set definedDate = post.date %} {% include "partials/date.njk" %}
+      <p>{{ post.data.description }}</p>
+    </li>
+
+    {% endfor %}
   </ul>
 </article>
