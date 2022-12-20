@@ -21,6 +21,8 @@ cards.forEach(card => {
     }
   };
 });
+
+// © Heydon Pickering
 ```
 
 ```css
@@ -30,6 +32,8 @@ form {
   flex-wrap: wrap;
   gap: 16px;
 }
+
+/* © Josh Comeau */
 ```
 
 Edit styles in `css/blocks/code.css`

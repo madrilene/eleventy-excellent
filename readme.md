@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [22-12-20](#22-12-20)
     - [22-12-13](#22-12-13)
     - [22-12-12](#22-12-12)
     - [22-11-24](#22-11-24)
@@ -35,14 +36,14 @@ https://eleventy-excellent.netlify.app/
 
 - The whole CSS workflow as suggested by buildexcellentwebsit.es
 - Accessible site navigation, editable in `src/_data/navigation.js`
-- Image optimization with Eleventy-img _(see blog post)_
-- Youtube embed with lite-youtube _(see blog post)_
-- Easy resource fetching with eleventy-fetch _(see blog post)_
-- Syntax highlighting via eleventy-plugin-syntaxhighlight _(see blog post)_
-- Advanced markdown handling _(see blog post)_
+- Image optimization with Eleventy-img _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-an-image/))_
+- Youtube embed with lite-youtube _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-a-video/))_
+- Easy resource fetching with eleventy-fetch _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-fetched-content/))_
+- Syntax highlighting via eleventy-plugin-syntaxhighlight _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-some-code/))_
+- Advanced markdown handling _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-all-the-markdown/))_
+- 301 redirects for Netlify _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-301-redirects/))_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
-- 301 redirects for Netlify
 - Bundling via esbuild
 - RSS feed
 - Links to social networks in footer
@@ -92,6 +93,11 @@ npm run build
 - [lenesaile.com](https://www.lenesaile.com/)
 
 ## Logbook
+
+### 22-12-20
+
+- Andy now links to his mastodon profile
+- Linked blog posts in readme
 
 ### 22-12-13
 
