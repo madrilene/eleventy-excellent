@@ -101,7 +101,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy(path)
   );
 
-  //  social icons and manifest to root directory
+  //  social icons to root directory
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
   });

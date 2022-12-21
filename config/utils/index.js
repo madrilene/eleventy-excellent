@@ -1,6 +1,6 @@
 const slugify = require('slugify');
 
-/** Converts the given string to a slug form. */
+/** Converts string to a slug form. */
 const slugifyString = str => {
   return slugify(str, {
     replacement: '-',
@@ -9,7 +9,7 @@ const slugifyString = str => {
   });
 };
 
-/** Helper to throw an error if the provided argument is not of the expected. */
+/** throw an error if the provided argument is not of the expected. */
 const throwIfNotType = (arg, expectedType) => {
   if (typeof arg !== expectedType) {
     throw new Error(

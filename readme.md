@@ -80,7 +80,7 @@ npm start
 
 ### Creating a production build
 
-Minify JS, inline and minify CSS.
+Minify JS, CSS and HTML.
 
 ```
 npm run build
