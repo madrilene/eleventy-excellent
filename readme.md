@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [22-12-29](#22-12-29)
     - [22-12-20](#22-12-20)
     - [22-12-13](#22-12-13)
     - [22-12-12](#22-12-12)
@@ -88,11 +89,22 @@ npm run build
 
 ## Built with Eleventy Excellent
 
-- [stephenanfield.com](https://stephenanfield.com/)
-- [krgr.dev](https://krgr.dev/)
-- [lenesaile.com](https://www.lenesaile.com/)
+- [andystitt.com](https://andystitt.com/) (slightly customized)
+- [figcat.com](https://figcat.com/) (heavily customized)
+- [stephenanfield.com](https://stephenanfield.com/) (slightly customized)
+- [krgr.dev](https://krgr.dev/) (slightly customized)
+- [lenesaile.com](https://www.lenesaile.com/) (heavily customized)
 
 ## Logbook
+
+### 22-12-29
+
+- updated Eleventy
+- Major: changed CSS for header, not using the sidebar solution anymore. sidebar.css thus deleted. Now the focus for the logo section doesn't expand all the way to the menu anymore.
+- Updated some ref values after reading Alvaro Montoro's excellent article [A Theory of Web Relativity](https://www.htmhell.dev/adventcalendar/2022/21/).
+- stripped "noreferrer" from external links in markdown (editable in `config/plugins/markdown.js`), because I don't mind the target page of carefully placed links to identify the source of the reference.
+- added two more pages to the 'built with' section, yay!
+- Thought: Now that actually some websites in production are based on this starter, should I create formal release notes?
 
 ### 22-12-20
 
@@ -143,8 +155,8 @@ npm run build
 
 His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every Layout_ (which he co-authors). He has recently published an approach that incorporates Tailwind CSS into his methodology. Also, I learned how to use Eleventy in 2020 with his (now free) course.
 
-- https://cube.fyi/
 - https://buildexcellentwebsit.es/
+- https://cube.fyi/
 - https://learneleventyfromscratch.com/
 
 **Heydon Pickering**

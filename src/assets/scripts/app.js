@@ -1,11 +1,26 @@
 // ------------------- cards redundant click, accessible whole card clickable solution by Heydon Pickering
 
-const cards = [...document.querySelectorAll('.card')];
-cards.forEach(card => {
-  card.style.cursor = 'pointer';
+// const cards = [...document.querySelectorAll('.card')];
+// cards.forEach(card => {
+//   card.style.cursor = 'pointer';
+//   let down,
+//     up,
+//     link = card.querySelector('a');
+//   card.onmousedown = () => (down = +new Date());
+//   card.onmouseup = () => {
+//     up = +new Date();
+//     if (up - down < 200) {
+//       link.click();
+//     }
+//   };
+// });
+
+const cards = document.querySelectorAll('.card');
+Array.prototype.forEach.call(cards, card => {
   let down,
     up,
-    link = card.querySelector('a');
+    link = card.querySelector(':is(h1, h2, h3, h4, h5, h6) a');
+  card.style.cursor = 'pointer';
   card.onmousedown = () => (down = +new Date());
   card.onmouseup = () => {
     up = +new Date();

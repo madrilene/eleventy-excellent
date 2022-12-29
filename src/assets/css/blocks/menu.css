@@ -1,14 +1,3 @@
-.logo {
-  font-weight: bold;
-  text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  gap: var(--space-xs);
-  letter-spacing: -0.08rem;
-  padding: var(--space-xs) 0;
-}
-
 @media (min-width: 48em) {
   nav.navbar {
     --nav-button-display: none;
