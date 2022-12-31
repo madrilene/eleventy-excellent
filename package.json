@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "node": ">=16.x.x"
   },
