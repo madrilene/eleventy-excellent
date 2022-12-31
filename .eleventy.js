@@ -17,16 +17,22 @@ const {
   toAbsoluteUrl,
   stripHtml,
   minifyCss,
+  minifyJs,
   mdInline
 } = require('./config/filters/index.js');
 
 // module import shortcodes
-const {imageShortcodePlaceholder, liteYoutube} = require('./config/shortcodes/index.js');
+const {
+  imageShortcodePlaceholder,
+  includeRaw,
+  liteYoutube
+} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
 
-// module import transforms
+// module import events
+const {before} = require('./config/events/before.js');
 
 // plugins
 const markdownLib = require('./config/plugins/markdown.js');
@@ -38,9 +44,6 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 
 module.exports = eleventyConfig => {
-  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-  eleventyConfig.setUseGitIgnore(false);
-
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');
@@ -65,6 +68,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('toJson', JSON.stringify);
   eleventyConfig.addFilter('fromJson', JSON.parse);
   eleventyConfig.addFilter('cssmin', minifyCss);
+  eleventyConfig.addNunjucksAsyncFilter('jsmin', minifyJs);
   eleventyConfig.addFilter('md', mdInline);
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
@@ -73,16 +77,18 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('imagePlaceholder', imageShortcodePlaceholder);
   eleventyConfig.addShortcode('youtube', liteYoutube);
+  eleventyConfig.addShortcode('include_raw', includeRaw);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
 
   // 	--------------------- Custom transforms ---------------------
-
   eleventyConfig.addPlugin(require('./config/transforms/html-config.js'));
 
   // 	--------------------- Custom Template Languages ---------------------
-
   eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
   eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
+
+  // 	--------------------- Custom events ---------------------
+  // eleventyConfig.addPlugin(require('./config/events/before.js'));
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
@@ -95,28 +101,35 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(inclusiveLangPlugin);
 
   // 	--------------------- Passthrough File Copy -----------------------
-
   // same path
   ['src/assets/fonts/', 'src/assets/images/'].forEach(path =>
     eleventyConfig.addPassthroughCopy(path)
   );
 
-  //  social icons to root directory
+  // social icons to root directory
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
   });
 
-  // 	--------------------- general config -----------------------
+  eleventyConfig.addPassthroughCopy({
+    'src/assets/css/global.css': 'src/_includes/global.css'
+  });
 
+  // 	--------------------- general config -----------------------
   return {
+    // Pre-process *.md, *.html and global data files files with: (default: `liquid`)
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+
+    // Optional (default is set): If your site deploys to a subdirectory, change `pathPrefix`, for example with with GitHub pages
+    pathPrefix: '/',
+
     dir: {
-      input: 'src',
       output: 'dist',
+      input: 'src',
       includes: '_includes',
       layouts: '_layouts'
-    },
-    markdownTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk'
+    }
   };
 };

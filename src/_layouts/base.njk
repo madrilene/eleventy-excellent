@@ -58,7 +58,7 @@
     {% endif %}
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js" defer></script>
+    <script type="module" src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}

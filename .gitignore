@@ -1,16 +1,14 @@
-# Misc
-*.log
-npm-debug.*
-*.scssc
-*.log
-*.swp
-.DS_Store
-Thumbs.db
-.sass-cache
-.env
-.cache
-
-# Node modules and output
+# Node modules
 node_modules
+
+# generated files
 dist
 src/_includes/css
+src/_includes/scripts
+
+# cache
+.cache
+
+# secret data
+.env
+
