@@ -31,9 +31,6 @@ const {
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
 
-// module import events
-const {before} = require('./config/events/before.js');
-
 // plugins
 const markdownLib = require('./config/plugins/markdown.js');
 const {EleventyRenderPlugin} = require('@11ty/eleventy');
@@ -86,9 +83,6 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom Template Languages ---------------------
   eleventyConfig.addPlugin(require('./config/template-languages/css-config.js'));
   eleventyConfig.addPlugin(require('./config/template-languages/js-config.js'));
-
-  // 	--------------------- Custom events ---------------------
-  // eleventyConfig.addPlugin(require('./config/events/before.js'));
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
