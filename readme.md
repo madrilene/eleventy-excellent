@@ -1,4 +1,4 @@
-Koi# Eleventy Excellent
+# Eleventy Excellent
 
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
@@ -100,7 +100,7 @@ npm run build
 ### 22-12-29
 
 - updated Eleventy
-- Major: changed CSS for header, not using the sidebar solution anymore. sidebar.css thus deleted. Now the focus for the logo section doesn't expand all the way to the menu anymore.
+- minor: changed CSS for header, not using the sidebar solution anymore. sidebar.css thus deleted. Now the focus for the logo section doesn't expand all the way to the menu anymore.
 - Updated and added some `rel` values after reading Alvaro Montoro's excellent article [A Theory of Web Relativity](https://www.htmhell.dev/adventcalendar/2022/21/).
 - stripped "noreferrer" from external links in markdown (editable in `config/plugins/markdown.js`), because I don't mind the target page of carefully placed links to identify the source of the reference.
 - added two more pages to the 'built with' section, yay!
