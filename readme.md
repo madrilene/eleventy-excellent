@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [23-01-09](#23-01-09)
     - [22-12-29](#22-12-29)
     - [22-12-20](#22-12-20)
     - [22-12-13](#22-12-13)
@@ -58,6 +59,7 @@ https://eleventy-excellent.netlify.app/
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
 - Edit your preferences (colors, fluid text sizes etc.) in `src/assets/css/design-tokens`.
 - Optional: set your (favicon) icons in `src/assets/images/favicon`.
+- Optional: rename `.env-sample` to `.env` adn set custom URL for local development
 
 ## Deploy directly to Netlify
 
@@ -96,6 +98,11 @@ npm run build
 - [lenesaile.com](https://www.lenesaile.com/) (heavily customized)
 
 ## Logbook
+
+### 23-01-09
+
+- updated Eleventy
+- added packe version number in footer
 
 ### 22-12-29
 
