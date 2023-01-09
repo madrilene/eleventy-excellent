@@ -1,7 +1,4 @@
-const package = require('../../package.json');
-
 module.exports = {
-  pkv: package.version || 'v1',
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'Eleventy Excellent',
   siteDescription:
