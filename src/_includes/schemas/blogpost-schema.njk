@@ -11,16 +11,16 @@
     "@id": "{{ url }}",
     "headline": "{{ title or meta.siteName }}",
     "description": "{{ seo.description or description or meta.siteDescription }}",
-    "image": "{% if seo.image %}/assets/images/{{ seo.image }}{% else %}{{ meta.siteImage }}{% endif %}",
+    "image": "{{ meta.url }}{% if seo.image %}/assets/images/{{ seo.image }}{% else %}{{ meta.meta_data.opengraph_default }}{% endif %}",
     "inLanguage": "{{ meta.locale }}",
     "publisher": {
       "@type": "{{ meta.siteType }}",
-      "name": "{{ meta.authorName }}",
+      "name": "{{ meta.author }}",
       "url": "{{ meta.url }}"
     },
     "author": {
       "@type": "Person",
-      "name": "{{ meta.authorName }}"
+      "name": "{{ meta.author }}"
     },
     "datePublished": "{{ date | toIsoString }}"
   }
