@@ -1,5 +1,6 @@
 ---
 layout: base
+schema: blog
 preloads:
   href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
   as: 'font'
@@ -16,6 +17,3 @@ preloads:
     {{ content | safe }}
   </div>
 </article>
-
-<!-- include blogpost schema  -->
-{%- include "schemas/blogpost-schema.njk" %}
