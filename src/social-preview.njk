@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1200" height="628" viewBox="0 0 1200 628" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 >
-  {% set titleInLines = preview.data.title | splitlines(15) %}
+  {% set titleInLines = preview.data.title | splitlines(16) %}
   {% set numberOfLines = titleInLines.length %}
   {% if numberOfLines == 1 %}
   {% set verticalStartingPoint = 340 %}
@@ -44,7 +44,7 @@ eleventyExcludeFromCollections: true
   <text
     id="text"
     font-family="Redhat, Roboto, 'Helvetica Neue', sans-serif"
-    font-size="90"
+    font-size="80"
     font-weight="900"
     fill="#333333"
     letter-spacing="-3"
@@ -61,7 +61,7 @@ eleventyExcludeFromCollections: true
   font-family="Redhat, Roboto, 'Helvetica Neue', sans-serif"
     font-size="24"
     font-weight="bold"
-    fill="#333333"
+    fill="#DD4462"
     letter-spacing="-0.5"
   >
     <tspan x="160" y="600">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan>
