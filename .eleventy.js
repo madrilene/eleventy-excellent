@@ -21,7 +21,8 @@ const {
   stripHtml,
   minifyCss,
   minifyJs,
-  mdInline
+  mdInline,
+  splitlines
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -33,6 +34,9 @@ const {
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
+
+// module import events
+const {svgToJpeg} = require('./config/events/index.js');
 
 // plugins
 const markdownLib = require('./config/plugins/markdown.js');
@@ -70,6 +74,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('cssmin', minifyCss);
   eleventyConfig.addNunjucksAsyncFilter('jsmin', minifyJs);
   eleventyConfig.addFilter('md', mdInline);
+  eleventyConfig.addFilter('splitlines', splitlines);
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
@@ -90,6 +95,9 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
+
+  // 	--------------------- Events ---------------------
+  eleventyConfig.on('afterBuild', svgToJpeg);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);

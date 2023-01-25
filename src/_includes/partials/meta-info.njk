@@ -38,11 +38,12 @@
 />
 <meta
   property="og:image"
-  content="{{
-    meta.url
-  }}{% if featured_image  %}{{ featured_image | replace('./src', '') }}{% else %}{{
-    meta.meta_data.opengraph_default
-  }}{% endif %}"
+  content="{{ meta.url }}
+  {% if (layout == 'post') %}/assets/images/social-preview/{{
+    title | slugify
+  }}-preview.jpeg
+  {% else %}{{ meta.meta_data.opengraph_default }}
+  {% endif %}"
 />
 <meta
   property="og:description"

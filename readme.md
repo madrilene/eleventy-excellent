@@ -3,7 +3,7 @@
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
 If you end up using this starter, feel free to send me a link, I'd love to see it!
-Also let me know if you miss any features. Currently in planning: automatically generated OpenGraph images (as fallback) and dark mode, inlining CSS and JS.
+Also let me know if you miss any features. Currently in planning: dark mode, inlining CSS and JS.
 
 - [Eleventy Excellent](#eleventy-excellent)
   - [Preview](#preview)
@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: automatically 
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [23-01-25](#23-01-25)
     - [23-01-09](#23-01-09)
     - [22-12-29](#22-12-29)
     - [22-12-20](#22-12-20)
@@ -44,6 +45,7 @@ https://eleventy-excellent.netlify.app/
 - Syntax highlighting via eleventy-plugin-syntaxhighlight _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-some-code/))_
 - Advanced markdown handling _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-all-the-markdown/))_
 - 301 redirects for Netlify _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-301-redirects/))_
+- Automatically generated Open Graph images for blog posts _([see blog post](https://eleventy-excellent.netlify.app/blog/open-graph-images/))_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
 - Bundling via esbuild
@@ -98,6 +100,11 @@ npm run build
 - [lenesaile.com](https://www.lenesaile.com/) (heavily customized)
 
 ## Logbook
+
+### 23-01-25
+
+- updated Elevebty
+- minor: added automatically generated open graph images for blog posts
 
 ### 23-01-09
 
@@ -200,3 +207,9 @@ Manuel is an accessibility expert. The menu I'm using is from one of his article
 
 - https://web.dev/website-navigation/
 - https://www.matuzo.at/
+
+**Bernard Nijenhuis**
+
+Bernard wrote the article on which the Open Graph Images implementation is based.
+
+- https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/
