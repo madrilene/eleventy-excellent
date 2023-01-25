@@ -5,6 +5,7 @@ date: 2023-01-25
 ---
 
 When you share your blog posts, a thumbnail image appears - the image we define as an Open Graph Image.
+
 Eleventy Excellent generates these images for your blog posts automatically.
 
 `meta-info.njk`
@@ -19,5 +20,4 @@ Eleventy Excellent generates these images for your blog posts automatically.
 />
 ```
 
-To edit the look and behaviour of those images edit `src/social-preview.njk`.
-The implementation is based on [Bernard Nijenhuis article](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/).
+To change the look and behaviour of those images and replace the SVG background edit `src/social-preview.njk`. The implementation is based on [Bernard Nijenhuis article](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/).
