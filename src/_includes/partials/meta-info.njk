@@ -38,8 +38,7 @@
 />
 <meta
   property="og:image"
-  content="{{ meta.url }}
-  {% if (layout == 'post') %}/assets/images/social-preview/{{
+  content="{{ meta.url }}{% if (layout == 'post') %}/assets/images/social-preview/{{
     title | slugify
   }}-preview.jpeg
   {% else %}{{ meta.meta_data.opengraph_default }}
