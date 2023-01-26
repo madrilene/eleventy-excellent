@@ -18,7 +18,7 @@ layout: base
   <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
     {% set postslist = collections.posts %} {% for post in postslist %}
 
-    <li class="card flow clickable-card overflow-hidden">
+    <li class="card flow overflow-hidden">
       <h2>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h2>
