@@ -34,6 +34,19 @@
   text-decoration: none;
 }
 
+/* 'clickable' */
+
 .card:focus-within a:focus {
   outline: none;
+}
+.card {
+  position: relative;
+}
+.card a:after {
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

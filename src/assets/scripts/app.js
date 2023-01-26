@@ -1,4 +1,4 @@
-// ------------------- responsive accessible nav by Manuel Matuzović: https://web.dev/website-navigation/
+// © Manuel Matuzović: https://web.dev/website-navigation/
 
 const nav = document.querySelector('nav');
 const list = nav.querySelector('ul');
@@ -33,20 +33,3 @@ document.addEventListener('click', e => {
 });
 
 nav.insertBefore(burgerClone, list);
-
-// ------------------- accessible clickable cards solution by Heydon Pickering: https://inclusive-components.design/cards/
-
-const cards = [...document.querySelectorAll('.card')];
-cards.forEach(card => {
-  card.style.cursor = 'pointer';
-  let down,
-    up,
-    link = card.querySelector('a');
-  card.onmousedown = () => (down = +new Date());
-  card.onmouseup = () => {
-    up = +new Date();
-    if (up - down < 200) {
-      link.click();
-    }
-  };
-});

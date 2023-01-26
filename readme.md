@@ -101,6 +101,10 @@ npm run build
 
 ## Logbook
 
+- Replaced Heydon's redundant click event for cards with his pseudo-content trick solution so we don't lose the context menu.
+  \- https://inclusive-components.design/cards/#theredundantclickevent
+  \+ https://inclusive-components.design/cards/#thepseudocontenttrick
+
 ### 23-01-25
 
 - updated Elevebty
