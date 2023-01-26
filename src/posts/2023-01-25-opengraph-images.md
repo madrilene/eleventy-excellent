@@ -4,9 +4,9 @@ description: 'When you share your blog posts, a thumbnail image appears - the im
 date: 2023-01-25
 ---
 
-When you share your blog posts, a thumbnail image appears - the image we define as an Open Graph Image.
+When you share your blog posts, a thumbnail image my appear - the image we define in our meta data as an Open Graph Image (`og:image`).
 
-Eleventy Excellent generates these images for your blog posts automatically.
+This starter now generates these images for your blog posts automatically.
 The fallback and default image for all other pages is the image set as `opengraph_default` in the `meta.js` global data file.
 
 `meta-info.njk`
