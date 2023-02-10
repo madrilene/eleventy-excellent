@@ -60,7 +60,7 @@ https://eleventy-excellent.netlify.app/
 - Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain.
 - Edit your social media in `src/_data/social.js` and `src/_includes/icons`. If you add new icons they must be prefixed with "social-". By default you have rss, mastodon, twitter, ko-fi, linkedin and github. Great resource: https://lucide.dev/
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
-- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/css/design-tokens`.
+- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens`.
 - Optional: set your (favicon) icons in `src/assets/images/favicon`.
 - Optional: rename `.env-sample` to `.env` adn set custom URL for local development
 
