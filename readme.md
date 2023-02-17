@@ -62,7 +62,7 @@ https://eleventy-excellent.netlify.app/
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
 - Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens`.
 - Optional: set your (favicon) icons in `src/assets/images/favicon`.
-- Optional: rename `.env-sample` to `.env` adn set custom URL for local development
+- Optional: rename `.env-sample` to `.env` and set custom URL for local development.
 
 ## Deploy directly to Netlify
 
