@@ -94,11 +94,13 @@ npm run build
 
 ## Built with Eleventy Excellent
 
-- [andystitt.com](https://andystitt.com/) (slightly customized)
-- [figcat.com](https://figcat.com/) (heavily customized)
-- [stephenanfield.com](https://stephenanfield.com/) (slightly customized)
-- [krgr.dev](https://krgr.dev/) (slightly customized)
-- [lenesaile.com](https://www.lenesaile.com/) (heavily customized)
+- [flamedfury.com](https://flamedfury.com/)
+- [deimidis.me](https://deimidis.me/)
+- [andystitt.com](https://andystitt.com/)
+- [figcat.com](https://figcat.com/)
+- [stephenanfield.com](https://stephenanfield.com/)
+- [krgr.dev](https://krgr.dev/)
+- [lenesaile.com](https://www.lenesaile.com/)
 
 ## Logbook
 
@@ -112,7 +114,7 @@ npm run build
 
 ### 23-01-25
 
-- updated Elevebty
+- updated Eleventy
 - minor: added automatically generated open graph images for blog posts
 
 ### 23-01-09
