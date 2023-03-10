@@ -1,7 +1,7 @@
 # Eleventy Excellent
 
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
-
+I have been told that it is very easy to use, and no compliment could make me happier.
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 Also let me know if you miss any features. Currently in planning: dark mode, inlining CSS and JS.
 
@@ -95,7 +95,7 @@ npm run build
 
 ## Built with Eleventy Excellent
 
-I am very proud that the starter is so well received! I have been told that it is very easy to use, even for "beginners"! No compliment could make me happier. Here is a list of sites based on eleventy-excellent, some only slightly modified, others completely transformed.
+A list of sites based on eleventy-excellent, some only slightly modified, others completely transformed.
 
 - [joewrites.io](https://joewrites.io/)
 - [flamedfury.com](https://flamedfury.com/)
