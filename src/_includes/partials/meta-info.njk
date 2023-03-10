@@ -45,6 +45,11 @@
   {% endif %}"
 />
 <meta
+  property="og:image:alt"
+  content="{% if (layout == 'post') %}{% else %}{{ meta.meta_data.opengraph_default_alt }}
+{% endif %}"
+/>
+<meta
   property="og:description"
   content="{% if description %}{{ description }}{% else %}{{
     meta.siteDescription
