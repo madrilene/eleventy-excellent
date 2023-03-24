@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: dark mode, inl
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [23-03-24](#23-03-24)
     - [23-01-26](#23-01-26)
     - [23-01-25](#23-01-25)
     - [23-01-09](#23-01-09)
@@ -107,6 +108,10 @@ A list of sites based on eleventy-excellent, some only slightly modified, others
 - [lenesaile.com](https://www.lenesaile.com/)
 
 ## Logbook
+
+### 23-03-24
+
+Extended the "Images" blog post with an example with custom `sizes` attribute and explained where the CSS can be adjusted.
 
 ### 23-01-26
 
