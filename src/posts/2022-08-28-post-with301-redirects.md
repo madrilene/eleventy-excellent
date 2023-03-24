@@ -4,7 +4,7 @@ description: 'A 301 is used when a page has permanently changed location. Inform
 date: 2022-08-28
 ---
 
-URLs usually change over time, as you use another CMS or optimizye your file structure.
+URLs usually change over time, as you use another CMS or optimize your file structure.
 
 A 301 is used when a page has permanently changed location.
 Informing about this change is indispensable if you want to keep your incoming links working, be it from organic Google search or other pages that have linked to your content.
