@@ -2,13 +2,18 @@ const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const htmlmin = require('html-minifier-terser');
 
-const imageShortcodePlaceholder = async (src, alt, caption, sizes = '100vw') => {
+const imageShortcodePlaceholder = async (
+  src,
+  alt,
+  caption,
+  sizes = '(min-width: 55rem) 820px, 100vw'
+) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
   let metadata = await Image(src, {
-    widths: [400, 700, 1280],
+    widths: [320, 570, 820],
     formats: ['avif', 'webp', 'jpeg'],
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',
@@ -20,7 +25,7 @@ const imageShortcodePlaceholder = async (src, alt, caption, sizes = '100vw') => 
     }
   });
 
-  let lowsrc = metadata.jpeg[0];
+  let lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
 
   // getting the url  to use
   let imgSrc = src;
