@@ -7,14 +7,13 @@ const svg = nav.querySelector('svg');
 
 const button = burgerClone.querySelector('button');
 button.addEventListener('click', e => {
-  const isOpen = button.getAttribute('aria-expanded') === 'false';
-  button.setAttribute('aria-expanded', isOpen);
+  const isOpen = button.getAttribute('aria-expanded') === 'true';
+  button.setAttribute('aria-expanded', !isOpen);
 });
 
 // avoid DRY: disabling menu
 const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
-  button.focus();
 };
 
 //  close on escape

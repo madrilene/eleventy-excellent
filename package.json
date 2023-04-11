@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
@@ -34,7 +34,7 @@
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
     "clean-css": "^5.3.1",
-    "cssnano": "^5.1.7",
+    "cssnano": "^6.0.0",
     "dayjs": "^1.11.5",
     "dotenv": "^16.0.3",
     "esbuild": "^0.17.0",
@@ -56,7 +56,7 @@
     "postcss-import": "^15.0.0",
     "postcss-import-ext-glob": "^2.0.1",
     "postcss-js": "^4.0.0",
-    "rimraf": "^4.0.5",
+    "rimraf": "^5.0.0",
     "sanitize-html": "^2.7.2",
     "slugify": "^1.6.5"
   }

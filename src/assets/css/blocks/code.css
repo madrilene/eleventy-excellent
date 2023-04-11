@@ -38,20 +38,6 @@ pre[class*='language-'] {
   hyphens: none;
 }
 
-code[class*='language-']::-moz-selection,
-pre[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection,
-pre[class*='language-'] ::-moz-selection {
-  background: var(--color-dark);
-}
-
-code[class*='language-']::selection,
-pre[class*='language-']::selection,
-code[class*='language-'] ::selection,
-pre[class*='language-'] ::selection {
-  background: var(--color-dark);
-}
-
 :not(pre) > code[class*='language-'] {
   white-space: normal;
   border-radius: var(--border-radius);
