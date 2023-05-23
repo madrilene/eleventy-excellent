@@ -22,6 +22,6 @@
   margin-top: var(--space-s);
 }
 
-.prose :is(ul, ol) {
+.prose :not(.grid) :is(ul, ol) {
   padding-inline-start: var(--space-s);
 }
