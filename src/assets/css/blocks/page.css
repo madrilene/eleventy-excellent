@@ -1,4 +1,5 @@
 .page img {
   max-inline-size: var(--max-img-width, 100%);
   block-size: auto;
+  border: 1px solid var(--color-dark);
 }

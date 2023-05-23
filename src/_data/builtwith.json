@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Lene Saile",
+    "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
+    "screenshot": "./src/assets/images/screenshots/lenesaile.jpg",
+    "link": "https://www.lenesaile.com"
+  },
+  {
+    "name": "Old man yelling at tech",
+    "description": "Former software engineer turned manager rediscovers his love for coding and infrastructure.",
+    "screenshot": "./src/assets/images/screenshots/krgr.jpg",
+    "link": "https://krgr.dev"
+  },
+  {
+    "name": "FigCat",
+    "description": "FigCat is a repository of lists of creative works, games, and other items, compiled by hand from various sources.",
+    "screenshot": "./src/assets/images/screenshots/figcat.jpg",
+    "link": "https://figcat.com"
+  },
+  {
+    "name": "Andy Stitt",
+    "description": "Web developer specializing in accessibility",
+    "screenshot": "./src/assets/images/screenshots/andystitt.png",
+    "link": "https://andystitt.com"
+  },
+  {
+    "name": "deimidis.me",
+    "description": "Apuntes del mundo con medio siglo de vida",
+    "screenshot": "./src/assets/images/screenshots/deimidis.png",
+    "link": "https://deimidis.me"
+  },
+  {
+    "name": "fLaMEdFURY",
+    "description": "Personal website of 'fLaMEd'. Thoughts about the current and past state of the web.",
+    "screenshot": "./src/assets/images/screenshots/flamedfury.png",
+    "link": "https://flamedfury.com"
+  },
+  {
+    "name": "Joe writes",
+    "description": "Joe works on the Technical Content team at Starburst Data and contribute to the Trino OSS project.",
+    "screenshot": "./src/assets/images/screenshots/joewrites.jpg",
+    "link": "https://joewrites.io"
+  },
+  {
+    "name": "Misremembered",
+    "description": "Misremembered is the brain-child of Jon Michaels, a long-time sound editor, maker of tacos, and generally tech-minded fellow",
+    "screenshot": "./src/assets/images/screenshots/misremembered.jpg",
+    "link": "https://misremembe.red/"
+  }
+]

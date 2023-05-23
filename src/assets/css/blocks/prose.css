@@ -17,3 +17,11 @@
 .prose mark {
   background: var(--color-primary-glare);
 }
+
+.prose :not(.grid) li + li {
+  margin-top: var(--space-s);
+}
+
+.prose :is(ul, ol) {
+  padding-inline-start: 0.15ch;
+}
