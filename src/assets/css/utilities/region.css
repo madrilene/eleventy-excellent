@@ -4,6 +4,6 @@
  * Can either be configured by setting --region-space or use a default from the space scale
  */
 .region {
-  padding-top: var(--region-space-top, var(--space-l-2xl));
-  padding-bottom: var(--region-space-bottom, var(--space-l-2xl));
+  padding-block-start: var(--region-space-top, var(--space-l-2xl));
+  padding-block-end: var(--region-space-bottom, var(--space-l-2xl));
 }

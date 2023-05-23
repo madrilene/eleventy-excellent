@@ -4,7 +4,7 @@
   color: var(--color-light);
   padding: var(--space-m-l);
   border-radius: var(--border-radius);
-  max-width: unset;
+  max-inline-size: unset;
 }
 
 .card ::selection {

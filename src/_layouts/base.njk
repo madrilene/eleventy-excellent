@@ -18,12 +18,6 @@
       {% endif %}
     </title>
 
-    <!-- synchronous js / schema  -->
-    {% include "schemas/base-schema.njk" %} {% if schema == 'blog' %}
-    <!-- include blogpost schema  -->
-    {%- include "schemas/blogpost-schema.njk" %} {% endif %}
-
-    <!-- synchronous css / inline css  -->
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
     <!-- preloads -->

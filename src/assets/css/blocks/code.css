@@ -227,5 +227,5 @@ pre[class*='language-'] {
 
 .cp_embed_wrapper iframe {
   grid-area: container;
-  width: 100%;
+  inline-size: 100%;
 }

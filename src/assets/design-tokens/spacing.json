@@ -6,6 +6,11 @@
   },
   "items": [
     {
+      "name": "2XS",
+      "min": 8,
+      "max": 10
+    },
+    {
       "name": "XS",
       "min": 12,
       "max": 15
@@ -17,28 +22,28 @@
     },
     {
       "name": "M",
-      "min": 24,
-      "max": 30
-    },
-    {
-      "name": "L",
       "min": 32,
       "max": 40
     },
     {
-      "name": "XL",
+      "name": "L",
       "min": 48,
       "max": 60
     },
     {
+      "name": "XL",
+      "min": 80,
+      "max": 100
+    },
+    {
       "name": "2XL",
-      "min": 64,
-      "max": 80
+      "min": 128,
+      "max": 160
     },
     {
       "name": "3XL",
-      "min": 96,
-      "max": 120
+      "min": 208,
+      "max": 260
     },
     {
       "name": "XS - S",

@@ -1,4 +1,4 @@
-@media (min-width: 48em) {
+@media (min-width: 38em) {
   nav.navbar {
     --nav-button-display: none;
     --nav-position: static;
@@ -35,16 +35,15 @@ nav.navbar ul {
   box-shadow: var(--nav-list-shadow, -5px 0 11px 0 rgb(0 0 0 / 0.2));
   display: flex;
   flex-direction: var(--nav-list-layout, column);
-  flex-wrap: wrap;
   gap: 0.9rem;
-  height: var(--nav-list-height, 100vh);
+  block-size: var(--nav-list-height, 100vh);
   list-style: none;
   margin: 0;
   padding: var(--nav-list-padding, 2rem);
   position: var(--nav-list-position, fixed);
   inset-block-start: 0; /* Logical property. Equivalent to top: 0; */
   inset-inline-end: 0; /* Logical property. Equivalent to right: 0; */
-  width: var(--nav-list-width, min(22rem, 100vw));
+  inline-size: var(--nav-list-width, min(22rem, 100vw));
   visibility: var(--nav-list-visibility, visible);
 }
 
@@ -95,15 +94,15 @@ nav.navbar button {
 }
 
 nav.navbar span {
-  font-size: var(--size-step-0);
+  font-size: var(--size-step-min-1);
   font-weight: bold;
   text-transform: uppercase;
-  padding-inline-end: var(--space-xs);
+  padding-inline-end: var(--space-2xs);
 }
 
 nav.navbar svg {
-  height: 100%;
-  width: auto;
+  block-size: 100%;
+  inline-size: auto;
 }
 header svg {
   transform: translateY(-0.1em);

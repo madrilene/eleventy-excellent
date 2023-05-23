@@ -1,10 +1,10 @@
 .skip-link {
   clip: rect(1px, 1px, 1px, 1px);
   display: block;
-  height: 1px;
+  block-size: 1px;
   overflow: hidden;
   position: absolute;
-  width: 1px;
+  inline-size: 1px;
   top: 1rem;
   left: 1rem;
   z-index: 999;
@@ -12,9 +12,9 @@
 
 .skip-link:focus {
   clip: auto;
-  height: auto;
+  block-size: auto;
   overflow: visible;
-  width: auto;
+  inline-size: auto;
   background-color: var(--color-dark);
   color: var(--color-light);
   padding: var(--space-s-m);
@@ -24,11 +24,11 @@
 .skip-link:not(:focus) {
   border: 0;
   clip: rect(0 0 0 0);
-  height: auto;
+  block-size: auto;
   margin: 0;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
+  inline-size: 1px;
   white-space: nowrap;
 }

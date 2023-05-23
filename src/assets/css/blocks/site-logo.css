@@ -3,7 +3,8 @@
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  gap: var(--space-xs);
-  letter-spacing: -0.08rem;
+  gap: var(--space-2xs);
+  letter-spacing: var(--tracking-s);
   padding: var(--space-xs) 0;
+  font-size: var(--size-step-1);
 }
