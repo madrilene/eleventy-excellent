@@ -16,6 +16,7 @@ Also let me know if you miss any features. Currently in planning: dark mode, inl
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Logbook](#logbook)
+    - [23-05-23](#23-05-23)
     - [23-03-24](#23-03-24)
     - [23-01-26](#23-01-26)
     - [23-01-25](#23-01-25)
@@ -57,14 +58,7 @@ https://eleventy-excellent.netlify.app/
 
 ## First steps
 
-- **Important:** edit meta data in `src/_data/meta.js`, it's being used all over the template.
-- Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain.
-- Edit your social media in `src/_data/social.js` and `src/_includes/icons`. If you add new icons they must be prefixed with "social-". By default you have rss, mastodon, twitter, ko-fi, linkedin and github. Great resource: https://lucide.dev/
-- Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
-- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens`.
-- Optional: set your (favicon) icons in `src/assets/images/favicon`.
-- Optional: rename `.env-sample` to `.env` and set custom URL for local development.
-- Optional: Change fonts. This starter uses three fonts, Red Hat Display, Inter and Roboto Mono. You can add or delete fonts in `src/assets/fonts`. I recommend creating font subsets for performance, for example using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Next, edit `src/assets/css/global/fonts.css`. Add your new font aliases in `src/assets/design-tokens/fonts.json`. Finally, in `src/_layouts/base.njk` edit the font preloads. Roboto Mono is only used for code blocks. It's preload is set directly in the post layout: `src/_layouts/post.njk`.
+[Please read the Get started docs!](https://eleventy-excellent.netlify.app/get-started/)
 
 ## Deploy directly to Netlify
 
@@ -96,19 +90,14 @@ npm run build
 
 ## Built with Eleventy Excellent
 
-A list of sites based on eleventy-excellent, some only slightly modified, others completely transformed.
-
-- [misremembe.red](https://misremembe.red/)
-- [joewrites.io](https://joewrites.io/)
-- [flamedfury.com](https://flamedfury.com/)
-- [deimidis.me](https://deimidis.me/)
-- [andystitt.com](https://andystitt.com/)
-- [figcat.com](https://figcat.com/)
-- [stephenanfield.com](https://stephenanfield.com/)
-- [krgr.dev](https://krgr.dev/)
-- [lenesaile.com](https://www.lenesaile.com/)
+[Sites that are based on / built with Eleventy Excellent. ](https://eleventy-excellent.netlify.app/built-with/)
+Add your site by submitting a pull request! :)
 
 ## Logbook
+
+### 23-05-23
+
+There was a weird error on Chrome with flex-wrap in the menus. Also, I updated all sizing properties to logical properties. Instead of featuring the sites built with Eleventy Excellent in the README, I created [a page for it](https://eleventy-excellent.netlify.app/built-with/). Same goes for [Getting started](https://eleventy-excellent.netlify.app/get-started/). I deleted the Netlify a11y plugin, as it seems unmaintained.
 
 ### 23-03-24
 

@@ -12,8 +12,8 @@ youtube: false
 - Edit your social media in `src/_data/social.js` and `src/_includes/icons`. If you add new icons they must be prefixed with "social-". By default you have RSS, mastodon, twitter, ko-fi, linkedin and github. Great resource: https://lucide.dev/
 - Edit your navigation items in `src/_data/navigation.js`.
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
-- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens`.
-- Optional: set your custom (favicon) icons in `src/assets/images/favicon`.
+- Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens/*.json`.
+- Optional: add your custom (favicon) icons in `src/assets/images/favicon`.
 - Optional: rename `.env-sample` to `.env` and set custom URL for local development.
 - Optional: Change fonts. This starter uses three fonts, Red Hat Display, Inter and Roboto Mono. You can add or delete fonts in `src/assets/fonts`. I recommend creating font subsets for performance, for example using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Next, edit `src/assets/css/global/fonts.css`. Add your new font aliases in `src/assets/design-tokens/fonts.json`. Finally, in `src/_layouts/base.njk` edit the font preloads. Roboto Mono is only used for code blocks. It's preload is set directly in the post layout: `src/_layouts/post.njk`.
 - If you don't want to feature any code examples, you may delete the whole stylesheet for syntax highlighting: `src/assets/css/blocks/code.css`.
