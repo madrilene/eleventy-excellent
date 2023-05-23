@@ -6,6 +6,8 @@ layout: page
 youtube: false
 ---
 
+asdfsadf
+
 - **Important:** edit meta data in `src/_data/meta.js`, it's being used all over the template.
 - Have a look at the [blog posts](/blog/), they explain some basic features that aren't covered here.
 - Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain. This is about the external link indicators, they are matched with your domain. If you don't want to use external link indicators, delete the whole style rule.

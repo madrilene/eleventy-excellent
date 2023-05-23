@@ -23,5 +23,5 @@
 }
 
 .prose :is(ul, ol) {
-  padding-inline-start: 0.15ch;
+  padding-inline-start: var(--space-s);
 }
