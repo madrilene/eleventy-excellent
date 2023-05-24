@@ -3,7 +3,11 @@ title: Get started
 permalink: /get-started/index.html
 description: Websites built with this starter
 layout: page
-youtube: false
+preloads:
+  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
+  as: 'font'
+  type: 'font/woff2'
+  crossorigin: true
 ---
 
 - **Important:** edit meta data in `src/_data/meta.js`, it's being used all over the template.
