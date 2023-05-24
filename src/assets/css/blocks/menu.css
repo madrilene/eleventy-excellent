@@ -64,10 +64,14 @@ nav.navbar [aria-expanded='false'] + ul {
 /* Basic link styling */
 nav.navbar a {
   --text-color: var(--color-dark);
-  border-block-end: 3px solid var(--border-color, transparent);
   color: var(--text-color);
   padding: 0.1rem;
   text-decoration: none;
+  display: block;
+  text-decoration-line: underline;
+  text-decoration-color: var(--border-color, transparent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.3em;
 }
 
 /* Change the border-color on :hover and :focus */

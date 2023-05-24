@@ -45,6 +45,12 @@
     "name": "Misremembered",
     "description": "Misremembered is the brain-child of Jon Michaels, a long-time sound editor, maker of tacos, and generally tech-minded fellow",
     "screenshot": "./src/assets/images/screenshots/misremembered.jpg",
-    "link": "https://misremembe.red/"
+    "link": "https://misremembe.red"
+  },
+  {
+    "name": "Esther Zecco",
+    "description": "Official website of Esther Zecco. Singer and songwriter of pop music from Segovia with influences of American folk and country.",
+    "screenshot": "./src/assets/images/screenshots/estherzecco.jpg",
+    "link": "https://estherzecco.com"
   }
 ]
