@@ -8,6 +8,9 @@
   display: flex;
   gap: var(--space-xs-s);
   justify-content: center;
+}
+
+:not(nav).site-foot__inner {
   flex-wrap: wrap;
 }
 
