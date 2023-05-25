@@ -7,6 +7,12 @@
  *  - `./config/transforms/index.js`
  */
 
+// JSDoc comment: Hint VS Code for eleventyConfig autocompletion. © Henry Desroches - https://gist.github.com/xdesro/69583b25d281d055cd12b144381123bf
+
+/**
+ *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
+ */
+
 // get package.json
 const packageVersion = require('./package.json').version;
 

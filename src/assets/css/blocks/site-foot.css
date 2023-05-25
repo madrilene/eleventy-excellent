@@ -6,15 +6,16 @@
 
 .site-foot__inner {
   display: flex;
-  gap: var(--space-xs-s);
+  gap: var(--space-s);
   justify-content: center;
+  align-items: center;
 }
 
-:not(nav).site-foot__inner {
+:not(nav#social).site-foot__inner {
   flex-wrap: wrap;
 }
 
 .site-foot svg {
-  block-size: 1em;
-  inline-size: 1em;
+  block-size: 0.9em;
+  inline-size: 0.9em;
 }

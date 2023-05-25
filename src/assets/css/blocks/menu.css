@@ -39,7 +39,7 @@ nav.navbar ul {
   block-size: var(--nav-list-height, 100vh);
   list-style: none;
   margin: 0;
-  padding: var(--nav-list-padding, 2rem);
+  padding: var(--nav-list-padding, var(--space-l) var(--space-s));
   position: var(--nav-list-position, fixed);
   inset-block-start: 0; /* Logical property. Equivalent to top: 0; */
   inset-inline-end: 0; /* Logical property. Equivalent to right: 0; */
