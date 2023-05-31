@@ -18,7 +18,7 @@ preloads:
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
 - Edit your preferences (colors, fluid text sizes etc.) in `src/assets/design-tokens/*.json`.
 - Optional: add your custom (favicon) icons in `src/assets/images/favicon`.
-- Optional: rename `.env-sample` to `.env`. Yo may set a custom URL for local development and add your own variables.
+- Optional: rename `.env-sample` to `.env`. You may set a custom URL for local development and add your own variables.
 - Optional: Change fonts. This starter uses three fonts, Red Hat Display, Inter and Roboto Mono. You can add or delete fonts in `src/assets/fonts`. I recommend creating font subsets for performance, for example using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Next, edit `src/assets/css/global/fonts.css`. Add your new font aliases in `src/assets/design-tokens/fonts.json`. Finally, in `src/_layouts/base.njk` edit the font preloads. Roboto Mono is only used for code blocks. It's preload is set directly in the post layout: `src/_layouts/post.njk`.
 - If you don't want to feature any code examples, you may delete the whole stylesheet for syntax highlighting: `src/assets/css/blocks/code.css`.
 - Add and delete your custom block stylesheets in `src/assets/css/blocks/*.css`, they get pulled in your output stylesheet automatically.
