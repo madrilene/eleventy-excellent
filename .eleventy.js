@@ -125,10 +125,6 @@ module.exports = eleventyConfig => {
     'src/assets/images/favicon/*': '/'
   });
 
-  eleventyConfig.addPassthroughCopy({
-    'src/assets/css/global.css': 'src/_includes/global.css'
-  });
-
   // 	--------------------- general config -----------------------
   return {
     // Pre-process *.md, *.html and global data files files with: (default: `liquid`)
