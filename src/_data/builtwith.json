@@ -1,5 +1,11 @@
 [
   {
+    "name": "Refugio Libertad",
+    "description": "Organización de trabajadores y trabajadoras de la economía popular que habitamos en pequeños pueblos y zonas rurales de la provincia de Córdoba (Argentina).",
+    "screenshot": "./src/assets/images/screenshots/refugiolibertad.png",
+    "link": "https://refugio.libre.org.ar"
+  },
+  {
     "name": "Lene Saile",
     "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
     "screenshot": "./src/assets/images/screenshots/lenesaile.jpg",
