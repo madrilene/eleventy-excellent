@@ -1,11 +1,5 @@
 [
   {
-    "name": "Art of Lucas",
-    "description": "Former frontend developer, currently studying animation and visual development",
-    "screenshot": "./src/assets/images/screenshots/artoflucas.png",
-    "link": "https://lucas.art"
-  },
-  {
     "name": "Refugio Libertad",
     "description": "Organización de trabajadores y trabajadoras de la economía popular que habitamos en pequeños pueblos y zonas rurales de la provincia de Córdoba (Argentina).",
     "screenshot": "./src/assets/images/screenshots/refugiolibertad.png",
