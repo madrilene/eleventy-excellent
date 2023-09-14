@@ -1,6 +1,9 @@
 ---
 title: Blog
-description: 'All blog posts can be found here'
+description: "All blog posts can be found here"
 layout: blog
-permalink: /blog/index.html
+pagination:
+  data: collections.posts
+  size: 3
+permalink: "blog/page-{{ pagination.pageNumber }}/index.html"
 ---

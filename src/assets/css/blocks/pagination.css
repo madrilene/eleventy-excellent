@@ -1,0 +1,28 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0;
+}
+
+.pagination li {
+  border: 3px solid var(--color-dark);
+  border-radius: var(--border-radius);
+}
+
+.pagination li:not(:has(a)) {
+  padding: var(--space-xs) var(--space-s-m);
+  opacity: 0.6;
+}
+
+.pagination a {
+  padding: var(--space-xs) var(--space-s-m);
+  text-decoration: none;
+  display: block;
+}
+
+.pagination li:has(a[aria-current="page"]) {
+  background-color: #333;
+  color: #fff;
+}
