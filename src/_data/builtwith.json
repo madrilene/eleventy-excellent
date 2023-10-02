@@ -58,5 +58,11 @@
     "description": "Official website of Esther Zecco. Singer and songwriter of pop music from Segovia with influences of American folk and country.",
     "screenshot": "./src/assets/images/screenshots/estherzecco.jpg",
     "link": "https://estherzecco.com"
+  },
+  {
+    "name": "Project MB",
+    "description": "My personal website.I write about productivity, PKM, team happiness, agile, technology and whatever happens to be interested of..",
+    "screenshot": "./src/assets/images/screenshots/projectmb.png",
+    "link": "https://www.projectmb.com/"
   }
 ]
