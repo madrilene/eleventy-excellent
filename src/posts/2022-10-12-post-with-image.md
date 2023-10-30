@@ -37,10 +37,6 @@ Add your own `sizes` attribute (note how I set an empty string for the caption):
 
 {% imagePlaceholder "./src/assets/images/opengraph-default.jpg", "The preview for social media", "An interesting caption text." %}
 
-### Link to original image
-
-{% imageLink "./src/assets/images/opengraph-default.jpg", "The preview for social media" %}
-
 ## CSS
 
 You can change the CSS for the page and blog post images in `./src/assets/css/blocks/page.css` and `./src/assets/css/blocks/blog.css`:
