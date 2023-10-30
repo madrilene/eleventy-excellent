@@ -2,18 +2,18 @@ const Image = require('@11ty/eleventy-img');
 const path = require('path');
 const htmlmin = require('html-minifier-terser');
 
-const imageShortcodePlaceholder = async (
+const imageLinkToOriginal = async (
   src,
   alt,
   caption,
-  sizes = '(min-width: 55rem) 820px, 100vw'
+  sizes = '(min-width: 55rem) 880px, 100vw'
 ) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
   let metadata = await Image(src, {
-    widths: [320, 570, 820, null],
+    widths: [320, 570, 880, null],
     formats: ['avif', 'webp', 'jpeg'],
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',
@@ -37,33 +37,30 @@ const imageShortcodePlaceholder = async (
   }
 
   return htmlmin.minify(
-    `<a href="${original.url}"><figure>
-     <picture>
-    ${Object.values(metadata)
-      .map(imageFormat => {
-        return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat
-          .map(entry => entry.srcset)
-          .join(', ')}" sizes="${sizes}">`;
-      })
-      .join('\n')}
-      <img
-        src="/assets/images/image-placeholder.png"
-        data-src="${lowsrc.url}"
-        width="${lowsrc.width}"
-        height="${lowsrc.height}"
-        alt="${alt}"
-				loading = 'lazy'
-        decoding="async">
-    </picture>
-    ${
-      caption
-        ? `<figcaption class="cluster font-display"><p>${caption}</p>
-	</figcaption>`
-        : ``
-    }
-</figure></a>`,
+    `<a href="${original.url}">
+     <figure class="flow">
+      <picture>
+      ${Object.values(metadata)
+        .map(imageFormat => {
+          return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat
+            .map(entry => entry.srcset)
+            .join(', ')}" sizes="${sizes}">`;
+        })
+        .join('\n')}
+        <img
+          src="/assets/images/image-placeholder.png"
+          data-src="${lowsrc.url}"
+          width="${lowsrc.width}"
+          height="${lowsrc.height}"
+          alt="${alt}"
+          loading = 'lazy'
+          decoding="async">
+      </picture>
+    ${caption ? `<figcaption>${caption}</figcaption>` : ``}
+    </figure>
+    </a>`,
     {collapseWhitespace: true}
   );
 };
 
-module.exports = imageShortcodePlaceholder;
+module.exports = imageLinkToOriginal;
