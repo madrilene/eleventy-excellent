@@ -64,3 +64,15 @@ textarea,
 select {
   font: inherit;
 }
+
+/* Adding cursor style to interactive elements */
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+[type='image'],
+[type='checkbox'],
+[type='radio'],
+summary {
+  cursor: pointer;
+}
