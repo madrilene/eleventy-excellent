@@ -1,7 +1,7 @@
 /* breakout content elements to wrapper based on full bleed image solution by josh cumeau. https://www.joshwcomeau.com/css/full-bleed/ */
 
 .content {
-  --wrapper-max-width: 75rem;
+  --wrapper-width: clamp(16rem, 93vw, 75rem);
   display: grid;
   grid-template-columns:
     1fr

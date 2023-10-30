@@ -7,7 +7,7 @@ date: 2022-10-12
 This starter uses Eleventy's build-time image transformations. Find more info on https://www.11ty.dev/docs/plugins/image/ and edit settings in `config/shortcodes/imagePlaceholder`.
 
 For now there are three image sizes: 320px, 570px and 820px.
-820px is the maximum size, equivalent to the width set for our content wrapper in `prose.css`: `--wrapper-max-width: 55rem;`.
+820px is the maximum size, equivalent to the width set for our content wrapper in `prose.css`: `--wrapper-width: clamp(16rem, 93vw, 55rem);`.
 
 The `sizes` attribute is set to `sizes = '(min-width: 55rem) 820px, 100vw'`.
 

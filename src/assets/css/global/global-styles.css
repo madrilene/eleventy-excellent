@@ -6,11 +6,17 @@
 */
 body {
   color: var(--color-dark);
-  background: var(--color-light);
+  background-color: var(--color-light);
   font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: 1.4;
   letter-spacing: var(--tracking);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
 }
 
 /* Base typesetting */
