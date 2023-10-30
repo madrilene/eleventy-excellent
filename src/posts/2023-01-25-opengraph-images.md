@@ -1,6 +1,6 @@
 ---
 title: 'Open Graph images'
-description: 'When you share your blog posts, a thumbnail image appears - the image we define as an Open Graph Image. This starter generates these images for your blog posts automatically.'
+description: 'When you share your blog posts, a thumbnail image might appear. This starter generates these images for your blog posts automatically.'
 date: 2023-01-25
 ---
 
