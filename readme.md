@@ -35,6 +35,7 @@ https://eleventy-excellent.netlify.app/
 - Advanced markdown handling _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-all-the-markdown/))_
 - 301 redirects for Netlify _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-301-redirects/))_
 - Automatically generated Open Graph images for blog posts _([see blog post](https://eleventy-excellent.netlify.app/blog/open-graph-images/))_
+- More features in seperate demo branches _([see blog post](https://eleventy-excellent.netlify.app/blog/demo-pages/))_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
 - Bundling via esbuild
@@ -80,6 +81,11 @@ npm run build
 Add your site by submitting a pull request! :)
 
 ## Logbook
+
+**23-10-30**
+
+- Overall updates
+- New blog post: demo pages
 
 **23-05-23**
 
