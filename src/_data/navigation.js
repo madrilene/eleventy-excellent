@@ -1,6 +1,10 @@
 module.exports = {
   top: [
     {
+      text: 'Gallery',
+      url: '/gallery/'
+    },
+    {
       text: 'About',
       url: '/about/'
     },
