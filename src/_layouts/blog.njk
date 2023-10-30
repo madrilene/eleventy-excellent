@@ -7,6 +7,7 @@ layout: base
     <div class="wrapper flow">
       <section class="prose text-center">
         <h1 class="fade-in">{{ title }}</h1>
+
       </section>
     </div>
   </div>
@@ -14,13 +15,16 @@ layout: base
   {% include 'svg/divider-edgy.svg' %}
 </header>
 
-<article class="wrapper region">
-  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+<article class="region">
+  <div class="wrapper flow prose">  {{ content | safe }}</div>
+
+
+  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
     {%- for item in pagination.items %}
 
     <li class="card flow overflow-hidden">
       <h2>
-        <a href="{{ post.url | url }}">{{ item.data.title }}</a>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
       </h2>
       {% set definedDate = item.date %} {% include "partials/date.njk" %}
       <p>{{ item.data.description }}</p>
@@ -32,7 +36,7 @@ layout: base
 
   {% if pagination.data.length > pagination.size %}
 
-  <section class="wrapper region">
+  <section class="wrapper  region">
     <nav role="navigation" aria-label="Pagination">
       <ul class="pagination">
         <li>

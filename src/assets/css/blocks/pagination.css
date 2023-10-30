@@ -17,12 +17,21 @@
 }
 
 .pagination a {
+  text-decoration: none;
+}
+
+.pagination a {
   padding: var(--space-xs) var(--space-s-m);
   text-decoration: none;
   display: block;
 }
 
-.pagination li:has(a[aria-current="page"]) {
+.pagination li:not(:has(a)) {
+  padding: var(--space-xs) var(--space-s-m);
+  opacity: 0.7;
+}
+
+.pagination li:has(a[aria-current='page']) {
   background-color: #333;
   color: #fff;
 }
