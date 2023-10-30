@@ -22,6 +22,6 @@
   margin-top: var(--space-s);
 }
 
-.prose :when(ul:not(.grid), ol:not(.grid)) {
+.prose :where(ul:not(.grid), ol:not(.grid)) {
   padding-inline-start: var(--space-s);
 }
