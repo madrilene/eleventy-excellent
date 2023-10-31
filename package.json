@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "url": "https://github.com/madrilene/eleventy-excellent.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-img": "^3.0.0",
     "@11ty/eleventy-plugin-bundle": "^1.0.4",
