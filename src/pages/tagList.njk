@@ -1,0 +1,38 @@
+---
+layout: base
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+eleventyComputed:
+  title: '{{ tag }}'
+---
+
+<header class="section spot-color-light">
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <section class="prose text-center">
+        <h1 class="fade-in" style="color: var(--color-dark)">
+          tag: <span class="gradient-text">"{{ title }}"</span>
+        </h1>
+      </section>
+    </div>
+  </div>
+</header>
+
+<article class="wrapper">
+  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+    {% set taglist = collections[tag] | reverse %} {% for post in taglist %}
+
+    <li class="card flow overflow-hidden">
+      <h2>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      </h2>
+      {% set definedDate = post.date %} {% include "partials/date.njk" %}
+      <p>{{ post.data.description }}</p>
+    </li>
+
+    {% endfor %}
+  </ul>
+</article>

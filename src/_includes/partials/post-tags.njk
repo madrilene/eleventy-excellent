@@ -1,0 +1,7 @@
+<div class="my-s-m cluster">
+  {% for tag in tags %} {% if tag != "posts" %}
+  <a href="/tags/{{ tag }}" class="button">
+    {{ tag }}
+  </a>
+  {% endif %} {% endfor %}
+</div>
