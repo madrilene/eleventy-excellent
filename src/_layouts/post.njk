@@ -12,6 +12,10 @@ preloads:
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
 
+    <!-- include tags -->
+    {% include "partials/post-tags.njk" %}
+
+    <!-- include date -->
     {% set definedDate = date %} {% include "partials/date.njk" %}
 
     {{ content | safe }}
