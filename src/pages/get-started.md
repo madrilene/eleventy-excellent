@@ -12,7 +12,7 @@ preloads:
 
 - **Important:** edit meta data in `src/_data/meta.js`, it's being used all over the template.
 - Have a look at the [blog posts](/blog/), they explain some basic features that aren't covered here.
-- Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain. This is about the external link indicators, they are matched with your domain. If you don't want to use external link indicators, delete the whole style rule (not the whole style sheet!).
+- Search for 'eleventy-excellent.netlify.app'. You'll find an entry in `src/assets/css/global/global-styles.css`. Replace with your own domain. This is about the external link indicators, they are matched with your domain. If you don't want to use external link indicators, feel free to delete the whole style rule (not the whole style sheet!). You may also add the class `no-indicator` to any anchor element you want to except from this rule.
 - Edit your social media in `src/_data/social.js` and `src/_includes/icons`. If you add new icons they must be prefixed with "social-". By default you have RSS, mastodon, twitter, ko-fi, linkedin and github. Great resource: https://lucide.dev/
 - Edit your navigation items in `src/_data/navigation.js`.
 - Not required, but recommended: Delete `github.js` in `src/_data/github.js` and the blog posts, as these serve only as an example.
