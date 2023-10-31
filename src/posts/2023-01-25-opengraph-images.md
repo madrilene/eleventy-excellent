@@ -2,6 +2,7 @@
 title: 'Open Graph images'
 description: 'When you share your blog posts, a thumbnail image might appear. This starter generates these images for your blog posts automatically.'
 date: 2023-01-25
+tags: ['feature', 'image']
 ---
 
 When you share your blog posts, a thumbnail image may appear - the image we define in our meta data as an Open Graph Image (`og:image`).
