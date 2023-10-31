@@ -10,6 +10,7 @@
   transition-property: background-color, border;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing);
+  text-decoration: none;
 }
 
 .button:hover {
