@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
-    "clean-css": "^5.3.1",
+    "clean-css": "^5.3.3",
     "cssnano": "^6.0.0",
     "dayjs": "^1.11.5",
     "dotenv": "^16.0.3",
