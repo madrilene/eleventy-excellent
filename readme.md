@@ -41,6 +41,7 @@ https://eleventy-excellent.netlify.app/
 - 301 redirects for Netlify _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-301-redirects/))_
 - Automatically generated Open Graph images for blog posts _([see blog post](https://eleventy-excellent.netlify.app/blog/open-graph-images/))_
 - More features in seperate demo branches _([see blog post](https://eleventy-excellent.netlify.app/blog/demo-pages/))_
+- How Tailwind CSS is used here _([see blog post](https://eleventy-excellent.netlify.app/blog/what-is-tailwind-css-doing-here/))_
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
 - Bundling via esbuild
