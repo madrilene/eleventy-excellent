@@ -64,8 +64,8 @@
     "description": "My personal website.I write about productivity, PKM, team happiness, agile, technology and whatever happens to be interested of..",
     "screenshot": "./src/assets/images/screenshots/projectmb.png",
     "link": "https://www.projectmb.com/"
-  }
-    {
+  },
+  {
     "name": "httpster.io",
     "description": "httpster's personal website. Silly articles, rants, art and everything in between. ",
     "screenshot": "./src/assets/images/screenshots/httpsterio.png",
