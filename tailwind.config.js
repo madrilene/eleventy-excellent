@@ -20,7 +20,7 @@ const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
-  content: ['./src/**/*.{html,js,jsx,mdx,md,njk,liquid,twig,vue}'],
+  content: ['./src/**/*.{html,js,md,njk,liquid,twig,webc}'],
   presets: [],
   theme: {
     screens: {
