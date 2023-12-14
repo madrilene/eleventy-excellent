@@ -6,7 +6,6 @@ Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [bu
 [![Follow @lene@front-end.social](https://img.shields.io/mastodon/follow/109292536543732634?domain=https%3A%2F%2Ffront-end.social&style=flat-square&logo=Mastodon&logoColor=white&labelColor=%235B4BE1)](https://front-end.social/@lene)
 
 If you end up using this starter, feel free to send me a link, I'd love to see it!
-Also let me know if you miss any features. Currently in planning: dark mode, inlining CSS and JS.
 
 - [Eleventy Excellent](#eleventy-excellent)
   - [Preview](#preview)
