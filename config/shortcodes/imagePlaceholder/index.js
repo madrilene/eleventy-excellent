@@ -47,8 +47,7 @@ const imageShortcodePlaceholder = async (
         })
         .join('\n')}
         <img
-          src="/assets/images/image-placeholder.png"
-          data-src="${lowsrc.url}"
+          src="${lowsrc.url}"
           width="${lowsrc.width}"
           height="${lowsrc.height}"
           alt="${alt}"
