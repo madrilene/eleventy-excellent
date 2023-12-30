@@ -70,5 +70,11 @@
     "description": "httpster's personal website. Silly articles, rants, art and everything in between. ",
     "screenshot": "./src/assets/images/screenshots/httpsterio.png",
     "link": "https://httpster.io/"
+  },
+  {
+    "name": "ELAN",
+    "description": "Demo project for a fictional Berlin-based event agency.",
+    "screenshot": "./src/assets/images/screenshots/elan.jpg",
+    "link": "https://elan.maltebaer.vercel.app/"
   }
 ]
