@@ -16,7 +16,8 @@ Endpoint editable in `_data/github.js.`
 
 ## [{{ repository.name }}]({{ repository.html_url }})
 
-{% include 'svg/star.svg' %} {{ repository.stargazers_count }} / {{ repository.description }}
+**{{ repository.stargazers_count }} GitHub stars**
+{{ repository.description }}
 
 {% endif %}
 {% endfor %}
