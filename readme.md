@@ -11,14 +11,13 @@ If you end up using this starter, feel free to send me a link, I'd love to see i
   - [Preview](#preview)
   - [Features](#features)
   - [First steps](#first-steps)
-  - [Deploy directly to Netlify](#deploy-directly-to-netlify)
   - [Development](#development)
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
-  - [Logbook](#logbook)
   - [Credits and Thank yous](#credits-and-thank-yous)
+  - [Logbook](#logbook)
 
 ## Preview
 
@@ -50,10 +49,6 @@ https://eleventy-excellent.netlify.app/
 
 [Please read the Get started docs!](https://eleventy-excellent.netlify.app/get-started/)
 
-## Deploy directly to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
-
 ## Development
 
 ### Install dependencies
@@ -82,6 +77,57 @@ npm run build
 
 [Sites that are based on / built with Eleventy Excellent. ](https://eleventy-excellent.netlify.app/built-with/)
 Add your site by submitting a pull request! :)
+
+## Credits and Thank yous
+
+**Andy Bell**
+
+His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every Layout_ (which he co-authors). He has recently published an approach that incorporates Tailwind CSS into his methodology. Also, I learned how to use Eleventy in 2020 with his (now free) course.
+
+- https://buildexcellentwebsit.es/
+- https://cube.fyi/
+- https://learneleventyfromscratch.com/
+
+**Heydon Pickering**
+
+I strongly orientate myself on Heydon's approaches and really love his books.
+
+- https://every-layout.dev/
+- https://inclusive-components.design/
+
+**Zach Leatherman**
+
+He is developing Eleventy and is constantly making it even better!
+
+- https://www.11ty.dev/
+- https://www.zachleat.com/
+
+**Stephanie Eckles**
+
+Stephanie provides a lot of resources for Eleventy and modern CSS.
+
+- https://smolcss.dev/
+- https://moderncss.dev/
+
+**Aleksandr Hovhannisyan**
+
+I love order and structure. Aleksandr does this in an exemplary way, which is why I based the structure of eleventy.js on his personal site. The 301 redirect solution I'm using is from his blog.
+
+- https://github.com/AleksandrHovhannisyan
+- https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/
+
+**Manuel Matuzović**
+
+Manuel is an accessibility expert. The menu I'm using is from one of his articles on web.dev.
+
+- https://web.dev/website-navigation/
+- https://www.matuzo.at/
+
+**Bernard Nijenhuis**
+
+Bernard wrote the article on which the Open Graph Images implementation is based.
+
+- https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/
 
 ## Logbook
 
@@ -167,54 +213,3 @@ Extended the "Images" blog post with an example with custom `sizes` attribute an
 **22-10-03**
 
 - first commit. Updated
-
-## Credits and Thank yous
-
-**Andy Bell**
-
-His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every Layout_ (which he co-authors). He has recently published an approach that incorporates Tailwind CSS into his methodology. Also, I learned how to use Eleventy in 2020 with his (now free) course.
-
-- https://buildexcellentwebsit.es/
-- https://cube.fyi/
-- https://learneleventyfromscratch.com/
-
-**Heydon Pickering**
-
-I strongly orientate myself on Heydon's approaches and really love his books.
-
-- https://every-layout.dev/
-- https://inclusive-components.design/
-
-**Zach Leatherman**
-
-He is developing Eleventy and is constantly making it even better!
-
-- https://www.11ty.dev/
-- https://www.zachleat.com/
-
-**Stephanie Eckles**
-
-Stephanie provides a lot of resources for Eleventy and modern CSS.
-
-- https://smolcss.dev/
-- https://moderncss.dev/
-
-**Aleksandr Hovhannisyan**
-
-I love order and structure. Aleksandr does this in an exemplary way, which is why I based the structure of eleventy.js on his personal site. The 301 redirect solution I'm using is from his blog.
-
-- https://github.com/AleksandrHovhannisyan
-- https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/
-
-**Manuel Matuzović**
-
-Manuel is an accessibility expert. The menu I'm using is from one of his articles on web.dev.
-
-- https://web.dev/website-navigation/
-- https://www.matuzo.at/
-
-**Bernard Nijenhuis**
-
-Bernard wrote the article on which the Open Graph Images implementation is based.
-
-- https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/
