@@ -1,5 +1,3 @@
-// CSS and JavaScript as first-class citizens in Eleventy: https://pepelsbey.dev/articles/eleventy-css-js/
-
 const esbuild = require('esbuild');
 
 module.exports = eleventyConfig => {
@@ -8,7 +6,18 @@ module.exports = eleventyConfig => {
   eleventyConfig.addExtension('js', {
     outputFileExtension: 'js',
     compile: async (content, path) => {
-      if (path !== './src/assets/scripts/app.js') {
+      if (!path.startsWith('./src/assets/scripts/')) {
+        return;
+      }
+
+      if (path === './src/assets/scripts/theme-toggle.js') {
+        await esbuild.build({
+          target: 'es2020',
+          entryPoints: [path],
+          outfile: './src/_includes/theme-toggle-inline.js',
+          bundle: true,
+          minify: true
+        });
         return;
       }
 

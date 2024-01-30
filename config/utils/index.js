@@ -4,7 +4,7 @@ const slugify = require('slugify');
 const slugifyString = str => {
   return slugify(str, {
     replacement: '-',
-    remove: /[#,&,+()$~%.'":*?<>{}]/g,
+    remove: /[#,&,+()$~%.'":*¿?¡!<>{}]/g,
     lower: true
   });
 };

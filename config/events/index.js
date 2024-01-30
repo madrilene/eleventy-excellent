@@ -5,15 +5,15 @@ const fs = require('fs');
 const Image = require('@11ty/eleventy-img');
 
 const svgToJpeg = function () {
-  const socialPreviewImagesDir = 'dist/assets/images/social-preview/';
-  fs.readdir(socialPreviewImagesDir, (err, files) => {
+  const ogImagesDir = 'dist/assets/og-images/';
+  fs.readdir(ogImagesDir, (err, files) => {
     if (!!files && files.length > 0) {
       files.forEach(fileName => {
         if (fileName.endsWith('.svg')) {
-          let imageUrl = socialPreviewImagesDir + fileName;
+          let imageUrl = ogImagesDir + fileName;
           Image(imageUrl, {
             formats: ['jpeg'],
-            outputDir: './' + socialPreviewImagesDir,
+            outputDir: './' + ogImagesDir,
             filenameFormat: function (id, src, width, format, options) {
               let outputFileName = fileName.substring(0, fileName.length - 4);
               return `${outputFileName}.${format}`;

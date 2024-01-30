@@ -1,27 +1,8 @@
-const lodash = require('lodash');
 const dayjs = require('dayjs');
 const CleanCSS = require('clean-css');
-const markdownLib = require('../plugins/markdown');
 const site = require('../../src/_data/meta');
 const {throwIfNotType} = require('../utils');
-const md = require('markdown-it')();
-
-/** Returns the first `limit` elements of the the given array. */
-const limit = (array, limit) => {
-  if (limit < 0) {
-    throw new Error(`Negative limits are not allowed: ${limit}.`);
-  }
-  return array.slice(0, limit);
-};
-
-/** Returns all entries from the given array that match the specified key:value pair. */
-const where = (arrayOfObjects, keyPath, value) =>
-  arrayOfObjects.filter(object => lodash.get(object, keyPath) === value);
-
-/** Converts the given markdown string to HTML, returning it as a string. */
-const toHtml = markdownString => {
-  return markdownLib.renderInline(markdownString);
-};
+const esbuild = require('esbuild');
 
 /** Removes all tags from an HTML string. */
 const stripHtml = str => {
@@ -71,34 +52,6 @@ const minifyJs = async (code, ...rest) => {
   }
 };
 
-/**
- * Render content as inline markdown if single line, or full
- * markdown if multiline. for md in yaml
- * @param {string} [content]
- * @param {import('markdown-it').Options} [opts]
- * @return {string|undefined}
- */
-
-const mdInline = (content, opts) => {
-  if (!content) {
-    return;
-  }
-
-  if (opts) {
-    md.set(opts);
-  }
-
-  let inline = !content.includes('\n');
-
-  // If there's quite a bit of content, we want to make sure
-  // it's marked up for readability purposes
-  if (inline && content.length > 200) {
-    inline = false;
-  }
-
-  return inline ? md.renderInline(content) : md.render(content);
-};
-
 // source: https://github.com/bnijenhuis/bnijenhuis-nl/blob/main/.eleventy.js
 const splitlines = (input, maxCharLength) => {
   const parts = input.split(' ');
@@ -122,15 +75,11 @@ const splitlines = (input, maxCharLength) => {
 };
 
 module.exports = {
-  limit,
-  toHtml,
-  where,
   toISOString,
   formatDate,
   toAbsoluteUrl,
   stripHtml,
   minifyCss,
   minifyJs,
-  mdInline,
   splitlines
 };
