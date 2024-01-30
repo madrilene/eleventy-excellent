@@ -1,16 +1,15 @@
-{% set assetHash = global.random() %}
+{% set assetHash = helpers.random() %}
 
 <!DOCTYPE html>
 <html lang="{{ meta.lang }}">
   <head>
     <!-- charset/http-equiv/viewport -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- title -->
     <title>
-      {% if seo.title %} {{ seo.title }}
+      {% if discover.title %} {{ discover.title }}
       {% elif title %}
       {{ title }}
       {% else %}
@@ -18,23 +17,32 @@
       {% endif %}
     </title>
 
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    {% set jsthemetoggle %} {% include "theme-toggle-inline.js" %} {% endset %}
+
+    <script>
+      <!-- prettier-ignore -->
+      {{ jsthemetoggle | jsmin | safe }}
+    </script>
+
+    <!--  inline base schema -->
+    {% include "schemas/base-schema.njk" %}
+
+    <!--  inline blogpost schema  -->
+    {% if schema == 'blog' %} {%- include "schemas/blogpost-schema.njk" %} {% endif %}
+
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
     <!-- preloads -->
     <link
       rel="preload"
-      href="/assets/fonts/inter/inter-v7-latin-500.woff2"
+      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
-    <link
-      rel="preload"
-      href="/assets/fonts/inter/inter-v7-latin-700.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+
     <link
       rel="preload"
       href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
@@ -54,23 +62,32 @@
     {% endif %}
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?{{ assetHash }}" defer></script>
 
-    <!-- everything else: meta tags, icons, open graph etc.  -->
-    {% include "partials/meta-info.njk" %}
-  </head>
-
-  <body>
-    {% include "partials/header.njk" %}
-
-    <main id="main" class="flow">{{ content | safe }}</main>
-
-    {% include "partials/footer.njk" %} {% if youtube %}
-    <!-- youtube, if actvated in frontmatter -->
+    <!-- masonry fallback, if true in frontmatter -->
+    {% if masonry %}
+    <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
+    {% endif %} {% if youtube %}
+    <!-- youtube, if true in frontmatter -->
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
     ></script>
     {% endif %}
+
+    <!-- easteregg js, if true in meta -->
+    {% if meta.easteregg %}
+    <script src="/assets/scripts/easteregg.js?{{ assetHash }}" defer></script>
+    {% endif %}
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    {% include "partials/meta-info.njk" %}
+  </head>
+
+  <body class="{{ layout }}">
+    {% include "partials/header.njk" %}
+
+    <main id="main" class="flow">{{ content | safe }}</main>
+
+    {% include "partials/footer.njk" %}
   </body>
 </html>

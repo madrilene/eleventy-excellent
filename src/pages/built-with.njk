@@ -3,27 +3,36 @@ title: Built with
 permalink: /built-with/index.html
 description: Websites built with this starter
 layout: page
+grid:
+  sizes: "(max-width: 615px) 50vw, 100vw"
+	widths: [400, 520]
 ---
 
-<p>
-  A list of sites based on / built with Eleventy Excellent. Add your site by submitting a
-  pull request! :)
-</p>
+<p>A list of Add your site by submitting a pull request! :)</p>
 
-<ul class="grid mt-l-xl" role="list">
-  <!-- you find tha data for that in src/_data/builtwith.json -->
-  {% for site in builtwith | reverse %}
+<article class="full section" style="--spot-color: var(--color-bg-accent)">
+  {% include 'svg/divider-soft-top.svg' %}
 
-  <li class="flow mb-m">
-    {% imagePlaceholder site.screenshot, "Screenshot of {{ site.name }}" %}
+  <section class="section__inner wrapper">
+    <h2>Based on, or built with Eleventy Excellent:</h2>
+    <ul class="grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
+      <!-- you find tha data for that in src/_data/builtwith.json -->
+      {% for site in builtwith | reverse %}
 
-    <p class="text-step-0">
-      {{ site.description }}<br />
+      <li class="grid-card | text-step-min-1">
+        {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %}
 
-      <strong>
-        <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
-      </strong>
-    </p>
-  </li>
-  {% endfor %}
-</ul>
+        <p>
+          {{ site.description }}
+        </p>
+
+        <p>
+          <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% include 'svg/divider-soft-bottom.svg' %}
+</article>
