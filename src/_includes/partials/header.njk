@@ -1,14 +1,12 @@
 <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
 <header class="wrapper">
-  <div class="site-head | ontop spot-color-primary">
+  <div class="repel ontop" style="--gap: 0;">
     {% set activePage = page.url | url %}
-   <a href="/" class="logo | no-underline" {% if activePage === '/' %} aria-current="page" {% endif %}>
-		{% include "svg/star.svg" %}
-
-      {{ meta.siteName }}
-    </a>
-
+			<a href="/" class="logo | cluster" {% if activePage === '/' %} aria-current="page" {% endif %}>
+			{% include "svg/star.svg" %}
+			<span>{{ meta.siteName }}</span>
+			</a>
     {% include "partials/menu.njk" %}
   </div>
 </header>

@@ -3,7 +3,7 @@
 <meta
   name="description"
   content="
-  {% if seo.description %} {{ seo.description }}
+  {% if discover.description %} {{ discover.description }}
   {% elif description %}
   {{ description }}
   {% else %}
@@ -13,20 +13,27 @@
 />
 
 <meta name="theme-color" content="{{ meta.themeColor }}" />
-<meta name="robots" content="index,follow" /><!-- All Search Engines -->
-<meta name="googlebot" content="index,follow" /><!-- Google Specific -->
-<meta name="generator" content="{{ eleventy.generator }}" /><!-- thank you, Zach -->
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="{{ eleventy.generator }}" />
 <!-- Disable automatic detection and formatting of possible phone numbers -->
 <meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
 <!-- Helps prevent duplicate content issues -->
 <link rel="canonical" href="{{ meta.url }}{{ page.url }}" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
 
-{% if meta.meta_data.mastodonProfile %}
+{% if personal.social.mastodon %}
 <!-- Mastodon verified site -->
-<link rel="me" href="{{ meta.meta_data.mastodonProfile }}" />
+<link rel="me" href="{{ personal.social.mastodon }}" />
 {% endif %}
 
 <!-- Open Graph meta  -->
@@ -38,7 +45,7 @@
 />
 <meta
   property="og:image"
-  content="{{ meta.url }}{% if (layout == 'post') %}/assets/images/social-preview/{{
+  content="{{ meta.url }}{% if (layout == 'post') %}/assets/og-images/{{
     title | slugify
   }}-preview.jpeg
   {% else %}{{ meta.meta_data.opengraph_default }}
@@ -59,19 +66,20 @@
 <meta property="og:locale" content="{{ meta.locale }}" />
 <meta property="article:author" content="{{ meta.author }}" />
 
-<!-- Twitter meta -->
-<meta name="twitter:card" content="summary_large_image" />
-{% if meta.meta_data.twitterSite %}
-<meta name="twitter:site" content="{{ meta.meta_data.twitterSite }}" />
-{% endif %} {% if meta.meta_data.twitterCreator %}
-<meta name="twitter:creator" content="{{ meta.meta_data.twitterCreator }}" />
-{% endif %}
-<meta name="twitter:dnt" content="on" />
+<!-- Twitter specific head data was removed in v2 -->
 
-<!-- Favicon -->
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+{% for feedLink in meta.blog.feedLinks %}
+<link
+  rel="alternate"
+  type="{{ feedLink.type }}"
+  title="{{ feedLink.title }}: {{ meta.siteName }}"
+  href="{{ feedLink.url }}"
+/>
+{% endfor %}
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
 <link rel="icon" href="{{ '/favicon.ico' | url }}" sizes="any" />
 <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml" />
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}" />
-<link rel="icon" type="image/png" href="{{ '/favicon-32x32.png' | url }}" sizes="32x32" />
-<link rel="icon" type="image/png" href="{{ '/favicon-16x16.png' | url }}" sizes="16x16" />
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
