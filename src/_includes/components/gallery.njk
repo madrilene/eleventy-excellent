@@ -1,0 +1,42 @@
+<div
+  class="grid mt-l-xl"
+  role="list"
+  style="--grid-min-item-size: clamp(16rem, 50vw, 20rem)"
+>
+  {% for item in gallery %}
+
+  <dialog class="flow modal{{ loop.index }}">
+    <button class="button" autofocus>Close</button>
+    {% eleventyImage item.image, item.alt, item.caption %}
+  </dialog>
+
+  <button data-index="{{ loop.index }}">{% eleventyImage item.image, item.alt %}</button>
+
+  {% endfor %}
+</div>
+
+<script>
+  const buttons = document.querySelectorAll('button[data-index]');
+  const modals = document.querySelectorAll('dialog');
+  const closeButtons = document.querySelectorAll('dialog button');
+
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      modals[index].showModal();
+    });
+  });
+
+  closeButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      modals[index].close();
+    });
+  });
+
+  window.addEventListener('click', event => {
+    modals.forEach(modal => {
+      if (event.target === modal) {
+        modal.close();
+      }
+    });
+  });
+</script>

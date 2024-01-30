@@ -1,0 +1,24 @@
+<li class="card">
+  <div class="flow">
+    {% if headingContext === "h2" %}
+    <h2>
+      <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+    </h2>
+    {% else %}
+    <h3>
+      <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+    </h3>
+    {% endif %}
+    <div class="cluster">
+      <span class="text-step-min-1">
+        {% set definedDate = item.date %} {% include "components/date.njk" %} {% if
+        activateTags and item.data.tags.length > 1 %}
+        <span class="button post-tag">
+          {{ item.data.tags[1] }}
+        </span>
+        {% endif %}
+      </span>
+    </div>
+    <p>{{ item.data.description }}</p>
+  </div>
+</li>
