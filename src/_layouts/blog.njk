@@ -1,31 +1,67 @@
 ---
 layout: base
+masonry: true
 ---
 
-<header class="section spot-color-secondary">
-  <div class="section__inner region">
-    <div class="wrapper flow">
-      <section class="prose text-center">
-        <h1 class="fade-in">{{ title }}</h1>
-      </section>
+<article class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-secondary)">
+    <div
+      class="section__inner flow region"
+      style="--region-space-top: var(--space-xl-2xl)"
+    >
+      <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
-  </div>
+    {% include 'svg/divider-edgy.svg' %}
+  </header>
 
-  {% include 'svg/divider-edgy.svg' %}
-</header>
+	<div class="region flow prose"  style="--region-space-top: var(--space-xl-2xl)">  {{ content | safe }}</div>
 
-<article class="wrapper region">
-  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist %}
-
-    <li class="card flow overflow-hidden">
-      <h2>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-      </h2>
-      {% set definedDate = post.date %} {% include "partials/date.njk" %}
-      <p>{{ post.data.description }}</p>
-    </li>
-
-    {% endfor %}
+  <ul
+    class="blogcards | grid"
+    role="list"
+    data-rows="masonry"
+    data-layout="50-50"
+  >
+    <!-- loop posts -->
+    {% set itemList = pagination.items %} {% for item in itemList %}
+    <!-- activate tags -->
+    {% set activateTags = true %}
+    <!-- set date context -->
+    {% set definedDate = item.date %}
+    <!-- set heading context -->
+    {% set headingContext = "h2" %}
+    <!-- card -->
+    {% include 'components/card.njk' %} {% endfor %}
   </ul>
+
+
+  {% if pagination.data.length > pagination.size %}
+
+  <section class="region">
+    <nav role="navigation" aria-labelledby="pagination_label">
+			<span id="pagination_label" hidden>{{ meta.blog.pagination }}</span>
+			<span id="prefix" hidden>{{ meta.blog.paginationPage }}</span>
+      <ol class="pagination | cluster" role="list">
+        <li>
+          {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}"> {{ meta.blog.paginationPrevious }} </a>
+          {% else %} {{ meta.blog.paginationPrevious }} {% endif %}
+        </li>
+        {%- for pageEntry in pagination.pages %}
+          <li>
+            <a href="{{ pagination.hrefs[ loop.index0 ] }}" id="link_{{ loop.index }}" aria-labelledby="prefix link_{{ loop.index }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>
+              {{ loop.index }}</a>
+          </li>
+        {%- endfor %}
+        <li>
+          {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">{{ meta.blog.paginationNext }}</a>
+          {% else %} {{ meta.blog.paginationNext }} {% endif %}
+        </li>
+      </ol>
+    </nav>
+  </section>
+
+  {% endif %}
+
 </article>
