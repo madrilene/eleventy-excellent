@@ -2,83 +2,79 @@
   "title": "Spacing",
   "description": "Consistent spacing sizes, based on a ratio, with min and max sizes. This allows you to set spacing based on the context size. For example, min for mobile and max for desktop browsers.",
   "meta": {
-    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,16,1.2,1350,20,1.414,8,1,&s=0.75|0.5|0.25,2|3|5|8|13,s-l"
+    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,19,1.2,1350,26,1.414,8,2,&s=0.75|0.5|0.25,2|3|5|8|13,s-l&g=s,l,xl,12",
+    "note": "I'm shifing the the scale so spaces don't get too big. XS is euual to 3XS."
   },
   "items": [
     {
-      "name": "2XS",
-      "min": 8,
-      "max": 10
-    },
-    {
       "name": "XS",
-      "min": 12,
-      "max": 15
+      "min": 5,
+      "max": 7
     },
     {
       "name": "S",
-      "min": 16,
-      "max": 20
+      "min": 10,
+      "max": 14
     },
     {
       "name": "M",
-      "min": 32,
-      "max": 40
+      "min": 14,
+      "max": 21
     },
     {
       "name": "L",
-      "min": 48,
-      "max": 60
+      "min": 19,
+      "max": 28
     },
     {
       "name": "XL",
-      "min": 80,
-      "max": 100
+      "min": 38,
+      "max": 56
     },
     {
       "name": "2XL",
-      "min": 128,
-      "max": 160
+      "min": 57,
+      "max": 84
     },
     {
       "name": "3XL",
-      "min": 208,
-      "max": 260
+      "min": 95,
+      "max": 140
     },
     {
       "name": "XS - S",
-      "min": 12,
-      "max": 20
+      "min": 5,
+      "max": 14
     },
     {
       "name": "S - M",
-      "min": 16,
-      "max": 30
+      "min": 10,
+      "max": 21
     },
     {
       "name": "M - L",
-      "min": 24,
-      "max": 40
+      "min": 14,
+      "max": 28
     },
     {
       "name": "L - XL",
-      "min": 32,
-      "max": 60
+      "min": 19,
+      "max": 56
     },
     {
       "name": "L - 2xl",
-      "min": 32,
-      "max": 80
+      "min": 38,
+      "max": 84
     },
     {
       "name": "XL - 2XL",
-      "min": 48,
-      "max": 80
+      "min": 57,
+      "max": 140
     },
     {
-      "name": "2XL - 3XL",
-      "min": 64,
-      "max": 120
+      "name": "2XL - 3xl",
+      "min": 95,
+      "max": 224
     }
   ]
 }

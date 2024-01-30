@@ -1,0 +1,37 @@
+{
+  "title": "Fonts",
+  "description": "Each array of fonts creates a priority-based order. The first font in the array should be the ideal font, followed by sensible, web-safe fallbacks",
+  "items": [
+    {
+      "name": "Display",
+      "description": "Display font stack for headings and large text.",
+      "value": ["Redhat", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+    },
+    {
+      "name": "Base",
+      "description": "Base font stack for body text.",
+      "value": [
+        "Figtree",
+        "Optima",
+        "Candara",
+        "Noto Sans",
+        "source-sans-pro",
+        "sans-serif"
+      ]
+    },
+    {
+      "name": "Mono",
+      "description": "Monospace font for code and preformatted text.",
+      "value": [
+        "RobotoMono",
+        "ui-monospace",
+        "Cascadia Code",
+        "Source Code Pro",
+        "Menlo",
+        "Consolas",
+        "DejaVu Sans Mono",
+        "monospace"
+      ]
+    }
+  ]
+}
