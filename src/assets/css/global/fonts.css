@@ -1,38 +1,77 @@
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: local(''), url(/assets/fonts/inter/inter-v7-latin-500.woff2) format('woff2'),
-    url(/assets/fonts/inter/inter-v7-latin-500.woff) format('woff');
+/* Set up for old browsers. I set the medium Figtree as regular, as I prefer it a little bolder. */
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: Figtree;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 800;
+    src: local(''), url('/assets/fonts/figtree/figtree-extrabold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: Figtree;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 600;
+    src: local(''), url('/assets/fonts/figtree/figtree-semibold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: Figtree;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: local(''), url('/assets/fonts/figtree/figtree-medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: Figtree;
+    font-style: italic;
+    font-display: swap;
+    font-weight: 500;
+    src: local(''),
+      url('/assets/fonts/figtree/figtree-mediumitalic.woff2') format('woff2');
+  }
 }
 
-@font-face {
-  font-family: Inter;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: local(''), url(/assets/fonts/inter/inter-v7-latin-700.woff2) format('woff2'),
-    url(/assets/fonts/inter/inter-v7-latin-700.woff) format('woff');
+/* Set up for modern browsers, all weights */
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/figtree/figtree-variable[wght].woff2')
+        format('woff2 supports variations'),
+      url('/assets/fonts/figtree/figtree-variable[wght].woff2') format('woff2-variations');
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/figtree/figtree-variable-italic[wght].woff2')
+        format('woff2 supports variations'),
+      url('/assets/fonts/figtree/figtree-variable-italic[wght].woff2')
+        format('woff2-variations');
+    font-weight: 300 900;
+    font-style: italic;
+    font-display: swap;
+  }
 }
 
+/* 900 weight is handled as if 700. */
 @font-face {
-  font-family: Redhat;
+  font-family: 'Redhat';
   font-style: normal;
   font-display: swap;
   font-weight: 700;
   src: local(''),
-    url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2) format('woff2'),
-    url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff) format('woff');
+    url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'RobotoMono';
-  font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: local(''),
-    url(/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2)
-      format('woff2'),
-    url(/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff) format('woff');
+  font-weight: normal;
+  src: local(''), url(/assets/fonts/robotomono/robotomono-regular.woff2) format('woff2');
 }
