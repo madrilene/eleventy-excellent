@@ -1,0 +1,25 @@
+---
+layout: tags
+permalink: /tags/index.html
+eleventyComputed:
+  title: '{{ meta.blog.tagPlural }}'
+---
+
+<div class="taglist | my-s-m cluster">
+  {% for tag in collections.tagList %}
+  <a href="/tags/{{ tag }}" class="button">
+    {{ tag }}
+  </a>
+  {% endfor %}
+</div>
+
+<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
+  <!-- loop posts -->
+  {% set itemlist = collections.posts %} {% for item in itemlist %}
+  <!-- activate tags -->
+  {% set activateTags = true %}
+  <!-- set heading context -->
+  {% set headingContext = "h2" %}
+  <!-- card -->
+  {% include 'components/card.njk' %} {% endfor %}
+</ul>

@@ -1,0 +1,114 @@
+---
+font: Ubuntu # TODO: find a way for the hosting provider to provide the font on build
+background: 'white'
+text: '#211715'
+waveSteps: 10
+amplitude: 35
+waveHeight: 0.33
+colors: ['#e7c803', '#f58050', '#f0505a', '#f050c8']
+pagination:
+  data: collections.posts
+  size: 1
+  alias: post
+permalink: '/assets/og-images/{{ post.data.title | slugify }}-preview.svg'
+eleventyExcludeFromCollections: true
+---
+<svg
+    width="1200"
+    height="630"
+    viewBox="0 0 1200 630"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		{% set titleInLines = post.data.title | splitlines(20) %}
+		{% set numberOfLines = titleInLines.length %}
+		{% if numberOfLines == 1 %}
+		{% set verticalStartingPoint = 340 %}
+		{% elseif numberOfLines == 2 %}
+		{% set verticalStartingPoint = 290 %}
+		{% elseif numberOfLines == 3 %}
+		{% set verticalStartingPoint = 250 %}
+		{% elseif numberOfLines == 4 %}
+		{% set verticalStartingPoint = 210 %}
+		{% elseif numberOfLines == 5 %}
+		{% set verticalStartingPoint = 170 %}
+		{% endif %}
+
+		<!-- SVG background, generate your own on: https://app.haikei.app/ or  https://pattern.monster/ -->
+		<svg id="patternId" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+			<defs>
+					<pattern id="a" patternUnits="userSpaceOnUse" width="40" height="80" patternTransform="scale(2) rotate(0)">
+							<rect x="0" y="0" width="100%" height="100%" fill="{{ background }}" />
+							<path
+									d="M-4.798 13.573C-3.149 12.533-1.446 11.306 0 10c2.812-2.758 6.18-4.974 10-5 4.183.336 7.193 2.456 10 5 2.86 2.687 6.216 4.952 10 5 4.185-.315 7.35-2.48 10-5 1.452-1.386 3.107-3.085 4.793-4.176"
+									stroke-width="2"
+									stroke="{{ colors[0] }}"
+									fill="none"
+							/>
+							<path
+									d="M-4.798 33.573C-3.149 32.533-1.446 31.306 0 30c2.812-2.758 6.18-4.974 10-5 4.183.336 7.193 2.456 10 5 2.86 2.687 6.216 4.952 10 5 4.185-.315 7.35-2.48 10-5 1.452-1.386 3.107-3.085 4.793-4.176"
+									stroke-width="2"
+									stroke="{{ colors[1] }}"
+									fill="none"
+							/>
+							<path
+									d="M-4.798 53.573C-3.149 52.533-1.446 51.306 0 50c2.812-2.758 6.18-4.974 10-5 4.183.336 7.193 2.456 10 5 2.86 2.687 6.216 4.952 10 5 4.185-.315 7.35-2.48 10-5 1.452-1.386 3.107-3.085 4.793-4.176"
+									stroke-width="2"
+									stroke="{{ colors[2] }}"
+									fill="none"
+							/>
+							<path
+									d="M-4.798 73.573C-3.149 72.533-1.446 71.306 0 70c2.812-2.758 6.18-4.974 10-5 4.183.336 7.193 2.456 10 5 2.86 2.687 6.216 4.952 10 5 4.185-.315 7.35-2.48 10-5 1.452-1.386 3.107-3.085 4.793-4.176"
+									stroke-width="2"
+									stroke="{{ colors[3] }}"
+									fill="none"
+							/>
+					</pattern>
+			</defs>
+			<rect width="800%" height="800%" transform="translate(0,0)" fill="url(#a)"/>
+		</svg>
+
+		<rect id="bg" width="100%" height="100%" opacity="0.7" fill="{{ background }}"/>
+		<rect id="name-bg" width="100%" height="42px" fill="{{ background }}" stroke="{{ text }}" stroke-width="0.1" transform="translate(150,550)" />
+
+		<!-- date -->
+		<text
+			font-family="{{ font }}, sans-serif"
+			font-size="24"
+			font-weight="700"
+			fill="{{ text }}"
+			letter-spacing="-1"
+		>
+			<tspan x="160" y="{{ verticalStartingPoint - 120 }}">
+				{{ post.date | formatDate('DD / MM / YYYY') }}
+			</tspan>
+		</text>
+
+		<!-- title -->
+		<text
+			id="text"
+			font-family="{{ font }}, sans-serif"
+			font-size="80"
+			font-weight="700"
+			fill="{{ text }}"
+			letter-spacing="-3"
+		>
+			{% for line in titleInLines %}
+			<tspan x="160" y="{{ verticalStartingPoint - 20 + loop.index0 * 85 }}">
+				{{ line }}
+			</tspan>
+			{% endfor %}
+		</text>
+
+		<!-- sitename -->
+		<text
+		font-family="{{ font }}, sans-serif"
+			font-size="24"
+			font-weight="bold"
+			fill="{{ text }}"
+			letter-spacing="-0.5"
+		>
+			<tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan>
+		</text>
+</svg>

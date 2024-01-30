@@ -1,0 +1,42 @@
+---
+layout: tags
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+eleventyComputed:
+  title: '{{ meta.blog.tagSingle }}: {{ tag }}'
+---
+
+<ul class="taglist | my-s-m cluster" role="list">
+  {% for tag in collections.tagList %}
+ <li><a
+    href="/tags/{{ tag }}"
+    class="button"
+    {{
+    helpers.getLinkActiveState('/tags/' + tag,
+    page.url)
+    |
+    safe
+    }}
+  >
+    {{ tag }}
+  </a></li>
+  {% endfor %}
+</ul>
+
+
+
+<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
+	<!-- loop posts -->
+	{% set itemList = collections[tag] | reverse %} {% for item in itemList %}
+	<!-- activate tags -->
+	{% set activateTags = true %}
+	<!-- set heading context -->
+	{% set headingContext = "h2" %}
+	<!-- card -->
+	{% include 'components/card.njk' %} {% endfor %}
+</ul>
+
+
