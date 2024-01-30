@@ -1,5 +1,5 @@
 /**
- * I strive to keep the `.eleventy.js` file clean and uncluttered. Most adjustments must be made in:
+ * I try to keep the `eleventy.config.js` file clean and uncluttered. Most adjustments must be made in:
  *  - `./config/collections/index.js`
  *  - `./config/filters/index.js`
  *  - `./config/plugins/index.js`
@@ -13,47 +13,39 @@
  *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
  */
 
-// get package.json
-const packageVersion = require('./package.json').version;
-
 // module import filters
 const {
-  limit,
-  toHtml,
-  where,
   toISOString,
   formatDate,
   toAbsoluteUrl,
   stripHtml,
   minifyCss,
   minifyJs,
-  mdInline,
   splitlines
 } = require('./config/filters/index.js');
 
 // module import shortcodes
-const {
-  imageShortcodePlaceholder,
-  includeRaw,
-  liteYoutube
-} = require('./config/shortcodes/index.js');
+const {imageShortcode, includeRaw, liteYoutube} = require('./config/shortcodes/index.js');
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
 const {onlyMarkdown} = require('./config/collections/index.js');
+const {tagList} = require('./config/collections/index.js');
 
 // module import events
 const {svgToJpeg} = require('./config/events/index.js');
 
 // plugins
-const markdownLib = require('./config/plugins/markdown.js');
+
 const {EleventyRenderPlugin} = require('@11ty/eleventy');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const {slugifyString} = require('./config/utils');
-const {escape} = require('lodash');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+
+const markdownLib = require('./config/plugins/markdown.js');
+const {slugifyString} = require('./config/utils/index.js');
+const yaml = require('js-yaml');
 
 module.exports = eleventyConfig => {
   // 	--------------------- Custom Watch Targets -----------------------
@@ -62,33 +54,33 @@ module.exports = eleventyConfig => {
 
   // --------------------- layout aliases -----------------------
   eleventyConfig.addLayoutAlias('base', 'base.njk');
-  eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('home', 'home.njk');
+  eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
+  eleventyConfig.addLayoutAlias('tags', 'tags.njk');
 
   // 	---------------------  Custom filters -----------------------
-  eleventyConfig.addFilter('limit', limit);
-  eleventyConfig.addFilter('where', where);
-  eleventyConfig.addFilter('escape', escape);
-  eleventyConfig.addFilter('toHtml', toHtml);
+
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
   eleventyConfig.addFilter('stripHtml', stripHtml);
   eleventyConfig.addFilter('slugify', slugifyString);
-  eleventyConfig.addFilter('toJson', JSON.stringify);
-  eleventyConfig.addFilter('fromJson', JSON.parse);
+  eleventyConfig.addFilter('splitlines', splitlines);
+
   eleventyConfig.addFilter('cssmin', minifyCss);
   eleventyConfig.addNunjucksAsyncFilter('jsmin', minifyJs);
-  eleventyConfig.addFilter('md', mdInline);
-  eleventyConfig.addFilter('splitlines', splitlines);
+
+  eleventyConfig.addFilter('toJson', JSON.stringify);
+  eleventyConfig.addFilter('fromJson', JSON.parse);
+
   eleventyConfig.addFilter('keys', Object.keys);
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
 
   // 	--------------------- Custom shortcodes ---------------------
-  eleventyConfig.addNunjucksAsyncShortcode('imagePlaceholder', imageShortcodePlaceholder);
+  eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
   eleventyConfig.addShortcode('include_raw', includeRaw);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
@@ -104,25 +96,29 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
   eleventyConfig.addCollection('onlyMarkdown', onlyMarkdown);
+  eleventyConfig.addCollection('tagList', tagList);
 
   // 	--------------------- Events ---------------------
-  eleventyConfig.on('afterBuild', svgToJpeg);
+  eleventyConfig.on('eleventy.after', svgToJpeg);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
-  eleventyConfig.setLibrary('md', markdownLib);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(inclusiveLangPlugin);
   eleventyConfig.addPlugin(bundlerPlugin);
+  eleventyConfig.setLibrary('md', markdownLib);
+
+  // Add support for YAML data files with .yaml extension
+  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents));
 
   // 	--------------------- Passthrough File Copy -----------------------
   // same path
-  ['src/assets/fonts/', 'src/assets/images/'].forEach(path =>
+  ['src/assets/fonts/', 'src/assets/images/template'].forEach(path =>
     eleventyConfig.addPassthroughCopy(path)
   );
 
-  // social icons to root directory
+  // to root
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
   });
