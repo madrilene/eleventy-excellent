@@ -1,19 +1,44 @@
 ---
 layout: base
 schema: blog
-preloads:
-  href: '/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2'
-  as: 'font'
-  type: 'font/woff2'
-  crossorigin: true
 ---
 
-<article class="region blog">
+<article class="region blog" style="--region-space-top: var(--space-xl-2xl)">
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
 
-    {% set definedDate = date %} {% include "partials/date.njk" %}
+    <!-- image -->
+    {% if image %}{% eleventyImage image, alt or title, null, "eager", "feature" %} {%
+    endif %}
+
+    <!-- credit -->
+    {% if credit %}
+    <p class="feature text-step-min-1">© {{ credit }}</p>
+    {% endif %}
+
+    <p class="cluster text-step-min-1" style="--gutter: var(--space-xs-s)">
+      <!-- date -->
+      {% set definedDate = date %} {% include "components/date.njk" %}
+
+      <!-- tags -->
+      {% if tags.length > 1 %} {% for tag in tags %} {% if tag != "posts" %}
+      <a class="button post-tag" href="/tags/{{ tags[1] }}">
+        {{ tag }}
+      </a>
+      {% endif %} {% endfor %} {% endif %}
+    </p>
 
     {{ content | safe }}
+  </div>
+
+  <!--  h-card infos: https://indieweb.org/authorship -->
+  <div hidden class="h-entry">
+    <a class="u-url" href="{{ page.url | url | absoluteUrl(meta.url) }}">{{ title }}</a>
+    <a class="p-name u-url" rel="author" href="{{ meta.url }}">{{ meta.author }}</a>
+    <img
+      class="u-author h-card"
+      src="{{ meta.authorAvatar | url | absoluteUrl(meta.url) }}"
+      alt="{{ meta.author }}"
+    />
   </div>
 </article>
