@@ -14,7 +14,11 @@ module.exports = {
     },
     {
       text: 'Blog',
-      url: '/blog/'
+      url: '/blog/page-0/'
+    },
+    {
+      text: 'Style guide',
+      url: '/styleguide/'
     }
   ],
   bottom: [
