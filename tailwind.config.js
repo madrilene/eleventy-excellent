@@ -4,14 +4,14 @@ const plugin = require('tailwindcss/plugin');
 const postcss = require('postcss');
 const postcssJs = require('postcss-js');
 
-const clampGenerator = require('./src/assets/css-utils/clamp-generator.js');
-const tokensToTailwind = require('./src/assets/css-utils/tokens-to-tailwind.js');
+const clampGenerator = require('./src/utilities/clamp-generator.js');
+const tokensToTailwind = require('./src/utilities/tokens-to-tailwind.js');
 
 // Raw design tokens
-const colorTokens = require('./src/assets/design-tokens/colors.json');
-const fontTokens = require('./src/assets/design-tokens/fonts.json');
-const spacingTokens = require('./src/assets/design-tokens/spacing.json');
-const textSizeTokens = require('./src/assets/design-tokens/text-sizes.json');
+const colorTokens = require('./src/_data/designTokens/colors.json');
+const fontTokens = require('./src/_data/designTokens/fonts.json');
+const spacingTokens = require('./src/_data/designTokens/spacing.json');
+const textSizeTokens = require('./src/_data/designTokens/sizes.json');
 
 // Process design tokens
 const colors = tokensToTailwind(colorTokens.items);
@@ -20,21 +20,23 @@ const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
-  content: ['./src/**/*.{html,js,md,njk,liquid,twig,webc}'],
+  content: ['./src/**/*.{html,js,md,njk,liquid,webc}'],
   presets: [],
   theme: {
     screens: {
-      md: '50em',
-      lg: '80em'
+      sm: '40em',
+      md: '63em',
+      lg: '80em',
+      xl: '100em'
     },
     colors,
     spacing,
     fontSize,
     fontFamily,
     fontWeight: {
-      normal: 400,
-      bold: 700,
-      black: 800
+      normal: 500,
+      semi: 600,
+      bold: 800
     },
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
