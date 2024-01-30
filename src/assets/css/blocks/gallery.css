@@ -1,0 +1,15 @@
+dialog {
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+dialog + button {
+  all: unset;
+  cursor: pointer;
+}
+
+dialog::backdrop {
+  background-image: var(--gradient-stripes);
+  opacity: 0.85;
+  filter: brightness(50%);
+}

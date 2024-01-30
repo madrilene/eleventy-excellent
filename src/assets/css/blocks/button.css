@@ -1,20 +1,46 @@
 .button {
-  color: var(--button-text, var(--color-dark));
-  background-color: var(--button-bg, var(--color-light));
-  border: 2px solid var(--button-border, var(--color-dark));
+  color: var(--button-text, var(--color-text));
+  background-color: var(--button-bg, var(--color-bg));
+  border: 2px solid var(--button-border, var(--color-text));
   border-radius: var(--border-radius);
   display: inline-block;
   font: inherit;
-  padding: 0.3em 1em;
+  padding: 0.3rem var(--space-s);
   font-weight: 700;
-  transition-property: background-color, border;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing);
   text-decoration: none;
+  text-align: center;
 }
 
-.button:hover {
-  --button-bg: var(--color-dark);
-  --button-text: var(--color-light);
-  --button-border: var(--color-dark);
+.button:hover,
+.button[aria-current='page'],
+.button[aria-pressed='true'] {
+  background-size: 150% 150%;
+  --button-bg: var(--color-text);
+  --button-text: var(--color-bg);
+  --button-border: var(--color-text);
+}
+
+.button:active {
+  transform: scale(99%);
+}
+
+.button:where(:has(svg)) {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.button:where(:has(.visually-hidden)) {
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+/* all buttons have a min size */
+.button:where(:not(:has(svg))) {
+  text-align: center;
+  min-inline-size: 6ch;
+}
+
+.button:where(:not(:has(.visually-hidden))) {
+  padding: var(--button-padding, 0.35em 1em);
 }

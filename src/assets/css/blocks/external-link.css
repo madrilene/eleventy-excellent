@@ -1,0 +1,25 @@
+article
+  [href^='http']:not([href*='localhost:8080']):not(
+    [href*='eleventy-excellent.netlify.app']
+  ):not(.button) {
+  padding-inline-end: 0.8em;
+}
+
+article
+  [href^='http']:not([href*='localhost:8080']):not(
+    [href*='eleventy-excellent.netlify.app']
+  ):not(.no-indicator)::after {
+  position: absolute;
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  background-image: url('/assets/images/template/external.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% auto;
+  /* alternative text rules */
+  content: '(enlace externo)';
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 1em; /* the width of the icon */
+}

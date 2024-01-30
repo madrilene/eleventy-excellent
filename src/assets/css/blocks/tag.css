@@ -1,0 +1,28 @@
+/* always in combination with .button */
+
+.taglist {
+  --gutter: var(--space-s-m);
+}
+
+.post-tag {
+  --button-bg: var(--color-text);
+  --button-text: var(--color-bg);
+  --button-border: var(--color-text);
+  font-size: var(--size-step-min-2);
+  text-transform: uppercase;
+  padding: 0.1rem 0.625rem;
+  font-weight: 700;
+}
+
+.card .post-tag {
+  --button-bg: var(--color-bg-accent-2);
+  --button-text: var(--color-text);
+  --button-border: var(--color-bg-accent-2);
+  margin-inline-start: var(--space-s-m);
+}
+
+/* layout */
+
+.tags h1 {
+  font-size: var(--size-step-4);
+}

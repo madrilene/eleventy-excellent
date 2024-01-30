@@ -1,0 +1,19 @@
+.post h1 {
+  font-size: var(--size-step-6);
+}
+
+.post h2 {
+  font-size: var(--size-step-3);
+}
+
+.post h3 {
+  font-size: var(--size-step-2);
+}
+
+.post img {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+}

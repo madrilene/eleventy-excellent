@@ -4,15 +4,18 @@
   Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
+
 body {
-  color: var(--color-dark);
-  background-color: var(--color-light);
-  font-size: var(--size-step-1);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-size: var(--size-step-0);
   font-family: var(--font-base);
   line-height: 1.4;
   letter-spacing: var(--tracking);
   display: flex;
   flex-direction: column;
+  font-weight: 500;
+  accent-color: var(--color-primary);
 }
 
 main {
@@ -23,13 +26,14 @@ main {
 h1,
 h2,
 h3 {
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: var(--tracking-s);
+  font-weight: 700;
   font-family: var(--font-display);
 }
 
 h1 {
-  font-size: var(--size-step-5);
+  font-size: var(--size-step-6);
 }
 
 h2 {
@@ -37,20 +41,14 @@ h2 {
 }
 
 h3 {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-2);
 }
 
 /* Set line lengths */
 p,
 li,
 blockquote:not([class]) {
-  max-inline-size: 50ch;
-}
-
-h1,
-h2,
-h3 {
-  max-inline-size: 20ch;
+  max-inline-size: 65ch;
 }
 
 blockquote {
@@ -89,46 +87,40 @@ a:hover {
   text-decoration: none;
 }
 
-:focus {
-  outline: 3px solid;
-  outline-offset: 0.3ch;
+strong {
+  font-weight: 800;
 }
 
-:target {
-  scroll-margin-top: 2ex;
+:focus-visible {
+  outline: 2px solid;
+  outline-offset: 0.3ch;
 }
 
 main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app']) {
-  padding-inline-end: 0.8em;
-}
-
-article
-  [href^='http']:not([href*='eleventy-excellent.netlify.app']):not(.no-indicator)::after {
-  position: absolute;
-  display: inline-block;
-  inline-size: 1em;
-  block-size: 1em;
-  background-image: url('/assets/images/icn-external.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60% auto;
-  /* alternative text rules */
-  content: '(external link)';
-  overflow: hidden;
-  white-space: nowrap;
-  text-indent: 1em; /* the width of the icon */
-}
-
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {
-  background: var(--color-primary);
-  color: var(--color-light);
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }
 
 .preload-transitions * {
   transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  ::after,
+  ::before {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

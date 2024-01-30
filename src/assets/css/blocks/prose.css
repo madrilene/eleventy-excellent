@@ -1,27 +1,56 @@
 .prose {
-  --flow-space: var(--space-m-l);
-  --wrapper-width: clamp(16rem, 93vw, 55rem);
+  --flow-space: var(--space-m);
+  --wrapper-width: 64rem;
 }
 
-.prose :is(h2, h3, h4) + * {
+.prose :is(pre, pre + *, figure, figure + *) {
   --flow-space: var(--space-s-m);
 }
 
-.prose .heading-anchor:is(:hover, :focus) {
-  text-decoration: underline;
+.prose figcaption {
+  font-size: var(--size-step-min-1);
+  text-align: center;
+  padding-block-end: var(--space-xs);
+  border-bottom: 1px solid var(--color-bg-accent);
 }
+
+.prose :is(h2, h3, h4) {
+  --flow-space: var(--space-l-xl);
+}
+
+.prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
+  --flow-space: var(--space-s);
+}
+
+.prose .heading-anchor:is(:hover, :focus) {
+  text-decoration: none;
+}
+
 .prose .heading-anchor {
   text-decoration: none;
 }
 
 .prose mark {
-  background: var(--color-primary-glare);
+  background-color: var(--color-tertiary);
+  color: var(--color-base-dark);
 }
 
-.prose :not(.grid) li + li {
-  margin-top: var(--space-s);
+/* block space only for "regular lists" */
+.prose :not(.cluster):not(.grid) > li + li {
+  padding-block-start: var(--space-s-m);
 }
 
-.prose :when(ul:not(.grid), ol:not(.grid)) {
-  padding-inline-start: var(--space-s);
+/* inline space only for "regular lists" */
+.prose :where(ul:not(.grid), ol:not(.grid)) {
+  padding-inline-start: var(--space-m);
+}
+
+/* marker only for "regular lists" */
+.prose :where(ul:not(.grid)) li::marker {
+  color: var(--color-primary);
+  content: '- ';
+}
+
+.prose img {
+  border-radius: var(--border-radius);
 }

@@ -1,4 +1,7 @@
+/* inspired by: */
 /* Modern reset: https://piccalil.li/blog/a-modern-css-reset/ */
+/* https://keithjgrant.com/posts/2024/01/my-css-resets/ */
+/* https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/#css-reset-additions */
 
 /* Box sizing rules */
 *,
@@ -41,6 +44,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  min-height: 100dvh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -52,14 +56,28 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+svg,
+canvas {
   max-inline-size: 100%;
-  display: block;
+  block-size: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
 }
 
 /* Inherit fonts for inputs and buttons */
-input,
+
+/* remove default button styles */
+
+button {
+  all: unset;
+}
+
 button,
+input,
 textarea,
 select {
   font: inherit;
@@ -75,4 +93,23 @@ button,
 [type='radio'],
 summary {
   cursor: pointer;
+}
+
+:where(*) {
+  /* No typographic widows */
+  text-wrap: pretty;
+}
+:where(h1, h2, h3, h4) {
+  text-wrap: balance;
+}
+
+/* Scroll margin allowance above anchor links */
+:target {
+  scroll-margin-block-start: 2ex;
+}
+
+/* Scroll margin allowance below focused elements
+  to ensure they are clearly in view */
+:focus {
+  scroll-margin-block-end: 8vh;
 }

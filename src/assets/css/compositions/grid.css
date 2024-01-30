@@ -13,13 +13,14 @@ ideally, as a minimum.
 
 --grid-placement (auto-fill): Set either auto-fit or auto-fill
 to change how empty grid tracks are handled */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(
     var(--grid-placement, auto-fill),
     minmax(var(--grid-min-item-size, 16rem), 1fr)
   );
-  gap: var(--gutter, var(--space-s-l));
+  gap: var(--gutter, var(--space-s-m));
 }
 
 .grid[data-rows='masonry'] {

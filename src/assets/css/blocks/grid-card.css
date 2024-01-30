@@ -1,0 +1,14 @@
+.grid-card {
+  display: grid;
+  gap: 2ch;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+}
+
+.grid-card img {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  aspect-ratio: 12/9;
+  object-fit: cover;
+  object-position: center;
+}

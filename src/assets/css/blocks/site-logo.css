@@ -1,10 +1,8 @@
 .logo {
+  --gutter: var(--space-xs);
+  padding: var(--space-s) 0;
+  font-size: var(--size-step-0);
   font-weight: bold;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  gap: var(--space-2xs);
-  letter-spacing: var(--tracking-s);
-  padding: var(--space-xs) 0;
-  font-size: var(--size-step-1);
+  text-decoration: none;
 }

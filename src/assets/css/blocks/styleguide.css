@@ -1,0 +1,60 @@
+.styleguide :is(h2, h3) {
+  font-size: var(--size-step-0);
+  font-family: var(--font-base);
+  text-transform: uppercase;
+}
+
+.styleguide h2 {
+  letter-spacing: var(--tracking-wide);
+}
+
+.styleguide section {
+  padding: var(--space-l-xl);
+  outline: 2px solid var(--color-bg-accent); /* Increase the outline thickness for better visibility */
+  outline-offset: -1px; /* Negative value to make outlines overlap */
+}
+
+.styleguide .colors {
+  --cluster-vertical-alignment: flex-start;
+}
+
+.styleguide .colors ul {
+  --min: 10ch;
+  --gap: var(--space-s-m);
+
+  display: grid;
+  grid-gap: var(--gap);
+  /* min() with 100% prevents overflow
+		in extra narrow spaces */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+}
+
+.styleguide .colors li {
+  display: grid;
+  gap: var(--space-xs);
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+}
+
+.styleguide .colors li div {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--color-text);
+}
+
+.styleguide .space {
+  background-color: var(--color-text);
+  display: block;
+}
+
+.styleguide .tabs {
+  align-items: center;
+  border-block-end: 1px solid #d1d8e0;
+  display: flex;
+  gap: var(--space-xs);
+  margin-block-end: var(--space-s);
+  padding-block-end: var(--space-s);
+}
