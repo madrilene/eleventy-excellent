@@ -2,6 +2,7 @@
 title: 'Post with some code'
 description: 'Syntax Highlighting is achieved by a pack of Eleventy plugins. No browser/client JavaScript, highlight transformations are all done at build-time.'
 date: 2022-09-01
+tags: ['sytnax highlighting', 'feature']
 ---
 
 This theme uses 11ty's [Syntax Highlighting Plugin](https://www.11ty.dev/docs/plugins/syntaxhighlight/), a pack of Eleventy plugins for PrismJS syntax highlighting. No browser/client JavaScript, highlight transformations are all done at build-time.
@@ -26,14 +27,12 @@ cards.forEach(card => {
 ```
 
 ```css
-form {
-  display: flex;
-  align-items: flex-end;
-  flex-wrap: wrap;
-  gap: 16px;
+.smol-container {
+  width: min(100% - 3rem, var(--container-max, 60ch));
+  margin-inline: auto;
 }
 
-/* © Josh Comeau */
+/* © Stephanie Exkles, https://smolcss.dev/ */
 ```
 
 Edit styles in `css/blocks/code.css`

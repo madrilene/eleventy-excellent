@@ -2,9 +2,12 @@
 title: 'Post with an image '
 description: "Eleventy's own build-time image transformations. Find more info on11ty.dev/docs/plugins/image/ and edit settings in config-folder."
 date: 2022-10-12
+tags: ['image', 'feature']
+image: './src/assets/images/gallery/asturias-1.jpg'
+credit: Lene took this photo.
 ---
 
-This starter uses Eleventy's build-time image transformations. Find more info on https://www.11ty.dev/docs/plugins/image/ and edit settings in `config/shortcodes/imagePlaceholder`.
+This starter uses Eleventy's build-time image transformations. Find more info on https://www.11ty.dev/docs/plugins/image/ and edit settings in `config/shortcodes/eleventyImage`.
 
 For now there are three image sizes: 320px, 570px and 820px.
 820px is the maximum size, equivalent to the width set for our content wrapper in `prose.css`: `--wrapper-width: clamp(16rem, 93vw, 55rem);`.
@@ -15,40 +18,32 @@ If you want to adjust the wrapper width you should also adjust the image size in
 
 ## Syntax
 
+This is the most basic version: it contains the path to the image, alt text (can be an empty string if the image is decorative), and optionally hold a caption. It defaults to `loading = 'lazy'`, and holds no class name. The picture element gets its set of images from `widths = [320, 570, 880, 1024, 1248]` and compares to a condition of `90vw`.
+
 {% raw %}
 
 ```
-{% imagePlaceholder "path to image", "alt text", "caption - optional!" %}
+{% eleventyImage "path to image", "alt text", "caption - optional!" %}
 ```
 
 {% endraw %}
 
-Add your own `sizes` attribute (note how I set an empty string for the caption):
+If you want to be very specific you can pass in manually all the conditions, add `null` to skip.
+The class names are passed in the outer container, the `<picture>` or `<figure>` element.
 
 {% raw %}
 
 ```
-{% imagePlaceholder "path to image", "alt text", "", "(min-width:30em)  50vw, 100vw" %}
+{% eleventyImage "path to image", "alt text", "caption text", "eager", "class names", "(min-width:30em) 50vw, 100vw", [200, 400] %}
+{% eleventyImage "path to image", "alt text", null, "eager" %}
 ```
 
 {% endraw %}
 
 ### Example image with a caption
 
-{% imagePlaceholder "./src/assets/images/opengraph-default.jpg", "The preview for social media", "An interesting caption text." %}
+{% eleventyImage "./src/assets/images/gallery/asturias-2.jpg", "The preview for social media", "An interesting caption text." %}
 
-## CSS
+### Example image with all the arguments
 
-You can change the CSS for the page and blog post images in `./src/assets/css/blocks/page.css` and `./src/assets/css/blocks/blog.css`:
-
-```css
-.page img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-
-.blog img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-```
+{% eleventyImage "./src/assets/images/gallery/asturias-3.jpg", "alt text", null, "lazy", "popout", "(min-width:30em) 50vw, 100vw", [200, 400] %}
