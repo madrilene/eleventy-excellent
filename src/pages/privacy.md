@@ -27,7 +27,7 @@ This website transmits itself using HTTPS, encrypting all data between the brows
 
 {{ personal.address }}
 
-If you have any questions or doubts, please contact me: <a href="mailto:{{ personal.email }}">{{ meta.address.email }}</a>
+If you have any questions or doubts, please contact me: <a href="mailto:{{ personal.email }}">{{ personal.email }}</a>.
 
 **Changes to the policy**
 If I change the content of this policy, those changes will be effective at the time I post them here.
