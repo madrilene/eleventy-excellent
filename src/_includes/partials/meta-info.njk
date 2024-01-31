@@ -48,12 +48,12 @@
   content="{{ meta.url }}{% if (layout == 'post') %}/assets/og-images/{{
     title | slugify
   }}-preview.jpeg
-  {% else %}{{ meta.meta_data.opengraph_default }}
+  {% else %}{{ meta.opengraph_default }}
   {% endif %}"
 />
 <meta
   property="og:image:alt"
-  content="{% if (layout == 'post') %}{% else %}{{ meta.meta_data.opengraph_default_alt }}
+  content="{% if (layout == 'post') %}{% else %}{{ meta.opengraph_default_alt }}
 {% endif %}"
 />
 <meta
@@ -64,7 +64,7 @@
 />
 <meta property="og:site_name" content="{{ meta.siteName }}" />
 <meta property="og:locale" content="{{ meta.locale }}" />
-<meta property="article:author" content="{{ meta.author }}" />
+<meta property="article:author" content="{{ meta.author.name }}" />
 
 <!-- Twitter specific head data was removed in v2 -->
 

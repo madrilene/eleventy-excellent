@@ -7,21 +7,23 @@ module.exports = {
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
-  author: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
-  authorAvatar: '/favicon.png', // for h-card, defaults to favicon
-  authorEmail: '', // i.e. hola@lenesaile.com - email of the author
-  authorWebsite: '', // i.e. https.://www.lenesaile.com - the personal site of the author
-  creator: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  creatorEmail: 'hola@lenesaile.com', // i.e. hola@lenesaile.com
-  creatorWebsite: 'https://www.lenesaile.com', // i.e. https.://www.lenesaile.com
-  creatorSocial: 'https://front-end.social/@lene', // i.e. https.://www.lenesaile.com
+  author: {
+    name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
+    avatar: '/favicon.png',
+    email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
+    website: 'https.://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+  },
+  creator: {
+    name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
+    email: 'hola@lenesaile.com',
+    website: 'https://www.lenesaile.com',
+    social: 'https://front-end.social/@lene'
+  },
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
-  meta_data: {
-    opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
-    opengraph_default_alt:
-      'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es' // alt text for default meta image
-  },
+  opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
+  opengraph_default_alt:
+    'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // this is for the rss feed
     name: 'My Web Development Blog',

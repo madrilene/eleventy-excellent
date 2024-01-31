@@ -21,12 +21,12 @@ The fallback and default image for all other pages is the image set as `opengrap
 <meta
   property="og:image"
   content="{{ meta.url }}
-  {% if (layout == 'post') %}/assets/images/social-preview/{{ title | slugify }}-preview.jpeg
-  {% else %}{{ meta.meta_data.opengraph_default }}
+  {% if (layout == 'post') %}/assets/og-images/{{ title | slugify }}-preview.jpeg
+  {% else %}{{ meta.opengraph_default }}
   {% endif %}"
 />
 ```
 
 {% endraw %}
 
-To change the look and behaviour of those images and replace the SVG background edit `src/social-preview.njk`. The implementation is based on [Bernard Nijenhuis article](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/).
+To change the look and behaviour of those images and replace the SVG background edit `src/common/og-images.njk`. The implementation is based on [Bernard Nijenhuis article](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/).

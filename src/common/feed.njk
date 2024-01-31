@@ -13,8 +13,8 @@ excludeFromSitemap: true
   <updated>{{ postslist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ meta.url }}/</id>
   <author>
-    <name>{{ meta.author }}</name>
-    <email>{{ meta.authorEmail }}</email>
+    <name>{{ meta.author.name }}</name>
+    <email>{{ meta.author.email }}</email>
   </author>
   {%- for post in postslist %} {%- set absolutePostUrl = post.url | absoluteUrl(meta.url)
   %}
