@@ -9,4 +9,5 @@
   font-size: var(--size-step-min-1);
   padding: 0.1rem 0;
   font-weight: 600;
+  min-block-size: 1.5em;
 }
