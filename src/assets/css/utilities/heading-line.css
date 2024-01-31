@@ -1,0 +1,18 @@
+.heading-line {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+
+  &:after {
+    content: '';
+    flex-grow: 1;
+    block-size: 1px;
+    background: var(--color-bg-accent-2);
+    margin-block-start: auto;
+    transform: translateY(-0.25em);
+  }
+
+  &:after {
+    margin-left: var(--space-s);
+  }
+}
