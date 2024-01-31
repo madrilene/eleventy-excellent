@@ -1,3 +1,13 @@
+.styleguide {
+  --region-space-top: var(--space-xl-2xl);
+  --spot-color: color-mix(in oklab, var(--color-bg) 97%, var(--color-text));
+}
+
+.styleguide section {
+  --region-space-bottom: var(--space-l-xl);
+  --region-space-top: var(--space-l-xl);
+}
+
 .styleguide :is(h2, h3) {
   font-size: var(--size-step-0);
   font-family: var(--font-base);
@@ -6,12 +16,6 @@
 
 .styleguide h2 {
   letter-spacing: var(--tracking-wide);
-}
-
-.styleguide section {
-  padding: var(--space-l-xl);
-  outline: 2px solid var(--color-bg-accent); /* Increase the outline thickness for better visibility */
-  outline-offset: -1px; /* Negative value to make outlines overlap */
 }
 
 .styleguide .colors {
