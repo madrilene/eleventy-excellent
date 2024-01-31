@@ -1,6 +1,6 @@
 {
   "title": "Text Sizes",
-  "description": "A minimum and maximum text size size allows you to pick the right size from a ratio, depending on the context size. The min and max sizes are in pixels and should be converted to appropiate sizes, per context. ",
+  "description": "A minimum and maximum text size size allows you to pick the right size from a ratio, depending on the context size. The min and max sizes are in pixels and should be converted to appropiate sizes, per context",
   "meta": {
     "scaleGenerator": "https://utopia.fyi/type/calculator?c=320,19,1.2,1350,28,1.25,6,2,&s=0.75|0.5|0.25,2|3|5|8|13,s-l&g=s,l,xl,12"
   },
