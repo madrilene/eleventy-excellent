@@ -26,3 +26,7 @@
 .tags h1 {
   font-size: var(--size-step-4);
 }
+
+.tags h2 {
+  font-size: var(--size-step-2);
+}

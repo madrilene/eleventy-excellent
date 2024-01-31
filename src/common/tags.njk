@@ -5,13 +5,14 @@ eleventyComputed:
   title: '{{ meta.blog.tagPlural }}'
 ---
 
-<div class="taglist | my-s-m cluster">
+<div class="taglist | mt-s-m cluster">
   {% for tag in collections.tagList %}
   <a href="/tags/{{ tag }}" class="button">
     {{ tag }}
   </a>
   {% endfor %}
 </div>
+
 
 <ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
   <!-- loop posts -->
@@ -23,3 +24,5 @@ eleventyComputed:
   <!-- card -->
   {% include 'components/card.njk' %} {% endfor %}
 </ul>
+
+

@@ -31,6 +31,7 @@ module.exports = {
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     tagSingle: 'Tag',
     tagPlural: 'Tags',
+    tagMore: 'More tags:',
     // feed links are looped over in the head.
     feedLinks: [{title: 'Atom Feed', url: '/feed.xml', type: 'application/atom+xml'}],
     pagination: 'Blog',

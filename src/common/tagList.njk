@@ -9,6 +9,20 @@ eleventyComputed:
   title: '{{ meta.blog.tagSingle }}: {{ tag }}'
 ---
 
+
+<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
+	<!-- loop posts -->
+	{% set itemList = collections[tag] | reverse %} {% for item in itemList %}
+	<!-- activate tags -->
+	{% set activateTags = true %}
+	<!-- set heading context -->
+	{% set headingContext = "h2" %}
+	<!-- card -->
+	{% include 'components/card.njk' %} {% endfor %}
+</ul>
+
+<h2>{{ meta.blog.tagMore }}</h2>
+
 <ul class="taglist | my-s-m cluster" role="list">
   {% for tag in collections.tagList %}
  <li><a
@@ -24,19 +38,6 @@ eleventyComputed:
     {{ tag }}
   </a></li>
   {% endfor %}
-</ul>
-
-
-
-<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
-	<!-- loop posts -->
-	{% set itemList = collections[tag] | reverse %} {% for item in itemList %}
-	<!-- activate tags -->
-	{% set activateTags = true %}
-	<!-- set heading context -->
-	{% set headingContext = "h2" %}
-	<!-- card -->
-	{% include 'components/card.njk' %} {% endfor %}
 </ul>
 
 

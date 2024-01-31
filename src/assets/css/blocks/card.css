@@ -16,8 +16,8 @@
 .card h3 {
   font-family: var(--font-base);
   font-size: var(--size-step-2);
-  font-weight: 700;
 }
+
 .card h2 a,
 .card h3 a {
   text-decoration: none;
