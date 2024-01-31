@@ -36,9 +36,6 @@ module.exports = {
     paginationPrevious: 'Previous',
     paginationNext: 'Next'
   },
-  pagination: {
-    itemsPerPage: 20
-  },
   navigation: {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
@@ -63,6 +60,11 @@ module.exports = {
       doctype: '',
       url: ''
     }
+  },
+  viewRepo: {
+    // this is for the view/edit on github link. The value in the package.json will be pulled in.
+    allow: true,
+    infoText: 'View this page on GitHub'
   },
   easteregg: true
 };
