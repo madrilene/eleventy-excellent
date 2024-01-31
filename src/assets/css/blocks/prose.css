@@ -15,7 +15,7 @@
 }
 
 .prose :is(h2, h3, h4) {
-  --flow-space: var(--space-l-xl);
+  --flow-space: var(--space-xl);
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
