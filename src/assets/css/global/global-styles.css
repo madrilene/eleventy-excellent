@@ -52,7 +52,7 @@ blockquote:not([class]) {
 }
 
 blockquote {
-  border-inline-start: 0.8rem solid var(--color-primary);
+  border-inline-start: 0.5rem solid var(--color-primary);
   padding: var(--space-m-l);
   font-size: var(--size-step-2);
 }
@@ -73,6 +73,19 @@ svg {
   flex: none;
 }
 
+strong {
+  font-weight: 800;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 10%;
+  margin-block: var(--space-m-l);
+  margin-inline-start: 0;
+  background-color: var(--color-bg-accent-2);
+}
+
 [role='list'] {
   padding: 0;
 }
@@ -87,12 +100,8 @@ a:hover {
   text-decoration: none;
 }
 
-strong {
-  font-weight: 800;
-}
-
 :focus-visible {
-  outline: 2px solid;
+  outline: 3px solid;
   outline-offset: 0.3ch;
 }
 
