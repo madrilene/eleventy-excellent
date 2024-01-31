@@ -61,7 +61,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('tags', 'tags.njk');
 
   // 	---------------------  Custom filters -----------------------
-
   eleventyConfig.addFilter('toIsoString', toISOString);
   eleventyConfig.addFilter('formatDate', formatDate);
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
@@ -83,8 +82,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addNunjucksAsyncShortcode('eleventyImage', imageShortcode);
   eleventyConfig.addShortcode('youtube', liteYoutube);
   eleventyConfig.addShortcode('include_raw', includeRaw);
-  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
-  eleventyConfig.addShortcode('packageVersion', () => `v${packageVersion}`);
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, by stephanie eckles
 
   // 	--------------------- Custom transforms ---------------------
   eleventyConfig.addPlugin(require('./config/transforms/html-config.js'));
@@ -99,7 +97,10 @@ module.exports = eleventyConfig => {
   eleventyConfig.addCollection('tagList', tagList);
 
   // 	--------------------- Events ---------------------
-  eleventyConfig.on('eleventy.after', svgToJpeg);
+  if (process.env.ELEVENTY_RUN_MODE === 'serve') {
+    // this only runs in development, on your machine, so og images get installed fonts.
+    eleventyConfig.on('eleventy.after', svgToJpeg);
+  }
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);
