@@ -6,9 +6,14 @@
 
 .site-foot__inner {
   display: flex;
-  gap: var(--space-xs) var(--space-s);
+  gap: var(--space-xs);
   justify-content: center;
   align-items: center;
+}
+
+/* increase tab size */
+.site-foot__inner a {
+  padding: var(--space-xs);
 }
 
 :not(nav#social).site-foot__inner {
@@ -16,8 +21,8 @@
 }
 
 .site-foot svg {
-  inline-size: 1em;
-  block-size: 0.9em;
+  inline-size: 1.1em;
+  block-size: 1em;
 }
 
 .site-foot .creator {
