@@ -13,7 +13,9 @@
   --gradient-rainbow: linear-gradient(
     90deg,
     var(--color-primary),
+    hsl(273, 59%, 57%),
     var(--color-secondary),
+    hsl(97, 59%, 57%),
     var(--color-tertiary)
   );
   --gradient-conic: conic-gradient(
@@ -41,7 +43,7 @@
   --color-tertiary: var(--color-tertiary-highlight);
 
   /* modify base colors with color-mix - https://caniuse.com/?search=color-mix */
-  --color-text-accent: color-mix(in oklab, var(--color-base-dark) 80%, var(--color-text));
+  --color-text-accent: color-mix(in oklab, var(--color-base-dark) 80%, var(--color-bg));
   --color-bg-accent: color-mix(in oklab, var(--color-bg) 90%, var(--color-text));
   --color-bg-accent-2: color-mix(in oklab, var(--color-bg) 70%, var(--color-text));
 }
