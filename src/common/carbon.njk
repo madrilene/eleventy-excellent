@@ -7,8 +7,4 @@ excludeFromSitemap: true
 providers = [{ domain = '{{ meta.greenweb.providers.domain }}', service = '{{ meta.greenweb.providers.service }}' }]
 
 [org]
-credentials = [
-{% if meta.greenweb.credentials.domain %}
-{ domain = '{{ meta.greenweb.credentials.domain }}', doctype = '{{meta.greenweb.credentials.doctype }}', url = '{{ meta.greenweb.credentials.url }}' }
-{% endif %} ]
-# more info: https://carbontxt.org/
+credentials = [{% if meta.greenweb.credentials.domain %}{ domain = '{{ meta.greenweb.credentials.domain }}', doctype = '{{meta.greenweb.credentials.doctype }}', url = '{{ meta.greenweb.credentials.url }}' }{% endif %}]
