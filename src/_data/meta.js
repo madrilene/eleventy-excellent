@@ -55,7 +55,7 @@ module.exports = {
     providers: {
       // if you want to add more than one, edit the array directly.
       domain: 'netlify.com',
-      service: 'static-hosting'
+      service: 'cdn'
     },
     credentials: {
       // optional, eg: 	{ domain='my-org.com', doctype = 'webpage', url = 'https://my-org.com/our-climate-record'}
