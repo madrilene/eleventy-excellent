@@ -3,6 +3,10 @@
   --spot-color: color-mix(in oklab, var(--color-bg) 97%, var(--color-text));
 }
 
+.styleguide code {
+  font-size: var(--size-step-min-2);
+}
+
 .styleguide section {
   --region-space-bottom: var(--space-l-xl);
   --region-space-top: var(--space-l-xl);
