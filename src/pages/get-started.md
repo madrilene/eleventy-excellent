@@ -10,9 +10,12 @@ preloads:
   crossorigin: true
 ---
 
-You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make, most of them in `src/_data/meta.js`. It sets different "hard coded" text values all over the template, you can change the language, etc. Alos, edit personal details and social media in `src/_data/personal.yaml`. Find available social media icons in `src/_includes/svg` (prefixed with "social-"). If you add new icons they too must be prefixed with "social-".
+You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make, most of them in `src/_data/meta.js`. It sets different "hard coded" text values all over the template, you can change the language, etc.
 
-The [blog posts](/blog/) explain some basic features that aren't covered here.
+Also, edit personal your details and social media in `src/_data/personal.yaml`.
+
+Find available social media / service icons in `src/_includes/svg` (prefixed with "social-").
+If you add new icons they too must be prefixed with "social-".
 
 Open `src/assets/css/blocks/external-link.css`. Replace "eleventy-excellent.netlify.app" with your own domain. This is about the external link indicators, they are matched with your domain. If you don't want to use external link indicators, feel free to delete the whole style rule. You can also add the class `no-indicator` to any anchor element you want to except from this rule.
 
@@ -59,3 +62,16 @@ Optional: rename `.env-sample` to `.env`. You may set a custom URL for local dev
 Add and delete your custom block stylesheets in `src/assets/css/blocks/*.css`, they get pulled in your output stylesheet automatically.
 
 If you are working with **VS Code** I recommend installing the "Tailwind CSS IntelliSense" addon, as it works also for our custom utility classes. That said, you will find that Tailwind CSS does not work as you might expect. I exlain this in [one of the blog posts](/blog/what-is-tailwind-css-doing-here/).
+
+## More features
+
+The [blog posts](/blog/) explain / show some basic features that aren't covered here:
+
+- [Galleries](/blog/post-with-a-gallery/)
+- [Open Graph images](/blog/open-graph-images/)
+- [Markdown](/blog/post-with-all-the-markdown/)
+- [Youtube](/blog/post-with-a-video/)
+- [Using the image plugin](/blog/post-with-an-image/)
+- [Syntax highlighting](/blog/post-with-some-code/)
+- [301 redirects](/blog/post-with-301-redirects/)
+- [Fetch content](/blog/post-with-fetched-content/)
