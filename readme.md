@@ -11,7 +11,6 @@ If you end up using this starter, feel free to send me a link, I'd love to see i
   - [Preview](#preview)
   - [Features](#features)
   - [First steps](#first-steps)
-  - [Deploy directly to Netlify](#deploy-directly-to-netlify)
   - [Development](#development)
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
@@ -40,21 +39,18 @@ https://eleventy-excellent.netlify.app/
 - SEO basics (XML-sitemap, metadata)
 - dayjs handling dates & times
 - Bundling via esbuild
-- RSS feed
-- Links to social networks
+- RSS feed (now you can add more than one)
+- Links to services and social media profiles
 - Mastodon domain verification snippet
-- carbon.txt
-- dark and light mode
-- Tags
-- Blog pagination
+- carbon.txt - to show that their digital infrastructure runs on green electricity
+- dark and light mode based on user preference and custom toggle
+- Tags in blog posts
+- Accessible blog pagination
+- A styleguide™
 
 ## First steps
 
-[Please read the Get started docs!](https://eleventy-excellent.netlify.app/get-started/)
-
-## Deploy directly to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/madrilene/eleventy-excellent)
+[Read the Get started docs!](https://eleventy-excellent.netlify.app/get-started/)
 
 ## Development
 
@@ -89,7 +85,7 @@ Add your site by submitting a pull request! :)
 
 **Andy Bell**
 
-His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every Layout_ (which he co-authors). He has recently published an approach that incorporates Tailwind CSS into his methodology. Also, I learned how to use Eleventy in 2020 with his (now free) course.
+> Be the browser's mentor, not its micromanager. Give the browser some solid rules and hints, then let it make the right decisions for the people that visit it, based on their device, connection quality and capabilities.
 
 - https://buildexcellentwebsit.es/
 - https://cube.fyi/
@@ -97,14 +93,14 @@ His CSS methodology "CUBE" makes sense to me. It goes hand in hand with _Every L
 
 **Heydon Pickering**
 
-I strongly orientate myself on Heydon's approaches and really love his books.
+Heydon creates some invaluable resources.
 
 - https://every-layout.dev/
 - https://inclusive-components.design/
 
 **Zach Leatherman**
 
-He is developing Eleventy and is constantly making it even better!
+Zach is developing Eleventy and is constantly making it even better!
 
 - https://www.11ty.dev/
 - https://www.zachleat.com/
@@ -116,16 +112,25 @@ Stephanie provides a lot of resources for Eleventy and modern CSS.
 - https://smolcss.dev/
 - https://moderncss.dev/
 
+**Ryan Mulligan**
+
+I'm using Ryan's example of a breakout wrapper on this site.
+
+Also have a look at those codepens!
+
+- https://ryanmulligan.dev/
+- https://codepen.io/hexagoncircle/
+
 **Aleksandr Hovhannisyan**
 
-I love order and structure. Aleksandr does this in an exemplary way, which is why I based the structure of eleventy.js on his personal site. The 301 redirect solution I'm using is from his blog.
+Aleksandr seems to value a well-structured project just as much as I do. It was the repo from aleksandrhovhannisyan.com that inspired me to write the article [Organizing the Eleventy config file](https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/). The 301 redirect solution I'm using is from Aleksandr's article.
 
 - https://github.com/AleksandrHovhannisyan
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/
 
 **Manuel Matuzović**
 
-Manuel is an accessibility expert. The menu I'm using is from one of his articles on web.dev.
+Manuel is an accessibility expert. The menu I was using as default up to v2, is very much inspired by an article Manuel wrote on web.dev.
 
 - https://web.dev/website-navigation/
 - https://www.matuzo.at/
