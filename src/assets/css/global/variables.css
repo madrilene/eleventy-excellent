@@ -12,11 +12,11 @@
 
   --gradient-rainbow: linear-gradient(
     90deg,
-    var(--color-primary),
-    hsl(273, 59%, 57%),
-    var(--color-secondary),
-    hsl(97, 59%, 57%),
-    var(--color-tertiary)
+    #cf4662 10%,
+    #fbbe25 30%,
+    #62c95c 50%,
+    #08bccb 75%,
+    #a977d5 90%
   );
   --gradient-conic: conic-gradient(
     var(--color-primary) 0 28%,
