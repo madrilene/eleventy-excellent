@@ -11,7 +11,7 @@ module.exports = {
     name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
     avatar: '/favicon.png',
     email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-    website: 'https.://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+    website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
   },
   creator: {
     name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
