@@ -1,10 +1,8 @@
-{% set activePage = page.url | url %}
-
 <footer class="site-foot">
   <div class="wrapper">
     <div class="site-foot__inner">
       <nav class="site-foot__inner text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
-        &copy; {% year %} <a href="/" {% if activePage === '/' %} aria-current="page" {% endif %}>{{ meta.siteName }} <small>{{ pkg.version }}</small>  </a>
+        &copy; {% year %} <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>{{ meta.siteName }} <small>{{ pkg.version }}</small>  </a>
 
         {% for item in navigation.bottom %}
         <a
@@ -21,8 +19,6 @@
       </nav>
 
 				<nav class="site-foot__inner" aria-label="{{ meta.navigation.ariaSocial }}">
-
-
 
 							<!-- gets the first item from the feed loop set in meta -->
 							<a href="{{ meta.blog.feedLinks[0].url }}" rel="alternate" type="{{ meta.blog.feedLinks[0].type }}">
@@ -58,7 +54,7 @@
 				class="button"
 				theme-toggle
 			>
-				<span id="theme-switcher-value"></span>
+				<span id="theme-switcher-value">{{ meta.themeSwitch.initial }}</span>
 			</button>
 
 		</div>
