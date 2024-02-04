@@ -1,0 +1,18 @@
+---
+title: Get started
+permalink: /get-started/index.html
+description: Websites built with this starter
+layout: page
+preloads:
+  href: '/assets/fonts/robotomono/robotomono-regular.woff2'
+  as: 'font'
+  type: 'font/woff2'
+  crossorigin: true
+---
+
+{%- for entry in collections.docs -%}
+<details>
+  <summary>{{ entry.data.title }}</summary>
+{{ entry.templateContent | safe }}
+</details>
+{%- endfor -%}
