@@ -1,5 +1,6 @@
 ---
 title: First steps
+date: 2024-01-01
 ---
 
 You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make, most of them in `src/_data/meta.js`. It sets different "hard coded" text values all over the template, you can change the language, etc.
