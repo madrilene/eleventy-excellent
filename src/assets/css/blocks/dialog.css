@@ -13,3 +13,9 @@ dialog::backdrop {
   opacity: 0.85;
   filter: brightness(50%);
 }
+
+/* Prevent page scroll: https://blog.mayank.co/is-dialog-enough */
+
+html:has(dialog[open]:modal) {
+  overflow: hidden;
+}
