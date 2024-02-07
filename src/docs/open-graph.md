@@ -34,4 +34,6 @@ At the moment I have relocated the creation of the images in the development pro
 
 This is fine as long as you only work with markdown and the font is always installed on your system, how this works with a CMS workflow remains to be seen.
 
+Consider that the domain is a hard coded value in `src/common/og-images.njk`.
+
 Let me know if you encounter any problems.
