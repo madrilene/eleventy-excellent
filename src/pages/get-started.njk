@@ -10,9 +10,39 @@ preloads:
   crossorigin: true
 ---
 
+<p>
+  You can use this starter as a template for your blog and you are ready to go! But there
+  are some <strong>adjustments you have to make</strong>.
+</p>
+
+<ul>
+  <li>
+    <code>src/_data/meta.js</code> - sets different "hard coded" text values all over the
+    template, you can change the language, etc.
+  </li>
+  <li>
+    edit your personal details and social media in <code>src/_data/personal.yaml</code>.
+  </li>
+  <li>
+    Open <code>src/assets/css/blocks/external-link.css</code>. Replace
+    "eleventy-excellent.netlify.app" with your own domain. This is about the external link
+    indicators, they are matched with your domain. If you don't want to use external link
+    indicators, feel free to delete the whole style rule. You can also add the class
+    <code>no-indicator</code> to any anchor element you want to except from this rule.
+  </li>
+  <li>Edit your navigation items in <code>src/_data/navigation.js</code>.</li>
+</ul>
+
+
+<p>If you are working with <strong>VS Code</strong> I recommend installing the "Tailwind CSS IntelliSense" addon, as it works also for our custom utility classes. That said, you will find that Tailwind CSS does not work as you might expect. I explain this in <a href="/blog/what-is-tailwind-css-doing-here/">one of the blog posts</a>.</p>
+
+<p>The <a href="/blog/page-0/">blog posts</a> also explain / show some basic features that aren't covered here.</p>
+
+<h2 id="docs">"Docs" lol</h2>
+
 {%- for entry in collections.docs -%}
-<details>
+<details id="{{ entry.data.title | slugify }}">
   <summary>{{ entry.data.title }}</summary>
-{{ entry.templateContent | safe }}
+  {{ entry.templateContent | safe }}
 </details>
 {%- endfor -%}
