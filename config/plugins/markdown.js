@@ -9,6 +9,7 @@ const markdownItFootnote = require('markdown-it-footnote');
 const markdownitMark = require('markdown-it-mark');
 const markdownitAbbr = require('markdown-it-abbr');
 const {slugifyString} = require('../utils');
+const path = require('path');
 
 const markdownLib = markdownIt({
   html: true,
@@ -55,6 +56,7 @@ const markdownLib = markdownIt({
       decoding: 'async',
       sizes: '90vw'
     },
+		// prepend src for markdown images
     resolvePath: (filepath, env) => {
       return path.join('src', filepath);
     }
