@@ -20,7 +20,7 @@
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
-  --flow-space: var(--space-s);
+  --flow-space: var(--space-m);
 }
 
 .prose .heading-anchor:is(:hover, :focus) {
