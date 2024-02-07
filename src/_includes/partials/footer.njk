@@ -18,7 +18,7 @@
         {% endfor %}
       </nav>
 
-				<nav class="site-foot__inner" aria-label="{{ meta.navigation.ariaSocial }}">
+				<nav class="site-foot__inner" aria-label="{{ meta.navigation.ariaPlatforms }}">
 
 							<!-- gets the first item from the feed loop set in meta -->
 							<a href="{{ meta.blog.feedLinks[0].url }}" rel="alternate" type="{{ meta.blog.feedLinks[0].type }}">
@@ -26,12 +26,12 @@
 								<div aria-hidden="true">{% include 'svg/rss.svg' %}</div>
 							</a>
 
-							{% for key, value in personal.social %}
+							{% for key, value in personal.platforms %}
 							{% if value != "" %}
-								<!-- regular social networks -->
+								<!-- regular platforms -->
 							<a href="{{ value }}" rel="me">
 								<span class="visually-hidden">{{ key | capitalize }}</span>
-								<div aria-hidden="true">{% include 'svg/social-' + key + '.svg' %}</div>
+								<div aria-hidden="true">{% include 'svg/platform-' + key + '.svg' %}</div>
 							</a>
 							{% endif %}
 
