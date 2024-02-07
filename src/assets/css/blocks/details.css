@@ -22,7 +22,8 @@ summary {
 }
 
 summary:hover,
-summary:focus-visible {
+summary:focus-visible,
+[open] > summary {
   color: var(--color-primary);
 }
 
@@ -36,6 +37,7 @@ summary::before {
   line-height: 0.5;
   transform: scale(1.4);
   transform-origin: right bottom;
+  margin-inline-start: 0.2ch;
 }
 
 [open] summary::before {
@@ -54,5 +56,5 @@ summary + * {
 }
 
 details > * + * {
-  margin-inline-start: 2ch;
+  margin-inline-start: 2.4ch;
 }
