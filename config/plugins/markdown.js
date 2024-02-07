@@ -46,7 +46,7 @@ const markdownLib = markdownIt({
   .use(markdownItEmoji)
   .use(markdownItEleventyImg, {
     imgOptions: {
-      widths: [440, 880],
+      widths: [440, 880, 1024],
       urlPath: '/assets/images/',
       outputDir: './dist/assets/images/',
       formats: ['webp', 'jpeg']
