@@ -43,13 +43,16 @@
 
 /* inline space only for "regular lists" */
 .prose :where(ul:not(.grid), ol:not(.grid)) {
-  padding-inline-start: var(--space-m);
+  padding-inline-start: 1.5ch;
 }
-
 /* marker only for "regular lists" */
 .prose :where(ul:not(.grid)) li::marker {
   color: var(--color-primary);
-  content: '- ';
+  content: '– ';
+}
+
+.prose ol li::marker {
+  color: var(--color-primary);
 }
 
 .prose img {
