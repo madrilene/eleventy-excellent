@@ -43,7 +43,7 @@ html:focus-within {
 
 /* Make gutter area stable and present on both edges of the scrollbar */
 html {
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 }
 
 /* Set core body defaults */
