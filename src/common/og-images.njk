@@ -3,6 +3,7 @@ font: "'Red Hat Display', Ubuntu" # These get created in development, you must h
 background: '#343434'
 text: '#FBFBFB'
 colors: ['#dd4462', '#c73d58', '#b1364e', '#9a3044']
+siteUrl: 'eleventy-excellent.netlify.app'
 pagination:
   data: collections.posts
   size: 1
@@ -73,16 +74,15 @@ eleventyExcludeFromCollections: true
 			{% endfor %}
 		</text>
 
-		<!-- sitename -->
+		<!-- sitename / url -->
 		<text
 		font-family="{{ font }}, sans-serif"
 			font-size="24"
-			font-weight="700"
+			font-weight="500"
 			fill="{{ text }}"
 			letter-spacing="-0.5"
 		>
 			<!-- <tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan> -->
-			<!-- URL hard coded, images are generated in development -->
-			<tspan x="160" y="580">{{ meta.siteName }} · eleventy-excellent.netlify.app</tspan>
+			<tspan x="160" y="580">{{ meta.siteName }} — {{ siteUrl }}</tspan>
 		</text>
 </svg>
