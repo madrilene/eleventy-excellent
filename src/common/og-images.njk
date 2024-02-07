@@ -81,6 +81,8 @@ eleventyExcludeFromCollections: true
 			fill="{{ text }}"
 			letter-spacing="-0.5"
 		>
-			<tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan>
+			<!-- <tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan> -->
+			<!-- URL hard coded, images are generated in development -->
+			<tspan x="160" y="580">{{ meta.siteName }} · eleventy-excellent.netlify.app</tspan>
 		</text>
 </svg>
