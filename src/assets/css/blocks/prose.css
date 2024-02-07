@@ -4,13 +4,14 @@
 }
 
 .prose :is(pre, pre + *, figure, figure + *) {
-  --flow-space: var(--space-s-m);
+  --flow-space: var(--space-m-l);
 }
 
 .prose figcaption {
   font-size: var(--size-step-min-1);
   text-align: center;
   padding-block-end: var(--space-xs);
+  margin-block-end: var(--space-s);
   border-bottom: 1px solid var(--color-bg-accent);
 }
 

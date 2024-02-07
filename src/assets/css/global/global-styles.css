@@ -90,6 +90,10 @@ hr {
   padding: 0;
 }
 
+ol li::marker {
+  color: var(--color-primary);
+}
+
 /* Base interactive elements */
 
 a {

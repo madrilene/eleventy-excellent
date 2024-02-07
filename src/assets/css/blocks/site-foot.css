@@ -16,10 +16,6 @@
   padding: var(--space-xs);
 }
 
-:not(nav#social).site-foot__inner {
-  flex-wrap: wrap;
-}
-
 .site-foot svg {
   inline-size: 1.1em;
   block-size: 1em;

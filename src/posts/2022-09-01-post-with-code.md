@@ -32,7 +32,7 @@ cards.forEach(card => {
   margin-inline: auto;
 }
 
-/* © Stephanie Exkles, https://smolcss.dev/ */
+/* © Stephanie Eckles, https://smolcss.dev/ */
 ```
 
 Edit styles in `css/blocks/code.css`
