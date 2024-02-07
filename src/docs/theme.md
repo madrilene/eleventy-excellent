@@ -6,8 +6,10 @@ With version 2.0 I introduced dark and light mode. This is not intended to be a 
 
 Dark and light mode respects the user agent or operating system settings using the `prefers-color-scheme` CSS media feature. But there is also a switch in the `<footer>`.
 
-If you want to change something here, for example replace the button with a classic sun/moon icon, make sure to preserve accessibility. The accessible name ("Theme dark" or "Theme light") results from two IDs:
+If you want to change something here, for example replace the button with a sun/moon icon, make sure to preserve accessibility. The accessible name ("Theme dark" or "Theme light") results from two IDs:
 
 `aria-labelledby="theme-switcher-label theme-switcher-value"`
 
-If you remove the text content of the `<button>`, the value for `theme-switcher-value` must therefore be obtained differently.
+If you remove the text content of the `<button>` and you don't use the heading with the ID `theme-switcher-label`, the value for the accessible name must obtained differently.
+
+If you find any accessibility issues, please let me know.

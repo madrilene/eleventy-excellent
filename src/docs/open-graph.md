@@ -24,7 +24,7 @@ To change the look and behaviour of those images and replace the SVG background 
 
 The implementation is based on [Bernard Nijenhuis article.](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/)
 
-If you want to be inspired, have a look at [what Lea does here.](If you want to be inspired, have a look at [what Lea is doing here.](https://lea.codes/posts/2023-04-25-pseudorandom-numbers-in-eleventy/)
+If you want to be inspired, have a look at [what Lea is doing here.](https://lea.codes/posts/2023-04-25-pseudorandom-numbers-in-eleventy/)
 
 Previously the images were created at build time, but this leads to not rendering the font - if the system executing the build has not installed it, it will not be generated.
 

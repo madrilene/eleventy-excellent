@@ -21,9 +21,10 @@ In several places you will find a code block that looks like this:
 
 {% endraw %}
 
-Here `card.njk` is imported as a component, and some settings are made beforehand. In connection with tags, ` {% set activateTags = true %}` is important, because here you can switch off the display of tags in this card instance.
+`card.njk` is imported as a component, and some settings are made.
+With `set activateTags = true` you can switch the display of tags in this card collection instance.
 
-The tags are in your collection items in the front matter with the syntax
+The tags are placed in the front matter of the posts, using the syntax
 
 {% raw %}
 
@@ -44,7 +45,5 @@ tags: ['markdown', 'feature']
 ```
 
 {% endraw %}
-
-are entered.
 
 If you generally do not want any tags to show, it is probably easiest to not create any at all.
