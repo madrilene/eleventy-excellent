@@ -4,6 +4,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItClass = require('@toycode/markdown-it-class');
 const markdownItLinkAttributes = require('markdown-it-link-attributes');
 const markdownItEmoji = require('markdown-it-emoji').full;
+const markdownItEleventyImg = require('markdown-it-eleventy-img');
 const markdownItFootnote = require('markdown-it-footnote');
 const markdownitMark = require('markdown-it-mark');
 const markdownitAbbr = require('markdown-it-abbr');
@@ -42,6 +43,22 @@ const markdownLib = markdownIt({
     }
   ])
   .use(markdownItEmoji)
+  .use(markdownItEleventyImg, {
+    imgOptions: {
+      widths: [440, 880],
+      urlPath: '/assets/images/',
+      outputDir: './dist/assets/images/',
+      formats: ['webp', 'jpeg']
+    },
+    globalAttributes: {
+      loading: 'lazy',
+      decoding: 'async',
+      sizes: '90vw'
+    },
+    resolvePath: (filepath, env) => {
+      return path.join('src', filepath);
+    }
+  })
   .use(markdownItFootnote)
   .use(markdownitMark)
   .use(markdownitAbbr);
