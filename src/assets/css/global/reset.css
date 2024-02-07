@@ -41,6 +41,11 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+/* Make gutter area stable and present on both edges of the scrollbar */
+html {
+  scrollbar-gutter: stable both-edges;
+}
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
