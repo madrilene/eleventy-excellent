@@ -1,0 +1,58 @@
+details > * + * {
+  margin-block-start: var(--flow-space, 1em);
+}
+
+details > p:last-child {
+  margin-block-end: var(--space-l-xl);
+}
+
+summary {
+  grid-column: content;
+}
+
+summary {
+  display: flex;
+  align-items: baseline;
+  line-height: 1.2;
+  gap: 0 1ch;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  font-size: var(--size-step-1);
+}
+
+summary:hover,
+summary:focus-visible {
+  color: var(--color-primary);
+}
+
+summary::before {
+  content: '+';
+  display: block;
+  color: var(--color-primary);
+  font-family: var(--font-mono);
+  font-size: var(--size-step-0);
+  font-weight: normal;
+  line-height: 0.5;
+  transform: scale(1.4);
+  transform-origin: right bottom;
+}
+
+[open] summary::before {
+  content: '-';
+}
+
+/* Hide default marker */
+summary::-webkit-details-marker,
+summary::marker {
+  content: '';
+  display: none;
+}
+
+summary + * {
+  margin-block-start: var(--space-s-m);
+}
+
+details > * + * {
+  margin-inline-start: 2ch;
+}

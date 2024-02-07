@@ -1,0 +1,21 @@
+.footnotes {
+  font-size: var(--size-step-min-1);
+}
+
+.footnote-ref {
+  font-size: var(--size-step-min-1);
+  vertical-align: super;
+  margin-inline-start: var(--space-xs);
+  color: var(--color-secondary);
+}
+
+.footnote-backref {
+  text-decoration: none;
+  background-color: var(--color-bg-accent);
+  border-radius: var(--border-radius);
+  padding-inline: var(--space-xs);
+}
+
+.footnote-backref:hover {
+  color: var(--color-primary);
+}

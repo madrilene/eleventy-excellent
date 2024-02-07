@@ -42,13 +42,14 @@ module.exports = {
   navigation: {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
-    ariaSocial: 'Social',
+    ariaPlatforms: 'Platforms',
     closedText: 'Menu'
   },
   themeSwitch: {
     title: 'Theme',
     light: 'light',
-    dark: 'dark'
+    dark: 'dark',
+    initial: 'select'
   },
   greenweb: {
     // this goues into src/common/greenweb.njk

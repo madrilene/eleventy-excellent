@@ -1,6 +1,6 @@
 {
   "name": "eleventy-excellent",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Eleventy starter based on the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
@@ -44,6 +44,7 @@
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^8.6.5",
+    "markdown-it-eleventy-img": "^0.10.1",
     "markdown-it-emoji": "^3.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-link-attributes": "^4.0.1",

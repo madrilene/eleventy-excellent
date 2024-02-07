@@ -8,15 +8,15 @@ Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [bu
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 
 - [Eleventy Excellent](#eleventy-excellent)
-  - [Preview](#preview)
-  - [Features](#features)
-  - [First steps](#first-steps)
-  - [Development](#development)
-    - [Install dependencies](#install-dependencies)
-    - [Working locally](#working-locally)
-    - [Creating a production build](#creating-a-production-build)
-  - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
-  - [Credits and Thank yous](#credits-and-thank-yous)
+	- [Preview](#preview)
+	- [Features](#features)
+	- [First steps](#first-steps)
+	- [Development](#development)
+		- [Install dependencies](#install-dependencies)
+		- [Working locally](#working-locally)
+		- [Creating a production build](#creating-a-production-build)
+	- [Built with Eleventy Excellent](#built-with-eleventy-excellent)
+	- [Credits and Thank yous](#credits-and-thank-yous)
 
 ## Preview
 
@@ -36,14 +36,14 @@ https://eleventy-excellent.netlify.app/
 - 301 redirects for Netlify _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-301-redirects/))_
 - Automatically generated Open Graph images for blog posts _([see blog post](https://eleventy-excellent.netlify.app/blog/open-graph-images/))_
 - How Tailwind CSS is used here _([see blog post](https://eleventy-excellent.netlify.app/blog/what-is-tailwind-css-doing-here/))_
-- SEO basics (XML-sitemap, metadata)
+- XML-sitemap
 - dayjs handling dates & times
 - Bundling via esbuild
 - RSS feed (now you can add more than one)
-- Links to services and social media profiles
+- Links to platforms and social media profiles
 - Mastodon domain verification snippet
 - carbon.txt - to show that their digital infrastructure runs on green electricity
-- dark and light mode based on user preference and custom toggle
+- Accessible dark and light mode based on user preference and custom toggle
 - Tags in blog posts
 - Accessible blog pagination
 - A styleguide™
@@ -120,6 +120,10 @@ Also have a look at those codepens!
 
 - https://ryanmulligan.dev/
 - https://codepen.io/hexagoncircle/
+
+**Steven Woodson**
+
+The style guide was inspired by a [great talk on the Eleventy Meetup](https://www.youtube.com/watch?v=3mhA2bH6q8s). Steven also wrote a [blog post](https://stevenwoodson.com/blog/eleventy-style-guide-generator-step-by-step-guide-adding-to-an-existing-site/) about that.
 
 **Aleksandr Hovhannisyan**
 
