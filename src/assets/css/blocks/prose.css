@@ -45,8 +45,9 @@
 .prose :where(ul:not(.grid), ol:not(.grid)) {
   padding-inline-start: 1.5ch;
 }
+
 /* marker only for "regular lists" */
-.prose :where(ul:not(.grid)) li::marker {
+.prose :where(ul:not(.grid):not([role='list'])) li::marker {
   color: var(--color-primary);
   content: '– ';
 }
