@@ -3,10 +3,15 @@
 }
 
 .footnote-ref {
-  font-size: var(--size-step-min-1);
+  font-size: var(--size-step-min-2);
   vertical-align: super;
-  margin-inline-start: var(--space-xs);
-  color: var(--color-secondary);
+  margin-inline-start: 0.1ch;
+  color: var(--color-text-accent);
+}
+
+.footnote-ref a {
+  text-decoration: none;
+  padding: 0.3ch;
 }
 
 .footnote-backref {
