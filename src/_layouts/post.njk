@@ -7,21 +7,20 @@ schema: blog
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
 
+    {% if image %}
     <!-- image -->
-    {% if image %}{% eleventyImage image, alt or title, null, "eager", "feature" %} {%
-    endif %}
-
+    {% eleventyImage image, alt or title, null, "eager", "feature" %} {% endif %} {% if
+    credit %}
     <!-- credit -->
-    {% if credit %}
-    <p class="feature text-step-min-1">© {{ credit }}</p>
+    <p class="credit feature | text-step-min-1">© {{ credit }}</p>
     {% endif %}
 
-    <p class="cluster text-step-min-1" style="--gutter: var(--space-xs-s)">
+    <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
       <!-- date -->
-      {% set definedDate = date %} {% include "components/date.njk" %}
-
+      {% set definedDate = date %} {% include "components/date.njk" %} {% if tags.length >
+      1 %}
       <!-- tags -->
-      {% if tags.length > 1 %} {% for tag in tags %} {% if tag != "posts" %}
+      {% for tag in tags %} {% if tag != "posts" %}
       <a class="button post-tag" href="/tags/{{ tag }}">
         {{ tag }}
       </a>
