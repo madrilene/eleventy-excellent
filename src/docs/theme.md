@@ -8,8 +8,8 @@ Dark and light mode respects the user agent or operating system settings using t
 
 If you want to change something here, for example replace the button with a sun/moon icon, make sure to preserve accessibility. The accessible name ("Theme dark" or "Theme light") results from two IDs:
 
-`aria-labelledby="theme-switcher-label theme-switcher-value"`
+`aria-labelledby="theme-switcher-label"`
 
-If you remove the text content of the `<button>` and you don't use the heading with the ID `theme-switcher-label`, the value for the accessible name must obtained differently.
+If you remove the light and dark `<button>` and you don't use the heading with the ID `theme-switcher-label`, the value for the accessible name must obtained differently.
 
 If you find any accessibility issues, please let me know.
