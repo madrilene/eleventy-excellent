@@ -1,0 +1,29 @@
+<button id="toggleAll" class="button">{{ meta.details.toggle }}</button>
+
+{% for item in itemList %}
+<details id="{{ item.data.title | slugify }}">
+  <summary>{{ item.data.title }}</summary>
+  {{ item.templateContent | safe }}
+</details>
+{% endfor %}
+
+<script>
+  const toggleAll = document.querySelector('#toggleAll');
+  const details = document.querySelectorAll('details');
+
+  toggleAll.addEventListener('click', () => {
+    const allOpen = [...details].every(detail => detail.open);
+    details.forEach(detail => (detail.open = !allOpen));
+  });
+
+  details.forEach(detail => {
+    detail.addEventListener('toggle', () => {
+      const hash = detail.open ? `#${detail.id}` : '#';
+      history.pushState(null, null, hash);
+    });
+  });
+
+  const id = window.location.hash.slice(1);
+  const detail = document.getElementById(id);
+  if (detail) detail.open = true;
+</script>

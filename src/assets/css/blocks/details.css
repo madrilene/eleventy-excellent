@@ -3,7 +3,7 @@ details > * + * {
 }
 
 details > p:last-child {
-  margin-block-end: var(--space-l-xl);
+  margin-block-end: var(--space-l);
 }
 
 summary {

@@ -39,6 +39,9 @@ module.exports = {
     paginationPrevious: 'Previous',
     paginationNext: 'Next'
   },
+  details: {
+    toggle: 'Toggle all'
+  },
   navigation: {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
