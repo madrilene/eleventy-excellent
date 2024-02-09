@@ -10,6 +10,6 @@ If you want to change something here, for example replace the button with a sun/
 
 `aria-labelledby="theme-switcher-label"`
 
-If you remove the light and dark `<button>` and you don't use the heading with the ID `theme-switcher-label`, the value for the accessible name must obtained differently.
+If you remove the "light" and "dark" `<button>` and you don't use the heading with the ID `theme-switcher-label`, the value for the accessible name must be obtained differently.
 
 If you find any accessibility issues, please let me know.
