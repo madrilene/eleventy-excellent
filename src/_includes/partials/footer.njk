@@ -40,24 +40,9 @@
         </nav>
     </div>
 
-		<div
-		role="region"
-		class="theme-switch | cluster mt-xs"
-		style="--cluster-horizontal-alignment: center; --gutter: 0.5rem;"
-		aria-labelledby="theme-switcher-label theme-switcher-value"
-		data-theme-switcher
-		hidden
-	>
+		<!-- theme switch -->
+		{% include 'components/theme-switch.njk' %}
 
-		<h2 id="theme-switcher-label">{{ meta.themeSwitch.title }}</h2>
-			<button
-				class="button"
-				theme-toggle
-			>
-				<span id="theme-switcher-value">{{ meta.themeSwitch.initial }}</span>
-			</button>
-
-		</div>
 		<div class="text-center mt-m-l">
 			<a class="creator text-step-min-1" href="{{ meta.creator.website }}"
 			>Made with   <span>{% include 'svg/heart.svg' %}</span>
