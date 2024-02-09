@@ -28,7 +28,7 @@ CSS IntelliSense" addon, as it works also for our custom utility classes. That s
 will find that Tailwind CSS does not work as you might expect. I explain this in
 [one of the blog posts](/blog/what-is-tailwind-css-doing-here/).
 
-The [blog posts](/blog/page-0/) also explain / show some basic features that
+The [blog posts](/blog/page-0/) also explain / show some features that
 aren't covered here.
 
 ## "Docs" lol
