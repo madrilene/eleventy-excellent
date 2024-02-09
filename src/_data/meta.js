@@ -40,7 +40,9 @@ module.exports = {
     paginationNext: 'Next'
   },
   details: {
-    toggle: 'Toggle all'
+    aria: 'section controls',
+    expand: 'expand all',
+    collapse: 'collapse all'
   },
   navigation: {
     ariaTop: 'Main',

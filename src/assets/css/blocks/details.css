@@ -1,3 +1,10 @@
+.control {
+  --gutter: var(--space-xs-s);
+  --cluster-horizontal-alignment: flex-end;
+  border-block-start: 1px solid var(--color-bg-accent);
+  padding-block-start: var(--space-xs);
+}
+
 details > * + * {
   margin-block-start: var(--flow-space, 1em);
 }
