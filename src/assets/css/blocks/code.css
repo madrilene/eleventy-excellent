@@ -37,7 +37,7 @@ pre[class*='language-'] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  color: var(--color-text);
+  color: var(--color-text-accent);
   background: var(--color-bg);
   line-height: 1.5;
   border-radius: var(--border-radius);
@@ -84,7 +84,7 @@ pre[class*='language-'] {
 .language-css > code,
 .language-sass > code,
 .language-scss > code {
-  color: var(--color-text);
+  color: var(--color-text-accent);
 }
 
 [class*='language-'] .namespace {
@@ -100,7 +100,7 @@ pre[class*='language-'] {
 }
 
 .token.attr-value {
-  color: var(--color-text);
+  color: var(--color-text-accent);
 }
 
 .token.attribute {
@@ -183,7 +183,7 @@ pre[class*='language-'] {
 }
 
 .token.number {
-  color: var(--color-text);
+  color: var(--color-text-accent);
 }
 
 .token.operator {
@@ -219,7 +219,7 @@ pre[class*='language-'] {
 }
 
 .token.string {
-  color: var(--color-text);
+  color: var(--color-text-accent);
 }
 
 .token.symbol {
