@@ -1,3 +1,5 @@
+/* Based on Andy Bell, https://github.com/Andy-set-studio/personal-site-eleventy */
+
 .prose {
   --flow-space: var(--space-m);
   --wrapper-width: 64rem;
@@ -58,4 +60,15 @@
 
 .prose img {
   border-radius: var(--border-radius);
+}
+
+@media screen(ltsm) {
+  .prose > *,
+  .prose a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    hyphens: auto;
+  }
 }
