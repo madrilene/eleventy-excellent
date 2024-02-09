@@ -24,10 +24,9 @@ module.exports = {
   presets: [],
   theme: {
     screens: {
+      ltsm: {max: '39em'},
       sm: '40em',
-      md: '63em',
-      lg: '80em',
-      xl: '100em'
+      md: '63em'
     },
     colors,
     spacing,
