@@ -68,7 +68,7 @@ pre[class*='language-'] {
 
 :where(:not(pre)) > code {
   position: relative;
-  top: -0.1em;
+  top: -0.05em;
   background-color: var(--color-bg-accent);
 }
 
