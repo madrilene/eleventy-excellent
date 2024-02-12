@@ -8,15 +8,15 @@ Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [bu
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 
 - [Eleventy Excellent](#eleventy-excellent)
-	- [Preview](#preview)
-	- [Features](#features)
-	- [First steps](#first-steps)
-	- [Development](#development)
-		- [Install dependencies](#install-dependencies)
-		- [Working locally](#working-locally)
-		- [Creating a production build](#creating-a-production-build)
-	- [Built with Eleventy Excellent](#built-with-eleventy-excellent)
-	- [Credits and Thank yous](#credits-and-thank-yous)
+  - [Preview](#preview)
+  - [Features](#features)
+  - [First steps](#first-steps)
+  - [Development](#development)
+    - [Install dependencies](#install-dependencies)
+    - [Working locally](#working-locally)
+    - [Creating a production build](#creating-a-production-build)
+  - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
+  - [Credits and Thank yous](#credits-and-thank-yous)
 
 ## Preview
 
@@ -120,6 +120,13 @@ Also have a look at those codepens!
 
 - https://ryanmulligan.dev/
 - https://codepen.io/hexagoncircle/
+
+**Sara Soueidan**
+
+I took a close look at Sara's recommendations for accessible theme switch and pagination in the Practical Accessibility course
+
+- https://practical-accessibility.today/
+- https://www.sarasoueidan.com/
 
 **Steven Woodson**
 
