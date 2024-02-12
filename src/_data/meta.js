@@ -37,7 +37,8 @@ module.exports = {
     pagination: 'Blog',
     paginationPage: 'Page',
     paginationPrevious: 'Previous',
-    paginationNext: 'Next'
+    paginationNext: 'Next',
+    paginationNumbers: true
   },
   details: {
     aria: 'section controls',
