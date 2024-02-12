@@ -28,7 +28,7 @@ The tags are placed in the front matter of the posts, using the syntax
 
 {% raw %}
 
-```md
+```yaml
 tags:
   - image
   - feature
