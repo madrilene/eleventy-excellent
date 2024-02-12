@@ -1,7 +1,7 @@
 /* Based on Andy Bell, https://github.com/Andy-set-studio/personal-site-eleventy */
 
 .prose {
-  --flow-space: var(--space-m);
+  --flow-space: var(--space-m-l);
   --wrapper-width: 64rem;
 }
 
