@@ -8,13 +8,18 @@
   border-radius: var(--border-radius);
   font-size: var(--size-step-min-2);
   padding: 0.1rem 0.625rem;
-  font-weight: 600;
+  font-weight: 700;
   min-block-size: 1.5em;
   text-transform: uppercase;
 }
 
 .theme-switch .button[aria-pressed='true'] {
-  --button-bg: var(--color-primary);
+  --_color-primary-contast: color-mix(
+    in oklab,
+    var(--color-primary) 85%,
+    var(--color-base-dark)
+  );
+  --button-bg: var(--_color-primary-contast);
   --button-text: var(--color-base-light);
-  --button-border: var(--color-primary);
+  --button-border: var(--_color-primary-contast);
 }
