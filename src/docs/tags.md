@@ -8,15 +8,17 @@ In several places you will find a code block that looks like this:
 
 {% raw %}
 
-```html
+```jinja2
 <!-- loop posts -->
-{% set itemList = collections.posts %} {% for item in itemList.slice(0, 4) %}
+{% set itemList = collections.posts %}
+{% for item in itemList.slice(0, 4) %}
 <!-- activate tags -->
 {% set activateTags = true %}
 <!-- set heading context -->
 {% set headingContext = "h3" %}
 <!-- card -->
-{% include 'components/card.njk' %} {% endfor %}
+{% include 'components/card.njk' %}
+{% endfor %}
 ```
 
 {% endraw %}
@@ -26,24 +28,16 @@ With `set activateTags = true` you can switch the display of tags in this card c
 
 The tags are placed in the front matter of the posts, using the syntax
 
-{% raw %}
-
 ```yaml
 tags:
   - image
   - feature
 ```
 
-{% endraw %}
-
 or
-
-{% raw %}
 
 ```md
 tags: ['markdown', 'feature']
 ```
-
-{% endraw %}
 
 If you generally do not want any tags to show, it is probably easiest to not create any at all.

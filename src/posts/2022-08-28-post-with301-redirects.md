@@ -14,8 +14,6 @@ Aleksandr Hovhannisyan came up with an [elegant solution for Eleventy and Netlif
 
 ## Usage
 
-{% raw %}
-
 ```yaml
 Frontmatter:
 ---
