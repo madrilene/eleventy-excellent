@@ -33,6 +33,8 @@ masonry: true
 
   <!-- set collection to paginate -->
   {% set collectionToPaginate = collections.posts %}
+  <!-- set target pagination settings in meta.js -->
+  {% set metaKey = "blog" %}
   <!-- if the number of items in the collection is greater than the number of items shown on one page -->
   {% if collectionToPaginate.length > pagination.size %}
   <!-- include pagination -->
