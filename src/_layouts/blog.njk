@@ -14,14 +14,11 @@ masonry: true
     {% include 'svg/divider-edgy.svg' %}
   </header>
 
-	<div class="region flow prose"  style="--region-space-top: var(--space-xl-2xl)">  {{ content | safe }}</div>
+  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
+    {{ content | safe }}
+  </div>
 
-  <ul
-    class="blogcards | grid"
-    role="list"
-    data-rows="masonry"
-    data-layout="50-50"
-  >
+  <ul class="blogcards | grid" role="list" data-rows="masonry" data-layout="50-50">
     <!-- loop posts -->
     {% set itemList = pagination.items %} {% for item in itemList %}
     <!-- activate tags -->
@@ -30,40 +27,15 @@ masonry: true
     {% set definedDate = item.date %}
     <!-- set heading context -->
     {% set headingContext = "h2" %}
-    <!-- card -->
+    <!-- include card -->
     {% include 'components/card.njk' %} {% endfor %}
   </ul>
 
-
-  {% if pagination.data.length > pagination.size %}
-
-  <section class="region">
-    <nav role="navigation" aria-labelledby="pagination_label">
-			<span id="pagination_label" hidden>{{ meta.blog.paginationLabel }}</span>
-			<span id="prefix" hidden>{{ meta.blog.paginationPage }}</span>
-      <ol class="pagination | cluster" role="list">
-        <li>
-          {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}"> {{ meta.blog.paginationPrevious }} </a>
-          {% else %} {{ meta.blog.paginationPrevious }} {% endif %}
-        </li>
-				{% if meta.blog.paginationNumbers %}
-        {%- for pageEntry in pagination.pages %}
-          <li>
-            <a href="{{ pagination.hrefs[ loop.index0 ] }}" id="link_{{ loop.index }}" aria-labelledby="prefix link_{{ loop.index }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" {% endif %}>
-              {{ loop.index }}</a>
-          </li>
-        {%- endfor %}
-				{% endif %}
-        <li>
-          {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}">{{ meta.blog.paginationNext }}</a>
-          {% else %} {{ meta.blog.paginationNext }} {% endif %}
-        </li>
-      </ol>
-    </nav>
-  </section>
-
-  {% endif %}
-
+  <!-- set collection to paginate -->
+  {% set collectionToPaginate = collections.posts %}
+  <!-- if the number of items in the collection is greater than the number of items shown on one page -->
+  {% if collectionToPaginate.length > pagination.size %}
+  <!-- include pagination -->
+  {% include 'components/pagination.njk' %} {% endif %}
 </article>
+s
