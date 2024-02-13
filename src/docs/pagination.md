@@ -25,3 +25,26 @@ You can also **hide the number fields** between the previous and next buttons by
     paginationNext: 'Next',
     paginationNumbers: true
 ```
+
+If you want to change the collection that is paginated (by default `collections.posts`), you must do so in two places: the front matter of the template, `src/pages/blog.md`:
+
+```yaml
+pagination:
+data: collections.posts
+```
+
+and where the pagination component is included: `src/_layouts/blog.njk`:
+
+{% raw %}
+
+```jinja2
+<!-- set collection to paginate -->
+{% set collectionToPaginate = collections.posts %}
+<!-- if the number of items in the collection is greater than the number of items shown on one page -->
+{% if collectionToPaginate.length > pagination.size %}
+<!-- include pagination -->
+{% include 'components/pagination.njk' %}
+{% endif %}
+```
+
+{% endraw %}
