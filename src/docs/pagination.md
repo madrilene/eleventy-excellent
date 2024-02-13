@@ -8,8 +8,8 @@ If you do not want any pagination at all, it is easiest to set a very high numbe
 
 ```yaml
 pagination:
-data: collections.posts
-size: 10000
+  data: collections.posts
+  size: 10000
 ```
 
 In `src/_data_/meta.js` you can set some values for the visible content (previous / next buttons) and the aria labels.
@@ -17,20 +17,21 @@ In `src/_data_/meta.js` you can set some values for the visible content (previou
 You can also **hide the number fields** between the previous and next buttons by setting `paginationNumbers` to `false`.
 
 ```js
-  blog: {
-    // other adjustments
-    paginationLabel: 'Blog',
-    paginationPage: 'Page',
-    paginationPrevious: 'Previous',
-    paginationNext: 'Next',
-    paginationNumbers: true
+blog: {
+	// other adjustments
+	paginationLabel: 'Blog',
+	paginationPage: 'Page',
+	paginationPrevious: 'Previous',
+	paginationNext: 'Next',
+	paginationNumbers: true
+}
 ```
 
 If you want to change the collection that is paginated (by default `collections.posts`), you must do so in two places: the front matter of the template, `src/pages/blog.md`:
 
 ```yaml
 pagination:
-data: collections.posts
+  data: collections.posts
 ```
 
 and where the pagination component is included: `src/_layouts/blog.njk`:
