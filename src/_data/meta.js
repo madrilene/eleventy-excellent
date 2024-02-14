@@ -2,7 +2,7 @@ module.exports = {
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'Eleventy Excellent',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es',
+    'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -23,14 +23,20 @@ module.exports = {
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
   opengraph_default_alt:
-    'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
+    'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // RSS feed
     name: 'My Web Development Blog',
     description:
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     // feed links are looped over in the head. You may add more to the array.
-    feedLinks: [{title: 'Atom Feed', url: '/feed.xml', type: 'application/atom+xml'}],
+    feedLinks: [
+      {
+        title: 'Atom Feed',
+        url: '/feed.xml',
+        type: 'application/atom+xml'
+      }
+    ],
     // Tags
     tagSingle: 'Tag',
     tagPlural: 'Tags',
@@ -51,7 +57,9 @@ module.exports = {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
     ariaPlatforms: 'Platforms',
-    closedText: 'Menu'
+    // activate alternative mobile menu with drawer
+    drawerNav: false,
+    navLabel: 'Menu'
   },
   themeSwitch: {
     title: 'Theme',

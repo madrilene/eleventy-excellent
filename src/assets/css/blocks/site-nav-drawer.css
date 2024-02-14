@@ -1,0 +1,150 @@
+/* set on parent div to get the right z-index context */
+.ontop {
+  z-index: 1;
+  position: relative;
+}
+
+.site-nav-drawer {
+  position: var(--nav-position, absolute);
+  inset-inline-end: 0.1rem;
+}
+
+/* Remove default list styling and create layout for list */
+.site-nav-drawer ul {
+  --cluster-vertical-alignment: normal;
+  --gutter: var(--space-xs);
+  list-style: none;
+  margin: 0;
+  line-height: 0.5em;
+  padding: var(--nav-list-padding, var(--space-2xl) var(--space-s));
+  background: var(--nav-list-background, var(--color-bg));
+  box-shadow: var(--nav-list-shadow, -5px 0 11px 0 rgb(0 0 0 / 0.2));
+  flex-direction: var(--nav-list-layout, column);
+  block-size: var(--nav-list-height, 100vh);
+  position: var(--nav-list-position, fixed);
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  inline-size: var(--nav-list-width, min(22rem, 100vw));
+  visibility: var(--nav-list-visibility, visible);
+}
+
+.site-nav-drawer [aria-expanded='false'] + ul {
+  transform: var(--nav-list-transform, translateX(100%));
+  visibility: var(--nav-list-visibility, hidden);
+}
+
+/* animates ul only when opening to avoid flash on page load, svg always */
+@media (prefers-reduced-motion: no-preference) {
+  .site-nav-drawer [aria-expanded='true'] + ul,
+  .site-nav-drawer svg {
+    transition:
+      transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+      visibility 0.05s linear;
+  }
+}
+
+/* Basic link styling */
+.site-nav-drawer a {
+  --text-color: var(--color-text);
+  --background-color: var(--color-bg);
+  --border-color: transparent;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: var(--anchor-padding, var(--space-s));
+  text-decoration: none;
+  display: block;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+}
+
+/* Change the border-color on :hover and :focus */
+.site-nav-drawer a:where(:hover, :focus) {
+  --background-color: var(--color-bg-accent);
+  --text-color: var(--color-text-accent);
+  --border-color: var(--color-bg-accent);
+}
+
+/* Change border-color and color for the active page */
+.site-nav-drawer [aria-current='page'],
+.site-nav-drawer [data-state='active'] {
+  --background-color: var(--color-bg-accent);
+  --text-color: var(--color-text);
+  --border-color: var(--color-bg-accent);
+}
+
+/* Reset button styling */
+.site-nav-drawer button {
+  all: unset;
+  display: var(--nav-button-display, flex);
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  align-items: center;
+  padding: var(--space-xs) 0;
+}
+
+.site-nav-drawer span {
+  font-size: var(--size-step-min-1);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-inline-end: var(--space-2xs);
+}
+
+.site-nav-drawer svg {
+  block-size: 100%;
+  inline-size: auto;
+  transform: translateY(-0.1em);
+  color: var(--color-text);
+}
+
+.site-nav-drawer [aria-expanded='true'] svg {
+  transform: var(--nav-list-rotate, rotate(45deg));
+}
+
+@media screen(sm) {
+  .site-nav-drawer {
+    --nav-button-display: none;
+    --nav-position: static;
+  }
+
+  .site-nav-drawer ul {
+    --nav-list-background: transparent;
+    --nav-list-layout: row;
+    --nav-list-position: static;
+    --nav-list-padding: 0;
+    --nav-list-height: auto;
+    --nav-list-width: 100%;
+    --nav-list-shadow: none;
+    --nav-list-transform: none;
+    --nav-list-visibility: visible;
+  }
+
+  .site-nav-drawer a {
+    --anchor-padding: var(--space-xs) 0.2em;
+    --text-color: var(--color-text);
+    --background-color: transparent;
+    --border-color: transparent;
+    --text-decoration: transparent;
+    text-decoration-line: underline;
+    text-decoration-color: var(--text-decoration, transparent);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.2em;
+  }
+
+  .site-nav-drawer a:where(:hover, :focus) {
+    --text-color: var(--color-text);
+    --background-color: transparent;
+    --border-color: transparent;
+    --text-decoration: var(--color-text-accent);
+  }
+
+  /* Change border-color and color for the active page */
+  .site-nav-drawer [aria-current='page'],
+  .site-nav-drawer [data-state='active'] {
+    --text-color: var(--color-primary);
+    --background-color: transparent;
+    --border-color: transparent;
+    --text-decoration: var(--color-primary);
+  }
+}

@@ -2,6 +2,8 @@
 
 <!doctype html>
 <html lang="{{ meta.lang }}">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
   <head>
     <!-- charset/http-equiv/viewport -->
     <meta charset="UTF-8" />
@@ -64,10 +66,11 @@
 
     <!-- defered js  -->
 
-    <!-- masonry fallback, if true in frontmatter -->
     {% if masonry %}
+      <!-- masonry fallback, if true in frontmatter -->
       <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
     {% endif %}
+
     {% if youtube %}
       <!-- youtube, if true in frontmatter -->
       <script
@@ -76,8 +79,13 @@
       ></script>
     {% endif %}
 
-    <!-- easteregg js, if true in meta -->
+    {% if meta.navigation.drawerNav %}
+      <!-- menu drawer js, if true in meta -->
+      <script src="/assets/scripts/nav-drawer.js?{{ assetHash }}" defer></script>
+    {% endif %}
+
     {% if meta.easteregg %}
+      <!-- easteregg js, if true in meta -->
       <script src="/assets/scripts/easteregg.js?{{ assetHash }}" defer></script>
     {% endif %}
 
