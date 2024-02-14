@@ -37,45 +37,45 @@ customGradients:
       <p>{{ designTokens.colors.description }}</p>
 
       <ul role="list">
-        {%- for color in designTokens.colors.items %}
-        <li>
-          <div style="background-color: var(--color-{{ color.name | slugify }}"></div>
+        {%- for color in designTokens.colors.items -%}
+          <li>
+            <div style="background-color: var(--color-{{ color.name | slugify }}"></div>
 
-          <p>
-            <code>var(--color-{{ color.name | slugify }})</code>
-          </p>
-        </li>
-        {%- endfor %}
+            <p>
+              <code>var(--color-{{ color.name | slugify }})</code>
+            </p>
+          </li>
+        {%- endfor -%}
       </ul>
 
       <h3 class="heading-line | mt-l-xl">Custom colors</h3>
       <p>in <code>variables.css</code>. Some only change for dark theme.</p>
 
       <ul role="list">
-        {%- for color in customColors %}
-        <li>
-          <div style="background-color: var({{ color.property }})"></div>
-          <p>
-            <code>{{ color.property }}</code>
-          </p>
-        </li>
-        {%- endfor %}
+        {%- for color in customColors -%}
+          <li>
+            <div style="background-color: var({{ color.property }})"></div>
+            <p>
+              <code>{{ color.property }}</code>
+            </p>
+          </li>
+        {%- endfor -%}
       </ul>
 
       <h3 class="heading-line | mt-l-xl">Gradients</h3>
 
       <ul role="list">
-        {%- for gradient in customGradients %}
-        <li>
-          <div style="background-image: var({{ gradient.property }})"></div>
+        {%- for gradient in customGradients -%}
+          <li>
+            <div style="background-image: var({{ gradient.property }})"></div>
 
-          <p>
-            <code>{{ gradient.property }}</code>
-            <br />
-            <!-- <code>{{ color.value }}</code> -->
-          </p>
-        </li>
-        {%- endfor %}
+            <p>
+              <code>{{ gradient.property }}</code>
+              <br />
+              <!-- <code>{{ color.value }}</code> -->
+            </p>
+          </li>
+        {%- endfor -%}
       </ul>
     </section>
   </div>
@@ -84,16 +84,16 @@ customGradients:
     <h2 class="heading-line">Fonts</h2>
 
     <ul class="fonts flow">
-      {%- for font in designTokens.fonts.items %}
-      <li class="font" style="font-family: var(--font-{{ font.name | slugify }})">
-        <h3 style="font-family: var(--font-{{ font.name | slugify }})">
-          {{ font.name }}
-        </h3>
-        <p>{{ font.description }}</p>
-        <p><strong>Font Families</strong>: {{ font.value | join(', ')}}</p>
-        <code>var(--font-{{ font.name | slugify }})</code>
-      </li>
-      {%- endfor %}
+      {%- for font in designTokens.fonts.items -%}
+        <li class="font" style="font-family: var(--font-{{ font.name | slugify }})">
+          <h3 style="font-family: var(--font-{{ font.name | slugify }})">
+            {{ font.name }}
+          </h3>
+          <p>{{ font.description }}</p>
+          <p><strong>Font Families</strong>: {{ font.value | join(', ') }}</p>
+          <code>var(--font-{{ font.name | slugify }})</code>
+        </li>
+      {%- endfor -%}
     </ul>
   </section>
 
@@ -107,22 +107,24 @@ customGradients:
       </p>
 
       <table class="sizes flow">
-        {%- for size in designTokens.sizes.items %}
-        <tr>
-          <th scope="row">
-            <h3>{{ size.name }}</h3>
-          </th>
-          <td>
-            <span class="flow">
-              <p>{{ size.min }}px to {{ size.max }}px</p>
-              <code>var(--size-{{ size.name | slugify }})</code>
-            </span>
-          </td>
-          <td class="sizes-example">
-            <p style="font-size:var(--size-{{ size.name | slugify }})">{{ size.name }}</p>
-          </td>
-        </tr>
-        {%- endfor %}
+        {%- for size in designTokens.sizes.items -%}
+          <tr>
+            <th scope="row">
+              <h3>{{ size.name }}</h3>
+            </th>
+            <td>
+              <span class="flow">
+                <p>{{ size.min }}px to {{ size.max }}px</p>
+                <code>var(--size-{{ size.name | slugify }})</code>
+              </span>
+            </td>
+            <td class="sizes-example">
+              <p style="font-size:var(--size-{{ size.name | slugify }})">
+                {{ size.name }}
+              </p>
+            </td>
+          </tr>
+        {%- endfor -%}
       </table>
     </section>
   </div>
@@ -137,27 +139,25 @@ customGradients:
     </p>
 
     <table class="spacing flow">
-      {%- for space in designTokens.spacing.items %}
-      <tr>
-        <th scope="row">
-          <h3>{{ space.name }}</h3>
-        </th>
-        <td>
-          <span class="flow">
-            <p>{{ space.min }}px to {{ space.max }}px</p>
-            <code>var(--space-{{ space.name | slugify }})</code>
-          </span>
-        </td>
-        <td>
-          <div
-            class="space"
-            style="height:var(--space-{{ space.name | slugify }}); width:var(--space-{{
-              space.name | slugify
-            }});"
-          ></div>
-        </td>
-      </tr>
-      {%- endfor %}
+      {%- for space in designTokens.spacing.items -%}
+        <tr>
+          <th scope="row">
+            <h3>{{ space.name }}</h3>
+          </th>
+          <td>
+            <span class="flow">
+              <p>{{ space.min }}px to {{ space.max }}px</p>
+              <code>var(--space-{{ space.name | slugify }})</code>
+            </span>
+          </td>
+          <td>
+            <div
+              class="space"
+              style="height:var(--space-{{ space.name | slugify }}); width:var(--space-{{ space.name | slugify }});"
+            ></div>
+          </td>
+        </tr>
+      {%- endfor -%}
     </table>
   </section>
 </article>

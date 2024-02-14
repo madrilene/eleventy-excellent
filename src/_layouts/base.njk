@@ -1,6 +1,6 @@
 {% set assetHash = helpers.random() %}
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ meta.lang }}">
   <head>
     <!-- charset/http-equiv/viewport -->
@@ -9,28 +9,33 @@
 
     <!-- title -->
     <title>
-      {% if discover.title %} {{ discover.title }}
+      {% if discover.title %}
+        {{ discover.title }}
       {% elif title %}
-      {{ title }}
+        {{ title }}
       {% else %}
-      {{ meta.siteName }}
+        {{ meta.siteName }}
       {% endif %}
     </title>
 
     <!-- 4 synchronous js  -->
     <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
-    {% set jsthemetoggle %} {% include "theme-toggle-inline.js" %} {% endset %}
+    {% set jsthemetoggle %}{% include "theme-toggle-inline.js" %}{% endset %}
 
     <script>
       <!-- prettier-ignore -->
-      {{ jsthemetoggle | jsmin | safe }}
+      {
+        {
+          jsthemetoggle | jsmin | safe;
+        }
+      }
     </script>
 
     <!--  inline base schema -->
     {% include "schemas/base-schema.njk" %}
 
     <!--  inline blogpost schema  -->
-    {% if schema == 'blog' %} {%- include "schemas/blogpost-schema.njk" %} {% endif %}
+    {% if schema == 'blog' %}{%- include "schemas/blogpost-schema.njk" -%}{% endif %}
 
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
 
@@ -52,12 +57,12 @@
     />
 
     <!-- preloads in page data -->
-    {% if preloads -%}
-    <!-- prettier-ignore -->
-    <link rel="preload"
+    {%- if preloads -%}
+      <!-- prettier-ignore -->
+      <link rel="preload"
             href="{{ preloads.href }}"
             as="{{ preloads.as }}"
-            {% if preloads.type %}type={{ preloads.type }}{% endif %}{% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}" {% endif %}
+            {% if preloads.type %}type={{ preloads.type }}{% endif %}{% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}"{% endif %}
             {% if preloads.crossorigin %}crossorigin{% endif %} />
     {% endif %}
 
@@ -65,18 +70,19 @@
 
     <!-- masonry fallback, if true in frontmatter -->
     {% if masonry %}
-    <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
-    {% endif %} {% if youtube %}
-    <!-- youtube, if true in frontmatter -->
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
-    ></script>
+      <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
+    {% endif %}
+    {% if youtube %}
+      <!-- youtube, if true in frontmatter -->
+      <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
+      ></script>
     {% endif %}
 
     <!-- easteregg js, if true in meta -->
     {% if meta.easteregg %}
-    <script src="/assets/scripts/easteregg.js?{{ assetHash }}" defer></script>
+      <script src="/assets/scripts/easteregg.js?{{ assetHash }}" defer></script>
     {% endif %}
 
     <!-- everything else: meta tags, icons, open graph etc.  -->

@@ -17,4 +17,4 @@ The fallback and default image for all other pages is the image set as `opengrap
 
 {% eleventyImage "./src/" + meta.opengraph_default, meta.opengraph_default_alt, "This is what the general OG image for non-blog posts looks like" %}
 
-A more detailed explanation can be found in the [docs](/get-started/#docs).
+A more detailed explanation can be found in the [docs](/get-started/#open-graph-images).

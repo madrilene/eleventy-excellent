@@ -12,9 +12,7 @@ masonry: true
   </header>
 
   <article class="full | region">
-    <div class="wrapper flow prose">
-      {{ content | safe }}
-    </div>
+    <div class="wrapper flow prose">{{ content | safe }}</div>
   </article>
 
   <section class="full | region">
@@ -23,7 +21,7 @@ masonry: true
       <!-- blog intro text is optional. -->
 
       {% if blog.intro %}
-      <p>{{ blog.intro }}</p>
+        <p>{{ blog.intro }}</p>
       {% endif %}
 
       <ul
@@ -33,13 +31,15 @@ masonry: true
         data-layout="50-50"
       >
         <!-- loop posts -->
-        {% set itemList = collections.posts %} {% for item in itemList.slice(0, 4) %}
-        <!-- activate tags -->
-        {% set activateTags = true %}
-        <!-- set heading context -->
-        {% set headingContext = "h3" %}
-        <!-- card -->
-        {% include 'components/card.njk' %} {% endfor %}
+        {% set itemList = collections.posts %}
+        {% for item in itemList.slice(0, 4) %}
+          <!-- activate tags -->
+          {% set activateTags = true %}
+          <!-- set heading context -->
+          {% set headingContext = "h3" %}
+          <!-- card -->
+          {% include 'components/card.njk' %}
+        {% endfor %}
       </ul>
     </div>
   </section>

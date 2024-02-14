@@ -8,23 +8,29 @@ schema: blog
     <h1 class="gradient-text">{{ title }}</h1>
 
     {% if image %}
-    <!-- image -->
-    {% eleventyImage image, alt or title, null, "eager", "feature" %} {% endif %} {% if
-    credit %}
-    <!-- credit -->
-    <p class="credit feature | text-step-min-1">© {{ credit }}</p>
+      <!-- image -->
+      {% eleventyImage image, alt or title, null, "eager", "feature" %}
+    {% endif %}
+    {%
+      if
+      credit
+    %}
+      <!-- credit -->
+      <p class="credit feature | text-step-min-1">© {{ credit }}</p>
     {% endif %}
 
     <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
       <!-- date -->
-      {% set definedDate = date %} {% include "components/date.njk" %} {% if tags.length >
-      1 %}
-      <!-- tags -->
-      {% for tag in tags %} {% if tag != "posts" %}
-      <a class="button post-tag" href="/tags/{{ tag }}">
-        {{ tag }}
-      </a>
-      {% endif %} {% endfor %} {% endif %}
+      {% set definedDate = date %} {% include "components/date.njk" %}
+      {%
+        if tags.length >
+        1
+      %}
+        <!-- tags -->
+        {% for tag in tags %}{% if tag != "posts" %}
+          <a class="button post-tag" href="/tags/{{ tag }}"> {{ tag }} </a>
+        {% endif %}{% endfor %}
+      {% endif %}
     </p>
 
     {{ content | safe }}

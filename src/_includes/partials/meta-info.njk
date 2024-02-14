@@ -3,11 +3,12 @@
 <meta
   name="description"
   content="
-  {% if discover.description %} {{ discover.description }}
+  {% if discover.description %}
+    {{ discover.description }}
   {% elif description %}
-  {{ description }}
+    {{ description }}
   {% else %}
-  {{ meta.siteDescription }}
+    {{ meta.siteDescription }}
   {% endif %}
   "
 />
@@ -32,8 +33,8 @@
 <link rel="author" href="humans.txt" />
 
 {% if personal.social.mastodon %}
-<!-- Mastodon verified site -->
-<link rel="me" href="{{ personal.social.mastodon }}" />
+  <!-- Mastodon verified site -->
+  <link rel="me" href="{{ personal.social.mastodon }}" />
 {% endif %}
 
 <!-- Open Graph meta  -->
@@ -45,22 +46,23 @@
 />
 <meta
   property="og:image"
-  content="{{ meta.url }}{% if (layout == 'post') %}/assets/og-images/{{
-    title | slugify
-  }}-preview.jpeg
-  {% else %}{{ meta.opengraph_default }}
+  content="{{ meta.url }}{% if (layout == 'post') %}
+    /assets/og-images/{{ title | slugify }}-preview.jpeg
+  {% else %}
+    {{ meta.opengraph_default }}
   {% endif %}"
 />
 <meta
   property="og:image:alt"
-  content="{% if (layout == 'post') %}{% else %}{{ meta.opengraph_default_alt }}
-{% endif %}"
+  content="{% if (layout == 'post') %}
+
+  {% else %}
+    {{ meta.opengraph_default_alt }}
+  {% endif %}"
 />
 <meta
   property="og:description"
-  content="{% if description %}{{ description }}{% else %}{{
-    meta.siteDescription
-  }}{% endif %}"
+  content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}"
 />
 <meta property="og:site_name" content="{{ meta.siteName }}" />
 <meta property="og:locale" content="{{ meta.locale }}" />
@@ -70,12 +72,12 @@
 
 <!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
 {% for feedLink in meta.blog.feedLinks %}
-<link
-  rel="alternate"
-  type="{{ feedLink.type }}"
-  title="{{ feedLink.title }}: {{ meta.siteName }}"
-  href="{{ feedLink.url }}"
-/>
+  <link
+    rel="alternate"
+    type="{{ feedLink.type }}"
+    title="{{ feedLink.title }}: {{ meta.siteName }}"
+    href="{{ feedLink.url }}"
+  />
 {% endfor %}
 
 <!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
