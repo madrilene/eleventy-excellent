@@ -8,7 +8,7 @@ youtube: true
 
 This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
 
-Based on the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
+It is built around the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
 
 If you want to know exactly how it all works, [read this article on piccalil.li](https://piccalil.li/blog/a-css-project-boilerplate/).
 

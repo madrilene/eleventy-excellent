@@ -2,7 +2,7 @@ module.exports = {
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'Eleventy Excellent',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es',
+    'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -23,7 +23,7 @@ module.exports = {
   themeBgColor: '#FBFBFB', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/opengraph-default.jpg', // fallback/default meta image
   opengraph_default_alt:
-    'Visible content: Eleventy starter based on workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
+    'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es', // alt text for default meta image
   blog: {
     // RSS feed
     name: 'My Web Development Blog',
