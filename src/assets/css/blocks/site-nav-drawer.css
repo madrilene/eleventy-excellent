@@ -1,0 +1,117 @@
+@media (min-width: 38em) {
+  nav.navbar {
+    --nav-button-display: none;
+    --nav-position: static;
+  }
+
+  nav.navbar ul {
+    --nav-list-background: transparent;
+    --nav-list-layout: row;
+    --nav-list-position: static;
+    --nav-list-padding: 0;
+    --nav-list-height: auto;
+    --nav-list-width: 100%;
+    --nav-list-shadow: none;
+    --nav-list-transform: none;
+    --nav-list-visibility: visible;
+  }
+}
+
+/* set on parent div to get the right z-index context */
+.ontop {
+  z-index: 1;
+  position: relative;
+}
+
+nav.navbar {
+  position: var(--nav-position, absolute);
+  /* inset-block-start: 0.5rem; */
+  inset-inline-end: 0.1rem;
+}
+
+/* Remove default list styling and create layout for list */
+nav.navbar ul {
+  background: var(--nav-list-background, var(--color-light));
+  box-shadow: var(--nav-list-shadow, -5px 0 11px 0 rgb(0 0 0 / 0.2));
+  display: flex;
+  flex-direction: var(--nav-list-layout, column);
+  gap: var(--space-s);
+  block-size: var(--nav-list-height, 100vh);
+  list-style: none;
+  margin: 0;
+  padding: var(--nav-list-padding, var(--space-l) var(--space-s));
+  position: var(--nav-list-position, fixed);
+  inset-block-start: 0; /* Logical property. Equivalent to top: 0; */
+  inset-inline-end: 0; /* Logical property. Equivalent to right: 0; */
+  inline-size: var(--nav-list-width, min(22rem, 100vw));
+  visibility: var(--nav-list-visibility, visible);
+}
+
+nav.navbar [aria-expanded='false'] + ul {
+  transform: var(--nav-list-transform, translateX(100%));
+  visibility: var(--nav-list-visibility, hidden);
+}
+
+/* animates ul only when opening to avoid flash on page load, svg always */
+@media (prefers-reduced-motion: no-preference) {
+  nav.navbar [aria-expanded='true'] + ul,
+  nav.navbar svg {
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+      visibility 0.05s linear;
+  }
+}
+
+/* Basic link styling */
+nav.navbar a {
+  --text-color: var(--color-dark);
+  color: var(--text-color);
+  padding: 0.1rem;
+  text-decoration: none;
+  display: block;
+  text-decoration-line: underline;
+  text-decoration-color: var(--border-color, transparent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.3em;
+}
+
+/* Change the border-color on :hover and :focus */
+nav.navbar a:where(:hover, :focus) {
+  --border-color: var(--text-color);
+}
+
+/* Change border-color and color for the active page */
+nav.navbar [aria-current='page'] {
+  --border-color: var(--color-primary);
+  --text-color: var(--color-primary);
+}
+
+/* Reset button styling */
+nav.navbar button {
+  all: unset;
+  display: var(--nav-button-display, flex);
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  align-items: center;
+  padding: var(--space-xs) 0;
+}
+
+nav.navbar span {
+  font-size: var(--size-step-min-1);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-inline-end: var(--space-2xs);
+}
+
+nav.navbar svg {
+  block-size: 100%;
+  inline-size: auto;
+}
+header svg {
+  transform: translateY(-0.1em);
+}
+
+nav.navbar [aria-expanded='true'] svg {
+  transform: var(--nav-list-rotate, rotate(45deg));
+}

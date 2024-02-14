@@ -30,7 +30,13 @@ module.exports = {
     description:
       'Tell the word what you are writing about in your blog. It will show up on feed readers.',
     // feed links are looped over in the head. You may add more to the array.
-    feedLinks: [{title: 'Atom Feed', url: '/feed.xml', type: 'application/atom+xml'}],
+    feedLinks: [
+      {
+        title: 'Atom Feed',
+        url: '/feed.xml',
+        type: 'application/atom+xml'
+      }
+    ],
     // Tags
     tagSingle: 'Tag',
     tagPlural: 'Tags',
@@ -51,7 +57,8 @@ module.exports = {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
     ariaPlatforms: 'Platforms',
-    closedText: 'Menu'
+    closedText: 'Menu',
+    drawerMenu: true
   },
   themeSwitch: {
     title: 'Theme',
