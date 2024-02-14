@@ -4,7 +4,9 @@ title: Less JavaScript
 
 The only "real" JavaScript dependency is **theme-toggle.js**, which is inlined.
 
-There are three more scripts that are available, but you have to opt in:
+The `gallery.njk` and `details.njk` components were slightly enhanced with JavaScript.
+
+There are three more scripts, but you have to opt in:
 
 **nav-drawer.js**, to opt in to a drawer menu on small screens. See the [navigation documentation](/docs/navigation/).
 
