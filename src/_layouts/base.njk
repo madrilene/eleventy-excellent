@@ -23,12 +23,8 @@
     {% set jsthemetoggle %}{% include "theme-toggle-inline.js" %}{% endset %}
 
     <script>
-      <!-- prettier-ignore -->
-      {
-        {
-          jsthemetoggle | jsmin | safe;
-        }
-      }
+      // prettier-ignore
+      {{ jsthemetoggle | jsmin | safe }}
     </script>
 
     <!--  inline base schema -->
