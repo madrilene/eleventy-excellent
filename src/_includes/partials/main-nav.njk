@@ -17,3 +17,7 @@
     {% endfor %}
   </ul>
 </nav>
+
+{% if meta.navigation.drawerMenu %}
+  {% include "components/burger-template.njk" %}
+{% endif %}
