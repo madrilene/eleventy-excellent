@@ -4,14 +4,14 @@
   style="--grid-min-item-size: clamp(16rem, 50vw, 20rem)"
 >
   {% for item in gallery %}
+    <dialog class="flow modal{{ loop.index }}">
+      <button class="button" autofocus>Close</button>
+      {% eleventyImage item.image, item.alt, item.caption %}
+    </dialog>
 
-  <dialog class="flow modal{{ loop.index }}">
-    <button class="button" autofocus>Close</button>
-    {% eleventyImage item.image, item.alt, item.caption %}
-  </dialog>
-
-  <button data-index="{{ loop.index }}">{% eleventyImage item.image, item.alt %}</button>
-
+    <button data-index="{{ loop.index }}">
+      {% eleventyImage item.image, item.alt %}
+    </button>
   {% endfor %}
 </div>
 

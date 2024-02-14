@@ -2,10 +2,14 @@
 
 <header class="wrapper">
   <div class="repel ontop">
-			<a href="/" class="logo | cluster"{% if page.url == "/" %} aria-current="page"{% endif %}>
-			{% include "svg/star.svg" %}
-			<span>{{ meta.siteName }}</span>
-			</a>
+    <a
+      href="/"
+      class="logo | cluster"
+      {% if page.url == "/" %}aria-current="page"{% endif %}
+    >
+      {% include "svg/star.svg" %}
+      <span>{{ meta.siteName }}</span>
+    </a>
     {% include "partials/menu.njk" %}
   </div>
 </header>

@@ -1,19 +1,19 @@
 <nav id="mainnav" class="site-nav" aria-label="{{ meta.navigation.ariaTop }}">
   <ul class="cluster" role="list">
     {% for item in navigation.top %}
-    <li>
-      <a
-        class="nav"
-        href="{{ item.url }}"
-        {{
-        helpers.getLinkActiveState(item.url,
-        page.url)
-        |
-        safe
-        }}
-        >{{ item.text }}</a
-      >
-    </li>
+      <li>
+        <a
+          class="nav"
+          href="{{ item.url }}"
+          {{
+            helpers.getLinkActiveState(item.url,
+            page.url)
+            |
+            safe
+          }}
+          >{{ item.text }}</a
+        >
+      </li>
     {% endfor %}
   </ul>
 </nav>

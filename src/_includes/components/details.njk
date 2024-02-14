@@ -4,10 +4,10 @@
 </ul>
 
 {% for item in itemList %}
-<details id="{{ item.data.title | slugify }}">
-  <summary>{{ item.data.title }}</summary>
-  {{ item.templateContent | safe }}
-</details>
+  <details id="{{ item.data.title | slugify }}">
+    <summary>{{ item.data.title }}</summary>
+    {{ item.templateContent | safe }}
+  </details>
 {% endfor %}
 
 <script>
