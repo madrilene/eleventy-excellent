@@ -1,7 +1,7 @@
-<!-- check for drawer menu being activated in meta.js -->
-{% set drawerMenu = meta.navigation.drawerMenu %}
+{% set drawerNav = meta.navigation.drawerNav %}
 
-{% if drawerMenu %}
+{% if drawerNav %}
+  <!-- check for drawer menu being activated in meta.js -->
   {% set drawerClass = "site-nav-drawer" %}
 {% endif %}
 
@@ -29,6 +29,6 @@
   </ul>
 </nav>
 
-{% if drawerMenu %}
+{% if drawerNav %}
   {% include "components/burger-template.njk" %}
 {% endif %}
