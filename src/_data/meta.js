@@ -57,8 +57,9 @@ module.exports = {
     ariaTop: 'Main',
     ariaBottom: 'Complementary',
     ariaPlatforms: 'Platforms',
-    closedText: 'Menu',
-    drawerMenu: true
+    // activate alternative mobile menu with drawer
+    drawerMenu: true,
+    navLabel: 'Menu'
   },
   themeSwitch: {
     title: 'Theme',

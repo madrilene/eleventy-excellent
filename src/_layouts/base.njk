@@ -64,16 +64,22 @@
 
     <!-- defered js  -->
 
-    <!-- masonry fallback, if true in frontmatter -->
     {% if masonry %}
+      <!-- masonry fallback, if true in frontmatter -->
       <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
     {% endif %}
+
     {% if youtube %}
       <!-- youtube, if true in frontmatter -->
       <script
         type="module"
         src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
       ></script>
+    {% endif %}
+
+    <!-- menu drawer js, if true in meta -->
+    {% if meta.navigation.drawerMenu %}
+      <script src="/assets/scripts/nav-drawer.js?{{ assetHash }}" defer></script>
     {% endif %}
 
     <!-- easteregg js, if true in meta -->

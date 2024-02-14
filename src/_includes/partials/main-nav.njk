@@ -1,4 +1,15 @@
-<nav id="mainnav" class="site-nav" aria-label="{{ meta.navigation.ariaTop }}">
+<!-- check for drawer menu being activated in meta.js -->
+{% set drawerMenu = meta.navigation.drawerMenu %}
+
+{% if drawerMenu %}
+  {% set drawerClass = "site-nav-drawer" %}
+{% endif %}
+
+<nav
+  id="mainnav"
+  class=" {{ drawerClass or 'site-nav' }}"
+  aria-label="{{ meta.navigation.ariaTop }}"
+>
   <ul class="cluster" role="list">
     {% for item in navigation.top %}
       <li>
@@ -18,6 +29,6 @@
   </ul>
 </nav>
 
-{% if meta.navigation.drawerMenu %}
+{% if drawerMenu %}
   {% include "components/burger-template.njk" %}
 {% endif %}
