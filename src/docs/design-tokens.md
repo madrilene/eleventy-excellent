@@ -8,5 +8,3 @@ Additional colors, variants and gradients for custom properties are automaticall
 Admittedly, I went a little bit crazy there with the new CSS color syntax stuff.
 
 In the [style guide](/styleguide/) you can see how everything turns out.
-
-Please note that adjustments in `viewports.json` only affect your utility classes and custom properties, but do not change the dimensions of your page. You can control this using the custom property `--wrapper-width`.
