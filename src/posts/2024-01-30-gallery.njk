@@ -17,17 +17,14 @@ gallery:
     caption: 'A large blue (Phengaris arion)'
 ---
 
-Gallery popups usting the `<dialog>` element:
+<p>Gallery popups using the <code>dialog</code> element:</p>
 
 {% include "components/gallery.njk" %}
 
-Loop through images without additional interactivity:
+<p>Loop through images without additional interactivity:</p>
 
-<ul class="gallery"
-  role="list" style="padding: 0;">
-{%- for item in gallery -%}
-  <li>
-    {% eleventyImage item.image, item.alt %}
-  </li>
-{%- endfor -%}
+<ul class="gallery" role="list" style="padding: 0;">
+  {%- for item in gallery -%}
+    <li>{% eleventyImage item.image, item.alt %}</li>
+  {%- endfor -%}
 </ul>
