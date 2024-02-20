@@ -10,8 +10,10 @@ blog:
 
 ## An Eleventy starter
 
-This [Eleventy](https://www.11ty.dev/) starter was inspired [Andy Bell's](https://andy-bell.co.uk/) talk 'Be the browser’s mentor, not its micromanager' and its companion website buildexcellentwebsit.es.
+This starter is based on [Andy Bell's CSS workflow/boilerplate](/about/).
+In Andy's words, we'd rather hint the browser than micromanage it, using progressive enhancement, CSS layout, fluid type & spacing, and modern CSS features.
+The aim is to create frontends that look good to everyone, regardless of device, connection speed or context.
 
-In his words, it's about hinting the browser rather than micromanaging it, using progressive enhancement, CSS layout, fluid type & spacing, as well as modern CSS features.
+Everything else is my own defaults and opinions and my preferred organization system for Eleventy projects. I have tried to [document a few things](/get-started/).
 
-This way we can shape frontends that look good to everyone, regardless of device, connection speed or context.
+**Have fun** and let me know if you find any issues or have ideas for improvements!
