@@ -73,14 +73,12 @@ canvas {
   shape-margin: 0.75rem;
 }
 
-/* Inherit fonts for inputs and buttons */
-
 /* remove default button styles */
-
 button {
   all: unset;
 }
 
+/* Inherit fonts for inputs and buttons */
 button,
 input,
 textarea,
@@ -88,23 +86,29 @@ select {
   font: inherit;
 }
 
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
 /* Adding cursor style to interactive elements */
 button,
-[type='button'],
-[type='reset'],
-[type='submit'],
-[type='image'],
-[type='checkbox'],
-[type='radio'],
-summary {
+label,
+select,
+summary,
+[role='button'],
+[role='option'] {
   cursor: pointer;
 }
 
-:where(*) {
-  /* No typographic widows */
+/* No typographic widows */
+* {
   text-wrap: pretty;
 }
-:where(h1, h2, h3, h4) {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
