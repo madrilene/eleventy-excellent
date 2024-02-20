@@ -102,12 +102,14 @@ customGradients:
       <h2 class="heading-line">Sizes</h2>
 
       <p>
-        {{ designTokens.sizes.description }}. Fluid type and space scales were
-        <a href="{{ designTokens.sizes.meta.scaleGenerator }}">generated with Utopia</a>.
+        {{ designTokens.textSizes.description }}. Fluid type and space scales were
+        <a href="{{ designTokens.textSizes.meta.scaleGenerator }}"
+          >generated with Utopia</a
+        >.
       </p>
 
       <table class="sizes flow">
-        {%- for size in designTokens.sizes.items -%}
+        {%- for size in designTokens.textSizes.items -%}
           <tr>
             <th scope="row">
               <h3>{{ size.name }}</h3>
