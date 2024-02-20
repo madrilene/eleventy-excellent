@@ -14,7 +14,7 @@ body {
   letter-spacing: var(--tracking);
   display: flex;
   flex-direction: column;
-  font-weight: 500;
+  font-weight: var(--font-medium);
   accent-color: var(--color-primary);
 }
 
@@ -28,7 +28,7 @@ h2,
 h3 {
   line-height: 1.2;
   letter-spacing: var(--tracking-s);
-  font-weight: 700;
+  font-weight: var(--font-bold);
   font-family: var(--font-display);
 }
 
@@ -74,7 +74,7 @@ svg {
 }
 
 strong {
-  font-weight: 800;
+  font-weight: var(--font-extra-bold);
 }
 
 hr {

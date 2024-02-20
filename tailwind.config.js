@@ -11,12 +11,17 @@ const tokensToTailwind = require('./src/utilities/tokens-to-tailwind.js');
 const colorTokens = require('./src/_data/designTokens/colors.json');
 const fontTokens = require('./src/_data/designTokens/fonts.json');
 const spacingTokens = require('./src/_data/designTokens/spacing.json');
-const textSizeTokens = require('./src/_data/designTokens/sizes.json');
+const textSizeTokens = require('./src/_data/designTokens/textSizes.json');
+const textLeadingTokens = require('./src/_data/designTokens/textLeading.json');
+const textWeightTokens = require('./src/_data/designTokens/textWeights.json');
+const viewportTokens = require('./src/_data/designTokens/viewports.json');
 
 // Process design tokens
 const colors = tokensToTailwind(colorTokens.items);
 const fontFamily = tokensToTailwind(fontTokens.items);
 const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
+const fontWeight = tokensToTailwind(textWeightTokens.items);
+const fontLeading = tokensToTailwind(textLeadingTokens.items);
 const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
 
 module.exports = {
@@ -24,19 +29,16 @@ module.exports = {
   presets: [],
   theme: {
     screens: {
-      ltsm: {max: '39em'},
-      sm: '40em',
-      md: '63em'
+      ltsm: {max: `${viewportTokens.sm}px`},
+      sm: `${viewportTokens.sm}px`,
+      md: `${viewportTokens.md}px`
     },
     colors,
     spacing,
-    fontSize,
     fontFamily,
-    fontWeight: {
-      normal: 500,
-      semi: 600,
-      bold: 800
-    },
+    fontSize,
+    fontWeight,
+    fontLeading,
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
     margin: ({theme}) => ({
@@ -91,7 +93,9 @@ module.exports = {
         {key: 'colors', prefix: 'color'},
         {key: 'spacing', prefix: 'space'},
         {key: 'fontSize', prefix: 'size'},
-        {key: 'fontFamily', prefix: 'font'}
+        {key: 'fontLeading', prefix: 'leading'},
+        {key: 'fontFamily', prefix: 'font'},
+        {key: 'fontWeight', prefix: 'font'}
       ];
 
       groups.forEach(({key, prefix}) => {

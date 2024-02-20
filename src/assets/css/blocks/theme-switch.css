@@ -8,7 +8,7 @@
   border-radius: var(--border-radius);
   font-size: var(--size-step-min-2);
   padding: 0.1rem 0.625rem;
-  font-weight: 700;
+  font-weight: var(--font-bold);
   min-block-size: 1.5em;
   text-transform: uppercase;
 }

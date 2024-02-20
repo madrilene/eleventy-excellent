@@ -37,7 +37,7 @@ td {
 td::before {
   content: attr(data-label);
   float: start;
-  font-weight: bold;
+  font-weight: var(--font-bold);
 }
 td:last-child {
   border-block-end: 0;

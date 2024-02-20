@@ -24,7 +24,7 @@ summary {
   gap: 0 1ch;
   cursor: pointer;
   list-style: none;
-  font-weight: bold;
+  font-weight: var(--font-bold);
   font-size: var(--size-step-1);
 }
 
@@ -40,7 +40,7 @@ summary::before {
   color: var(--color-primary);
   font-family: var(--font-mono);
   font-size: var(--size-step-0);
-  font-weight: normal;
+  font-weight: var(--font-regular);
   line-height: 0.5;
   transform: scale(1.4);
   transform-origin: right bottom;

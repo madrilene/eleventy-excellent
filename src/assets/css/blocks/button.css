@@ -6,7 +6,7 @@
   display: inline-block;
   font: inherit;
   padding: 0.3rem var(--space-s);
-  font-weight: 700;
+  font-weight: var(--font-bold);
   text-decoration: none;
   text-align: center;
 }

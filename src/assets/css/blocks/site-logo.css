@@ -2,7 +2,7 @@
   --gutter: var(--space-xs);
   padding: var(--space-s) 0;
   font-size: var(--size-step-0);
-  font-weight: bold;
+  font-weight: var(--font-bold);
   text-transform: uppercase;
   text-decoration: none;
 }
