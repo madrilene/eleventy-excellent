@@ -1,14 +1,13 @@
-/** © Andy Bell - https://buildexcellentwebsit.es/ */
-
 module.exports = {
   /**
-   * Returns back some attributes based on wether the
-   * link is active or a parent of an active item
+   * Returns back some attributes based on whether the
+   * link is active or a parent of an active item.
    *
-   * @param {String} itemUrl The link in question
-   * @param {String} pageUrl The page context
-   * @returns {String} The attributes or empty
+   * @param {String} itemUrl - The link in question.
+   * @param {String} pageUrl - The page context.
+   * @returns {String} - The attributes or empty.
    */
+
   getLinkActiveState(itemUrl, pageUrl) {
     let response = '';
 
@@ -22,18 +21,25 @@ module.exports = {
 
     return response;
   },
+
   /**
    * Take an array of keys and return back items that match.
    * Note: items in the collection must have a key attribute in
-   * Front Matter
+   * Front Matter.
    *
-   * @param {Array} collection 11ty collection
-   * @param {Array} keys collection of keys
-   * @returns {Array} result collection or empty
+   * @param {Array} collection - 11ty collection.
+   * @param {Array} keys - Collection of keys.
+   * @returns {Array} - Result collection or empty.
    */
   filterCollectionByKeys(collection, keys) {
     return collection.filter(x => keys.includes(x.data.key));
   },
+
+  /**
+   * Generates a random UUID (Universally Unique Identifier).
+   *
+   * @returns {string} A random UUID.
+   */
 
   random() {
     const segment = () => {
