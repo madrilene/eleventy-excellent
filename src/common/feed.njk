@@ -24,7 +24,7 @@ excludeFromSitemap: true
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content
-      xml:lang="{{ locale }}"
+      xml:lang="{{ meta.locale }}"
       type="html"
       >{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content
     >
