@@ -46,16 +46,16 @@
 />
 <meta
   property="og:image"
-  content="{{ meta.url }}{% if (layout == 'post') %}
-    /assets/og-images/{{ title | slugify }}-preview.jpeg
+  content="{% if (layout == 'post') %}
+    {{ meta.url }}/assets/og-images/{{ title | slugify }}-preview.jpeg
   {% else %}
-    {{ meta.opengraph_default }}
+    {{ meta.url }}{{ meta.opengraph_default }}
   {% endif %}"
 />
 <meta
   property="og:image:alt"
   content="{% if (layout == 'post') %}
-
+    {{ title }}
   {% else %}
     {{ meta.opengraph_default_alt }}
   {% endif %}"
