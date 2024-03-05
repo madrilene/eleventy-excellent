@@ -76,5 +76,11 @@
     "description": "Demo project for a fictional Berlin-based event agency.",
     "screenshot": "./src/assets/images/screenshots/elan.jpg",
     "link": "https://elan.maltebaer.vercel.app/"
+  },
+  {
+    "name": "Colegio Marpe Ciudad Jardín",
+    "description": "Website for a primary school in Las Palmas.",
+    "screenshot": "./src/assets/images/screenshots/colegio-marpe.png",
+    "link": "https://colegiomarpeciudadjardin.com/"
   }
 ]
