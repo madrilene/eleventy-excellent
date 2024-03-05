@@ -67,9 +67,20 @@ The class names are passed in the outer container, the `<picture>` or `<figure>`
 
 Thanks to the [markdown-it-eleventy-img](https://github.com/solution-loisir/markdown-it-eleventy-img) package markdown also has it own image syntax. `src` is already prepended here, see `config/plugins/markdown.js`.
 
+### Picture element
+
 ```markdown
 ![alt text](/path/to/image)
 ![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg)
 ```
 
 ![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg)
+
+### Figure element with caption
+
+```markdown
+![alt text](/path/to/image 'caption text')
+![A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape](/assets/images/gallery/asturias-1.jpg 'Inside the Somiedo Natural Park, Asturias')
+```
+
+![A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape](/assets/images/gallery/asturias-1.jpg 'Inside the Somiedo Natural Park, Asturias')
