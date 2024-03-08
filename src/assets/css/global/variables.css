@@ -143,7 +143,7 @@
 }
 
 /* Enhancements for browsers that support relative color values */
-@supports (color: color(display-p3 1 0 0)) {
+@supports (color: hsl(from red h s l)) {
   @media (prefers-color-scheme: dark) {
     :root {
       --color-primary: hsl(from var(--color-primary-highlight) h calc(s / 1.2) l);
