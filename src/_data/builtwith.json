@@ -82,5 +82,11 @@
     "description": "Website for a primary school in Las Palmas.",
     "screenshot": "./src/assets/images/screenshots/colegio-marpe.png",
     "link": "https://colegiomarpeciudadjardin.com/"
-  }
+  },
+  {
+    "name": "The Wooden Chips Handyman Service",
+    "description": "A a website for local virginia handyman built with Netlify CMS and 11ty",
+    "screenshot": "./src/assets/images/screenshots/woodenchips.png",
+    "link": "https://thewoodenchips.com"
+  } 
 ]
