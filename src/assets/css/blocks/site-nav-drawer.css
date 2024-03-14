@@ -1,9 +1,3 @@
-/* set on parent div to get the right z-index context */
-.ontop {
-  z-index: 1;
-  position: relative;
-}
-
 .site-nav-drawer {
   position: var(--nav-position, absolute);
   inset-inline-end: 0.1rem;
@@ -11,6 +5,7 @@
 
 /* Remove default list styling and create layout for list */
 .site-nav-drawer ul {
+  z-index: 1;
   --cluster-vertical-alignment: normal;
   --gutter: var(--space-xs);
   list-style: none;
