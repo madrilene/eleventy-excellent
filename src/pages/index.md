@@ -16,7 +16,7 @@ The aim is to create frontends that look good to everyone, regardless of device,
 
 I have tried to [document a few things](/get-started/).
 
-I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) because I have changed a lot of things. I understand that not everyone wants to change much, or doesn't agree with my decisions.
+I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) because I have changed a lot of things.
 At the same time, I'm already [working on v3](https://github.com/madrilene/eleventy-excellent/tree/v3), where I'm switching to ESM and building components with webC where it makes sense.
 
 **Have fun** and let me know if you find any issues or have ideas for improvements!
