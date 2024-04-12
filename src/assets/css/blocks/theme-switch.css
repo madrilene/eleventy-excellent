@@ -14,12 +14,13 @@
 }
 
 .theme-switch .button[aria-pressed='true'] {
-  --_color-primary-contast: color-mix(
+  --_color-primary-contrast: color-mix(
     in oklab,
     var(--color-primary) 85%,
     var(--color-base-dark)
   );
-  --button-bg: var(--_color-primary-contast);
+  --button-bg: var(--_color-primary-contrast);
   --button-text: var(--color-base-light);
-  --button-border: var(--_color-primary-contast);
+  --button-border: var(--_color-primary-contrast);
+  outline-color: var(--_color-primary-contrast);
 }

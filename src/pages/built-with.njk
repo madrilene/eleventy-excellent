@@ -3,9 +3,8 @@ title: Built with
 permalink: /built-with/index.html
 description: 'A list of sites based on / built with Eleventy Excellent. Add yours by submitting a pull request!'
 layout: page
-grid:
-  sizes: "(max-width: 615px) 50vw, 100vw"
-	widths: [400, 520]
+sizes: '(max-width: 615px) 50vw, 100vw'
+widths: [400, 520]
 ---
 
 <p>
@@ -26,22 +25,18 @@ grid:
     <ul class="grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
       <!-- you find tha data for that in src/_data/builtwith.json -->
       {% for site in builtwith | reverse %}
+        <li class="grid-card | text-step-min-1">
+          {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %}
 
-      <li class="grid-card | text-step-min-1">
-        {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %}
+          <p>{{ site.description }}</p>
 
-        <p>
-          {{ site.description }}
-        </p>
-
-        <p>
-          <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
-        </p>
-      </li>
+          <p>
+            <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
+          </p>
+        </li>
       {% endfor %}
     </ul>
   </section>
 
   {% include 'svg/divider-soft-bottom.svg' %}
 </article>
-
