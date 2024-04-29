@@ -1,15 +1,15 @@
 [
   {
-    "name": "Refugio Libertad",
-    "description": "Organización de trabajadores y trabajadoras de la economía popular que habitamos en pequeños pueblos y zonas rurales de la provincia de Córdoba (Argentina).",
-    "screenshot": "./src/assets/images/screenshots/refugiolibertad.png",
-    "link": "https://refugio.libre.org.ar"
-  },
-  {
     "name": "Lene Saile",
     "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
     "screenshot": "./src/assets/images/screenshots/lenesaile.jpg",
     "link": "https://www.lenesaile.com"
+  },
+  {
+    "name": "Refugio Libertad",
+    "description": "Organización de trabajadores y trabajadoras de la economía popular que habitamos en pequeños pueblos y zonas rurales de la provincia de Córdoba (Argentina).",
+    "screenshot": "./src/assets/images/screenshots/refugiolibertad.png",
+    "link": "https://refugio.libre.org.ar"
   },
   {
     "name": "Old man yelling at tech",
@@ -46,6 +46,12 @@
     "description": "Joe works on the Technical Content team at Starburst Data and contribute to the Trino OSS project.",
     "screenshot": "./src/assets/images/screenshots/joewrites.jpg",
     "link": "https://joewrites.io"
+  },
+  {
+    "name": "Manu Clavijo",
+    "description": "Manu Clavijo is an experienced violinist who also performs his own repertoire of songs as a singer-songwriter",
+    "screenshot": "./src/assets/images/screenshots/manuclavijo.png",
+    "link": "https://www.manuclavijo.com"
   },
   {
     "name": "Misremembered",
@@ -88,5 +94,11 @@
     "description": "A a website for local virginia handyman built with Netlify CMS and 11ty",
     "screenshot": "./src/assets/images/screenshots/woodenchips.png",
     "link": "https://thewoodenchips.com"
-  } 
+  },
+  {
+    "name": "cantautor.es",
+    "description": "A curated collection of Spanish singer-songwriters, dedicated to supporting their artistry and helping you discover the authentic and diverse voices of talented musicians",
+    "screenshot": "./src/assets/images/screenshots/cantautores.jpg",
+    "link": "https://cantautor.es"
+  }
 ]
