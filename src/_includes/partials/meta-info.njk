@@ -42,24 +42,33 @@
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="{% if title %}{{ title }}{% else %}{{ meta.siteName }}{% endif %}"
+  content="{%- if discover.title -%}
+    {{- discover.title -}}
+  {%- elif title -%}
+    {{- title -}}
+  {%- else -%}
+    {{- meta.siteName -}}
+  {%- endif -%}"
 />
+
 <meta
   property="og:image"
-  content="{% if (layout == 'post') %}
-    {{ meta.url }}/assets/og-images/{{ title | slugify }}-preview.jpeg
-  {% else %}
-    {{ meta.url }}{{ meta.opengraph_default }}
-  {% endif %}"
+  content="{%- if layout == 'post' -%}
+    {{- meta.url -}}/assets/og-images/{{ title | slugify }}-preview.jpeg
+  {%- else -%}
+    {{- meta.url -}}{{- meta.opengraph_default -}}
+  {%- endif -%}"
 />
 <meta
   property="og:image:alt"
-  content="{% if (layout == 'post') %}
-    {{ title }}
-  {% else %}
-    {{ meta.opengraph_default_alt }}
-  {% endif %}"
+  content="{%- if layout == 'post' -%}
+    {{- title -}}
+  {%- else -%}
+    {{- meta.opengraph_default_alt -}}
+  {%- endif -%}"
 />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta
   property="og:description"
   content="{% if description %}{{ description }}{% else %}{{ meta.siteDescription }}{% endif %}"
