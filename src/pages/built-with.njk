@@ -9,24 +9,32 @@ widths: [400, 520]
 
 <p>
   A list of sites based on / built with Eleventy Excellent. Add yours by submitting a
+  A list of sites based on / built with <span class="font-display">Eleventy Excellent</span>. <br />
+  This uses Eleventy's <a href="https://www.11ty.dev/docs/services/screenshots/">screenshot API </a>. New screenshots are fetched in development only.
+</p>
+
+<p>
+  Have you built a site with this starer? Please let me know or create a
   <a
     href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
     rel="noopener"
     >pull request!</a
+    >pull request</a
   >
   :)
+  and add it to the list! You find the data in <code>src/_data/builtwith.json</code> (Not related to "Build
+  with Jason" 🥁).
 </p>
-
 <article class="full section" style="--spot-color: var(--color-bg-accent)">
   {% include 'svg/divider-soft-top.svg' %}
 
   <section class="section__inner wrapper">
     <h2>Based on, or built with Eleventy Excellent:</h2>
-    <ul class="grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
+    <ul class="feature grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
       <!-- you find tha data for that in src/_data/builtwith.json -->
       {% for site in builtwith | reverse %}
         <li class="grid-card | text-step-min-1">
-          {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %}
+          {% eleventyImage "./src/assets/images/screenshots/" + site.filename + ".jpg", site.name, null, "lazy", null, sizes, widths %}
 
           <p>{{ site.description }}</p>
 

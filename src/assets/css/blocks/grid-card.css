@@ -8,7 +8,7 @@
 .grid-card img {
   max-inline-size: var(--max-img-width, 100%);
   block-size: auto;
-  aspect-ratio: 12/9;
+  aspect-ratio: 16/9;
   object-fit: cover;
   object-position: center;
 }
