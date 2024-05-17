@@ -74,6 +74,10 @@ const splitlines = (input, maxCharLength) => {
   return lines;
 };
 
+const shuffleArray = array => {
+  return array.sort(() => Math.random() - 0.5);
+};
+
 module.exports = {
   toISOString,
   formatDate,
@@ -81,5 +85,6 @@ module.exports = {
   stripHtml,
   minifyCss,
   minifyJs,
-  splitlines
+  splitlines,
+  shuffleArray
 };

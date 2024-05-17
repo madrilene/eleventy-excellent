@@ -32,7 +32,7 @@ widths: [400, 520]
     <h2>Based on, or built with Eleventy Excellent:</h2>
     <ul class="feature grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
       <!-- you find tha data for that in src/_data/builtwith.json -->
-      {% for site in builtwith | reverse %}
+      {% for site in builtwith | shuffle %}
         <li class="grid-card | text-step-min-1">
           {% eleventyImage "./src/assets/images/screenshots/" + site.filename + ".jpg", site.name, null, "lazy", null, sizes, widths %}
 

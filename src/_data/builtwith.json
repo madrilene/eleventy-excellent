@@ -12,12 +12,6 @@
     "link": "https://refugio.libre.org.ar"
   },
   {
-    "name": "Lene Saile",
-    "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
-    "filename": "lenesaile",
-    "link": "https://www.lenesaile.com"
-  },
-  {
     "name": "Old man yelling at tech",
     "description": "Former software engineer turned manager rediscovers his love for coding and infrastructure.",
     "filename": "krgr",
@@ -88,12 +82,6 @@
     "description": "Demo project for a fictional Berlin-based event agency.",
     "filename": "elan",
     "link": "https://elan.maltebaer.vercel.app"
-  },
-  {
-    "name": "Manu Clavijo",
-    "description": "Manu Clavijo is an experienced violinist who also performs his own repertoire of songs as a singer-songwriter",
-    "filename": "manuclavijo",
-    "link": "https://www.manuclavijo.com/"
   },
   {
     "name": "Colegio Marpe Ciudad Jardín",

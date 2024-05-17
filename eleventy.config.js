@@ -21,7 +21,8 @@ const {
   stripHtml,
   minifyCss,
   minifyJs,
-  splitlines
+  splitlines,
+  shuffleArray
 } = require('./config/filters/index.js');
 
 // module import shortcodes
@@ -67,6 +68,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addFilter('stripHtml', stripHtml);
   eleventyConfig.addFilter('slugify', slugifyString);
   eleventyConfig.addFilter('splitlines', splitlines);
+  eleventyConfig.addFilter('shuffle', shuffleArray);
 
   eleventyConfig.addFilter('cssmin', minifyCss);
   eleventyConfig.addNunjucksAsyncFilter('jsmin', minifyJs);
