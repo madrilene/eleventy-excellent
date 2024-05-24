@@ -7,6 +7,9 @@
  *  - `./config/transforms/index.js`
  */
 
+// register dotenv for process.env.* variables to pickup
+require('dotenv').config()
+
 // JSDoc comment: Hint VS Code for eleventyConfig autocompletion. © Henry Desroches - https://gist.github.com/xdesro/69583b25d281d055cd12b144381123bf
 
 /**
