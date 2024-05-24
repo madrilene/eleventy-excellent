@@ -10,8 +10,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "screenshots": "node ./config/scripts/generate-screenshots.mjs",
-    "dev:11ty": "eleventy --serve --watch",
-    "build:11ty": "eleventy",
+    "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
+    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
@@ -28,6 +28,7 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "cross-env": "^7.0.3",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
