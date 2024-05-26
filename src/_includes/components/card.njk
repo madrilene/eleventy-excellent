@@ -17,7 +17,16 @@
           if
           activateTags and item.data.tags.length > 1
         %}
-          <span class="button post-tag"> {{ item.data.tags[1] }} </span>
+          {# For cards with multiple tags, show all tags for the card #}
+          {% for tagButton in range( 0, item.data.tags.length ) %} 
+            {# Skip "administrative" tags like 'posts' and 'feature' #}
+            {% if 
+              (item.data.tags[ tagButton ] != "posts") and 
+              (item.data.tags[ tagButton ] != "feature") 
+            %}
+              <span class="button post-tag"> {{ item.data.tags[ tagButton ] }} </span>
+            {% endif %}
+          {% endfor %}
         {% endif %}
       </span>
     </div>
