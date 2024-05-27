@@ -9,26 +9,19 @@
         <a href="{{ item.url | url }}">{{ item.data.title }}</a>
       </h3>
     {% endif %}
-    <div class="cluster">
-      <span class="text-step-min-1">
-        {% set definedDate = item.date %}
-        {% include "components/date.njk" %}
-        {%
-          if
-          activateTags and item.data.tags.length > 1
-        %}
-          {# For cards with multiple tags, show all tags for the card #}
-          {% for tagButton in range( 0, item.data.tags.length ) %} 
-            {# Skip "administrative" tags like 'posts' and 'feature' #}
-            {% if 
-              (item.data.tags[ tagButton ] != "posts") and 
-              (item.data.tags[ tagButton ] != "feature") 
-            %}
-              <span class="button post-tag"> {{ item.data.tags[ tagButton ] }} </span>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      </span>
+    <div class="cluster text-step-min-1">
+      {% set definedDate = item.date %}
+      {% include "components/date.njk" %}
+      {%
+        if
+        activateTags and item.data.tags.length > 1
+      %}
+        {% for tag in item.data.tags %}
+          {% if tag != "posts" %}
+            <span class="button post-tag"> {{ tag }} </span>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
     <p>{{ item.data.description }}</p>
   </div>
