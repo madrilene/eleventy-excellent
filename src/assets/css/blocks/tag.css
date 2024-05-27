@@ -18,7 +18,6 @@
   --button-bg: var(--color-bg-accent-2);
   --button-text: var(--color-text);
   --button-border: var(--color-bg-accent-2);
-  margin-inline-start: var(--space-s-m);
 }
 
 /* layout */
