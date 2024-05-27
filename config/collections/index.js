@@ -15,7 +15,7 @@ const tagList = collection => {
   collection.getAll().forEach(item => {
     if (!item.data.tags) return;
     item.data.tags
-      .filter(tag => !['posts', 'all'].includes(tag))
+      .filter(tag => !['posts', 'docs', 'all'].includes(tag))
       .forEach(tag => tagsSet.add(tag));
   });
   return Array.from(tagsSet).sort();
