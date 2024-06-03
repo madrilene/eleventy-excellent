@@ -3,7 +3,6 @@ title: About
 permalink: /about/index.html
 description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
 layout: page
-youtube: true
 ---
 
 This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
@@ -20,4 +19,5 @@ The aim is to spread the idea and use of this _excellent_ workflow. To work with
 
 ## Watch the talk
 
-{% youtube 'JqnMI1AXl6w', 'Andy Bell – Be the browser’s mentor, not its micromanager' %}
+<div><custom-youtube @slug="JqnMI1AXl6w" @label="Andy Bell – Be the browser’s mentor, not its micromanager"> </custom-youtube></div>
+

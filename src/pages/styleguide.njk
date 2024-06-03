@@ -86,9 +86,7 @@ customGradients:
     <ul class="fonts flow">
       {%- for font in designTokens.fonts.items -%}
         <li class="font" style="font-family: var(--font-{{ font.name | slugify }})">
-          <h3 style="font-family: var(--font-{{ font.name | slugify }})">
-            {{ font.name }}
-          </h3>
+          <h3 style="font-family: var(--font-{{ font.name | slugify }})">{{ font.name }}</h3>
           <p>{{ font.description }}</p>
           <p><strong>Font Families</strong>: {{ font.value | join(', ') }}</p>
           <code>var(--font-{{ font.name | slugify }})</code>
@@ -103,9 +101,7 @@ customGradients:
 
       <p>
         {{ designTokens.textSizes.description }}. Fluid type and space scales were
-        <a href="{{ designTokens.textSizes.meta.scaleGenerator }}"
-          >generated with Utopia</a
-        >.
+        <a href="{{ designTokens.textSizes.meta.scaleGenerator }}">generated with Utopia</a>.
       </p>
 
       <table class="sizes flow">
@@ -121,9 +117,7 @@ customGradients:
               </span>
             </td>
             <td class="sizes-example">
-              <p style="font-size:var(--size-{{ size.name | slugify }})">
-                {{ size.name }}
-              </p>
+              <p style="font-size:var(--size-{{ size.name | slugify }})">{{ size.name }}</p>
             </td>
           </tr>
         {%- endfor -%}

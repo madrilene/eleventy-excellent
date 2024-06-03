@@ -1,6 +1,6 @@
 ---
 title: Legal notice
-seo:
+discover:
   title: Legal notice
 permalink: /imprint/index.html
 description: Imprint infos
