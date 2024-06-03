@@ -15,7 +15,6 @@ window.onload = () => {
     return;
   }
 
-  switcher.removeAttribute('hidden');
   reflectPreference();
 
   lightThemeToggle.addEventListener('click', () => onClick('light'));
@@ -26,21 +25,15 @@ window.onload = () => {
 };
 
 // sync with system changes
-window
-  .matchMedia('(prefers-color-scheme: dark)')
-  .addEventListener('change', ({matches: isDark}) => {
-    theme.value = isDark ? 'dark' : 'light';
-    setPreference();
-  });
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({matches: isDark}) => {
+  theme.value = isDark ? 'dark' : 'light';
+  setPreference();
+});
 
 function onClick(themeValue) {
   theme.value = themeValue;
-  document
-    .querySelector('#light-theme-toggle')
-    .setAttribute('aria-pressed', themeValue === 'light');
-  document
-    .querySelector('#dark-theme-toggle')
-    .setAttribute('aria-pressed', themeValue === 'dark');
+  document.querySelector('#light-theme-toggle').setAttribute('aria-pressed', themeValue === 'light');
+  document.querySelector('#dark-theme-toggle').setAttribute('aria-pressed', themeValue === 'dark');
   setPreference();
 }
 
