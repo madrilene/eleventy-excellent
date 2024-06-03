@@ -1,11 +1,11 @@
-module.exports = {
+export default {
   top: [
     {
       text: 'About',
       url: '/about/'
     },
     {
-      text: 'Get started',
+      text: 'Docs',
       url: '/get-started/'
     },
     {
@@ -15,13 +15,13 @@ module.exports = {
     {
       text: 'Blog',
       url: '/blog/'
-    },
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
     }
   ],
   bottom: [
+    {
+      text: 'Style guide',
+      url: '/styleguide/'
+    },
     {
       text: 'Imprint',
       url: '/imprint/'
