@@ -5,13 +5,13 @@ import path from 'node:path';
 const dataPath = './src/_data/builtwith.json';
 const screenshotDir = path.join(
   path.dirname(new URL(import.meta.url).pathname),
-  '../../src/assets/images/screenshots'
+  '../../assets/images/screenshots'
 );
 
 async function fetchScreenshot(url, filePath) {
   const waitCondition = 'wait:2';
   const timeout = 'timeout:5';
-  const apiUrl = `https://v1.screenshot.11ty.dev/${encodeURIComponent(url)}/opengraph/_${waitCondition}_${timeout}/`;
+  const apiUrl = `https://v1.screenshot.11ty.dev/${encodeURIComponent(url)}/large/_${waitCondition}_${timeout}/`;
 
   const buffer = await fetch(apiUrl, {
     duration: '1d',
