@@ -11,12 +11,12 @@ blog:
 ## An Eleventy starter
 
 This starter is based on [Andy Bell's CSS workflow/boilerplate](/about/).
-In Andy's words, we'd rather hint the browser than micromanage it, using progressive enhancement, CSS layout, fluid type & spacing, and modern CSS features.
-The aim is to create frontends that look good to everyone, regardless of device, connection speed or context.
+In Andy's words, we'd rather hint the browser than micromanage it, using progressive enhancement, CSS layout, fluid type & spacing, and modern CSS features. The aim is to create frontends that look good to everyone, regardless of device, connection speed or context.
+
+This is version 3.
+I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) and [v2](https://github.com/madrilene/eleventy-excellent/tree/v2) because I have changed a lot of things.
 
 I have tried to [document a few things](/get-started/).
-
-I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) and [v2](https://github.com/madrilene/eleventy-excellent/tree/v2) because I have changed a lot of things.
 
 **Have fun** and let me know if you find any issues or have ideas for improvements!
 
