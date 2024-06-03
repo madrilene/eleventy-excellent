@@ -1,37 +1,45 @@
 ---
 layout: base
-masonry: true
 ---
 
 <article class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-secondary)">
-    <div
-      class="section__inner flow region"
-      style="--region-space-top: var(--space-xl-2xl)"
-    >
+    <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center text-base-light">{{ title }}</h1>
     </div>
-    {% include 'svg/divider-edgy.svg' %}
+
+    {% svg "divider/edgy", null, "seperator" %}
   </header>
 
-  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
-    {{ content | safe }}
-  </div>
+  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">{{ content | safe }}</div>
 
-  <ul class="blogcards | grid" role="list" data-rows="masonry" data-layout="50-50">
-    <!-- loop posts -->
-    {% set itemList = pagination.items %}
-    {% for item in itemList %}
-      <!-- activate tags -->
-      {% set activateTags = true %}
-      <!-- set date context -->
+  <custom-masonry layout="50-50">
+    {% for item in pagination.items %}
       {% set definedDate = item.date %}
-      <!-- set heading context -->
-      {% set headingContext = "h2" %}
-      <!-- include card -->
-      {% include 'components/card.njk' %}
+
+      <custom-card clickable>
+        <h2 slot="headline">
+          <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+        </h2>
+        <span slot="date"> {% include "partials/date.njk" %} </span>
+        {%
+          if
+          item.data.tags.length > 1
+        %}
+          <div slot="tag" webc:nkoeep>
+            {% for tag in item.data.tags %}
+              {% if tag != "posts" %}
+                <span class="button post-tag">{{ tag }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+        <div slot="content" webc:nokeep>{{ item.data.description  | markdownFormat | safe }}</div>
+      </custom-card>
     {% endfor %}
-  </ul>
+  </custom-masonry>
+
+  <!-- TODO: pagination is reversed. -->
 
   <!-- set collection to paginate -->
   {% set collectionToPaginate = collections.posts %}
@@ -40,6 +48,6 @@ masonry: true
   <!-- if the number of items in the collection is greater than the number of items shown on one page -->
   {% if collectionToPaginate.length > pagination.size %}
     <!-- include pagination -->
-    {% include 'components/pagination.njk' %}
+    {% include 'partials/pagination.njk' %}
   {% endif %}
 </article>

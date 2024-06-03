@@ -9,19 +9,12 @@ schema: blog
 
     {% if image %}
       <!-- image -->
-      {% eleventyImage image, alt or title, null, "eager", "feature" %}
-    {% endif %}
-    {%
-      if
-      credit
-    %}
-      <!-- credit -->
-      <p class="credit feature | text-step-min-1">© {{ credit }}</p>
+      {% image image, alt or title, credit, "eager", "feature" %}
     {% endif %}
 
     <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
       <!-- date -->
-      {% set definedDate = date %} {% include "components/date.njk" %}
+      {% set definedDate = date %} {% include "partials/date.njk" %}
       {%
         if tags.length >
         1
@@ -34,7 +27,7 @@ schema: blog
     </p>
 
     {{ content | safe }}
-    {% include 'components/edit-on.njk' %}
+    {% include 'partials/edit-on.njk' %}
   </div>
 
   <!--  h-card infos: https://indieweb.org/authorship -->

@@ -5,11 +5,11 @@
   <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
 
   <head>
-    <!-- charset/http-equiv/viewport -->
+    <!-- 1 charset/viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- title -->
+    <!-- 2 title -->
     <title>
       {% if discover.title %}
         {{ discover.title }}
@@ -20,77 +20,26 @@
       {% endif %}
     </title>
 
-    <!-- 4 synchronous js  -->
-    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
-    {% set jsthemetoggle %}{% include "theme-toggle-inline.js" %}{% endset %}
+    <base href="{{ page.url }}" />
 
-    <script>
-      // prettier-ignore
-      {{ jsthemetoggle | jsmin | safe }}
-    </script>
+    <!-- 3 synchronous js  -->
+    {% include "head/js-inline.njk" %}
 
-    <!--  inline base schema -->
-    {% include "schemas/base-schema.njk" %}
+    <!-- 4 schema settings -->
+    {% include "head/schema.njk" %}
 
-    <!--  inline blogpost schema  -->
-    {% if schema == 'blog' %}{%- include "schemas/blogpost-schema.njk" -%}{% endif %}
+    <!-- 5 CSS  -->
+    <!-- <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" /> -->
+    {% include "head/css-inline.njk" %}
 
-    <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />
+    <!-- 6 preloads  -->
+    {% include "head/preloads.njk" %}
 
-    <!-- preloads -->
-    <link
-      rel="preload"
-      href="/assets/fonts/figtree/figtree-variable[wght].woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
+    <!-- 7 meta tags, icons, open graph etc.  -->
+    {% include "head/meta-info.njk" %}
 
-    <link
-      rel="preload"
-      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <!-- preloads in page data -->
-    {%- if preloads -%}
-      <!-- prettier-ignore -->
-      <link rel="preload"
-            href="{{ preloads.href }}"
-            as="{{ preloads.as }}"
-            {% if preloads.type %}type={{ preloads.type }}{% endif %}{% if preloads.imagesrcset %}imagesrcset="{{ preloads.imagesrcset }}"{% endif %}
-            {% if preloads.crossorigin %}crossorigin{% endif %} />
-    {% endif %}
-
-    <!-- defered js  -->
-
-    {% if masonry %}
-      <!-- masonry fallback, if true in frontmatter -->
-      <script src="/assets/scripts/masonry.js?{{ assetHash }}" defer></script>
-    {% endif %}
-
-    {% if youtube %}
-      <!-- youtube, if true in frontmatter -->
-      <script
-        type="module"
-        src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"
-      ></script>
-    {% endif %}
-
-    {% if meta.navigation.drawerNav %}
-      <!-- menu drawer js, if true in meta -->
-      <script src="/assets/scripts/nav-drawer.js?{{ assetHash }}" defer></script>
-    {% endif %}
-
-    {% if meta.easteregg %}
-      <!-- easteregg js, if true in meta -->
-      <script src="/assets/scripts/easteregg.js?{{ assetHash }}" defer></script>
-    {% endif %}
-
-    <!-- everything else: meta tags, icons, open graph etc.  -->
-    {% include "partials/meta-info.njk" %}
+    <!-- 8 defer  -->
+    {% include "head/js-defer.njk" %}
   </head>
 
   <body class="{{ layout }}">
@@ -99,5 +48,8 @@
     <main id="main" class="flow">{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
+
+    <script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
+    <custom-easteregg keyword="yay" shape="🌈" particle-count="50"></custom-easteregg>
   </body>
 </html>
