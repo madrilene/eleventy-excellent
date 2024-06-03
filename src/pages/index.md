@@ -16,5 +16,7 @@ The aim is to create frontends that look good to everyone, regardless of device,
 
 I have tried to [document a few things](/get-started/).
 
+I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) and [v2](https://github.com/madrilene/eleventy-excellent/tree/v2) because I have changed a lot of things.
+
 **Have fun** and let me know if you find any issues or have ideas for improvements!
 
