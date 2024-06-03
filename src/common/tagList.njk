@@ -9,35 +9,36 @@ eleventyComputed:
   title: '{{ meta.blog.tagSingle }}: {{ tag }}'
 ---
 
-
-<ul class="grid region" role="list" data-rows="masonry" data-layout="50-50">
-	<!-- loop posts -->
-	{% set itemList = collections[tag] | reverse %} {% for item in itemList %}
-	<!-- activate tags -->
-	{% set activateTags = true %}
-	<!-- set heading context -->
-	{% set headingContext = "h2" %}
-	<!-- card -->
-	{% include 'components/card.njk' %} {% endfor %}
-</ul>
+<custom-masonry layout="50-50">
+  {% set itemList = collections[tag] | reverse %}
+  {% for item in itemList %}
+    <custom-card clickable>
+      <h2 slot="headline">
+        <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+      </h2>
+      <span slot="date"> {% include "partials/date.njk" %} </span>
+      <p slot="content">{{ item.data.description }}</p>
+    </custom-card>
+  {% endfor %}
+</custom-masonry>
 
 <h2>{{ meta.blog.tagMore }}</h2>
 
 <ul class="taglist | my-s-m cluster" role="list">
   {% for tag in collections.tagList %}
- <li><a
-    href="/tags/{{ tag }}"
-    class="button"
-    {{
-    helpers.getLinkActiveState('/tags/' + tag,
-    page.url)
-    |
-    safe
-    }}
-  >
-    {{ tag }}
-  </a></li>
+    <li>
+      <a
+        href="/tags/{{ tag }}"
+        class="button"
+        {{
+          helpers.getLinkActiveState('/tags/' + tag,
+          page.url)
+          |
+          safe
+        }}
+      >
+        {{ tag }}
+      </a>
+    </li>
   {% endfor %}
 </ul>
-
-

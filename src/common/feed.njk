@@ -2,6 +2,8 @@
 permalink: /feed.xml
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
+eleventyComputed:
+  absoluteContent: "{{ content | htmlToAbsoluteUrls(url) }}"
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
@@ -16,18 +18,16 @@ excludeFromSitemap: true
     <name>{{ meta.author.name }}</name>
     <email>{{ meta.author.email }}</email>
   </author>
-  {%- for post in postslist %} {%- set absolutePostUrl = post.url | absoluteUrl(meta.url)
-  %}
-  <entry>
-    <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}" />
-    <updated>{{ post.date | dateToRfc3339 }}</updated>
-    <id>{{ absolutePostUrl }}</id>
-    <content
-      xml:lang="{{ meta.locale }}"
-      type="html"
-      >{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content
-    >
-  </entry>
-  {%- endfor %}
+  {%- for post in postslist -%}
+    {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) -%}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}" />
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content xml:lang="{{ meta.locale }}" type="html">
+				{{ post.data.absoluteContent }}
+ 			</content>
+    </entry>
+  {%- endfor -%}
 </feed>

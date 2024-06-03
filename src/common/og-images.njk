@@ -11,78 +11,88 @@ pagination:
 permalink: '/assets/og-images/{{ post.data.title | slugify }}-preview.svg'
 eleventyExcludeFromCollections: true
 ---
+
 <svg
-    width="1200"
-    height="630"
-    viewBox="0 0 1200 630"
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+  width="1200"
+  height="630"
+  viewBox="0 0 1200 630"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  {% set titleInLines = post.data.title | splitlines(22) %}
+  {% set numberOfLines = titleInLines.length %}
+  {% if numberOfLines == 1 %}
+    {% set verticalStartingPoint = 340 %}
+    {% elseif numberOfLines == 2 %}
+    {% set verticalStartingPoint = 290 %}
+    {% elseif numberOfLines == 3 %}
+    {% set verticalStartingPoint = 250 %}
+    {% elseif numberOfLines == 4 %}
+    {% set verticalStartingPoint = 210 %}
+    {% elseif numberOfLines == 5 %}
+    {% set verticalStartingPoint = 170 %}
+  {% endif %}
 
-		{% set titleInLines = post.data.title | splitlines(22) %}
-		{% set numberOfLines = titleInLines.length %}
-		{% if numberOfLines == 1 %}
-		{% set verticalStartingPoint = 340 %}
-		{% elseif numberOfLines == 2 %}
-		{% set verticalStartingPoint = 290 %}
-		{% elseif numberOfLines == 3 %}
-		{% set verticalStartingPoint = 250 %}
-		{% elseif numberOfLines == 4 %}
-		{% set verticalStartingPoint = 210 %}
-		{% elseif numberOfLines == 5 %}
-		{% set verticalStartingPoint = 170 %}
-		{% endif %}
+  <!-- SVG background, generate your own on: https://app.haikei.app/ or  https://pattern.monster/ -->
+  <g viewBox="0 0 1200 630" width="1200" height="630">
+    <path
+      d="M0 114L100 114L100 385L200 385L200 177L300 177L300 203L400 203L400 234L500 234L500 373L600 373L600 70L700 70L700 272L800 272L800 146L900 146L900 159L1000 159L1000 64L1100 64L1100 253L1200 253L1200 58L1200 0L1200 0L1100 0L1100 0L1000 0L1000 0L900 0L900 0L800 0L800 0L700 0L700 0L600 0L600 0L500 0L500 0L400 0L400 0L300 0L300 0L200 0L200 0L100 0L100 0L0 0Z"
+      fill="{{ colors[0] }}"
+    ></path>
+    <path
+      d="M0 442L100 442L100 499L200 499L200 366L300 366L300 398L400 398L400 404L500 404L500 467L600 467L600 329L700 329L700 455L800 455L800 341L900 341L900 310L1000 310L1000 366L1100 366L1100 392L1200 392L1200 348L1200 56L1200 251L1100 251L1100 62L1000 62L1000 157L900 157L900 144L800 144L800 270L700 270L700 68L600 68L600 371L500 371L500 232L400 232L400 201L300 201L300 175L200 175L200 383L100 383L100 112L0 112Z"
+      fill="{{ colors[1] }}"
+    ></path>
+    <path
+      d="M0 600L100 600L100 606L200 606L200 537L300 537L300 511L400 511L400 549L500 549L500 574L600 574L600 555L700 555L700 562L800 562L800 562L900 562L900 474L1000 474L1000 612L1100 612L1100 480L1200 480L1200 455L1200 346L1200 390L1100 390L1100 364L1000 364L1000 308L900 308L900 339L800 339L800 453L700 453L700 327L600 327L600 465L500 465L500 402L400 402L400 396L300 396L300 364L200 364L200 497L100 497L100 440L0 440Z"
+      fill="{{ colors[2] }}"
+    ></path>
+    <path
+      d="M0 631L100 631L100 631L200 631L200 631L300 631L300 631L400 631L400 631L500 631L500 631L600 631L600 631L700 631L700 631L800 631L800 631L900 631L900 631L1000 631L1000 631L1100 631L1100 631L1200 631L1200 631L1200 453L1200 478L1100 478L1100 610L1000 610L1000 472L900 472L900 560L800 560L800 560L700 560L700 553L600 553L600 572L500 572L500 547L400 547L400 509L300 509L300 535L200 535L200 604L100 604L100 598L0 598Z"
+      fill="{{ colors[3] }}"
+    ></path>
+  </g>
 
-		<!-- SVG background, generate your own on: https://app.haikei.app/ or  https://pattern.monster/ -->
-		<svg id="visual" viewBox="0 0 1200 630" width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
-			<path d="M0 114L100 114L100 385L200 385L200 177L300 177L300 203L400 203L400 234L500 234L500 373L600 373L600 70L700 70L700 272L800 272L800 146L900 146L900 159L1000 159L1000 64L1100 64L1100 253L1200 253L1200 58L1200 0L1200 0L1100 0L1100 0L1000 0L1000 0L900 0L900 0L800 0L800 0L700 0L700 0L600 0L600 0L500 0L500 0L400 0L400 0L300 0L300 0L200 0L200 0L100 0L100 0L0 0Z" fill="{{ colors[0] }}"></path>
-			<path d="M0 442L100 442L100 499L200 499L200 366L300 366L300 398L400 398L400 404L500 404L500 467L600 467L600 329L700 329L700 455L800 455L800 341L900 341L900 310L1000 310L1000 366L1100 366L1100 392L1200 392L1200 348L1200 56L1200 251L1100 251L1100 62L1000 62L1000 157L900 157L900 144L800 144L800 270L700 270L700 68L600 68L600 371L500 371L500 232L400 232L400 201L300 201L300 175L200 175L200 383L100 383L100 112L0 112Z" fill="{{ colors[1] }}"></path>
-			<path d="M0 600L100 600L100 606L200 606L200 537L300 537L300 511L400 511L400 549L500 549L500 574L600 574L600 555L700 555L700 562L800 562L800 562L900 562L900 474L1000 474L1000 612L1100 612L1100 480L1200 480L1200 455L1200 346L1200 390L1100 390L1100 364L1000 364L1000 308L900 308L900 339L800 339L800 453L700 453L700 327L600 327L600 465L500 465L500 402L400 402L400 396L300 396L300 364L200 364L200 497L100 497L100 440L0 440Z" fill="{{ colors[2] }}"></path>
-			<path d="M0 631L100 631L100 631L200 631L200 631L300 631L300 631L400 631L400 631L500 631L500 631L600 631L600 631L700 631L700 631L800 631L800 631L900 631L900 631L1000 631L1000 631L1100 631L1100 631L1200 631L1200 631L1200 453L1200 478L1100 478L1100 610L1000 610L1000 472L900 472L900 560L800 560L800 560L700 560L700 553L600 553L600 572L500 572L500 547L400 547L400 509L300 509L300 535L200 535L200 604L100 604L100 598L0 598Z" fill="{{ colors[3] }}"></path>
-		</svg>
+  <!-- if you need to darken or lighten your bg -->
+  <rect id="bg" width="100%" height="100%" opacity="0.1" fill="{{ background }}" />
 
-		<!-- if you need to darken or lighten your bg -->
-		<rect id="bg" width="100%" height="100%" opacity="0.1" fill="{{ background }}"/>
-		<rect id="name-bg" width="100%" height="42px" fill="{{ background }}" transform="translate(150,550)" />
+  <!-- date -->
+  <text
+    font-family="{{ font }}, sans-serif"
+    font-size="24"
+    font-weight="900"
+    fill="{{ text }}"
+    letter-spacing="-1"
+  >
+    <tspan x="160" y="{{ verticalStartingPoint - 120 }}">
+      {{ post.date | formatDate('DD / MM / YYYY') }}
+    </tspan>
+  </text>
 
-		<!-- date -->
-		<text
-			font-family="{{ font }}, sans-serif"
-			font-size="24"
-			font-weight="900"
-			fill="{{ text }}"
-			letter-spacing="-1"
-		>
-			<tspan x="160" y="{{ verticalStartingPoint - 120 }}">
-				{{ post.date | formatDate('DD / MM / YYYY') }}
-			</tspan>
-		</text>
+  <!-- title -->
+  <text
+    id="text"
+    font-family="{{ font }}, sans-serif"
+    font-size="80"
+    font-weight="900"
+    fill="{{ text }}"
+    letter-spacing="-3"
+  >
+    {% for line in titleInLines %}
+      <tspan x="160" y="{{ verticalStartingPoint - 20 + loop.index0 * 85 }}"> {{ line }} </tspan>
+    {% endfor %}
+  </text>
 
-		<!-- title -->
-		<text
-			id="text"
-			font-family="{{ font }}, sans-serif"
-			font-size="80"
-			font-weight="900"
-			fill="{{ text }}"
-			letter-spacing="-3"
-		>
-			{% for line in titleInLines %}
-			<tspan x="160" y="{{ verticalStartingPoint - 20 + loop.index0 * 85 }}">
-				{{ line }}
-			</tspan>
-			{% endfor %}
-		</text>
-
-		<!-- sitename / url -->
-		<text
-		font-family="{{ font }}, sans-serif"
-			font-size="24"
-			font-weight="500"
-			fill="{{ text }}"
-			letter-spacing="-0.5"
-		>
-			<!-- <tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan> -->
-			<tspan x="160" y="580">{{ meta.siteName }} — {{ siteUrl }}</tspan>
-		</text>
+  <!-- sitename / url -->
+  <text
+    font-family="{{ font }}, sans-serif"
+    font-size="24"
+    font-weight="500"
+    fill="{{ text }}"
+    letter-spacing="-0.5"
+  >
+    <!-- <tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan> -->
+    <tspan x="160" y="580">{{ meta.siteName }} — {{ siteUrl }}</tspan>
+  </text>
 </svg>

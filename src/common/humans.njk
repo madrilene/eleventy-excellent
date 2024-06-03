@@ -3,12 +3,10 @@ permalink: /humans.txt
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 ---
-/* TEAM */
-Developer: {{ meta.creator.name }}
-Contact: {{ meta.creator.email }}
-Site: {{ meta.creator.website }}
-{% if meta.creator.social %}
-Find me on: {{ meta.creator.social }}{% endif %}
 
-/* SITE */
-Doctype: HTML5
+/* TEAM */ Developer: {{ meta.creator.name }} Contact: {{ meta.creator.email }} Site:
+{{ meta.creator.website }}
+{% if meta.creator.social %}
+  Find me on: {{ meta.creator.social }}
+{% endif %}
+/* SITE */ Doctype: HTML5
