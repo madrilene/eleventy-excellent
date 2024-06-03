@@ -16,7 +16,7 @@ In Andy's words, we'd rather hint the browser than micromanage it, using progres
 This is version 3.
 I keep a [branch of v1](https://github.com/madrilene/eleventy-excellent/tree/v1) and [v2](https://github.com/madrilene/eleventy-excellent/tree/v2) because I have changed a lot of things.
 
-I have tried to [document a few things](/get-started/).
+I have tried to [document](/get-started/#docs-lol) features and methodologies.
 
 **Have fun** and let me know if you find any issues or have ideas for improvements!
 
