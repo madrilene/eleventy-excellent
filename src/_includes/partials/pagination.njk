@@ -5,9 +5,7 @@
     <ol class="pagination | cluster" role="list">
       <li>
         {% if pagination.href.previous %}
-          <a href="{{ pagination.href.previous }}">
-            {{ meta[metaKey].paginationPrevious }}
-          </a>
+          <a href="{{ pagination.href.previous }}"> {{ meta[metaKey].paginationPrevious }} </a>
         {% else %}
           {{ meta[metaKey].paginationPrevious }}
         {% endif %}
@@ -36,3 +34,7 @@
     </ol>
   </nav>
 </section>
+
+{% css "inline" %}
+  {% include "css/pagination.css" %}
+{% endcss %}
