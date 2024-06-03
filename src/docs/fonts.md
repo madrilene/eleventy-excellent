@@ -2,12 +2,12 @@
 title: Fonts
 ---
 
-This starter uses three fonts, Red Hat Display, Figtree and Roboto Mono. You can add or delete fonts in `src/assets/fonts`.
+This starter uses two custom fonts, Red Hat Display and Inclusive Sans. You can add or delete fonts in `src/assets/fonts`.
 
-You can create font subsets for a better performance, for example using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator).
+I often create font subsets using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator).
 
-Next, edit `src/assets/css/global/fonts.css`.
+Next, edit `src/assets/css/global/base/fonts.css`.
 
 Add your new font aliases in `src/_data/designTokens/fonts.json`.
 
-Finally, in `src/_layouts/base.njk` edit the font preloads. Roboto Mono is only used for code blocks. Its preload is set directly in the post layout: `src/_layouts/post.njk`.
+Finally, in `src/_includes/head/preloads.njk` edit the font preloads.

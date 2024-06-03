@@ -2,7 +2,7 @@
 title: Pagination
 ---
 
-The blog posts use [Eleventy's pagination feature](https://www.11ty.dev/docs/pagination/). The logic for this can be found in the layout `src/_layouts/blog.njk`, how many entries should be on a page can be defined in `src/pages/blog.md`.
+The blog posts use [Eleventy's pagination feature](https://www.11ty.dev/docs/pagination/). The logic for this can be found in tha partial `src/_includes/partials/pagination.njk`, the layout `src/_layouts/blog.njk` includes it, how many entries should be on a page is defined in `src/pages/blog.md`.
 
 If you do not want any pagination at all, it is easiest to set a very high number for the pagination size, for example:
 
@@ -44,7 +44,7 @@ and where the pagination component is included: `src/_layouts/blog.njk`:
 <!-- if the number of items in the collection is greater than the number of items shown on one page -->
 {% if collectionToPaginate.length > pagination.size %}
 <!-- include pagination -->
-{% include 'components/pagination.njk' %}
+{% include 'partials/pagination.njk' %}
 {% endif %}
 ```
 

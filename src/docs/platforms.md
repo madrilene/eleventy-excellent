@@ -2,9 +2,8 @@
 title: Platforms (icons)
 ---
 
-Find available social media / platform icons in `src/_includes/svg` (prefixed with `platform-`).
-If you add new icons, prefix their name with "platform-".
+Find and set your platform icons in `src/assets/svg`, in the "platform" directory.
 
-In `personal.yaml` you can add new platforms and their URLs. The key should be the same as the name of the icon. For example: `mastodon: 'https://front-end.social/@lene'` and `platform-mastodon.svg`.
+In `src/_data/personal.yaml` you can edit the platforms. The key should be the same as the name of the icon. For example: `mastodon: 'https://front-end.social/@lene'` and `src/assets/svg/platform/mastodon.svg`.
 
-https://simpleicons.org/ features a great variety of free SVG icons for popular brands.
+https://simpleicons.org/ features a great variety of free SVG icons for popular platforms.
