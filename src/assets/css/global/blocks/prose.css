@@ -1,0 +1,74 @@
+/* Based on Andy Bell, https://github.com/Andy-set-studio/personal-site-eleventy */
+
+.prose {
+  --flow-space: var(--space-m-l);
+  --wrapper-width: 64rem;
+}
+
+.prose :where(pre, pre + *, figure, figure + *) {
+  --flow-space: var(--space-m-l);
+}
+
+.prose figcaption {
+  font-size: var(--size-step-min-1);
+  text-align: center;
+  padding-block-end: var(--space-xs);
+  margin-block-end: var(--space-s);
+  border-bottom: 1px solid var(--color-bg-accent);
+}
+
+:where(.prose :is(h2, h3, h4)) {
+  --flow-space: var(--space-xl);
+}
+
+:where(.prose :is(h2 + *, h3 + *, h4 + *):not(figure)) {
+  --flow-space: var(--space-m);
+}
+
+.prose .heading-anchor:is(:hover, :focus) {
+  text-decoration: none;
+}
+
+.heading-anchor {
+  text-decoration: none;
+}
+
+.prose mark {
+  background-color: var(--color-tertiary);
+  color: var(--color-base-dark);
+}
+
+/* block space only for "regular lists" */
+.prose :not(.cluster):not(.grid) > li + li {
+  padding-block-start: var(--space-s-m);
+}
+
+/* inline space only for "regular lists" */
+.prose :where(ul:not(.grid), ol:not(.grid)) {
+  padding-inline-start: 1.2ch;
+}
+
+/* marker only for "regular lists" */
+.prose :where(ul:not(.grid):not([role='list'])) li::marker {
+  color: var(--color-primary);
+  content: '– ';
+}
+
+.prose ol li::marker {
+  color: var(--color-primary);
+}
+
+.prose img {
+  border-radius: var(--border-radius);
+}
+
+@media screen(ltsm) {
+  .prose > *,
+  .prose a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    hyphens: auto;
+  }
+}

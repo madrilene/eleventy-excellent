@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+
+@import 'base/reset.css';
+@import 'base/fonts.css';
+
+@import 'tailwindcss/components';
+
+@import 'base/variables.css';
+@import 'base/global-styles.css';
+
+@import-glob 'compositions/*.css';
+@import-glob 'blocks/*.css';
+@import-glob 'utilities/*.css';
+
+/* debugging */
+/* @import-glob 'tests/*.css'; */
+
+@import 'tailwindcss/utilities';
