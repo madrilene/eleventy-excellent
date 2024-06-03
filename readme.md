@@ -8,15 +8,15 @@ Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [bu
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 
 - [Eleventy Excellent](#eleventy-excellent)
-  - [Preview](#preview)
-  - [Features](#features)
-  - [First steps](#first-steps)
-  - [Development](#development)
-    - [Install dependencies](#install-dependencies)
-    - [Working locally](#working-locally)
-    - [Creating a production build](#creating-a-production-build)
-  - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
-  - [Credits and Thank yous](#credits-and-thank-yous)
+	- [Preview](#preview)
+	- [Features](#features)
+	- [First steps](#first-steps)
+	- [Development](#development)
+		- [Install dependencies](#install-dependencies)
+		- [Working locally](#working-locally)
+		- [Creating a production build](#creating-a-production-build)
+	- [Built with Eleventy Excellent](#built-with-eleventy-excellent)
+	- [Credits and Thank yous](#credits-and-thank-yous)
 
 ## Preview
 
@@ -26,7 +26,7 @@ https://eleventy-excellent.netlify.app/
 
 **This starter includes:**
 
-- The whole CSS workflow as suggested by buildexcellentwebsit.es
+- **Cube Boilerplate**: Created by Andy Bell, available under the MIT License. [View Repository](https://github.com/Set-Creative-Studio/cube-boilerplate)
 - Accessible site navigation, editable in `src/_data/navigation.js`
 - Image optimization with Eleventy-img _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-an-image/))_
 - Youtube embed with lite-youtube _([see blog post](https://eleventy-excellent.netlify.app/blog/post-with-a-video/))_
