@@ -39,9 +39,15 @@ layout: base
                 if
                 item.data.tags.length > 1
               %}
-                <span slot="tag" class="button post-tag">{{ item.data.tags[1] }}</span>
+                <div slot="tag" webc:nkoeep>
+                  {% for tag in item.data.tags %}
+                    {% if tag != "posts" %}
+                      <span class="button post-tag">{{ tag }}</span>
+                    {% endif %}
+                  {% endfor %}
+                </div>
               {% endif %}
-              <p slot="content">{{ item.data.description }}</p>
+              <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
             </custom-card>
           {% endfor %}
         </custom-masonry>

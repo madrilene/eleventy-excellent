@@ -34,12 +34,10 @@ layout: base
             {% endfor %}
           </div>
         {% endif %}
-        <div slot="content" webc:nokeep>{{ item.data.description  | markdownFormat | safe }}</div>
+        <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
       </custom-card>
     {% endfor %}
   </custom-masonry>
-
-  <!-- TODO: pagination is reversed. -->
 
   <!-- set collection to paginate -->
   {% set collectionToPaginate = collections.posts %}
