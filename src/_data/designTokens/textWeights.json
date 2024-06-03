@@ -8,16 +8,12 @@
       "value": 400
     },
     {
-      "name": "Medium",
-      "value": 500
-    },
-    {
       "name": "Bold",
       "value": 700
     },
     {
       "name": "Extra Bold",
-      "value": 800
+      "value": 900
     }
   ]
 }
