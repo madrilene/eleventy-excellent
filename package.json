@@ -1,15 +1,16 @@
 {
   "name": "eleventy-excellent",
-  "version": "2.2.6",
+  "version": "3.0.0",
   "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Lene Saile",
   "license": "ISC",
+  "type": "module",
   "engines": {
-    "node": ">=18.x.x"
+    "node": ">=20.x.x"
   },
   "scripts": {
-    "clean": "rimraf dist",
-    "screenshots": "node ./config/scripts/generate-screenshots.mjs",
+    "clean": "rimraf dist src/_includes/css src/_includes/scripts",
+    "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "run-p dev:*",
@@ -21,17 +22,18 @@
     "url": "https://github.com/madrilene/eleventy-excellent.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "3.0.0-alpha.10",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@11ty/is-land": "^4.0.0",
+    "lite-youtube-embed": "^0.3.2",
     "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
-    "@csstools/postcss-relative-color-syntax": "^2.0.9",
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
     "clean-css": "^5.3.3",
@@ -62,6 +64,9 @@
     "prettier-plugin-jinja-template": "^1.3.2",
     "rimraf": "^5.0.0",
     "sanitize-html": "^2.7.2",
-    "slugify": "^1.6.5"
+    "sharp": "^0.33.4",
+    "sharp-ico": "^0.1.5",
+    "slugify": "^1.6.5",
+    "svgo": "^3.2.0"
   }
 }
