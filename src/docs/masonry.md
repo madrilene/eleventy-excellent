@@ -7,7 +7,7 @@ Masonry layout is not yet a native part of CSS grid. There is a debate if using 
 
 It should be used carefully so we don't create confusion with the tabbing order. In version 3 of the starter I made the masonry layout a web component, and no longer a opt-in feature (was: `masonry: true` in the front matter).
 
-`custom-masonry` is designed to function as a masonry grid by dynamically adjusting item positions based on the available column space and the size of its content. The necessary JavaScript (`custom-masonry.js`) is loaded only once per component usage due to the `data-island="once"` attribute.
+`<custom-masonry>` is designed to function as a masonry grid by dynamically adjusting item positions based on the available column space and the size of its content. The necessary JavaScript (`custom-masonry.js`) is loaded only once per component usage due to the `data-island="once"` attribute.
 Optional: pass in `layout="50-50"` to set a 50% width for each column.
 
 If no JavaScript is available, the grid will fall back to the regular grid layout defined in `src/assets/css/global/compositions/grid.css`.

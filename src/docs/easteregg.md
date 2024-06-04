@@ -2,7 +2,7 @@
 title: Easteregg
 ---
 
-The `custom-easteregg` component is by default in the base layout in `src/_layouts/base.njk`. Just delete the two lines if you don't want to use it. The component is
+The `<custom-easteregg>` component is by default in the base layout in `src/_layouts/base.njk`. Just delete the two lines if you don't want to use it. The component is
  designed to trigger a confetti effect when a user types a specific keyword sequence. It uses the dynamic import of the `canvas-confetti` library to render custom-shaped particles based on user input.
 
 **Defaults**:
