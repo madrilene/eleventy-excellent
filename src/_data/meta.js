@@ -1,7 +1,6 @@
 export const url = process.env.URL || 'http://localhost:8080';
 export const siteName = 'Eleventy Excellent';
-export const siteDescription =
-  'Eleventy starter built around the CSS workflow suggested by buildexcellentwebsit.es';
+export const siteDescription = 'Eleventy starter for building modern, resilient websites';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
@@ -23,7 +22,7 @@ export const themeColor = '#DD4462'; //  Manifest: defines the default theme col
 export const themeBgColor = '#FBFBFB'; // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  'Visible content: Eleventy starter built around the CSS workflow for Cube CSS, Every Layout, Design Tokens and Tailwind for uitility, based on the concepts explained in buildexcellentwebsit.es'; // alt text for default meta image
+  "Visible content: An Eleventy starter with CUBE CSS, Cube CSS, Every Layout, Design Tokens and Tailwind for uitility classes. A workflow for building modern and resilient websites, introduced by Andy Bell's project buildexcellentwebsit.es"; // alt text for default meta image"
 export const blog = {
   // RSS feed
   name: 'My Web Development Blog',
