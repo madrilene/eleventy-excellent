@@ -75,7 +75,7 @@ export const imageShortcode = async (
     height: lowsrc.height,
     alt,
     loading,
-    decoding: 'async'
+    decoding: loading === 'eager' ? 'sync' : 'async'
   });
 
   const imageElement = caption
