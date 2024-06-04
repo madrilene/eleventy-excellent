@@ -12,16 +12,17 @@ code,
 pre {
   font-family: var(--font-mono);
   font-size: var(--size-step-min-1);
-  line-height: 1.4;
-  background: var(--color-code-bg);
-  padding: 0.1em 0.4em;
+  background-color: var(--color-code-bg);
+
   border-radius: var(--border-radius);
-  text-align: left;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  color: var(--color-text-accent);
   hyphens: none;
 }
 
@@ -36,6 +37,7 @@ pre {
 :where(:not(pre)) > code {
   position: relative;
   top: -0.05em;
+  padding: 0.1em 0.4em;
 }
 
 pre[class*='language-'] {

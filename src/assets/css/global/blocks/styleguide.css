@@ -7,6 +7,10 @@
   font-size: var(--size-step-min-2);
 }
 
+.styleguide li p:has(code) {
+  line-height: var(--leading-flat);
+}
+
 .styleguide section {
   --region-space-bottom: var(--space-l-xl);
   --region-space-top: var(--space-l-xl);
