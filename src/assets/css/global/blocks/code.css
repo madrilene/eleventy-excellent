@@ -1,16 +1,11 @@
-code {
+:root {
   --color-code-orange: hsl(30, 70%, 60%);
   --color-code-blue: var(--color-secondary);
   --color-code-indigo: hsl(260, 48%, 56%);
   --color-code-violet: hsl(314, 70%, 60%);
   --color-code-pink: hsl(350, 70%, 60%);
   --color-code-gray: hsl(0, 0%, 58%);
-}
-
-pre {
-  --dark-bg: color-mix(in oklab, var(--color-bg) 92%, black);
-  grid-column: popout !important;
-  overflow-x: auto;
+  --color-code-bg: color-mix(in oklab, var(--color-bg) 92%, black);
 }
 
 code,
@@ -18,73 +13,34 @@ pre {
   font-family: var(--font-mono);
   font-size: var(--size-step-min-1);
   line-height: 1.4;
-  background-color: var(--color-bg-accent);
+  background: var(--color-code-bg);
   padding: 0.1em 0.4em;
   border-radius: var(--border-radius);
-}
-
-pre[class*='language-'] {
-  padding: var(--space-m-l);
-}
-
-code[class*='language-'] {
-  padding: 0;
-}
-
-code[class*='language-'],
-pre[class*='language-'] {
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
   color: var(--color-text-accent);
-  background: var(--color-bg);
-  border-radius: var(--border-radius);
   hyphens: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  code[class*='language-'],
-  pre[class*='language-'] {
-    background-color: var(--dark-bg);
-  }
+/* Specific Styles for <pre> Elements */
+pre {
+  grid-column: popout !important;
+  overflow-x: auto;
+  padding: var(--space-m-l);
 }
 
-:root[data-theme='light'] {
-  code[class*='language-'],
-  pre[class*='language-'] {
-    background-color: var(--color-bg-accent);
-  }
-}
-
-/* Dark Color Scheme (Override) */
-:root[data-theme='dark'] {
-  code[class*='language-'],
-  pre[class*='language-'] {
-    background-color: var(--dark-bg);
-  }
-}
-
+/* Style Adjustments for <code> within different contexts */
 :where(:not(pre)) > code {
   position: relative;
   top: -0.05em;
-  background-color: var(--color-bg-accent);
-}
-
-:where(:not(a, pre, blockquote)) > code {
-  color: var(--color-text-accent);
 }
 
 pre[class*='language-'] {
   overflow: auto;
   position: relative;
-}
-
-.language-css > code,
-.language-sass > code,
-.language-scss > code {
-  color: var(--color-text-accent);
 }
 
 [class*='language-'] .namespace {
