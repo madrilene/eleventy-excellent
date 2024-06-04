@@ -9,9 +9,10 @@
     "node": ">=20.x.x"
   },
   "scripts": {
-    "clean": "rimraf dist src/_includes/css src/_includes/scripts src/assets/og-images",
+    "clean": "rimraf dist src/_includes/css src/_includes/scripts",
     "favicons": "node ./src/_config/setup/generate-favicons.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
+    "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "run-p dev:*",
