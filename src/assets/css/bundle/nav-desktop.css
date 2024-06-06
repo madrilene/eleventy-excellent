@@ -1,0 +1,47 @@
+@media screen(navigation) {
+  .mainnav {
+    --nav-button-display: none;
+    --nav-position: static;
+  }
+
+  .mainnav ul {
+    --list-background: transparent;
+    --list-layout: row;
+    --list-position: static;
+    --list-height: auto;
+    --list-width: 100%;
+    --list-shadow: none;
+    --list-transform: none;
+    --list-visibility: visible;
+    --list-width: auto;
+    --list-block-padding: 0;
+    --list-inline-padding: 0;
+  }
+
+  .mainnav a {
+    --item-padding: var(--space-xs) 0.2em;
+    --item-border-color: transparent;
+    --item-background-color: transparent;
+    --item-text-decoration: transparent;
+    --item-text-color: var(--color-text);
+    text-decoration-line: underline;
+    text-decoration-color: var(--item-text-decoration, transparent);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.2em;
+  }
+
+  .mainnav a:where(:hover, :focus) {
+    --item-background-color: transparent;
+    --item-text-color: var(--color-text);
+    --item-text-decoration: var(--color-text);
+  }
+
+  /* Change border-color and color for the active page */
+  .mainnav [aria-current='page'],
+  .mainnav [data-state='active'] {
+    --item-border-color: transparent;
+    --item-background-color: transparent;
+    --item-text-color: var(--color-primary);
+    --item-text-decoration: var(--color-primary);
+  }
+}
