@@ -16,3 +16,13 @@ navigation: {
 ```
 
 `drawerNav` activates the navigation drawer, [built according to Manuel Matuzović's article on web.dev.](https://web.dev/articles/website-navigation)
+
+Adjust your menu breakpoint in `src/_data/designTokens/viewports.json`
+
+```json
+{
+ // ...
+  "navigation": 662,
+ // ...
+}
+```
