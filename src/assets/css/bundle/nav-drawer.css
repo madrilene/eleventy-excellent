@@ -1,7 +1,12 @@
 @media (scripting: enabled) {
   .mainnav {
+    --nav-position: absolute;
+    inset-inline-end: 0;
+  }
+
+  .mainnav:has([aria-expanded='true']) {
     --nav-position: fixed;
-    inset-inline-end: 1em;
+    inset-inline-end: var(--gap);
   }
 
   .mainnav ul {
@@ -59,10 +64,9 @@
   }
 
   .mainnav svg {
-    block-size: 2ex;
     inline-size: auto;
     color: var(--color-text);
-    stroke-width: 2.5;
+    stroke-width: 3;
   }
 
   .mainnav [aria-expanded='true'] svg {
