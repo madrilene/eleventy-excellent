@@ -31,6 +31,8 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
 /* Default / Light theme specific variables */
 :root,
 :root[data-theme='light'] {
+  --color-dark: var(--color-base-dark);
+  --color-light: var(--color-base-light);
   --color-text: var(--color-base-dark);
   --color-bg: var(--color-base-light);
   --color-base: var(--color-base-dark);
