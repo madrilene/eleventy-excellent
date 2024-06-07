@@ -11,13 +11,13 @@
 
     <!-- 2 title -->
     <title>
-      {% if discover.title %}
-        {{ discover.title }}
-      {% elif title %}
-        {{ title }}
-      {% else %}
-        {{ meta.siteName }}
-      {% endif %}
+      {%- if discover.title -%}
+        {{- discover.title -}}
+      {%- elif title -%}
+        {{- title -}}
+      {%- else -%}
+        {{- meta.siteName -}}
+      {%- endif -%}
     </title>
 
     <base href="{{ page.url }}" />
