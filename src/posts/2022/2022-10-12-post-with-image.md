@@ -63,7 +63,7 @@ The class names are passed in the outer container, the `<picture>` or `<figure>`
 
 {% image "./src/assets/images/gallery/asturias-3.jpg", "A traditional Asturian village with it's raised granaries, surrounded by lush green hills and mountains", null, "lazy", "class-that-does-nothing", "(min-width:30em) 50vw, 100vw", [200, 400] %}
 
-## Markdown syntax
+## Markdown sytnax
 
 Thanks to the [markdown-it-eleventy-img](https://github.com/solution-loisir/markdown-it-eleventy-img) package markdown also has it own image syntax. `src` is already prepended here, see `config/plugins/markdown.js`.
 
