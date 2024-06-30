@@ -65,10 +65,8 @@ function reflectPreference() {
 }
 
 function updateMetaThemeColor() {
-  console.log('Updating theme color to:', theme.value);
   const metaThemeColor = document.querySelector('meta[name="theme-color"]');
   const newColor = theme.value === 'dark' ? themeColors.dark : themeColors.light;
-  console.log('New meta theme color:', newColor);
   metaThemeColor.setAttribute('content', newColor);
 }
 
