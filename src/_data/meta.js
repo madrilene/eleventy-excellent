@@ -33,6 +33,11 @@ export const blog = {
       title: 'Atom Feed',
       url: '/feed.xml',
       type: 'application/atom+xml'
+    },
+    {
+      title: 'JSON Feed',
+      url: '/feed.json',
+      type: 'application/json'
     }
   ],
   // Tags
