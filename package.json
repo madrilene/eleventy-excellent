@@ -27,7 +27,6 @@
     "@11ty/eleventy": "3.0.0-alpha.14",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-rss": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
@@ -38,7 +37,6 @@
   "devDependencies": {
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
-    "clean-css": "^5.3.3",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.1",
     "dayjs": "^1.11.5",
@@ -46,7 +44,6 @@
     "esbuild": "^0.21.4",
     "html-minifier-terser": "^7.1.0",
     "js-yaml": "^4.1.0",
-    "lodash": "^4.17.21",
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.0.1",
