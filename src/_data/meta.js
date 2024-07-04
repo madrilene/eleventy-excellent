@@ -68,7 +68,6 @@ export const themeSwitch = {
   light: 'light',
   dark: 'dark'
 };
-export const initial = 'select';
 export const greenweb = {
   // this goes into src/common/greenweb.njk
   providers: {
