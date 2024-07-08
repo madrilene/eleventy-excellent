@@ -39,7 +39,7 @@ export default {
     fontFamily,
     fontSize,
     fontWeight,
-    fontLeading,
+    lineHeight,
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
     margin: ({theme}) => ({
@@ -94,7 +94,7 @@ export default {
         {key: 'colors', prefix: 'color'},
         {key: 'spacing', prefix: 'space'},
         {key: 'fontSize', prefix: 'size'},
-        {key: 'fontLeading', prefix: 'leading'},
+        {key: 'lineHeight', prefix: 'leading'},
         {key: 'fontFamily', prefix: 'font'},
         {key: 'fontWeight', prefix: 'font'}
       ];
