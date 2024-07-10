@@ -28,28 +28,12 @@ layout: base
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
-          {% for item in itemList.slice(0, 4) %}
+          {% asyncEach item in itemList.slice(0, 4) %}
             {% set definedDate = item.date %}
-            <custom-card clickable>
-              <h3 slot="headline">
-                <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-              </h3>
-              <span slot="date"> {% include "partials/date.njk" %} </span>
-              {%
-                if
-                item.data.tags.length > 1
-              %}
-                <div slot="tag" webc:nokeep>
-                  {% for tag in item.data.tags %}
-                    {% if tag != "posts" %}
-                      <span class="button post-tag">{{ tag }}</span>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              {% endif %}
-              <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
-            </custom-card>
-          {% endfor %}
+
+            {% include "partials/card-blog.njk" %}
+
+          {% endeach %}
         </custom-masonry>
       </div>
     </div>
