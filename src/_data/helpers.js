@@ -9,12 +9,15 @@
 export function getLinkActiveState(itemUrl, pageUrl) {
   let response = '';
 
-  if (itemUrl === pageUrl) {
-    response = ' aria-current="page"';
-  }
+  // Ensure pageUrl is a string before proceeding
+  if (typeof pageUrl === 'string') {
+    if (itemUrl === pageUrl) {
+      response = ' aria-current="page"';
+    }
 
-  if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl.replace('/page-0/', '')) === 0) {
-    response += 'data-state="active"';
+    if (itemUrl.length > 1 && pageUrl.startsWith(itemUrl.replace('/page-0/', ''))) {
+      response += ' data-state="active"';
+    }
   }
 
   return response;

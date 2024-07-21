@@ -6,6 +6,7 @@ import webc from '@11ty/eleventy-plugin-webc';
 
 // custom
 import {markdownLib} from './plugins/markdown.js';
+import {drafts} from './plugins/drafts.js';
 
 // Custom transforms
 import {htmlConfig} from './plugins/html-config.js';
@@ -20,6 +21,7 @@ export default {
   syntaxHighlight,
   webc,
   markdownLib,
+	drafts,
   htmlConfig,
   cssConfig,
   jsConfig
