@@ -1,11 +1,8 @@
-<!-- by Ryan Mulligan: https://github.com/hexagoncircle/start-me-up/blob/main/src/_includes/inline-svg.webc -->
-
 <script webc:type="render" webc:is="template">
-  export default async function () {
-    const {default: slugify} = await import('slugify');
-    const {default: Image} = await import('@11ty/eleventy-img');
-    const {optimize} = await import('svgo');
+  const Image = require('@11ty/eleventy-img');
+  const {optimize} = require('svgo');
 
+  module.exports = async function () {
     const meta = await Image(this.src, {
       formats: ['svg'],
       dryRun: true
@@ -20,7 +17,7 @@
 
       for (const prop in this.webc.attributes) {
         if (!excludeAttributes.includes(prop)) {
-          const attribute = slugify(prop, {lower: true, strict: true, remove: /[*+~.()'"!:@]/g});
+          const attribute = this.slugify(prop, {decamelize: true});
           const value = this.webc.attributes[prop];
 
           arr.push({[attribute]: value});
@@ -42,5 +39,5 @@
     const result = optimize(svgContents, {plugins});
 
     return result.data;
-  }
+  };
 </script>
