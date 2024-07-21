@@ -1,6 +1,7 @@
 <script webc:type="render" webc:is="template">
   const Image = require('@11ty/eleventy-img');
   const {optimize} = require('svgo');
+  const slugify = require('slugify');
 
   module.exports = async function () {
     const meta = await Image(this.src, {
@@ -17,7 +18,7 @@
 
       for (const prop in this.webc.attributes) {
         if (!excludeAttributes.includes(prop)) {
-          const attribute = this.slugify(prop, {decamelize: true});
+          const attribute = slugify(prop, {lower: true, strict: true}); // Use slugify directly here
           const value = this.webc.attributes[prop];
 
           arr.push({[attribute]: value});
