@@ -1,5 +1,11 @@
 ---
 layout: base
+title: Blog
+description: 'All blog posts can be found here'
+pagination:
+  data: collections.allPosts
+  size: 6
+permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
 <article class="wrapper">
@@ -11,16 +17,19 @@ layout: base
     {% svg "divider/edgy", null, "seperator" %}
   </header>
 
-  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">{{ content | safe }}</div>
+  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
+    <p>This blog has a pagination of <strong>{{ pagination.size }}</strong> posts per page.<br>
+      The pagination is only shown if there are more posts ({{ collections.posts.length }}) than items per
+      page ({{ pagination.size }}).
+    </p>
+  </div>
 
   <custom-masonry layout="50-50">
+		{% asyncEach item in pagination.items %}
+			{% set definedDate = item.date %}
 
-	{% asyncEach item in pagination.items %}
-		{% set definedDate = item.date %}
-
-		{% include "partials/card-blog.njk" %}
-	{% endeach %}
-
+			{% include "partials/card-blog.njk" %}
+		{% endeach %}
 	</custom-masonry>
 
   <!-- set collection to paginate -->
