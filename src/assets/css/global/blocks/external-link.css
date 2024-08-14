@@ -16,7 +16,7 @@ article
   background-position: center;
   background-size: 60% auto;
   /* alternative text rules */
-  content: '(enlace externo)';
+  content: '(external link)';
   overflow: hidden;
   white-space: nowrap;
   text-indent: 1em; /* the width of the icon */
