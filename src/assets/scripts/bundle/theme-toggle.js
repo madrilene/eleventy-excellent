@@ -60,8 +60,11 @@ function setPreference() {
 
 function reflectPreference() {
   document.firstElementChild.setAttribute('data-theme', theme.value);
-  document.querySelector('#light-theme-toggle')?.setAttribute('aria-label', lightLabel);
-  document.querySelector('#dark-theme-toggle')?.setAttribute('aria-label', darkLabel);
+  // Let the button content set its accessible name. There is no need for an aria-label on a button with visible text.
+  // This practice can become a problem when the page is translated by the browser as often aria-labels are left alone
+  // this code would override the translated language and confuse the user
+  // document.querySelector('#light-theme-toggle')?.setAttribute('aria-label', lightLabel);
+  // document.querySelector('#dark-theme-toggle')?.setAttribute('aria-label', darkLabel);
 }
 
 function updateMetaThemeColor() {
