@@ -15,7 +15,7 @@ export const creator = {
   name: 'Rigoberto L. Perez',
   email: 'rlperez@kablamo.me',
   website: 'https://kablamo.me',
-  social: 'https://front-end.social/@lene'
+  social: 'https://github.io/rlperez'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#DD4462'; //  Manifest: defines the default theme color for the application
