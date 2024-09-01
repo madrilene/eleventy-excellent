@@ -6,15 +6,15 @@ export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
 export const author = {
-  name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
-  avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-  website: 'https://www.lenesaile.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+  name: 'Rigoberto L. Perez',
+  avatar: '/icon-512x512.png',
+  email: 'rlperez@kablamo.me',
+  website: 'https://kablamo.me'
 };
 export const creator = {
-  name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
-  email: 'hola@lenesaile.com',
-  website: 'https://www.lenesaile.com',
+  name: 'Rigoberto L. Perez',
+  email: 'rlperez@kablamo.me',
+  website: 'https://kablamo.me',
   social: 'https://front-end.social/@lene'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
@@ -67,20 +67,6 @@ export const themeSwitch = {
   title: 'Theme',
   light: 'light',
   dark: 'dark'
-};
-export const greenweb = {
-  // this goes into src/common/greenweb.njk
-  providers: {
-    // if you want to add more than one, edit the array directly.
-    domain: 'netlify.com',
-    service: 'cdn'
-  },
-  credentials: {
-    // optional, eg: 	{ domain='my-org.com', doctype = 'webpage', url = 'https://my-org.com/our-climate-record'}
-    domain: '',
-    doctype: '',
-    url: ''
-  }
 };
 export const viewRepo = {
   // this is for the view/edit on github link. The value in the package.json will be pulled in.
