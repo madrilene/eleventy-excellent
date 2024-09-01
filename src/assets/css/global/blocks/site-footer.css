@@ -34,7 +34,7 @@
 
 .site-footer .creator a:hover {
   color: transparent;
-  background-image: var(--gradient-rainbow);
+  background-image: var(--gradient-conic);
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;
