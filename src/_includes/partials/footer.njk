@@ -44,10 +44,7 @@
     {% include 'partials/theme-switch.njk' %}
 
     <aside class="creator">
-      <a class="cluster" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by
-        {{ meta.creator.name }}</a
-      >
+      <a class="cluster" href="{{ meta.creator.website }}">&copy; {% year %} {{ meta.creator.name }}</a>
     </aside>
   </div>
 </footer>
