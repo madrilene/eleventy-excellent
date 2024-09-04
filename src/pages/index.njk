@@ -37,6 +37,7 @@ blog:
     </div>
   </article>
 
+  {% if collections.allPosts.length  %}
   <section class="full | region">
     <div class="wrapper flow prose">
       <h2>{{ blog.title }}</h2>
@@ -58,4 +59,5 @@ blog:
       </div>
     </div>
   </section>
+  {% endif %}
 </div>
