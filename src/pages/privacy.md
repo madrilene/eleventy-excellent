@@ -25,8 +25,6 @@ This website transmits itself using HTTPS, encrypting all data between the brows
 
 **Data controller**
 
-{{ personal.address }}
-
 If you have any questions or doubts, please contact me: <a href="mailto:{{ personal.email }}">{{ personal.email }}</a>.
 
 **Changes to the policy**
