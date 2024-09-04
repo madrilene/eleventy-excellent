@@ -1,6 +1,6 @@
 export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'Eleventy Excellent';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
+export const siteName = 'Kablamo!';
+export const siteDescription = '';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
