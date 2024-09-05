@@ -27,6 +27,12 @@ window.onload = () => {
 
   lightThemeToggle.setAttribute('aria-pressed', theme.value === 'light');
   darkThemeToggle.setAttribute('aria-pressed', theme.value === 'dark');
+
+  if (theme.value === 'dark') {
+    toggleDisplay(darkThemeToggle);
+  } else {
+    toggleDisplay(lightThemeToggle);
+  }
 };
 
 // sync with system changes
@@ -36,10 +42,22 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({m
   updateMetaThemeColor();
 });
 
+const toggleDisplay = target => {
+  if (!target) return;
+  target.style.display = target.style.display == 'none' ? 'block' : 'none';
+};
+
 function onClick(themeValue) {
   theme.value = themeValue;
-  document.querySelector('#light-theme-toggle').setAttribute('aria-pressed', themeValue === 'light');
-  document.querySelector('#dark-theme-toggle').setAttribute('aria-pressed', themeValue === 'dark');
+  const lightToggle = document.querySelector('#light-theme-toggle');
+  lightToggle.setAttribute('aria-pressed', themeValue === 'light');
+
+  const darkToggle = document.querySelector('#dark-theme-toggle');
+  darkToggle.setAttribute('aria-pressed', themeValue === 'dark');
+
+  toggleDisplay(darkToggle);
+  toggleDisplay(lightToggle);
+
   setPreference();
   updateMetaThemeColor();
 }
