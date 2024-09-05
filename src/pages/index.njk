@@ -44,10 +44,10 @@ blog:
       <!-- blog intro text is optional. -->
 
       {% if blog.intro %}
-        <p>{{ blog.intro }}</p>
+        <p><a href="/blog">{{ blog.intro }}</a></p>
       {% endif %}
 
-      <div class="feature |  region">
+      <div class="feature | region">
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
