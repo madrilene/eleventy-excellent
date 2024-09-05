@@ -48,3 +48,8 @@
     </aside>
   </div>
 </footer>
+
+{% if personal.platforms.mastodon %}
+  <!-- Mastodon verified site -->
+  <link rel="me" href="{{ personal.platforms.mastodon }}" />
+{% endif %}
