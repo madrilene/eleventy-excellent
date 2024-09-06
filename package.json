@@ -1,8 +1,8 @@
 {
   "name": "eleventy-excellent",
   "version": "3.3.0",
-  "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "description": "Personal developer blog based on the eleventy-excellent theme.",
+  "author": "Rigoberto L. Perez",
   "license": "ISC",
   "type": "module",
   "engines": {
@@ -18,10 +18,10 @@
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
-  "keywords": [],
+  "keywords": ["blog", "11ty"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/rlperez/rlperez.github.io.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0-beta.1",
