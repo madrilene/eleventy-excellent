@@ -15,40 +15,48 @@ permalink: 'contact/index.html'
     </div>
     <div class="">
       <form method="POST" class="" id="contactSumbitBtn" action="">
-        <label for="messageName" class="block text-sm font-medium text-gray-700">Name</label>
-        <input
-          type="text"
-          class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
-          placeholder="Your name..."
-        />
-        <label for="messageEmail" class="block text-sm font-medium text-gray-700">Email</label>
-        <input
-          type="email"
-          class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
-          placeholder="example@kablamo.me"
-        />
-        <label for="messageEmail" class="block text-sm font-medium text-gray-700">Email</label>
-        <input
-          type="tel"
-          class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
-          placeholder="+1 (555) 555-5555"
-        />
-        <label for="contactMessage" class="block text-sm font-medium text-gray-700">Message</label>
-        <textarea
-          id="contactMessage"
-          class="rounded-full mb-8 border-gray-200 align-top shadow-sm sm:text-sm form-textarea"
-          rows="9"
-          cols="40"
-          placeholder="Enter your message..."
-        ></textarea>
-        <div
-          id="h-captcha"
-          class="h-captcha"
-          data-sitekey="7f40ec69-177d-4e67-8abb-9b61463d706b"
-          data-callback="enableContactSubmit"
-        ></div>
-        <div class="">
-            <button class="button rounded-full">Submit</button>
+        <div>
+          <label for="messageName" class="block text-sm font-medium text-gray-700">Name </label>
+          <input
+            type="text"
+            class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
+            placeholder="Your name..."
+          />
+        </div>
+        <div>
+          <label for="messageEmail" class="block text-sm font-medium text-gray-700">Email </label>
+          <input
+            type="email"
+            class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
+            placeholder="example@kablamo.me"
+          />
+        </div>
+        <div>
+          <label for="messageEmail" class="block text-sm font-medium text-gray-700">Email </label>
+          <input
+            type="tel"
+            class="rounded-full border-gray-200 align-top shadow-sm sm:text-sm form-input"
+            placeholder="+1 (555) 555-5555"
+          />
+        </div>
+        <div>
+          <label for="contactMessage" class="block text-sm font-medium text-gray-700">Message </label>
+          <textarea
+            id="contactMessage"
+            class="rounded-full mb-8 border-gray-200 align-top shadow-sm sm:text-sm form-textarea"
+            rows="9"
+            cols="40"
+            placeholder="Enter your message..."
+          ></textarea>
+        </div>
+        <div class="mt-l mx-0 float-right justify-items-end">
+          <div
+            id="h-captcha"
+            class="h-captcha"
+            data-sitekey="7f40ec69-177d-4e67-8abb-9b61463d706b"
+            data-callback="enableContactSubmit"
+          ></div>
+          <button class="button rounded-full">Submit</button>
         </div>
       </form>
     </div>
