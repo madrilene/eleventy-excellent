@@ -7,6 +7,10 @@ export default {
     {
       text: 'Blog',
       url: '/blog/'
+    },
+    {
+      text: 'Contact',
+      url: '/contact/'
     }
   ],
   bottom: [
