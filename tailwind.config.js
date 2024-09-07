@@ -80,10 +80,11 @@ export default {
 
   // Prevents Tailwind from generating that wall of empty custom properties
   experimental: {
-    optimizeUniversalDefaults: true
+    optimizeUniversalDefaults: false
   },
 
   plugins: [
+    require('@tailwindcss/forms'),
     // Generates custom property values from tailwind config
     plugin(function ({addComponents, config}) {
       let result = '';
@@ -138,7 +139,6 @@ export default {
           });
         });
       });
-    }),
-    require('@tailwindcss/forms')
+    })
   ]
 };
