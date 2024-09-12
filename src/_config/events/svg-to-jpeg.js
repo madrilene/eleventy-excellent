@@ -1,10 +1,17 @@
-import {promises as fsPromises, existsSync} from 'fs';
+import {promises as fsPromises, existsSync} from 'node:fs';
 import path from 'node:path';
 import Image from '@11ty/eleventy-img';
+
 const ogImagesDir = './src/assets/og-images';
 
 export const svgToJpeg = async function () {
   const socialPreviewImagesDir = 'dist/assets/og-images/';
+
+  if (!existsSync(socialPreviewImagesDir)) {
+    console.log('⚠ No OG images dir found');
+    return;
+  }
+
   const files = await fsPromises.readdir(socialPreviewImagesDir);
   if (files.length > 0) {
     files.forEach(async function (filename) {
@@ -21,6 +28,6 @@ export const svgToJpeg = async function () {
       }
     });
   } else {
-    console.log('⚠ No social images found');
+    console.log('⚠ No images found on OG images dir');
   }
 };
