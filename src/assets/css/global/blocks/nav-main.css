@@ -1,0 +1,149 @@
+.mainnav {
+  position: var(--nav-position, absolute);
+  inset-inline-end: 0;
+}
+
+.mainnav:has([aria-expanded='true']) {
+  --nav-position: fixed;
+  inset-inline-end: var(--gap);
+}
+
+.mainnav ul {
+  --gutter: var(--space-xs);
+  --cluster-vertical-alignment: normal;
+  background: var(--nav-list-background, var(--color-bg));
+  box-shadow: var(--nav-list-shadow, -5px 0 11px 0 hsl(0 0% 0% / 0.2));
+  display: flex;
+  flex-direction: var(--nav-list-layout, column);
+  flex-wrap: wrap;
+  block-size: var(--nav-list-height, 100dvh);
+  list-style: none;
+  margin: 0;
+  padding: var(--nav-list-padding, var(--space-s));
+  position: var(--nav-list-position, fixed);
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  inline-size: var(--nav-list-width, min(18rem, 100vw));
+  visibility: var(--nav-list-visibility, hidden);
+}
+
+.mainnav [aria-expanded='false'] + ul {
+  transform: var(--list-transform, translateX(100%));
+}
+
+.mainnav [aria-expanded='true'] + ul {
+  --nav-list-visibility: visible;
+  padding-top: var(--space-2xl);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mainnav [aria-expanded='true'] + ul,
+  .mainnav svg {
+    transition:
+      transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+      visibility 0.05s linear;
+  }
+}
+
+.mainnav button {
+  display: var(--nav-button-display, flex);
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  padding: var(--space-2xs) 0;
+}
+
+.mainnav span {
+  font-weight: var(--font-extra-bold);
+  text-transform: uppercase;
+  padding-inline-end: 0.1em;
+  font-size: var(--size-step-min-1);
+  font-family: var(--font-display);
+}
+
+.mainnav svg {
+  inline-size: auto;
+  color: var(--color-text);
+  stroke-width: 3;
+}
+
+.mainnav [aria-expanded='true'] svg {
+  transform: rotate(45deg);
+}
+
+.mainnav a {
+  background: var(--nav-item-background, transparent);
+  color: var(--nav-item-text-color, var(--color-text));
+  padding: var(--nav-item-padding, var(--space-xs) var(--space-2xs));
+  display: block;
+  border-radius: var(--border-radius);
+  text-decoration-line: underline;
+  text-decoration-color: var(--nav-item-decoration-color, transparent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.2em;
+}
+
+.mainnav a:where(:hover, :focus) {
+  --nav-item-background: transparent;
+  --nav-item-text-color: var(--color-text);
+  --nav-item-decoration-color: var(--color-text);
+}
+
+.mainnav [aria-current='page'],
+.mainnav [data-state='active'] {
+  --nav-item-background: var(--color-bg-accent);
+  --nav-item-text-color: var(--color-primary);
+  --nav-item-decoration-color: transparent;
+}
+
+@media screen(navigation) {
+  .mainnav {
+    --nav-position: static;
+    --nav-button-display: none;
+  }
+
+  .mainnav ul {
+    --nav-list-layout: row;
+    --nav-list-position: static;
+    --nav-list-padding: 0;
+    --nav-list-height: auto;
+    --nav-list-width: 100%;
+    --nav-list-shadow: none;
+    --nav-list-visibility: visible;
+  }
+
+  .mainnav [aria-current='page'],
+  .mainnav [data-state='active'] {
+    --nav-item-background: transparent;
+    --nav-item-decoration-color: var(--color-primary);
+  }
+
+  .mainnav [aria-expanded='false'] + ul {
+    --list-transform: none;
+  }
+}
+
+/* Repeat the settings to provide a different styling when JavaScript is disabled or drawerNav is set to false. The selector
+assumes that the button doesn’t exist without JS, making the list the first child within the navigation. */
+
+.mainnav ul:first-child {
+  --nav-list-layout: row;
+  --nav-list-position: static;
+  --nav-list-padding: 0;
+  --nav-list-height: auto;
+  --nav-list-width: 100%;
+  --nav-list-shadow: none;
+  --nav-list-visibility: visible;
+}
+
+.mainnav ul:first-child [aria-current='page'],
+.mainnav ul:first-child [data-state='active'] {
+  --nav-item-background: transparent;
+  --nav-item-decoration-color: var(--color-primary);
+}
+
+.mainnav:has(ul:first-child) {
+  --nav-position: relative;
+}

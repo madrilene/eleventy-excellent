@@ -1,19 +1,18 @@
-// © Manuel Matuzović: https://web.dev/website-navigation/
+// © Manuel Matuzović: https://web.dev/website-navigation/ / Web Accessibility Cookbook
 
 const nav = document.querySelector('nav');
 const list = nav.querySelector('ul');
 const burgerClone = document.querySelector('#burger-template').content.cloneNode(true);
-const svg = nav.querySelector('svg');
-
 const button = burgerClone.querySelector('button');
+
 button.addEventListener('click', e => {
   const isOpen = button.getAttribute('aria-expanded') === 'true';
   button.setAttribute('aria-expanded', !isOpen);
 });
 
-// avoid DRY: disabling menu
 const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
+  button.focus();
 };
 
 //  close on escape
