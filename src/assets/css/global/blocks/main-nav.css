@@ -9,22 +9,32 @@
 }
 
 .mainnav ul {
+  /* configuration */
   --gutter: var(--space-xs);
   --cluster-vertical-alignment: normal;
-  background: var(--nav-list-background, var(--color-bg));
-  box-shadow: var(--nav-list-shadow, -5px 0 11px 0 hsl(0 0% 0% / 0.2));
+  --nav-list-background: var(--color-bg);
+  --nav-list-shadow: -5px 0 11px 0 hsl(0 0% 0% / 0.2);
+  --nav-list-layout: column;
+  --nav-list-height: 100dvh;
+  --nav-list-padding: var(--space-s);
+  --nav-list-position: fixed;
+  --nav-list-width: min(18rem, 100vw);
+  --nav-list-visibility: hidden;
+
+  background: var(--nav-list-background);
+  box-shadow: var(--nav-list-shadow);
   display: flex;
-  flex-direction: var(--nav-list-layout, column);
+  flex-direction: var(--nav-list-layout);
   flex-wrap: wrap;
-  block-size: var(--nav-list-height, 100dvh);
+  block-size: var(--nav-list-height);
   list-style: none;
   margin: 0;
-  padding: var(--nav-list-padding, var(--space-s));
-  position: var(--nav-list-position, fixed);
+  padding: var(--nav-list-padding);
+  position: var(--nav-list-position);
   inset-block-start: 0;
   inset-inline-end: 0;
-  inline-size: var(--nav-list-width, min(18rem, 100vw));
-  visibility: var(--nav-list-visibility, hidden);
+  inline-size: var(--nav-list-width);
+  visibility: var(--nav-list-visibility);
 }
 
 .mainnav [aria-expanded='false'] + ul {
@@ -74,13 +84,19 @@
 }
 
 .mainnav a {
-  background: var(--nav-item-background, transparent);
-  color: var(--nav-item-text-color, var(--color-text));
-  padding: var(--nav-item-padding, var(--space-xs) var(--space-2xs));
+  /* configuration */
+  --nav-item-background: transparent;
+  --nav-item-text-color: var(--color-text);
+  --nav-item-padding: var(--space-xs) var(--space-2xs);
+  --nav-item-decoration-color: transparent;
+
+  background: var(--nav-item-background);
+  color: var(--nav-item-text-color);
+  padding: var(--nav-item-padding);
   display: block;
   border-radius: var(--border-radius);
   text-decoration-line: underline;
-  text-decoration-color: var(--nav-item-decoration-color, transparent);
+  text-decoration-color: var(--nav-item-decoration-color);
   text-decoration-thickness: 3px;
   text-underline-offset: 0.2em;
 }
