@@ -1,4 +1,5 @@
 .mainnav {
+  --nav-list-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
   position: var(--nav-position, absolute);
   inset-inline-end: 0;
 }
@@ -16,7 +17,7 @@
   --nav-list-shadow: -5px 0 11px 0 hsl(0 0% 0% / 0.2);
   --nav-list-layout: column;
   --nav-list-height: 100dvh;
-  --nav-list-padding: var(--space-s);
+  --nav-list-padding: var(--space-2xl) var(--space-s);
   --nav-list-position: fixed;
   --nav-list-width: min(18rem, 100vw);
   --nav-list-visibility: hidden;
@@ -34,27 +35,30 @@
   inset-block-start: 0;
   inset-inline-end: 0;
   inline-size: var(--nav-list-width);
+  opacity: 0;
+  transition:
+    opacity 0.3 var(--nav-list-timing-function),
+    visibility 0.3s ease-in-out;
   visibility: var(--nav-list-visibility);
 }
 
-.mainnav [aria-expanded='false'] + ul {
-  transform: var(--list-transform, translateX(100%));
+@media (prefers-reduced-motion: no-preference) {
+  .mainnav ul {
+    opacity: 1;
+    transform: var(--nav-list-transform, translateX(100%));
+    transition:
+      transform 0.5s var(--nav-list-timing-function),
+      visibility 0.3s linear;
+  }
+  .mainnav svg {
+    transition: transform 0.4s var(--nav-list-timing-function);
+  }
 }
 
 .mainnav [aria-expanded='true'] + ul {
   --nav-list-visibility: visible;
-  padding-top: var(--space-2xl);
-  overflow: auto;
-  overscroll-behavior: contain;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .mainnav [aria-expanded='true'] + ul,
-  .mainnav svg {
-    transition:
-      transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55),
-      visibility 0.05s linear;
-  }
+  --nav-list-transform: translateX(0);
+  opacity: 1;
 }
 
 .mainnav button {
@@ -128,6 +132,7 @@
     --nav-list-width: 100%;
     --nav-list-shadow: none;
     --nav-list-visibility: visible;
+    --nav-list-transform: translateX(0);
   }
 
   .mainnav [aria-current='page'],
@@ -159,6 +164,8 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-item-background: transparent;
   --nav-item-decoration-color: var(--color-primary);
 }
+
+/* make menu wrap without drawer */
 
 .mainnav:has(ul:first-child) {
   --nav-position: relative;
