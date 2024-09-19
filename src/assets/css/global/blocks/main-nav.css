@@ -113,8 +113,8 @@
 
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --nav-item-background: var(--color-bg-accent);
-  --nav-item-text-color: var(--color-primary);
+  --nav-item-background: var(--color-primary);
+  --nav-item-text-color: var(--color-light);
   --nav-item-decoration-color: transparent;
 }
 
@@ -138,6 +138,7 @@
   .mainnav [aria-current='page'],
   .mainnav [data-state='active'] {
     --nav-item-background: transparent;
+    --nav-item-text-color: var(--color-primary);
     --nav-item-decoration-color: var(--color-primary);
   }
 
@@ -162,6 +163,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav ul:first-child [aria-current='page'],
 .mainnav ul:first-child [data-state='active'] {
   --nav-item-background: transparent;
+  --nav-item-text-color: var(--color-primary);
   --nav-item-decoration-color: var(--color-primary);
 }
 
