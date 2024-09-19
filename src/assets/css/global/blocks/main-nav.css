@@ -68,23 +68,24 @@
 }
 
 .mainnav button {
+  --gutter: var(--space-2xs);
+  --cluster-vertical-alignment: center;
   display: var(--nav-button-display, flex);
-  align-items: center;
   position: relative;
   z-index: 2;
   padding: var(--space-2xs) 0;
+  line-height: var(--leading-flat);
 }
 
 .mainnav span {
   font-weight: var(--font-extra-bold);
   text-transform: uppercase;
-  padding-inline-end: 0.1em;
-  font-size: var(--size-step-min-1);
   font-family: var(--font-display);
+  font-size: var(--size-step-min-1);
 }
 
 .mainnav svg {
-  inline-size: auto;
+  block-size: 0.9em;
   color: var(--color-text);
   stroke-width: 3;
 }
