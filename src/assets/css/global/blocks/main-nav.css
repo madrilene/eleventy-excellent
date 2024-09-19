@@ -44,12 +44,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .mainnav ul {
+    --nav-list-transform: translateX(100%);
     opacity: 1;
-    transform: var(--nav-list-transform, translateX(100%));
+    transform: var(--nav-list-transform);
     transition:
       transform 0.5s var(--nav-list-timing-function),
       visibility 0.3s linear;
   }
+
   .mainnav svg {
     transition: transform 0.4s var(--nav-list-timing-function);
   }
@@ -141,10 +143,6 @@
     --nav-item-text-color: var(--color-primary);
     --nav-item-decoration-color: var(--color-primary);
   }
-
-  .mainnav [aria-expanded='false'] + ul {
-    --list-transform: none;
-  }
 }
 
 /* Repeat the settings to provide a different styling when JavaScript is disabled or drawerNav is set to false. The selector
@@ -158,6 +156,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-width: 100%;
   --nav-list-shadow: none;
   --nav-list-visibility: visible;
+  --nav-list-transform: translateX(0);
 }
 
 .mainnav ul:first-child [aria-current='page'],
@@ -168,7 +167,6 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 }
 
 /* make menu wrap without drawer */
-
 .mainnav:has(ul:first-child) {
   --nav-position: relative;
 }
