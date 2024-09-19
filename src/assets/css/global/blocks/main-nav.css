@@ -42,6 +42,10 @@
   visibility: var(--nav-list-visibility);
 }
 
+.mainnav ul[no-flash] {
+  transition: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .mainnav ul {
     --nav-list-transform: translateX(100%);

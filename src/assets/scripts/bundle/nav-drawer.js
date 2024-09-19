@@ -30,4 +30,11 @@ document.addEventListener('click', e => {
   }
 });
 
+// avoid drawer flashing on page load
+document.addEventListener('DOMContentLoaded', function () {
+  setTimeout(() => {
+    list.removeAttribute('no-flash');
+  }, 100);
+});
+
 nav.insertBefore(burgerClone, list);
