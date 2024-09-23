@@ -1,11 +1,7 @@
 <!-- toggle drawer menu in _data/meta.js -->
 {% set drawerNav = meta.navigation.drawerNav %}
 
-<nav
-  id="mainnav"
-  class="mainnav
-  aria-label="{{ meta.navigation.ariaTop }}"
->
+<nav id="mainnav" class="mainnav" aria-label="{{ meta.navigation.ariaTop }}">
   <ul class="cluster" role="list" no-flash>
     {% for item in navigation.top %}
       <li>
