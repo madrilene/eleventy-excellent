@@ -1,5 +1,6 @@
 ---
-font: "'Red Hat Display', Ubuntu" # These get created in development, you must have the font installed on your system.
+fontDisplay: "'Red Hat Display', Ubuntu" # needed created in local development, font must be installed on your system.
+fontBody: "'Inclusive Sans', Ubuntu" # needed created in local development, font must be installed on your system.
 background: '#343434'
 text: '#FBFBFB'
 colors: ['#dd4462', '#c73d58', '#b1364e', '#9a3044']
@@ -59,7 +60,7 @@ eleventyExcludeFromCollections: true
 
   <!-- date -->
   <text
-    font-family="{{ font }}, sans-serif"
+    font-family="{{ fontBody }}, sans-serif"
     font-size="24"
     font-weight="900"
     fill="{{ text }}"
@@ -73,7 +74,7 @@ eleventyExcludeFromCollections: true
   <!-- title -->
   <text
     id="text"
-    font-family="{{ font }}, sans-serif"
+    font-family="{{ fontDisplay }}, sans-serif"
     font-size="80"
     font-weight="900"
     fill="{{ text }}"
@@ -86,7 +87,7 @@ eleventyExcludeFromCollections: true
 
   <!-- sitename / url -->
   <text
-    font-family="{{ font }}, sans-serif"
+    font-family="{{ fontBody }}, sans-serif"
     font-size="24"
     font-weight="500"
     fill="{{ text }}"
