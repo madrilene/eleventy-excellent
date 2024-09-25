@@ -12,7 +12,6 @@ button.addEventListener('click', e => {
 
 const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
-  button.focus();
 };
 
 //  close on escape
