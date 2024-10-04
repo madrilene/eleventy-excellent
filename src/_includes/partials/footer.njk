@@ -1,29 +1,19 @@
 <footer class="site-footer ">
   <div class="wrapper">
+    
+    <!-- theme switch -->
+    {% include 'partials/theme-switch.njk' %}
+
+    <div class="footer__meta | cluster text-step-0">
+      &copy; {% year %} {{ meta.author.name }}
+    </div>
+
     <div class="footer__meta | cluster">
-      <nav class="footer__meta | cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
-        &copy; {% year %}
-        <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}
-          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
-        </a>
-
-        {% for item in navigation.bottom %}
-          <a
-            href="{{ item.url }}"
-            {{
-              helpers.getLinkActiveState(item.url,
-              page.url)
-              |
-              safe
-            }}
-            >{{ item.text }}</a
-          >
-        {% endfor %}
-      </nav>
-
       <nav class="footer__meta | cluster" aria-label="{{ meta.navigation.ariaPlatforms }}">
         <!-- gets the first item from the feed loop set in meta -->
-        <a href="{{ meta.blog.feedLinks[0].url }}" rel="alternate" type="{{ meta.blog.feedLinks[0].type }}">
+        <a href="{{ meta.blog.feedLinks[0].url }}" 
+           rel="alternate" 
+           type="{{ meta.blog.feedLinks[0].type }}">
           <span class="visually-hidden">{{ meta.blog.feedLinks[0].title }}</span>
           {% svg "misc/rss" %}
         </a>
@@ -40,14 +30,10 @@
       </nav>
     </div>
 
-    <!-- theme switch -->
-    {% include 'partials/theme-switch.njk' %}
-
     <aside class="creator">
-      <a class="cluster" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by
-        {{ meta.creator.name }}</a
-      >
+      <a class="cluster" href="{{ meta.creator.website }}">
+        Started From Eleventy Excellent by {{ meta.creator.name }}
+      </a>
     </aside>
   </div>
 </footer>

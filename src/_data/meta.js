@@ -8,8 +8,8 @@ export const skipContent = 'Skip to content';
 export const author = {
   name: 'Jean Ducrot', // blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  email: 'jean@jeanducrot.com', // i.e. hola@lenesaile.com - email of the author
-  website: 'https://www.jeanducrot.com' // i.e. https.://www.lenesaile.com - the personal site of the author
+  email: 'jean@jeanducrot.com', // email of the author
+  website: 'https://www.jeanducrot.com' // personal site of the author
 };
 export const creator = {
   name: 'Lene Saile', // template creator's (developer) name.
