@@ -31,6 +31,11 @@
   <link rel="me" href="{{ personal.platforms.mastodon }}" />
 {% endif %}
 
+{% if meta.author.fediverse %}
+  <!-- fediverse creator tag -->
+  <meta name="fediverse:creator" content="{{ meta.author.fediverse }}" />
+{% endif %}
+
 <!-- Open Graph meta  -->
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}" />
 <meta property="og:type" content="website" />
