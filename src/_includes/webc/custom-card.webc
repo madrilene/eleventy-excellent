@@ -4,7 +4,4 @@
   <div class="meta | cluster"><slot name="date"></slot><slot name="tag"></slot></div>
   <slot name="content"></slot>
   <slot name="footer"></slot>
-
-  <!-- TODO: find out why is this not being hoisted into the webc css bundle?  -->
-  <link rel="stylesheet" href="/assets/css/components/custom-card.css" />
 </custom-card>

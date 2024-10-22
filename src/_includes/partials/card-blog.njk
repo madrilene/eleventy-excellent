@@ -17,3 +17,7 @@
   {% endif %}
   <div slot="content" webc:nokeep>{{ item.data.description | markdownFormat | safe }}</div>
 </custom-card>
+
+{% css "inline" %}
+  {% include "css/custom-card.css" %}
+{% endcss %}
