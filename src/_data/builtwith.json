@@ -9,7 +9,8 @@
     "name": "Lene Saile",
     "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
     "filename": "lenesaile",
-    "link": "https://www.lenesaile.com"
+    "link": "https://www.lenesaile.com",
+    "builtbylene": true
   },
   {
     "name": "Old man yelling at tech",
@@ -57,19 +58,20 @@
     "name": "Esther Zecco",
     "description": "Official website of Esther Zecco. Singer and songwriter of pop music from Segovia with influences of American folk and country.",
     "filename": "estherzecco",
-    "link": "https://estherzecco.com"
+    "link": "https://estherzecco.com",
+    "builtbylene": true
   },
   {
     "name": "Project MB",
     "description": "Personal website of Nicole. Writes about productivity, PKM, team happiness, agile, technology..",
     "filename": "projectmb",
-    "link": "https://www.projectmb.com/"
+    "link": "https://www.projectmb.com"
   },
   {
     "name": "httpster.io",
     "description": "httpster's personal website. Silly articles, rants, art and everything in between. ",
     "filename": "httpsterio",
-    "link": "https://httpster.io/"
+    "link": "https://httpster.io"
   },
   {
     "name": "ELAN",
@@ -81,37 +83,42 @@
     "name": "Manu Clavijo",
     "description": "Manu Clavijo is an experienced violinist who also performs his own repertoire of songs as a singer-songwriter",
     "filename": "manuclavijo",
-    "link": "https://www.manuclavijo.com/"
+    "link": "https://www.manuclavijo.com",
+    "builtbylene": true
   },
   {
     "name": "Colegio Marpe Ciudad Jardín",
     "description": "Website for a primary school in Las Palmas.",
     "filename": "colegio-marpe",
-    "link": "https://colegiomarpeciudadjardin.com"
+    "link": "https://colegiomarpeciudadjardin.com",
+    "builtbylene": true
   },
   {
     "name": "The Wooden Chips Handyman Service",
     "description": "A a website for local virginia handyman built with Netlify CMS and 11ty",
     "filename": "woodenchips",
-    "link": "https://thewoodenchips.com/"
+    "link": "https://thewoodenchips.com"
   },
   {
     "name": "lene.dev",
     "description": "My developer profile. I occasinally try new CSS features here.",
     "filename": "lene-dev",
-    "link": "https://www.lene.dev/"
+    "link": "https://www.lene.dev",
+    "builtbylene": true
   },
   {
     "name": "cantautor.es",
     "description": "cantautor.es is a place where you can listen to excerpts of selected songs from Spanish singer-songwriters.",
     "filename": "cantautor-es",
-    "link": "https://cantautor.es/"
+    "link": "https://cantautor.es",
+    "builtbylene": true
   },
   {
     "name": "badwebsites.rip",
     "description": "I colaborate with Berlin-based designer Daniela Grau to develop human centered websites.",
     "filename": "badwebsites-rip",
-    "link": "https://badwebsites.rip/"
+    "link": "https://badwebsites.rip",
+    "builtbylene": true
   },
   {
     "name": "claytonerrington.com",
@@ -132,9 +139,10 @@
     "link": "https://chrismcleod.dev"
   },
   {
-    "name": "embedded-data.de",
-    "description": "Embedded Data GmbH is a company specializing in digital solutions for industrial machine and device manufacturers",
-    "filename": "embedded",
-    "link": "https://embedded-data.de/en/"
+    "name": "data-bene.io",
+    "description": "Data-Bene specializes in providing expert PostgreSQL services.",
+    "filename": "databene",
+    "link": "https://www.data-bene.io",
+    "builtbylene": true
   }
 ]

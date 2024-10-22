@@ -42,8 +42,11 @@ widths: [400, 520]
           <h3 class="text-step-0" slot="headline">{{ site.name }}</h3>
 
           <p slot="content">{{ site.description }}</p>
-          <footer slot="footer">
+          <footer slot="footer" class="repel">
             <a class="no-indicator" href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
+            {% if site.builtbylene %}
+              <span class="gradient-text-linear">built by Lene</span>
+            {% endif %}
           </footer>
         </custom-card>
       {% endfor %}
