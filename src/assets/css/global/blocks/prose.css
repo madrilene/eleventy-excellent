@@ -10,6 +10,7 @@
 }
 
 .prose figcaption {
+  color: var(--color-base-light);
   font-size: var(--size-step-min-1);
   text-align: center;
   padding-block-end: var(--space-xs);
