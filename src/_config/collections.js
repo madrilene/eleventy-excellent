@@ -5,7 +5,7 @@ export const getAllPosts = collection => {
 
 /** All markdown files as a collection for sitemap.xml */
 export const onlyMarkdown = collection => {
-  return collection.getFilteredByGlob('./src/**/*.md');
+  return collection.getFilteredByGlob('./src/**/*.{md,njk}');
 };
 
 /** All tags from all posts as a collection - excluding custom collections */
