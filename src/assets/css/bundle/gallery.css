@@ -20,6 +20,11 @@ is-land:not(:defined) .gallery dialog + button {
 }
 
 .gallery dialog img {
+  aspect-ratio: auto;
   max-block-size: 70vh;
   inline-size: auto;
+}
+
+.gallery dialog figcaption {
+  color: currentColor;
 }
