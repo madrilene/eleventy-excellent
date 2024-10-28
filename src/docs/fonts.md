@@ -10,4 +10,6 @@ Next, edit `src/assets/css/global/base/fonts.css`.
 
 Add your new font aliases in `src/_data/designTokens/fonts.json`.
 
-Finally, in `src/_includes/head/preloads.njk` edit the font preloads.
+In `src/_includes/head/preloads.njk` edit the font preloads (Recommended one weight per font).
+
+If you want to use your font in the **OG images template**, store them in `src/_includes/fonts` to use them as `base64` encoded inline CSS. This makes you independent of the system executing the build.
