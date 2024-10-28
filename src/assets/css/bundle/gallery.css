@@ -26,5 +26,5 @@ is-land:not(:defined) .gallery dialog + button {
 }
 
 .gallery dialog figcaption {
-  color: currentColor;
+  color: var(--color-light);
 }
