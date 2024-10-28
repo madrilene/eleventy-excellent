@@ -1,6 +1,6 @@
 ---
-fontDisplay: "'Red Hat Display', Ubuntu" # needed created in local development, font must be installed on your system.
-fontBody: "'Inclusive Sans', Ubuntu" # needed created in local development, font must be installed on your system.
+fontDisplay: "'Red Hat Display', Ubuntu, sans-serif" # needed created in local development, font must be installed on your system.
+fontBody: "'Inclusive Sans', Ubuntu, sans-serif" # needed created in local development, font must be installed on your system.
 background: '#343434'
 text: '#FBFBFB'
 colors: ['#dd4462', '#c73d58', '#b1364e', '#9a3044']
@@ -17,10 +17,15 @@ eleventyExcludeFromCollections: true
   width="1200"
   height="630"
   viewBox="0 0 1200 630"
-  version="1.1"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
 >
+
+<!-- fonts inlined as base64. Generator: https://transfonter.org/ -->
+<style>
+  {% include "fonts/display.njk" %}
+	{% include "fonts/body.njk" %}
+</style>
+
   {% set titleInLines = post.data.title | splitlines(22) %}
   {% set numberOfLines = titleInLines.length %}
   {% if numberOfLines == 1 %}
@@ -60,7 +65,7 @@ eleventyExcludeFromCollections: true
 
   <!-- date -->
   <text
-    font-family="{{ fontBody }}, sans-serif"
+    font-family="{{ fontBody }}"
     font-size="24"
     font-weight="900"
     fill="{{ text }}"
@@ -74,7 +79,7 @@ eleventyExcludeFromCollections: true
   <!-- title -->
   <text
     id="text"
-    font-family="{{ fontDisplay }}, sans-serif"
+    font-family="{{ fontDisplay }}"
     font-size="80"
     font-weight="900"
     fill="{{ text }}"
@@ -87,13 +92,14 @@ eleventyExcludeFromCollections: true
 
   <!-- sitename / url -->
   <text
-    font-family="{{ fontBody }}, sans-serif"
+    font-family="{{ fontDisplay }}"
     font-size="24"
     font-weight="500"
     fill="{{ text }}"
     letter-spacing="-0.5"
   >
     <!-- <tspan x="160" y="580">{{ meta.siteName }} · {{ meta.url | replace("https://", "") | replace("http://", "") }}</tspan> -->
-    <tspan x="160" y="580">{{ meta.siteName }} — {{ siteUrl }}</tspan>
+		<tspan x="160" y="580">{{ meta.siteName }}</tspan>
+		<tspan font-family="{{ fontBody }}" x="400" y="580" style="text-decoration: underline;">{{ siteUrl }}</tspan>
   </text>
 </svg>
