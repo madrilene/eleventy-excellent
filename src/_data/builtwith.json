@@ -144,5 +144,12 @@
     "filename": "databene",
     "link": "https://www.data-bene.io",
     "builtbylene": true
+  },
+  {
+    "name": "lamusicoteca.com",
+    "description": "Very cool music school in Chamartín, Madrid. All music styles, all levels.",
+    "filename": "lamusicoteca",
+    "link": "https://lamusicoteca.com",
+    "builtbylene": true
   }
 ]
