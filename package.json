@@ -15,8 +15,8 @@
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
-    "start": "run-p dev:*",
-    "build": "run-s clean build:*"
+    "start": "npm run dev:clean & npm run dev:11ty",
+    "build": "npm run clean && npm run build:11ty"
   },
   "keywords": [],
   "repository": {
@@ -54,7 +54,6 @@
     "markdown-it-mark": "^4.0.0",
     "markdown-it-prism": "^2.3.0",
     "netlify-plugin-cache": "^1.0.3",
-    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.8",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.0.0",
