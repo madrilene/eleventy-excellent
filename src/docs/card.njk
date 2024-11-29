@@ -39,7 +39,7 @@ title: Card
   &lt;custom-card&gt;
 	{% image "path-to-img", "alt-text" %}
 	&lt;span slot="date"&gt;&lt;/span&gt;
-	&lt;span slot="tag" class="button post-tag"&gt;&lt;/span&gt;
+	&lt;span slot="tag" class="button"&gt;&lt;/span&gt;
 	&lt;h2 slot="headline"&gt;&lt;/h2&gt;
 	&lt;p slot="content"&gt;&lt;/p&gt;
 	&lt;footer slot="footer"&gt;&lt;/footer&gt;
@@ -52,7 +52,7 @@ title: Card
   <custom-card>
     {% image "./src/assets/images/gallery/asturias-3.jpg", "Close-up of a delicate white flower with a yellow center, surrounded by green leaves" %}
     <span slot="date">1516</span>
-    <span slot="tag" class="button post-tag">Default</span>
+    <span slot="tag" class="button" data-small-button>Default</span>
     <h2 slot="headline">Utopia</h2>
     <p slot="content">
       Among them, there is no sort of traffic, no knowledge of letters, no understanding of numbers, no name
@@ -66,7 +66,8 @@ title: Card
     {% image "./src/assets/images/gallery/asturias-3.jpg", "Close-up of a delicate white flower with a yellow center, surrounded by green leaves" %}
     <span slot="date">18.02.1984</span>
     <div slot="tag" webc:nokeep>
-      <span class="button post-tag">clickable</span><span class="button post-tag">square image</span>
+      <span class="button" data-small-button>clickable</span
+      ><span class="button" data-small-button>square image</span>
     </div>
     <footer slot="footer"><a href="#">Link in the footer makes whole card a link</a></footer>
     <h2 slot="headline">The order does not matter</h2>
