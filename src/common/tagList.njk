@@ -17,9 +17,9 @@ eleventyComputed:
   {% endfor %}
 </custom-masonry>
 
-<h2>{{ meta.blog.tagMore }}</h2>
+<h2 class="text-step-2">{{ meta.blog.tagMore }}</h2>
 
-<ul class="taglist | my-s-m cluster" role="list">
+<ul class="taglist | my-s-m cluster gutter-s" role="list">
   {% for tag in collections.tagList %}
     <li>
       <a
