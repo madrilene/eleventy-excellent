@@ -1,47 +1,100 @@
 .button {
-  color: var(--button-text, var(--color-text));
-  background-color: var(--button-bg, var(--color-bg));
-  border: 2px solid var(--button-border, var(--color-text));
-  border-radius: var(--border-radius);
-  display: inline-block;
-  font: inherit;
-  padding: 0.3rem var(--space-s);
-  font-weight: var(--font-bold);
+  --button-bg: var(--color-text);
+  --button-color: color-mix(in oklab, var(--button-bg) 10%, var(--color-bg));
+  --button-hover-bg: color-mix(in oklab, var(--button-bg) 90%, var(--color-bg));
+  --button-hover-color: color-mix(in oklab, var(--button-bg) 5%, var(--color-bg));
+  --button-border-width: var(--border-thickness);
+  --button-border-style: solid;
+  --button-border-color: color-mix(in oklab, var(--button-bg) 80%, var(--color-text));
+  --button-radius: var(--border-radius-small);
+  --button-font-weight: var(--font-bold);
+  --button-gap: var(--space-2xs);
+  --button-padding: var(--space-xs) var(--space-m);
+  --button-font-size: var(--size-step-0);
+  --button-text-transform: none;
+
+  display: inline-flex;
+  align-items: center;
+  gap: var(--button-gap);
+  padding: var(--button-padding);
+  background: var(--button-bg);
+  color: var(--button-color);
+  border-width: var(--button-border-width);
+  border-style: var(--button-border-style);
+  border-color: var(--button-border-color);
+  border-radius: var(--button-radius);
   text-decoration: none;
-  text-align: center;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--leading-flat);
+  text-transform: var(--button-text-transform);
+  /* trim the space at the cap height - in  Safari Technology Preview */
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
 }
 
+.button svg {
+  block-size: var(--button-icon-size, 1.2cap);
+  flex: none;
+}
+
+/* Hover/focus/active */
 .button:hover,
 .button[aria-current='page'],
 .button[aria-pressed='true'],
 .button[data-state='active'] {
-  background-size: 150% 150%;
-  --button-bg: var(--color-text);
-  --button-text: var(--color-bg);
-  --button-border: var(--color-text);
+  background: var(--button-hover-bg);
+  color: var(--button-color);
+}
+
+.button:focus {
+  outline-color: var(--button-outline-color, var(--button-border-color));
 }
 
 .button:active {
   transform: scale(99%);
 }
 
-.button:where(:has(svg)) {
-  display: flex;
-  gap: 0.5em;
-  align-items: center;
+/* Variants */
+.button[data-button-variant='primary'] {
+  --button-bg: var(--color-primary);
+  --button-color: var(--color-light);
+  --button-color: color-mix(in oklab, var(--color-primary) 5%, var(--color-light));
 }
 
-.button:where(:has(.visually-hidden)) {
-  border-radius: 50%;
-  padding: 0.5em;
+.button[data-button-variant='secondary'] {
+  --button-bg: var(--color-secondary);
+  --button-color: var(--color-light);
+  --button-color: color-mix(in oklab, var(--color-secondary) 5%, var(--color-light));
 }
 
-/* all buttons have a min size */
-.button:where(:not(:has(svg))) {
-  text-align: center;
-  min-inline-size: 6ch;
+.button[data-button-variant='tertiary'] {
+  --button-bg: var(--color-tertiary);
+  --button-color: var(--color-dark);
+  --button-color: color-mix(in oklab, var(--color-tertiary) 10%, var(--color-dark));
 }
 
-.button:where(:not(:has(.visually-hidden))) {
-  padding: var(--button-padding, 0.35em 1em);
+.button[data-ghost-button] {
+  --button-bg: var(--color-bg);
+  --button-border-color: var(--color-text);
+  --button-color: var(--color-text);
+  --button-hover-color: var(--color-bg);
+}
+
+.button[data-ghost-button]:hover {
+  --_ghost-hover-bg: var(--button-bg);
+  --_ghost-hover-bg: color-mix(in oklab, var(--button-bg) 95%, var(--color-dark));
+  background: var(--_ghost-hover-bg);
+}
+
+.button[data-small-button] {
+  --button-border-width: 2px;
+  --button-radius: var(--border-radius-small);
+  --button-font-size: var(--size-step-min-2);
+  --button-padding: var(--space-3xs) var(--space-xs);
+  --button-text-transform: uppercase;
+}
+/* Radius variants */
+.button[data-button-radius='hard'] {
+  --button-radius: 0;
 }
