@@ -17,7 +17,7 @@
 .footnote-backref {
   text-decoration: none;
   background-color: var(--color-bg-accent);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
   padding-inline: var(--space-xs);
 }
 

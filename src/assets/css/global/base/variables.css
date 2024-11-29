@@ -5,7 +5,6 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
 /* Basic variable definitions for color schemes */
 :root {
   --gutter: var(--space-m-l);
-  --border-radius: 0.3rem;
   --transition-duration: 250ms;
   --transition-timing: ease;
   --wrapper-width: 85rem;

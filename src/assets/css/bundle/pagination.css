@@ -6,7 +6,7 @@
   color: var(--pagination-text, var(--color-text));
   background-color: var(--pagination-bg, var(--color-bg));
   border: 3px solid var(--pagination-border, var(--color-bg-accent));
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
 }
 
 .pagination li:not(:has(a)) {

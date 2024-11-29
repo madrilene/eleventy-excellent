@@ -9,6 +9,7 @@ import {tokensToTailwind} from './src/_config/utils/tokens-to-tailwind.js';
 
 // Raw design tokens
 import colorTokens from './src/_data/designTokens/colors.json';
+import borderRadiusTokens from './src/_data/designTokens/borderRadius.json';
 import fontTokens from './src/_data/designTokens/fonts.json';
 import spacingTokens from './src/_data/designTokens/spacing.json';
 import textSizeTokens from './src/_data/designTokens/textSizes.json';
@@ -18,6 +19,7 @@ import viewportTokens from './src/_data/designTokens/viewports.json';
 
 // Process design tokens
 const colors = tokensToTailwind(colorTokens.items);
+const borderRadius = tokensToTailwind(borderRadiusTokens.items);
 const fontFamily = tokensToTailwind(fontTokens.items);
 const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
 const fontWeight = tokensToTailwind(textWeightTokens.items);
@@ -35,6 +37,7 @@ export default {
       navigation: `${viewportTokens.navigation}px`
     },
     colors,
+    borderRadius,
     spacing,
     fontFamily,
     fontSize,
@@ -92,6 +95,7 @@ export default {
 
       const groups = [
         {key: 'colors', prefix: 'color'},
+        {key: 'borderRadius', prefix: 'border-radius'},
         {key: 'spacing', prefix: 'space'},
         {key: 'fontSize', prefix: 'size'},
         {key: 'lineHeight', prefix: 'leading'},

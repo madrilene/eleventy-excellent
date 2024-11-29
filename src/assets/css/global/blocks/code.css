@@ -14,7 +14,7 @@ pre {
   font-size: var(--size-step-min-1);
   background-color: var(--color-code-bg);
 
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
 }
 
 code[class*='language-'],

@@ -55,7 +55,7 @@
 }
 
 .prose img {
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
 }
 
 @media screen(ltsm) {

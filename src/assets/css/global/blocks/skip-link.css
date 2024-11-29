@@ -18,7 +18,7 @@
   background-color: var(--color-text);
   color: var(--color-bg);
   padding: var(--space-xs) var(--space-s-m);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
   line-height: 1;
 }
 

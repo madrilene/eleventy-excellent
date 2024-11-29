@@ -105,7 +105,7 @@
   color: var(--nav-item-text-color);
   padding: var(--nav-item-padding);
   display: block;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
   text-decoration-line: underline;
   text-decoration-color: var(--nav-item-decoration-color);
   text-decoration-thickness: 3px;

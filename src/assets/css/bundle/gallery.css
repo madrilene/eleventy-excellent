@@ -1,5 +1,5 @@
 .gallery dialog {
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
   inset: revert;
 }
 

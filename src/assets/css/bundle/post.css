@@ -29,7 +29,7 @@
   color: var(--color-text-accent);
   background-color: var(--color-bg);
   padding: var(--space-xs) var(--space-s);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-medium);
   transform: translateY(-4ch) translateX(-0.5ch);
   max-inline-size: fit-content;
 }
