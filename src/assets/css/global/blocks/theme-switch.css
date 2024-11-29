@@ -3,22 +3,12 @@
   font-family: var(--font-base);
 }
 
-.theme-switch .button {
-  --button-border: var(--color-bg-accent-2);
-  border-radius: var(--border-radius);
-  font-size: var(--size-step-min-2);
-  padding: 0.1rem 0.625rem;
-  font-weight: var(--font-bold);
-  min-block-size: 1.5em;
-  text-transform: uppercase;
-}
-
 .theme-switch .button[aria-pressed='true'] {
-  --_color-primary-contrast: color-mix(in oklab, var(--color-primary) 85%, var(--color-base-dark));
-  --button-bg: var(--_color-primary-contrast);
-  --button-text: var(--color-base-light);
-  --button-border: var(--_color-primary-contrast);
-  outline-color: var(--_color-primary-contrast);
+  --_color-contrast: var(--color-tertiary);
+  --button-bg: var(--_color-contrast);
+  --button-color: var(--color-dark);
+  --button-border-color: var(--_color-contrast);
+  outline-color: var(--_color-contrast);
 }
 
 /* Hide without JS */
