@@ -1,12 +1,12 @@
-.post h1 {
+:where(.post) h1 {
   font-size: var(--size-step-6);
 }
 
-.post h2 {
+:where(.post) h2 {
   font-size: var(--size-step-3);
 }
 
-.post h3 {
+:where(.post) h3 {
   font-size: var(--size-step-2);
 }
 
