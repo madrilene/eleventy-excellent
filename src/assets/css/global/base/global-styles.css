@@ -105,6 +105,14 @@ a:hover {
   text-decoration: none;
 }
 
+figcaption {
+  margin-block-start: var(--space-s);
+  font-size: var(--size-step-min-1);
+  text-align: center;
+  padding-block-end: var(--space-xs);
+  border-bottom: 1px solid var(--color-bg-accent);
+}
+
 :focus-visible {
   outline: 3px solid;
   outline-offset: 0.3ch;
