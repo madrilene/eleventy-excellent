@@ -47,7 +47,7 @@
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.0.1",
-    "markdown-it-eleventy-img": "^0.10.2",
+    "markdown-it-attrs": "^4.3.1",
     "markdown-it-emoji": "^3.0.0",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-link-attributes": "^4.0.1",
