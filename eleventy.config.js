@@ -55,15 +55,13 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
-    formats: ['avif', 'webp', 'jpeg'],
-    extensions: 'html',
-    outputDir: '/assets/img/',
+    formats: ['webp', 'jpeg'],
     widths: [650, 960, 1200],
-    extensions: 'html',
     htmlOptions: {
       imgAttributes: {
         loading: 'lazy',
-        decoding: 'async'
+        decoding: 'async',
+        sizes: '100vw'
       },
       pictureAttributes: {}
     }
