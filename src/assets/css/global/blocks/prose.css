@@ -18,7 +18,7 @@
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
-  --flow-space: var(--space-m);
+  --flow-space: var(--space-l);
 }
 
 .prose .heading-anchor:where(:hover, :focus) {

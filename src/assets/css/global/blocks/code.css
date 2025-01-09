@@ -30,7 +30,7 @@ pre[class*='language-'] {
 pre {
   grid-column: popout !important;
   overflow-x: auto;
-  padding: var(--space-m-l);
+  padding: var(--space-s) var(--space-l);
 }
 
 /* Style Adjustments for <code> within different contexts */
