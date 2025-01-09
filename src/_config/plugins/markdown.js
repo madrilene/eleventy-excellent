@@ -46,16 +46,14 @@ export const markdownLib = markdownIt({
   .use(markdownItEmoji)
   .use(markdownItFootnote)
   .use(markdownitMark)
-  .use(markdownitAbbr);
-// .use(md => {
-//   md.renderer.rules.image = (tokens, idx) => {
-//     const token = tokens[idx];
-//     const src = token.attrGet('src');
-//     const alt = token.content || '';
-//     const title = token.attrGet('title') || '';
-
-//     const imgTag = `<img src="${src}" alt="${alt}" loading="lazy" decoding="async">`;
-
-//     return title ? `<figure>${imgTag}<figcaption>${title}</figcaption></figure>` : imgTag;
-//   };
-// });
+  .use(markdownitAbbr)
+  .use(md => {
+    md.renderer.rules.image = (tokens, idx) => {
+      const token = tokens[idx];
+      const src = token.attrGet('src');
+      const alt = token.content || '';
+      const caption = token.attrGet('title');
+      const imgTag = `<img src="${src}" alt="${alt}">`;
+      return caption ? `<figure>${imgTag}<figcaption>${caption}</figcaption></figure>` : imgTag;
+    };
+  });
