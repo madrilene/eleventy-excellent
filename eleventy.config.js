@@ -54,6 +54,21 @@ export default async function (eleventyConfig) {
     useTransform: true
   });
 
+  eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
+    formats: ['avif', 'webp', 'jpeg'],
+    outputDir: '/assets/images/',
+    widths: ['auto'],
+    extensions: 'html',
+    htmlOptions: {
+      imgAttributes: {
+        loading: 'lazy',
+        decoding: 'async',
+        sizes: '100vw'
+      },
+      pictureAttributes: {}
+    }
+  });
+
   // ---------------------  bundle
   eleventyConfig.addBundle('css', {hoist: true});
 
