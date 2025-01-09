@@ -5,7 +5,6 @@
 	project: https://cube.fyi/css.html
 */
 
-/* Base styles */
 html {
   color-scheme: light dark;
 }
@@ -28,7 +27,6 @@ main {
   flex: auto;
 }
 
-/* Typography */
 h1,
 h2,
 h3 {
@@ -50,7 +48,6 @@ h3 {
   font-size: var(--size-step-2);
 }
 
-/* Text formatting */
 p,
 li,
 blockquote:not([class]) {
@@ -73,27 +70,23 @@ blockquote :last-child {
   font-size: var(--size-step-1);
 }
 
-/* Form elements */
 input,
 textarea {
   caret-color: var(--color-primary);
 }
 
-/* SVG */
 svg {
   block-size: 2ex;
   inline-size: auto;
   flex: none;
 }
 
-/* Text styling */
 b,
 strong {
   font-weight: var(--font-extra-bold);
   font-family: var(--font-display);
 }
 
-/* Horizontal rule */
 hr {
   height: 1px;
   width: 10%;
@@ -103,7 +96,6 @@ hr {
   border: 0;
 }
 
-/* Links */
 a {
   color: currentcolor;
   text-decoration-thickness: 0.08em;
@@ -113,24 +105,20 @@ a:hover {
   text-decoration: none;
 }
 
-/* Focus styles */
 :focus-visible {
   outline: 3px solid;
   outline-offset: 0.3ch;
 }
 
-/* Text selection */
 ::selection {
   background-color: var(--color-text);
   color: var(--color-bg);
 }
 
-/* Transitions */
 .preload-transitions * {
   transition: none !important;
 }
 
-/* Scripting */
 @media (scripting: none) {
   .require-js {
     display: none;
