@@ -10,6 +10,10 @@
     {
       "name": "Bold",
       "value": 700
+    },
+    {
+      "name": "Extra Bold",
+      "value": 900
     }
   ]
 }

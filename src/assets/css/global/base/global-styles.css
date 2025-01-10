@@ -31,7 +31,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: var(--font-bold);
+  font-weight: var(--font-extra-bold);
   line-height: 1.2;
   letter-spacing: var(--tracking-s);
 }

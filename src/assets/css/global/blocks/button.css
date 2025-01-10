@@ -7,9 +7,10 @@
   --button-border-style: solid;
   --button-border-color: color-mix(in oklab, var(--button-bg) 80%, var(--color-text));
   --button-radius: var(--border-radius-small);
-  --button-font-weight: var(--font-bold);
   --button-gap: var(--space-2xs);
   --button-padding: var(--space-xs) var(--space-m);
+  --button-font-family: var(--font-body);
+  --button-font-weight: var(--font-regular);
   --button-font-size: var(--size-step-0);
   --button-text-transform: none;
 
@@ -24,6 +25,7 @@
   border-color: var(--button-border-color);
   border-radius: var(--button-radius);
   text-decoration: none;
+  font-family: var(--button-font-family);
   font-weight: var(--button-font-weight);
   font-size: var(--button-font-size);
   line-height: var(--leading-flat);
