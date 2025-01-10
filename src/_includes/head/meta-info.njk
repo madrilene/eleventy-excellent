@@ -9,7 +9,16 @@
 {% endset %}
 
 <meta name="description" content="{{ metaDescription }}" />
-<meta name="theme-color" content="{{ meta.themeColor }}" />
+<meta
+  name="theme-color"
+  content="{{ designTokens.colors.items[1].value }}"
+  media="(prefers-color-scheme: dark)"
+/>
+<meta
+  name="theme-color"
+  content="{{ designTokens.colors.items[0].value }}"
+  media="(prefers-color-scheme: light)"
+/>
 <!-- Search Engines -->
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
