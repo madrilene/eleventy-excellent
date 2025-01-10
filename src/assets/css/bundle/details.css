@@ -14,6 +14,10 @@ is-land:not(:defined) .details .control {
   margin-block-start: var(--flow-space, 1em);
 }
 
+.details details[open] + details {
+  margin-block-start: var(--space-2xl);
+}
+
 .details details > p:last-child {
   margin-block-end: var(--space-l);
 }
