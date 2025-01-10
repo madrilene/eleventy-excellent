@@ -78,7 +78,7 @@
 }
 
 .mainnav span {
-  font-weight: var(--font-extra-bold);
+  font-weight: var(--font-bold);
   text-transform: uppercase;
   font-family: var(--font-display);
   font-size: var(--size-step-min-1);

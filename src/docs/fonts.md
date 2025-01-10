@@ -2,7 +2,7 @@
 title: Fonts
 ---
 
-This starter uses two custom fonts, Red Hat Display and Inclusive Sans. You can add or delete fonts in `src/assets/fonts`.
+This starter uses two custom fonts, Red Hat Display and Atkinson Hyperlegible. You can add or delete fonts in `src/assets/fonts`.
 
 I often create font subsets using the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator).
 
