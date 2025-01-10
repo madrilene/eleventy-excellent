@@ -12,7 +12,7 @@ schema: blog
       {% image image, alt or title, credit, "eager", "feature" %}
     {% endif %}
 
-    <p class="meta | cluster" style="--gutter: var(--space-xs-s)">
+    <p class="meta | cluster gutter-xs-s">
       <!-- date -->
       {% set definedDate = date %} {% include "partials/date.njk" %}
       {%
