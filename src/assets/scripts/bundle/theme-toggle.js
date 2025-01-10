@@ -2,8 +2,8 @@ const storageKey = 'theme-preference';
 const lightLabel = '{{ meta.themeSwitch.light }}';
 const darkLabel = '{{ meta.themeSwitch.dark }}';
 const themeColors = {
-  dark: '{{ designTokens.colors.items[0].value }}', // Base Dark
-  light: '{{ designTokens.colors.items[1].value }}' // Base Light
+  dark: '{{ meta.themeLight }}',
+  light: '{{ meta.themeDark }}'
 };
 
 const theme = {

@@ -33,7 +33,6 @@
 :root[data-theme='light'] {
   --color-text: var(--color-gray-800);
   --color-bg: var(--color-gray-100);
-  --color-base: var(--color-gray-800);
 
   --color-primary: var(--color-pink);
   --color-secondary: var(--color-blue);
@@ -49,7 +48,6 @@
   :root {
     --color-text: var(--color-gray-100);
     --color-bg: var(--color-gray-800);
-    --color-base: var(--color-gray-100);
 
     --color-primary: var(--color-pink-subdued);
     --color-secondary: var(--color-blue-subdued);
@@ -63,7 +61,6 @@
 :root[data-theme='dark'] {
   --color-text: var(--color-gray-100);
   --color-bg: var(--color-gray-800);
-  --color-base: var(--color-gray-100);
 
   --color-primary: var(--color-pink-subdued);
   --color-secondary: var(--color-blue-subdued);

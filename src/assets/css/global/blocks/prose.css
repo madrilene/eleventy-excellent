@@ -31,7 +31,7 @@
 
 .prose mark {
   background-color: var(--color-tertiary);
-  color: var(--color-base-dark);
+  color: var(--color-dark);
 }
 
 /* block space only for "regular lists" */
