@@ -21,6 +21,11 @@ export const imageShortcode = async (
   sizes = 'auto',
   formats = ['avif', 'webp', 'jpeg']
 ) => {
+  // Prepend "./src" if not present
+  if (!src.startsWith('./src')) {
+    src = `./src${src}`;
+  }
+
   const metadata = await Image(src, {
     widths: [...widths],
     formats: [...formats],
