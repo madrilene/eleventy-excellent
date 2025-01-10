@@ -53,7 +53,16 @@ export const markdownLib = markdownIt({
       const src = token.attrGet('src');
       const alt = token.content || '';
       const caption = token.attrGet('title');
-      const imgTag = `<img src="${src}" alt="${alt}">`;
+
+      // Collect attributes
+      const attributes = token.attrs || [];
+      const hasEleventyWidths = attributes.some(([key]) => key === 'eleventy:widths');
+      if (!hasEleventyWidths) {
+        attributes.push(['eleventy:widths', '650,960,1200']);
+      }
+
+      const attributesString = attributes.map(([key, value]) => `${key}="${value}"`).join(' ');
+      const imgTag = `<img src="${src}" alt="${alt}" ${attributesString}>`;
       return caption ? `<figure>${imgTag}<figcaption>${caption}</figcaption></figure>` : imgTag;
     };
   });
