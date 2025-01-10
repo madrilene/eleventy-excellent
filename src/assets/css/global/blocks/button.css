@@ -1,3 +1,5 @@
+/* based on Andy Bell's article: https://piccalil.li/blog/how-i-build-a-button-component/ */
+
 .button {
   --button-bg: var(--color-text);
   --button-color: color-mix(in oklab, var(--button-bg) 10%, var(--color-bg));

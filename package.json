@@ -11,6 +11,7 @@
   "scripts": {
     "clean": "rimraf dist src/_includes/css src/_includes/scripts",
     "favicons": "node ./src/_config/setup/generate-favicons.js",
+    "colors": "node ./src/_config/setup/create-colors.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "@toycode/markdown-it-class": "^1.2.4",
     "autoprefixer": "^10.4.13",
+    "colorjs.io": "^0.5.2",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.1",
     "dayjs": "^1.11.5",

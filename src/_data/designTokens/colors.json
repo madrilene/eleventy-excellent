@@ -1,26 +1,66 @@
 {
   "title": "Colors",
-  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. The first two colors are used by the theme toggle script to set the theme color.",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. neutral and vibrant colors are converted to color palettes, fixed colors are kept as they are",
   "items": [
     {
-      "name": "Base Dark",
-      "value": "#343434"
+      "name": "Gray 100",
+      "value": "#f8f8f8"
     },
     {
-      "name": "Base Light",
-      "value": "#FBFBFB"
+      "name": "Gray 200",
+      "value": "#e4e4e4"
     },
     {
-      "name": "Primary Highlight",
+      "name": "Gray 300",
+      "value": "#cecece"
+    },
+    {
+      "name": "Gray 400",
+      "value": "#9e9e9e"
+    },
+    {
+      "name": "Gray 500",
+      "value": "#808080"
+    },
+    {
+      "name": "Gray 600",
+      "value": "#5d5d5d"
+    },
+    {
+      "name": "Gray 700",
+      "value": "#484848"
+    },
+    {
+      "name": "Gray 800",
+      "value": "#2e2e2e"
+    },
+    {
+      "name": "Gray 900",
+      "value": "#161616"
+    },
+    {
+      "name": "Pink",
       "value": "#dd4462"
     },
     {
-      "name": "Secondary Highlight",
+      "name": "Pink Subdued",
+      "value": "#ce5769"
+    },
+    {
+      "name": "Blue",
       "value": "#4467dd"
     },
     {
-      "name": "Tertiary Highlight",
+      "name": "Blue Subdued",
+      "value": "#4d6cc8"
+    },
+    {
+      "name": "Gold",
       "value": "#fbbe25"
+    },
+    {
+      "name": "Gold Subdued",
+      "value": "#f1c15b"
     }
   ]
 }
