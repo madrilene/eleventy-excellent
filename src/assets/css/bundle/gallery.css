@@ -8,6 +8,11 @@
   cursor: pointer;
 }
 
+.gallery dialog + button img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
 /* Don't indicate interactivity without JS */
 is-land:not(:defined) .gallery dialog + button {
   cursor: default;
