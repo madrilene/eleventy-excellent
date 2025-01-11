@@ -95,7 +95,7 @@
   --button-border-width: 2px;
   --button-radius: var(--border-radius-small);
   --button-font-size: var(--size-step-min-2);
-  --button-padding: var(--space-3xs) var(--space-xs) 0.1em var(--space-xs);
+  --button-padding: var(--space-2xs) var(--space-s) var(--space-3xs) var(--space-s);
   --button-text-transform: uppercase;
 }
 /* Radius variants */
