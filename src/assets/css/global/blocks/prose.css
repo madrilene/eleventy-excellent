@@ -14,7 +14,7 @@
 }
 
 .prose :is(h2, h3, h4) {
-  --flow-space: 2em;
+  --flow-space: 1.5em;
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *):not(figure) {
