@@ -15,7 +15,7 @@ horizontally. Can be any acceptable flexbox aligmnent value.
 Can be any acceptable flexbox alignment value.
 */
 
-:where(.cluster) {
+.cluster {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, var(--space-s-l));

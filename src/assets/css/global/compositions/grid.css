@@ -14,7 +14,7 @@ ideally, as a minimum.
 --grid-placement (auto-fill): Set either auto-fit or auto-fill
 to change how empty grid tracks are handled */
 
-:where(.grid) {
+.grid {
   display: grid;
   grid-template-columns: repeat(
     var(--grid-placement, auto-fill),
@@ -23,17 +23,17 @@ to change how empty grid tracks are handled */
   gap: var(--gutter, var(--space-s-m));
 }
 
-:where(.grid)[data-rows='masonry'] {
+.grid[data-rows='masonry'] {
   grid-template-rows: masonry;
   align-items: start;
 }
 
-:where(.grid)[data-layout='50-50'] {
+.grid[data-layout='50-50'] {
   --grid-placement: auto-fit;
   --grid-min-item-size: clamp(16rem, 50vw, 28rem);
 }
 
-:where(.grid)[data-layout='thirds'] {
+.grid[data-layout='thirds'] {
   --grid-placement: auto-fit;
   --grid-min-item-size: clamp(16rem, 33%, 30rem);
 }

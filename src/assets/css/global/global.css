@@ -1,18 +1,18 @@
-@import 'tailwindcss/base';
+@import 'tailwindcss/base' layer(tailwindBase);
 
-@import 'base/reset.css';
-@import 'base/fonts.css';
+@import 'base/reset.css' layer(reset);
+@import 'base/fonts.css' layer(fonts);
 
-@import 'tailwindcss/components';
+@import 'tailwindcss/components' layer(tailwindComponents);
 
-@import 'base/variables.css';
-@import 'base/global-styles.css';
+@import 'base/variables.css' layer(variables);
+@import 'base/global-styles.css' layer(global);
 
-@import-glob 'compositions/*.css';
-@import-glob 'blocks/*.css';
-@import-glob 'utilities/*.css';
+@import-glob 'compositions/*.css' layer(compositions);
+@import-glob 'blocks/*.css' layer(blocks);
+@import-glob 'utilities/*.css' layer(utilities);
 
 /* debugging */
-/* @import-glob 'tests/*.css'; */
+/* @import-glob 'tests/*.css' layer(test); */
 
-@import 'tailwindcss/utilities';
+@import 'tailwindcss/utilities' layer(tailwindUtilities);

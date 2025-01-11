@@ -19,18 +19,18 @@ EXCEPTIONS
 .sidebar[data-direction='rtl']: flips the sidebar to be on the right
 */
 
-:where(.sidebar) {
+.sidebar {
   display: flex;
   flex-wrap: wrap;
   gap: var(--gutter, var(--space-s-l));
 }
 
-:where(.sidebar):not([data-direction]) > :first-child {
+.sidebar:not([data-direction]) > :first-child {
   flex-basis: var(--sidebar-target-width, 20rem);
   flex-grow: 1;
 }
 
-:where(.sidebar):not([data-direction]) > :last-child {
+.sidebar:not([data-direction]) > :last-child {
   flex-basis: 0;
   flex-grow: 999;
   min-inline-size: var(--sidebar-content-min-width, 50%);
@@ -39,12 +39,12 @@ EXCEPTIONS
 /*
 A flipped version where the sidebar is on the right
 */
-:where(.sidebar)[data-direction='rtl'] > :last-child {
+.sidebar[data-direction='rtl'] > :last-child {
   flex-basis: var(--sidebar-target-width, 20rem);
   flex-grow: 1;
 }
 
-:where(.sidebar)[data-direction='rtl'] > :first-child {
+.sidebar[data-direction='rtl'] > :first-child {
   flex-basis: 0;
   flex-grow: 999;
   min-inline-size: var(--sidebar-content-min-width, 50%);

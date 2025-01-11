@@ -11,7 +11,7 @@ between each item.
 Can be any acceptable flexbox alignment value.
 */
 
-:where(.repel) {
+.repel {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -19,6 +19,6 @@ Can be any acceptable flexbox alignment value.
   gap: var(--gutter, var(--space-s-l));
 }
 
-:where(.repel)[data-nowrap] {
+.repel[data-nowrap] {
   flex-wrap: nowrap;
 }

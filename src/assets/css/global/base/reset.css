@@ -12,21 +12,24 @@
 }
 
 /* Typography */
-:where(*) {
+* {
   text-wrap: pretty;
 }
 
-:where(h1, h2, h3, h4) {
+h1,
+h2,
+h3,
+h4 {
   text-wrap: balance;
 }
 
 /* Scroll behavior */
-:where(html:focus-within) {
+html:focus-within {
   scroll-behavior: smooth;
 }
 
 /* Body defaults */
-:where(body) {
+body {
   min-height: 100vh;
   min-height: 100dvh;
   text-rendering: optimizeSpeed;
@@ -34,27 +37,40 @@
 }
 
 /* Margins */
-:where(body, h1, h2, h3, h4, p, figure, blockquote, dl, dd) {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
 }
 
 /* List styles */
-:where(ul[role='list'], ol[role='list']) {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
 /* Padding for lists */
-:where([role='list']) {
+[role='list'] {
   padding: 0;
 }
 
 /* Anchor styles */
-:where(a:not([class])) {
+a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
 /* Image styles */
-:where(img, picture, svg, canvas) {
+img,
+picture,
+svg,
+canvas {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
@@ -65,43 +81,51 @@
 }
 
 /* Button styles */
-:where(button) {
+button {
   all: unset;
 }
 
 /* Inherit fonts for inputs and buttons */
-:where(button, input, select, textarea) {
+button,
+input,
+select,
+textarea {
   font: inherit;
   color: inherit;
 }
 
 /* Textarea styles */
-:where(textarea) {
+textarea {
   resize: vertical;
   resize: block;
 }
 
 /* Textarea height */
-:where(textarea:not([rows])) {
+textarea:not([rows]) {
   min-height: 10em;
 }
 
 /* Cursor styles */
-:where(button, label, select, summary, [role='button'], [role='option']) {
+button,
+label,
+select,
+summary,
+[role='button'],
+[role='option'] {
   cursor: pointer;
 }
 
 /* Scroll margin above anchor links */
-:where(:target) {
+:target {
   scroll-margin-block-start: 2ex;
 }
 
 /* Scroll margin below focused elements */
-:where(:focus) {
+:focus {
   scroll-margin-block-end: 8vh;
 }
 
-:where(dialog) {
+dialog {
   border: none;
   background: none;
   inset: unset;
@@ -109,7 +133,7 @@
   max-height: unset;
 }
 
-:where([popover]) {
+[popover] {
   border: none;
   background: none;
   inset: unset;
@@ -117,13 +141,13 @@
 }
 
 /*  hide dialog elements without open or popover attributes, and elements with a popover attribute that are not in an open state. */
-:where(dialog:not([open], [popover])),
-:where([popover]:not(:popover-open)) {
+dialog:not([open], [popover]),
+[popover]:not(:popover-open) {
   display: none !important;
 }
 
 /* Prevent page scroll: https://blog.mayank.co/is-dialog-enough */
-:where(html:has(dialog[open]:modal)) {
+html:has(dialog[open]:modal) {
   overflow: hidden;
 }
 
