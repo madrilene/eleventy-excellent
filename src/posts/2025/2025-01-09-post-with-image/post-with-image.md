@@ -50,7 +50,7 @@ In `src/_config/plugins/markdown.js` I customized the Markdown rendering for ima
 
 ![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg 'I used a portrait lens for this one')
 
-You can also add custom attributes here, to overwrite the default `widths`, have the image eagerly loaded, or add a class etc.
+You can also add custom attributes here ([Kudos to Aleksandr](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/)), to overwrite the default `widths`, have the image eagerly loaded, or add a class etc.
 
 ```markdown
 ![alt text](/path/to/image){attrs}
@@ -137,6 +137,6 @@ More:
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 - https://coryd.dev/posts/2024/setting-up-image-transforms-in-eleventy
 
-{%- css "inline" -%}
+{%- css "local" -%}
   {%- include 'css/table.css' -%}
 {%- endcss -%}
