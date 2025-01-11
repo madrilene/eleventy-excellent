@@ -35,6 +35,7 @@ schema: blog
     <a class="u-url" href="{{ page.url | url | absoluteUrl(meta.url) }}">{{ title }}</a>
     <a class="p-name u-url" rel="author" href="{{ meta.url }}">{{ meta.author.name }}</a>
     <img
+      eleventy:ignore
       class="u-author h-card"
       src="{{ meta.author.avatar | url | absoluteUrl(meta.url) }}"
       alt="{{ meta.author.name }}"
