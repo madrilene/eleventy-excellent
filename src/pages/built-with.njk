@@ -39,7 +39,7 @@ widths: [400, 520]
       {% for site in builtwith | shuffle %}
         <custom-card clickable img-square class="text-step-min-1" style="--card-bg: var(--color-bg)">
           {% image "./src/assets/images/screenshots/" + site.filename + ".jpg", site.name, null, "lazy", null, null, widths, sizes %}
-          <h3 class="text-step-0" slot="headline">{{ site.name }}</h3>
+          <h3 slot="headline" style="font-size: var(--size-step-0);">{{ site.name }}</h3>
 
           <p slot="content">{{ site.description }}</p>
           <footer slot="footer" class="repel">
