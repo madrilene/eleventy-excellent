@@ -12,23 +12,23 @@
     },
     {
       "name": "Gray 300",
-      "value": "#cecece"
+      "value": "#aeaeae"
     },
     {
       "name": "Gray 400",
-      "value": "#9e9e9e"
-    },
-    {
-      "name": "Gray 500",
       "value": "#808080"
     },
     {
+      "name": "Gray 500",
+      "value": "#636363"
+    },
+    {
       "name": "Gray 600",
-      "value": "#5d5d5d"
+      "value": "#484848"
     },
     {
       "name": "Gray 700",
-      "value": "#484848"
+      "value": "#3a3a3a"
     },
     {
       "name": "Gray 800",

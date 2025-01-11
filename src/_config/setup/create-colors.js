@@ -39,11 +39,11 @@ const vibrantSteps = [
 const neutralSteps = [
   {label: '100', lightness: 0.98, chromaFactor: 0.12},
   {label: '200', lightness: 0.92, chromaFactor: 0.14},
-  {label: '300', lightness: 0.85, chromaFactor: 0.14},
-  {label: '400', lightness: 0.7, chromaFactor: 0.25},
-  {label: '500', lightness: 0.6, chromaFactor: 0.3},
-  {label: '600', lightness: 0.48, chromaFactor: 0.35},
-  {label: '700', lightness: 0.4, chromaFactor: 0.3},
+  {label: '300', lightness: 0.75, chromaFactor: 0.14},
+  {label: '400', lightness: 0.6, chromaFactor: 0.25},
+  {label: '500', lightness: 0.5, chromaFactor: 0.3},
+  {label: '600', lightness: 0.4, chromaFactor: 0.35},
+  {label: '700', lightness: 0.35, chromaFactor: 0.3},
   {label: '800', lightness: 0.3, chromaFactor: 0.27},
   {label: '900', lightness: 0.2, chromaFactor: 0.25}
 ];
