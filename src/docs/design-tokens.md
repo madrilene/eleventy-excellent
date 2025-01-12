@@ -14,11 +14,11 @@ As of version 4.0, you can create colors dynamically. Run `npm run colors` after
 
 If you want to adjust how the colors turn out, edit `src/_config/setup/create-colors.js`.
 
-Placed under `neutral` or `vibrant`, colors are converted into scalable palettes. `neutral` is better for grayish / monochromatic colors, while `vibrant` is better for colorful palettes. Colors listed under `fixed` remain as standalone values without generating shades. Each color placed here also generates a "subdued" version for the dark theme.
+Colors placed under `shades_neutral` or `shades_vibrant` are converted into scalable palettes. `shades_neutral` is better for grayish / monochromatic colors, while `shades_vibrant` is better for colorful palettes. Colors listed under `standalone` and `light_dark` are left as they are, `light_dark` items output a second "subdued" version optimized for dark themes.
 
 ```js
 // this creates a palette with shades of green, 100 to 900
-  "vibrant": [
+  "shades_vibrant": [
     {
       "name": "green",
       "value": "#008000"

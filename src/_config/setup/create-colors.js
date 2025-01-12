@@ -54,7 +54,7 @@ const colorTokens = {
   items: []
 };
 
-colorsBase.neutral.forEach(color => {
+colorsBase.shades_neutral.forEach(color => {
   const palette = generatePalette(color.value, neutralSteps);
   palette.forEach(shade => {
     colorTokens.items.push({
@@ -64,7 +64,7 @@ colorsBase.neutral.forEach(color => {
   });
 });
 
-colorsBase.vibrant.forEach(color => {
+colorsBase.shades_vibrant.forEach(color => {
   const palette = generatePalette(color.value, vibrantSteps);
   palette.forEach(shade => {
     colorTokens.items.push({
@@ -74,17 +74,17 @@ colorsBase.vibrant.forEach(color => {
   });
 });
 
-colorsBase.fixed.forEach(color => {
+colorsBase.light_dark.forEach(color => {
   colorTokens.items.push({
     name: color.name,
     value: color.value
   });
 
-  const fixedColor = new Color(color.value).to('oklch');
+  const lightDark = new Color(color.value).to('oklch');
   const subduedColor = new Color('oklch', [
-    fixedColor.l,
-    fixedColor.c * 0.8, // reduce chroma by 20%
-    fixedColor.h
+    lightDark.l,
+    lightDark.c * 0.8, // reduce chroma by 20%
+    lightDark.h
   ]).to('srgb');
 
   const [r, g, b] = subduedColor.coords.map(value => Math.round(Math.min(Math.max(value * 255, 0), 255)));
@@ -96,6 +96,13 @@ colorsBase.fixed.forEach(color => {
   colorTokens.items.push({
     name: `${color.name} Subdued`,
     value: subduedHex
+  });
+});
+
+colorsBase.standalone.forEach(color => {
+  colorTokens.items.push({
+    name: color.name,
+    value: color.value
   });
 });
 
