@@ -12,7 +12,7 @@ Using the powerful Eleventy Image plugin, we have three ways to optimize images:
 
 ## HTML Transform
 
-Transforms any `<img>` or `<picture>` tags in HTML files as a post-processing step. Find the defaut settings diretcly in `eleventy.config.js`.
+Transforms any `<img>` or `<picture>` tags in HTML files as a post-processing step. Find the default settings directly in `eleventy.config.js`.
 
 ```html
 <img src="./co-located-image.jpg" alt="alt text">
