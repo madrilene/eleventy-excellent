@@ -2,7 +2,7 @@
   <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
   <div class="repel ontop gutter-s">
-    <a href="/" class="logo | cluster" {% if page.url == "/" %}aria-current="page"{% endif %}>
+    <a href="/" class="logo | cluster" {{ indicateActiveHome }}>
       {% svg "misc/star" %}
 
       <span class="font-display">{{ meta.siteName }}</span>

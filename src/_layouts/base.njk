@@ -41,6 +41,11 @@
   </head>
 
   <body class="{{ layout }}">
+    {% set indicateActiveHome %}
+      {% if page.url == "/" %}
+        aria-current=page
+      {% endif %}
+    {% endset %}
     {% include "partials/header.njk" %}
 
     <main id="main" class="flow">{{ content | safe }}</main>
