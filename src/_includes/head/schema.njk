@@ -1,5 +1,5 @@
-<!--  inline base schema -->
-{% include "schemas/base-schema.njk" %}
+{% include "schemas/WebSite.njk" %}
 
-<!--  inline blogpost schema  -->
-{% if schema == 'blog' %}{%- include "schemas/blogpost-schema.njk" -%}{% endif %}
+{% if schema %}
+  {%- include "schemas/" + schema + ".njk" -%}
+{% endif %}
