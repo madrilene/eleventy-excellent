@@ -47,7 +47,7 @@ blog:
       <div class="feature |  region region-space-l">
         <custom-masonry layout="50-50">
           <!-- loop posts -->
-          {% set itemList = collections.allPosts %}
+          {% set itemList = collections.posts %}
 					{% asyncEach item in itemList.slice(0, 4) %}
 						{% set definedDate = item.date %}
 						{% include "partials/card-blog.njk" %}
