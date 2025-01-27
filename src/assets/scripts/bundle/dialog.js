@@ -1,3 +1,5 @@
+// manages the behavior of modal several dialogs on a page: open / close buttons and light dismiss.
+
 const buttons = document.querySelectorAll('button[data-index]');
 const modals = document.querySelectorAll('dialog');
 const closeButtons = document.querySelectorAll('dialog button');
