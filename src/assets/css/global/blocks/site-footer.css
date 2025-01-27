@@ -3,10 +3,9 @@
 }
 
 /* increase tab size */
-.site-footer a {
+.site-footer a:not(.creator a) {
   padding: var(--space-xs);
 }
-
 .site-footer .creator a:hover {
   color: transparent;
   background-image: var(--gradient-rainbow);
