@@ -76,7 +76,7 @@ textarea {
 }
 
 svg {
-  block-size: 2ex;
+  block-size: 0.6lh;
   inline-size: auto;
   flex: none;
 }
@@ -87,21 +87,12 @@ strong {
 }
 
 hr {
+  border: none;
   height: 1px;
   width: 10%;
-  margin-block: var(--space-m-l);
+  margin-block: var(--flow-space, var(--space-m-l));
   margin-inline-start: 0;
   background-color: var(--color-bg-accent-2);
-  border: 0;
-}
-
-a {
-  color: currentcolor;
-  text-decoration-thickness: 0.08em;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 figcaption {
@@ -109,12 +100,33 @@ figcaption {
   font-size: var(--size-step-min-1);
   text-align: center;
   padding-block-end: var(--space-xs);
-  border-bottom: 1px solid var(--color-bg-accent);
+  border-bottom: var(--stroke);
+}
+
+a {
+  text-decoration-thickness: 0.15ex;
+  text-underline-offset: 0.2ch;
+}
+
+a:not([class]):hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
 }
 
 :focus-visible {
-  outline: 3px solid;
-  outline-offset: 0.3ch;
+  outline: 3px solid var(--focus-color, currentColor);
+  outline-offset: var(--focus-offset, 0.3ch);
+}
+
+/* reduce focus offset for Firefox
+*/
+@supports (-moz-appearance: none) {
+  :root {
+    --focus-offset: 0.08em;
+  }
 }
 
 ::selection {

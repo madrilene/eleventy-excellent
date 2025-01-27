@@ -56,14 +56,14 @@ ol[role='list'] {
   list-style: none;
 }
 
-/* Padding for lists */
 [role='list'] {
   padding: 0;
 }
 
 /* Anchor styles */
-a:not([class]) {
+a {
   text-decoration-skip-ink: auto;
+  color: currentColor;
 }
 
 /* Image styles */
@@ -100,7 +100,6 @@ textarea {
   resize: block;
 }
 
-/* Textarea height */
 textarea:not([rows]) {
   min-height: 10em;
 }
@@ -153,7 +152,7 @@ html:has(dialog[open]:modal) {
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
+  :focus-within {
     scroll-behavior: auto;
   }
 
