@@ -1,7 +1,7 @@
 .details .control {
   --gutter: var(--space-xs-s);
   --cluster-horizontal-alignment: flex-end;
-  border-block-start: 1px solid var(--color-bg-accent);
+  border-block-start: var(--stroke);
   padding-block-start: var(--space-xs);
 }
 
@@ -63,14 +63,14 @@ is-land:not(:defined) .details .control {
 .details details > :is(h2, h3) {
   font-weight: var(--font-bold);
   font-size: var(--size-step-0);
-  border-block-end: 1px solid var(--color-bg-accent);
+  border-block-end: var(--stroke);
   padding-block-end: var(--space-xs);
 }
 
 .details details > :is(h2, h3) {
   font-weight: var(--font-bold);
   font-size: var(--size-step-0);
-  border-block-end: 1px solid var(--color-bg-accent);
+  border-block-end: var(--stroke);
   padding-block-end: var(--space-xs);
 }
 

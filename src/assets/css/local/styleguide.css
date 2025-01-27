@@ -54,7 +54,7 @@
   aspect-ratio: 16/9;
   object-fit: cover;
   object-position: center;
-  border: 1px solid var(--color-text);
+  border: var(--stroke);
 }
 
 .styleguide .space {
@@ -64,7 +64,7 @@
 
 .styleguide .tabs {
   align-items: center;
-  border-block-end: 1px solid #d1d8e0;
+  border-block-end: var(--stroke);
   display: flex;
   gap: var(--space-xs);
   margin-block-end: var(--space-s);

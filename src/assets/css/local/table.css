@@ -19,7 +19,7 @@ thead {
 }
 
 tr {
-  border: 1px solid var(--color-text);
+  border: var(--stroke);
   display: block;
   margin-block-end: var(--space-s);
 }
@@ -31,7 +31,7 @@ td {
 }
 
 td {
-  border-block-end: 1px solid var(--color-text);
+  border-block-end: var(--stroke);
   display: block;
   text-align: start;
 }
@@ -76,7 +76,7 @@ td:last-child {
   }
 
   tr:not(:last-child) {
-    border-block-end: 1px solid var(--color-bg-accent);
+    border-block-end: var(--stroke);
   }
 
   td {
