@@ -42,11 +42,10 @@
 
     {% include 'partials/theme-switch.njk' %}
 
-    <aside class="creator | mt-xl">
-      <a class="cluster text-step-min-1 gutter-xs no-underline" href="{{ meta.creator.website }}"
-        >Made with <span class="visually-hidden">love</span>
-        <span>{% svg "misc/heart", null, "color-text" %}</span> by {{ meta.creator.name }}</a
-      >
+    <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
+      Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> and
+      <a href="https://www.11ty.dev/">{% svg "misc/11ty", "Eleventy" %}</a> by
+      <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a>
     </aside>
   </div>
 </footer>

@@ -7,15 +7,14 @@
   padding: var(--space-xs);
 }
 
-.site-footer svg {
-  inline-size: 1.1em;
-  block-size: 1em;
-}
-
 .site-footer .creator a:hover {
   color: transparent;
   background-image: var(--gradient-rainbow);
   background-size: 100%;
   background-repeat: repeat;
   background-clip: text;
+}
+
+.site-footer .creator a:hover svg {
+  color: var(--color-primary);
 }
