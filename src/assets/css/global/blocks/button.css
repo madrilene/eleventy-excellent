@@ -15,6 +15,7 @@
   --button-font-weight: var(--font-regular);
   --button-font-size: var(--size-step-0);
   --button-text-transform: none;
+  --button-tracking: normal;
 
   display: inline-flex;
   align-items: center;
@@ -32,6 +33,7 @@
   font-size: var(--button-font-size);
   line-height: var(--leading-flat);
   text-transform: var(--button-text-transform);
+  letter-spacing: var(--button-tracking);
   /* trim the space at the cap height - in  Safari Technology Preview */
   text-box-trim: trim-both;
   text-box-edge: cap alphabetic;
@@ -39,7 +41,6 @@
 
 .button svg {
   block-size: var(--button-icon-size, 1.2cap);
-  flex: none;
 }
 
 /* Hover/focus/active */
@@ -97,6 +98,7 @@
   --button-font-size: var(--size-step-min-2);
   --button-padding: var(--space-2xs) var(--space-s) var(--space-3xs) var(--space-s);
   --button-text-transform: uppercase;
+  --button-tracking: var(--tracking-wide);
 }
 /* Radius variants */
 .button[data-button-radius='hard'] {
