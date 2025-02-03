@@ -20,3 +20,7 @@ The [blog posts](/blog/) also explain / show some features that aren't covered h
 <!-- loop docs -->
 {% set itemList = collections.docs %}
 {% include 'partials/details.njk' %}
+
+{% css "local" %}
+  {% include "css/custom-card.css" %}
+{% endcss %}
