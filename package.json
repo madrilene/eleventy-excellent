@@ -10,13 +10,13 @@
   },
   "scripts": {
     "clean": "rimraf dist src/_includes/css src/_includes/scripts",
+    "clean:og": "rimraf src/assets/og-images",
     "favicons": "node ./src/_config/setup/generate-favicons.js",
     "colors": "node ./src/_config/setup/create-colors.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
-    "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
-    "start": "npm run dev:clean & npm run dev:11ty",
+    "start": "npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty"
   },
   "keywords": [],

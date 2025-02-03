@@ -26,15 +26,41 @@ The implementation is based on [Bernard Nijenhuis article.](https://bnijenhuis.n
 
 If you want to be inspired, have a look at [what Lea is doing here.](https://lea.codes/posts/2023-04-25-pseudorandom-numbers-in-eleventy/)
 
-Previously, the images were created at build time, but this leads to not rendering the font -- if the system executing the build has not installed the font, it will not be used.
+Consider that the domain is a hard coded value in the front matter.
 
-A solution would be to always build the page yourself and then place it on the server directly.
-Or, as [Sophie Koonin does](https://github.com/sophiekoonin/localghost/blob/main/eleventy.config.js#L45-L47), explicitly specify the system to be used for the build, and select a font that this system has installed by default.
+**Important:** I have relocated the creation of the images in the development process, so that the font only needs to be installed on your own system. The images are located in `src/assets/og-images` and are comitted.
 
-At the moment I have relocated the creation of the images in the development process, so that the font only needs to be installed on your own system. The images are located in `src/assets/og-images` and are comitted.
+This is fine as long as you only work locally with Markdown, and the font is always installed on your system. If you work with a CMS you must add the font cto where the site is built. Some CMS let you add fonts into the `prebuild` config. Otherwise it usually falls down to the _Ubuntu_ Font Family. You still have to adjust the script `src/_config/events/svg-to-jpeg.js` to something like:
 
-This is fine as long as you only work with markdown and the font is always installed on your system. How this works if a CMS is involved remains to be seen :sweat_smile:.
+```js
+import fs from 'fs';
+import Image from '@11ty/eleventy-img';
+export const svgToJpeg = async function () {
+  const ogImagesDir = 'dist/assets/og-images/';
+  fs.readdir(ogImagesDir, (err, files) => {
+    if (!!files && files.length > 0) {
+      files.forEach(fileName => {
+        if (fileName.endsWith('.svg')) {
+          let imageUrl = ogImagesDir + fileName;
+          Image(imageUrl, {
+            formats: ['jpeg'],
+            outputDir: './' + ogImagesDir,
+            filenameFormat: function (id, src, width, format, options) {
+              let outputFileName = fileName.substring(0, fileName.length - 4);
+              return `${outputFileName}.${format}`;
+            }
+          });
+        }
+      });
+    } else {
+      console.log('⚠ No social images found');
+    }
+  });
+};
+```
 
-Consider that the domain is a hard coded value in the front matter in `src/common/og-images.njk`.
+**Regenerating OG images**
+
+As you make changes, possibly adjust the title of your post or delete it, the images add up in `src/assets/og-images`. To delete this folder and regenerate all images, you can run `npm run clean:og`.
 
 Let me know if you encounter any problems.
