@@ -17,7 +17,7 @@ export const imageShortcode = async (
   loading = 'lazy',
   containerClass,
   imageClass,
-  widths = [650, 960, 1200],
+  widths = [650, 960, 1400],
   sizes = 'auto',
   formats = ['avif', 'webp', 'jpeg']
 ) => {

@@ -71,7 +71,7 @@ The most basic version contains the path to the image (absolute) and alt text (c
 
 {% endraw %}
 
-It defaults to `loading = 'lazy'`, the picture element gets its set of images from `widths=[650,960,1200]` and compares to a condition of `sizes="auto"`.
+It defaults to `loading = 'lazy'`, the picture element gets its set of images from `widths=[650,960,1400]` and compares to a condition of `sizes="auto"`.
 You can pass in manually all the conditions, add `null` to skip. The arguments include classes for the outer container ( `<picture>` or `<figure>` element), and for the `<img>` element.
 
 The shortcode is stored in `src/_config/shortcodes/image.js`.
