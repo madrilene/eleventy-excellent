@@ -4,13 +4,12 @@
   --button-bg: var(--color-text);
   --button-color: color-mix(in oklab, var(--button-bg) 10%, var(--color-bg));
   --button-hover-bg: color-mix(in oklab, var(--button-bg) 90%, var(--color-bg));
-  --button-hover-color: color-mix(in oklab, var(--button-bg) 5%, var(--color-bg));
   --button-border-width: var(--border-thickness);
   --button-border-style: solid;
   --button-border-color: color-mix(in oklab, var(--button-bg) 80%, var(--color-text));
   --button-radius: var(--border-radius-small);
   --button-gap: var(--space-2xs);
-  --button-padding: var(--space-xs) var(--space-m) var(--space-2xs) var(--space-m);
+  --button-padding: var(--space-xs) var(--space-m);
   --button-font-family: var(--font-body);
   --button-font-weight: var(--font-regular);
   --button-font-size: var(--size-step-0);
@@ -87,9 +86,10 @@
 }
 
 .button[data-ghost-button]:hover {
-  --_ghost-hover-bg: var(--button-bg);
+  --_ghost-hover-bg: var(--color-bg);
   --_ghost-hover-bg: color-mix(in oklab, var(--button-bg) 95%, var(--color-dark));
   background: var(--_ghost-hover-bg);
+  color: var(--button-color);
 }
 
 .button[data-small-button] {
