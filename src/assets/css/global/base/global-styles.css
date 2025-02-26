@@ -32,7 +32,7 @@ h2,
 h3 {
   font-family: var(--font-display);
   font-weight: var(--font-extra-bold);
-  line-height: 1.2;
+  line-height: var(--leading-fine);
   letter-spacing: var(--tracking-s);
 }
 
@@ -46,12 +46,6 @@ h2 {
 
 h3 {
   font-size: var(--size-step-2);
-}
-
-p,
-li,
-blockquote:not([class]) {
-  max-inline-size: 65ch;
 }
 
 blockquote {

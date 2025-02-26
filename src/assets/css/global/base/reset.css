@@ -1,9 +1,7 @@
-/* inspired by: */
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 /* https://keithjgrant.com/posts/2024/01/my-css-resets/ */
 /* https://moderncss.dev/modern-css-for-dynamic-component-based-architecture/#css-reset-additions */
 /* https://github.com/mayank99/reset.css/blob/main/package/index.css */
-/* Box sizing rules */
 
 *,
 *::before,
@@ -11,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/* Typography */
 * {
   text-wrap: pretty;
 }
@@ -23,12 +20,10 @@ h4 {
   text-wrap: balance;
 }
 
-/* Scroll behavior */
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Body defaults */
 body {
   min-height: 100vh;
   min-height: 100dvh;
@@ -36,7 +31,6 @@ body {
   line-height: 1.5;
 }
 
-/* Margins */
 body,
 h1,
 h2,
@@ -50,7 +44,6 @@ dd {
   margin: 0;
 }
 
-/* List styles */
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
@@ -60,13 +53,11 @@ ol[role='list'] {
   padding: 0;
 }
 
-/* Anchor styles */
 a {
   text-decoration-skip-ink: auto;
   color: currentColor;
 }
 
-/* Image styles */
 img,
 picture,
 svg,
@@ -80,12 +71,14 @@ canvas {
   shape-margin: 0.75rem;
 }
 
-/* Button styles */
+picture {
+  display: block;
+}
+
 button {
   all: unset;
 }
 
-/* Inherit fonts for inputs and buttons */
 button,
 input,
 select,
@@ -94,7 +87,6 @@ textarea {
   color: inherit;
 }
 
-/* Textarea styles */
 textarea {
   resize: vertical;
   resize: block;
@@ -104,7 +96,6 @@ textarea:not([rows]) {
   min-height: 10em;
 }
 
-/* Cursor styles */
 button,
 label,
 select,
@@ -114,12 +105,10 @@ summary,
   cursor: pointer;
 }
 
-/* Scroll margin above anchor links */
 :target {
   scroll-margin-block-start: 2ex;
 }
 
-/* Scroll margin below focused elements */
 :focus {
   scroll-margin-block-end: 8vh;
 }
@@ -139,18 +128,15 @@ dialog {
   color: inherit;
 }
 
-/*  hide dialog elements without open or popover attributes, and elements with a popover attribute that are not in an open state. */
 dialog:not([open], [popover]),
 [popover]:not(:popover-open) {
   display: none !important;
 }
 
-/* Prevent page scroll: https://blog.mayank.co/is-dialog-enough */
 html:has(dialog[open]:modal) {
   overflow: hidden;
 }
 
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   :focus-within {
     scroll-behavior: auto;
