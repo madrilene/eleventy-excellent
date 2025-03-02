@@ -5,7 +5,7 @@ date: 2025-01-09
 tags: ['image', 'feature']
 image: '/assets/images/gallery/asturias-1.jpg'
 alt: 'A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape'
-credit: A photo I took.
+credit: A photo I took on top.
 ---
 
 Using the powerful Eleventy Image plugin, we have three ways to optimize images: HTML Transform, Markdown syntax, and a Nunjucks shortcode.

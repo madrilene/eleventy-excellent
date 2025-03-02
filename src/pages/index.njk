@@ -1,7 +1,7 @@
 ---
 layout: base
 permalink: /index.html
-title: 'Eleventy Excellent'
+title: 'index.njk'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
 blog:
   title: 'Blog'
@@ -11,15 +11,17 @@ blog:
 <div class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-primary)">
     <div class="section__inner flow region">
-      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
+      <h3 class="text-center" style="color: var(--color-light);">{{ title }}</h3>
     </div>
 
+<!--
     {% svg "divider/waves", null, "seperator" %}
+    -->
   </header>
 
   <article class="full | region">
     <div class="wrapper flow prose">
-      <h2 id="an-eleventy-starter">An Eleventy starter</h2>
+      <h2 id="an-eleventy-starter">An Eleventy starter up here</h2>
       <p>
         Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
         incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
@@ -37,7 +39,7 @@ blog:
 
   <section class="full | region">
     <div class="wrapper flow prose">
-      <h2>{{ blog.title }}</h2>
+      <h2>HERE {{ blog.title }}</h2>
       <!-- blog intro text is optional. -->
 
       {% if blog.intro %}
@@ -48,7 +50,7 @@ blog:
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
+					{% asyncEach item in itemList.slice(0, 3) %}
 						{% set definedDate = item.date %}
 						{% include "partials/card-blog.njk" %}
 					{% endeach %}

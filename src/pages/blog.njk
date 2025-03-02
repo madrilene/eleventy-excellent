@@ -4,17 +4,19 @@ title: Blog
 description: 'All blog posts can be found here'
 pagination:
   data: collections.allPosts
-  size: 8
+  size: 12
 permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
 <article class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-secondary)">
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
-      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
+      <h3 class="text-center" style="color: var(--color-light);">{{ title }}</h3>
     </div>
 
+<!--
     {% svg "divider/edgy", null, "seperator" %}
+    -->
   </header>
 
   <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">

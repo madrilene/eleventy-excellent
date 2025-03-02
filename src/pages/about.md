@@ -1,5 +1,5 @@
 ---
-title: About
+title: Aboutx
 permalink: /about/index.html
 description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
 layout: page
@@ -16,8 +16,4 @@ The aim is to spread the idea and use of this _excellent_ workflow. To work with
 - buildexcellentwebsit.es
 - Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
 - Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
-
-## Watch the talk
-
-<div><custom-youtube @slug="JqnMI1AXl6w" @label="Andy Bell – Be the browser’s mentor, not its micromanager"> </custom-youtube></div>
 
