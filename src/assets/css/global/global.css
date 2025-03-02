@@ -16,3 +16,13 @@
 /* @import-glob 'tests/*.css' layer(test); */
 
 @import 'tailwindcss/utilities' layer(tailwindUtilities);
+
+.gallery li {
+    display: inline-block;
+}
+
+.gallery img {
+    box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+    border-radius: 0.3em;
+    padding: 5px;
+}
