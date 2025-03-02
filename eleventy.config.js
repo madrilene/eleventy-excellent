@@ -24,9 +24,6 @@ import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
 import shortcodes from './src/_config/shortcodes.js';
 
-import gallery from './src/_config/shortcodes/gallery.shortcode.js';
-
-
 export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/**/*.{css,js,svg,png,jpeg}');
   eleventyConfig.addWatchTarget('./src/_includes/**/*.{webc}');
@@ -94,7 +91,7 @@ export default async function (eleventyConfig) {
 
 
   // gallery shortcode
-  eleventyConfig.addPairedShortcode("gallery", gallery);
+  eleventyConfig.addPairedShortcode("gallery", shortcodes.galleryShortcode);
 
 
 

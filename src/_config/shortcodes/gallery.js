@@ -1,8 +1,9 @@
+/** 
 export default function (content, markdownLibrary) {
-
+**/
+export const galleryShortcode = async(content) => {
     let contentArray = content.trim().split('\n');
     let numItems = (contentArray.length);
-
 
     // Create div 
 
