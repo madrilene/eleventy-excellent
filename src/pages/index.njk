@@ -1,11 +1,11 @@
 ---
 layout: base
 permalink: /index.html
-title: 'index.njk'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: 'Bike'
+description: 'Some stuff todo'
 blog:
-  title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  title: 'Entries'
+  intro: "TODO intro"
 ---
 
 <div class="wrapper">
@@ -21,25 +21,14 @@ blog:
 
   <article class="full | region">
     <div class="wrapper flow prose">
-      <h2 id="an-eleventy-starter">An Eleventy starter up here</h2>
-      <p>
-        Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
-        incorporates progressive enhancement, fluid type and spacing, and utilizes modern CSS features for
-        layout. The goal is to develop frontends that provide a great experience across all devices,
-        connection speeds, and usage contexts.
-      </p>
-      <p>
-        <strong>This is <a href="https://github.com/madrilene/eleventy-excellent/">version 4</a>.</strong> I keep a
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v1">branch of v1</a>,
-        <a href="https://github.com/madrilene/eleventy-excellent/tree/v2">v2</a> and <a href="https://github.com/madrilene/eleventy-excellent/tree/v3">v3</a>. I  tried to <a href="/get-started/#docs-lol">document most features and methodologies</a>.
-      </p>
-      <p><strong>Have fun</strong> and let me know if you find any issues or have ideas for improvements!</p>
+      <h2>Some Text</h2>
+      <p>something here</p>
     </div>
   </article>
 
   <section class="full | region">
     <div class="wrapper flow prose">
-      <h2>HERE {{ blog.title }}</h2>
+      <h2>{{ blog.title }}</h2>
       <!-- blog intro text is optional. -->
 
       {% if blog.intro %}
@@ -50,7 +39,7 @@ blog:
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 3) %}
+					{% asyncEach item in itemList.slice(0, 4) %}
 						{% set definedDate = item.date %}
 						{% include "partials/card-blog.njk" %}
 					{% endeach %}

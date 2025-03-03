@@ -2,6 +2,8 @@
   padding: 0.6rem 0;
   background-size: 50%;
   background-clip: text;
+  font-family: var(--font-base);
+  font-weight: var(--font-regular);
 }
 
 .gradient-text-linear {

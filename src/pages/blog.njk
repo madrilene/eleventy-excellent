@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Blog
-description: 'All blog posts can be found here'
+description: 'Blog Posts'
 pagination:
   data: collections.allPosts
   size: 12
@@ -9,17 +9,14 @@ permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber
 ---
 
 <article class="wrapper">
-  <header class="full | section" style="--spot-color: var(--color-secondary)">
-    <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
+  <header class="full | section" style="--spot-color: var(--color-secondary); ">
+    <div class="section__inner flow region" 
+         style="--region-space-top: var(--space-s-m);">
       <h3 class="text-center" style="color: var(--color-light);">{{ title }}</h3>
     </div>
-
-<!--
-    {% svg "divider/edgy", null, "seperator" %}
-    -->
   </header>
 
-  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
+  <div class="region flow prose" style="--region-space-top: var(--space-m-l)">
     <p>This blog has a pagination of <strong>{{ pagination.size }}</strong> posts per page.<br>
       The pagination is only shown if there are more posts ({{ collections.posts.length }}) than items per
       page ({{ pagination.size }}).
