@@ -1,20 +1,16 @@
 export default {
   top: [
     {
+      text: 'Blog',
+      url: '/blog/'
+    },
+    {
       text: 'About',
       url: '/about/'
     },
     {
-      text: 'Docs',
-      url: '/get-started/'
-    },
-    {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Phone Photos',
+      url: 'http://hipposareevil.tumblr.com'
     }
   ],
   bottom: [
