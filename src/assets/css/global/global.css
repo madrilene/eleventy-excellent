@@ -27,3 +27,24 @@
     padding: 5px;
     margin: 10px;
 }
+
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1.3px gray dashed;
+	padding: 1em 0;
+}
+
+.testimg {
+  background: url("/img/dotted-border.png") bottom left repeat-x;
+}
+
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
