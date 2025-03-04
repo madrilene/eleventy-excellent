@@ -111,8 +111,8 @@ export default async function (eleventyConfig) {
     // -- to root
     'src/assets/images/favicon/*': '/',
 
-    // -- to root
-    'src/assets/photos/*': '/assets/photos/',
+    // -- Copy photos to root
+    'src/assets/photos': '/assets/photos',
 
     // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`

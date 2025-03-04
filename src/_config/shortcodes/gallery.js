@@ -1,6 +1,7 @@
-/** 
-export default function (content, markdownLibrary) {
-**/
+function basename(path) {
+   return path.split('/').reverse()[0];
+}
+
 export const galleryShortcode = async(content) => {
     let contentArray = content.trim().split('\n');
     let numItems = (contentArray.length);
@@ -16,8 +17,11 @@ export const galleryShortcode = async(content) => {
            pics/jpg  pics/thumb/jpg [text]
         */
         var curr = lines.trim();
-        // image
-        var original='';
+
+        // image location
+        var photoLocation='';
+        // thumb image location
+        var thumbLocation='';
         // title for image
         var title='';
 
@@ -28,20 +32,27 @@ export const galleryShortcode = async(content) => {
             /* make sure there are more than 0 values in the split */
             var currArray = curr.split(';');
             if (currArray.length > 0) {
-                original = currArray[0];
+                // get photo slug
+                photoLocation = currArray[0];
+
+                // split up photo slug to get the bits after the last slash
+                // e.g. /2024/some_dir/foo.jpg should return foo.jpg
+                var base = basename(photoLocation);
+                thumbLocation = photoLocation.replace(base, `thumb/${base}`);
+
+                // Get title/description for photo if it's there
                 if (currArray.length >= 1) {
                     title=currArray[1];
                 }
             }
-                 
-
+            
             result = result +
                 `<li>` +
-                `<a href="/assets/photos/${original}" ` +
+                `<a href="/assets/photos/${photoLocation}" ` +
                 `class="glightbox" ` +
                 `data-glightbox="description: ${title}"` +
                 `data-gallery="gallery1">` +
-                ` <img src="/assets/photos/thumb/${original}" alt="${title}" />` +
+                ` <img src="/assets/photos/${thumbLocation}" alt="${title}" />` +
                 `</a>` +
                 `</li>`;
         }

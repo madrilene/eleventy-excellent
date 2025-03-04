@@ -68,7 +68,7 @@ export const navigation = {
   drawerNav: false
 };
 export const themeSwitch = {
-  title: 'Theme',
+  title: '',
   light: 'light',
   dark: 'dark'
 };
