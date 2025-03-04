@@ -1,5 +1,5 @@
 ---
-title: "Oregon Coast Bike"
+title: "Oregon Coast"
 tags: ['ride', 'oregon']
 date: 2001-07-05
 ---

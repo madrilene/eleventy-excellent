@@ -51,7 +51,7 @@
     --color-text: var(--color-gray-100);
     --color-bg: var(--color-gray-800);
 
-    --color-primary: var(--color-pink-subdued);
+    --color-primary: var(--color-gray-subdued);
     --color-secondary: var(--color-blue-subdued);
     --color-tertiary: var(--color-gold-subdued);
 
@@ -64,7 +64,7 @@
   --color-text: var(--color-gray-100);
   --color-bg: var(--color-gray-800);
 
-  --color-primary: var(--color-pink-subdued);
+  --color-primary: var(--color-gray-subdued);
   --color-secondary: var(--color-blue-subdued);
   --color-tertiary: var(--color-gold-subdued);
 

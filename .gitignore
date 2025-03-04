@@ -1,10 +1,16 @@
 # Node modules
 node_modules
 
+.DS_Store
+
 # generated files
 dist
 src/_includes/css
 src/_includes/scripts
+
+#
+src/assets/photos
+src/assets/og-images
 
 # cache
 .cache

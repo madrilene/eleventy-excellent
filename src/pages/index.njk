@@ -2,10 +2,9 @@
 layout: base
 permalink: /index.html
 title: 'Bike'
-description: 'Some stuff todo'
+description: 'Bike across USA 2001.'
 blog:
-  title: 'Entries'
-  intro: 'foo'
+  title: 'Sections'
 ---
 
 <div class="wrapper">
@@ -18,8 +17,10 @@ blog:
 
   <article class="full | region">
     <div class="wrapper flow prose">
-      <h2>Some Text</h2>
-      <p>something here</p>
+      <h2>Bike across USA, 200</h2>
+      <p>
+        Solo bike ride from Oregon to Virginia, following the <a href="https://www.adventurecycling.org/routes-and-maps/adventure-cycling-route-network/transamerica-trail/">Trans America</a> route.
+      </p>
     </div>
   </article>
 
@@ -36,7 +37,7 @@ blog:
         <custom-masonry layout="50-50">
           <!-- loop posts -->
           {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 4) %}
+					{% asyncEach item in itemList.slice(0, 12) %}
 						{% set definedDate = item.date %}
 						{% include "partials/card-blog.njk" %}
 					{% endeach %}
