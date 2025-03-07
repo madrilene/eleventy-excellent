@@ -23,7 +23,6 @@ custom-card ::selection {
 custom-card :is(h2, h3) {
   --flow-space: var(--space-m);
   grid-row: headline;
-  font-size: var(--size-step-2);
 }
 
 custom-card :is(h2, h3) a {
