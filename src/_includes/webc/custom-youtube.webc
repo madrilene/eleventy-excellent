@@ -34,7 +34,7 @@
 
         is-land lite-youtube {
           background-color: #eee;
-          border-radius: 0.5em;
+          border-radius: 0.2em;
           background-size: cover;
         }
         is-land[ready] lite-youtube {
