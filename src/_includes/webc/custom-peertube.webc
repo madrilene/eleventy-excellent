@@ -1,0 +1,31 @@
+<script webc:setup>
+  function getLinkUrl(instance, slug, start) {
+    return `https://${instance}/w/${slug}${start ? `?start=${start}s` : ''}`;
+  }
+  function getEmbedLinkUrl(instance, embedSlug, start) {
+    return `https://${instance}/videos/embed/${embedSlug}${start ? `?start=${start}s&` : `?`}` + `title=0&warningTitle=0`;
+  }
+</script>
+<style>
+  custom-peertube div {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border-radius: 1rem;
+  }
+  custom-peertube iframe {
+    position: absolute; 
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<custom-peertube webc:root class="flow">
+  <div>
+      <iframe :title="label" :src="getEmbedLinkUrl(instance,embedSlug,start)" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+      </iframe>
+  </div>
+</custom-peertube>
+
+<custom-peertube-link @raw="label" :label="label" :href="getLinkUrl(instance,slug, start)"></custom-peertube-link>
