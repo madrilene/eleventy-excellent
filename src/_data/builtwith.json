@@ -159,5 +159,37 @@
     "filename": "buerokratiemonster",
     "link": "https://buerokratiemonster.eu/en/",
     "builtbylene": true
+  },
+  {
+    "name": "eimearsweeney.com",
+    "description": "Website for Eimear, a qualified executive and team coach working in Big Tech.",
+    "filename": "eimearsweeney",
+    "link": "https://eimearsweeney.com",
+    "builtbylene": true
+  },
+  {
+    "name": "embedded-data.de",
+    "description": "Ready2use Softwareframework for IIoT for embedded / edge to cloud applications.",
+    "filename": "embedded",
+    "link": "https://embedded-data.de/en/"
+  },
+  {
+    "name": "thescalableway.com",
+    "description": "The Scalable Way is a professional services agency bringing software engineering practices to data platforms.",
+    "filename": "thescalableway",
+    "link": "https://thescalableway.com",
+    "builtbylene": true
+  },
+  {
+    "name": "dexterouslogic.com",
+    "description": "Stephen writes native software for iOS, Mac, Android, and also the web, releasing it under the name Dexterous Logic.",
+    "filename": "dexterouslogic",
+    "link": "https://www.dexterouslogic.com"
+  },
+  {
+    "name": "camperotacti.co",
+    "description": "Alberto is a game developer and tech enthusiast from Spain, working as a gameplay programmer.",
+    "filename": "camperotacti",
+    "link": "https://www.camperotacti.co"
   }
 ]
