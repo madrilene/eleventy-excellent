@@ -3,9 +3,16 @@
   inset: revert;
 }
 
+/* the image that serves as button */
 .gallery dialog + button {
   all: unset;
   cursor: pointer;
+}
+
+/* the close button */
+.gallery dialog > button {
+  margin-inline: auto;
+  display: flex;
 }
 
 .gallery dialog + button img {
@@ -25,9 +32,10 @@ is-land:not(:defined) .gallery dialog + button {
 }
 
 .gallery dialog img {
-  aspect-ratio: auto;
   max-block-size: 70vh;
-  inline-size: auto;
+  max-inline-size: 90vw;
+  object-fit: contain;
+  border: none;
 }
 
 .gallery dialog figcaption {
