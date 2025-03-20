@@ -3,7 +3,7 @@ layout: base
 schema: BlogPosting
 ---
 
-<article class="region" style="--region-space-top: var(--space-xl-2xl)">
+<div class="region" style="--region-space-top: var(--space-xl-2xl)">
   <div class="wrapper flow prose">
     <h1 class="gradient-text">{{ title }}</h1>
 
@@ -41,7 +41,7 @@ schema: BlogPosting
       alt="{{ meta.author.name }}"
     />
   </div>
-</article>
+</div>
 
 {%- css "local" -%}
   {%- include 'css/post.css' -%}

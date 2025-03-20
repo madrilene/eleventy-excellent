@@ -8,7 +8,7 @@ pagination:
 permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
-<article class="wrapper">
+<div class="wrapper">
   <header class="full | section" style="--spot-color: var(--color-secondary)">
     <div class="section__inner flow region" style="--region-space-top: var(--space-xl-2xl)">
       <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
@@ -41,4 +41,4 @@ permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber
     <!-- include pagination -->
     {% include 'partials/pagination.njk' %}
   {% endif %}
-</article>
+</div>
