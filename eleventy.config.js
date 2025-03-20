@@ -84,6 +84,15 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter('alphabetic', filters.sortAlphabetically);
   eleventyConfig.addFilter('slugify', filters.slugifyString);
 
+  eleventyConfig.addFilter("extractImageName", function(image) {
+    if (image) {
+      const parts = image.split(".");
+      const nameParts = parts[0].split("/");
+      return nameParts[nameParts.length - 1];
+    }
+    return "";
+  });
+
   // --------------------- Shortcodes
   eleventyConfig.addShortcode('svg', shortcodes.svgShortcode);
   eleventyConfig.addShortcode('image', shortcodes.imageShortcode);

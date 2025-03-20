@@ -5,10 +5,14 @@ const details = container.querySelectorAll('details');
 
 expandAllButton.addEventListener('click', () => {
   details.forEach(detail => (detail.open = true));
+  expandAllButton.setAttribute('aria-pressed', 'true');
+  collapseAllButton.setAttribute('aria-pressed', 'false');
 });
 
 collapseAllButton.addEventListener('click', () => {
   details.forEach(detail => (detail.open = false));
+  collapseAllButton.setAttribute('aria-pressed', 'true');
+  expandAllButton.setAttribute('aria-pressed', 'false');
 });
 
 details.forEach(detail => {

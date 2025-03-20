@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 'Post with 301 redirects'
 description: 'A 301 is used when a page has permanently changed location. Informing about this change is indispensable if you want to keep a positioning. Aleksandr Hovhannisyan came up with an elegant solution for Eleventy and Netlify.'
 date: 2022-08-28

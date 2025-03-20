@@ -14,10 +14,34 @@ article
   background-image: url('/assets/images/template/external.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 60% auto;
+  background-size: 80% auto;
   /* alternative text rules */
   content: '(external link)';
   overflow: hidden;
   white-space: nowrap;
   text-indent: 1em; /* the width of the icon */
+  filter: invert(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  article
+  a[href^='http']:not([href*='localhost:8080']):not([href*='jasonbyday.com']):not(
+    .no-indicator
+  )::after {
+    filter: invert(100%);
+  }
+}
+
+:root[data-theme='light'] article
+a[href^='http']:not([href*='localhost:8080']):not([href*='jasonbyday.com']):not(
+  .no-indicator
+)::after {
+  filter: invert(0);
+}
+
+:root[data-theme='dark'] article
+a[href^='http']:not([href*='localhost:8080']):not([href*='jasonbyday.com']):not(
+  .no-indicator
+)::after {
+  filter: invert(100%);
 }

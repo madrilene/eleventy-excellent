@@ -7,11 +7,31 @@
   --_color-contrast: var(--color-tertiary);
   --button-bg: var(--_color-contrast);
   --button-color: var(--color-dark);
-  --button-border-color: var(--_color-contrast);
-  outline-color: var(--_color-contrast);
 }
 
 /* Hide without JS */
 is-land:not(:defined) .theme-switch {
   display: none;
+}
+
+.darkmode-toggle {
+  border: 0;
+}
+
+.darkmode-toggle[aria-pressed='true'] {
+  .icon-light {
+    display: block;
+  }
+  .icon-dark {
+    display: none;
+  }
+}
+
+.darkmode-toggle[aria-pressed='false'] {
+  .icon-light {
+    display: none;
+  }
+  .icon-dark {
+    display: block;
+  }
 }

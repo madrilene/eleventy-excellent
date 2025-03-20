@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Atkinson Hyperlegible';
   font-style: normal;
   font-display: swap;
@@ -36,4 +36,97 @@
   src:
     local(''),
     url('/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2') format('woff2');
+} */
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src:
+    local('Open Sans ExtraBold'),
+    local('OpenSans-ExtraBold'),
+    url('/assets/fonts/open-sans/OpenSans-ExtraBold.woff2') format('woff2'),
+    url('/assets/fonts/open-sans/OpenSans-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src:
+    local('Open Sans Bold'),
+    local('OpenSans-Bold'),
+    url('/assets/fonts/open-sans/OpenSans-Bold.woff2') format('woff2'),
+    url('/assets/fonts/open-sans/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src:
+    local('Open Sans Italic'),
+    local('OpenSans-Italic'),
+    url('/assets/fonts/open-sans/OpenSans-Italic.woff2') format('woff2'),
+    url('/assets/fonts/open-sans/OpenSans-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src:
+    local('Open Sans Regular'),
+    local('OpenSans-Regular'),
+    url('/assets/fonts/open-sans/OpenSans-Regular.woff2') format('woff2'),
+    url('/assets/fonts/open-sans/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Literata';
+  src:
+      local('Literata ExtraBold'),
+      local('Literata-ExtraBold'),
+      url('/assets/fonts/literata/Literata-ExtraBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+  @font-face {
+  font-family: 'Literata';
+  src:
+      local('Literata Bold'),
+      local('Literata-Bold'),
+      url('/assets/fonts/literata/Literata-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+  @font-face {
+  font-family: 'Literata';
+  src:
+      local('Literata Italic'),
+      local('Literata-Italic'),
+      url('/assets/fonts/literata/Literata-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+  @font-face {
+  font-family: 'Literata';
+  src:
+      local('Literata Regular'),
+      local('Literata-Regular'),
+      url('/assets/fonts/literata/Literata-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

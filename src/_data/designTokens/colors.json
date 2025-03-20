@@ -39,6 +39,42 @@
       "value": "#161616"
     },
     {
+      "name": "Beige 100",
+      "value": "#faf8f7"
+    },
+    {
+      "name": "Beige 200",
+      "value": "#e6e4e3"
+    },
+    {
+      "name": "Beige 300",
+      "value": "#afadad"
+    },
+    {
+      "name": "Beige 400",
+      "value": "#827f7e"
+    },
+    {
+      "name": "Beige 500",
+      "value": "#666261"
+    },
+    {
+      "name": "Beige 600",
+      "value": "#4a4745"
+    },
+    {
+      "name": "Beige 700",
+      "value": "#3d3a38"
+    },
+    {
+      "name": "Beige 800",
+      "value": "#302d2c"
+    },
+    {
+      "name": "Beige 900",
+      "value": "#181514"
+    },
+    {
       "name": "Pink",
       "value": "#dd4462"
     },
@@ -61,6 +97,30 @@
     {
       "name": "Gold Subdued",
       "value": "#f1c15b"
+    },
+    {
+      "name": "highlight-yellow",
+      "value": "hsl(44, 85%, 65%)"
+    },
+    {
+      "name": "highlight-yellow Subdued",
+      "value": "#ebcb77"
+    },
+    {
+      "name": "highlight-red",
+      "value": "#C22A0F"
+    },
+    {
+      "name": "highlight-red Subdued",
+      "value": "#b3412d"
+    },
+    {
+      "name": "highlight-red-alt",
+      "value": "#F33412"
+    },
+    {
+      "name": "highlight-red-alt Subdued",
+      "value": "#e15139"
     }
   ]
 }

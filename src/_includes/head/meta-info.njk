@@ -37,6 +37,9 @@
   <meta name="fediverse:creator" content="{{ meta.author.fediverse }}" />
 {% endif %}
 
+
+
+
 <!-- Open Graph meta  -->
 <meta property="og:url" content="{{ meta.url }}{{ page.url }}" />
 <meta property="og:type" content="website" />
@@ -53,7 +56,11 @@
 <meta
   property="og:image"
   content="{%- if layout == 'post' -%}
-    {{- meta.url -}}/assets/og-images/{{ title | slugify }}-preview.jpeg
+    {%- if image -%}
+      {{- meta.url -}}/assets/images/{{- image | extractImageName -}}-1400w.webp
+    {%- else -%}
+      {{- meta.url -}}/assets/og-images/{{ title | slugify }}-preview.jpeg
+    {%- endif -%}
   {%- else -%}
     {{- meta.url -}}{{- meta.opengraph_default -}}
   {%- endif -%}"

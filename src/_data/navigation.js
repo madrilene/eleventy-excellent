@@ -9,10 +9,6 @@ export default {
       url: '/get-started/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
       text: 'Blog',
       url: '/blog/'
     }
@@ -23,8 +19,8 @@ export default {
       url: '/styleguide/'
     },
     {
-      text: 'Imprint',
-      url: '/imprint/'
+      text: 'Accessibility',
+      url: '/accessibility/'
     },
     {
       text: 'Privacy',

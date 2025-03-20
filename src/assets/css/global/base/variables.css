@@ -25,7 +25,7 @@
     var(--color-tertiary) 0 100%
   );
 
-  --color-light: var(--color-gray-100);
+  --color-light: var(--color-beige-100);
   --color-dark: var(--color-gray-900);
   --color-mid: var(--color-gray-400);
 }
@@ -34,41 +34,47 @@
 :root,
 :root[data-theme='light'] {
   --color-text: var(--color-gray-800);
-  --color-bg: var(--color-gray-100);
+  --color-bg: var(--color-beige-200);
 
-  --color-primary: var(--color-pink);
-  --color-secondary: var(--color-blue);
+  --color-primary: var(--color-dark);
+  --color-secondary: var(--color-highlight-red);
   --color-tertiary: var(--color-gold);
 
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: var(--color-gray-200);
   --color-bg-accent-2: var(--color-gray-300);
+  --color-bg-article: var(--color-beige-100);
+  --color-text-flipped: var(--color-light);
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-text: var(--color-gray-100);
-    --color-bg: var(--color-gray-800);
+    --color-bg: var(--color-gray-900);
 
-    --color-primary: var(--color-pink-subdued);
-    --color-secondary: var(--color-blue-subdued);
+    --color-primary: var(--color-gold);
+    --color-secondary: var(--color-highlight-red-alt);
     --color-tertiary: var(--color-gold-subdued);
 
     --color-text-accent: var(--color-gray-300);
     --color-bg-accent: var(--color-gray-700);
     --color-bg-accent-2: var(--color-gray-600);
+    --color-bg-article: var(--color-beige-800);
+    --color-text-flipped: var(--color-dark);
   }
 }
 :root[data-theme='dark'] {
   --color-text: var(--color-gray-100);
-  --color-bg: var(--color-gray-800);
+  --color-bg: var(--color-gray-900);
 
-  --color-primary: var(--color-pink-subdued);
-  --color-secondary: var(--color-blue-subdued);
+  --color-primary: var(--color-gold);
+  --color-secondary: var(--color-highlight-red-alt);
   --color-tertiary: var(--color-gold-subdued);
 
   --color-text-accent: var(--color-gray-300);
   --color-bg-accent: var(--color-gray-700);
   --color-bg-accent-2: var(--color-gray-600);
+  --color-bg-article: var(--color-beige-800);
+  --color-text-flipped: var(--color-dark);
 }

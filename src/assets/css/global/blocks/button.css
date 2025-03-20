@@ -52,7 +52,7 @@
 }
 
 .button:focus {
-  outline-color: var(--button-outline-color, var(--button-border-color));
+  /* outline-color: var(--button-outline-color, var(--button-border-color)); */
 }
 
 .button:active {
@@ -62,14 +62,14 @@
 /* Variants */
 .button[data-button-variant='primary'] {
   --button-bg: var(--color-primary);
-  --button-color: var(--color-light);
-  --button-color: color-mix(in oklab, var(--color-primary) 5%, var(--color-light));
+  /* --button-color: var(--color-light);
+  --button-color: color-mix(in oklab, var(--color-primary) 5%, var(--color-light)); */
 }
 
 .button[data-button-variant='secondary'] {
   --button-bg: var(--color-secondary);
-  --button-color: var(--color-light);
-  --button-color: color-mix(in oklab, var(--color-secondary) 5%, var(--color-light));
+  /* --button-color: var(--color-light);
+  --button-color: color-mix(in oklab, var(--color-secondary) 5%, var(--color-light)); */
 }
 
 .button[data-button-variant='tertiary'] {
@@ -100,7 +100,21 @@
   --button-text-transform: uppercase;
   --button-tracking: var(--tracking-wide);
 }
+
+.button[data-svg-button] {
+    padding: .1rem .2rem;
+    svg {
+      block-size: 1.6cap;
+    }
+}
+
+header .button {
+  border-width: 2px;
+}
+
 /* Radius variants */
 .button[data-button-radius='hard'] {
   --button-radius: 0;
 }
+
+

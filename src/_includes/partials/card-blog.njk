@@ -1,4 +1,9 @@
-<custom-card clickable>
+<custom-card clickable no-padding inner-pad>
+  {% if item.data.image %}
+    <div slot="image">
+      {% image item.data.image, item.data.alt, null, "lazy", null, null, [300, 600, 936], null %}
+    </div>
+  {% endif %}
   <h2 slot="headline" class="text-step-2">
     <a href="{{ item.url | url }}">{{ item.data.title }}</a>
   </h2>

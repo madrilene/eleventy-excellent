@@ -1,12 +1,15 @@
-<header class="wrapper">
+<header class="wrapper primary">
   <a href="#main" class="skip-link">{{ meta.skipContent }}</a>
 
   <div class="repel ontop gutter-s">
     <a href="/" class="logo | cluster" {{ indicateActiveHome }}>
-      {% svg "misc/star" %}
+      {# {% svg "misc/star" %} #}
 
-      <span class="font-display">{{ meta.siteName }}</span>
+      {# <span class="font-display">{{ meta.siteName }}</span> #}
+      <span class="font-display">JASON <span class="by">by</span> DAY
+      </span>
     </a>
     {% include "partials/main-nav.njk" %}
+    
   </div>
 </header>

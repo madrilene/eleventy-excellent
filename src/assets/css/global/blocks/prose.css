@@ -35,8 +35,12 @@
 }
 
 .prose :is(p, li, dl, blockquote) {
-  max-inline-size: 60ch;
+  max-inline-size: 90ch;
   text-wrap: pretty;
+}
+
+.prose :is(li) {
+  line-height: 1.6;
 }
 
 .prose .heading-anchor:where(:hover, :focus) {
@@ -60,7 +64,7 @@
 
 /* inline space only for "regular lists" */
 .prose :is(ul:not([class]), ol:not(.grid)) {
-  padding-inline-start: 1.2ch;
+  padding-inline-start: 4ch;
 }
 
 /* marker only for "regular lists" */
@@ -74,7 +78,7 @@
 }
 
 .prose img {
-  border-radius: var(--border-radius-medium);
+  /* border-radius: var(--border-radius-medium); */
 }
 
 @media screen(ltsm) {

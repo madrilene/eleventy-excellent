@@ -5,6 +5,10 @@
     {
       "name": "Gray",
       "value": "#888888"
+    },
+    {
+      "name": "Beige",
+      "value": "#756A65"
     }
   ],
   "shades_vibrant": [],
@@ -20,6 +24,18 @@
     {
       "name": "Gold",
       "value": "#fbbe25"
+    },
+    {
+      "name": "highlight-yellow",
+      "value": "hsl(44, 85%, 65%)"
+    },
+    {
+      "name": "highlight-red",
+      "value": "#C22A0F"
+    },
+    {
+      "name": "highlight-red-alt",
+      "value": "#F33412"
     }
   ],
   "standalone": []

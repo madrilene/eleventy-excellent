@@ -53,7 +53,9 @@
     {% include "partials/footer.njk" %}
     {%- if meta.easteregg -%}
       <script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
-      <custom-easteregg></custom-easteregg>
+      <custom-easteregg>
+        <h2 class="visually-hidden">open developer tools > console to play a game</h2>
+      </custom-easteregg>
     {%- endif -%}
   </body>
 </html>

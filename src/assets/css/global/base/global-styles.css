@@ -23,6 +23,32 @@ body {
   letter-spacing: var(--tracking);
 }
 
+header {
+  padding-block: var(--space-m);
+  &.primary {
+    line-height: 1;
+  }
+}
+
+
+.logo > span {
+  font-size: var(--size-step-3);
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.logo span.by {
+  font-size: var(--size-step-min-1);
+}
+
+.logo:hover span.by,
+.logo:focus span.by {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .2em;
+}
+
 main {
   flex: auto;
 }
@@ -31,9 +57,12 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: var(--font-extra-bold);
+  font-weight: var(--font-regular);
   line-height: var(--leading-fine);
-  letter-spacing: var(--tracking-s);
+  /* letter-spacing: var(--tracking-s); */
+  font-variant-ligatures: common-ligatures discretionary-ligatures
+  historical-ligatures contextual;
+  font-feature-settings: "liga" on; 
 }
 
 h1 {
@@ -45,7 +74,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--size-step-2);
+  font-size: var(--size-step-3);
 }
 
 blockquote {
@@ -103,16 +132,15 @@ a {
 }
 
 a:not([class]):hover {
-  text-decoration: none;
+  text-decoration-thickness: 0.25ex;
 }
 
-:focus {
-  outline: none;
-}
 
-:focus-visible {
-  outline: 3px solid var(--focus-color, currentColor);
-  outline-offset: var(--focus-offset, 0.3ch);
+
+:focus-visible, :focus {
+  box-shadow: 0 0 0 2px var(--color-text-flipped);
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
 }
 
 /* reduce focus offset for Firefox

@@ -1,4 +1,0 @@
-src/**/*.md
-src/_includes/components/**/custom-*.njk
-src/common/*
-src/_includes/scripts/*

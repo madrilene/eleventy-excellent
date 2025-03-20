@@ -1,13 +1,18 @@
+.post article {
+  margin-block-start: 0;
+}
+
 .post article h1 {
   font-size: var(--size-step-6);
+  text-align: center;
 }
 
 .post article h2 {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-4);
 }
 
 .post article h3 {
-  font-size: var(--size-step-2);
+  font-size: var(--size-step-3);
 }
 
 /* make featured image alwyays 16/9 */
@@ -17,6 +22,18 @@
   aspect-ratio: 16/9;
   object-fit: cover;
   object-position: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.post figure:not(.feature) {
+  background: #fff;
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 
 .post date {
@@ -36,4 +53,24 @@
 
 .post .meta {
   font-size: var(--size-step-min-1);
+}
+
+.post .breadcrumb {
+  padding: .25rem 0;
+}
+
+.post .breadcrumb__list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--size-step-min-1);
+}
+
+li.breadcrumb__item {
+  display: flex;
+  gap: .25rem;
 }

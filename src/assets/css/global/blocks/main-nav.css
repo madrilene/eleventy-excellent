@@ -108,7 +108,7 @@
   border-radius: var(--border-radius-medium);
   text-decoration-line: underline;
   text-decoration-color: var(--nav-item-decoration-color);
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
   text-underline-offset: 0.2em;
 }
 
@@ -162,7 +162,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-shadow: none;
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
-  margin-block-end: var(--space-2xs);
+  /* margin-block-end: var(--space-2xs); */
 }
 
 .mainnav ul:first-child [aria-current='page'],

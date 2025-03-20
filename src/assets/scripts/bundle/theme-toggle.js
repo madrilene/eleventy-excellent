@@ -1,74 +1,58 @@
-const storageKey = 'theme-preference';
-const lightLabel = '{{ meta.themeSwitch.light }}';
-const darkLabel = '{{ meta.themeSwitch.dark }}';
-const themeColors = {
-  dark: '{{ meta.themeLight }}',
-  light: '{{ meta.themeDark }}'
-};
+(() => {
+  var a = "theme-preference";
+  var l = {
+    dark: "{{ meta.themeLight }}",
+    light: "{{ meta.themeDark }}"
+  };
+  var t = { value: d() };
 
-const theme = {
-  value: getColorPreference()
-};
+  window.onload = () => {
+    let toggleButton = document.querySelector("#darkmode-toggle");
 
-window.onload = () => {
-  const lightThemeToggle = document.querySelector('#light-theme-toggle');
-  const darkThemeToggle = document.querySelector('#dark-theme-toggle');
-  const switcher = document.querySelector('[data-theme-switcher]');
+    if (toggleButton) {
+      c();
+      o();
+      toggleButton.addEventListener("click", () => n());
+      toggleButton.setAttribute("aria-pressed", t.value === "dark");
+    }
+  };
 
-  if (!switcher) {
-    return;
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches: e }) => {
+    t.value = e ? "dark" : "light";
+    i();
+    o();
+  });
+
+  function n() {
+    t.value = t.value === "dark" ? "light" : "dark";
+    document.querySelector(".darkmode-toggle").setAttribute("aria-pressed", t.value === "dark");
+    i();
+    o();
   }
 
-  reflectPreference();
-  updateMetaThemeColor();
-
-  lightThemeToggle.addEventListener('click', () => onClick('light'));
-  darkThemeToggle.addEventListener('click', () => onClick('dark'));
-
-  lightThemeToggle.setAttribute('aria-pressed', theme.value === 'light');
-  darkThemeToggle.setAttribute('aria-pressed', theme.value === 'dark');
-};
-
-// sync with system changes
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({matches: isDark}) => {
-  theme.value = isDark ? 'dark' : 'light';
-  setPreference();
-  updateMetaThemeColor();
-});
-
-function onClick(themeValue) {
-  theme.value = themeValue;
-  document.querySelector('#light-theme-toggle').setAttribute('aria-pressed', themeValue === 'light');
-  document.querySelector('#dark-theme-toggle').setAttribute('aria-pressed', themeValue === 'dark');
-  setPreference();
-  updateMetaThemeColor();
-}
-
-function getColorPreference() {
-  if (localStorage.getItem(storageKey)) {
-    return localStorage.getItem(storageKey);
-  } else {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  function d() {
+    return localStorage.getItem(a)
+      ? localStorage.getItem(a)
+      : window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
   }
-}
 
-function setPreference() {
-  localStorage.setItem(storageKey, theme.value);
-  reflectPreference();
-  updateMetaThemeColor();
-}
+  function i() {
+    localStorage.setItem(a, t.value);
+    c();
+    o();
+  }
 
-function reflectPreference() {
-  document.firstElementChild.setAttribute('data-theme', theme.value);
-  // document.querySelector('#light-theme-toggle')?.setAttribute('aria-label', lightLabel);
-  // document.querySelector('#dark-theme-toggle')?.setAttribute('aria-label', darkLabel);
-}
+  function c() {
+    document.firstElementChild.setAttribute("data-theme", t.value);
+  }
 
-function updateMetaThemeColor() {
-  const metaThemeColor = document.querySelector('meta[name="theme-color"]');
-  const newColor = theme.value === 'dark' ? themeColors.dark : themeColors.light;
-  metaThemeColor.setAttribute('content', newColor);
-}
+  function o() {
+    let e = document.querySelector('meta[name="theme-color"]');
+    let r = t.value === "dark" ? l.dark : l.light;
+    e.setAttribute("content", r);
+  }
 
-// set early so no page flashes / CSS is made aware
-reflectPreference();
+  c();
+})();
