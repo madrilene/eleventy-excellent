@@ -34,6 +34,7 @@ export default {
       ltsm: {max: `${viewportTokens.sm}px`},
       sm: `${viewportTokens.sm}px`,
       md: `${viewportTokens.md}px`,
+      ltnavigation: {max: `${viewportTokens.navigation}px`},
       navigation: `${viewportTokens.navigation}px`
     },
     colors,

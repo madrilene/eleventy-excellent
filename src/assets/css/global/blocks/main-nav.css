@@ -21,6 +21,7 @@
   --nav-list-position: fixed;
   --nav-list-width: min(18rem, 100vw);
   --nav-list-visibility: hidden;
+  --nav-list-opacity: 0;
 
   background: var(--nav-list-background);
   box-shadow: var(--nav-list-shadow);
@@ -35,7 +36,7 @@
   inset-block-start: 0;
   inset-inline-end: 0;
   inline-size: var(--nav-list-width);
-  opacity: 0;
+  opacity: var(--nav-list-opacity);
   transition:
     opacity 0.3 var(--nav-list-timing-function),
     visibility 0.3s ease-in-out;
@@ -49,7 +50,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .mainnav ul {
     --nav-list-transform: translateX(100%);
-    opacity: 1;
+    --nav-list-opacity: 1;
     transform: var(--nav-list-transform);
     transition:
       transform 0.5s var(--nav-list-timing-function),
@@ -64,7 +65,7 @@
 .mainnav [aria-expanded='true'] + ul {
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
-  opacity: 1;
+  --nav-list-opacity: 1;
 }
 
 .mainnav button {
@@ -140,6 +141,7 @@
     --nav-list-shadow: none;
     --nav-list-visibility: visible;
     --nav-list-transform: translateX(0);
+    --nav-list-opacity: 1;
   }
 
   .mainnav [aria-current='page'],
@@ -162,6 +164,7 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-shadow: none;
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
+  --nav-list-opacity: 1;
   margin-block-end: var(--space-2xs);
 }
 

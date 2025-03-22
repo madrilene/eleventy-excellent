@@ -5,6 +5,8 @@ const list = nav.querySelector('ul');
 const burgerClone = document.querySelector('#burger-template').content.cloneNode(true);
 const button = burgerClone.querySelector('button');
 
+list.style.setProperty('display', 'flex');
+
 button.addEventListener('click', e => {
   const isOpen = button.getAttribute('aria-expanded') === 'true';
   button.setAttribute('aria-expanded', !isOpen);
