@@ -47,6 +47,10 @@
 {% endif %}
 
 {% if drawerNav %}
+  {% css "local" %}
+    {% include "css/nav-main-drawer-cls.css" %}
+  {% endcss %}
+
   {% js "defer" %}
     {% include "scripts/nav-drawer.js" %}
   {% endjs %}
