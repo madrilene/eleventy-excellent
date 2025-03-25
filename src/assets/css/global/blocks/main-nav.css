@@ -165,7 +165,6 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
   --nav-list-opacity: 1;
-  margin-block-end: var(--space-2xs);
 }
 
 .mainnav ul:first-child [aria-current='page'],
