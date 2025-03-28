@@ -18,4 +18,4 @@ In this case define the SVG icon on which all formats are based on in `meta.js`:
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 ```
 
-Regardless of whether you generate the icons automatically or create them manually, it is best to keep the names so as not to break any reference to them.
+Regardless of whether you generate the icons automatically or create them manually, it is best to keep the names so as not to break any reference to them. You can also use raster images instead of SVG.

@@ -31,8 +31,8 @@ async function createFavicons() {
     .toFile(`${outputDir}/maskable-icon.png`);
 
   // ICO icon
-  const iconSharp = sharp(svgBuffer).resize(16, 16);
-  await sharpsToIco([iconSharp], `${outputDir}/favicon.ico`, {sizes: [16]});
+  const iconSharp = sharp(svgBuffer);
+  await sharpsToIco([iconSharp], `${outputDir}/favicon.ico`, {sizes: [32]});
 
   console.log('All favicons generated.');
 }
