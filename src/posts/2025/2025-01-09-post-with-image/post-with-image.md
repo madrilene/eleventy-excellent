@@ -108,10 +108,10 @@ As for the higher build cost of post-processing, the shortcode images are being 
 {% raw %}
 
 ```jinja2
-{% image image, alt or title, credit, "eager", "feature", "grayscale" %}
+{% image image, alt or "", credit, "eager", "feature", "grayscale" %}
 
 <figure class="feature">
-  <img src="{{ image }}" alt="{{ alt or title }}" loading="eager" decoding="sync" class="grayscale">
+  <img src="{{ image }}" alt="{{ alt or '' }}" loading="eager" decoding="sync" class="grayscale">
   {% if credit %}
   <figcaption>{{ credit }}</figcaption>
   {% endif %}
@@ -121,10 +121,10 @@ As for the higher build cost of post-processing, the shortcode images are being 
 
 {% endraw %}
 
-{% image image, alt or title, credit, "eager", "feature", "grayscale" %}
+{% image image, alt or "", credit, "eager", "feature", "grayscale" %}
 
 <figure class="feature">
-  <img src="{{ image }}" alt="{{ alt or title }}" loading="eager" decoding="sync" class="grayscale">
+  <img src="{{ image }}" alt="{{ alt or '' }}" loading="eager" decoding="sync" class="grayscale">
   {% if credit %}
   <figcaption>{{ credit }}</figcaption>
   {% endif %}
