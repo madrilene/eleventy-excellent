@@ -13,7 +13,6 @@ blog:
     <div class="section__inner flow region">
       <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
     </div>
-
     {% svg "divider/waves", null, "seperator" %}
   </header>
 
@@ -38,18 +37,14 @@ blog:
   <section class="full | region">
     <div class="wrapper flow prose">
       <h2>{{ blog.title }}</h2>
-      <!-- blog intro text is optional. -->
-
       {% if blog.intro %}
         <p>{{ blog.intro }}</p>
       {% endif %}
-
       <div class="feature |  region region-space-l">
         <custom-masonry layout="50-50">
-          <!-- loop posts -->
           {% set itemList = collections.allPosts %}
 					{% asyncEach item in itemList.slice(0, 4) %}
-						{% set definedDate = item.date %}
+            {% set headingLevel = "h3" %}
 						{% include "partials/card-blog.njk" %}
 					{% endeach %}
         </custom-masonry>

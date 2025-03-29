@@ -26,8 +26,6 @@ permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber
 
   <custom-masonry layout="50-50">
 		{% asyncEach item in pagination.items %}
-			{% set definedDate = item.date %}
-
 			{% include "partials/card-blog.njk" %}
 		{% endeach %}
 	</custom-masonry>

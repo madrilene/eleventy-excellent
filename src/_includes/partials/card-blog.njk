@@ -1,12 +1,13 @@
+{% set headingLevel = headingLevel | default("h2") %}
+{% set definedDate = definedDate | default(item.date) %}
+{% set showTags = showTags | default(true) %}
+
 <custom-card clickable>
-  <h2 slot="headline" class="text-step-2">
+  <{{ headingLevel }} slot="headline" class="text-step-2">
     <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-  </h2>
+  </{{ headingLevel }}>
   <span slot="date"> {% include "partials/date.njk" %} </span>
-  {%
-    if
-    item.data.tags.length > 1
-  %}
+  {% if showTags and item.data.tags.length > 1 %}
     <div slot="tag" webc:nokeep>
       {% for tag in item.data.tags %}
         {% if tag != "posts" %}
