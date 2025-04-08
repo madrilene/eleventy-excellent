@@ -1,4 +1,4 @@
-.section > .seperator:first-child {
+.section > .divider:first-child {
   transform: rotate(180deg) translateY(-1px);
 }
 

@@ -1,10 +1,10 @@
-.seperator {
+.divider {
   display: block;
   block-size: 3.5em;
   inline-size: 100%;
   fill: var(--spot-color, var(--color-bg));
 }
 
-.section > .seperator {
+.divider > .divider {
   transform: translateY(-1px);
 }
