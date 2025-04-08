@@ -6,7 +6,7 @@ All "necessary" favicons are in `src/assets/images/favicon`, and copied over to 
 
 I chose the sizes based on the recommendations from the [How to Favicon article on evilmartians.com.](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs)
 
-You can place them in that directory manually, or use the script to autmate the process:
+You can place them in that directory manually, or use the script to automate the process:
 
 ```bash
 npm run favicons
