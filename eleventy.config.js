@@ -1,9 +1,6 @@
 /**
  * Most adjustments must be made in `./src/_config/*`
- */
-
-/**
- * Configures Eleventy with various settings, collections, plugins, filters, shortcodes, and more.
+ *
  * Hint VS Code for eleventyConfig autocompletion.
  * © Henry Desroches - https://gist.github.com/xdesro/69583b25d281d055cd12b144381123bf
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig -
@@ -108,9 +105,6 @@ export default async function (eleventyConfig) {
     // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`
   });
-
-  // --------------------- Build Settings
-  eleventyConfig.setDataDeepMerge(true);
 
   // --------------------- general config
   return {
