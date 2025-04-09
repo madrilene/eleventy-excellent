@@ -31,7 +31,7 @@
         {% for key, value in personal.platforms %}
           {% if value != "" %}
             <!-- regular platforms -->
-            <a href="{{ value }}" rel="me">
+            <a class="no-indicator" href="{{ value }}" rel="me">
               <span class="visually-hidden">{{ key | capitalize }}</span>
               {% svg 'platform/' + key %}
             </a>
@@ -44,7 +44,7 @@
 
     <aside class="creator | cluster gutter-2xs text-step-min-1 mt-xl">
       Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> and
-      <a href="https://www.11ty.dev/">{% svg "misc/11ty", "Eleventy" %}</a> by
+      <a class="no-indicator" href="https://www.11ty.dev/">{% svg "misc/11ty", "Eleventy" %}</a> by
       <a href="{{ meta.creator.website }}">{{ meta.creator.name }}</a>
     </aside>
   </div>

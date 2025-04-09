@@ -1,12 +1,14 @@
-article
-  a[href^='http']:not([href*='localhost:8080']):not([href*='eleventy-excellent.netlify.app']):not(.button) {
+a[href^='http']:not([href*='localhost:8080']):not([href*='eleventy-excellent.netlify.app']):not(.button):not(
+    .no-indicator
+  ),
+.indicator {
   padding-inline-end: 0.8em;
 }
 
-article
-  a[href^='http']:not([href*='localhost:8080']):not([href*='eleventy-excellent.netlify.app']):not(
+a[href^='http']:not([href*='localhost:8080']):not([href*='eleventy-excellent.netlify.app']):not(
     .no-indicator
-  )::after {
+  )::after,
+.indicator::after {
   position: absolute;
   display: inline-block;
   inline-size: 1em;
