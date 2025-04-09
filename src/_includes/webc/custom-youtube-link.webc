@@ -7,6 +7,7 @@
   }
   custom-youtube-link svg {
     font-size: var(--size-step-0);
+    margin-block-start: 0.1em;
   }
 </style>
 
