@@ -28,10 +28,7 @@ export const markdownLib = markdownIt({
       class: 'heading-anchor'
     })
   })
-  .use(markdownItClass, {
-    ol: 'list',
-    ul: 'list'
-  })
+  .use(markdownItClass, {})
   .use(markdownItLinkAttributes, [
     {
       // match external links

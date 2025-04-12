@@ -55,18 +55,21 @@
 /* block space only for "regular lists" and sublists */
 .prose :is(ul, ol):not([class]) li + li,
 .prose :is(ul, ol):not([class]) li > :is(ol, ul) {
-  --flow-space: var(--space-s-m);
-}
-
-/* inline space only for "regular lists" */
-.prose :is(ul:not([class]), ol:not(.grid)) {
-  padding-inline-start: 1.2ch;
+  padding-block-start: var(--space-s);
 }
 
 /* marker only for "regular lists" */
 .prose :is(ul:not([class]):not([role='list'])) li::marker {
   color: var(--color-primary);
   content: '– ';
+}
+
+.prose ul:not([class]) {
+  padding-inline-start: 1.3ch;
+}
+
+.prose ol:not([class]) {
+  padding-inline-start: 2ch;
 }
 
 .prose ol li::marker {
