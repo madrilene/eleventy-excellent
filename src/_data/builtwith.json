@@ -191,5 +191,12 @@
     "description": "Alberto is a game developer and tech enthusiast from Spain, working as a gameplay programmer.",
     "filename": "camperotacti",
     "link": "https://www.camperotacti.co"
+  },
+  {
+    "name": "construccionescarrascosa.com",
+    "description": "Construction company based in Cuenca, Spain",
+    "filename": "construccionescarrascosa",
+    "link": "https://construccionescarrascosa.com",
+    "builtbylene": true
   }
 ]
