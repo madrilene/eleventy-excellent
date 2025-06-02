@@ -7,7 +7,7 @@ export const splitlines = (input, maxCharLength) => {
 
     let lastOne = acc[acc.length - 1];
 
-    if (lastOne.length + cur.length > maxCharLength) {
+    if (lastOne.length + cur.length >= maxCharLength) {
       return [...acc, cur];
     }
 
