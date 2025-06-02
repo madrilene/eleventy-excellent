@@ -16,7 +16,7 @@ export function getLinkActiveState(itemUrl, pageUrl) {
     }
 
     if (itemUrl.length > 1 && pageUrl.startsWith(itemUrl.replace('/page-0/', ''))) {
-      response += ' data-state="active"';
+      response += ' aria-current="page" data-state="active"';
     }
   }
 

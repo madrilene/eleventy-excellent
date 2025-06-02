@@ -4,7 +4,7 @@ pagination:
   data: collections.tagList
   size: 1
   alias: tag
-permalink: /tags/{{ tag }}/
+permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
   title: '{{ meta.blog.tagSingle }}: {{ tag }}'
 ---
@@ -23,10 +23,10 @@ eleventyComputed:
   {% for tag in collections.tagList %}
     <li>
       <a
-        href="/tags/{{ tag }}/"
+        href="/tags/{{ tag | slugify }}/"
         class="button"
         {{
-          helpers.getLinkActiveState('/tags/' + tag,
+          helpers.getLinkActiveState('/tags/' + tag | slugify + '/',
           page.url)
           |
           safe
