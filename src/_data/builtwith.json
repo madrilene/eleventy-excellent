@@ -82,12 +82,6 @@
     "builtbylene": true
   },
   {
-    "name": "The Wooden Chips Handyman Service",
-    "description": "A a website for local virginia handyman built with Netlify CMS and 11ty",
-    "filename": "woodenchips",
-    "link": "https://thewoodenchips.com"
-  },
-  {
     "name": "lene.dev",
     "description": "My developer profile. I occasinally try new CSS features here.",
     "filename": "lene-dev",
