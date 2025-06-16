@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+.gallery dialog + button:focus-visible {
+  outline: 3px solid var(--focus-color, currentColor);
+  outline-offset: var(--focus-offset, 0.3ch);
+}
+
 /* the close button */
 .gallery dialog > button {
   margin-inline: auto;

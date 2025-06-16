@@ -61,7 +61,9 @@ export const details = {
   collapse: 'collapse all'
 };
 export const dialog = {
-  close: 'Close'
+  close: 'Close',
+  next: 'Next',
+  previous: 'Previous'
 };
 export const navigation = {
   navLabel: 'Menu',
