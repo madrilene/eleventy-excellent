@@ -1,3 +1,7 @@
-is-land:not(:defined) .mainnav ul {
-  display: none;
+@media (scripting: enabled) {
+  @media screen(ltsm) {
+    .mainnav > ul {
+      display: none;
+    }
+  }
 }
