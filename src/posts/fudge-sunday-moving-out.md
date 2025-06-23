@@ -4,7 +4,7 @@ description: 'A look at moving to new platforms'
 date: 2022-06-05 20:55:38+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at take out capabilities of this newsletter.
+This week we take a look at take out capabilities of this newsletter.
 
 *Note: (2nd repeat) After a solid year using Revue for this newsletter, new formats will arrive in the coming weeks (and months) from a new provider after we migrate everything over.*
 
@@ -46,7 +46,7 @@ At this point, I mentioned in my last newsletter that [things would be changing 
 
 I know! I’ll just ask Revue support for the link to export my newsletter content and………
 
-[![Doh!](https://cuthrell.com/favicon.png "Doh!")](https://cuthrell.com/favicon.png)Doh!
+Doh!
 
 Yeah. So, unfortunately, there is not an export function for the content that gets put into Revue.
 

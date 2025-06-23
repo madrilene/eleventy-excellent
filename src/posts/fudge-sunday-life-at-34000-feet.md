@@ -4,9 +4,9 @@ description: ''
 date: 2019-04-01 04:23:18+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-life-at-34-000-feet-168800?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)My travel has [picked up](https://jaycuthrell.com/my-eighth-year-at-vce/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) in 2019. On a recent flight I discovered the captive portal experiences for the latest generation of in-flight broadband has come a long way. Below are links to help frame the peaks and valleys of connected experiences going back to the 1980s.
+
+My travel has [picked up](https://jaycuthrell.com/my-eighth-year-at-vce/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) in 2019. On a recent flight I discovered the captive portal experiences for the latest generation of in-flight broadband has come a long way. Below are links to help frame the peaks and valleys of connected experiences going back to the 1980s.
 
  **The year was 1982...**
 
@@ -56,7 +56,7 @@ The quest to get more eyeballs engaged more of the time continues.
 
 Just 5 years later, a growing number of airlines were adding the first generation of in-flight air-to-ground (ATG) broadband accessible via Wi-Fi. This is where business travels came to love (and not always love) [GoGo](https://en.wikipedia.org/wiki/Gogo_Business_Aviation?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![Delta B757-200 with wifi circa December 2011](https://cuthrell.com/favicon.png "Delta B757-200 with wifi circa December 2011")](https://cuthrell.com/favicon.png)Delta B757-200 with wifi circa December 2011
+Delta B757-200 with wifi circa December 2011
 
 Looking back on 2011, while the connectivity was passable the adoption curve and contention for a very shared resource led to often degraded performance. Still, it isn’t as if the industry and technology was sitting still. Far from it.
 

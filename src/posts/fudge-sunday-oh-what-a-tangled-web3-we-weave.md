@@ -4,9 +4,9 @@ description: ''
 date: 2021-11-29 02:00:03+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-oh-what-a-tangled-web3-we-weave-892450?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week is about Web3. The goal is to avoid taking a particular side or in any way represent investment advice about Web3.
+
+This week is about Web3. The goal is to avoid taking a particular side or in any way represent investment advice about Web3.
 
 I once [opined on Twitter](https://www.techmeme.com/211102/p20?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a211102p20) regarding web1, web2, and web3 as follows in response to [Zoom considering advertising](https://www.techmeme.com/211102/p20?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a211102p20) back on November 2, 2021:
 
@@ -24,7 +24,7 @@ Perhaps Zoom will leverage their video filter ML/AI/AR by launching on persona a
 
 But before we get too far… here’s some music to set the mood.
 
-[![No, I'm not giving you up... anytime soon...](https://cuthrell.com/favicon.png "No, I'm not giving you up... anytime soon...")](https://cuthrell.com/favicon.png)No, I'm not giving you up... anytime soon...
+No, I'm not giving you up... anytime soon...
 
  **Set the scene**
 
@@ -44,9 +44,9 @@ A few months ago I published [“Fudge Sunday - What I’ve been reading lately�
 
 [sunday.fudge.org](https://sunday.fudge.org/issues/fudge-sunday-what-i-ve-been-reading-lately-653166?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![Techmeme Predictions Leaderboard would be a popular niche hilarious service.](https://cuthrell.com/favicon.png "Techmeme Predictions Leaderboard would be a popular niche hilarious service.")](https://cuthrell.com/favicon.png)Techmeme Predictions Leaderboard would be a popular niche hilarious service.
+Techmeme Predictions Leaderboard would be a popular niche hilarious service.
 
-[![One of my many fleeting tweets and LOL at my avatar choice that week!](https://cuthrell.com/favicon.png "One of my many fleeting tweets and LOL at my avatar choice that week!")](https://cuthrell.com/favicon.png)One of my many fleeting tweets and LOL at my avatar choice that week!
+One of my many fleeting tweets and LOL at my avatar choice that week!
 
 **[September 3, 2021 - UniSwap News](https://www.techmeme.com/210903/p18?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a210903p18)**
 

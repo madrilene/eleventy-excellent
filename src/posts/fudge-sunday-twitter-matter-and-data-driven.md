@@ -1,12 +1,10 @@
 ---
 title: "Fudge Sunday - Twitter, Matter, and Data-Driven Journalism "
-description: ''
+description: 'The road ahead'
 date: 2021-11-08 01:27:35+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-twitter-matter-and-data-driven-journalism-836999?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
-
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week is a departure from diving into cloud topics. I’ll spend a few paragraphs describing how I’m using Twitter, Matter, and seeking more Data-Driven Journalism.
+This week is a departure from diving into cloud topics. I’ll spend a few paragraphs describing how I’m using Twitter, Matter, and seeking more Data-Driven Journalism.
 
  **What's happening?**
 
@@ -30,11 +28,11 @@ Went back to using Twitter lists vs. the timeline algorithm. It is amazing how m
 
 What’s the impact? For starters, Home view in Twitter is quite spartan.🤣
 
-[![aka "Not followed by anyone you’re following" becomes the rule not the exception](https://cuthrell.com/favicon.png "aka \"Not followed by anyone you’re following\" becomes the rule not the exception")](https://cuthrell.com/favicon.png)aka "Not followed by anyone you’re following" becomes the rule not the exception
+aka "Not followed by anyone you’re following" becomes the rule not the exception
 
 Again, my new approach is to use Lists instead of Follow functionality. By using Lists functionality, I see what I want to see without advertising.
 
-[![I have more Lists but they are "private" to my interface view.](https://cuthrell.com/favicon.png "I have more Lists but they are \"private\" to my interface view.")](https://cuthrell.com/favicon.png)I have more Lists but they are "private" to my interface view.
+I have more Lists but they are "private" to my interface view.
 
 So far, the only perceived downside is that I am compelled to see Retweets that could otherwise be filtered completely through Follow functionality. However, compared to the Home feed before this is worth it.
 
@@ -70,7 +68,7 @@ Speaking of reading…
 
 If a picture is worth a thousand words, animated visualization is probably worth ten thousand words and an interactive visualization will likely be worth one hundred thousand words in our *ever brighter future \*\*\**.
 
-Yes. There is the [“DIKW” hierarchy or progression or journey of Data, Information, Knowledge, and Wisdom](https://www.youtube.com/watch?t=49s&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=io6QdGcoWMU). Getting to the end of such a journey is often fraught with peril and with seemingly unlimited commercial interruptions online.
+Yes. There is the [DIKW hierarchy or progression or journey of Data, Information, Knowledge, and Wisdom](https://www.youtube.com/watch?t=49s&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=io6QdGcoWMU). Getting to the end of such a journey is often fraught with peril and with seemingly unlimited commercial interruptions online.
 
 So, just as I’ve tried to limit my Twitter fast news hot take outrage intake and the geometric expansion of newsletters that are slower to publish, I’m also thinking about the *data* that might be synthesized as *information* I want to bring into focus.
 
@@ -117,4 +115,3 @@ As always, tune in again next week as I continue to attempt sharing some (cultur
  **Disclosure**
 
 I am linking to my [disclosure](https://jaycuthrell.com/disclosure/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter).
-

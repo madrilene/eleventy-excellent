@@ -4,9 +4,9 @@ description: ''
 date: 2021-11-14 23:37:06+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-three-recommendations-walk-into-a-bar-847670?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Last week I received more newsletter reader feedback (thank you). For the next few issues I will experiment with format and length. This week aims to be short, sweet, and informative.
+
+Last week I received more newsletter reader feedback (thank you). For the next few issues I will experiment with format and length. This week aims to be short, sweet, and informative.
 
  **Getting Informed**
 
@@ -20,7 +20,7 @@ My recommendations this week:
 
  **Service**
 
-[![Lunchclub](https://cuthrell.com/favicon.png "Lunchclub")](https://cuthrell.com/favicon.png)**[Lunchclub](https://lunchclub.com/?invite_code=jayc11&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://lunchclub.com/?invite_code=jayc11&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 One of my Solutions responsibilities is supporting Technology to provide relevant stories and feedback on research topics from time to time. For example, in a RACI matrix where I am Consulted, my responses need to be timely an accurate.
 
@@ -38,7 +38,7 @@ Curious? Use this invite: [https://lunchclub.com/?invite\_code=jayc11](https://l
 
  **Podcast**
 
-[![PreSales Collective](https://cuthrell.com/favicon.png "PreSales Collective")](https://cuthrell.com/favicon.png)**[PreSales Collective](https://www.presalescollective.com/podcast?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.presalescollective.com/podcast?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Another of my Solutions responsibilities supporting Sales is to provide servant leadership to a global Sales Engineering (SE) team. Notably, the SE is who owns technical aspects of the sale from a deeper subject matter explanation to a compelling demonstration.
 
@@ -48,7 +48,7 @@ So, if you’ve ever been curious about what the SE or SE leader role is about a
 
  **Children's Book**
 
-[![Story Time: Understanding User Stories](https://cuthrell.com/favicon.png "Story Time: Understanding User Stories")](https://cuthrell.com/favicon.png)**[Story Time: Understanding User Stories](https://docs.google.com/presentation/d/1j3l9GCiEvp8Ei3G9Uuzp6Q6tS2pXqAG4SLI3zHJaQj0/edit?usp=sharing&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://docs.google.com/presentation/d/1j3l9GCiEvp8Ei3G9Uuzp6Q6tS2pXqAG4SLI3zHJaQj0/edit?usp=sharing&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Another of my Solutions responsibilities is to ensure Product Management is supplied with clear, crisp, and concise stories from the field that accurately capture the card, conversation, and confirmation. Being able to tell user stories and understand what makes a great user story is a perishable skill that requires practice, practice, and more practice.
 
@@ -60,7 +60,7 @@ Shout out to [botany.io](https://botany.io?utm_campaign=Start%20the%20week%20mor
 
 In recent newsletter issues this year I linked to coverage and shared trends of the semiconductors industry in [And All Points In Between](https://sunday.fudge.org/issues/fudge-sunday-and-all-points-in-between-679406?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) then [Betting Odds and Ends Justify the Means of Production](https://sunday.fudge.org/issues/fudge-sunday-betting-odds-and-ends-justify-the-means-of-production-752134?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). This week I learned of a great panel discussion on semiconductors back in 2020 via [Brain Food](https://fs.blog/knowledge-podcast/the-ultimate-bargaining-chip/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![All about Semiconductors (2020)](https://cuthrell.com/favicon.png "All about Semiconductors (2020)")](https://cuthrell.com/favicon.png)**[All about Semiconductors (2020)](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=r6NUO_bymuA)**
+(https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=r6NUO_bymuA)**
 
 [The Knowledge Project tackles the topic of semiconductors](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=r6NUO_bymuA). In just over an hour you get the origin story, impacts in modern society, analogies, lithography, numerical aperture, substrates, power, supply chain tactics, geopolitical dynamics, and the fascinating future of our increasing strategic dependency on the global and (growing) nearshore to onshore semiconductor industry.
 
@@ -70,7 +70,7 @@ In recent newsletter issues this year I linked to coverage and shared trends of 
 
 I just learned Revue can import Product Hunt. Check out [Sticker Doodle](https://www.producthunt.com/r/983ae87820d62d/310496?app_id=802&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)!
 
-[![Sticker Doodle](https://cuthrell.com/favicon.png "Sticker Doodle")](https://cuthrell.com/favicon.png)**[Sticker Doodle](https://www.producthunt.com/r/983ae87820d62d/310496?app_id=802&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.producthunt.com/r/983ae87820d62d/310496?app_id=802&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Sticker Doodle lets you draw your own stickers for iMessage, Discord, and Slack. Very fun!
 

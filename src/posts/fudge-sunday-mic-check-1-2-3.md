@@ -4,9 +4,9 @@ description: ''
 date: 2019-03-11 03:33:18+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-mic-check-1-2-3-163812?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Just over 30 years ago I was enamored with the playing and recording of live music. Life back then involved analog recording rigs, tapes, heavy sound mixers, clunky snakes, speakers, monitors, amps, mics, and the investment of time to get it all right.
+
+Just over 30 years ago I was enamored with the playing and recording of live music. Life back then involved analog recording rigs, tapes, heavy sound mixers, clunky snakes, speakers, monitors, amps, mics, and the investment of time to get it all right.
 
 This week I learned a little more about what has changed in the past 20 years.
 

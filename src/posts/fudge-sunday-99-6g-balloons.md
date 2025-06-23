@@ -4,15 +4,9 @@ description: 'Here comes 6G'
 date: 2022-02-07 02:23:44+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-99-6g-balloons-1014217?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
-
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at Mobile World Congress 2022, marketing, memes, and the growing democratization of mobile technology.
-
-[![NENA | 99 Luftballons [1983] [Offizielles HD Musikvideo]](https://cuthrell.com/favicon.png "NENA | 99 Luftballons [1983] [Offizielles HD Musikvideo]")](https://cuthrell.com/favicon.png)NENA | 99 Luftballons [1983] [Offizielles HD Musikvideo]
+This week we take a look at Mobile World Congress 2022, marketing, memes, and the growing democratization of mobile technology.
 
  **Getting Informed**
-
-[![Mobile World Congress Barcelona 2022](https://cuthrell.com/favicon.png "Mobile World Congress Barcelona 2022")](https://cuthrell.com/favicon.png)**[Mobile World Congress Barcelona 2022](https://www.mwcbarcelona.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 In just three weeks the Mobile World Congress in Barcelona will begin. The telco industry discussion will continue to crossover into new industries via silicon, spectrum, software, solutions, and services.
 
@@ -41,13 +35,10 @@ Let’s take a look back then look ahead.
 
 Setting aside the AT&T “you will” meme… the only thing holding back telecom in the 1990s was… telecom itself.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[BBC Archive](https://twitter.com/BBCArchive/status/1490288663346827264)**
 
 [@BBCArchive](https://twitter.com/BBCArchive/status/1490288663346827264)
 
-[#OnThisDay](https://twitter.com/search?q=%23OnThisDay "#OnThisDay") 1989: Blue Peter showed us that video meetings are nothing new. <https://t.co/L5N0xzNmOg>
-
- [6:38 AM - 6 Feb 2022](https://twitter.com/BBCArchive/status/1490288663346827264)
+1989: Blue Peter showed us that video meetings are nothing new. <https://t.co/L5N0xzNmOg>
 
  **1993 = (soon to be) Memes...**
 
@@ -55,13 +46,11 @@ The AT&T [“you will”](https://www.youtube.com/watch?utm_campaign=Start%20the
 
 But there’s more…
 
-[![AT&T's vision of the future, circa 1993 - AT&T Archives](https://cuthrell.com/favicon.png "AT&T's vision of the future, circa 1993 - AT&T Archives")](https://cuthrell.com/favicon.png)AT&T's vision of the future, circa 1993 - AT&T Archives
-
 Fast forward 17 years…
 
  **2010 = Progress...**
 
-[![iPhone 4 Apple "FaceTime" 2010 Commercial](https://cuthrell.com/favicon.png "iPhone 4 Apple \"FaceTime\" 2010 Commercial")](https://cuthrell.com/favicon.png)iPhone 4 Apple "FaceTime" 2010 Commercial
+iPhone 4 Apple "FaceTime" 2010 Commercial
 
 Fast forward 11 years…
 
@@ -81,15 +70,11 @@ Fast forward to right now… and things are getting very interesting!
 
  **Building Blocks of Democratization...**
 
-[![Rolling your own 5G balloon...](https://cuthrell.com/favicon.png "Rolling your own 5G balloon...")](https://cuthrell.com/favicon.png)**[Rolling your own 5G balloon...](https://freedomfi.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+[Rolling your own 5G balloon...](https://freedomfi.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
 The [FreedomFi Gateway](https://freedomfi.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) enables anyone to run a private LTE 5G network.
 
-Source:
-
-[freedomfi.com](https://freedomfi.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
-
-[![Fill your 5G balloon with... Helium](https://cuthrell.com/favicon.png "Fill your 5G balloon with... Helium")](https://cuthrell.com/favicon.png)**[Fill your 5G balloon with... Helium](https://www.helium.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+[Fill your 5G balloon with... Helium](https://www.helium.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
 Yes. A blockchain. 🤓 [Helium](https://www.helium.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) aspires to decentralize 5G infrastructure.
 
@@ -103,5 +88,3 @@ Tune in within 3-5 years to see how this newsletter has aged.🤓🤔🤣
  # Disclosure
 
 I am linking to my [disclosure](https://jaycuthrell.com/disclosure/?utm_campaign=sunday.fudge.org&utm_medium=email&utm_source=Revue%20newsletter).
-
-

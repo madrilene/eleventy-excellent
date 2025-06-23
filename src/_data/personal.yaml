@@ -1,11 +1,10 @@
-email: hola@somemail.com
+email: jay@cuthrell.com
 address: |-
-  Organization name
-  Your street
-  12345, city
-  Tel: +34 928231911
+  Cuthrell Consulting LLC
+  1903 Live Oak St #92
+  Beaufort, NC 28516
+  Tel: +1-415-763-8343
 platforms:
-  github: 'https://github.com/madrilene/eleventy-excellent'
-  mastodon: 'https://front-end.social/@lene'
-  bluesky: 'https://bsky.app/profile/lenesaile.com'
-  kofi: 'https://ko-fi.com/lenesaile'
+  github: 'https://github.com/jaycuthrell'
+  mastodon: 'https://cuthrell.com/@jay'
+  bluesky: 'https://bsky.app/profile/cuthrell.com'

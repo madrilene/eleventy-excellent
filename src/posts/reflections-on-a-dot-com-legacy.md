@@ -4,7 +4,7 @@ description: ''
 date: 2019-04-15 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)Just over 20 years ago I met with investment groups that later turned into a new direction in my career. While the .com days were a mixed bag, some of the companies rolled up into other companies which continued to roll up into other companies. If anything, I’ve learned a lot about the long and sometimes winding path of nested mergers.
+Just over 20 years ago I met with investment groups that later turned into a new direction in my career. While the .com days were a mixed bag, some of the companies rolled up into other companies which continued to roll up into other companies. If anything, I’ve learned a lot about the long and sometimes winding path of nested mergers.
 
 The Right Angle Turn
 
@@ -24,7 +24,7 @@ By 1999, web consultancies and digital agencies were smaller boutique shops know
 
 My iXL Moment
 
-[![1999: When websites said "This site is best viewed with Netscape 3.02 or later"](https://cuthrell.com/favicon.png "1999: When websites said \"This site is best viewed with Netscape 3.02 or later\"")](https://cuthrell.com/favicon.png)1999: When websites said “This site is best viewed with Netscape 3.02 or later”
+1999: When websites said “This site is best viewed with Netscape 3.02 or later”
 
 iXL was one of the growing web consultancies and it had acquired several digital agencies. While at Nortel, I had met iXL’s investors and some of the companies iXL acquired over the years.
 

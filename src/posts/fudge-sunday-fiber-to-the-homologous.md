@@ -4,11 +4,11 @@ description: ''
 date: 2022-01-17 00:57:36+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-fiber-to-the-homologous-979171?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we look at the impact and growth of fiber-optic connectivity.
 
-[![🎶 i want all of what i did't have 🎶  Low - More (Official Video)](https://cuthrell.com/favicon.png "🎶 i want all of what i did't have 🎶  Low - More (Official Video)")](https://cuthrell.com/favicon.png)🎶 i want all of what i did't have 🎶 Low - More (Official Video)
+This week we look at the impact and growth of fiber-optic connectivity.
+
+🎶 i want all of what i did't have 🎶 Low - More (Official Video)
 
  **Getting Informed**
 
@@ -20,7 +20,7 @@ I was trying to live in the future. However, AT&T had me living in the past.
 
 To say that AT&T was not keeping up with the demand of 3G would be a bit of a euphemism. Of course, it wasn’t just me [taking notice](https://techcrunch.com/2009/07/18/att-is-a-big-steaming-heap-of-failure/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) during those [early days](https://techcrunch.com/2009/12/11/att-outage/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) of iPhone marketing success.
 
-[![ping time = 🤣](https://cuthrell.com/favicon.png "ping time = 🤣")](https://cuthrell.com/favicon.png)ping time = 🤣
+ping time = 🤣
 
 While network capacity engineering for mobile is always challenging, AT&T had to catch up with the 2009 era demand for data of iPhone users in 2010. So, coincidentally, later the same week as I spoke and struggled to share a video, AT&T committed ~$20B to **[triple the capacity of fiber-optic cables](https://www.cnn.com/2010/TECH/01/29/att.network.boost/index.html?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)** to existing cell sites and add 2000 more cell sites as compared to the prior year.
 
@@ -36,13 +36,13 @@ It’s time to close the digital divide.
 
  [1:35 PM - 26 Nov 2021](https://twitter.com/SecRaimondo/status/1464301679545929729)
 
-[![2021: Communities, Correlation, and Causation](https://cuthrell.com/favicon.png "2021: Communities, Correlation, and Causation")](https://cuthrell.com/favicon.png)**[2021: Communities, Correlation, and Causation](https://www.techmeme.com/210511/p4?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a210511p4)**
+(https://www.techmeme.com/210511/p4?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a210511p4)**
 
 Recent press coverage in 2021 shows strong correlation in county level mapping of the digital divide. Basically, broadband gaps result from a lack of fiber-optic capacity that, in turn, stifles economic activity.
 
 [www.techmeme.com](https://www.techmeme.com/210511/p4?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a210511p4)
 
-[![2022: Avoid past mistakes and anticipate future needs](https://cuthrell.com/favicon.png "2022: Avoid past mistakes and anticipate future needs")](https://cuthrell.com/favicon.png)**[2022: Avoid past mistakes and anticipate future needs](https://www.techmeme.com/220115/p10?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220115p10)**
+(https://www.techmeme.com/220115/p10?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220115p10)**
 
 Today, while our multicloud world isn’t entirely because of the iPhone, there are are some patterns that do indeed repeat. So, keep in mind that Alphabet / Google, Amazon, Microsoft, and even Meta / Facebook have all been busy laying undersea [fiber-optic cables](https://www.techmeme.com/220115/p10?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220115p10) for years.
 
@@ -50,13 +50,13 @@ Today, while our multicloud world isn’t entirely because of the iPhone, there 
 
 So, If you want to visualize $T investments… look no further.
 
-[![Under the sea...](https://cuthrell.com/favicon.png "Under the sea...")](https://cuthrell.com/favicon.png)**[Under the sea...](https://blog.telegeography.com/2021-submarine-cable-map?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://blog.telegeography.com/2021-submarine-cable-map?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Amazing visualization of a [Submarine Cable Map from TeleGeography](https://submarine-cable-map-2021.telegeography.com?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). Last year the map captured 464 cables and 1245 landing stations.
 
 [blog.telegeography.com](https://blog.telegeography.com/2021-submarine-cable-map?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![And along came Infrapedia...](https://cuthrell.com/favicon.png "And along came Infrapedia...")](https://cuthrell.com/favicon.png)**[And along came Infrapedia...](https://www.infrapedia.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.infrapedia.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 The [Infrapedia](https://www.infrapedia.com?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) app is very informative. Check out [Infrapedia on GitHub](https://github.com/infrapedia?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) too!
 

@@ -4,7 +4,7 @@ description: 'A short summer reading list from 1978-2020 to consider our future'
 date: 2022-04-03 23:47:50+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Enjoy a short summer reading list from 1978-2020 to consider our future.
+Enjoy a short summer reading list from 1978-2020 to consider our future.
 
 Lana Del Rey - Summertime Sadness (2012)
 

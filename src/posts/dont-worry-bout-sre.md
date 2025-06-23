@@ -32,7 +32,7 @@ I make the distinction about the feature of any platform for a reason. Specifica
 
 Some early Twitter users from 2007-2012 might recall the early scaling challenges and the fail whale. Now, a decade later, the fail whale is a far more rare sighting[2](#footnote-2) that has been replaced with more subtle degradation of feature availability to manage user experiences.
 
-[![Twitter avatar for @stop](https://cuthrell.com/favicon.png)Doug Bowman @stop](https://twitter.com/stop/status/266040874549526528?s=20&t=4Pg0RsyK6hTLW7qIea0KwQ)
+(https://twitter.com/stop/status/266040874549526528?s=20&t=4Pg0RsyK6hTLW7qIea0KwQ)
 
 [RIP, Fail Whale.](https://twitter.com/stop/status/266040874549526528?s=20&t=4Pg0RsyK6hTLW7qIea0KwQ)
 
@@ -47,16 +47,16 @@ Recent newsworthy outages for Twitter in the range of 45 minutes[4](#footnote-4)
 
 For what it’s worth, the last tweet from “TwitterSRE” was over a year ago and “TwitterEng(ineering)” was over a month ago. Clearly, there are other priorities outside of tweets from the SRE and Engineering teams left at Twitter now.
 
-[![Twitter avatar for @TwitterSRE](https://cuthrell.com/favicon.png)Twitter SRE @TwitterSRE](https://twitter.com/TwitterSRE/status/1458586120187355140?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
+(https://twitter.com/TwitterSRE/status/1458586120187355140?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
 
 [Join us online next Wednesday 11/17 @ 6PM PT / 7:30AM IST for our last #SRE meetup of 2021! @NuttySwiss will present on #turndown mechanics for #legacy #systems, from simple to large complex #services! RSVP:](https://twitter.com/TwitterSRE/status/1458586120187355140?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
 
-[![](https://cuthrell.com/favicon.png)meetup.comLogin to Meetup | MeetupFind groups that host online or in person events and meet people in your local community who share your interests.](https://www.meetup.com/San-Francisco-Reliability-Engineering/events/275551787/)[12:03 AM ∙ Nov 11, 2021](https://twitter.com/TwitterSRE/status/1458586120187355140?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
+(https://twitter.com/TwitterSRE/status/1458586120187355140?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
 
 
 11Likes6Retweets
 
-[![Twitter avatar for @TwitterEng](https://cuthrell.com/favicon.png)Twitter Engineering @TwitterEng](https://twitter.com/TwitterEng/status/1583470012202815488?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
+(https://twitter.com/TwitterEng/status/1583470012202815488?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
 
 [What is your favorite metasyntactic variable?](https://twitter.com/TwitterEng/status/1583470012202815488?s=20&t=7Ts1f-nqZkgYGy9I3LEm4g)
 
@@ -78,7 +78,7 @@ What kinds of cloud support requires human intervention and what is just automat
 
 Cloud support that requires a human intervention is typically when a case (ticket) is successfully opened after satisfying the required disposition coding or mandatory triage categories. This assumes the cloud support website or portal itself is functional.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)
+
 
 Google Cloud Customer Care Portal for example…
 
@@ -104,11 +104,11 @@ The reason I share this advice isn’t because I am rooting for the demise of an
 
 Lastly, it is important to remember that burnout is real. So, big #hugops to any SRE teams that stay, join in the future, or find themselves running and maintaining legacy scripts that arrived in their digital laps with less than precise usage guides that are now lacking in deep dependency mapping.
 
-[![Twitter avatar for @GergelyOrosz](https://cuthrell.com/favicon.png)Gergely Orosz @GergelyOrosz](https://twitter.com/GergelyOrosz/status/1596848885405728768)
+(https://twitter.com/GergelyOrosz/status/1596848885405728768)
 
 [Even though I am a tiny ad spender, I also noticed ads being glitchy. As I talked with current software engineers at Twitter, they told me the eng team was fired, systems are transferred to a new team w little context & the eng taking it over just got a performance warning.](https://twitter.com/GergelyOrosz/status/1596848885405728768)
 
-[![Twitter avatar for @GergelyOrosz](https://cuthrell.com/favicon.png)Gergely Orosz @GergelyOrosz](https://twitter.com/GergelyOrosz/status/1596848885405728768)
+(https://twitter.com/GergelyOrosz/status/1596848885405728768)
 
 [Two years ago, I ran my first and only Twitter ad, where I promoted a tweet with ~8,000 impressions. Today, Twitter locked my account & informed that my account is in violation of policies and I'm not eligible to run ads, going forward. Who is running what scripts at Twitter? https://t.co/CRPbdK1u2b](https://twitter.com/GergelyOrosz/status/1596848885405728768)
 
@@ -124,7 +124,7 @@ So, what will be the next online service feature that gets deprecated or go offl
 
 Until then… Place your bets!
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)
+
 
 Be like Kermit y’all
 

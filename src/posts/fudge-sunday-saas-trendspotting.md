@@ -4,9 +4,9 @@ description: ''
 date: 2021-11-22 00:54:48+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-saas-trendspotting-877717?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Last week I started the experiment with format and length. This week we will peek into the “deep web” where a regular search engine cannot go.
+
+Last week I started the experiment with format and length. This week we will peek into the “deep web” where a regular search engine cannot go.
 
  **Getting Informed**
 
@@ -16,7 +16,7 @@ Also, newsletters like this one you are reading can be easily [indexed](https://
 
 By the way, “[deep web](https://en.wikipedia.org/wiki/Deep_web?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)” is sometimes confused or conflated with “[dark web](https://en.wikipedia.org/wiki/Dark_web?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)”. Luckily, the acting duo that provided moving portrayals of [Bill Preston and Ted Logan have produced a quick explainer](https://www.deepwebthemovie.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![The Deep Web Explained by Keanu Reeves on Vimeo](https://cuthrell.com/favicon.png "The Deep Web Explained by Keanu Reeves on Vimeo")](https://cuthrell.com/favicon.png)The Deep Web Explained by Keanu Reeves on Vimeo
+The Deep Web Explained by Keanu Reeves on Vimeo
 
  **SaaS Trendspotting**
 

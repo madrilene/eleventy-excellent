@@ -4,11 +4,11 @@ description: ''
 date: 2019-05-06 05:04:27+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-las-vegas-edition-175795?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week I made the pilgrimage to Las Vegas for Dell Technologies World and had the chance to take a lot of car services but none were via the sixteen (16) registered taxicab companies serving Las Vegas. Let’s take a look at ride-sharing in the city of sin and what is likely to be the future of getting around in just a few years.
 
-[![The trend is lots and lots of red...](https://cuthrell.com/favicon.png "The trend is lots and lots of red...")](https://cuthrell.com/favicon.png)The trend is lots and lots of red...
+This week I made the pilgrimage to Las Vegas for Dell Technologies World and had the chance to take a lot of car services but none were via the sixteen (16) registered taxicab companies serving Las Vegas. Let’s take a look at ride-sharing in the city of sin and what is likely to be the future of getting around in just a few years.
+
+The trend is lots and lots of red...
 
  **Trending Down**
 
@@ -20,7 +20,7 @@ Disruption will arrive in the form of a sedate sedan.
 
 [www.reviewjournal.com](https://www.reviewjournal.com/business/ride-share-use-keeps-rising-in-las-vegas-taxi-usage-plummets-1608660/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png) **Brief Interruptions**
+ **Brief Interruptions**
 
 It was only a few years ago that lawsuits and threats were the last refuge of the taxi companies. Time and technology was not on the side of the taxis.
 

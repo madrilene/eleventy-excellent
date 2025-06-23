@@ -6,7 +6,7 @@ date: 2019-03-18 00:00:00+00:00
 
 If you follow my annual blog updates you already know [I’ve been off the road for just over a year](https://fudge.org/archive/my-eighth-year-at-vce/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter). As with any decrease in travel frequency there are opportunities to learn and plan for an eventual increase. This week I’ll explore some of the things I’ve learned over the past +20 years of being in regular motion around the globe.
 
-[![My office at the peak of my North American travel... the AMEX Lounge in LAS](https://cuthrell.com/favicon.png "My office at the peak of my North American travel... the AMEX Lounge in LAS")](https://cuthrell.com/favicon.png)My office at the peak of my North American travel… the AMEX Lounge in LAS
+My office at the peak of my North American travel… the AMEX Lounge in LAS
 
 Membership Had Its Privileges
 =============================
@@ -17,7 +17,7 @@ If you follow travel blogs or travel rewards forums then you also know that the 
 
 Personally, I’ve carried around AMEX cards and Delta specific cards. However, there are fewer reasons to carry and more caveats than before as wider pools of participation occur through the wonders of corporate expense policy seeking to provide great perks year over year. Even my beloved American Express Centurion Lounge in Las Vegas was not immune to the spoils of its own success.
 
-[![Seriously.](https://cuthrell.com/favicon.png "Seriously.")](https://cuthrell.com/favicon.png)Seriously.
+Seriously.
 
 The 1st Wave: 1999-2006
 =======================
@@ -45,7 +45,7 @@ Jay’s Way Circa 2007
 
 The iPhone became reality in 2007. There were caveats that made it less than an ideal travel phone back then. For example, there was one carrier in those days if you wanted to have the iPhone.
 
-[![The year was 2007: Laptop. Wifi. Blackberry. Flip Phone.](https://cuthrell.com/favicon.png "The year was 2007: Laptop. Wifi. Blackberry. Flip Phone.")](https://cuthrell.com/favicon.png)The year was 2007: Laptop. Wifi. Blackberry. Flip Phone.
+The year was 2007: Laptop. Wifi. Blackberry. Flip Phone.
 
 Around this same time, I was asked if I could describe the ideal road warrior approach. Luckily, I wrote it down so that I can now reflect on the assumptions and some of the absurdities through a lens some 12 years later.
 
@@ -115,7 +115,7 @@ The system for getting and traveling well has changed up quite a bit as well. Th
 * National health club membership because poor hotel gyms aren’t an excuse not to get in gym time.
 * Keyless checkin is still a bit of a gimmick but useful when you get into the hotel after front desk staffing levels are less than ideal. Else, get an actual card when you can and especially if it is proximity based vs. Wiegand code strip aka mag stripe style. Those mag stripe style cards still fail from all the magnets used in mobile phones.
 
-[![That's why all my measurements are on file at Men's Wearhouse.](https://cuthrell.com/favicon.png "That's why all my measurements are on file at Men's Wearhouse.")](https://cuthrell.com/favicon.png)That’s why all my measurements are on file at Men’s Wearhouse.
+That’s why all my measurements are on file at Men’s Wearhouse.
 
 The Next Wave: 2020 and beyond
 ==============================

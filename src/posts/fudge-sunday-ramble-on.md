@@ -4,7 +4,7 @@ description: ''
 date: 2022-05-29 20:44:40+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week is a quick look a back at the “great resignation”.
+This week is a quick look a back at the “great resignation”.
 
 *Note: After a solid year using Revue for this newsletter, new formats will arrive in the coming weeks (and months) from a new provider after we migrate everything over.*
 
@@ -14,7 +14,7 @@ Led Zeppelin - Ramble On (1969)
 
 It’s a pretty good bet that if you are reading this issue you have a LinkedIn account. So, you’ve probably seen this graphic in your LinkedIn feed appearing more often:
 
-[![But... why does the cherry fall off?](https://cuthrell.com/favicon.png "But... why does the cherry fall off?")](https://cuthrell.com/favicon.png)But... why does the cherry fall off?
+But... why does the cherry fall off?
 
 If not, [use faceted search for “starting a new position”](https://www.linkedin.com/search/results/content/?keywords=starting%20a%20new%20position&origin=FACETED_SEARCH&postedBy=%5B%22first%22%2C%22me%22%5D&sid=9_e&sortBy=%22date_posted%22&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) sorted by recent dates. See what I mean?
 
@@ -24,7 +24,7 @@ If not, [use faceted search for “starting a new position”](https://www.linke
 
 For context, a year ago, I tweeted the following stats from my LinkedIn network well before the peak of the [“great resignation”](https://trends.google.com/trends/explore/TIMESERIES/1653850800?date=today%205-y&hl=en-US&q=%22great%20resignation%22&sni=3&tz=240&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) meme. My theory was, and continues to be that hiring by the hyperscale cloud service providers was and continues to be about talent sequestration from incumbent Enterprise products, sales, and operations companies.
 
-[![My peers at hyperscale cloud service providers by 2021](https://cuthrell.com/favicon.png "My peers at hyperscale cloud service providers by 2021")](https://cuthrell.com/favicon.png)My peers at hyperscale cloud service providers by 2021
+My peers at hyperscale cloud service providers by 2021
 
 A year ago, 160 of my peers had joined the hyperscale cloud service provider talent pool. This trend was and continues to be supplied most commonly at the expense of the top companies in my LinkedIn network (stack ranked):
 
@@ -78,7 +78,7 @@ But the catch for them is at-will employment works both ways.
 
  [1:21 AM - 19 Jan 2022](https://twitter.com/StaciaLevy/status/1483686085326618625)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Donald Sull](https://twitter.com/CultureXInsight/status/1480952251711688706)**
+**[Donald Sull](https://twitter.com/CultureXInsight/status/1480952251711688706)**
 
 [@CultureXInsight](https://twitter.com/CultureXInsight/status/1480952251711688706)
 

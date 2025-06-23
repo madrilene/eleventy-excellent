@@ -7,7 +7,7 @@ date: 2019-05-06 00:00:00+00:00
 This week I made the pilgrimage to Las Vegas for Dell Technologies World and had the chance to take a lot of car services but none were via the sixteen (16) registered taxicab companies serving Las Vegas. Let’s take a look at ride-sharing in the city of sin and what is likely to be the future of getting around in just a few years.
 
 
-[![The trend is lots and lots of red...](https://cuthrell.com/favicon.png "The trend is lots and lots of red...")](https://cuthrell.com/favicon.png)The trend is lots and lots of red…
+The trend is lots and lots of red…
 
 Trending Down
 =============
@@ -20,7 +20,7 @@ No matter what metric, the trends are all heading down for traditional taxi serv
 
 Disruption will arrive in the form of a sedate sedan.
 
-[![a0ee80fa65152072bf86ea6c4b6d10ee](https://cuthrell.com/favicon.png "a0ee80fa65152072bf86ea6c4b6d10ee")](https://cuthrell.com/favicon.png)Brief Interruptions
+Brief Interruptions
 ===================
 
 It was only a few years ago that lawsuits and threats were the last refuge of the taxi companies. Time and technology was not on the side of the taxis.

@@ -28,7 +28,7 @@ Oh, and here comes Industrial Internet of Things (IIoT) aka Industry 4.0.[1](#fo
 
 Now, let’s set a stage for standards and automation.[2](#footnote-2)
 
-[![](https://cuthrell.com/favicon.png)](https://xkcd.com/927/)[![](https://cuthrell.com/favicon.png)](https://xkcd.com/1319/)One aspect of IoT is thatmachines are increasingly shifting to the extended edges of the network as *“tolerance for latency”* continues to plummet?[3](#footnote-3)
+(https://xkcd.com/927/)(https://xkcd.com/1319/)One aspect of IoT is thatmachines are increasingly shifting to the extended edges of the network as *“tolerance for latency”* continues to plummet?[3](#footnote-3)
 
 When considering latency[4](#footnote-4), let’s be clear that IIoT places emphasis on an *industrial* perspective for IoT. Use cases matter, and IIoT requirements are greater than that of general IoT.[5](#footnote-5) 
 
@@ -55,7 +55,7 @@ The footnotes below go deeper into the RRoA and RPoA required for our IIoT futur
 
 For example, consider this superb infographic depicting generic IoT data pipelines from Satish Chandra Gupta aka @scgupta.[13](#footnote-13)
 
-[![](https://cuthrell.com/favicon.png)](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5)So, while IIoT has great requirements than IoT, we can expect [AWS](https://aws.amazon.com/iot/), [Azure](https://azure.microsoft.com/en-us/solutions/#internet-of-things), and [GCP](https://cloud.google.com/solutions/iot) to decide if they will enable RRoA and RPoA for our IIoT future. For perspective:
+(https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5)So, while IIoT has great requirements than IoT, we can expect [AWS](https://aws.amazon.com/iot/), [Azure](https://azure.microsoft.com/en-us/solutions/#internet-of-things), and [GCP](https://cloud.google.com/solutions/iot) to decide if they will enable RRoA and RPoA for our IIoT future. For perspective:
 
 * [GCP IoT Core](https://cloud.google.com/iot/docs?hl=en) was [beta launched in 2017](https://web.archive.org/web/20170518010139/https://cloud.google.com/iot-core/)
 * [AWS IIoT](https://aws.amazon.com/iot/solutions/industrial-iot/) was [launched in 2018](https://web.archive.org/web/20181019021301/https://aws.amazon.com/iot/solutions/industrial-iot/)

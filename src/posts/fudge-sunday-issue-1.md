@@ -4,11 +4,11 @@ description: ''
 date: 2019-02-17 23:42:23+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-issue-1-161193?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)I’m rebooting this newsletter for 2019. If you forgot you were on this list, there is probably a GDPR way to get off the list. Enjoy the first (13?) installment of Fudge Sunday.
 
-[![via fudge.org (circa 1996?)](https://cuthrell.com/favicon.png "via fudge.org (circa 1996?)")](https://cuthrell.com/favicon.png)via fudge.org (circa 1996?)
+I’m rebooting this newsletter for 2019. If you forgot you were on this list, there is probably a GDPR way to get off the list. Enjoy the first (13?) installment of Fudge Sunday.
+
+via fudge.org (circa 1996?)
 
  **Newsletters and podcasts galore**
 

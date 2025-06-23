@@ -15,7 +15,7 @@ Over the past few months I’ve been catching up with peers. Some are at their s
 
 As a matter of fact, [I do](https://grnh.se/66f4d22d4us).
 
-[![Faction is hiring!](https://cuthrell.com/favicon.png "Faction is hiring!")](https://cuthrell.com/favicon.png)However, it’s myopic to think peers would want to apply ONLY for [where I happen to be gainfully employed](https://grnh.se/66f4d22d4us) or that their dream role already exists.
+(https://grnh.se/66f4d22d4us) or that their dream role already exists.
 
 (BTW – If you are reading this and you have a dream role in mind that’s [not listed here](https://grnh.se/66f4d22d4us)… please [let me know](https://jaycuthrell.com/contact)!)
 
@@ -76,7 +76,7 @@ Currently, I’m working at [Faction](https://grnh.se/66f4d22d4us) which is a po
 
 As you might expect, the DTC folks are pretty smart.
 
-[![DTC](https://cuthrell.com/favicon.png "DTC")](https://cuthrell.com/favicon.png)DTC took the time to invest in an aggregate job site for their portfolio companies that is powered by [Getro](https://www.getro.com/getro-jobs/)
+(https://www.getro.com/getro-jobs/)
 
 <https://careers.delltechnologiescapital.com>
 
@@ -87,7 +87,7 @@ But what about other VC firms?
 
 The folks at a16z are smart too.
 
-[![a16z](https://cuthrell.com/favicon.png "a16z")](https://cuthrell.com/favicon.png)a16z took the time to invest in using [Consider](https://product.consider.com/ctc/talent-circle)
+(https://product.consider.com/ctc/talent-circle)
 
 <https://portfoliojobs.a16z.com/jobs>
 
@@ -97,7 +97,7 @@ And the VC search continues…
 
 The folks at GV are smart but they do not appear to have invested in… well… portfolio company job lists.
 
-[![GV](https://cuthrell.com/favicon.png "GV")](https://cuthrell.com/favicon.png)[Imagine](https://www.gv.com/portfolio/) if they did.
+(https://www.gv.com/portfolio/) if they did.
 
 ### Growing this list…
 

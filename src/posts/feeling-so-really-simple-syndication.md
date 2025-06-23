@@ -15,21 +15,21 @@ Work Update
 
 First, I shared [my hashtag laden work update](https://www.linkedin.com/posts/jaycuthrell_digitaltransformation-servicesolutions-finops-activity-6962755116223315969-AjQh) on LinkedIn.[1](#footnote-1) Next, I then shared [my simple rebus and link work update](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1557120025177243656) on Twitter[2](#footnote-2) — but [my POSSE methodology](https://sunday.fudge.org/p/me-and-my-posse) will reclaim what has been shared at some point.
 
-[![](https://cuthrell.com/favicon.png)](https://www.linkedin.com/posts/jaycuthrell_digitaltransformation-servicesolutions-finops-activity-6962755116223315969-AjQh)Reactions are endorphins 🙏🤓[![Twitter avatar for @JayCuthrell](https://cuthrell.com/favicon.png)Jay Cuthrell @JayCuthrell👋Hi. I'm an #IBMer 👁🐝Ⓜ️
+(https://www.linkedin.com/posts/jaycuthrell_digitaltransformation-servicesolutions-finops-activity-6962755116223315969-AjQh)Reactions are endorphins 🙏🤓Jay Cuthrell @JayCuthrell👋Hi. I'm an #IBMer 👁🐝Ⓜ️
 
-[taos.com/resources/pres…](https://www.taos.com/resources/press-releases/taos-brings-aboard-new-senior-vice-president-of-products-to-accelerate-digital-transformation-strategies/)[![](https://cuthrell.com/favicon.png)taos.comTaos Brings Aboard New Senior Vice President of Products to Accelerate Digital Transformation StrategiesIn its most recent hiring move, Taos, an IBM company, has brought on Jay Cuthrell as the company’s new Senior Vice President (SVP) of Products. As he joins the organization’s executive team, Cuthrell will focus on supporting and evolving Taos’ digital transformation services and solutions, adding to…](https://www.taos.com/resources/press-releases/taos-brings-aboard-new-senior-vice-president-of-products-to-accelerate-digital-transformation-strategies/)](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1557120025177243656?s=20&t=YmxcdliQBPfK5H45WTa9vg)[9:41 PM ∙ Aug 9, 2022](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1557120025177243656?s=20&t=YmxcdliQBPfK5H45WTa9vg)Getting Informed
+[taos.com/resources/pres…](https://www.taos.com/resources/press-releases/taos-brings-aboard-new-senior-vice-president-of-products-to-accelerate-digital-transformation-strategies/)(https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1557120025177243656?s=20&t=YmxcdliQBPfK5H45WTa9vg)Getting Informed
 ================
 
 RDF Site Summary *or* Really Simple Syndication ([RSS](https://en.wikipedia.org/wiki/RSS)) has existed for at least two decades — and Atom isn’t far behind — as a way to subscribe to articles you want to read before the days of keeping dozens of browser tabs open per website. Yet, the design goals of RSS/Atom appear to increasingly run counter to a growing deep web, silo content destinations, and monetization of the attention economy.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Interweb cats *love* the meaty new taste of content silos?When the topic of RSS/Atom comes up, for older generations of World Wide Web users there are often nostalgic callback moments. For example, the belief that the rise and eventual end of life for products like Google Reader was the first of many examples of [“why we can’t have nice things”](https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html) on the Interwebs after the .com era.
+Interweb cats *love* the meaty new taste of content silos?When the topic of RSS/Atom comes up, for older generations of World Wide Web users there are often nostalgic callback moments. For example, the belief that the rise and eventual end of life for products like Google Reader was the first of many examples of [“why we can’t have nice things”](https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html) on the Interwebs after the .com era.
 
 Set it up DJ 🎶
 --------------
 
 Me? I *really* liked Google Reader. In fact, I took some screenshots of Google Reader, hosted them on services like [Flickr](https://www.flickr.com/services/feeds/) as a sort of visual blog about each new enhancement.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Circa 2007 - Google Reader told me what I tended to read.[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Circa 2008 - Google Reader enabled the taking of notes as a sort of meta blog[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Circa 2008 - Google Reader enabled the taking of notes as a sort of meta blogTake me away 🎶
+Circa 2007 - Google Reader told me what I tended to read.Circa 2008 - Google Reader enabled the taking of notes as a sort of meta blogCirca 2008 - Google Reader enabled the taking of notes as a sort of meta blogTake me away 🎶
 --------------
 
 The timeline of RSS/Atom feeds handling shows tension even now and likely for the future.

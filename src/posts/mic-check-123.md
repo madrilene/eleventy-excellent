@@ -4,7 +4,7 @@ description: ''
 date: 2019-03-11 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)Just over 30 years ago I was enamored with the playing and recording of live music. Life back then involved analog recording rigs, tapes, heavy sound mixers, clunky snakes, speakers, monitors, amps, mics, and the investment of time to get it all right.
+Just over 30 years ago I was enamored with the playing and recording of live music. Life back then involved analog recording rigs, tapes, heavy sound mixers, clunky snakes, speakers, monitors, amps, mics, and the investment of time to get it all right.
 
 This week I learned a little more about what has changed in the past 20 years.
 

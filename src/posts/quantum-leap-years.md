@@ -4,8 +4,7 @@ description: ''
 date: 2019-03-04 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://buttondown-attachments.s3.us-west-2.amazonaws.com/0372814a-d233-4ea2-a396-41c6f629b56b?AWSAccessKeyId=AKIAJEXF6S6TCOKT7N3Q&Signature=HRqUTw0vJSytvceUF3xmDerxIZ8%3D&Expires=1677576946 "Fudge Sunday")](https://buttondown-attachments.s3.us-west-2.amazonaws.com/0372814a-d233-4ea2-a396-41c6f629b56b?AWSAccessKeyId=AKIAJEXF6S6TCOKT7N3Q&Signature=HRqUTw0vJSytvceUF3xmDerxIZ8%3D&Expires=1677576946)The topic of [quantum computing](https://en.wikipedia.org/wiki/Quantum_computing?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) has steadily moved towards the realm of popular science. As with many other topics within popular science, wider audiences will have varying degrees of awareness and depth – but recognition is certainly on the rise.
-
+The topic of [quantum computing](https://en.wikipedia.org/wiki/Quantum_computing?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) has steadily moved towards the realm of popular science. As with many other topics within popular science, wider audiences will have varying degrees of awareness and depth – but recognition is certainly on the rise.
 
 Let’s get the TV reference out of the way…
 ==========================================
@@ -42,7 +41,7 @@ The Rest of the World
 
 Trying to gauge more general interests outside of Gartner clientele is a bit more challenging. Even Google Trends indicate that interest in quantum computing has risen and fallen over the years.
 
-[![Perhaps the least scientific way to gauge interest...](https://buttondown-attachments.s3.us-west-2.amazonaws.com/40f71c60-8d25-4c8a-b938-d30c2d39badc?AWSAccessKeyId=AKIAJEXF6S6TCOKT7N3Q&Signature=4fFQHMNU1WSWjhEz6o0KHqRk4Lg%3D&Expires=1677576947 "Perhaps the least scientific way to gauge interest...")](https://buttondown-attachments.s3.us-west-2.amazonaws.com/40f71c60-8d25-4c8a-b938-d30c2d39badc?AWSAccessKeyId=AKIAJEXF6S6TCOKT7N3Q&Signature=4fFQHMNU1WSWjhEz6o0KHqRk4Lg%3D&Expires=1677576947)Perhaps the least scientific way to gauge interest…
+Perhaps the least scientific way to gauge interest…
 
 Zeitgeist estimates aside, the steady uptick in searches for quantum computing would indicate more people wonder what quantum computing is about. Also, in just over 15 years, the interest in quantum computing has risen to the level of demand for summaries targeting CIOs.
 
@@ -118,4 +117,3 @@ Topology and connected differentiation appear
 [www.geekwire.com](https://www.geekwire.com/2019/microsofts-quantum-computing-network-takes-one-giant-leap-startup-summit/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) - [Share](http://rev.vu/69k3X2?utm_campaign=Issue&utm_content=share&utm_medium=email&utm_source=Fudge+Sunday)
 
 Birds of a feather, partners, and the wisdom of self-selecting crowds aching to become a community aligned to the funding and long term bets of a cloud computing powerhouse.
-

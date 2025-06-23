@@ -6,13 +6,13 @@ date: 2022-02-14 00:04:04+00:00
 
 This week we peek at meta newsletter reading on TypeScript, Prototyping, Consumerized Enterprise, Edge Computing, and the Uncanny Valley.
 
-[![Devo - Peek A Boo (Official Music Video)](https://cuthrell.com/favicon.png "Devo - Peek A Boo (Official Music Video)")](https://cuthrell.com/favicon.png)Devo - Peek A Boo (Official Music Video)
+Devo - Peek A Boo (Official Music Video)
 
  **Getting Informed**
 
 Previously, I’ve shared my appreciation for [Matter](https://sunday.fudge.org/issues/fudge-sunday-zettelkasten-end-of-year-favorites-930157?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) and [Obsidian](https://sunday.fudge.org/issues/fudge-sunday-zettelkasten-end-of-year-favorites-930157?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) in my pursuit of a [zettelkasten](https://sunday.fudge.org/issues/fudge-sunday-zettelkasten-end-of-year-favorites-930157?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). So, I was really excited when the Matter team published a repository on GitHub for Obsidian users.
 
-[![The Matter Obsidian plugin...](https://cuthrell.com/favicon.png "The Matter Obsidian plugin...")](https://cuthrell.com/favicon.png)**[The Matter Obsidian plugin...](https://github.com/getmatterapp/obsidian-matter?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://github.com/getmatterapp/obsidian-matter?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 The [Matter Obsidian plugin](https://github.com/getmatterapp/obsidian-matter?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) provides all the elements to extend to customize workflows. As such, yet another weekend project is in my near future.🤓
 
@@ -22,7 +22,7 @@ Source:
 
 To understand how powerful the [Matter Obsidian plugin](https://github.com/getmatterapp/obsidian-matter?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) can be, it’s worth watching how [Matt Birchler](https://twitter.com/mattbirchler?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) from [“A Better Computer”](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=GqTyyQBi3hA) is leveraging it to simplify his own workflow.
 
-[![Example of blogging workflow with Matter, Shortcuts, Ghost, and more](https://cuthrell.com/favicon.png "Example of blogging workflow with Matter, Shortcuts, Ghost, and more")](https://cuthrell.com/favicon.png)Example of blogging workflow with Matter, Shortcuts, Ghost, and more
+Example of blogging workflow with Matter, Shortcuts, Ghost, and more
 
  **My own Matter Obsidian plugin activity last week**
 

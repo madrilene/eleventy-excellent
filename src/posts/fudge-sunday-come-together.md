@@ -4,7 +4,7 @@ description: ''
 date: 2022-04-17 22:13:40+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at mergers and acquisitions with FinOps in mind.
+This week we take a look at mergers and acquisitions with FinOps in mind.
 
 The Beatles - Come Together (1969)
 

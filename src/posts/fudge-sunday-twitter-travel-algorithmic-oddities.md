@@ -4,7 +4,7 @@ description: ''
 date: 2022-05-08 20:10:22+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we look at IP targeting and geofencing while traveling.
+This week we look at IP targeting and geofencing while traveling.
 
 A Tribe Called Quest - Scenario (1992)
 
@@ -124,7 +124,7 @@ Scenario approach:
 
 First, we test from an IP address that’s close to a metropolitan area.
 
-[![As seen from a metropolitan browsing scenario...](https://cuthrell.com/favicon.png "As seen from a metropolitan browsing scenario...")](https://cuthrell.com/favicon.png)As seen from a metropolitan browsing scenario...
+As seen from a metropolitan browsing scenario...
 
 Twitter recommended following these accounts with 2M Followers, 32M Followers, and 25.1M Followers respectively. So, I have no further commentary other than while these are **massive** following numbers none of these suggestions are in the [Top 50 followed accounts on Twitter](https://web.archive.org/web/20220504142639/https://en.wikipedia.org/wiki/List_of_most-followed_Twitter_accounts?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
@@ -136,7 +136,7 @@ For perspective, to be in the Top 50 would require +37.2M Followers as of this i
 
 Second, we test from an IP address that’s +100 miles from a city center.
 
-[![As seen from a rural browsing scenario...](https://cuthrell.com/favicon.png "As seen from a rural browsing scenario...")](https://cuthrell.com/favicon.png)As seen from a rural browsing scenario...
+As seen from a rural browsing scenario...
 
 Twitter recommended following these accounts with 2.6M Followers, 2.7M Followers, and 2.7M Followers respectively. Again, I have no further commentary other than I was nowhere near a city in Ohio or the state of Ohio at the time of this screenshot.
 
@@ -161,7 +161,7 @@ Trends have been a part of Twitter for [well over a decade](https://www.techmeme
 
 So, it’s important to consider how a service you use is making money – not just from the advertising which is common – but as a function of the simulacrum for recommending what you should engage with now or next. Because, the alignment of incentives might not be anymore nefarious than a machine learning model that maps engagement based on ***the most benign basic banal assumptions*** when there is scant information or limited input for a so-called recommendation to present as now or next actions to take.
 
-[![Twitter, Inc. - Financial information - SEC filings](https://cuthrell.com/favicon.png "Twitter, Inc. - Financial information - SEC filings")](https://cuthrell.com/favicon.png)**[Twitter, Inc. - Financial information - SEC filings](https://investor.twitterinc.com/financial-information/sec-filings/default.aspx?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://investor.twitterinc.com/financial-information/sec-filings/default.aspx?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 *Our Promoted Ads are pay-for-performance or pay-for-impression delivered advertising that are priced through an auction.*
 
@@ -197,7 +197,7 @@ My most popular tweet about open source is for an empty repo. <https://t.co/Xyzn
 
 Moments later…
 
-[![And... scene?](https://cuthrell.com/favicon.png "And... scene?")](https://cuthrell.com/favicon.png)And... scene?
+And... scene?
 
 **[Can an Algorithm be Wrong (May 2012)](https://limn.it/articles/can-an-algorithm-be-wrong/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 

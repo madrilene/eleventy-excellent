@@ -16,7 +16,7 @@ People I know, places I go 🎶
 
 Initially, justifying payment to YouTube Premium was mostly to avoid the annoyance of advertising. However, I now realize the experience is far superior to paying a bill for whatever passes as cable TV or streaming entertainment these days.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Oh, Boromir.Which makes me smile inside 🎶
+Oh, Boromir.Which makes me smile inside 🎶
 -----------------------------
 
 [Christina Warren](https://twitter.com/film_girl) and the team at GitHub provide me with an idea of what I might have missed and what I need to maintain my tech situational awareness. After all, GitHub has a community of [~60M users](https://github.com/search?q=type:user&type=Users), so a lot goes on that anyone could miss. 

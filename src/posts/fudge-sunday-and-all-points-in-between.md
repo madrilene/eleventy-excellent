@@ -4,9 +4,9 @@ description: 'part 2 of a 5 part series'
 date: 2021-07-11 14:56:41+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-and-all-points-in-between-679406?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)A song, lyric, and tweets to connect it back to the edge, core, and cloud.
+
+A song, lyric, and tweets to connect it back to the edge, core, and cloud.
 
 This issue is part 2 of a 5 part series
 
@@ -18,7 +18,7 @@ This issue is part 2 of a 5 part series
 
  **And all points in between**
 
-[![ZZ Top - Jesus Just Left Chicago (From "Double Down Live - 1980")](https://cuthrell.com/favicon.png "ZZ Top - Jesus Just Left Chicago (From \"Double Down Live - 1980\")")](https://cuthrell.com/favicon.png)ZZ Top - Jesus Just Left Chicago (From "Double Down Live - 1980")
+ZZ Top - Jesus Just Left Chicago (From "Double Down Live - 1980")
 
 Consider that there are still arguably [millions of other data centers](https://www.statista.com/statistics/500458/worldwide-datacenter-and-it-sites/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) from privately held data centers to colocation data centers to specific niche hosting provider data centers. Also, there are clever essays on what if scenarios that challenge the notion of everything going public cloud on a long enough timeline and [coming back, via a [checks notes] Trillion Dollars repatriation, home to the core](https://a16z.com/2021/05/27/cost-of-cloud-paradox-market-cap-cloud-lifecycle-scale-growth-repatriation-optimization/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
@@ -133,7 +133,7 @@ Inside a GlobalFoundries chipmaking plant in upstate NY, filled with $10B worth 
 
 Along the way, the companies associated with the future might look different than the ubiquitous incumbency but that’s okay too
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1413324739536474112)**
+**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1413324739536474112)**
 
 [@JayCuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1413324739536474112)
 
@@ -153,7 +153,7 @@ If you remain a talking head in a Zoom room, best of luck to office REITs seekin
 
  [9:22 PM - 9 Jul 2021](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1413670026410930181)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Bloomberg Opinion](https://twitter.com/bopinion/status/1413179829290209284)**
+**[Bloomberg Opinion](https://twitter.com/bopinion/status/1413179829290209284)**
 
 [@bopinion](https://twitter.com/bopinion/status/1413179829290209284)
 
@@ -165,7 +165,7 @@ If you remain a talking head in a Zoom room while others are showing up in perso
 
 So as social becomes just media and media tries to become more social, it will be important to keep our collective sense of humor (if there can be one) by anchoring to the export of meme… or, if you will, ensuring access to the *meme’s of production* ;-)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1412225048522461185)**
+**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1412225048522461185)**
 
 [@JayCuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1412225048522461185)
 

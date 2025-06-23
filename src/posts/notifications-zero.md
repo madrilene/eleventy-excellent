@@ -4,7 +4,7 @@ description: ''
 date: 2016-12-26 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)Welcome to the first issue of my digest.
+Welcome to the first issue of my digest.
 
 I know… an email newsletter on the eve of the year 2017. Bold! :wink:
 
@@ -23,7 +23,7 @@ Let’s begin…
 
 
 
-[![Here's to taking the red pill in 2017... ](https://cuthrell.com/favicon.png "Here's to taking the red pill in 2017... ")](https://cuthrell.com/favicon.png)Here’s to taking the red pill in 2017…
+Here’s to taking the red pill in 2017…
 
 Notifications Zero and Notifications Bankruptcy
 

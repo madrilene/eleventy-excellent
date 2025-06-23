@@ -4,9 +4,9 @@ description: ''
 date: 2021-10-03 21:12:39+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-status-dashboards-783150?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at public things for a public cloud.
+
+This week we take a look at public things for a public cloud.
 
 ☁️✅⚠️🛑
 
@@ -20,7 +20,7 @@ This issue is part 1 of a 5 part series
 
  **Last Week**
 
-[![Razor Thin Margins of Error Bars](https://cuthrell.com/favicon.png "Razor Thin Margins of Error Bars")](https://cuthrell.com/favicon.png)**[Razor Thin Margins of Error Bars](https://sunday.fudge.org/issues/fudge-sunday-razor-thin-margins-of-error-bars-772573?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-razor-thin-margins-of-error-bars-772573?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Last week we took a look at three links and the implications in the cloud ☁️, attestation🔐, and statistical journeys to *here be dragons🐲*.
 
@@ -80,11 +80,11 @@ Originally, AWS Service Health Dashboard almost fit on one page scroll in a web 
 
 The look of the 2008 AWS Service Health Dashboard was simple, clean, and brief with only nine (9!) services. ([via Wayback Machine](https://web.archive.org/web/*/http://status.aws.amazon.com?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter))
 
-[![Today, +2000 services by region are represented on the AWS Service Health Dashboard.](https://cuthrell.com/favicon.png "Today, +2000 services by region are represented on the AWS Service Health Dashboard.")](https://cuthrell.com/favicon.png)Today, +2000 services by region are represented on the AWS Service Health Dashboard.
+Today, +2000 services by region are represented on the AWS Service Health Dashboard.
 
 By 2010, a status dashboard was becoming an expectation for customers of various “as a service” companies. Customers wanted to know if something was wrong with their Internet connect *or* if a service was truly having issues. See also: [Social Telecom (2010)](https://fudge.org/archive/social-telecom/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) and [Social Telecom 2030](https://fudge.org/archive/social-telecom-2030/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![Paradise by the Stashboard Light](https://cuthrell.com/favicon.png "Paradise by the Stashboard Light")](https://cuthrell.com/favicon.png)**[Paradise by the Stashboard Light](https://readwrite.com/2010/10/11/exploring-stashboard-dashboard/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://readwrite.com/2010/10/11/exploring-stashboard-dashboard/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Paradise by the Stashboard Light was one in a series of technical blog post I authored for ReadWriteWeb (aka RWW). At the time, several online companies realized the need to offer status dashboards and Twilio responded by offering Stashboard which leveraged Google App Engine, an early precursor to the serverless movement.
 

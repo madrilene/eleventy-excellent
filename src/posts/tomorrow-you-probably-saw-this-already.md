@@ -4,7 +4,7 @@ description: ''
 date: 2019-04-21 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)In this issue, we take a look at the future, past, and the creative combinations of both marked by technology and popular media. We’ll look at the relics that persist and the promises yet to be realized. Along the way, the potential for unintended parachronism grows larger with each passing year.
+In this issue, we take a look at the future, past, and the creative combinations of both marked by technology and popular media. We’ll look at the relics that persist and the promises yet to be realized. Along the way, the potential for unintended parachronism grows larger with each passing year.
 
 p.s. Thanks to the folks behind [Vecteezy Editor](https://www.vecteezy.com/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) for the new logo!
 

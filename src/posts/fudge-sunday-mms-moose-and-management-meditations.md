@@ -4,11 +4,11 @@ description: ''
 date: 2022-02-27 23:49:55+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-m-m-s-moose-and-management-meditations-1049601?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at data quality, testing, and management lore.
 
-[![I don't have many moose photos so this will just have to do.](https://cuthrell.com/favicon.png "I don't have many moose photos so this will just have to do.")](https://cuthrell.com/favicon.png)I don't have many moose photos so this will just have to do.
+This week we take a look at data quality, testing, and management lore.
+
+I don't have many moose photos so this will just have to do.
 
  **Getting Informed**
 
@@ -36,7 +36,7 @@ Now, let’s take a look at data quality, testing, and management lore.
 
  **Papa's got a brand new bag of M&M's**
 
-[![The Great Data Debate: DAMA UK's Data Quality Dimensions (awful audio version)](https://cuthrell.com/favicon.png "The Great Data Debate: DAMA UK's Data Quality Dimensions (awful audio version)")](https://cuthrell.com/favicon.png)The Great Data Debate: DAMA UK's Data Quality Dimensions (awful audio version)
+The Great Data Debate: DAMA UK's Data Quality Dimensions (awful audio version)
 
 One of the interesting elements from the world of data science is the notion of data quality. Almost 10 years ago the so-called *six attributes* were captured in works from the DAMA UK in the Great Data Debate at the release of DAMA UK White Paper on Data Quality Dimensions which introduced (alphabetically):
 
@@ -91,7 +91,7 @@ In the Abilene paradox, a group of people collectively decide on a course of act
 
 Source: [wikipedia.org](https://en.wikipedia.org/wiki/Abilene_paradox?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![The Abilene Paradox (1984)](https://cuthrell.com/favicon.png "The Abilene Paradox (1984)")](https://cuthrell.com/favicon.png)The Abilene Paradox (1984)
+The Abilene Paradox (1984)
 
 If that was a treat – you are in luck. YouTube has a collection of yarns and stagecraft from Jerry B. Harvey.
 
@@ -99,7 +99,7 @@ Here’s one more for the proverbial road…
 
 ~2 hours of artful and educational storytelling. Enjoy!
 
-[![Dr. Jerry B. Harvey delivers 2 hours of insightful management yarns (1981)](https://cuthrell.com/favicon.png "Dr. Jerry B. Harvey delivers 2 hours of insightful management yarns (1981)")](https://cuthrell.com/favicon.png)Dr. Jerry B. Harvey delivers 2 hours of insightful management yarns (1981)
+Dr. Jerry B. Harvey delivers 2 hours of insightful management yarns (1981)
 
 In summary, when thinking about exponential data growth and the growing importance of that data, there is much more to consider. Perhaps one thing we need to consider is combining BMMaaS with an overlay of the Moose Test to move forward — all while acknowledging that there are those around us with boredom, temerity, conformity, and deadlines – including ourselves.
 

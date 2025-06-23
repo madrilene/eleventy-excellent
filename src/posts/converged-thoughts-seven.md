@@ -7,7 +7,7 @@ date: 2017-01-04
 Looking Back & Looking Ahead
 ============================
 
-[![Cleaned my desk area and found this relic of 2010... my how time flies!](https://cuthrell.com/favicon.png "Cleaned my desk area and found this relic of 2010... my how time flies!")](https://cuthrell.com/favicon.png)Cleaned my desk area and found this relic of 2010… my how time flies!
+Cleaned my desk area and found this relic of 2010… my how time flies!
 
 I’ve maintained a website of some form or anther for more than 20 years. My blogging (when that term was coined) has been sporadic depending on what I was doing career wise at the time.
 

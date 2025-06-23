@@ -4,9 +4,9 @@ description: ''
 date: 2021-10-18 00:01:32+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-devcommsops-805563?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we continue to take a look at public things for a public cloud.
+
+This week we continue to take a look at public things for a public cloud.
 
 ☁️✅⚠️🛑
 
@@ -32,7 +32,7 @@ Luckily, there’s always a cat meme ready to help us better understand.
 
 *Vive La ChatOps!*
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Capitaine Flam 💫🚀🔥🔥🔥](https://twitter.com/CapitaineFlam4/status/1415008668899332096)**
+**[Capitaine Flam 💫🚀🔥🔥🔥](https://twitter.com/CapitaineFlam4/status/1415008668899332096)**
 
 [@CapitaineFlam4](https://twitter.com/CapitaineFlam4/status/1415008668899332096)
 

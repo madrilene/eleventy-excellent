@@ -13,12 +13,12 @@ This week we take a look at Network Time Protocol (NTP), Precision Time Protocol
 
 Subscribe to Fudge Sunday! 🤓
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Ooooooops?And the shadow boys are breaking all the laws 🎶
+Ooooooops?And the shadow boys are breaking all the laws 🎶
 -----------------------------------------------
 
 First, you might have noticed the recent piece in The New Yorker on the origins and implications of Network Timer Protocol (NTP). 
 
-[![Twitter avatar for @NDHopper](https://cuthrell.com/favicon.png)Nate Hopper @NDHopperFor @NewYorker, I wrote a long piece about the “jolly old elf” largely responsible for how the time is synchronized across the Internet—including the clock in the corner of your computer screen—and a fascinating power struggle that's been taking shape: [![](https://cuthrell.com/favicon.png)newyorker.comThe Thorny Problem of Keeping the Internet’s TimeAn obscure software system synchronizes the network’s clocks. Who will keep it running?](https://www.newyorker.com/tech/annals-of-technology/the-thorny-problem-of-keeping-the-internets-time)](https://twitter.com/NDHopper/status/1575829685295992832?s=20&t=MS-feaHFj5EV0GsKHjajNg)[12:47 PM ∙ Sep 30, 2022
+(https://twitter.com/NDHopper/status/1575829685295992832?s=20&t=MS-feaHFj5EV0GsKHjajNg)[12:47 PM ∙ Sep 30, 2022
 
 ---
 
@@ -38,7 +38,7 @@ Third, you might ask a simple question. What’s in (or on) the cards?
 
 A lot actually — and the software too[4](#footnote-4). As mentioned in Fudge Sunday previously, IIoT means there will be a growing number of use cases where Ultra-Reliable Low Latency Communications (URLLC) is required and the enablement barriers will be a fascinating study of when, not if, they will fall away.
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayMake IIoT Easy On YourselfRead more5 months ago · 1 like · Jay Cuthrell](https://sunday.fudge.org/p/make-iiot-easy-on-yourself?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Just consider that access to precision time protocol has come to the hobbyist community. Indeed… What a time to be alive! (pun intended)
+(https://sunday.fudge.org/p/make-iiot-easy-on-yourself?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Just consider that access to precision time protocol has come to the hobbyist community. Indeed… What a time to be alive! (pun intended)
 
 And their memory's like a train 🎶
 ---------------------------------

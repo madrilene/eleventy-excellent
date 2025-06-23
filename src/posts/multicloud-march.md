@@ -38,7 +38,7 @@ Throughput could be thought of as simply the bandwidth (amount) and the latency 
 
 By way of [poultry analogy](https://fudge.org/archive/the-5-ps-of-workloads), if PaaS was poultry as a service there would be the high latency drive through lane and then there would be, well, the express lane.
 
-[![Chicken Express](https://cuthrell.com/favicon.png "Chicken Express")](https://cuthrell.com/favicon.png)Preferred Packet Pricing Pending Prudent Placements
+Preferred Packet Pricing Pending Prudent Placements
 ===================================================
 
 Speaking of marketing, the shorter the name the better, right? Well, a lot of ink can be spilled in trying to make poultry sound more interesting and the same applies to the delivery of packets over a network.

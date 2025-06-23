@@ -5,7 +5,7 @@ description: 'All blog posts can be found here'
 pagination:
   data: collections.allPosts
   size: 8
-permalink: 'blog/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
+permalink: 'archive/{% if pagination.pageNumber >=1 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html'
 ---
 
 <div class="wrapper">

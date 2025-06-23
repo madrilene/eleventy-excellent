@@ -4,16 +4,16 @@ description: ''
 date: 2022-09-04 21:54:41.790000+00:00
 ---
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Getting Informed
+Getting Informed
 ================
 
 As I was thinking about the topic for this newsletter post, NASA’s Artemis 1 launch got pushed back a bit. So, that provides more opportunity to focus on radiation hardening and IPFS.
 
-[![Twitter avatar for @NASA](https://cuthrell.com/favicon.png)NASA @NASA#Artemis Update: The team continues to troubleshoot, and plans to return with a variety of options early next week. We are standing down on any launch attempts through the current launch period, which ends Tuesday.
+NASA @NASA#Artemis Update: The team continues to troubleshoot, and plans to return with a variety of options early next week. We are standing down on any launch attempts through the current launch period, which ends Tuesday.
 
 See [blogs.nasa.gov/artemis](http://blogs.nasa.gov/artemis) for more information. ![The Space Launch System rocket stands upright on the launchpad. The background is the late afternoon sky dominated by towering clouds. The rocket has an orange central fuel tank with two white rocket boosters on either side. The rocket is reflected in the water in the foreground of the image, framed by marsh grass. Between the water and the rocket is a parking lot with over a dozen parked cars. Photo credit: NASA/Bill Ingalls⁣⁣
 
-](https://pbs.substack.com/media/FbwwNk4XgAIko9X.jpg)](https://twitter.com/NASA/status/1566179789211402242?s=20&t=NjmkPrPa2mUcvBPSq5Qz5g)[9:42 PM ∙ Sep 3, 2022
+](https://cuthrell.com/favicon.png)](https://twitter.com/NASA/status/1566179789211402242?s=20&t=NjmkPrPa2mUcvBPSq5Qz5g)[9:42 PM ∙ Sep 3, 2022
 
 15,897Likes2,161Retweets](https://twitter.com/NASA/status/1566179789211402242?s=20&t=NjmkPrPa2mUcvBPSq5Qz5g)Now, brace yourselves for maximum YouTube videos and Tweets in this newsletter post. Put on your propeller hat, grab a slide rule, and… well, start the countdown.
 
@@ -40,25 +40,25 @@ Let me play among the stars 🎶
 
 If you haven’t thought about radiation hardening[3](#footnote-3), just remember that going into space for a long time requires far more planning than just the math and physics of rocketing into space itself. As such, radiation hardening is fascinating as a topic because it has materials science, hardware design, and software design considerations with real world engineering, supply chain, and economics implications.
 
-[![Twitter avatar for @anildash](https://cuthrell.com/favicon.png)Anil @anildashFun trivia: @NASAPersevere runs on a radiation-hardened version of the same 233mhz PowerPC 750 processor that was the brains of the original see-through blue iMacs in 1998. [![](https://cuthrell.com/favicon.png)gizmodo.comA 1990s iMac Processor Powers NASA’s Perseverance RoverIt’s not about processing speed, but reliability.](https://gizmodo.com/a-1990s-imac-processor-powers-nasa-s-perseverance-rover-1846380844)](https://twitter.com/anildash/status/1366931110752567297?s=20&t=wMmadh2wv70xWatBgd2ZgA)[1:59 AM ∙ Mar 3, 2021
+(https://twitter.com/anildash/status/1366931110752567297?s=20&t=wMmadh2wv70xWatBgd2ZgA)[1:59 AM ∙ Mar 3, 2021
 
 
-41Likes9Retweets](https://twitter.com/anildash/status/1366931110752567297?s=20&t=wMmadh2wv70xWatBgd2ZgA)[![Twitter avatar for @pavolrusnak](https://cuthrell.com/favicon.png)Pavol Rusnak 🍯🦡 @pavolrusnakDid you know that James Webb Space Telescope runs on RAD750?
+41Likes9Retweets](https://twitter.com/anildash/status/1366931110752567297?s=20&t=wMmadh2wv70xWatBgd2ZgA)Pavol Rusnak 🍯🦡 @pavolrusnakDid you know that James Webb Space Telescope runs on RAD750?
 
 It's a $200,000 radiation-hardened single-board computer based on PowerPC 750 running at 118 MHz, first released over 20 years ago in 2001.
 
 For comparison, a $35 Raspberry Pi 4 released in 2019 is around 35x faster.](https://twitter.com/pavolrusnak/status/1480299213443383297?s=20&t=wMmadh2wv70xWatBgd2ZgA)[10:03 PM ∙ Jan 9, 2022
 
-301Likes67Retweets](https://twitter.com/pavolrusnak/status/1480299213443383297?s=20&t=wMmadh2wv70xWatBgd2ZgA)[![Twitter avatar for @DrRob_Thacker](https://cuthrell.com/favicon.png)Rob Thacker @DrRob\_ThackerRegular peeps: wow the #JWST image storage system is a puny 68GB. 
+301Likes67Retweets](https://twitter.com/pavolrusnak/status/1480299213443383297?s=20&t=wMmadh2wv70xWatBgd2ZgA)Rob Thacker @DrRob\_ThackerRegular peeps: wow the #JWST image storage system is a puny 68GB. 
 
 Astro peeps: holy smokes #JWST has 68GB of radiation hardened storage, that's 30x more than the Curiosity rover!
 
 It's hard to run computers in high radiation environments! ![james webb space GIF by NASA](https://substackcdn.com/video/upload/e_loop,vs_40/kgwe4gdn6nnmeghsafsb.gif)](https://twitter.com/DrRob_Thacker/status/1550980072307363843?s=20&t=wMmadh2wv70xWatBgd2ZgA)[11:03 PM ∙ Jul 23, 2022
 
 
-12Likes2Retweets](https://twitter.com/DrRob_Thacker/status/1550980072307363843?s=20&t=wMmadh2wv70xWatBgd2ZgA)[![Twitter avatar for @trengriffin](https://cuthrell.com/favicon.png)Tren Griffin @trengriffin@Simon\_Fabbri @VirtuallyNathan @mikepuchol @larrypress @mtaht @SpaceX @Megaconstellati @danyork @jane\_coffin Serve all markets means what? Includes Polar? How much capacity? 38X is based on what assumptions? 
+12Likes2Retweets](https://twitter.com/DrRob_Thacker/status/1550980072307363843?s=20&t=wMmadh2wv70xWatBgd2ZgA)Tren Griffin @trengriffin@Simon\_Fabbri @VirtuallyNathan @mikepuchol @larrypress @mtaht @SpaceX @Megaconstellati @danyork @jane\_coffin Serve all markets means what? Includes Polar? How much capacity? 38X is based on what assumptions? 
 
-Every LEO satellite is usable only a fraction of the time. They circle the Earth. Lifetime of a LEO at that altitude without expensive radiation hardened electronics is ~ 5 years.](https://twitter.com/trengriffin/status/1563935603053723648?s=20&t=wMmadh2wv70xWatBgd2ZgA)[5:04 PM ∙ Aug 28, 2022](https://twitter.com/trengriffin/status/1563935603053723648?s=20&t=wMmadh2wv70xWatBgd2ZgA)[![Twitter avatar for @Dr_StefaniaP](https://cuthrell.com/favicon.png)Dr Stefania Peracchi @Dr\_StefaniaPCan't fit in? No problem, customize it out!This week we performed radiation hardening tests on a SRAM device for satellites designed by UoM and SUoT in collaboration with INFN. 📸: FPGA board customized connection outside the vacuum chamber! #spaceresearch @ANSTO ![Image](https://pbs.substack.com/media/FLOukfrVQAIjr2_.jpg)](https://twitter.com/Dr_StefaniaP/status/1491727854635159552?s=20&t=wMmadh2wv70xWatBgd2ZgA)[10:56 AM ∙ Feb 10, 2022
+Every LEO satellite is usable only a fraction of the time. They circle the Earth. Lifetime of a LEO at that altitude without expensive radiation hardened electronics is ~ 5 years.](https://twitter.com/trengriffin/status/1563935603053723648?s=20&t=wMmadh2wv70xWatBgd2ZgA)[5:04 PM ∙ Aug 28, 2022](https://twitter.com/trengriffin/status/1563935603053723648?s=20&t=wMmadh2wv70xWatBgd2ZgA)(https://twitter.com/Dr_StefaniaP/status/1491727854635159552?s=20&t=wMmadh2wv70xWatBgd2ZgA)[10:56 AM ∙ Feb 10, 2022
 
 
 13Likes3Retweets](https://twitter.com/Dr_StefaniaP/status/1491727854635159552?s=20&t=wMmadh2wv70xWatBgd2ZgA)Fill my heart with song 🎶

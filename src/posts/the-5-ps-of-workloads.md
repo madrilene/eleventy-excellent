@@ -8,7 +8,7 @@ Wordplay comes out in the oddest places.
 
 I was thinking about amusing apparel worn by several folks and alumni at conferences like OpenStack Summit, RICON, and Gluecon. Specifically, one shirt came to mind.
 
-[![Good times](https://pbs.twimg.com/media/Bd4K0PYIcAAJR3o.jpg "Good times")](https://cuthrell.com/favicon.png)Of course, this “pets and cattle” micro meme was in reference to fairly recent clouderati neologism that seeks to distance the world of older IT workloads such as Microsoft Exchange from the new school of fancy new IT workloads like Node.js or flat out platform as a service or what a Google / Facebook / so-called web scale infrastructure would have on the menu.
+Of course, this “pets and cattle” micro meme was in reference to fairly recent clouderati neologism that seeks to distance the world of older IT workloads such as Microsoft Exchange from the new school of fancy new IT workloads like Node.js or flat out platform as a service or what a Google / Facebook / so-called web scale infrastructure would have on the menu.
 
 While funny teeshirt slogans are a hit, I always felt there was a bit more nuance and not a hard bifurcation point in classifications of workloads. Indeed, one of the prevalent themes in most of the customer meetings is what is the best way to rationalize ever growing populations of workloads — and there is rarely a mere two camps or categorizations.
 

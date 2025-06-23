@@ -8,7 +8,7 @@ I have an announcement to make…
 
 I have accepted a position with [Acadia](http://www.acadia.com/).
 
-[![Acadia](https://cuthrell.com/favicon.png "Acadia")](https://cuthrell.com/favicon.png)My new title is *Principal Technology Consultant*.
+My new title is *Principal Technology Consultant*.
 
 In my new role, I’ll be helping companies realize and harness the full potential of private cloud solutions.
 
@@ -16,7 +16,7 @@ At this point you might be asking, well, several things… so let’s start with
 
 *OMG! Are you on Team Edward or Team Jacob?!?!?!?!!!*
 
-[![Team Edward Jacob Trey](https://cuthrell.com/favicon.png "Team Edward Jacob Trey")](https://cuthrell.com/favicon.png)Great question! Twilight fans will be happy to know that I’ll be reporting to [Trey Layton](http://www.ethernetstorageguy.com/), Sr. Director Worldwide Solution Architects at VCE / Acadia.  Team Trey will be pulling out all the stops to help customers design and implement technologies using the [Vblock](http://acadia.com/solutions/vblock/index.htm) portfolio from [VMware, Cisco & EMC](http://www.vcecoalition.com/).
+(http://www.vcecoalition.com/).
 
 I’m still based in Research Triangle Park, NC and Missoula, MT but anyone that knows my background also knows [you can find me on the road traveling for customers](http://www.tripit.com/people/cuthrell.com) and [industry events](http://plancast.com/qthrul). Of course, when I am back in the Triangle area I expect to get lots of quality stick time on the amazing environments here in the new Raleigh, NC office where Team Jonathan (Jonathan Donaldson) drives vertical solutions on the [Vblock](http://acadia.com/solutions/vblock/index.htm) architecture and performs customer facing engagements.
 
@@ -30,13 +30,13 @@ Of course, [I’d known about Acadia](http://chucksblog.emc.com/chucks_blog/2009
 
 Side note: You’d be *amazed* at how effective blaring Peter Gabriel’s “In Your Eyes” from the parking lot under an executive briefing area can be.
 
-[![vAnything](https://cuthrell.com/favicon.png "vAnything")](https://cuthrell.com/favicon.png)One last interesting factoid: As it turns out, I am often updating [CrunchBase](http://crunchbase.com) with new companies I come across in my travels here and there (I’m still the top non-TC contributor as of this blog post btw… *flex*).  One of those bold new ventures I came across was VCE / Acadia.  The competitive leader board side of me realized that there wasn’t an entry for Acadia in Crunchbase. So, I fixed that.
+(http://crunchbase.com) with new companies I come across in my travels here and there (I’m still the top non-TC contributor as of this blog post btw… *flex*).  One of those bold new ventures I came across was VCE / Acadia.  The competitive leader board side of me realized that there wasn’t an entry for Acadia in Crunchbase. So, I fixed that.
 
 *Why get involved with private cloud now?*
 
 Gartner says…
 
-[![Gartner Says](https://cuthrell.com/favicon.png "Gartner Says")](https://cuthrell.com/favicon.png)*Are you hiring?*
+*Are you hiring?*
 
 Yes! vSuperheroes in the house! [Acadia is growing](http://acadia.com/careers/index.htm) a number of teams. You’ll want to [start by reviewing this entry from Chad Sakac](http://virtualgeek.typepad.com/virtual_geek/2010/09/more-than-200-open-positions-at-emc-emc-partners-and-vce.html) since it… well, you’ll just have to read it! [Enjoy](http://virtualgeek.typepad.com/virtual_geek/2010/09/more-than-200-open-positions-at-emc-emc-partners-and-vce.html)! There are many ways to contact me but [reach out to me via Linkedin](http://www.linkedin.com/in/qthrul) if you see a fit and I will do my best to route you to the right channels. BTW, please be on the lookout for the new [vSpecialist Christmas Album](http://www.youtube.com/watch?v=DdSLc68J210&feature=player_embedded) on DVD and Blu-ray!
 

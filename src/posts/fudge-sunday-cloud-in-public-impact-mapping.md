@@ -115,7 +115,7 @@ Cloud in Public findings on [Status Dashboards](https://sunday.fudge.org/issues/
 
 So, let’s get a quick overview of [business value engineering](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=_EEJXAuryS8) and think about the customer journey.
 
-[![Matt Smith, IFS discussing Business Value Engineering on SiliconANGLE Media's theCUBE](https://cuthrell.com/favicon.png "Matt Smith, IFS discussing Business Value Engineering on SiliconANGLE Media's theCUBE")](https://cuthrell.com/favicon.png)Matt Smith, IFS discussing Business Value Engineering on SiliconANGLE Media's theCUBE
+Matt Smith, IFS discussing Business Value Engineering on SiliconANGLE Media's theCUBE
 
 Each hyperscale public cloud service provider will have to anticipate customers at various stages of a journey from status quo to one cloud or [the eventuality of mutlicloud](https://fudge.org/archive/multicloud-march/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). So, having a business value engineering framework in place will ensure the following:
 

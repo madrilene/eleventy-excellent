@@ -4,9 +4,9 @@ description: ''
 date: 2021-12-27 02:29:29+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cheap-as-chips-in-2022-946008?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we are looking ahead to Cheap as Chips in 2022!
+
+This week we are looking ahead to Cheap as Chips in 2022!
 
  **Getting Informed**
 
@@ -24,7 +24,7 @@ If [chipmakers are on track to spend $152B on semiconductor fabrication faciliti
 
 My thinking at the time of this Techmeme coverage revolved around the idea that a pattern from 2011 might mean big things for 2022.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1472761084113215498)**
+**[Jay Cuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1472761084113215498)**
 
 [@JayCuthrell](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1472761084113215498)
 
@@ -38,9 +38,9 @@ Images via @[BlocksandFiles](https://twitter.com/BlocksandFiles) @[Wikibon](http
 
  [9:49 PM - 19 Dec 2021](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1472761084113215498)
 
-[![Via @Backblaze via @BlocksAndFiles](https://cuthrell.com/favicon.png "Via @Backblaze via @BlocksAndFiles")](https://cuthrell.com/favicon.png)Via @Backblaze via @BlocksAndFiles
+Via @Backblaze via @BlocksAndFiles
 
-[![Via @BlocksAndFiles via @Wikibon](https://cuthrell.com/favicon.png "Via @BlocksAndFiles via @Wikibon")](https://cuthrell.com/favicon.png)Via @BlocksAndFiles via @Wikibon
+Via @BlocksAndFiles via @Wikibon
 
 **[To put that in perspective...](https://twitter.com/magicsilicon/status/1471533764555669505?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 

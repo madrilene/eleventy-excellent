@@ -57,7 +57,7 @@ Third, if there is a multiverse for multicloud, then perhaps there is an applica
 
 So, ***(spoiler alert?)*** perhaps we’re all on a path akin to residual self-confirming equilibrium that academics like [Yakov Babichenko](https://arxiv.org/search/cs?searchtype=author&query=Babichenko%2C+Y) or [Aviad Rubinstein](https://arxiv.org/search/cs?searchtype=author&query=Rubinstein%2C+A) may generalize one day[6](#footnote-6).
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)In effect, there are so many R’s (beyond the normal 6) to consider as I outlined in a newsletter issue from last year:[7](#footnote-7)
+In effect, there are so many R’s (beyond the normal 6) to consider as I outlined in a newsletter issue from last year:[7](#footnote-7)
 
 
 > *[a superfecta of R’s at the minimum seems more likely instead of assuming everything goes to the public cloud. Retain Relegate Renovate Resuscitate Retire Replatform Repurchase Refactor Rehost Repatriate Refinance Reinvest Rationalize Recombine (etc…)](https://sunday.fudge.org/p/fudge-sunday-reflecting-and-projecting-664131)*
@@ -68,7 +68,7 @@ When what we think of as data centers are becoming micro data centers as invisib
 
 To gather just a few examples that many readers might recognize, the VxRail, Nutanix, and Scale Computing approaches all proved the need for discreet clusters for smaller and smaller things in data centers. Now, as ARM, discrete in situ cooling[8](#footnote-8), and increasingly commensurate placement of workloads takes hold (again?) it's gonna be fascinating.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)[Precision immersion cooling from Iceotope at HPE Discover 2022](https://www.reddit.com/r/StorageReview/comments/vsyhyl/weve_been_talking_a_lot_about_liquid_cooling_but/)So, on a long enough timeline, if there are k8s/k3s clusters running in your local Chick-fil-A then it's incredibly likely that evolved approaches are going to eventually filter out to other firms and plate / power / ping modalities.[9](#footnote-9) Further, the economics of deterministic power, weight, cooling, and geometry in data center footprint are only going to become ever finer grained year over year. 
+[Precision immersion cooling from Iceotope at HPE Discover 2022](https://www.reddit.com/r/StorageReview/comments/vsyhyl/weve_been_talking_a_lot_about_liquid_cooling_but/)So, on a long enough timeline, if there are k8s/k3s clusters running in your local Chick-fil-A then it's incredibly likely that evolved approaches are going to eventually filter out to other firms and plate / power / ping modalities.[9](#footnote-9) Further, the economics of deterministic power, weight, cooling, and geometry in data center footprint are only going to become ever finer grained year over year. 
 
 Place your bets…
 

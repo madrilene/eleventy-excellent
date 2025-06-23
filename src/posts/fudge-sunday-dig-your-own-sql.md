@@ -4,21 +4,21 @@ description: 'A look at data analytics tooling trends'
 date: 2021-08-23 00:21:05+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-dig-your-own-sql-724435?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look back a year of podcasts episodes from a16z relating to data science and references to artificial intelligence and machine learning. Specifically, we’ll focus on the episodes worth downloading to your podcasting app that are evergreen and worth more than a single listen alone.
+
+This week we take a look back a year of podcasts episodes from a16z relating to data science and references to artificial intelligence and machine learning. Specifically, we’ll focus on the episodes worth downloading to your podcasting app that are evergreen and worth more than a single listen alone.
 
  **Since the last issue: 20 minutes of me talking**
 
 Last week I spoke in my capacity as a team member at [Faction](https://factioninc.com?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) about the topic of multi-cloud data services patterns within gaming and healthcare, convergence, and the world of AR / VR in our future.
 
-[![IT Renovation Day: Analyzing the Next Wave of Tools, Products, and Services Summit](https://cuthrell.com/favicon.png "IT Renovation Day: Analyzing the Next Wave of Tools, Products, and Services Summit")](https://cuthrell.com/favicon.png)IT Renovation Day: Analyzing the Next Wave of Tools, Products, and Services Summit
+IT Renovation Day: Analyzing the Next Wave of Tools, Products, and Services Summit
 
  **Sunday morning and we're waking up**
 
 Let’s start with the big beats before we look at some of the podcast content from those that make big bets.
 
-[![Where Do I Begin](https://cuthrell.com/favicon.png "Where Do I Begin")](https://cuthrell.com/favicon.png)Where Do I Begin
+Where Do I Begin
 
  **Where do we start?**
 
@@ -38,7 +38,7 @@ When this combination was explained to me, my mind was altered.
 
 Emoji didn’t exist then but I probably looked like this: 🤔🤯
 
-[![And now... a recommendation from this time last year](https://cuthrell.com/favicon.png "And now... a recommendation from this time last year")](https://cuthrell.com/favicon.png)**[And now... a recommendation from this time last year](https://future.a16z.com/podcasts/ai-ml-economics-complexity-data-science-company-building/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://future.a16z.com/podcasts/ai-ml-economics-complexity-data-science-company-building/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 With this buildup in mind, listen to a [superb opening metasummary from Sonal Chokshi](https://future.a16z.com/podcasts/ai-ml-economics-complexity-data-science-company-building/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) followed by a deep discussion by Peter Wang and Martin Casado.
 
@@ -53,19 +53,19 @@ Next, let’s look at some of two key data related debates coming from a year ag
 1. **[Data Alone Is Not Enough: The Evolution of Data Architectures](https://a16z.simplecast.com/episodes/data-alone-is-not-enough-the-evolution-of-data-architectures-3iFKX93_?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 2. **[The Great Data Debate](https://a16z.simplecast.com/episodes/the-great-data-debate-LD4V0Ha_?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
-[![Tools, tools, and tools](https://cuthrell.com/favicon.png "Tools, tools, and tools")](https://cuthrell.com/favicon.png)**[Tools, tools, and tools](https://future.a16z.com/podcasts/evolution-of-data-architectures/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://future.a16z.com/podcasts/evolution-of-data-architectures/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 This podcast episode is one of the recently transcribed as blog post that a16z has introduced recently. Of note, Ali Ghodsi, CEO and co-founder of Databricks goes into [a deeper conversation with on tools](https://future.a16z.com/podcasts/evolution-of-data-architectures/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) with Martin Casado.
 
 [future.a16z.com](https://future.a16z.com/podcasts/evolution-of-data-architectures/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![Speaking of Databricks...](https://cuthrell.com/favicon.png "Speaking of Databricks...")](https://cuthrell.com/favicon.png)**[Speaking of Databricks...](https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18628-dellemc-powerscale-faction-databricks.pdf?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18628-dellemc-powerscale-faction-databricks.pdf?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 This white paper describes a unified data analytics platform solution, for accelerated data driven innovations powered by Databricks, [Faction](https://factioninc.com?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter), and Dell Technologies.
 
 [www.delltechnologies.com](https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18628-dellemc-powerscale-faction-databricks.pdf?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![We were promised SQL jet packs ](https://cuthrell.com/favicon.png "We were promised SQL jet packs ")](https://cuthrell.com/favicon.png)**[We were promised SQL jet packs](https://future.a16z.com/podcasts/great-data-debate/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://future.a16z.com/podcasts/great-data-debate/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Again, this podcast episode is one of the recently transcribed as blog post that a16z has introduced recently. As I’ve said before, Sonal and her a16z team are absolutely amazing.
 

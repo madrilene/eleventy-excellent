@@ -8,7 +8,7 @@ date: 2011-10-18 00:00:00+00:00
 
 A year ago today was [my first day](https://fudge.org/archive/private-clouds-ahead/) at what would become VCE.
 
-[!["VCE"](https://cuthrell.com/favicon.png "\"VCE\"")](https://cuthrell.com/favicon.png)I’m looking back briefly because it is already time to look ahead. The past year has been about immersion in a deep sea of change at a company forging a culture — and what I firmly believe is the way forward for an entire industry.
+I’m looking back briefly because it is already time to look ahead. The past year has been about immersion in a deep sea of change at a company forging a culture — and what I firmly believe is the way forward for an entire industry.
 
 Without a doubt, my time so far at VCE has been marked by change. Change in names, titles, processes, methodologies… changing planes, changing rooms, changing cars… :wink:
 

@@ -16,17 +16,17 @@ First, you might recall my shot and chaser format from prior issues. Essentially
 
 One of my predictions was our pandemic related so-called “chip crisis” would ultimately lead to a future state of increased supply of drastically lower price chips in far more devices and use cases. So, as of last week, the future is already starting to look closer than I imagined.
 
-[![Shot: Cheap as Chips (December 2021)](https://cuthrell.com/favicon.png "Shot: Cheap as Chips (December 2021)")](https://cuthrell.com/favicon.png)Source: [sunday.fudge.org](https://sunday.fudge.org/issues/fudge-sunday-cheap-as-chips-in-2022-946008?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
+(https://sunday.fudge.org/issues/fudge-sunday-cheap-as-chips-in-2022-946008?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ### **[Chaser: Chip Crisis Easing (June 2022)](https://www.bloomberg.com/news/articles/2022-06-04/carmakers-feel-chip-crisis-easing-as-global-growth-slows?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 *The global semiconductor shortage that’s bogged down the auto industry for almost two years is showing signs of easing, at least for now.*
 
-[![Chaser: Chip Crisis Easing (June 2022)](https://cuthrell.com/favicon.png "Chaser: Chip Crisis Easing (June 2022)")](https://cuthrell.com/favicon.png)Source: [www.bloomberg.com](https://www.bloomberg.com/news/articles/2022-06-04/carmakers-feel-chip-crisis-easing-as-global-growth-slows?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
+(https://www.bloomberg.com/news/articles/2022-06-04/carmakers-feel-chip-crisis-easing-as-global-growth-slows?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
 ### **Shot: @jaycuthrell on web5 (Nov 2021)**
 
-[![There's always a tweet...](https://cuthrell.com/favicon.png "There's always a tweet...")](https://cuthrell.com/favicon.png)There's always a tweet... (or, an archived one in this case)
+There's always a tweet... (or, an archived one in this case)
 
 > Web 0: first-tinker advantage  
 > Web 1: first-commerce advantage  
@@ -40,7 +40,7 @@ BTW… I linked to this: [https://t.co/aVGPXlaazP](https://t.co/aVGPXlaazP?utm_c
 
 # [Chaser: @jack on web5 (June 2022)](https://twitter.com/jack/status/1535314738078486533)
 
-[![Twitter avatar for @jack](https://cuthrell.com/favicon.png)jack @jackthis will likely be our most important contribution to the internet. proud of the team. #web5
+jack @jackthis will likely be our most important contribution to the internet. proud of the team. #web5
 
 (RIP web3 VCs 🤫)
 
@@ -57,7 +57,7 @@ While this next shot and chaser is not a part of my newsletter history, I couldn
 
 The song ‘Around the Bend’ by The Asteroids Galaxy Tour appeared as the backing track for the iPod Touch commercials that became so iconic as Apple began to explore the adjacencies in their growing handheld device market.
 
-[![Shot: iPod Touch Ad (2009)](https://cuthrell.com/favicon.png "Shot: iPod Touch Ad (2009)")](https://cuthrell.com/favicon.png)Source: [www.youtube.com](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=U-wY9vtw08s)
+(https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=U-wY9vtw08s)
 
 ### [Chaser: iPod Touch nadir (2022)](https://www.techmeme.com/220510/p29?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220510p29)
 
@@ -65,7 +65,7 @@ The song ‘Around the Bend’ by The Asteroids Galaxy Tour appeared as the back
 >
 >
 
-[![Chaser: iPod Touch nadir (2022)](https://cuthrell.com/favicon.png "Chaser: iPod Touch nadir (2022)")](https://cuthrell.com/favicon.png)Source: [www.techmeme.com](https://www.techmeme.com/220510/p29?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220510p29)
+(https://www.techmeme.com/220510/p29?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter#a220510p29)
 
 # Update
 
@@ -89,7 +89,7 @@ If you have ever been exposed to VMware… this worth listening to.
 
 [The CTO AdvisorAdvice for VMware Customers, Employees, and CustomersI’ve been outspoken. I don’t believe the VMware merger is good for customers and employees. But there is some good coming out of the union. Unfortunately, we are witnessing an end of an era for VMware. That is a sad thing indeed. However, we in technology embrace change and make the best of change…Read more6 months ago · Keith Townsend (@CTOAdvisor)](https://ctoadvisor.substack.com/p/advice-for-vmware-customers-employees?utm_source=substack&utm_campaign=post_embed&utm_medium=web)If you want to imagine a post [Summit](https://usesummit.com) FinOps experience this is worth a read…
 
-[![](https://cuthrell.com/favicon.png)Data OperationsMulti-player spreadsheets are awfulRead more6 months ago · Greg Meyer](https://www.finddataops.com/p/multi-player-spreadsheets-are-awful?utm_source=substack&utm_campaign=post_embed&utm_medium=web)And [this one](https://mgs.blog/the-apple-banks-next-branch-e4f837d42078) from [M.G. Siegler](https://mgsiegler.com) you can take… [to the bank](https://mgs.blog/the-apple-banks-next-branch-e4f837d42078).
+(https://mgs.blog/the-apple-banks-next-branch-e4f837d42078).
 
 ## Just for fun
 

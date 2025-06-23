@@ -21,11 +21,11 @@ To understand the impact of Twitter, consider how simple it is to refer to a Twe
 
 Now, imagine what happens if Twitter is set up as a paywall only service. Actually, you don’t have to imagine because the new owners of Twitter have already imagined it.
 
-[![Twitter avatar for @CaseyNewton](https://cuthrell.com/favicon.png)Casey Newton @CaseyNewtonMore news from Twitter today: Elon Musk and David Sacks have both discussed putting all of Twitter behind a paywall eventually, @platformer has learned
+Casey Newton @CaseyNewtonMore news from Twitter today: Elon Musk and David Sacks have both discussed putting all of Twitter behind a paywall eventually, @platformer has learned
 
 [platformer.news/p/musk-discuss…](https://www.platformer.news/p/musk-discusses-putting-all-of-twitter) ![But all of that could be a prelude to the biggest change of all: charging most or all users a subscription fee to use Twitter.
 
-Both Musk and Sacks have discussed the idea in recent meetings, according to a person familiar with the matter. One such plan might allow everyone to use Twitter for a limited amount of time each month but require a subscription to continue browsing, the person said.](https://pbs.substack.com/media/FhAXrOEVIAAJOSg.jpg)](https://twitter.com/caseynewton/status/1589796702843998208)[1:47 AM ∙ Nov 8, 2022
+Both Musk and Sacks have discussed the idea in recent meetings, according to a person familiar with the matter. One such plan might allow everyone to use Twitter for a limited amount of time each month but require a subscription to continue browsing, the person said.](https://cuthrell.com/favicon.png)](https://twitter.com/caseynewton/status/1589796702843998208)[1:47 AM ∙ Nov 8, 2022
 
 
 
@@ -57,12 +57,12 @@ Why does [link rot](https://en.wikipedia.org/wiki/Link_rot) matter? For the same
 
 As the saying goes… what would possibly go wrong? [Content drift](https://twitter.com/zittrain/status/1395754434781716485).
 
-[![Twitter avatar for @securinti](https://cuthrell.com/favicon.png)Inti De Ceukelaire @securintiHijacking a Trump tweet and inserting a dutch song about Russian prostitutes: ✓. Link: https://t.co/vOYhXpR4sO
- #thecyber #privacy #oops ![Image](https://pbs.substack.com/media/C24oGQQWgAE-4RN.jpg)](https://twitter.com/securinti/status/823640079067287552)[9:14 PM ∙ Jan 23, 2017
+Inti De Ceukelaire @securintiHijacking a Trump tweet and inserting a dutch song about Russian prostitutes: ✓. Link: https://t.co/vOYhXpR4sO
+ #thecyber #privacy #oops ![Image](https://cuthrell.com/favicon.png)](https://twitter.com/securinti/status/823640079067287552)[9:14 PM ∙ Jan 23, 2017
 
 ---
 
-41Likes10Retweets](https://twitter.com/securinti/status/823640079067287552)[![Twitter avatar for @securinti](https://cuthrell.com/favicon.png)Inti De Ceukelaire @securinti@securinti Also: 100% legal. Just bought an expired domain and twitter did the rest :-)](https://twitter.com/securinti/status/823640242099847168?s=20&t=53NEQOeGfywfdVikzcJu0A)[9:15 PM ∙ Jan 23, 2017](https://twitter.com/securinti/status/823640242099847168?s=20&t=53NEQOeGfywfdVikzcJu0A)Notably, this would not be the last time the embedding and refreshing of cached URLs referenced in a Tweet would result in an unanticipated edit to the Twitter Card experience. Of course, barring more Twitter changes to banned users, this particular example, you would need to have a screenshot before this prank could be viewed again.[4](#footnote-4)
+41Likes10Retweets](https://twitter.com/securinti/status/823640079067287552)(#footnote-4)
 
 Developing words that linger 🎶
 ------------------------------
@@ -82,10 +82,10 @@ So, at the risk of a shot and chaser playback… sometimes, I’m scary accurate
 
 ### Shot: I theorize a longer format Twitter eventuality (2014)
 
-[![Twitter avatar for @Techmeme](https://cuthrell.com/favicon.png)Techmeme @TechmemeTwitter is testing Twitter Notes to let users create articles with rich text formatting and uploaded media, which can then be tweeted and shared upon publishing (@sarahintampa / TechCrunch)
+Techmeme @TechmemeTwitter is testing Twitter Notes to let users create articles with rich text formatting and uploaded media, which can then be tweeted and shared upon publishing (@sarahintampa / TechCrunch)
 
 [techcrunch.com/2022/06/21/twi…](https://techcrunch.com/2022/06/21/twitter-to-expand-into-long-form-content-with-upcoming-twitter-notes-feature/)
-[![](https://cuthrell.com/favicon.png)techmeme.comTwitter tests Twitter Notes with select users, for creating long-form content with rich text formatting and uploaded media that can be twee…By Sarah Perez / TechCrunch. View the full context on Techmeme.](http://www.techmeme.com/220621/p40#a220621p40)](https://twitter.com/Techmeme/status/1539435794045075456?s=20&t=dQc3Fo4v8yHo3VnAl-NfmA)[2:31 AM ∙ Jun 22, 2022
+(https://twitter.com/Techmeme/status/1539435794045075456?s=20&t=dQc3Fo4v8yHo3VnAl-NfmA)[2:31 AM ∙ Jun 22, 2022
 
 ---
 
@@ -93,7 +93,7 @@ So, at the risk of a shot and chaser playback… sometimes, I’m scary accurate
 
 Until then… Place your bets!
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)A long time ago in an oEmbed far, far away...
+A long time ago in an oEmbed far, far away...
 
 # Disclosure
 

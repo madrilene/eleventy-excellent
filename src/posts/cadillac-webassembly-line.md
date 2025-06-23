@@ -58,17 +58,17 @@ By 2021, there are State of Union of WebAssembly tracking posts and the speculat
 
 By 2022, there are more companies donating back to the CNCF as well and strong VC interests in play[7](#footnote-7).
 
-[![Twitter avatar for @appfactory](https://cuthrell.com/favicon.png)Peter Cilliers-Pistorius 🇺🇦 @appfactoryWe've open sourced Postgres WASM
+Peter Cilliers-Pistorius 🇺🇦 @appfactoryWe've open sourced Postgres WASM
 
 Hat tip to all the amazing engineers that made it possible for us to glue this together, including those at @supabase and @\_snaplet 
 
-Join the discussion on HN! ![Image](https://pbs.substack.com/media/FeJzOEMWYAMfBTV.jpg)](https://twitter.com/appfactory/status/1576950127331545089?s=20&t=LDYdmsacBgS2Srm0Uog1Yw)[2:59 PM ∙ Oct 3, 2022
+Join the discussion on HN! ![Image](https://cuthrell.com/favicon.png)](https://twitter.com/appfactory/status/1576950127331545089?s=20&t=LDYdmsacBgS2Srm0Uog1Yw)[2:59 PM ∙ Oct 3, 2022
 
 ---
 
-328Likes40Retweets](https://twitter.com/appfactory/status/1576950127331545089?s=20&t=LDYdmsacBgS2Srm0Uog1Yw)[![Twitter avatar for @SapphireVC](https://cuthrell.com/favicon.png)Sapphire Ventures @SapphireVC1/ WebAssembly (aka Wasm) has been hailed as the “JavaScript killer” and the latest attempt to lead developers to the promised land of “write once, run anywhere."
+328Likes40Retweets](https://twitter.com/appfactory/status/1576950127331545089?s=20&t=LDYdmsacBgS2Srm0Uog1Yw)Sapphire Ventures @SapphireVC1/ WebAssembly (aka Wasm) has been hailed as the “JavaScript killer” and the latest attempt to lead developers to the promised land of “write once, run anywhere."
 
-Sapphire's @aranum, @jtliu\_, & David Carter are taking a closer look at the Wasm landscape👇👀 ![Image](https://pbs.substack.com/media/FfXnBjuXwAI8qDs.jpg)](https://twitter.com/sapphirevc/status/1582425647535661056)[5:37 PM ∙ Oct 18, 2022
+Sapphire's @aranum, @jtliu\_, & David Carter are taking a closer look at the Wasm landscape👇👀 ![Image](https://cuthrell.com/favicon.png)](https://twitter.com/sapphirevc/status/1582425647535661056)[5:37 PM ∙ Oct 18, 2022
 
 ---
 
@@ -83,7 +83,7 @@ So, what will the next big breakout Wasm use case[8](#footnote-8) be in 2023?
 
 Until then… Place your bets!
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)
+
 
 Disclosure
 ==========

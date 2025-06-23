@@ -7,7 +7,7 @@ date: 2016-12-30 00:00:00+00:00
 Thanks for sticking around! My second installment is a bit longer but I plan to settle on a word count soon enough.
 
 
-[!["Set phasers to 11." -- Star Trek: Spinal Tap Edition](https://cuthrell.com/favicon.png "\"Set phasers to 11.\" -- Star Trek: Spinal Tap Edition")](https://cuthrell.com/favicon.png)“Set phasers to 11.” — Star Trek: Spinal Tap Edition
+“Set phasers to 11.” — Star Trek: Spinal Tap Edition
 
 The New Console and the Art of IT
 

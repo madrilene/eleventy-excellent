@@ -16,4 +16,3 @@ Additionally, social media card support and cache longevity on platforms continu
 
 Examples: [fudge.org](https://fudge.org), [jaycuthrell.com](https://jaycuthrell.com), and @JayCuthrell on [Twitter](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell) and [Medium](https://medium.com/@JayCuthrell) and a [version of this post as rendered by LinkedIn social media card and cache du jour](https://www.linkedin.com/pulse/period-reminder-own-your-content-jay-cuthrell).
 
-[![LinkedIn](https://cuthrell.com/favicon.png "LinkedIn")](https://cuthrell.com/favicon.png)

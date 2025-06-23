@@ -16,7 +16,7 @@ My First GitHub Repository
 
 My first GitHub repository was a trivially simple XML based web gadget that mapped the traffic cameras for the ATL and RDU area. The gadget was a Google Gadget for iGoogle (hah!) which launched in 2005 but I think I was hosting the snippets of code on my website prior to GitHub coming into existence.
 
-[![Good times circa 2007.](https://cuthrell.com/favicon.png "Good times circa 2007.")](https://cuthrell.com/favicon.png)Good times circa 2007.
+Good times circa 2007.
 
 Eventually, I moved all my coding projects to GitHub and even got to contribute a few times here and there. While I’ve never considered myself to be a good developer, I can sometimes apply myself. More accurately, I can configure and read documentation. That’s okay. I’m comfortable with that and appreciate the hard work others have published that I can use freely. So, the GitHub stars become a social gesture form of love letter from one perspective all while iGoogle faded into the past.
 

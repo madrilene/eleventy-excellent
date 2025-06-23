@@ -1,19 +1,17 @@
 ---
 title: "Emerging Hype"
-description: ''
+description: 'Indeed'
 date: 2020-08-25 00:00:00+00:00
 ---
 
 On a hunch, I searched [Gartner blogs](https://blogs.gartner.com) for specific keywords from the [Gartner Hype Cycle for Emerging Technologies, 2020](https://www.gartner.com/en/newsroom/press-releases/2020-08-18-gartner-identifies-five-emerging-trends-that-will-drive-technology-innovation-for-the-next-decade).
-
-[![via Gartner](https://cuthrell.com/favicon.png "via Gartner")](https://cuthrell.com/favicon.png)*Source:* [Gartner Identifies Five Emerging Trends That Will Drive Technology Innovation for the Next Decade](https://www.gartner.com/en/newsroom/press-releases/2020-08-18-gartner-identifies-five-emerging-trends-that-will-drive-technology-innovation-for-the-next-decade)
 
 Survey Says…
 ============
 
 It turns out that the Peak of Inflated Expectations matched the Peak of Inflated Blog Post Themes:
 
-[![via Google searches](https://cuthrell.com/favicon.png "via Google searches")](https://cuthrell.com/favicon.png)*“Social Distancing Technologies”* enjoyed the top topic spot.
+*“Social Distancing Technologies”* enjoyed the top topic spot.
 
 The results makes sense for a few reasons.
 
@@ -45,6 +43,3 @@ Keep an eye on the *“Digital Twin”* topic which enjoyed a high number of blo
 * The term *“Digital Twin”* is sufficiently broad enough to sweep in many more stories (and blog posts!) in the coming years.
 
 The Slope of Enlightenment will require many snacks along the way…
-
-[![via Giphy](https://substack.com/1d607152e893c9da99aec840c9d49ce9/giphy.gif "via Giphy")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F1d607152e893c9da99aec840c9d49ce9%2Fgiphy.gif)[Originally based upon a Twitter thread](https://threadreaderapp.com/thread/1297705293913227270.html)
-

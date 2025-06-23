@@ -8,7 +8,7 @@ This week is about “the ibles and the ables”. It’s a look at the elements 
 
  **Last week...**
 
-[![Last week: Dig Your Own SQL](https://cuthrell.com/favicon.png "Last week: Dig Your Own SQL")](https://cuthrell.com/favicon.png)**[Last week: Dig Your Own SQL](https://sunday.fudge.org/issues/fudge-sunday-dig-your-own-sql-724435?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-dig-your-own-sql-724435?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 *Last week we took a look back a year of podcasts episodes from a16z relating to data science and references to artificial intelligence and machine learning.*
 

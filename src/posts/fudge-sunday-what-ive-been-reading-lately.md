@@ -4,9 +4,9 @@ description: ''
 date: 2021-06-20 17:00:06+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-what-i-ve-been-reading-lately-653166?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)If you find yourself hitting refresh on Twitter, Reddit, Facebook, Hacker News or *\*shiver\** BuzzFeed then it might be time to subscribe to a few mailing lists and newsletters. This week, I am sharing articles linked in the mailing lists and newsletters I’ve been reading lately.
+
+If you find yourself hitting refresh on Twitter, Reddit, Facebook, Hacker News or *\*shiver\** BuzzFeed then it might be time to subscribe to a few mailing lists and newsletters. This week, I am sharing articles linked in the mailing lists and newsletters I’ve been reading lately.
 
  **Recommendation: Oh... M. G.**
 
@@ -52,7 +52,7 @@ Jamstack community trends posts can provide insights into the market perception 
 
 Sometimes you’ll see a post referenced in multiple newsletters.
 
-[![When a16z went into the news business](https://cuthrell.com/favicon.png "When a16z went into the news business")](https://cuthrell.com/favicon.png)**[When a16z went into the news business](https://future.a16z.com/extinction-mining-ancient-innovation-future-solutions/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://future.a16z.com/extinction-mining-ancient-innovation-future-solutions/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 a16z has become quite the content farm over the years in addition to their VC roots from podcasts to blogs to ClubHouse to self reinforcing references for all of the above. It’s clear that creating content is one way to get your message to the world without requiring journalists to ask about your investment strategies for [our post-biomimicry future](https://future.a16z.com/extinction-mining-ancient-innovation-future-solutions/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
@@ -72,7 +72,7 @@ My fleeting tweet take on this….
 
  [5:30 PM - 19 Jun 2021](https://web.archive.org/web/20230000000000*/https://twitter.com/jaycuthrell/status/1406363851151532035)
 
-[![Two way global fish bowls](https://cuthrell.com/favicon.png "Two way global fish bowls")](https://cuthrell.com/favicon.png)**[Two way global fish bowls](https://www.theverge.com/2021/5/30/22460964/vilnius-lithuania-portal-poland-connection-pandemic?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.theverge.com/2021/5/30/22460964/vilnius-lithuania-portal-poland-connection-pandemic?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Portals to another dimension aside, I’ve said before that being able to [connect audio-visually with a human on the other side of the planet in near real time](https://fudge.org/archive/airwaves-vs-airlines?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) is truly spectacular. In this [press release](https://vilniustech.lt/about-university/news/portal-an-interactive-bridge-to-unity-connects-two-countries/73472?nid=328416&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter), art combines with business grade IP video conference technology and takes both into the literal public squares of an increasingly globally connected society.
 
@@ -80,13 +80,13 @@ Portals to another dimension aside, I’ve said before that being able to [conne
 
 Amazing, don’t you think? This video might make you a bit misty eyed…
 
-[![pOrtal: A Bridge to the United Planet](https://cuthrell.com/favicon.png "pOrtal: A Bridge to the United Planet")](https://cuthrell.com/favicon.png)pOrtal: A Bridge to the United Planet
+pOrtal: A Bridge to the United Planet
 
  **And one more thing... the path to multi-cloud**
 
 This month at work we posted the long form version of [The Path to Multi-Cloud](https://technative.io/the-path-to-multi-cloud-how-converging-technologies-and-innovations-require-multi-cloud-strategy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) over at [Technative.io](https://technative.io/the-path-to-multi-cloud-how-converging-technologies-and-innovations-require-multi-cloud-strategy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![How Converging Technologies and Innovations Require Multi-Cloud Strategy](https://cuthrell.com/favicon.png "How Converging Technologies and Innovations Require Multi-Cloud Strategy")](https://cuthrell.com/favicon.png)**[How Converging Technologies and Innovations Require Multi-Cloud Strategy](https://technative.io/the-path-to-multi-cloud-how-converging-technologies-and-innovations-require-multi-cloud-strategy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://technative.io/the-path-to-multi-cloud-how-converging-technologies-and-innovations-require-multi-cloud-strategy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 *Convergence and more convergence!*
 

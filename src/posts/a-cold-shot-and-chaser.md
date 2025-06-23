@@ -6,7 +6,7 @@ date: 2022-08-22 00:21:47.947000+00:00
 
 *[Stevie Ray Vaughan & Double Trouble - Cold Shot (1984)](https://www.youtube.com/watch?v=oqBtVaLXPw0)*
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Getting Informed
+Getting Informed
 ================
 
 Regular readers will recall my *shot and chaser* format from prior issues. Essentially, the format is a callback to prior topics, links, etc. for an issue which is then compared to a more recent or current link for the week.
@@ -43,7 +43,7 @@ Well, here’s to the journey from from data centers to wisdom centers.
 >
 >
 
-[![](https://cuthrell.com/favicon.png)](https://www.techmeme.com/220706/p11#a220706p11)
+(https://www.techmeme.com/220706/p11#a220706p11)
 
 ## We'd better learn from that 🎶
 
@@ -61,21 +61,21 @@ I made note of FreedomFi and Helium… but my confidence level was hedged somewh
 
 Again, it’s only been a few months but… this Twitter thread is a sober, fair, if not brutal pushback on the “Web3 solves this” shilling meme. So, let’s see how it shakes out in 2.5 years?
 
-[![Twitter avatar for @liron](https://cuthrell.com/favicon.png)Liron Shapira @liron.@helium, often cited as one of the best examples of a Web3 use case, has received $365M of investment led by @a16z.
+Liron Shapira @liron.@helium, often cited as one of the best examples of a Web3 use case, has received $365M of investment led by @a16z.
 
 Regular folks have also been convinced to spend $250M buying hotspot nodes, in hopes of earning passive income.
 
-The result? Helium's total revenue is $6.5k/month ![Image](https://pbs.substack.com/media/FYjCpCiXwAE7Vdp.png)![Image](https://pbs.substack.com/media/FYjCrfDXoAIh6CU.png)![Image](https://pbs.substack.com/media/FYjCqzuXwAAslas.png)![Image](https://pbs.substack.com/media/FYjgb3DWQAEJmQj.png)](<https://twitter.com/liron/status/1551738599254773765?s=20&t=Gw745mz2_mg_Sr7nEHfKlA)[1:18> AM ∙ Jul 26, 2022
+The result? Helium's total revenue is $6.5k/month ![Image](https://cuthrell.com/favicon.png)![Image](https://cuthrell.com/favicon.png)![Image](https://cuthrell.com/favicon.png)![Image](https://cuthrell.com/favicon.png)](<https://twitter.com/liron/status/1551738599254773765?s=20&t=Gw745mz2_mg_Sr7nEHfKlA)[1:18> AM ∙ Jul 26, 2022
 
 15,172Likes2,171Retweets](<https://twitter.com/liron/status/1551738599254773765?s=20&t=Gw745mz2_mg_Sr7nEHfKlA>) But wait… there was even a Planet Money podcast reference to Helium as well.
 
 And then there is this recent query of Techmeme coverage[7](#footnote-7) that puts the recent months story arc of Helium / Nova Labs into sobering perspective
 
-[![](https://cuthrell.com/favicon.png)](https://techmeme.com/search/query?q=helium&wm=false)And yet… am or will I be both wrong and right at the same time?
+(https://techmeme.com/search/query?q=helium&wm=false)And yet… am or will I be both wrong and right at the same time?
 
 It turns out that Nova Labs has [checks notes] acquired FreedomFi.[8](#footnote-8)
 
-[![](https://cuthrell.com/favicon.png)](https://web.archive.org/web/20220818160310/https://freedomfi.com/press-release/)Until next time… Place your bets…
+(https://web.archive.org/web/20220818160310/https://freedomfi.com/press-release/)Until next time… Place your bets…
 
 # Disclosure
 
@@ -89,10 +89,10 @@ I am linking to my [disclosure](https://jaycuthrell.com/disclosure/?utm_campaig
 
 [4](#footnote-anchor-4)Read:
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayFudge Sunday - I Don't Know Where I'll Be TomorrowView online A song, lyric, and tweets to connect it back to the edge, core, and cloud. This issue is part 5 of a 5 part series Fudge Sunday - And the way that gravity pulls on everyone Fudge Sunday - And All Points In Between Fudge Sunday - All Along the Watchtower…Read morea year ago · Jay Cuthrell](https://sunday.fudge.org/p/fudge-sunday-i-don-t-know-where-i-ll-be-tomorrow-679416?utm_source=substack&utm_campaign=post_embed&utm_medium=web)[5](#footnote-anchor-5)Read: [IBM Aims to Capture Growing Market Opportunity for Data Observability with Databand.ai Acquisition](https://newsroom.ibm.com/2022-07-06-IBM-Aims-to-Capture-Growing-Market-Opportunity-for-Data-Observability-with-Databand-ai-Acquisition)
+(https://newsroom.ibm.com/2022-07-06-IBM-Aims-to-Capture-Growing-Market-Opportunity-for-Data-Observability-with-Databand-ai-Acquisition)
 
 [6](#footnote-anchor-6)Read:
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayFudge Sunday - 99 6G BalloonsView online This week we take a look at Mobile World Congress 2022, marketing, memes, and the growing democratization of mobile technology…Read more10 months ago · Jay Cuthrell](https://sunday.fudge.org/p/fudge-sunday-99-6g-balloons-1014217?utm_source=substack&utm_campaign=post_embed&utm_medium=web)[7](#footnote-anchor-7)Query: <https://techmeme.com/search/query?q=helium&wm=false>
+(#footnote-anchor-7)Query: <https://techmeme.com/search/query?q=helium&wm=false>
 
 [8](#footnote-anchor-8)Read: <https://web.archive.org/web/20220818160310/https://freedomfi.com/press-release/>

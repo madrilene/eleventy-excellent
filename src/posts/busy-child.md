@@ -25,15 +25,15 @@ Did you know an online youth learning low code community has amazing stats?
 * Used in every country on the planet
 * Available in 70+ languages
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Amazing pandemic peak, right ?!?So, what’s the name of this youth low code community? GitHub, GitLab, Glitch, Fortnite, Minecraft, or Roblox? 
+Amazing pandemic peak, right ?!?So, what’s the name of this youth low code community? GitHub, GitLab, Glitch, Fortnite, Minecraft, or Roblox? 
 
 No. In fact, these amazing statistics above are from [Scratch](https://scratch.mit.edu/statistics/) of MIT fame.[3](#footnote-3) 
 
 As of 2021, [Scratch](https://scratch.mit.edu/statistics/) is growing almost as fast per year as GitHub.[4](#footnote-4)
 
-[![Twitter avatar for @DynamicWebPaige](https://cuthrell.com/favicon.png)👩‍💻 Paige Bailey #BlackLivesMatter @DynamicWebPaige📈 Wow! I had no idea that Scratch's number of users were in the millions (with an average age of about 16)–and that its MAUs are nearing 1M.
+👩‍💻 Paige Bailey #BlackLivesMatter @DynamicWebPaige📈 Wow! I had no idea that Scratch's number of users were in the millions (with an average age of about 16)–and that its MAUs are nearing 1M.
 
-It's also impressive to see Scratch surpassing Rust, Julia, and even Typescript on the TIOBE language index. 😳 ![Image](https://pbs.substack.com/media/FX0CbgRVEAAj0aL.jpg)![Twitter avatar for @BryanEBraun](https://cuthrell.com/favicon.png)Bryan Braun @BryanEBraunI've spent the last few weeks taking a closer look at Scratch, and I've been really impressed at what I've found:
+It's also impressive to see Scratch surpassing Rust, Julia, and even Typescript on the TIOBE language index. 😳 ![Image](https://cuthrell.com/favicon.png)![Twitter avatar for @BryanEBraun](https://cuthrell.com/favicon.png)Bryan Braun @BryanEBraunI've spent the last few weeks taking a closer look at Scratch, and I've been really impressed at what I've found:
 
 https://t.co/8gy4rK75mp](https://twitter.com/DynamicWebPaige/status/1548396520575184897?s=20&t=tnJl6Y7yR0G7qnEmscsYtQ)[7:57 PM ∙ Jul 16, 2022
 
@@ -59,7 +59,7 @@ While not an exhaustive list, these young learner communities illustrate that ne
 
 Looking within just the United States, there are interesting patterns emerging as well about the next generation learning of the next generation. Consider the last time you heard about 50 governors in all 50 states agreeing on just about anything.
 
-[![Twitter avatar for @codeorg](https://cuthrell.com/favicon.png)Code.org @codeorgThe U.S. is united on this: 50 governors signed a commitment, joining 750+ CEOs & nonprofit leaders — billionaires & unions, competitors in every sector — who agree that every student in every school should have the opportunity to learn computer science. [ceosforcs.com](http://ceosforcs.com) ![Image](https://pbs.substack.com/media/FXvOJTBUcAAgML-.jpg)](https://twitter.com/codeorg/status/1548058549439213569?s=20&t=JReXoe0Ns1E87XqxS5Z9TA)[9:34 PM ∙ Jul 15, 2022
+(https://twitter.com/codeorg/status/1548058549439213569?s=20&t=JReXoe0Ns1E87XqxS5Z9TA)[9:34 PM ∙ Jul 15, 2022
 
 
 
@@ -73,7 +73,7 @@ Looking within just the United States, there are interesting patterns emerging a
 
 Perhaps you are seeing these numbers and are still skeptical (good!). Perhaps you consider these numbers to be but a mere drop in the finite attention span bucket (arguably so!).
 
-[![Twitter avatar for @rahulchandra77](https://cuthrell.com/favicon.png)Rahul Chandra @rahulchandra77Replicating TikTok would require the growth chart to look like this. ![Image](https://pbs.substack.com/media/Ebx7RreUcAAPAMh.jpg)](https://twitter.com/rahulchandra77/status/1278031942986809344?s=20&t=Cq_Bgjy8nxk_a6XWFoYMsg)[6:25 PM ∙ Jun 30, 2020
+(https://twitter.com/rahulchandra77/status/1278031942986809344?s=20&t=Cq_Bgjy8nxk_a6XWFoYMsg)[6:25 PM ∙ Jun 30, 2020
 
 
 
@@ -83,7 +83,7 @@ Perhaps you are seeing these numbers and are still skeptical (good!). Perhaps yo
 
 Finally, just imagine those remixed cultural artifacts eventually going viral on the very platforms that compete against the next generation learner platforms for attention. Here be recursion once again.[8](#footnote-8)
 
-[![](https://cuthrell.com/favicon.png)](https://www.tiktok.com/@code.org/video/7119917604021718318)[@code.org](https://www.tiktok.com/@code.org)[#google Program Manager Taylor Roper tells us how she got into tech! #computerscience #blackinstem #blackintech #hbcu #womeninstem #womenintech](https://www.tiktok.com/@code.org/video/7119917604021718318)![](https://substackcdn.com//img/alert-circle.svg)Tiktok failed to load.  
+(https://www.tiktok.com/@code.org/video/7119917604021718318)[@code.org](https://www.tiktok.com/@code.org)[#google Program Manager Taylor Roper tells us how she got into tech! #computerscience #blackinstem #blackintech #hbcu #womeninstem #womenintech](https://www.tiktok.com/@code.org/video/7119917604021718318)![](https://substackcdn.com//img/alert-circle.svg)Tiktok failed to load.  
   
 Enable 3rd party cookies or use another browserPlace your bets…
 

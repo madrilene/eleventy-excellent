@@ -30,7 +30,7 @@ This time around I found another example using Python:
 
 A few seconds later… this caught my eye for @Qthrul:
 
-[![Qthrul](https://cuthrell.com/favicon.png "Qthrul")](https://cuthrell.com/favicon.png)It is clear that functionality arrived (retweet) and that I was interactive (replies).
+It is clear that functionality arrived (retweet) and that I was interactive (replies).
 
 Trends: @JayCuthrell and @JayAtDellEMC
 ======================================
@@ -39,9 +39,9 @@ But I had also created other Twitter accounts.
 
 Let’s take a look at @JayCuthrell:
 
-[![JayCuthrell](https://cuthrell.com/favicon.png "JayCuthrell")](https://cuthrell.com/favicon.png)Let’s take a look at @JayAtDellEMC:
+Let’s take a look at @JayAtDellEMC:
 
-[![JayAtDellEMC](https://cuthrell.com/favicon.png "JayAtDellEMC")](https://cuthrell.com/favicon.png)I’ll revisit this post as I come across more tools with good results.
+I’ll revisit this post as I come across more tools with good results.
 
 
 

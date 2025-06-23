@@ -4,7 +4,7 @@ description: ''
 date: 2022-03-27 20:29:31+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a closer look at DevSec, SCA, xAST, RASP, DevSecOps, FinOps, and code search.
+This week we take a closer look at DevSec, SCA, xAST, RASP, DevSecOps, FinOps, and code search.
 
 The Velvelettes "Needle in a Haystack" (1965)
 
@@ -14,7 +14,7 @@ First, let’s expand some [DevSec](https://disruptops.com/devsecops-vs-devsecop
 
 Software Composition Analysis (SCA) is a method for looking at all the code that wasn’t written (by you or your team) but was inherited from somewhere else externally along the development journey and now represents a dependency. Or, to understand why SCA is important, please consider [Dependency](https://xkcd.com/2347/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) aka [xkcd 2347](https://xkcd.com/2347/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![There's always a xkcd for everything](https://cuthrell.com/favicon.png "There's always a xkcd for everything")](https://cuthrell.com/favicon.png)There's always a xkcd for everything
+There's always a xkcd for everything
 
  **🎶 I'm tellin' you the natural facts 🎶**
 
@@ -30,7 +30,7 @@ These approaches can be helpful in trying to find a needle… in a fullstack. Ri
 
 So, what about about when the build breaks? Or you just inherited responsibility for a new (to you) codebase that was assembled over a time period longer than your entire career? Or your DevOps and DevSecOps teams are shifting their entire approach to everything in order to embrace an Infrastructure as Code (IaC) ethos?
 
-[![🎶 You'd better look before you leap 🎶](https://cuthrell.com/favicon.png "🎶 You'd better look before you leap 🎶")](https://cuthrell.com/favicon.png)**[🎶 You'd better look before you leap 🎶](https://www.topofthelyne.co/p/sourcegraph-google-for-code?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.topofthelyne.co/p/sourcegraph-google-for-code?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 There is a great quote from the [Top of the Lyne](https://www.topofthelyne.co/p/sourcegraph-google-for-code?s=r&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) writing team that captures why companies like [Sourcegraph](https://sourcegraph.com/search?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) exist and the problem space in general.
 
@@ -58,7 +58,7 @@ If [software is eating the world](https://fudge.org/archive/social-telecom-2030/
 
 For example:
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Beyang Liu](https://twitter.com/beyang/status/1454937232368832522)**
+**[Beyang Liu](https://twitter.com/beyang/status/1454937232368832522)**
 
 [@beyang](https://twitter.com/beyang/status/1454937232368832522)
 

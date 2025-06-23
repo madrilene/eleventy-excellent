@@ -4,13 +4,13 @@ description: ''
 date: 2021-09-20 00:32:35+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-multicloudwashing-detergent-762371?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Fun fact: A year ago was my last day with Dell Technologies. For this installment, we examine cloudwashing through a multicloud lens as multicloudwashing.
+
+Fun fact: A year ago was my last day with Dell Technologies. For this installment, we examine cloudwashing through a multicloud lens as multicloudwashing.
 
  **Last week**
 
-[![Betting Odds and Ends Justify the Means of Production](https://cuthrell.com/favicon.png "Betting Odds and Ends Justify the Means of Production")](https://cuthrell.com/favicon.png)**[Betting Odds and Ends Justify the Means of Production](https://sunday.fudge.org/issues/fudge-sunday-betting-odds-and-ends-justify-the-means-of-production-752134?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-betting-odds-and-ends-justify-the-means-of-production-752134?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Last week we looked at everything from SciFi to DIY cloud repatriation to systems of organization telemetry. Oh my!
 
@@ -70,9 +70,9 @@ I thought you would never ask. Here goes…
 
 Google Trends can be interesting but often it’s about finding the terms and filters to make a point. So, here are just a couple of examples.
 
-[![Cherry picked to make a tenuous point](https://cuthrell.com/favicon.png "Cherry picked to make a tenuous point")](https://cuthrell.com/favicon.png)Cherry picked to make a tenuous point
+Cherry picked to make a tenuous point
 
-[![Cherry picked to make a tenuous comparison](https://cuthrell.com/favicon.png "Cherry picked to make a tenuous comparison")](https://cuthrell.com/favicon.png)Cherry picked to make a tenuous comparison
+Cherry picked to make a tenuous comparison
 
  **Cautionary tales of cloud ring around the collar**
 
@@ -80,7 +80,7 @@ Twitter is a source of interesting multicloud threads. Where else can one find c
 
 In fact, if you just look at a simple [search for #multicloud with more than 300 likes](https://twitter.com/search?f=live&q=%28%23multicloud%29%20min_faves%3A300&src=typed_query&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)… you get… well, a very short list. My favorite?
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Eric Wright](https://twitter.com/discoposse/status/1397688148742787074)**
+**[Eric Wright](https://twitter.com/discoposse/status/1397688148742787074)**
 
 [@discoposse](https://twitter.com/discoposse/status/1397688148742787074)
 
@@ -94,15 +94,15 @@ Vendors aside, the good news about multicloud is that more companies *are* takin
 
 First and foremost, companies want to understand what technology is [possible, permissible, repeatable, sustainable, and advisable](https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). These [“ibles and ables”](https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) are table stakes.
 
-[![Faction MultiCloud Technical Overview - Interview with Matt Wallace](https://cuthrell.com/favicon.png "Faction MultiCloud Technical Overview - Interview with Matt Wallace")](https://cuthrell.com/favicon.png)Faction MultiCloud Technical Overview - Interview with Matt Wallace
+Faction MultiCloud Technical Overview - Interview with Matt Wallace
 
 Any multicloud journey must begin with a compelling use case. What starts as one use case can quickly become many use cases.
 
-[![Multicloud Data Fabric Use Cases with Faction](https://cuthrell.com/favicon.png "Multicloud Data Fabric Use Cases with Faction")](https://cuthrell.com/favicon.png)Multicloud Data Fabric Use Cases with Faction
+Multicloud Data Fabric Use Cases with Faction
 
 Home on the range is more about having a range of options than making any one specific cloud a home or leaving repatriation patterns outside consideration. In the future, it’s a good bet that workloads, workflows, and platforms will shift to the ever growing edge – and the edge will be less *edge case* and far larger than we might imagine today.
 
-[![Home on the Ranch - Mulicloud Data Repatriation](https://cuthrell.com/favicon.png "Home on the Ranch - Mulicloud Data Repatriation")](https://cuthrell.com/favicon.png)Home on the Ranch - Mulicloud Data Repatriation
+Home on the Ranch - Mulicloud Data Repatriation
 
  **Disclosure**
 

@@ -13,7 +13,7 @@ If you are new to OpenTelemetry — or “Otel” for short — that’s underst
 
 Please subscribe to receive new posts 🤓
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)In my defense, Duran Duran is less meme-worthy than Nickelback I made a break, I run out yesterday 🎶
+In my defense, Duran Duran is less meme-worthy than Nickelback I made a break, I run out yesterday 🎶
 -------------------------------------
 
 During the .com years, it was common to find references to “load testing” or “traffic simulation” software and vendors in response to ever greater expectations for performance of so-called “3 tier” web applications. The common thinking then was that by instrumenting each tier and then simulating the growing consumer web traffic *before* you launched a website, you might find performance bottlenecks to fix leading to a better end user outcome — especially if there was a commercial component to the website such as e-commerce, etc. that relied upon performance layers for the web servers, app servers, and database servers.
@@ -31,7 +31,7 @@ Who uses Otel?
 
 Well, first, let’s recall recent posts regarding platform engineering and [telemetry](https://www.google.com/search?q=telemetry+site%3Asunday.fudge.org).
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayBuild a Cloud Platform FoundationRead more2 months ago · Jay Cuthrell](https://sunday.fudge.org/p/build-a-cloud-platform-foundation?utm_source=substack&utm_campaign=post_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)Fudge SundayPlatform Engineering BluesRead more2 months ago · Jay Cuthrell](https://sunday.fudge.org/p/platform-engineering-blues?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Now that we’re familiar with a few definitions of platform engineering, it’s time for specific examples as it relates to Otel. Luckily, [Charity Majors](https://www.linkedin.com/in/charity-majors/), CTO of [Honeycomb.io](https://www.honeycomb.io) recently provided succinct examples[8](#footnote-8) across both Plaform Engineers and Site Reliability Engineers. 
+(#footnote-8) across both Plaform Engineers and Site Reliability Engineers. 
 
 Platform Engineers:
 
@@ -58,19 +58,19 @@ Who else is a great resource of information on Otel?
 
 The following tweets from 2021-2022 are just a sample of the amazing community to consider Following or adding to your Lists.
 
-[![Twitter avatar for @lizthegrey](https://cuthrell.com/favicon.png)Liz Fong-Jones (方禮真) @lizthegreyIn case you're curious what getting featured by HN looks like.
+Liz Fong-Jones (方禮真) @lizthegreyIn case you're curious what getting featured by HN looks like.
 
-Same data side by side in @LightstepHQ and in @honeycombio, from the #OpenTelemetry collector receiving browser instrumentation and teeing it to both sinks (thanks @austinlparker!) ![honeycomb graph showing latency heatmap and number of requests](https://pbs.substack.com/media/FCvzLBgVUAA97T5.jpg)![lightstep latency histogram](https://pbs.substack.com/media/FCvzmVcVUAY__R5.jpg)![lightstep query builder showing rate of requests received for trailing hours to opentelemetry.io](https://pbs.substack.com/media/FCv1zPEUUAI4PRj.jpg)](https://twitter.com/lizthegrey/status/1453525797243797510?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[12:55 AM ∙ Oct 28, 2021
+Same data side by side in @LightstepHQ and in @honeycombio, from the #OpenTelemetry collector receiving browser instrumentation and teeing it to both sinks (thanks @austinlparker!) ![honeycomb graph showing latency heatmap and number of requests](https://cuthrell.com/favicon.png)![lightstep latency histogram](https://cuthrell.com/favicon.png)![lightstep query builder showing rate of requests received for trailing hours to opentelemetry.io](https://cuthrell.com/favicon.png)](https://twitter.com/lizthegrey/status/1453525797243797510?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[12:55 AM ∙ Oct 28, 2021
 
 
 
-15Likes2Retweets](https://twitter.com/lizthegrey/status/1453525797243797510?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[![Twitter avatar for @mipsytipsy](https://cuthrell.com/favicon.png)Charity Majors @mipsytipsyFor those of you who have been living under a rock, OTel is an open standard for generating, collecting, and exporting telemetry in a vendor agnostic way.
+15Likes2Retweets](https://twitter.com/lizthegrey/status/1453525797243797510?s=20&t=40rloke9wxFY3fbZZU2ZCQ)Charity Majors @mipsytipsyFor those of you who have been living under a rock, OTel is an open standard for generating, collecting, and exporting telemetry in a vendor agnostic way.
 
 Before OTel, every vendor had its own libraries, and switching (or trying out) new vendors was a \*bitch\*.](https://twitter.com/mipsytipsy/status/1494857554714718209?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[2:13 AM ∙ Feb 19, 2022
 
 
 
-97Likes7Retweets](https://twitter.com/mipsytipsy/status/1494857554714718209?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[![Twitter avatar for @maascamp](https://cuthrell.com/favicon.png)Gordon Radlein @maascampToday was my last day at Meta.
+97Likes7Retweets](https://twitter.com/mipsytipsy/status/1494857554714718209?s=20&t=40rloke9wxFY3fbZZU2ZCQ)Gordon Radlein @maascampToday was my last day at Meta.
 
 On Monday I'll start my new role as an Eng Director @datadoghq working on APM and figuring out our plans for @opentelemetry.
 
@@ -78,7 +78,7 @@ Excited to try my hand on the product side of the business.](https://twitter.com
 
 
 
-624Likes16Retweets](https://twitter.com/maascamp/status/1507473053814439936?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[![Twitter avatar for @alolita](https://cuthrell.com/favicon.png)Alolita Sharma🌸 @alolitaFinal step of launch! We have swag for AWS Distro for OpenTelemetry! 🚀🎉 #OpenTelemetry #Observability #ADOT ![Image](https://pbs.substack.com/media/FKEtRqiVUAMxgKK.jpg)](https://twitter.com/alolita/status/1486519136528179203?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[1:59 AM ∙ Jan 27, 2022
+624Likes16Retweets](https://twitter.com/maascamp/status/1507473053814439936?s=20&t=40rloke9wxFY3fbZZU2ZCQ)(https://twitter.com/alolita/status/1486519136528179203?s=20&t=40rloke9wxFY3fbZZU2ZCQ)[1:59 AM ∙ Jan 27, 2022
 
 
 

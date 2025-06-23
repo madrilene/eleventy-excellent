@@ -1,10 +1,10 @@
 ---
 title: "Fudge Sunday - Just Can't Get Enough"
-description: ''
-date: 2022-05-01 22:39:55+00:00
+description: 'Getting enough'
+date: 2022-05-01
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we examine reading lists from 2019-2022.
+This week we examine reading lists from 2019-2022.
 
 Depeche Mode - Just Can't Get Enough (1982)
 
@@ -31,7 +31,7 @@ For example, after [exporting Safari Reading List via a helpful shortcut](https:
 
 The whole exercise – even after opening these links – was meme worthy.
 
-[![My use of Safari Reading List functionality was an anti-pattern that left me asking...](https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e1400e6a-75b3-497b-94b7-c80eca072099_498x267.gif "My use of Safari Reading List functionality was an anti-pattern that left me asking...")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1400e6a-75b3-497b-94b7-c80eca072099_498x267.gif)My use of Safari Reading List functionality was an anti-pattern that left me asking...
+[![My use of Safari Reading List functionality was an anti-pattern that left me asking...](https://cuthrell.com/favicon.png "My use of Safari Reading List functionality was an anti-pattern that left me asking...")](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1400e6a-75b3-497b-94b7-c80eca072099_498x267.gif)My use of Safari Reading List functionality was an anti-pattern that left me asking...
 
  **And when it rains 🎶**
 

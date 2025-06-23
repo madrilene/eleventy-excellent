@@ -4,13 +4,13 @@ description: ''
 date: 2021-09-13 01:10:51+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-betting-odds-and-ends-justify-the-means-of-production-752134?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week is a bit of a potpourri of links and concepts. The title is a play on words to cover four topics in one newsletter issue. Let’s get to it.
+
+This week is a bit of a potpourri of links and concepts. The title is a play on words to cover four topics in one newsletter issue. Let’s get to it.
 
  **Last Week**
 
-[![Data Portability](https://cuthrell.com/favicon.png "Data Portability")](https://cuthrell.com/favicon.png)**[Data Portability](https://sunday.fudge.org/issues/fudge-sunday-data-portability-742573?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-data-portability-742573?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Last week we look at the world of data portability from 2005 to present. Along the way, we examined how long it can take for the impact of data gravity to be felt and the responses the market provides in the wake.
 

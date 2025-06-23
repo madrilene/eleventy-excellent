@@ -15,7 +15,7 @@ If you read my blog then you might recall my [last day at Dell Technologies](htt
 
 **So, I’m super pumped to share I’ve joined [Faction](https://factioninc.com) in a new servant leader role.**
 
-[![Faction](https://cuthrell.com/favicon.png "Faction")](https://cuthrell.com/favicon.png)Yes, it’s fire hose sipping time!
+Yes, it’s fire hose sipping time!
 
 Oh.
 
@@ -37,7 +37,7 @@ In approaching Cloud Data Services for Multi-Cloud, the permission space for unl
 
 Because of my prior access to Dell Technologies Executive Briefings and awareness of Dell Technologies Capital [portfolio](https://www.delltechnologiescapital.com/portfolio/) updates, [Faction](https://factioninc.com) had been [on my radar](https://www.crunchbase.com/organization/faction) for a while. I’ve also been paying special attention to Cloud Data Services and Multi-Cloud requirements along the way.
 
-[![Google Trends for Cloud Data Services and Multi-Cloud](https://cuthrell.com/favicon.png "Google Trends for Cloud Data Services and Multi-Cloud")](https://cuthrell.com/favicon.png)It has becoming increasingly clear that organizations will demand Multi-Cloud options in 2021 and beyond. Notably, the same (and many new!) BICC stakeholders that engage in continuous integrations to serve the business will require the diversity of Multi-Cloud. Along the way, the BICC will build capabilities for digital transformation related outcomes through increased use of Cloud Data Services.
+It has becoming increasingly clear that organizations will demand Multi-Cloud options in 2021 and beyond. Notably, the same (and many new!) BICC stakeholders that engage in continuous integrations to serve the business will require the diversity of Multi-Cloud. Along the way, the BICC will build capabilities for digital transformation related outcomes through increased use of Cloud Data Services.
 
 Luckily, [Faction](https://factioninc.com) has built a Cloud Data Services for Multi-Cloud practice over the years backed by Cloud Control Volumes™ (CCV™) and Hybrid Disaster Recovery-as-a-Service (HDRaaS) products enabled by [a growing number of patents](https://www.factioninc.com/patents/). So, I’m excited to help carry out the mission at [Faction](https://factioninc.com).
 

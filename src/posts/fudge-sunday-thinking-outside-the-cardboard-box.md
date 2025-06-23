@@ -4,9 +4,9 @@ description: ''
 date: 2019-05-20 05:09:47+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-thinking-outside-the-cardboard-box-178680?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Now that China has said “no thank you” to scrap recycling imports, there is a good chance [the familiar cardboard recycling bin will take on greater significance](https://www.wastedive.com/news/what-recycling-end-market-development-looks-like-in-2019/553683/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) as the piles… continue to make a bigger pile. This week, let’s take a look at the humble cardboard box.
+
+Now that China has said “no thank you” to scrap recycling imports, there is a good chance [the familiar cardboard recycling bin will take on greater significance](https://www.wastedive.com/news/what-recycling-end-market-development-looks-like-in-2019/553683/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) as the piles… continue to make a bigger pile. This week, let’s take a look at the humble cardboard box.
 
  **Humble Origins**
 

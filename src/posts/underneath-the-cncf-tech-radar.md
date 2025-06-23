@@ -16,13 +16,13 @@ Today, the CNCF mission is, according to their charter, “to make cloud native 
 
 CNCF produces a landscape of projects and members that, as of this post, represents a market cap of $18.9T and $54.2B in funding.[4](#footnote-4)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)The cloud native landscape… [like Leon](https://www.youtube.com/watch?v=-cJmpwkUx4s), is getting largerClearly, the landscape is a bit of an eye chart. 
+The cloud native landscape… [like Leon](https://www.youtube.com/watch?v=-cJmpwkUx4s), is getting largerClearly, the landscape is a bit of an eye chart. 
 
 So, what’s new? In a word, as of this week, the observability company, Sidekick.
 
-[![Twitter avatar for @RunSidekick](https://cuthrell.com/favicon.png)Sidekick @RunSidekickSidekick #opensource is on #CNCF Landscape under the #Observability and Analysis Monitoring section!
+Sidekick @RunSidekickSidekick #opensource is on #CNCF Landscape under the #Observability and Analysis Monitoring section!
 Collect traces, exception stacks and generate logs on-demand without stopping & redeploying your applications 😎
-[go.thundra.io/3eLzLOj](https://go.thundra.io/3eLzLOj)[![](https://cuthrell.com/favicon.png)go.thundra.ioCloud Native LandscapeThe Cloud Native Landscape organizes all cloud native open source projects and proprietary products into categories, providing an overview of the current ecosystem](https://go.thundra.io/3eLzLOj)](https://twitter.com/RunSidekick/status/1582718208607457282?s=20&t=YCXTBalJilXlmUTJL_jA3g)[1:00 PM ∙ Oct 19, 2022](https://twitter.com/RunSidekick/status/1582718208607457282?s=20&t=YCXTBalJilXlmUTJL_jA3g)No sign upon screen 🎶
+[go.thundra.io/3eLzLOj](https://go.thundra.io/3eLzLOj)(https://twitter.com/RunSidekick/status/1582718208607457282?s=20&t=YCXTBalJilXlmUTJL_jA3g)No sign upon screen 🎶
 ---------------------
 
 You might have noted the Gartner Survey of 2203 CIOs findings this week.[5](#footnote-5)
@@ -44,7 +44,7 @@ Get hip 🎶
 
 So, let’s apply the findings using the lens of a CNCF End User Technology Radar for DevSecOps that was published this time last year.[6](#footnote-6)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Curiously, the “Trial” radar range was a thin crop for September 2021.The Adopt list contains a few interesting DevSecOps references such as Istio and Open Policy Agent (OPA). The Assess list entries that caught my attention were Harness and Trivy.
+Curiously, the “Trial” radar range was a thin crop for September 2021.The Adopt list contains a few interesting DevSecOps references such as Istio and Open Policy Agent (OPA). The Assess list entries that caught my attention were Harness and Trivy.
 
 The trial list only contains XRay which CNCF links to XRay (an Idera Company)[7](#footnote-7) which also turned out to be very popular for Atlassian Jira shops at the time of this radar publishing when I tried to understand the relevance to DevSecOps.
 
@@ -54,7 +54,7 @@ When I learned that *XRay* linked to in the Trial range was XRay, an Idera Compa
 
 Lastly, if the CNCF continues to publish radar findings year over year, the tracking of specific groups of technologies from assess to trial to adopt will be an even more valuable guide for the community. One possible consideration might be to enrich these radar findings with a stackshare.io[10](#footnote-10) drift over time.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Steve McCroskey and Austin Millbarge multiverse memeSo what’s the next DevSecOps Adopt candidate set for 2023?
+Steve McCroskey and Austin Millbarge multiverse memeSo what’s the next DevSecOps Adopt candidate set for 2023?
 
 Until next time… Place your bets!
 

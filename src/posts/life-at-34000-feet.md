@@ -59,7 +59,7 @@ Connectivity almost anywhere 2011 to Present…
 
 Just 5 years later, a growing number of airlines were adding the first generation of in-flight air-to-ground (ATG) broadband accessible via Wi-Fi. This is where business travels came to love (and not always love) [GoGo](https://en.wikipedia.org/wiki/Gogo_Business_Aviation?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![Delta B757-200 with wifi circa December 2011](https://cuthrell.com/favicon.png "Delta B757-200 with wifi circa December 2011")](https://cuthrell.com/favicon.png)Delta B757-200 with wifi circa December 2011
+Delta B757-200 with wifi circa December 2011
 
 Looking back on 2011, while the connectivity was passable the adoption curve and contention for a very shared resource led to often degraded performance. Still, it isn’t as if the industry and technology was sitting still. Far from it.
 

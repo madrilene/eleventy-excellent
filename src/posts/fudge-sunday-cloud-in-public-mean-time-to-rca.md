@@ -4,9 +4,9 @@ description: ''
 date: 2021-10-25 01:27:33+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-mean-time-to-rca-815545?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we continue to take a look at public things for a public cloud.
+
+This week we continue to take a look at public things for a public cloud.
 
 ☁️✅⚠️🛑
 

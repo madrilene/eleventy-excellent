@@ -31,7 +31,7 @@ As technology is the response to perceived needs, those needs may be satisfied i
 > 
 > 
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)A humble canary’s call to action… Take care of TCB 🎶
+A humble canary’s call to action… Take care of TCB 🎶
 ------------------
 
 Increasingly, taking care of business (TCB) in terms of modern security processes will require human machine partnerships for contemplating the correlation of events that represent signals worthy of action. Indeed, automation and convergence will be what drives the security operations center (SoC) to take advantage of separation of concerns (SoC) that are satisfied by proliferation of system on a chip (SoC) solutions — and possibly running a virtual system of canaries (SoC) at hyperscale.

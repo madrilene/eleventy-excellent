@@ -4,9 +4,9 @@ description: ''
 date: 2019-03-04 05:25:03+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-quantum-leap-years-162530?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)The topic of [quantum computing](https://en.wikipedia.org/wiki/Quantum_computing?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) has steadily moved towards the realm of popular science. As with many other topics within popular science, wider audiences will have varying degrees of awareness and depth – but recognition is certainly on the rise.
+
+The topic of [quantum computing](https://en.wikipedia.org/wiki/Quantum_computing?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) has steadily moved towards the realm of popular science. As with many other topics within popular science, wider audiences will have varying degrees of awareness and depth – but recognition is certainly on the rise.
 
  **Let's get the TV reference out of the way...**
 
@@ -40,7 +40,7 @@ For example, consider that Gartner also listed “Synthetic Characters” next t
 
 Trying to gauge more general interests outside of Gartner clientele is a bit more challenging. Even Google Trends indicate that interest in quantum computing has risen and fallen over the years.
 
-[![Perhaps the least scientific way to gauge interest...](https://cuthrell.com/favicon.png "Perhaps the least scientific way to gauge interest...")](https://cuthrell.com/favicon.png)Perhaps the least scientific way to gauge interest...
+Perhaps the least scientific way to gauge interest...
 
 Zeitgeist estimates aside, the steady uptick in searches for quantum computing would indicate more people wonder what quantum computing is about. Also, in just over 15 years, the interest in quantum computing has risen to the level of demand for summaries targeting CIOs.
 

@@ -1,14 +1,10 @@
 ---
 title: "Fudge Sunday - Cut Me Some Slack"
-description: ''
+description: 'Slack and search engines'
 date: 2022-01-31 00:19:16+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cut-me-some-slack-1003110?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
-
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at Slack communities that are worth exploring and other “deep web” places that public web search engine can’t index (yet).
-
-[![Sound City Players - Cut Me Some Slack](https://cuthrell.com/favicon.png "Sound City Players - Cut Me Some Slack")](https://cuthrell.com/favicon.png)Sound City Players - Cut Me Some Slack
+This week we take a look at Slack communities that are worth exploring and other “deep web” places that public web search engine can’t index (yet).
 
  **Getting Informed**
 
@@ -24,7 +20,7 @@ As of 2022, public web search engines still do not index all of the Internet. So
 
 “Cut me some Slack”
 
-[!["Deep Web" Trendspotting in Slack](https://cuthrell.com/favicon.png "\"Deep Web\" Trendspotting in Slack")](https://cuthrell.com/favicon.png)**["Deep Web" Trendspotting in Slack](https://sunday.fudge.org/issues/fudge-sunday-saas-trendspotting-877717?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+**["Deep Web" Trendspotting in Slack](https://sunday.fudge.org/issues/fudge-sunday-saas-trendspotting-877717?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 As a refresher, Fudge Sunday took a peek into the [“deep web”](https://sunday.fudge.org/issues/fudge-sunday-saas-trendspotting-877717?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) where a regular public web search engine cannot go – such as Slack.
 
@@ -100,8 +96,6 @@ Since I wanted to share a possible workaround to the questions, I ended up cross
 So, while one could provide an answer on GitHub… it probably won’t be found. Yet, if you post to Discourse, it might be picked up by a search engine such as Google.
 
 Example: [https://www.google.com/search?q=%22event+that+tailscale%22](https://www.google.com/search?q=%22event%20that%20tailscale%22&utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
-
-[![Note: Verbatim Google search results -- YMMV](https://cuthrell.com/favicon.png "Note: Verbatim Google search results -- YMMV")](https://cuthrell.com/favicon.png)Note: Verbatim Google search results -- YMMV
 
  **Disclosure**
 

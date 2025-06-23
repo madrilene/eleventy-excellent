@@ -4,7 +4,7 @@ description: ''
 date: 2022-04-10 20:26:19+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week lists a few times my guesses were accurate (or got close).
+This week lists a few times my guesses were accurate (or got close).
 
 Oasis - The Turning (Alternative Version #4) - Noel's cut
 

@@ -10,7 +10,7 @@ Parking Decks and Pricing Models
 Sometimes you see patterns. I see a few with regard to some of the software players that are often considered part of a past era in IT. Let’s take a look at Oracle and see where convergence will take us.
 
 
-[![From my 2009 Ignight Raleigh Presentation: The Redneck's Guide to Silicon Valley](https://cuthrell.com/favicon.png "From my 2009 Ignight Raleigh Presentation: The Redneck's Guide to Silicon Valley")](https://cuthrell.com/favicon.png)From my 2009 Ignight Raleigh Presentation: The Redneck’s Guide to Silicon Valley
+From my 2009 Ignight Raleigh Presentation: The Redneck’s Guide to Silicon Valley
 
 Git Er Done
 ===========
@@ -101,7 +101,7 @@ This is what makes pricing models for software so interesting. For the first tim
 
 Will a printed chart be required to understanding licensing implications of Enterprise software? Will there be software required to keep track of the licensing of the software? Is that completely illogical?
 
-[![Will the licensing math become related to the number of page faults?](https://cuthrell.com/favicon.png "Will the licensing math become related to the number of page faults?")](https://cuthrell.com/favicon.png)Will the licensing math become related to the number of page faults?
+Will the licensing math become related to the number of page faults?
 
 Perhaps, when considering pricing models, it would be wise for any ISV or full stack company to avoid “punching your customer in the face” as Chad Sakac most recently reminded us all in the IT industry. Don’t be that kind of company, right?
 

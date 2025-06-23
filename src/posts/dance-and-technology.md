@@ -4,11 +4,11 @@ description: ''
 date: 2019-02-17 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)I’m rebooting this newsletter for 2019. If you forgot you were on this list, there is probably a GDPR way to get off the list. Enjoy the first (13?) installment of Fudge Sunday.
+I’m rebooting this newsletter for 2019. If you forgot you were on this list, there is probably a GDPR way to get off the list. Enjoy the first (13?) installment of Fudge Sunday.
 
 
 
-[![via fudge.org (circa 1996?)](https://cuthrell.com/favicon.png "via fudge.org (circa 1996?)")](https://cuthrell.com/favicon.png)via fudge.org (circa 1996?)
+via fudge.org (circa 1996?)
 
 Newsletters and podcasts galore
 

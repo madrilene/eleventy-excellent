@@ -4,9 +4,9 @@ description: ''
 date: 2019-05-27 05:08:23+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-private-podcasting-and-max-headroom-179902?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at the circuitous routes that podcasts have taken over the past 20 years. Along the way, we weave in references to tropes trove of Max Headroom. From origins to fits and starts to the claiming of legitimately enduring formats, podcasts are here to stay and probably just getting started even if the new world will be millions of Blank Reg devotees.
+
+This week we take a look at the circuitous routes that podcasts have taken over the past 20 years. Along the way, we weave in references to tropes trove of Max Headroom. From origins to fits and starts to the claiming of legitimately enduring formats, podcasts are here to stay and probably just getting started even if the new world will be millions of Blank Reg devotees.
 
  **Origin and Inspiration**
 

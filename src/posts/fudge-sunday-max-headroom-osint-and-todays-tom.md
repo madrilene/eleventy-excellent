@@ -4,11 +4,11 @@ description: ''
 date: 2022-03-07 02:40:03+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-max-headroom-osint-and-today-s-tom-sawyer-1061607?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at Max Headroom, Open-Source INTelligence (OSINT), and today’s Tom Sawyer.
 
-[![Sting - Russians (1985)](https://cuthrell.com/favicon.png "Sting - Russians (1985)")](https://cuthrell.com/favicon.png)Sting - Russians (1985)
+This week we take a look at Max Headroom, Open-Source INTelligence (OSINT), and today’s Tom Sawyer.
+
+Sting - Russians (1985)
 
  **Getting Informed**
 
@@ -38,7 +38,7 @@ While the origins of OSINT can be tracked back centuries, here in the USA the ti
 
 For example, we’ll get into the reasons why this chart mattered a lot more for many in the last few weeks for real people providing Human intelligence (HUMINT) that are trying to exfiltrate stories from the field in horrific conditions.
 
-[![Operations security (OPSEC) in OSINT can be the difference between life and death.](https://cuthrell.com/favicon.png "Operations security (OPSEC) in OSINT can be the difference between life and death.")](https://cuthrell.com/favicon.png)Operations security (OPSEC) in OSINT can be the difference between life and death.
+Operations security (OPSEC) in OSINT can be the difference between life and death.
 
 **[2019: Max Headroom moments](https://sunday.fudge.org/issues/fudge-sunday-private-podcasting-and-max-headroom-179902?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
@@ -66,7 +66,7 @@ Now, if you had told me that the following year I would witness a billionaire no
 
  [5:33 PM - 26 Feb 2022](https://twitter.com/elonmusk/status/1497701484003213317)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Mykhailo Fedorov](https://twitter.com/FedorovMykhailo/status/1498392515262746630)**
+**[Mykhailo Fedorov](https://twitter.com/FedorovMykhailo/status/1498392515262746630)**
 
 [@FedorovMykhailo](https://twitter.com/FedorovMykhailo/status/1498392515262746630)
 
@@ -86,7 +86,7 @@ Important warning: Starlink is the only non-Russian communications system still 
 
 There are also recent examples of how Imagery Intelligence (IMINT), Financial intelligence (FININT), and Human intelligence (HUMINT) combines with Signals Intelligence (SIGINT) to create innovative OSINT based upon earlier work that tracked the jet of *the same billionaire* is being used to track very visible assets in the form of jets and yachts of Russian Oligarchs.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Elon Musk’s Jet](https://twitter.com/elonmuskjet/status/1498658939356987397)**
+**[Elon Musk’s Jet](https://twitter.com/elonmuskjet/status/1498658939356987397)**
 
 [@elonmuskjet](https://twitter.com/elonmuskjet/status/1498658939356987397)
 
@@ -94,7 +94,7 @@ Landed in Van Nuys, California, US. Apx. flt. time 2 Hours : 44 Mins. <https://t
 
  [8:58 AM - 1 Mar 2022](https://twitter.com/elonmuskjet/status/1498658939356987397)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Russian Oligarch Jets](https://twitter.com/RUOligarchJets/status/1499088188463202306)**
+**[Russian Oligarch Jets](https://twitter.com/RUOligarchJets/status/1499088188463202306)**
 
 [@RUOligarchJets](https://twitter.com/RUOligarchJets/status/1499088188463202306)
 
@@ -102,7 +102,7 @@ The latest list is below. Trying to stay the most accurate, red removed green ad
 
  [1:24 PM - 2 Mar 2022](https://twitter.com/RUOligarchJets/status/1499088188463202306)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Russian Yachts](https://twitter.com/RussiaYachts/status/1500278686674739207)**
+**[Russian Yachts](https://twitter.com/RussiaYachts/status/1500278686674739207)**
 
 [@RussiaYachts](https://twitter.com/RussiaYachts/status/1500278686674739207)
 
@@ -116,7 +116,7 @@ In conclusion, the interesting thing about OSINT now in 2022 there is an ever in
 
 Source: Peart and Dubois
 
-[![Rush - Tom Sawyer](https://cuthrell.com/favicon.png "Rush - Tom Sawyer")](https://cuthrell.com/favicon.png)Rush - Tom Sawyer
+Rush - Tom Sawyer
 
  **Disclosure**
 

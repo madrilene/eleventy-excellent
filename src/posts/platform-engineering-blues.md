@@ -11,18 +11,18 @@ Getting Informed
 
 If you need a refresher on Platform Engineering, read this post from last month:
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayBuild a Cloud Platform FoundationRead more2 months ago · Jay Cuthrell](https://sunday.fudge.org/p/build-a-cloud-platform-foundation?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Subscribe to Fudge Sunday!
+(https://sunday.fudge.org/p/build-a-cloud-platform-foundation?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Subscribe to Fudge Sunday!
 
 The lion reaps his own reward 🎶
 -------------------------------
 
 Setting aside Platform Engineering for a moment, [business value engineering](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=_EEJXAuryS8) is an important consideration of the perceived value for the customer or consuming entity that has been provided a response to their perceived need in the form of technology. In short, was the value commensurate or not — and can it proven over the technology lifecycle from return on invested capital to the ongoing total cost of ownership.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)So awkward, right?According to [Paul Delory at Gartner](https://www.gartner.com/en/experts/paul-delory), platform engineering can be thought of as the response to a perceived need (technology) for greater developer productivity through enhanced developer experiences. Or, as contributed by [Lori Perry at Gartner](https://www.linkedin.com/in/lorilperry/), a practical example of platform engineering could mean *“ […] reusable tools and self-service capabilities with automated infrastructure operations […]“*.[1](#footnote-1)
+So awkward, right?According to [Paul Delory at Gartner](https://www.gartner.com/en/experts/paul-delory), platform engineering can be thought of as the response to a perceived need (technology) for greater developer productivity through enhanced developer experiences. Or, as contributed by [Lori Perry at Gartner](https://www.linkedin.com/in/lorilperry/), a practical example of platform engineering could mean *“ […] reusable tools and self-service capabilities with automated infrastructure operations […]“*.[1](#footnote-1)
 
 Further, the technology choices related to platform engineering would, ideally, contemplate business value engineering concepts as well. Interestingly, you might recall when Fudge Sunday described the increasing importance of dependency mapping across hyperscale public cloud service providers and consideration of [business value engineering](https://www.youtube.com/watch?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter&v=_EEJXAuryS8) for customer journeys.
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayFudge Sunday - Cloud in Public: Impact MappingView online This week we continue to take a look at public things for a public cloud. ☁️✅⚠️🛑 This issue is part 5 of a 5 part series Fudge Sunday - Cloud in Public: Status Dashboards Fudge Sunday - Cloud in Public: Engineering SLO Fudge Sunday - Cloud in Public: DevCommsOps…Read morea year ago · Jay Cuthrell](https://sunday.fudge.org/p/fudge-sunday-cloud-in-public-impact-mapping-826383?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Mandrake versus the snake 🎶
+(https://sunday.fudge.org/p/fudge-sunday-cloud-in-public-impact-mapping-826383?utm_source=substack&utm_campaign=post_embed&utm_medium=web)Mandrake versus the snake 🎶
 ---------------------------
 
 Indeed, there are enough people interested in platform engineering to create websites[2](#footnote-2) and start newsletters[3](#footnote-3). So, one could make the argument that interest in platform engineering is growing enough for those people to be considered a special interest group on the path to becoming a wider community on the path to user groups, etc... which may eventually mirror the FinOps.org progression.[4](#footnote-4)
@@ -34,7 +34,7 @@ See those Sherpas chirpin' from the autobus 🎶
 
 Lastly, let’s consider when convergence takes place as platform engineering keywords appear first as unique titles that become skills over time. For example, consider LinkedIn Jobs searches for platform engineering with the specific job title of “Platform Engineer”.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Even with duplicates… We may have a talent shortage looming…Quick filtering by Country indicates (rough math):
+Even with duplicates… We may have a talent shortage looming…Quick filtering by Country indicates (rough math):
 
 * United States = +1,827 job posts
 * United Kingdom = 261 job posts
@@ -55,9 +55,9 @@ Quick filtering by Onsite/Remote/Hybrid indicates (rough math):
 
 Earlier this year when PlatformEngineering.org launched, the tools list was only four (4!) entries long. Of course, the initial tools list may have simply reflected the company that launched it ([Humanitec](https://humanitec.com)) and a few placeholders. 
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Circa 30-Jan 2022…However, the tools associated with PlatformEngineering.org are growing one community submission[6](#footnote-6) at a time. For perspective, here is a longcat via developer tools screenshot now includes twenty-one (21!) tools as of this newsletter:
+Circa 30-Jan 2022…However, the tools associated with PlatformEngineering.org are growing one community submission[6](#footnote-6) at a time. For perspective, here is a longcat via developer tools screenshot now includes twenty-one (21!) tools as of this newsletter:
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Circa 09-Oct 2022…To contrast, there are 100+ FinOps tools now and FinOps.org is is a program of the [The Linux Foundation](https://linuxfoundation.org/).
+Circa 09-Oct 2022…To contrast, there are 100+ FinOps tools now and FinOps.org is is a program of the [The Linux Foundation](https://linuxfoundation.org/).
 
 So, what tools we be added to the PlatformEngineering.org registry next to reach 100+?
 

@@ -24,7 +24,7 @@ If time is money then money is time. So, I try to bring education, utility, a sp
 
 Speaking of which… there’s nothing more humbling than an unsubscribe.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Was is something I linked?Still, each subscribe is an endorphin hit and likely dopamine release. As such, I appreciate every reader, every click, every share, and the time investments made to read my rambles.
+Was is something I linked?Still, each subscribe is an endorphin hit and likely dopamine release. As such, I appreciate every reader, every click, every share, and the time investments made to read my rambles.
 
 Much has been written elsewhere about network effects on Substack. For me, the vanity stats are much smaller but align to a familiar set of statistics for the graph when things went “up” with a new subscriber addition.
 
@@ -48,15 +48,15 @@ Now I’d like to send along a thank you to the newsletters that inspire me. You
 
 [### The CTO Advisor
 
-The CTO Advisor Short thoughts. Longer than a tweet. Shorter than a blog post. #CTOShort By Keith Townsend (@CTOAdvisor)](https://ctoadvisor.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### Musings
+The CTO Advisor Short thoughts. Longer than a tweet. Shorter than a blog post. #CTOShort By Keith Townsend (@CTOAdvisor)](https://ctoadvisor.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### Musings
 
- Thoughts and opinions about how we build, test and release emergent softwareBy Jen Crichlow](https://jencrichlow.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### Data Operations
+ Thoughts and opinions about how we build, test and release emergent softwareBy Jen Crichlow](https://jencrichlow.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### Data Operations
 
-Data Operation is the intersection between sales operations, marketing operations, and customer operations.By Greg Meyer](https://www.finddataops.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### The Analytics Engineering Roundup
+Data Operation is the intersection between sales operations, marketing operations, and customer operations.By Greg Meyer](https://www.finddataops.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### The Analytics Engineering Roundup
 
-The internet's most useful articles on analytics engineering and its adjacent ecosystem. Curated with ❤️ by Tristan Handy and Anna Filippova.By Tristan Handy](https://roundup.getdbt.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### What's Hot in Enterprise IT/VC
+The internet's most useful articles on analytics engineering and its adjacent ecosystem. Curated with ❤️ by Tristan Handy and Anna Filippova.By Tristan Handy](https://roundup.getdbt.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### What's Hot in Enterprise IT/VC
 
-Ed Sim's (@boldstartvc) weekly readings and notes on enterprise VC, software, and scaling startupsBy Ed Sim](https://whatshot.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### 5ish
+Ed Sim's (@boldstartvc) weekly readings and notes on enterprise VC, software, and scaling startupsBy Ed Sim](https://whatshot.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### 5ish
 
 5 (or so) links and thoughts a week from M.G. SieglerBy M.G. Siegler](https://5ish.org?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[### benn.substack
 
@@ -64,11 +64,11 @@ A weekly Substack on data and technology, with some occasional conversations abo
 
 Developer Software, Piloting, and Options Trading
 
-I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL.By Tyler Jewell](https://tylerjewell.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)### Second Opinion
+I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL.By Tyler Jewell](https://tylerjewell.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)### Second Opinion
 
 Our bi-monthly deep dive into the latest health-tech news and trends.By Christina Farr](https://ovsecondopinion.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[### Sarah's Newsletter
 
-My takes on the world of tech, data, marketing, business, and being a professional human.By Sarah Krasnik](https://sarahsnewsletter.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Finally, as I asked in [my Substack Chat](https://sunday.fudge.org/chat)… What will be my next newsletter topic?
+My takes on the world of tech, data, marketing, business, and being a professional human.By Sarah Krasnik](https://sarahsnewsletter.substack.com?utm_source=substack&utm_campaign=publication_embed&utm_medium=web)Finally, as I asked in [my Substack Chat](https://sunday.fudge.org/chat)… What will be my next newsletter topic?
 
 Until then… Place your bets!
 
@@ -79,6 +79,6 @@ I am linking to my [disclosure](https://jaycuthrell.com/disclosure/?utm_campaig
 
 [1](#footnote-anchor-1)So long and thanks for all the fish 
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayFudge Sunday - Moving OutThis week we take a look at take out capabilities of this newsletter. Note: (2nd repeat) After a solid year using Revue for this newsletter, new formats will arrive in the coming weeks (and months) from a new provider after we migrate everything over…Read more6 months ago · Jay Cuthrell](https://sunday.fudge.org/p/fudge-sunday-moving-out-1200494?utm_source=substack&utm_campaign=post_embed&utm_medium=web)[2](#footnote-anchor-2)As I was saying…
+(#footnote-anchor-2)As I was saying…
 
-[![](https://cuthrell.com/favicon.png)Fudge SundayTwit Can HappenRead more19 days ago · 1 like · Jay Cuthrell](https://sunday.fudge.org/p/twit-can-happen?utm_source=substack&utm_campaign=post_embed&utm_medium=web)
+(https://sunday.fudge.org/p/twit-can-happen?utm_source=substack&utm_campaign=post_embed&utm_medium=web)

@@ -20,11 +20,11 @@ Well…. Sometimes my shot and chaser game is ***freaky accurate***. 😳🤣
 
 There’s prescient and then there is ***prescient***.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)### Chaser: @TwitterWrite (June 2022)
+### Chaser: @TwitterWrite (June 2022)
 
 And… nailed it.😳🤣
 
-[![Twitter avatar for @TwitterWrite](https://cuthrell.com/favicon.png)Twitter Write @TwitterWrite✨ Introducing: Notes ✨
+Twitter Write @TwitterWrite✨ Introducing: Notes ✨
 
 We’re testing a way to write longer on Twitter. ![Image](https://substackcdn.com/video/upload/e_loop,vs_40/oe5tizpgx1y615d0tqir.gif)](https://twitter.com/TwitterWrite/status/1539640956915290112)[4:06 PM ∙ Jun 22, 2022
 
@@ -65,11 +65,11 @@ It’s recently occurred to me that there is an absolutely incredible amount of 
 
 And speaking of storytelling… my latest reading is Karla Starr’s Substack.[10](#footnote-10) So, if you are a sales engineer / developer advocate / data scientist / etc. giving a presentation – then you know the great power (that comes with great responsibility) of taking questions and answering with “it depends” and you’ll probably hurt your neck nodding along when reading this post:
 
-[![](https://cuthrell.com/favicon.png)The Starr ReportYoda would not have his own podcastYesterday I had the nerve-racking delightful experience of giving a guest lecture on how to use numbers in storytelling for Section4. Have I been kicking myself since for not going slower, using more advanced tips, etc., etc.? Have I been obsessing over what I could have done better? Do I know how useless regret is…Read more7 months ago · 12 likes · Karla Starr](https://karlastarr.substack.com/p/wisdom-is-why-i-had-no-answer?utm_source=substack&utm_campaign=post_embed&utm_medium=web)So, can you change your luck? It’s a question we often wrestle with in our careers.
+(https://karlastarr.substack.com/p/wisdom-is-why-i-had-no-answer?utm_source=substack&utm_campaign=post_embed&utm_medium=web)So, can you change your luck? It’s a question we often wrestle with in our careers.
 
 Well, if you liked the Substack post above, you’ll **love** [Can You Learn to Be Lucky (CYLTBL)](https://www.amazon.com/dp/1591846862?psc=1&smid=A1BJ7CQ7S97T7B&linkCode=sl1&tag=luckyurl03-20&linkId=303fdbe8e7439b968ba6e5492ccf35a9&language=en_US&ref_=as_li_ss_tl). CYLTBL is insightful and a fun read in addition to having incredibly detailed footnotes to original sources as superb pointers for diving deeper into topical references.
 
-[![](https://cuthrell.com/favicon.png)](https://www.amazon.com/dp/1591846862?psc=1&smid=A1BJ7CQ7S97T7B&linkCode=sl1&tag=luckyurl03-20&linkId=303fdbe8e7439b968ba6e5492ccf35a9&language=en_US&ref_=as_li_ss_tl)Come for the learning but stay for the laughs along the way.
+(https://www.amazon.com/dp/1591846862?psc=1&smid=A1BJ7CQ7S97T7B&linkCode=sl1&tag=luckyurl03-20&linkId=303fdbe8e7439b968ba6e5492ccf35a9&language=en_US&ref_=as_li_ss_tl)Come for the learning but stay for the laughs along the way.
 
 Finally, this brings me to my latest decision for my newsletter and use of Substack: I’m going to end my audio podcast testing on Substack where I’m simply… reading back my Substack. As it turns out, the Substack iOS app will actually read the text of a post so my podcast was superfluous at best — and I’m not Yoda either but I digress.
 

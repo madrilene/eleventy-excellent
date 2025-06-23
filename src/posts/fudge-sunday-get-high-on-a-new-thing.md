@@ -4,9 +4,9 @@ description: ''
 date: 2021-07-25 21:57:41+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-get-high-on-a-new-thing-679408?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)A song, lyric, and tweets to connect it back to the edge, core, and cloud.
+
+A song, lyric, and tweets to connect it back to the edge, core, and cloud.
 
 This issue is part 4 of a 5 part series
 
@@ -18,7 +18,6 @@ This issue is part 4 of a 5 part series
 
  **Get high on a new thing**
 
-[!["New Thing" | Enuff Z'Nuff | New 16:9 Formatting](https://cuthrell.com/favicon.png "\"New Thing\" | Enuff Z'Nuff | New 16:9 Formatting")](https://cuthrell.com/favicon.png)"New Thing" | Enuff Z'Nuff | New 16:9 Formatting
 
 Hello again. Welcome to part 4 of 5 in this series. Let’s recap.
 
@@ -42,7 +41,7 @@ The early days of point to point connections or a point to multi point connectio
 
  **Nursing old things make them last**
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Monkeybrains ISP](https://twitter.com/monkeybrainsnet/status/1410357766451957760)**
+**[Monkeybrains ISP](https://twitter.com/monkeybrainsnet/status/1410357766451957760)**
 
 [@monkeybrainsnet](https://twitter.com/monkeybrainsnet/status/1410357766451957760)
 
@@ -50,7 +49,7 @@ New links going up in Oakland! <https://t.co/XZynps8wNB>
 
  [6:01 PM - 30 Jun 2021](https://twitter.com/monkeybrainsnet/status/1410357766451957760)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[PathFinder Digital LLC](https://twitter.com/PathFDLLC/status/1279043138066288643)**
+**[PathFinder Digital LLC](https://twitter.com/PathFDLLC/status/1279043138066288643)**
 
 [@PathFDLLC](https://twitter.com/PathFDLLC/status/1279043138066288643)
 
@@ -66,7 +65,7 @@ Typically, a “belt and suspenders” approach was only possible with relativel
 
 Our past can provide cautionary tales. Of course, having diverse network paths only helps if the stacks that rely on those paths do not converge to a single service.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Catalin Cimpanu](https://twitter.com/campuscodi/status/1418245632922370048)**
+**[Catalin Cimpanu](https://twitter.com/campuscodi/status/1418245632922370048)**
 
 [@campuscodi](https://twitter.com/campuscodi/status/1418245632922370048)
 
@@ -74,7 +73,7 @@ The internet is on fire again. This time courtesy of Akamai DNS: <https://t.co/B
 
 [12:24 PM - 22 Jul 2021](https://twitter.com/campuscodi/status/1418245632922370048)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Ryan Kroonenburg](https://twitter.com/KroonenburgRyan/status/1418256476053786625)**
+**[Ryan Kroonenburg](https://twitter.com/KroonenburgRyan/status/1418256476053786625)**
 
 [@KroonenburgRyan](https://twitter.com/KroonenburgRyan/status/1418256476053786625)
 

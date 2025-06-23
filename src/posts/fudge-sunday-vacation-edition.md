@@ -4,9 +4,9 @@ description: ''
 date: 2019-04-29 05:59:33+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-vacation-edition-174385?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This edition is going to be short. In fact, let’s just call this a vacation edition. I’m not going on vacation – but this edition will be. Below are a few fun links to tide you over until next edition.
+
+This edition is going to be short. In fact, let’s just call this a vacation edition. I’m not going on vacation – but this edition will be. Below are a few fun links to tide you over until next edition.
 
 **[Why is there no US rival to compete with Huawei?](https://www.ft.com/content/18d3823a-65f2-11e9-9adc-98bf1d35a056?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 

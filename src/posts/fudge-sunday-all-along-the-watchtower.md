@@ -4,9 +4,9 @@ description: ''
 date: 2021-07-18 14:30:04+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-all-along-the-watchtower-679407?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)A song, lyric, and tweets to connect it back to the edge, core, and cloud.
+
+A song, lyric, and tweets to connect it back to the edge, core, and cloud.
 
 This issue is part 3 of a 5 part series
 
@@ -18,7 +18,7 @@ This issue is part 3 of a 5 part series
 
  **All along the watchtower**
 
-[![The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)](https://cuthrell.com/favicon.png "The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)")](https://cuthrell.com/favicon.png)The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)
+The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)
 
 Do you notice cell towers or do cell towers blend into the background? As a thought experiment, think back to the first time you noticed a cell tower.
 
@@ -36,11 +36,11 @@ This year, [Starlink](https://www.starlink.com?utm_campaign=Start%20the%20week%2
 
 So, if you’ve ever dealt with legacy satellite internet from traditional providers, the allure of Starlink is obvious: faster, cheaper, and competitive. What also is interesting is the requirements to get up and running are drastically simplified, consumer friendly, and arguably elegant hardware.
 
-[![Starlink Setup and Testing](https://cuthrell.com/favicon.png "Starlink Setup and Testing")](https://cuthrell.com/favicon.png)Starlink Setup and Testing
+Starlink Setup and Testing
 
 Notably, one interesting thing about Starlink (besides the commonly polarizing founder) is the coverage area that is directly related the current placements of [ground stations](https://www.tesmanian.com/blogs/tesmanian-blog/spacex-is-already-setting-up-starlink-gateway-stations-around-the-world?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). More coverage will mean more ground stations in more locations and at higher density levels.
 
-[![Using ground relays with Starlink](https://cuthrell.com/favicon.png "Using ground relays with Starlink")](https://cuthrell.com/favicon.png)Using ground relays with Starlink
+Using ground relays with Starlink
 
  **Two riders were approaching**
 
@@ -68,7 +68,7 @@ Breaking free of *gravity* is how *satellites* achieve *orbital shell* goals.
 
 Breaking free of *data gravity* is how *companies* achieve *multicloud* goals.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Faction](https://twitter.com/FactionInc/status/1412848841469145094)**
+**[Faction](https://twitter.com/FactionInc/status/1412848841469145094)**
 
 [@FactionInc](https://twitter.com/FactionInc/status/1412848841469145094)
 

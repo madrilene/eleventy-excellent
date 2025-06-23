@@ -75,7 +75,7 @@ Welcome to the SSL enabled canonical source of my seemingly anti-social media up
 My 10 year prediction
 =====================
 
-[![This isn't real but it might be one day](https://cuthrell.com/favicon.png "This isn't real but it might be one day")](https://cuthrell.com/favicon.png)Looking back, this past year has turned out to be a nuclear waste trash fire for a lot of social media services overall but I don’t claim that I saw it coming. Okay, maybe a little.
+Looking back, this past year has turned out to be a nuclear waste trash fire for a lot of social media services overall but I don’t claim that I saw it coming. Okay, maybe a little.
 
 *The Public Cloud* might be easier than it has ever been… but so has the ability to get it very very wrong. Shifting placement of workloads may confer certain financial envelope favorability but it does not magically shift placement of responsibility and accountability.
 

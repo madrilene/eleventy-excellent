@@ -4,13 +4,13 @@ description: ''
 date: 2021-12-06 03:28:33+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-our-low-code-no-code-past-present-and-future-904238?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a quick look at the past, present, and future of Low Code No Code + Developer Evangelism Relations Advocacy. Buckle up for a ride!
+
+This week we take a quick look at the past, present, and future of Low Code No Code + Developer Evangelism Relations Advocacy. Buckle up for a ride!
 
  **Getting Informed**
 
-[![I'm sensing a trend! Now if we can just all agree on spelling...](https://cuthrell.com/favicon.png "I'm sensing a trend! Now if we can just all agree on spelling...")](https://cuthrell.com/favicon.png)I'm sensing a trend! Now if we can just all agree on spelling...
+I'm sensing a trend! Now if we can just all agree on spelling...
 
  **Low Code and No Code spelling variations**
 
@@ -138,7 +138,7 @@ Forrester summarizes a growing body of trends around low-code development platfo
 
  **2014**
 
-[![ESTEEM is STEM plus Ethics plus Empathy](https://cuthrell.com/favicon.png "ESTEEM is STEM plus Ethics plus Empathy")](https://cuthrell.com/favicon.png)**[ESTEEM is STEM plus Ethics plus Empathy](https://fudge.org/archive/esteem-stem-ethics-empathy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://fudge.org/archive/esteem-stem-ethics-empathy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 By 2014, you couldn’t go very far on Internet or modern media before the term STEM is mentioned or extolled as a target to reach. STEM was the backronym for science, technology, engineering, and mathematics. I like word games so [I wrote a blog post about two important missing letters](https://fudge.org/archive/esteem-stem-ethics-empathy/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
@@ -146,7 +146,7 @@ By 2014, you couldn’t go very far on Internet or modern media before the term 
 
 Around this same time, Forrester doubles down on the categorization of Low Code platforms.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Alpha Software](https://twitter.com/AlphaSoftware/status/514781480430870530)**
+**[Alpha Software](https://twitter.com/AlphaSoftware/status/514781480430870530)**
 
 [@AlphaSoftware](https://twitter.com/AlphaSoftware/status/514781480430870530)
 
@@ -158,7 +158,7 @@ Around this same time, Forrester doubles down on the categorization of Low Code 
 
 By 2015, you might recall the STEM movement was in high gear. While not all STEM leads to the creation of professional software developers, the decide to widen the aperture of access to software development was already well underway as the “the creator economy” of 50 million people sought greater access to productivity tools.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Knowledge](https://twitter.com/Know365/status/590556862245957632)**
+**[Knowledge](https://twitter.com/Know365/status/590556862245957632)**
 
 [@Know365](https://twitter.com/Know365/status/590556862245957632)
 
@@ -170,7 +170,7 @@ So, at this point, it might be fair to say “This May Be A Revolution”.
 
 🤓
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Irma Vermaat](https://twitter.com/irmavermaat/status/673853344272793600)**
+**[Irma Vermaat](https://twitter.com/irmavermaat/status/673853344272793600)**
 
 [@irmavermaat](https://twitter.com/irmavermaat/status/673853344272793600)
 
@@ -210,7 +210,7 @@ Great insight from Reetu Khosla on pragmatic [#AI](https://twitter.com/search?q=
 
 By 2019, companies that are fully exploring the extended capabilities of Office 365 are already starting to adopt Low Code approaches.
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Microsoft Teams](https://twitter.com/MicrosoftTeams/status/1113142912483778565)**
+**[Microsoft Teams](https://twitter.com/MicrosoftTeams/status/1113142912483778565)**
 
 [@MicrosoftTeams](https://twitter.com/MicrosoftTeams/status/1113142912483778565)
 
@@ -222,7 +222,7 @@ One of the core value drivers within [#MicrosoftTeams](https://twitter.com/searc
 
 By 2020, you could see the Low Code story take on a new dynamic with the emergence of ML/AI turning a descriptive line of text into an application.🤯
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Sharif Shameem](https://twitter.com/sharifshameem/status/1284421499915403264)**
+**[Sharif Shameem](https://twitter.com/sharifshameem/status/1284421499915403264)**
 
 [@sharifshameem](https://twitter.com/sharifshameem/status/1284421499915403264)
 
@@ -302,7 +302,7 @@ From TikTok, to Fortnite creative mode, to Weta + Unity.
 
  [4:25 AM - 22 Nov 2021](https://twitter.com/zoescaman/status/1462713714977558528)
 
-[![The Cambrian Explosion in Software and Content](https://cuthrell.com/favicon.png "The Cambrian Explosion in Software and Content")](https://cuthrell.com/favicon.png)**[The Cambrian Explosion in Software and Content](https://digitalnative.substack.com/p/the-cambrian-explosion-in-software?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://digitalnative.substack.com/p/the-cambrian-explosion-in-software?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 How Low Code & No Code Unlock Creation
 
@@ -377,7 +377,7 @@ First, consider the past and present of DevOps culture as captured in this video
 
 (If you haven’t heard of Emily before, she is a Java backend engineer that channeled her developer experiences with pager weary operations teams into informative conference talks, educational articles, [and a book](https://g.co/kgs/Kw8WDW?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)!)
 
-[![What is DevOps?](https://cuthrell.com/favicon.png "What is DevOps?")](https://cuthrell.com/favicon.png)What is DevOps?
+What is DevOps?
 
 Next, consider the future of DevOps culture to expressed as follows:
 

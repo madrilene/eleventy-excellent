@@ -4,9 +4,9 @@ description: 'A look at the state of convergence in ICT'
 date: 2021-08-08 22:57:02+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-gaming-healthcare-and-convergence-709604?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week is going to be about gaming, healthcare, and convergence.
+
+This week is going to be about gaming, healthcare, and convergence.
 
 Let’s examine topics from edge to core to cloud and all points in between.
 
@@ -14,7 +14,7 @@ Let’s examine topics from edge to core to cloud and all points in between.
 
 If you enjoy this issue, I’ll be providing a summary of sorts in the near future. On August 18th, I’ll be speaking about multi-cloud data services patterns within gaming and healthcare, convergence, and the world of AR / VR in our future.
 
-[![Where? Here: IT Renovation Day](https://cuthrell.com/favicon.png "Where? Here: IT Renovation Day")](https://cuthrell.com/favicon.png)**[Where? Here: IT Renovation Day](https://events.actualtechmedia.com/register-now/629/it-renovation-day-analyzing-the-next-wave-of-tools-products-and-services/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://events.actualtechmedia.com/register-now/629/it-renovation-day-analyzing-the-next-wave-of-tools-products-and-services/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 I’ll be speaking from **12:36-1:08PM**
 
@@ -40,7 +40,7 @@ This week we’re going to revisit an old idea, gaming and healthcare. The diffe
 
 To be clear, gamification of healthcare is [not a new fusion](https://healthmanagement.org/c/healthmanagement/issuearticle/the-role-of-gamification-and-engagement-design-in-the-future-of-healthcare?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). Yes, we’ve come a long way since wacky doctor’s game.
 
-[![Operation Game Commercial 80s](https://cuthrell.com/favicon.png "Operation Game Commercial 80s")](https://cuthrell.com/favicon.png)Operation Game Commercial 80s
+Operation Game Commercial 80s
 
 In the present and the future, buzz sounds move to buzz words and the buzz of funding. So, let’s consider a few things in gamification of healthcare.
 
@@ -76,7 +76,7 @@ What happens when VR/AR gaming comes to the classrooms for health professionals 
 
 For many, playing games at home fits on a spectrum of relaxing to stimulating to exhilarating. So, it’s not a huge leap of logic to assume there are therapeutic gaming applications being explored.
 
-[![Stream for Mott: Therapeutic Gaming at C.S. Mott Children's Hospital](https://cuthrell.com/favicon.png "Stream for Mott: Therapeutic Gaming at C.S. Mott Children's Hospital")](https://cuthrell.com/favicon.png)Stream for Mott: Therapeutic Gaming at C.S. Mott Children's Hospital
+Stream for Mott: Therapeutic Gaming at C.S. Mott Children's Hospital
 
  **Health Outcome Scenario Games**
 
@@ -84,7 +84,7 @@ Continuing on the trend of games, there are lifecycle considerations in the over
 
 Indeed, some would argue that gaming and healthcare application of gaming has become, well, serious. As it turns out there is a group that embraces this trend: [IEEE Serious Games and Applications for Health](https://www.segah.org/2021/scope.html?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) or SeGAH for short.
 
-[![About SeGAH...](https://cuthrell.com/favicon.png "About SeGAH...")](https://cuthrell.com/favicon.png)**[About SeGAH...](https://www.segah.org/2021/index.html?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://www.segah.org/2021/index.html?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 The 9th International Conference on Serious Games and Applications for Health, SeGAH 2021 took place just last week. So, this is a good website to bookmark for later.
 

@@ -4,7 +4,7 @@ description: ''
 date: 2019-05-20 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)Now that China has said “no thank you” to scrap recycling imports, there is a good chance [the familiar cardboard recycling bin will take on greater significance](https://www.wastedive.com/news/what-recycling-end-market-development-looks-like-in-2019/553683/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) as the piles… continue to make a bigger pile. This week, let’s take a look at the humble cardboard box.
+(https://www.wastedive.com/news/what-recycling-end-market-development-looks-like-in-2019/553683/?utm_campaign=Fudge%20Sunday&utm_medium=email&utm_source=Revue%20newsletter) as the piles… continue to make a bigger pile. This week, let’s take a look at the humble cardboard box.
 
 
 Humble Origins

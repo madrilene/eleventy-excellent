@@ -4,7 +4,7 @@ description: 'A look at podcasts, tropes, and visions of the future'
 date: 2019-05-27 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)This week we take a look at the circuitous routes that podcasts have taken over the past 20 years. Along the way, we weave in references to tropes trove of Max Headroom. From origins to fits and starts to the claiming of legitimately enduring formats, podcasts are here to stay and probably just getting started even if the new world will be millions of Blank Reg devotees.
+This week we take a look at the circuitous routes that podcasts have taken over the past 20 years. Along the way, we weave in references to tropes trove of Max Headroom. From origins to fits and starts to the claiming of legitimately enduring formats, podcasts are here to stay and probably just getting started even if the new world will be millions of Blank Reg devotees.
 
 Origin and Inspiration
 ======================

@@ -4,9 +4,9 @@ description: ''
 date: 2019-02-25 06:20:52+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-what-happens-in-augmented-reality-stays-in-augmented-reality-161204?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This past week seemed to follow an augmented reality theme in the regular places I read. Techmeme, A16Z podcast, and even Hacker News provided multiple references to augmented reality, virtual reality, 5G ubiquity, and the widening adoption of gaming technologies.
+
+This past week seemed to follow an augmented reality theme in the regular places I read. Techmeme, A16Z podcast, and even Hacker News provided multiple references to augmented reality, virtual reality, 5G ubiquity, and the widening adoption of gaming technologies.
 
 During recent trips on Lyft, the driver and passenger (me) conversations trended to technology discussions. I like to ask drivers if they are full time or part time with Lyft, Uber, or any other TNCs. One common theme was the prediction of when self-driving cars would be viable in any markets beyond denser and constantly mapped markets.
 

@@ -4,15 +4,15 @@ description: 'A possible result of importing and exporting'
 date: 2019-04-08 02:11:45+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-roll-your-own-170346?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)When I started collecting links this week I had no idea how I would conclude. Thank goodness for the tech news cycle and, specifically, Techmeme. I’m already questioning my use of a newsletter service for reasons I hope to make clear below. Let’s get started.
+
+When I started collecting links this week I had no idea how I would conclude. Thank goodness for the tech news cycle and, specifically, Techmeme. I’m already questioning my use of a newsletter service for reasons I hope to make clear below. Let’s get started.
 
  **Go Your Own Way**
 
 I don’t doubt a Fleetwood Mac reference is slightly dated at just over 40 years ago. Still, one thing I have noticed in my regular reading is a renewed interest in the repatriation of content from centralized social platform juggernauts to more self-hosted options.
 
-[![March of 2008 is where interest piqued but has it peaked?](https://cuthrell.com/favicon.png "March of 2008 is where interest piqued but has it peaked?")](https://cuthrell.com/favicon.png)March of 2008 is where interest piqued but has it peaked?
+March of 2008 is where interest piqued but has it peaked?
 
 So what happened in March 2018? Simple. Social media finally saw the culmination of unflattering coverage by both tech press and traditional media followed by a genuine reflection by a sizable number of users asking if there were alternatives. In fact, if you look back at tech press coverage on Techmeme from March 2018 you are immediately reminded of the zeitgeist that mashed up technology, politics, and economics.
 
@@ -28,11 +28,11 @@ As the saying goes, reaction was swift. Social media was tarnished on a larger s
 
 While it might be simplistic to assign all concerns to a single social platform, it is just lazy. It is more accurate to assess that *all* centralized social media platforms that achieved massive scale and wide adoption were and are increasingly subject to scrutiny.
 
-[![Tweet like you mean it.](https://cuthrell.com/favicon.png "Tweet like you mean it.")](https://cuthrell.com/favicon.png)Tweet like you mean it.
+Tweet like you mean it.
 
-[![Considering the ownership structure, this is very telling.](https://cuthrell.com/favicon.png "Considering the ownership structure, this is very telling.")](https://cuthrell.com/favicon.png)Considering the ownership structure, this is very telling.
+Considering the ownership structure, this is very telling.
 
-[![Rising interest is rising. Alternatives to Twitter, Facebook, and Instagram.](https://cuthrell.com/favicon.png "Rising interest is rising. Alternatives to Twitter, Facebook, and Instagram.")](https://cuthrell.com/favicon.png)Rising interest is rising. Alternatives to Twitter, Facebook, and Instagram.
+Rising interest is rising. Alternatives to Twitter, Facebook, and Instagram.
 
  **Rising Options and Alternatives**
 

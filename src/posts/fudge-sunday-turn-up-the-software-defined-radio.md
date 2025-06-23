@@ -4,15 +4,15 @@ description: ''
 date: 2022-01-03 01:13:12+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-turn-up-the-software-defined-radio-957305?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Happy New Year! This week we take a look at the widening world of Software Defined Radios (SDRs) and edge computing solutions.
+
+Happy New Year! This week we take a look at the widening world of Software Defined Radios (SDRs) and edge computing solutions.
 
  **Getting Informed**
 
 Back in the 1980s, a mechanical pencil was pretty expensive compared to a regular pencil. Then 1984 happened.
 
-[![1984 =Come for the song... but stay for the product placement of a mechanical pencil! 🖊](https://cuthrell.com/favicon.png "1984 =Come for the song... but stay for the product placement of a mechanical pencil! 🖊")](https://cuthrell.com/favicon.png)1984 =Come for the song... but stay for the product placement of a mechanical pencil! 🖊
+1984 =Come for the song... but stay for the product placement of a mechanical pencil! 🖊
 
 **[Marketing, MTV, and Paper Mate](https://www.papermate.com/about-us.html?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
@@ -86,7 +86,7 @@ Source:
 
 You might recall from my [“Twitter, Matter, and Data-Driven Journalism”](https://sunday.fudge.org/issues/fudge-sunday-twitter-matter-and-data-driven-journalism-836999?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) issue that I’m using Matter as my primary newsletter reader. My goal is to be act as a curator.
 
-[![My Matter Profile is now public](https://cuthrell.com/favicon.png "My Matter Profile is now public")](https://cuthrell.com/favicon.png)**[My Matter Profile is now public](https://getmatter.app/JayCuthrell/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://getmatter.app/JayCuthrell/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 So, if you’ve ever wondered what newsletters I’ve been reading as well as the passages that I believe deserved highlighting – lookno further: [https://getmatter.app/JayCuthrell/](https://getmatter.app/JayCuthrell/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) 🤓🖍💬
 

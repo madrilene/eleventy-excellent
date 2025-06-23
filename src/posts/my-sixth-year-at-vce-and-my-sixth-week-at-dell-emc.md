@@ -22,7 +22,7 @@ Where Do We Go Now
 
 Today, it is pretty [hard to find a VCE logo](https://fudge.org/archive/dell-emc-converged-platforms-and-solutions/). Sure, it is still referenced in a lot of places on the Internet but the current brand is Dell EMC. Then again, if you try to find the original Acadia logo that can be even harder to find.
 
-[![Acadia](https://cuthrell.com/favicon.png "Acadia")](https://cuthrell.com/favicon.png)[![VCE](https://cuthrell.com/favicon.png "VCE")](https://cuthrell.com/favicon.png)[![EMC Converged Platforms](https://cuthrell.com/favicon.png "EMC Converged Platforms")](https://cuthrell.com/favicon.png)[![Dell EMC](https://cuthrell.com/favicon.png "Dell EMC")](https://cuthrell.com/favicon.png)In terms of naming, the progression so far has been:
+(https://cuthrell.com/favicon.png)In terms of naming, the progression so far has been:
 
 * Virtual Computing Environment Coalition
 * Acadia
@@ -46,7 +46,7 @@ Does the VCE brand matter? I don’t know… but I do know a few things:
 Vblock, VxBlock, VxRack, and VxRail
 ===================================
 
-[![Vblock](https://cuthrell.com/favicon.png "Vblock")](https://cuthrell.com/favicon.png)Vblock and VxBlock are huge and the fervor for VxRack and VxRail are off to an agressive (and quite young) start that is amazing.
+Vblock and VxBlock are huge and the fervor for VxRack and VxRail are off to an agressive (and quite young) start that is amazing.
 
 What Do I Do Without You
 ========================

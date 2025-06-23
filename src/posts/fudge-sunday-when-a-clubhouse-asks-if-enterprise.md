@@ -4,9 +4,9 @@ description: ''
 date: 2021-06-11 00:45:20+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-when-a-clubhouse-asks-if-enterprise-selling-can-be-remote-182287?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Clubhouse is a recent app installation for me. I am more bullish on Twitter Spaces combining Revue for more fully vertical stack.
+
+Clubhouse is a recent app installation for me. I am more bullish on Twitter Spaces combining Revue for more fully vertical stack.
 
 That said, I saw an interesting Clubhouse popup regarding Enterprise selling and decided to live Quote Tweet it. The results are below the line.
 

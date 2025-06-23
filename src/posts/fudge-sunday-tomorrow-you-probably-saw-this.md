@@ -4,9 +4,9 @@ description: ''
 date: 2019-04-21 20:45:05+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-tomorrow-you-probably-saw-this-already-173252?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)In this issue, we take a look at the future, past, and the creative combinations of both marked by technology and popular media. We’ll look at the relics that persist and the promises yet to be realized. Along the way, the potential for unintended parachronism grows larger with each passing year.
+
+In this issue, we take a look at the future, past, and the creative combinations of both marked by technology and popular media. We’ll look at the relics that persist and the promises yet to be realized. Along the way, the potential for unintended parachronism grows larger with each passing year.
 
 p.s. Thanks to the folks behind [Vecteezy Editor](https://www.vecteezy.com/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) for the new logo!
 

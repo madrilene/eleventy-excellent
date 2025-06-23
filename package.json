@@ -23,7 +23,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/JayCuthrell/fudge-org-eleventy-excellent-4.3.0.git"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.1",

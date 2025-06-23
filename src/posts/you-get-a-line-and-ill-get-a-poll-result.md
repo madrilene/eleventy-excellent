@@ -6,7 +6,7 @@ date: 2022-08-29 00:22:54.893000+00:00
 
 *[The Crawdad Song - Foggy Mountain Boys (1962)](https://www.youtube.com/watch?v=4EinAwyQ3Xc)*
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Getting Informed
+Getting Informed
 ================
 
 You might recall, I put a poll in the newsletter[1](#footnote-1) and on LinkedIn[2](#footnote-2) too. I also summarized the results over on LinkedIn Creator (aka Pulse)[3](#footnote-3) for good measure.
@@ -19,11 +19,11 @@ So, to recap, the setup and poll question was simple:
 >
 >
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)From my newsletter…[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)From my LinkedIn…My perspective was this: We only have 156 weeks left.
+From my newsletter…From my LinkedIn…My perspective was this: We only have 156 weeks left.
 
 Let's get to work **— inventing** **[What's Next!](https://www.taos.com/resources/lessons-learned-from-the-ai-trenches/)** 🤓
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)“Inventing the Future” by Dennis Gabor (1964)I heard the duck say to the drake 🎶
+“Inventing the Future” by Dennis Gabor (1964)I heard the duck say to the drake 🎶
 -----------------------------------
 
 Meanwhile, a recent article from Protocol highlighted the importance cost optimization in the pursuit of AI and machine learning by reminding everyone that cloud is an operating model — not a place.[4](#footnote-4) Indeed, some have argued for disciplined repatriation but, as always, please do the math first.[5](#footnote-5)
@@ -35,20 +35,20 @@ There ain’t no crawdads in this lake 🎶
 
 Next, expect more use cases[6](#footnote-6) at the edge in smaller spaces[7](#footnote-7) and far more places. Effectively, this is how the *edge use case* is becoming the *use case at the edge*.
 
-[![Twitter avatar for @cnxsoft](https://cuthrell.com/favicon.png)CNX Software @cnxsoft52Pi DeskPi Super6C mini-ITX cluster board supports up to 6 #RaspberryPi CM4 modules interconnected over an Ethernet switch, 6 NVMe SSDs, features dual Gigabit Ethernet and dual HDMI. #distributedcomputing #kubernetes
-[![](https://cuthrell.com/favicon.png)cnx-software.comDeskPi Super6C mini-ITX board takes up to 6x Raspberry Pi CM4 modules - CNX SoftwareDeskPi Super6C mini-ITX cluster board supports up to six Raspberry Pi CM4 modules and six NVMe SSD to learned about distributed computing.](https://www.cnx-software.com/2022/08/24/deskpi-super6c-mini-itx-board-takes-up-to-6x-raspberry-pi-cm4-modules/)](<https://twitter.com/cnxsoft/status/1562381659022196736)[10:09> AM ∙ Aug 24, 2022
+CNX Software @cnxsoft52Pi DeskPi Super6C mini-ITX cluster board supports up to 6 #RaspberryPi CM4 modules interconnected over an Ethernet switch, 6 NVMe SSDs, features dual Gigabit Ethernet and dual HDMI. #distributedcomputing #kubernetes
+(<https://twitter.com/cnxsoft/status/1562381659022196736)[10:09> AM ∙ Aug 24, 2022
 
 ---
 
 26Likes11Retweets](<https://twitter.com/cnxsoft/status/1562381659022196736)Greater> demand for data and analytics (not just AI/ML) will be found in many more places where *data driven decision making* becomes a cultural norm. And with all those new places handling new data too, new approaches to data security will have to match pace.
 
-[![Twitter avatar for @Gartner_inc](https://cuthrell.com/favicon.png)Gartner @Gartner\_incData and analytics are increasingly critical elements across nearly all industries and business functions 📈 Tune into our on-demand #webinar to explore 100 data & analytics-related strategic planning assumptions (SPAs) through to 2026: [gtnr.it/3PRxqh4](https://gtnr.it/3PRxqh4) #GartnerDA ![Image](https://pbs.substack.com/media/FbA3arlXkAAagOX.png)](<https://twitter.com/Gartner_inc/status/1562810003672555520)[2:31> PM ∙ Aug 25, 2022
+(<https://twitter.com/Gartner_inc/status/1562810003672555520)[2:31> PM ∙ Aug 25, 2022
 
 ---
 
 18Likes5Retweets](<https://twitter.com/Gartner_inc/status/1562810003672555520)And> speaking of risks, should we keep egocentrism [8](#footnote-8) on the board too?
 
-[![Twitter avatar for @Barnes_Hank](https://cuthrell.com/favicon.png)Hank Barnes @Barnes\_HankRandom Thoughts on Security, Egocentricism, Qualification, and More - Hank Barnes [buff.ly/3R0emOT](https://buff.ly/3R0emOT) ![Image](https://pbs.substack.com/media/Fa2YIddXoAEgIXQ.jpg)](<https://twitter.com/Barnes_Hank/status/1562071919289049090?s=20&t=MtsKYVPbP2q6UdSqZF8u0w)[1:39> PM ∙ Aug 23, 2022](<https://twitter.com/Barnes_Hank/status/1562071919289049090?s=20&t=MtsKYVPbP2q6UdSqZF8u0w)Will> Egocentrism Mitigation as a Service (EMaaS) will be on future hype curves?
+(<https://twitter.com/Barnes_Hank/status/1562071919289049090?s=20&t=MtsKYVPbP2q6UdSqZF8u0w)[1:39> PM ∙ Aug 23, 2022](<https://twitter.com/Barnes_Hank/status/1562071919289049090?s=20&t=MtsKYVPbP2q6UdSqZF8u0w)Will> Egocentrism Mitigation as a Service (EMaaS) will be on future hype curves?
 
 
 

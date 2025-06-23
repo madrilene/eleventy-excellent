@@ -38,7 +38,7 @@ Also, there are many places that are population centers and [where things are ma
 
 [TeleGeography’s Cloud Infrastructure Map](https://www.cloudinfrastructuremap.com) Now, let’s get a take on supercloud from early 2022.
 
-[![Twitter avatar for @CTOAdvisor](https://cuthrell.com/favicon.png)Keith Townsend @CTOAdvisorIs VMware in the pole position to provide #SuperCloud via Cross-Cloud Services, or is this a job better suited for @HashiCorp? 
+Keith Townsend @CTOAdvisorIs VMware in the pole position to provide #SuperCloud via Cross-Cloud Services, or is this a job better suited for @HashiCorp? 
 
 #CTODose
 @dvellante @sarbjeetjohal @CareAndKickButt @ballen\_clt @dhinchcliffe](https://twitter.com/CTOAdvisor/status/1486369147395223556?s=20&t=6CtqjM3dOlC418EzKajVuA) [4:03 PM ∙ Jan 26, 2022
@@ -47,7 +47,7 @@ Also, there are many places that are population centers and [where things are ma
 
 17Likes5Retweets](https://twitter.com/CTOAdvisor/status/1486369147395223556?s=20&t=6CtqjM3dOlC418EzKajVuA)Next, let’s get a take on multicloud near the midpoint of 2022.
 
-[![Twitter avatar for @theCUBE](https://cuthrell.com/favicon.png)theCUBE @theCUBEDave Vellante examines Dell's push to deliver a "Super Cloud" to customers.
+theCUBE @theCUBEDave Vellante examines Dell's push to deliver a "Super Cloud" to customers.
 
 [video.cube365.net/c/936541](https://video.cube365.net/c/936541)
 @dvellante @furrier @LisaMartinTV @theCUBE #DellTechWorld #theCUBE #EnterpriseTech #supercloud #multicloud #edge](https://twitter.com/theCUBE/status/1521580671650910208?s=20&t=RFUUEa-GZH903bzlZ1ao1g) [8:01 PM ∙ May 3, 2022

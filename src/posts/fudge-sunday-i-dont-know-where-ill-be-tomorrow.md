@@ -4,9 +4,9 @@ description: ''
 date: 2021-08-01 18:39:44+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-i-don-t-know-where-i-ll-be-tomorrow-679416?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)A song, lyric, and tweets to connect it back to the edge, core, and cloud.
+
+A song, lyric, and tweets to connect it back to the edge, core, and cloud.
 
 This issue is part 5 of a 5 part series
 
@@ -18,7 +18,7 @@ This issue is part 5 of a 5 part series
 
  **Wheel in the Sky**
 
-[![Journey - Wheel in the Sky (Official Video - 1978)](https://cuthrell.com/favicon.png "Journey - Wheel in the Sky (Official Video - 1978)")](https://cuthrell.com/favicon.png)Journey - Wheel in the Sky (Official Video - 1978)
+Journey - Wheel in the Sky (Official Video - 1978)
 
 This is the fifth and final of the series. By now, we’ve talked a bit about data centers that are on the surface of the Earth and those that might be above it in the sky and beyond.
 
@@ -30,7 +30,7 @@ Example: Microsoft’s Project Natick
 * 864 Servers with 27.6 PB of storage
 * 2 years of experimental learning
 
-[![Microsoft reveals findings from Project Natick, its experimental undersea datacenter](https://cuthrell.com/favicon.png "Microsoft reveals findings from Project Natick, its experimental undersea datacenter")](https://cuthrell.com/favicon.png)Microsoft reveals findings from Project Natick, its experimental undersea datacenter
+Microsoft reveals findings from Project Natick, its experimental undersea datacenter
 
  **Made of silver, not of clay**
 
@@ -48,7 +48,7 @@ One challenge is thinking through how one takes vast amounts of data and rationa
 
 Setting aside saving lives, at first we won’t be as concerned with it being mission critical or life saving a lot of things. For example, if you listen to the early writings of pundits and venture capitalists, sometimes the next big thing will simply look like a game.
 
-[![What 5G means for Niantic](https://cuthrell.com/favicon.png "What 5G means for Niantic")](https://cuthrell.com/favicon.png)What 5G means for Niantic
+What 5G means for Niantic
 
 Perhaps the next generation of gaming developers will create applications which use [multi-access edge computing](https://www.etsi.org/technologies/multi-access-edge-computing?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter), planetary connectivity capabilities, and awareness of other people in proximity with similar mobile devices. Perhaps even [pushing the edge of promiscuous networking](https://www.amazon.com/Amazon-Sidewalk/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) to offer up your personal connectivity to other acceptable radio participation in IP networking will become more acceptable.
 

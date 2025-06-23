@@ -4,7 +4,7 @@ description: ''
 date: 2022-05-23 00:50:44+00:00
 ---
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we take a look at lengthening lyrical leadership listicles.
+This week we take a look at lengthening lyrical leadership listicles.
 
 Crystal Fighters - Follow (2012)
 
@@ -101,7 +101,7 @@ Will the leadership principles list elements pop, push, splice, or filter?
 
 Do mnemonics consolidate, compound, or compact?
 
-[![Will Amazon eventually have 30+ Leadership Principles by 2049?](https://cuthrell.com/favicon.png "Will Amazon eventually have 30+ Leadership Principles by 2049?")](https://cuthrell.com/favicon.png)Will Amazon eventually have 30+ Leadership Principles by 2049?
+Will Amazon eventually have 30+ Leadership Principles by 2049?
 
 Can Amazon expect that projection to be reality?
 

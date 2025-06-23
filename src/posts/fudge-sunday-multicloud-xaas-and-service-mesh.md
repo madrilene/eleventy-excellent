@@ -23,7 +23,7 @@ I've written down my thoughts on how eBPF will help solve service mesh complexit
 
 [11:52 AM - 8 Dec 2021](https://twitter.com/tgraf__/status/1468624598853988358)
 
-[![The Service Mesh is Dead. Long live the Service Mesh?](https://cuthrell.com/favicon.png "The Service Mesh is Dead. Long live the Service Mesh?")](https://cuthrell.com/favicon.png)**[The Service Mesh is Dead. Long live the Service Mesh?](https://isovalent.com/blog/post/2021-12-08-ebpf-servicemesh?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://isovalent.com/blog/post/2021-12-08-ebpf-servicemesh?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 If you take time to read this blog post you’ll learn that one alternative to chained sidecar proxy oriented Service Mesh is…. eBPF Service Mesh. In shorter terms, just take the complexity to the kernel.
 

@@ -50,14 +50,14 @@ If you owned a Windows PC in 1997 you needed to have:
 
 Yeah. Lots of things could go wrong but when it went right… it was pretty close to magical. That was computing in the late 1990s.
 
-[![maclol](https://cuthrell.com/favicon.png "maclol")](https://cuthrell.com/favicon.png)Or, you bought a Mac and just waited for one of these when things.
+Or, you bought a Mac and just waited for one of these when things.
 
 Oh… As for mobile phones in 1997, well… they had a quite a ways to go unless you grew up watching Star Trek on a black and white TV. You couldn’t take photos with a mobile phone at that point. That would actually take another three years or more depending on who you ask.
 
 2007: Life in the “Foist” Lane
 ==============================
 
-[![phonekeyboard](https://cuthrell.com/favicon.png "phonekeyboard")](https://cuthrell.com/favicon.png)Yes. In 2007 there were physical keyboards on phones.
+Yes. In 2007 there were physical keyboards on phones.
 
 By 2007, you could open a web browser on just about any laptop or desktop, do a quick web search, and hear music online. It was almost a given that the machine was networked by Ethernet or WiFi and connected to high speed broadband of some variety. Things basically just worked when it came to computers. Oh, and now there are things called netbooks.
 

@@ -9,7 +9,7 @@ This will be my first SxSW as a resident of Austin, Texas. I’m looking forward
 A Plethora of Panels
 ====================
 
-[![To be clear, not all SxSW panelists dress this way. At least not for the first day.](https://cuthrell.com/favicon.png "To be clear, not all SxSW panelists dress this way. At least not for the first day.")](https://cuthrell.com/favicon.png)To be clear, not all SxSW panelists dress this way. At least not for the first day.
+To be clear, not all SxSW panelists dress this way. At least not for the first day.
 
 To give you an idea of the amount of content that SxSW pulls together, consider this:
 

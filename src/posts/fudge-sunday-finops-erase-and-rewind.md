@@ -27,19 +27,19 @@ So, how did a Swedish rock band influence FinOps?
 
 Think about the lyric when you run **`infracost breakdown --path .`**
 
-[![FinOps Foundation February 2022: State of FinOps](https://cuthrell.com/favicon.png "FinOps Foundation February 2022: State of FinOps")](https://cuthrell.com/favicon.png)FinOps Foundation February 2022: State of FinOps
+FinOps Foundation February 2022: State of FinOps
 
  **No, it's not that I don't know 🎶**
 
 And if you know, you can [send cost estimates to Slack](https://github.com/infracost/actions/blob/master/examples/slack?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![FinOps Foundation March 2022: State of FinOps Data](https://cuthrell.com/favicon.png "FinOps Foundation March 2022: State of FinOps Data")](https://cuthrell.com/favicon.png)FinOps Foundation March 2022: State of FinOps Data
+FinOps Foundation March 2022: State of FinOps Data
 
  **I just don't want it to grow 🎶**
 
 Keeping things commensurate is about taking sensible [actions](https://github.com/infracost/actions?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
-[![FinOps Foundation April 2022: State of FinOps Tooling and User Stories](https://cuthrell.com/favicon.png "FinOps Foundation April 2022: State of FinOps Tooling and User Stories")](https://cuthrell.com/favicon.png)FinOps Foundation April 2022: State of FinOps Tooling and User Stories
+FinOps Foundation April 2022: State of FinOps Tooling and User Stories
 
  **Recommended Read and Repo**
 

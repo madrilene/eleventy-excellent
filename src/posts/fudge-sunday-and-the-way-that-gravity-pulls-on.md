@@ -4,9 +4,9 @@ description: ''
 date: 2021-07-04 16:39:01+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-and-the-way-that-gravity-pulls-on-everyone-673047?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)A song, lyric, and tweets to connect it back to the edge, core, and cloud.
+
+A song, lyric, and tweets to connect it back to the edge, core, and cloud.
 
 This issue is part 1 of a 5 part series
 
@@ -18,7 +18,7 @@ This issue is part 1 of a 5 part series
 
  **And the way that gravity pulls on everyone**
 
-[![Embrace - Gravity (Official HD Video)](https://cuthrell.com/favicon.png "Embrace - Gravity (Official HD Video)")](https://cuthrell.com/favicon.png)Embrace - Gravity (Official HD Video)
+Embrace - Gravity (Official HD Video)
 
 **[Karl the Fog](https://www.indiebound.org/book/9781452173832?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 

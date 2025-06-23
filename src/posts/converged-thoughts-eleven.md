@@ -13,7 +13,7 @@ I’ll dredge up a tweet from my old Twitter handle circa 2013. It’s all about
 
 
 
-[![Living the dream... circa 2013](https://cuthrell.com/favicon.png "Living the dream... circa 2013")](https://cuthrell.com/favicon.png)Living the dream… circa 2013
+Living the dream… circa 2013
 
 Sending Out an SOS
 ==================
@@ -69,7 +69,7 @@ Parting Thoughts
 
 My other theory of convergence in how we communicate might sound odd but, perhaps we will eventually move (back?) towards glyph based online communication. More emoji!
 
-[![We've come a long way since grunting... or have we?](https://cuthrell.com/favicon.png "We've come a long way since grunting... or have we?")](https://cuthrell.com/favicon.png)We’ve come a long way since grunting… or have we?
+We’ve come a long way since grunting… or have we?
 
 Then again, I didn’t take formal courses of study in anthropology or linguistics so I could be full of hops.. but even Star Trek: The Next Generation dabbled in that idea of dense metaphor references as a communication shorthand.
 

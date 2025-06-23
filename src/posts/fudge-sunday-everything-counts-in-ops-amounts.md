@@ -5,7 +5,7 @@ date: 2022-03-14 02:31:09+00:00
 ---
 This week we take a look at portmanteaus of Development and Operations (DevOps) making inroads toward operationalizing Finance, Data Management, Machine Learning, Communications, and more
 
-[![Depeche Mode - Everything Counts (Official Video)](https://cuthrell.com/favicon.png "Depeche Mode - Everything Counts (Official Video)")](https://cuthrell.com/favicon.png)Depeche Mode - Everything Counts (Official Video)
+Depeche Mode - Everything Counts (Official Video)
 
  **Getting Informed**
 
@@ -158,7 +158,7 @@ First – this is amazing teaming/swarming by the team at Twilio Product Managem
 
 Getting to this kind of high NPS public dialog earned media takes cultural and capital investing in the “ables and the ables”
 
-[![Possible Permissible Sustainable Repeatable Advisable](https://cuthrell.com/favicon.png "Possible Permissible Sustainable Repeatable Advisable")](https://cuthrell.com/favicon.png)**[Possible Permissible Sustainable Repeatable Advisable](https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 When I referenced “the ibles and the ables” it was to illustrate the steps for getting a great product from ideation to market adoption. As such, product lifecycles capture value through a continuous ruthless removal of annoyance.
 
@@ -172,7 +172,7 @@ Source:
 
 Getting to this kind of high NPS public dialog earned media also takes cultural and capital investing in DevCommsOps.
 
-[![DevCommsOps = Getting Communications into DevX](https://cuthrell.com/favicon.png "DevCommsOps = Getting Communications into DevX")](https://cuthrell.com/favicon.png)**[DevCommsOps = Getting Communications into DevX](https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-devcommsops-805563?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-devcommsops-805563?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Hire. Great. Technical Writers.
 

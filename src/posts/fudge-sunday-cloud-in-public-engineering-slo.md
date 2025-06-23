@@ -4,9 +4,9 @@ description: ''
 date: 2021-10-11 02:54:39+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-cloud-in-public-engineering-slo-794553?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we continue to take a look at public things for a public cloud.
+
+This week we continue to take a look at public things for a public cloud.
 
 ☁️✅⚠️🛑
 
@@ -79,7 +79,7 @@ Below are selected Twitter references in chronological order from:
 * [@lizthegrey](https://twitter.com/lizthegrey?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 * [@mipsytipsy](https://twitter.com/mipsytipsy?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Jaana Dogan ヤナ ドガン](https://twitter.com/rakyll/status/974826146343788544)**
+**[Jaana Dogan ヤナ ドガン](https://twitter.com/rakyll/status/974826146343788544)**
 
 [@rakyll](https://twitter.com/rakyll/status/974826146343788544)
 
@@ -91,7 +91,7 @@ Finally the most concise and clear explanation of the difference between SLI, SL
 
  [9:53 PM - 16 Mar 2018](https://twitter.com/rakyll/status/974826146343788544)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Tanya Reilly](https://twitter.com/whereistanya/status/986954786661650432)**
+**[Tanya Reilly](https://twitter.com/whereistanya/status/986954786661650432)**
 
 [@whereistanya](https://twitter.com/whereistanya/status/986954786661650432)
 
@@ -99,7 +99,7 @@ This is the clearest SLI/SLO/SLA explanation I've seen so far. From @[elisabPDX]
 
  [9:08 AM - 19 Apr 2018](https://twitter.com/whereistanya/status/986954786661650432)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Cindy Sridharan](https://twitter.com/copyconstruct/status/1007034020725587969)**
+**[Cindy Sridharan](https://twitter.com/copyconstruct/status/1007034020725587969)**
 
 [@copyconstruct](https://twitter.com/copyconstruct/status/1007034020725587969)
 
@@ -107,7 +107,7 @@ Once you have an SLO that’s really not an SLO since the users have come to exp
 
  [6:56 PM - 13 Jun 2018](https://twitter.com/copyconstruct/status/1007034020725587969)
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Amaya Booker](https://twitter.com/Illdrinn/status/1174477540121030657)**
+**[Amaya Booker](https://twitter.com/Illdrinn/status/1174477540121030657)**
 
 [@Illdrinn](https://twitter.com/Illdrinn/status/1174477540121030657)
 
@@ -123,9 +123,9 @@ SLO / SLI / SLA crisp definitions with @[ahidalgosre](https://twitter.com/ahidal
 
 [12:39 AM - 11 Oct 2021](https://twitter.com/Illdrinn/status/1447421674979221507)
 
-[![SLOconf: SLOs at Facebook - by Posten A](https://cuthrell.com/favicon.png "SLOconf: SLOs at Facebook - by Posten A")](https://cuthrell.com/favicon.png)SLOconf: SLOs at Facebook - by Posten A
+SLOconf: SLOs at Facebook - by Posten A
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)**[Liz Fong-Jones (方禮真)](https://twitter.com/lizthegrey/status/1192090284081000448)**
+**[Liz Fong-Jones (方禮真)](https://twitter.com/lizthegrey/status/1192090284081000448)**
 
 [@lizthegrey](https://twitter.com/lizthegrey/status/1192090284081000448)
 

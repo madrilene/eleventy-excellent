@@ -4,13 +4,13 @@ description: ''
 date: 2021-09-06 00:34:16+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-data-portability-742573?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we look at the world of data portability from 2005 to present. Along the way, we’ll examine how long it can take for the impact of data gravity to be felt in the consumer, commercial, and Enterprise markets.
+
+This week we look at the world of data portability from 2005 to present. Along the way, we’ll examine how long it can take for the impact of data gravity to be felt in the consumer, commercial, and Enterprise markets.
 
  **Last week: "the ibles and the ables"**
 
-[![Possible, Permissible, Sustainable, Repeatable, Advisable](https://cuthrell.com/favicon.png "Possible, Permissible, Sustainable, Repeatable, Advisable")](https://cuthrell.com/favicon.png)**[Possible, Permissible, Sustainable, Repeatable, Advisable](https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-possible-permissible-sustainable-repeatable-advisable-732793?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 *Last week we took a look at the elements of a great product from ideation to market adoption.*
 

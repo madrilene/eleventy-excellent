@@ -10,7 +10,7 @@ Computation and Kicks
 Sometimes I read published research from Google. Admittedly, it’s often (usually?) way over my head. Sometimes I’ll find a familiar area and learn a bit more about an area that I have brushed up against in my past.
 
 
-[![Literally standing on the shoulders of giants (of research)](https://cuthrell.com/favicon.png "Literally standing on the shoulders of giants (of research)")](https://cuthrell.com/favicon.png)Literally standing on the shoulders of giants (of research)
+Literally standing on the shoulders of giants (of research)
 
 Simulation is Good for the Sole
 ===============================

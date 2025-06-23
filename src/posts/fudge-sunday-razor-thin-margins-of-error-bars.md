@@ -4,13 +4,13 @@ description: ''
 date: 2021-09-26 23:00:01+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-razor-thin-margins-of-error-bars-772573?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)Fun fact: On this day back in 2011, then EMC CEO Joe Tucci announced he would be [stepping down later that year](https://siliconangle.com/2011/09/26/emc-ceo-joe-tucci-stepping-down/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). A few weeks later, I also published the first of what would become ten yearly blog posts detailing [my time at Acadia, VCE, EMC, Dell EMC, and Dell Technologies](https://fudge.org/archive/my-tenth-year-at-dell-technologies/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) before [joining Faction](https://fudge.org/archive/cloud-data-services-ahead/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
+
+Fun fact: On this day back in 2011, then EMC CEO Joe Tucci announced he would be [stepping down later that year](https://siliconangle.com/2011/09/26/emc-ceo-joe-tucci-stepping-down/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter). A few weeks later, I also published the first of what would become ten yearly blog posts detailing [my time at Acadia, VCE, EMC, Dell EMC, and Dell Technologies](https://fudge.org/archive/my-tenth-year-at-dell-technologies/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) before [joining Faction](https://fudge.org/archive/cloud-data-services-ahead/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter).
 
  **Last Week**
 
-[![MultiCloudWashing Detergent](https://cuthrell.com/favicon.png "MultiCloudWashing Detergent")](https://cuthrell.com/favicon.png)**[MultiCloudWashing Detergent](https://sunday.fudge.org/issues/fudge-sunday-multicloudwashing-detergent-762371?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
+(https://sunday.fudge.org/issues/fudge-sunday-multicloudwashing-detergent-762371?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 
 Last week, we examined cloudwashing through a multicloud lens as multicloudwashing. After more than a year since my last day with Dell Technologies it was interesting to look back on the challenges of category creation.
 
@@ -22,7 +22,7 @@ This week I’m going to try a new format. Why? My follower count on Twitter rea
 
 Revue powers this newsletter and it is part of Twitter now. So, I’m not always sure when the “Twitter me” or the “LinkedIn me” is more interesting.
 
-[![Welcome to the year 2021. I'm seeking validation via folks clicking Yes or No. 😂](https://cuthrell.com/favicon.png "Welcome to the year 2021. I'm seeking validation via folks clicking Yes or No. 😂")](https://cuthrell.com/favicon.png)Welcome to the year 2021. I'm seeking validation via folks clicking Yes or No. 😂
+Welcome to the year 2021. I'm seeking validation via folks clicking Yes or No. 😂
 
 So, if this issue is interesting you can click the “Yes” or “No” to provide feedback. Or, you can [read what I’m reading](https://sunday.fudge.org/issues/fudge-sunday-what-i-ve-been-reading-lately-653166?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter) instead (or just unsubscribe). Or you can reply. Or, see the end for ways to reach out and say howdy.👋
 

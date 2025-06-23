@@ -47,9 +47,9 @@ Thoughts for Today
 
 In late March 2020, [a post from Sarah Emerson](https://www.techmeme.com/200307/p3#a200307p3) became the first of almost four dozen headlines to follow on the topic of [“remote work” on Techmeme](https://www.techmeme.com/search/d3results.jsp?q=%22remote+work%22&wm=false&start=48).
 
-[![Techmeme headline in 2020](https://cuthrell.com/favicon.png "Techmeme headline in 2020")](https://cuthrell.com/favicon.png)Contrast this post to [March 2017 coverage of how IBM viewed remote work](https://www.techmeme.com/170322/p5#a170322p5) and pushed in a very different direction.
+(https://www.techmeme.com/170322/p5#a170322p5) and pushed in a very different direction.
 
-[![Techmeme headline in 2017](https://cuthrell.com/favicon.png "Techmeme headline in 2017")](https://cuthrell.com/favicon.png)*So here we are in Semtember 2020.*
+*So here we are in Semtember 2020.*
 
 Typical company reactions might range from forming a team, panel, or formally assigning a leader to come up with a plan for getting remote work to, well, work. Or, if recent coverage provides an example, companies might look to established pioneers such like [GitLab as a type of management consultant for remote work](https://www.techmeme.com/200913/p7#a200913p7).
 
@@ -198,7 +198,7 @@ Yes.
 
 I started thinking about this when [@CTOAdvisor aka Keith Townsend posted the following question on Twitter](https://twitter.com/CTOAdvisor/status/1308128609723449346):
 
-[![Keith's question](https://cuthrell.com/favicon.png "Keith's question")](https://cuthrell.com/favicon.png)Let me explain…
+Let me explain…
 
 Edge computing is a marketing term used to describe doing your computing at the place closest to where the data is being generated.
 
@@ -215,9 +215,9 @@ Confluence of hardware with just enough stack for remote sensing / telemetry / i
 
 In the earliest days on the Interwebs, it was not uncommon to set up a webcam that pushed a JPG to a remote FTP site that was then embedded on a simple website as a type of virtual fish bowl. This was the ultimate real time presence indicator because you could see someone seated at their desk with a (typically) Connectix webcam displaying a grayscale 160x120 pixel or 320x240 pixel representation of their physical proximity to [a large CRT monitor](https://500ish.com/44-lbs-de7852628df0), keyboard, mouse… and probably a lot of empty soda cans.
 
-[![Webcam days](https://cuthrell.com/favicon.png "Webcam days")](https://cuthrell.com/favicon.png)So, for a modern twist why not consider a similar edge computing platform like that now? It’s relatively simple to to set up a low cost IP camera with a PTZ control, upgrade the firmware with a [hacks style firmware](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks), and [livestream to Twitch](https://gist.github.com/JayCuthrell/78dbeac6b7e5ea0f00e7f40c0a1a0f68) or similar streaming platforms.
+(https://gist.github.com/JayCuthrell/78dbeac6b7e5ea0f00e7f40c0a1a0f68) or similar streaming platforms.
 
-[![Twitch example](https://cuthrell.com/favicon.png "Twitch example")](https://cuthrell.com/favicon.png)
+
 
 ### Out of Office automation
 

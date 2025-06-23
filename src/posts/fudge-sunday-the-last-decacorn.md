@@ -4,11 +4,11 @@ description: ''
 date: 2022-02-20 23:58:55+00:00
 ---
 
-[View online](https://sunday.fudge.org/issues/fudge-sunday-the-last-decacorn-1038065?utm_campaign=Issue&utm_content=view_in_browser&utm_medium=email&utm_source=Start+the+week+more+informed)
 
-[![Start the week more informed](https://cuthrell.com/favicon.png "Start the week more informed")](https://cuthrell.com/favicon.png)This week we look at 1980s animation nostalgia, our first unicorn sighting, guerrilla marketing, and anhedonic investment themes.
 
-[![The Last Decacorn Pitchbook: Amalthea is a startup and King Haggard is a hedge fund.](https://cuthrell.com/favicon.png "The Last Decacorn Pitchbook: Amalthea is a startup and King Haggard is a hedge fund.")](https://cuthrell.com/favicon.png)The Last Decacorn Pitchbook: Amalthea is a startup and King Haggard is a hedge fund.
+This week we look at 1980s animation nostalgia, our first unicorn sighting, guerrilla marketing, and anhedonic investment themes.
+
+The Last Decacorn Pitchbook: Amalthea is a startup and King Haggard is a hedge fund.
 
  **Getting Informed**
 
@@ -69,7 +69,7 @@ Source:
 
 [news.crunchbase.com](https://news.crunchbase.com/news/decacorn-startups-2021-global-record-data-charts/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)
 
-[![Place your bets on the next count update of this list in the years ahead...](https://cuthrell.com/favicon.png "Place your bets on the next count update of this list in the years ahead...")](https://cuthrell.com/favicon.png)Place your bets on the next count update of this list in the years ahead...
+Place your bets on the next count update of this list in the years ahead...
 
 **[Investors In Decacorn Startups](https://news.crunchbase.com/news/decacorn-investors-sequoia-capital/?utm_campaign=Start%20the%20week%20more%20informed&utm_medium=email&utm_source=Revue%20newsletter)**
 

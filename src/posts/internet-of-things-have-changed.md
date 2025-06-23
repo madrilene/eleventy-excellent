@@ -4,7 +4,7 @@ description: ''
 date: 2019-05-13 00:00:00+00:00
 ---
 
-[![Fudge Sunday](https://cuthrell.com/favicon.png "Fudge Sunday")](https://cuthrell.com/favicon.png)The past few days have been confusing and frustrating for home automation enthusiasts that made investments in Nest products. How did we get here?This week we take a look at Nest.
+The past few days have been confusing and frustrating for home automation enthusiasts that made investments in Nest products. How did we get here?This week we take a look at Nest.
 
 
 Turn off the lights when you leave…

@@ -12,7 +12,7 @@ This week we take a look at Zero Trust, Zero Trust Model, Zero Trust Security Mo
 
 Please Subscribe!
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)
+
 
 # And they may not want it to end 🎶
 
@@ -59,9 +59,9 @@ BTW, I remember blogging about Google Secure Access VPN in 2005 as part of their
 
 Circa 2005… off Google Secure Access VPN
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)So many hops… so many ISP eyeballs…Circa 2005… on Google Secure Access VPN
+So many hops… so many ISP eyeballs…Circa 2005… on Google Secure Access VPN
 
-[![](https://cuthrell.com/favicon.png)](https://cuthrell.com/favicon.png)Less hops… and only Google eyeballs…So, what will be the next “zero trust” innovation to improve end user experience?
+Less hops… and only Google eyeballs…So, what will be the next “zero trust” innovation to improve end user experience?
 
 Until then… Place your bets!
 
