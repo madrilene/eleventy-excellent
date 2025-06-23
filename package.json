@@ -17,7 +17,8 @@
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "npm run dev:11ty",
-    "build": "npm run clean && npm run build:11ty"
+    "build": "npm run clean && npm run build:11ty",
+    "debug": "cross-env DEBUG=Eleventy* ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
   "repository": {
