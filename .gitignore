@@ -11,3 +11,10 @@ src/_includes/scripts
 
 # secret data
 .env
+
+# other
+.DS_Store
+.vscode
+
+# python env
+.venv
