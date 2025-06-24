@@ -1,9 +1,10 @@
 ---
 fontDisplay: "'Red Hat Display', Ubuntu" # needed created in local development, font must be installed on your system.
 fontBody: "'Atkinson Hyperlegible', Ubuntu" # needed created in local development, font must be installed on your system.
-background: '#FBBE25'
+background: '#fb923c'
 text: '#161616'
 siteUrl: 'fudge.org'
+siteName: 'Fudge Factor'
 pagination:
   data: collections.allPosts
   size: 1
@@ -37,7 +38,7 @@ eleventyExcludeFromCollections: true
   <rect id="bg" width="100%" height="100%" opacity="1" fill="{{ background }}" />
   <!-- star -->
   <g width="1096" height="1056" viewBox="0 0 1096 1056" fill="none" transform="translate(0, -150)">
-    <path d="M235.048 2.31017L565.808 192.455L910.285 28.026L831.43 401.258L1094.33 677.671L714.848 718.199L533.127 1053.8L377.382 705.568L2.18875 636.646L285.207 380.519L235.048 2.31017Z" stroke="{{ text }}" stroke-opacity="0.1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="121" cy="523" fill="#fb923c" r="357"></circle><circle cx="738" cy="6" fill="#ff8800" r="357"></circle><circle cx="264" cy="366" fill="#fb923c" r="357"></circle><circle cx="599" cy="405" fill="#fb923c" r="357"></circle><circle cx="865" cy="392" fill="#ff8800" r="357"></circle><circle cx="111" cy="45" fill="#fb923c" r="357"></circle>  
   </g>
 
   <!-- date -->
@@ -87,7 +88,7 @@ eleventyExcludeFromCollections: true
     fill="{{ text }}"
     letter-spacing="-0.5"
   >
-    <tspan x="950" y="580">{{ meta.siteName | upper }}</tspan>
+    <tspan x="950" y="580">{{ siteName | upper }}</tspan>
   </text>
 
 	<!-- nerd -->
