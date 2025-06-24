@@ -5,7 +5,6 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
-src/assets/og-images
 src/assets/og-images/*.jpeg
 
 # cache
