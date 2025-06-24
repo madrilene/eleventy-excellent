@@ -16,5 +16,14 @@ package = "netlify-plugin-cache"
 
 
 [build]
-  command = "npm run build"
+  command = "NODE_OPTIONS=--max_old_space_size=8192 npm run build"
   publish = "dist"
+
+[[redirects]]
+  from = "/.well-known/host-meta*"
+  to = "https://fed.brid.gy/.well-known/host-meta:splat"
+  status = 302
+[[redirects]]
+  from = "/.well-known/webfinger*"
+  to = "https://fed.brid.gy/.well-known/webfinger"
+  status = 302
