@@ -1,0 +1,37 @@
+---
+permalink: /rss.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/assets/css/pretty-feed-v3.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.url }}" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <link>{{ metadata.url }}</link>
+    <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
+    <description>{{ metadata.subtitle }}</description>
+    <image>
+      <url>{{ metadata.url }}favicon-32x32.png</url>
+      <title>{{ metadata.title }}</title>
+      <link>{{ metadata.url }}</link>
+    </image>
+    <language>{{ metadata.language }}</language>
+    {%- for post in collections.posts | reverse %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>Subscribe at {{ metadata.url }} and read more here: {{ absolutePostUrl }}
+{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+      </description>
+      <enclosure url="{{ meta.url }}/assets/images/social-preview/{{
+  post.data.title | slugify
+}}-preview.jpeg" length="100" type="image/png" />
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>{{ metadata.author.name }}</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

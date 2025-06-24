@@ -5,10 +5,6 @@ export default {
       url: '/archive/'
     },
     {
-      text: 'Topics',
-      url: '/topics/'
-    },
-    {
       text: 'About',
       url: '/about/'
     },
@@ -26,10 +22,6 @@ export default {
     }
   ],
   bottom: [
-    {
-      text: 'Sponsorship',
-      url: '/sponsorship/'
-    },
     {
       text: 'Disclosure',
       url: 'https://jaycuthrell.com/disclosure'

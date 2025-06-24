@@ -1,7 +1,7 @@
 export const url = process.env.URL || 'http://localhost:8080';
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
-export const siteName = 'Fudge Factor';
+export const siteName = 'Fudge Factor 🤔💡🤯🤓';
 export const siteDescription = 'Fudge Factor is a newsletter and blog by Jay Cuthrell';
 export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
@@ -29,7 +29,7 @@ export const opengraph_default_alt =
   "Visible content: An Eleventy starter with CUBE CSS, Cube CSS, Every Layout, Design Tokens and Tailwind for uitility classes. A workflow for building modern and resilient websites, introduced by Andy Bell's project buildexcellentwebsit.es"; // alt text for default meta image"
 export const blog = {
   // RSS feed
-  name: 'My newsletter and blog',
+  name: 'Fudge Factor is the newsletter and blog of Jay Cuthrell',
   description: 'Fudge Factor is the newsletter and blog of Jay Cuthrell',
   // feed links are looped over in the head. You may add more to the array.
   feedLinks: [
@@ -37,6 +37,11 @@ export const blog = {
       title: 'Atom Feed',
       url: '/feed.xml',
       type: 'application/atom+xml'
+    },
+    {
+      title: 'RSS Feed',
+      url: '/rss.xml',
+      type: 'application/rss+xml'
     },
     {
       title: 'JSON Feed',

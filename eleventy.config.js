@@ -102,6 +102,9 @@ export default async function (eleventyConfig) {
     // -- to root
     'src/assets/images/favicon/*': '/',
 
+    // -- for rss style
+    'src/assets/css/pretty-feed-v3.xsl': `/assets/css/`,
+
     // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`
   });
