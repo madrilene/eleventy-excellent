@@ -91,6 +91,16 @@ export default async function (eleventyConfig) {
     eleventyConfig.on('eleventy.after', events.svgToJpeg);
   }
 
+  // --------------------- Production ---------------------
+  if (process.env.ELEVENTY_RUN_MODE === 'production') {
+    eleventyConfig.on('eleventy.after', events.svgToJpeg);
+  }
+
+  // --------------------- Build ---------------------
+  if (process.env.ELEVENTY_RUN_MODE === 'build') {
+    eleventyConfig.on('eleventy.after', events.svgToJpeg);
+  }
+
   // --------------------- Passthrough File Copy
 
   // -- same path
