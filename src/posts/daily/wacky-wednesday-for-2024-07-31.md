@@ -1,0 +1,7 @@
+---
+title: "🤪 Wacky Wednesday for 2024-07-31"
+description: "🏖️ We’re taking a break this week for the summer 🏖️"
+date: 2024-07-31 22:08:50.729833+00:00
+---
+
+<!-- buttondown-editor-mode: plaintext --><h1><span style="color: rgb(0, 0, 0)">🤪 </span>Wacky Wednesday for 2024-07-31</h1><p>Explore the wild and wacky world of shared links from online Slack communities.</p><p>One unique thing about online Slack Communities is the use of #random channel. Sometimes you come across some real gems.</p><p>Each week I go through dozens of Slack communities and select the most interesting shared links found. This will be a safe for work list.</p><p>Join me in this collection of what is being shared that is wow, wild, wtf, and wacky each Wednesday.</p><p>🏖️ We’re taking a break this week for the summer 🏖️</p><figure><img src="https://images.unsplash.com/photo-1501426026826-31c667bdf23d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2Mjg2OTV8MHwxfHNlYXJjaHwxfHx2YWNhdGlvbnxlbnwwfHx8fDE3MjIzOTUyMzZ8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" alt="pink flamingo swim ring on body of water in summer" draggable="false" contenteditable="false"><figcaption>Photo by <a target="_blank" rel="noopener noreferrer nofollow" href="https://unsplash.com/@vicko?utm_source=Buttondown&amp;utm_medium=referral">Vicko Mozara</a> on <a target="_blank" rel="noopener noreferrer nofollow" href="https://unsplash.com/?utm_source=Buttondown&amp;utm_medium=referral">Unsplash</a></figcaption></figure>

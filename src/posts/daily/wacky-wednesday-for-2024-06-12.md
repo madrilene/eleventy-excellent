@@ -1,0 +1,7 @@
+---
+title: "Wacky Wednesday for 2024-06-12"
+description: "Wacky Wednesday for 2024-06-12 Explore the wild and wacky world of shared links from online Slack communities. One unique thing about online Slack..."
+date: 2024-06-12 19:31:18.241226+00:00
+---
+
+<!-- buttondown-editor-mode: plaintext --><h1>Wacky Wednesday for 2024-06-12</h1><p>Explore the wild and wacky world of shared links from online Slack communities.</p><p>One unique thing about online Slack Communities is the use of #random channel. Sometimes you come across some real gems.</p><p>Each week I go through dozens of Slack communities and select the most interesting shared links found. This will be a safe for work list.</p><p>Join me in this collection of what is being shared that is wow, wild, wtf, and wacky each Wednesday.</p><p>https://www.youtube.com/watch?v=X8woa_wSrmA</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/gayanvoice/top-github-users">https://github.com/gayanvoice/top-github-users</a></p><p>https://www.youtube.com/watch?v=UI-t21QcXM4</p><p>https://youtu.be/1SgGfMlbCoM?feature=shared</p><p>https://www.youtube.com/watch?v=DHspDQZKvwg</p><p>https://www.youtube.com/watch?v=CQW22EN-F-8</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.fooddive.com/news/kraft-heinz-jell-o-girl-scout-cookies-pudding-cups/715404/">https://www.fooddive.com/news/kraft-heinz-jell-o-girl-scout-cookies-pudding-cups/715404/</a></p><p></p><ol class="footnotes"></ol>

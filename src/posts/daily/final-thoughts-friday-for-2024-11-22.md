@@ -1,0 +1,7 @@
+---
+title: "✅ Final Thoughts Friday for 2024-11-22"
+description: "I celebrated my new role at NexusTek on LinkedIn and shared my tech news highlights for the week."
+date: 2024-11-23 16:05:26.291673+00:00
+---
+
+<!-- buttondown-editor-mode: fancy --><p>Posting on LinkedIn about <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.linkedin.com/in/jaycuthrell">my new role at NexusTek</a> was well received and a great way to end the week.</p><figure><a href="https://www.linkedin.com/in/jaycuthrell/" target="_blank" rel="noopener noreferrer"><img src="https://assets.buttondown.email/images/98d8ddef-3e08-4700-9d2f-97c8374a7ed0.png?w=960&amp;fit=max" alt="LinkedIn top performing posts" draggable="false"></a><figcaption>via LinkedIn</figcaption></figure><p>For the tech news stories that caught my eye this week, Palo Alto earnings and exploits have also been quite the ride.</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/241120/p37#a241120p37">https://www.techmeme.com/241120/p37#a241120p37</a></p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/241122/p22#a241122p22">https://www.techmeme.com/241122/p22#a241122p22</a></p><figure><a href="https://www.google.com/finance/quote/PANW:NASDAQ" target="_blank" rel="noopener noreferrer"><img src="https://assets.buttondown.email/images/49de0317-30fe-4c31-9aff-e02efcf42c2f.png?w=960&amp;fit=max" alt="10+ years of PANW" draggable="false"></a><figcaption>10+ years of PANW</figcaption></figure><p></p>

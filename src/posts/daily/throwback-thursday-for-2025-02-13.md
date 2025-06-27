@@ -1,0 +1,7 @@
+---
+title: "🔙 Throwback Thursday for 2025-02-13"
+description: "CyberArk continues its acquisition spree, this time buying Zilla Security."
+date: 2025-02-14 05:41:32.273755+00:00
+---
+
+<!-- buttondown-editor-mode: fancy --><p>One headline for a Thursday Throwback caught my eye.</p><p>🔐 + 💰 CyberArk went shopping again — this time for Zilla Security.</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/250213/p29#a250213p29">https://www.techmeme.com/250213/p29#a250213p29</a></p><p>🔐 + 💰 In fact, CyberArk gobbled up Venafi back in May 2024.</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/240520/p7#a240520p7">https://www.techmeme.com/240520/p7#a240520p7</a></p><p>But M&amp;A is not new for CyberArk. For example, it has been almost 10 years since <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.globes.co.il/en/article-cyberark-buys-israeli-software-co-viewfinity-for-305m-1001071941">the acquisition of Viewfinity in 2015</a>.</p><p>While these aren’t <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.linkedin.com/posts/jaycuthrell_wiz-ceo-2024-will-be-the-year-of-acquisitions-activity-7182523881671282688-mGaO?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAACk1T7oBu6QkP2p3bHgknv3R55ktER0dzqc">Wiz size numbers</a>, it does show that consolidation is happening in some parts of cybersecurity landscape even as it continuously expands to address the ever expanding threats landscape.</p><p></p>
