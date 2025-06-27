@@ -6,6 +6,10 @@
   background-clip: text;
 }
 
+.gradient-text-none {
+  padding: 0.6rem 0;
+}
+
 .gradient-text-linear {
   color: transparent;
   background-image: var(--gradient-rainbow);
