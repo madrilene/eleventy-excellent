@@ -42,7 +42,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.7",
     "dayjs": "^1.11.13",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.0",
     "esbuild": "^0.25.5",
     "html-minifier-terser": "^7.2.0",
     "js-yaml": "^4.1.0",
@@ -56,9 +56,9 @@
     "markdown-it-mark": "^4.0.0",
     "markdown-it-prism": "^3.0.0",
     "netlify-plugin-cache": "^1.0.3",
-    "postcss": "^8.5.5",
+    "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "postcss-import": "^16.1.0",
+    "postcss-import": "^16.1.1",
     "postcss-import-ext-glob": "^2.1.1",
     "postcss-js": "^4.0.1",
     "prettier-plugin-jinja-template": "^2.1.0",
@@ -67,6 +67,6 @@
     "sharp": "^0.34.2",
     "sharp-ico": "^0.1.5",
     "slugify": "^1.6.6",
-    "svgo": "^3.3.2"
+    "svgo": "^4.0.0"
   }
 }
