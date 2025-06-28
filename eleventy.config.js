@@ -20,6 +20,7 @@ import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
 import shortcodes from './src/_config/shortcodes.js';
+import embedEverything from "eleventy-plugin-embed-everything";
 
 export default async function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./src/assets/**/*.{css,js,svg,png,jpeg}');
@@ -41,7 +42,16 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(plugins.cssConfig);
   eleventyConfig.addPlugin(plugins.jsConfig);
   eleventyConfig.addPlugin(plugins.drafts);
-
+  eleventyConfig.addPlugin(embedEverything, {
+    add: ['bluesky', 'mastodon', 'soundcloud'],
+    // Add the mandatory "server" value required for Mastodon.
+		mastodon: {
+			options: {
+				server: 'cuthrell.com',
+			}
+    }
+  });
+    
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
   eleventyConfig.addPlugin(plugins.rss);
   eleventyConfig.addPlugin(plugins.syntaxHighlight);
