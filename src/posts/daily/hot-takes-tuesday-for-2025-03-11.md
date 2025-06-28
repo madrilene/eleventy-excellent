@@ -1,6 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-03-11"
-description: "Exploring groundbreaking photonics chiplets and innovative Tupperware software valuations."
+description: "Exploring groundbreaking photonics chiplets and innovative 'Tupperware' software valuations."
 date: 2025-03-12 03:19:15.787086+00:00
 ---
 
