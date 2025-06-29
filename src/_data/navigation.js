@@ -17,8 +17,8 @@ export default {
       url: '/rss.xml'
     },
     {
-      text: 'Hot Fudge Daily',
-      url: 'https://hot.fudge.org'
+      text: 'Subscribe',
+      url: 'https://buttondown.com/hot-fudge-daily#subscribe-form'
     }
   ],
   bottom: [
