@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2024-11-25"
+permalink: "/archive/markets-monday-for-2024-11-25/"
 description: "This Market Monday highlights a surge in tech stocks and tips for tracking market trends."
 date: 2024-11-26 06:44:57.944552+00:00
 ---

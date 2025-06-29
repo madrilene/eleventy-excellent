@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-11-10"
-description: "Reflecting on 2024's evolution, my newsletter journey expansion and submissions so far!"
+permalink: "/archive/hot-fudge-sunday-for-2024-11-10/"
+description: "Reflecting on 2024&#39;s evolution, my newsletter journey expansion and submissions so far!"
 date: 2024-11-10 17:59:00+00:00
 ---
 

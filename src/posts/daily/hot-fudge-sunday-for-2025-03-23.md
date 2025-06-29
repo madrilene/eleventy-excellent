@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-03-23"
+permalink: "/archive/hot-fudge-sunday-for-2025-03-23/"
 description: "This week, I share results from testing both the Plaud and Limitless AI devices, sharing the pros and cons of each."
 date: 2025-03-24 00:30:00+00:00
 ---

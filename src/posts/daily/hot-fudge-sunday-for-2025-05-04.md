@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-05-04"
+permalink: "/archive/hot-fudge-sunday-for-2025-05-04/"
 description: "Celebrating alumni success and spotlighting those #OpenToWork in my network this week! 🎉"
 date: 2025-05-04 21:49:36.141354+00:00
 ---

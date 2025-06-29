@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-09-14"
+permalink: "/archive/sneak-peak-saturday-for-2024-09-14/"
 description: "I explore the chaotic peak of Friday news and share memes that highlight slow news days."
 date: 2024-09-15 01:03:44.053636+00:00
 ---

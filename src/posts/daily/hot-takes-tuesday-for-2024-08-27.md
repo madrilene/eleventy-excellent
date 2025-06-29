@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-08-27"
-description: "Exploring changes in the VMware community, hot takes on funds, funding, M&A, and the evolving cloud landscape."
+permalink: "/archive/hot-takes-tuesday-for-2024-08-27/"
+description: "Exploring changes in the VMware community, hot takes on funds, funding, M&amp;A, and the evolving cloud landscape."
 date: 2024-08-27 22:18:13.391791+00:00
 ---
 

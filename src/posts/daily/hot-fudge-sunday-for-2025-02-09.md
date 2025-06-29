@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-02-09"
-description: "This week, I'm spotlighting job seekers in my network and celebrating alumni who found new roles!"
+permalink: "/archive/hot-fudge-sunday-for-2025-02-09/"
+description: "This week, I&#39;m spotlighting job seekers in my network and celebrating alumni who found new roles!"
 date: 2025-02-10 00:39:38.490755+00:00
 ---
 

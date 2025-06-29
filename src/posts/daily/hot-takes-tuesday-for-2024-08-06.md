@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-08-06"
-description: "Rapid fire analysis on funds, funding, M&A, IIoT impact, content licensing, and cybersecurity trends."
+permalink: "/archive/hot-takes-tuesday-for-2024-08-06/"
+description: "Rapid fire analysis on funds, funding, M&amp;A, IIoT impact, content licensing, and cybersecurity trends."
 date: 2024-08-07 10:49:17.618305+00:00
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-08-10"
-description: "Uncovering tech news with a dash of humor - don't miss these Friday finds!"
+permalink: "/archive/sneak-peak-saturday-for-2024-08-10/"
+description: "Uncovering tech news with a dash of humor - don&#39;t miss these Friday finds!"
 date: 2024-08-10 16:08:48.779172+00:00
 ---
 

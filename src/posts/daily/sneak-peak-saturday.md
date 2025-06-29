@@ -1,5 +1,6 @@
 ---
 title: "Sneak Peak Saturday"
+permalink: "/archive/sneak-peak-saturday/"
 description: "Unveiling overlooked tech news with a sprinkle of satire."
 date: 2024-06-08 19:08:53.217023+00:00
 ---

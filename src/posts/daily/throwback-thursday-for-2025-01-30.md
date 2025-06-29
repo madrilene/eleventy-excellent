@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2025-01-30"
-description: "This edition highlights Vodafone's pioneering impact on mobile technology over the last two decades."
+permalink: "/archive/throwback-thursday-for-2025-01-30/"
+description: "This edition highlights Vodafone&#39;s pioneering impact on mobile technology over the last two decades."
 date: 2025-02-02 00:04:31.124413+00:00
 ---
 

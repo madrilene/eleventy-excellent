@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-02-04"
+permalink: "/archive/hot-takes-tuesday-for-2025-02-04/"
 description: "SailPoint kicks off the 2025 SaaS IPO season—unexpected yet impressive post-acquisition turnaround!"
 date: 2025-02-05 04:12:19.244110+00:00
 ---

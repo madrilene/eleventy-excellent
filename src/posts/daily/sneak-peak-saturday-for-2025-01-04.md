@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-01-04"
+permalink: "/archive/sneak-peak-saturday-for-2025-01-04/"
 description: "This edition highlights must-see stories that slipped under the radar on a busy Friday."
 date: 2025-01-04 14:00:00+00:00
 ---

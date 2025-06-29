@@ -1,6 +1,7 @@
 ---
 title: "Hot Takes Tuesday for 2024-07-02"
-description: "Tech funding and M&A moves focus on A.I., CGI improvements, and GenAI, with potential for game-changing innovations in various industries."
+permalink: "/archive/hot-takes-tuesday-for-2024-07-02/"
+description: "Tech funding and M&amp;A moves focus on A.I., CGI improvements, and GenAI, with potential for game-changing innovations in various industries."
 date: 2024-07-02 23:03:04.679962+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Throwback Thursday for 2024-06-20"
+permalink: "/archive/throwback-thursday-for-2024-06-20/"
 description: "Throwback Thursday: Revisiting past predictions and tech news from 10 years ago, including Arista Networks and HubSpot."
 date: 2024-06-20 21:04:16.198072+00:00
 ---

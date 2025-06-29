@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-12-17"
-description: "Exploring Databricks' record funding and its potential impact on data-driven businesses."
+permalink: "/archive/hot-takes-tuesday-for-2024-12-17/"
+description: "Exploring Databricks&#39; record funding and its potential impact on data-driven businesses."
 date: 2024-12-18 05:01:24.919401+00:00
 ---
 

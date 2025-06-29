@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-01-07"
+permalink: "/archive/hot-takes-tuesday-for-2025-01-07/"
 description: "Sharing two hot takes on AI costs and investment strategies that have caught my attention this week!"
 date: 2025-01-08 03:52:07.040840+00:00
 ---

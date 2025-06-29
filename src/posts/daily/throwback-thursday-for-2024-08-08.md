@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-08-08"
+permalink: "/archive/throwback-thursday-for-2024-08-08/"
 description: "Throwback Thursday revisits past tech predictions, looking at how they played out today."
 date: 2024-08-09 02:33:04.249013+00:00
 ---

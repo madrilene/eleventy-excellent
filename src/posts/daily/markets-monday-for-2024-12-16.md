@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2024-12-16"
-description: "I'm diving back into Bluesky while sharing my Market Monday insights from Yahoo Finance."
+permalink: "/archive/markets-monday-for-2024-12-16/"
+description: "I&#39;m diving back into Bluesky while sharing my Market Monday insights from Yahoo Finance."
 date: 2024-12-17 01:48:16.986182+00:00
 ---
 

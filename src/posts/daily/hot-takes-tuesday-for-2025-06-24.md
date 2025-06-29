@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-06-24"
+permalink: "/archive/hot-takes-tuesday-for-2025-06-24/"
 description: "This edition highlights $357.5M in funding for innovative AI startups!"
 date: 2025-06-24 20:50:40.946290+00:00
 ---

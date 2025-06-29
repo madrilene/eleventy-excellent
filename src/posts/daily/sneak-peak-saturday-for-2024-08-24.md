@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-08-24"
-description: "Exploring the difference between peak and peek in news coverage with a roundup of Friday's 'quietly mentioned' stories."
+permalink: "/archive/sneak-peak-saturday-for-2024-08-24/"
+description: "Exploring the difference between peak and peek in news coverage with a roundup of Friday&#39;s &#39;quietly mentioned&#39; stories."
 date: 2024-08-24 17:26:38.225887+00:00
 ---
 

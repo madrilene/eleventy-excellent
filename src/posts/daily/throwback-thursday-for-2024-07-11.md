@@ -1,5 +1,6 @@
 ---
 title: "Throwback Thursday for 2024-07-11"
+permalink: "/archive/throwback-thursday-for-2024-07-11/"
 description: "Throwback Thursday revisits past predictions and news coverage, highlighting the evolution of tech trends like Cloudflare."
 date: 2024-07-11 20:18:46.376960+00:00
 ---

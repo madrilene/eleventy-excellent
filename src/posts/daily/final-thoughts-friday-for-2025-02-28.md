@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-02-28"
-description: "This week, I reflect on Skype's decline as Microsoft Teams takes over, recalling its iPhone debut in 2009."
+permalink: "/archive/final-thoughts-friday-for-2025-02-28/"
+description: "This week, I reflect on Skype&#39;s decline as Microsoft Teams takes over, recalling its iPhone debut in 2009."
 date: 2025-03-01 03:05:32.463210+00:00
 ---
 

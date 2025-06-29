@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-05-02"
+permalink: "/archive/final-thoughts-friday-for-2025-05-02/"
 description: "This week I’m diving into Microsoft’s push to adopt passkeys faster, echoing Google’s earlier move."
 date: 2025-05-03 04:40:49.625894+00:00
 ---

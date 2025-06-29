@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-12-01"
+permalink: "/archive/hot-fudge-sunday-for-2024-12-01/"
 description: "This edition highlights market trends, startup funding news, and nostalgic tech reflections."
 date: 2024-12-01 17:55:00+00:00
 ---

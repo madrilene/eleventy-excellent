@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-04-28"
+permalink: "/archive/markets-monday-for-2025-04-28/"
 description: "This edition highlights key stock indicators and market movements from Yahoo Finance for the week."
 date: 2025-04-29 03:05:28.641158+00:00
 ---

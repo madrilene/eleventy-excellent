@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-03-29"
-description: "Fridays are for sneaky news updates and some memes you might've missed!"
+permalink: "/archive/sneak-peak-saturday-for-2025-03-29/"
+description: "Fridays are for sneaky news updates and some memes you might&#39;ve missed!"
 date: 2025-03-29 22:35:49.787188+00:00
 ---
 

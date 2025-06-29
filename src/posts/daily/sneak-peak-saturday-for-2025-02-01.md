@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-02-01"
+permalink: "/archive/sneak-peak-saturday-for-2025-02-01/"
 description: "This week, I highlight overlooked stories amid the Friday news frenzy and playful memes."
 date: 2025-02-02 19:46:40.304060+00:00
 ---

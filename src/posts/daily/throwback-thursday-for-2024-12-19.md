@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-12-19"
+permalink: "/archive/throwback-thursday-for-2024-12-19/"
 description: "Exploring the implications of link rot and what it means when the web forgets."
 date: 2024-12-20 05:44:29.016888+00:00
 ---

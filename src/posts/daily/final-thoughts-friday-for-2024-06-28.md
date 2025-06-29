@@ -1,5 +1,6 @@
 ---
 title: "Final Thoughts Friday for 2024-06-28"
+permalink: "/archive/final-thoughts-friday-for-2024-06-28/"
 description: "Weekly events, community outreach, and content organization for my newsletters and blog."
 date: 2024-06-28 20:58:01.090917+00:00
 ---

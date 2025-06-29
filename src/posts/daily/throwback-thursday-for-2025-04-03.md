@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2025-04-03"
-description: "Explore the power of joint ventures in this week's Throwback!"
+permalink: "/archive/throwback-thursday-for-2025-04-03/"
+description: "Explore the power of joint ventures in this week&#39;s Throwback!"
 date: 2025-04-04 03:22:38.134238+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-03-14"
+permalink: "/archive/final-thoughts-friday-for-2025-03-14/"
 description: "This week, I’m diving into RCS interoperability and enhancing chat security with E2EE!"
 date: 2025-03-15 02:28:36.885142+00:00
 ---

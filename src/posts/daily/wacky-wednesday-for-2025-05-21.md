@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2025-05-21"
+permalink: "/archive/wacky-wednesday-for-2025-05-21/"
 description: "This week, I found a quirky piece on the most American motorsport event: the Wienie 500!"
 date: 2025-05-23 06:13:23.893381+00:00
 ---

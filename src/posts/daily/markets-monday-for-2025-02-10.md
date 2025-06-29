@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-02-10"
+permalink: "/archive/markets-monday-for-2025-02-10/"
 description: "This edition highlights key market indicators for tech stocks using Yahoo Finance insights."
 date: 2025-02-11 05:31:02.609145+00:00
 ---

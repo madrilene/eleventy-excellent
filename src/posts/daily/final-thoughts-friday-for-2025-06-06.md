@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-06-06"
+permalink: "/archive/final-thoughts-friday-for-2025-06-06/"
 description: "Drones are quickly reshaping deliveries in major U.S. cities like Atlanta and Houston!"
 date: 2025-06-07 20:09:30.288640+00:00
 ---

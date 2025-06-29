@@ -1,5 +1,6 @@
 ---
 title: "Spicy Edition Sunday for 2024-06-30"
+permalink: "/archive/spicy-edition-sunday-for-2024-06-30/"
 description: "🔥Tech market analysis, A.I. funding trends, wacky online links, Throwback Thursday reflections, and future insights summed up for you!"
 date: 2024-06-30 16:00:00+00:00
 ---

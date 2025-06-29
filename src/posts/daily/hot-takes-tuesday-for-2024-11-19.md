@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-11-19"
-description: "Impressive valuations and unique IP rights in France are the highlights of today's edition!"
+permalink: "/archive/hot-takes-tuesday-for-2024-11-19/"
+description: "Impressive valuations and unique IP rights in France are the highlights of today&#39;s edition!"
 date: 2024-11-20 02:36:55.732366+00:00
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-08-15"
-description: "Throwback Thursday: Revisiting predictions and news coverage with Techmeme's historical insights."
+permalink: "/archive/throwback-thursday-for-2024-08-15/"
+description: "Throwback Thursday: Revisiting predictions and news coverage with Techmeme&#39;s historical insights."
 date: 2024-08-15 21:07:57.743175+00:00
 ---
 

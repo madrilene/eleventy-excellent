@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-12-06"
+permalink: "/archive/final-thoughts-friday-for-2024-12-06/"
 description: "This week, I’m diving into the exciting shift from single CPUs to dual co-processors!"
 date: 2024-12-07 02:25:17.177227+00:00
 ---

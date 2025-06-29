@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-06-13"
+permalink: "/archive/final-thoughts-friday-for-2025-06-13/"
 description: "This week, I spotlight the ongoing relevance of cloud outages and the evolution of status tracking."
 date: 2025-06-14 02:30:48.413315+00:00
 ---

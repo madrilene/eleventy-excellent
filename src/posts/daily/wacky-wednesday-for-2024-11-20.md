@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-11-20"
-description: "This week's email highlights intriguing Slack finds, from emus on the loose to endless shrimp news!"
+permalink: "/archive/wacky-wednesday-for-2024-11-20/"
+description: "This week&#39;s email highlights intriguing Slack finds, from emus on the loose to endless shrimp news!"
 date: 2024-11-21 05:33:52.914841+00:00
 ---
 

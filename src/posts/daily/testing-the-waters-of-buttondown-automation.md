@@ -1,5 +1,6 @@
 ---
 title: "Testing the waters of Buttondown Automation"
+permalink: "/archive/testing-the-waters-of-buttondown-automation/"
 description: "Diving into Buttondown Automation for Newsletter Syndication."
 date: 2024-08-02 18:37:46.103433+00:00
 ---

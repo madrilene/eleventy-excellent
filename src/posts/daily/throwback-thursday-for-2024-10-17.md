@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-10-17"
-description: "Reflecting on the evolution of the iPad mini from its debut to today's impressive specs!"
+permalink: "/archive/throwback-thursday-for-2024-10-17/"
+description: "Reflecting on the evolution of the iPad mini from its debut to today&#39;s impressive specs!"
 date: 2024-10-18 01:51:27.327986+00:00
 ---
 

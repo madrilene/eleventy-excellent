@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-12-07"
-description: "In this edition, I highlight stories that sneak past Friday's slow news facade."
+permalink: "/archive/sneak-peak-saturday-for-2024-12-07/"
+description: "In this edition, I highlight stories that sneak past Friday&#39;s slow news facade."
 date: 2024-12-07 16:38:02.013528+00:00
 ---
 

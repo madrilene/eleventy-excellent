@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2024-07-15"
+permalink: "/archive/markets-monday-for-2024-07-15/"
 description: "Analyzing tech market trends with a focus on weekly views and heat maps."
 date: 2024-07-15 21:06:27.277290+00:00
 ---

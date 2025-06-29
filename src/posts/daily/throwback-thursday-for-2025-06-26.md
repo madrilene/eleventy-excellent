@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2025-06-26"
-description: "Microsoft's BSOD is getting a makeover—say hello to the Black Screen of Death!"
+permalink: "/archive/throwback-thursday-for-2025-06-26/"
+description: "Microsoft&#39;s BSOD is getting a makeover—say hello to the Black Screen of Death!"
 date: 2025-06-26 20:40:26.324706+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-12-25"
+permalink: "/archive/wacky-wednesday-for-2024-12-25/"
 description: "🎁 Merry Christmas Edition 🎁 -- I curated the week’s top Slack links, all safe for work—check them out!"
 date: 2024-12-25 21:28:59.369802+00:00
 ---

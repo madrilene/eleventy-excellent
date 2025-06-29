@@ -1,5 +1,6 @@
 ---
 title: "Markets Monday"
+permalink: "/archive/markets-monday/"
 description: "Analyzing the past and future of the tech market in Markets Monday."
 date: 2024-06-10 19:48:41.664143+00:00
 ---

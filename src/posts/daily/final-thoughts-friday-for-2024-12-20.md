@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-12-20"
+permalink: "/archive/final-thoughts-friday-for-2024-12-20/"
 description: "Surprisingly, Second Life is still thriving after all these years!"
 date: 2024-12-21 05:52:15.617395+00:00
 ---

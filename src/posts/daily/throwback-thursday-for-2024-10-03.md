@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-10-03"
+permalink: "/archive/throwback-thursday-for-2024-10-03/"
 description: "Celebrating 21 years of WordPress and its dramatic evolution in the web landscape!"
 date: 2024-10-04 05:07:08.908548+00:00
 ---

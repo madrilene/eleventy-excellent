@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-08-29"
+permalink: "/archive/throwback-thursday-for-2024-08-29/"
 description: "Data center energy crisis has always been looming, exacerbated by modern hyperscale demands and A.I. advancements."
 date: 2024-08-30 03:41:01.281350+00:00
 ---

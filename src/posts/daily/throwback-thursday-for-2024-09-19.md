@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-09-19"
-description: "I'm diving into Google's new passkey management while pondering its reliability and future."
+permalink: "/archive/throwback-thursday-for-2024-09-19/"
+description: "I&#39;m diving into Google&#39;s new passkey management while pondering its reliability and future."
 date: 2024-09-19 20:18:46.564479+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-08-14"
+permalink: "/archive/wacky-wednesday-for-2024-08-14/"
 description: "Dive into the wild world of shared links from online Slack communities every Wednesday."
 date: 2024-08-15 02:14:47.799631+00:00
 ---

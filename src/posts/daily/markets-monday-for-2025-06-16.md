@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-06-16"
+permalink: "/archive/markets-monday-for-2025-06-16/"
 description: "This edition dives into love, rockets, and the excitement of Quantumania!"
 date: 2025-06-17 00:45:32.969010+00:00
 ---

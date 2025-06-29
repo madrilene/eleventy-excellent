@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-06-07"
+permalink: "/archive/sneak-peak-saturday-for-2025-06-07/"
 description: "This edition reflects on the Friday news dump and the art of sneaky news updates."
 date: 2025-06-07 20:19:36.532618+00:00
 ---

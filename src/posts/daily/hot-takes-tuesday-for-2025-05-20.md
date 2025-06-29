@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-05-20"
+permalink: "/archive/hot-takes-tuesday-for-2025-05-20/"
 description: "Exploring bold opinions on AI legislation and its financial implications."
 date: 2025-05-21 02:20:46.186518+00:00
 ---

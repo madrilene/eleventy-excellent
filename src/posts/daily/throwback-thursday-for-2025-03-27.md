@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-03-27"
+permalink: "/archive/throwback-thursday-for-2025-03-27/"
 description: "This week, I explore random number generation and their evolution over time!"
 date: 2025-03-28 03:12:13.081649+00:00
 ---

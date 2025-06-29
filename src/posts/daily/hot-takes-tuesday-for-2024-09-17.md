@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-09-17"
-description: "This week, I'm exploring huge AI funding, Microsoft's costly choices, and the quirks of smartphone tech."
+permalink: "/archive/hot-takes-tuesday-for-2024-09-17/"
+description: "This week, I&#39;m exploring huge AI funding, Microsoft&#39;s costly choices, and the quirks of smartphone tech."
 date: 2024-09-19 05:11:16.879212+00:00
 ---
 

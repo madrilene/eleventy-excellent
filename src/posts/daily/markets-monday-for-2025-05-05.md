@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-05-05"
-description: "This week, I recap market movements with insights from Yahoo Finance's tech sector."
+permalink: "/archive/markets-monday-for-2025-05-05/"
+description: "This week, I recap market movements with insights from Yahoo Finance&#39;s tech sector."
 date: 2025-05-06 04:31:24.882098+00:00
 ---
 

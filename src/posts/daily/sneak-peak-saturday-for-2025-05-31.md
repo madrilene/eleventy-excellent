@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-05-31"
+permalink: "/archive/sneak-peak-saturday-for-2025-05-31/"
 description: "This week’s Friday news dump highlights the frenzy of media before the weekend!"
 date: 2025-05-31 16:12:17.533916+00:00
 ---

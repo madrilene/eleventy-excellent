@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-09-03"
-description: "AI's growing prominence, funding trends, and the future of coding tools are explored in this edition."
+permalink: "/archive/hot-takes-tuesday-for-2024-09-03/"
+description: "AI&#39;s growing prominence, funding trends, and the future of coding tools are explored in this edition."
 date: 2024-09-04 00:17:06.613191+00:00
 ---
 

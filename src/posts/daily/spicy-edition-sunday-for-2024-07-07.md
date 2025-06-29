@@ -1,5 +1,6 @@
 ---
 title: "Spicy Edition Sunday for 2024-07-07"
+permalink: "/archive/spicy-edition-sunday-for-2024-07-07/"
 description: "This edition covers a range of topics from market insights to tech trends and upcoming events."
 date: 2024-07-07 16:00:00+00:00
 ---

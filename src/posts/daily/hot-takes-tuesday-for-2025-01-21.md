@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-01-21"
+permalink: "/archive/hot-takes-tuesday-for-2025-01-21/"
 description: "Here are my latest hot takes on massive AI investments and the pitfalls of exclusivity."
 date: 2025-01-22 06:47:03.307508+00:00
 ---

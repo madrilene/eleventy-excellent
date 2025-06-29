@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2024-09-16"
-description: "This week's edition highlights must-read insights from Greg Meyer on the evolving data operations market."
+permalink: "/archive/markets-monday-for-2024-09-16/"
+description: "This week&#39;s edition highlights must-read insights from Greg Meyer on the evolving data operations market."
 date: 2024-09-17 03:22:22.753903+00:00
 ---
 

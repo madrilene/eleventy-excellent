@@ -1,6 +1,7 @@
 ---
 title: "Throwback Thursday for 2024-07-04"
-description: "Throwback Thursday review of past predictions & news coverage, Micron's enduring tech legacy highlighted."
+permalink: "/archive/throwback-thursday-for-2024-07-04/"
+description: "Throwback Thursday review of past predictions &amp; news coverage, Micron&#39;s enduring tech legacy highlighted."
 date: 2024-07-04 23:17:24.099581+00:00
 ---
 

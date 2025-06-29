@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-04-07"
-description: "In this edition, I analyze Monday's market movements and highlight key tech indicators."
+permalink: "/archive/markets-monday-for-2025-04-07/"
+description: "In this edition, I analyze Monday&#39;s market movements and highlight key tech indicators."
 date: 2025-04-08 00:26:57.196380+00:00
 ---
 

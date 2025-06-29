@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-01-23"
+permalink: "/archive/throwback-thursday-for-2025-01-23/"
 description: "This edition highlights the staggering scale of a recent DDoS attack compared to past incidents."
 date: 2025-01-24 07:37:37.828558+00:00
 ---

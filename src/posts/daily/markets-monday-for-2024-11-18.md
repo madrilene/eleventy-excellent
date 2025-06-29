@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2024-11-18"
-description: "Key tech indicators and a snapshot of today's market movements."
+permalink: "/archive/markets-monday-for-2024-11-18/"
+description: "Key tech indicators and a snapshot of today&#39;s market movements."
 date: 2024-11-19 03:28:23.844338+00:00
 ---
 

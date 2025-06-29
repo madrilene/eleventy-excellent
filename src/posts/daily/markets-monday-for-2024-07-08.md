@@ -1,5 +1,6 @@
 ---
 title: "Markets Monday for 2024-07-08"
+permalink: "/archive/markets-monday-for-2024-07-08/"
 description: "Markets Monday for 2024-07-08 Analyzing the past and future of the tech market in Markets Monday. Last week Looking at the week behind for the tech market. I..."
 date: 2024-07-08 22:08:05.619383+00:00
 ---

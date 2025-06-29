@@ -1,6 +1,7 @@
 ---
 title: "Throwback Thursday for 2024-06-13"
-description: "Throwback Thursday for 2024-06-13 Throwback Thursday will likely become a format based upon Fudge Sunday Weekly newsletter sections for 'Shot and Chaser'...."
+permalink: "/archive/throwback-thursday-for-2024-06-13/"
+description: "Throwback Thursday for 2024-06-13 Throwback Thursday will likely become a format based upon Fudge Sunday Weekly newsletter sections for &#39;Shot and Chaser&#39;...."
 date: 2024-06-13 17:22:22.329555+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 08-11-2024"
+permalink: "/archive/hot-fudge-sunday-for-08-11-2024/"
 description: "Hot tech news, market insights, and wacky finds in one Sunday scoop!"
 date: 2024-08-11 13:09:00+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-03-17"
-description: "This week, I'm diving into the tech sector with my Monday market indicators—get your heat map ready!"
+permalink: "/archive/markets-monday-for-2025-03-17/"
+description: "This week, I&#39;m diving into the tech sector with my Monday market indicators—get your heat map ready!"
 date: 2025-03-18 01:52:13.295743+00:00
 ---
 

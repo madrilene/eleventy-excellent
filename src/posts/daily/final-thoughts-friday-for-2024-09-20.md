@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-09-20"
+permalink: "/archive/final-thoughts-friday-for-2024-09-20/"
 description: "Wrapping up AI Field Day 5 notes while exploring energy solutions for data centers."
 date: 2024-09-21 02:24:07.592976+00:00
 ---

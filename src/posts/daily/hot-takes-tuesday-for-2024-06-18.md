@@ -1,6 +1,7 @@
 ---
 title: "Hot Takes Tuesday for 2024-06-18"
-description: "Tech giants jockey for market cap, trucking goes autonomous, materials science meets AI, and cybersecurity M&A heats up."
+permalink: "/archive/hot-takes-tuesday-for-2024-06-18/"
+description: "Tech giants jockey for market cap, trucking goes autonomous, materials science meets AI, and cybersecurity M&amp;A heats up."
 date: 2024-06-18 18:58:45.992931+00:00
 ---
 

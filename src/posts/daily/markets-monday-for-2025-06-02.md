@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-06-02"
+permalink: "/archive/markets-monday-for-2025-06-02/"
 description: "This week, we shift from spicy to mild in our latest updates!"
 date: 2025-06-03 05:33:27.516596+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-12-13"
-description: "Microsoft's new data center design promises zero water usage—great for reducing AI's thirst!"
+permalink: "/archive/final-thoughts-friday-for-2024-12-13/"
+description: "Microsoft&#39;s new data center design promises zero water usage—great for reducing AI&#39;s thirst!"
 date: 2024-12-14 22:44:52.890278+00:00
 ---
 

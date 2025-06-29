@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-10-16"
-description: "This week's picks feature quirky links, including raccoons galore! 🦝"
+permalink: "/archive/wacky-wednesday-for-2024-10-16/"
+description: "This week&#39;s picks feature quirky links, including raccoons galore! 🦝"
 date: 2024-10-17 02:26:45.586797+00:00
 ---
 

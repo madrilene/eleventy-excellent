@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+permalink: "/archive/hello-world/"
 description: "Get exclusive tech insights, expert analysis, and engage with a vibrant community in Hot Fudge Daily."
 date: 2024-06-02 16:27:48.053197+00:00
 ---

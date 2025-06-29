@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-10-05"
-description: "Caught up in Friday's info frenzy, I spotlight some low-key stories you may have missed!"
+permalink: "/archive/sneak-peak-saturday-for-2024-10-05/"
+description: "Caught up in Friday&#39;s info frenzy, I spotlight some low-key stories you may have missed!"
 date: 2024-10-06 00:32:44.705524+00:00
 ---
 

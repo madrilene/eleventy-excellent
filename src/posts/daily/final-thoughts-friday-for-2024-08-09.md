@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-08-09"
+permalink: "/archive/final-thoughts-friday-for-2024-08-09/"
 description: "Week in review with my upcoming events, my SXSW panel submission, and my re-launch on fudge.org."
 date: 2024-08-10 02:53:11.884899+00:00
 ---

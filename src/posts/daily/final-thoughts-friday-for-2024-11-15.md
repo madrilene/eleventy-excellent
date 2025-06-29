@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-11-15"
-description: "I've been traveling, refining my setup, and exploring tech to ease travel and hybrid work."
+permalink: "/archive/final-thoughts-friday-for-2024-11-15/"
+description: "I&#39;ve been traveling, refining my setup, and exploring tech to ease travel and hybrid work."
 date: 2024-11-16 17:18:30.648707+00:00
 ---
 

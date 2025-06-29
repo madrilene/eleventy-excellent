@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-12-31"
+permalink: "/archive/hot-takes-tuesday-for-2024-12-31/"
 description: "Two hot takes on success, trust, and a strategic business partnership."
 date: 2025-01-01 03:07:07.168685+00:00
 ---

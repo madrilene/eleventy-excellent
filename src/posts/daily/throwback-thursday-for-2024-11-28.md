@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-11-28"
-description: "I'm reflecting on my gratitude for web browsers, from NCSA Mosaic to today's favorites like Chrome."
+permalink: "/archive/throwback-thursday-for-2024-11-28/"
+description: "I&#39;m reflecting on my gratitude for web browsers, from NCSA Mosaic to today&#39;s favorites like Chrome."
 date: 2024-11-29 02:02:54.998029+00:00
 ---
 

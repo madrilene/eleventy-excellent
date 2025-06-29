@@ -1,5 +1,6 @@
 ---
 title: "Sneak Peak Saturday for 2024-07-13"
+permalink: "/archive/sneak-peak-saturday-for-2024-07-13/"
 description: "Sneak Peak Saturday for 2024-07-13 Unveiling overlooked tech news with a sprinkle of satire. Peak 🏔️ vs. Peek 👀 Yes, a play on words. By Friday, everything..."
 date: 2024-07-13 16:32:12.484797+00:00
 ---

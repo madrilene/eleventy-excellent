@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-01-06"
+permalink: "/archive/markets-monday-for-2025-01-06/"
 description: "This edition reviews key stock indicators from Yahoo Finance as we kick off another Market Monday."
 date: 2025-01-07 00:33:08.262787+00:00
 ---

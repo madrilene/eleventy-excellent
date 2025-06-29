@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-12-21"
-description: "Catch the weekend's overlooked news highlights and memes before the deadline rush!"
+permalink: "/archive/sneak-peak-saturday-for-2024-12-21/"
+description: "Catch the weekend&#39;s overlooked news highlights and memes before the deadline rush!"
 date: 2024-12-21 23:19:12.828928+00:00
 ---
 

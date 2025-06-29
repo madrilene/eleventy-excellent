@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-10-25"
+permalink: "/archive/final-thoughts-friday-for-2024-10-25/"
 description: "VCs are increasingly stepping into investment adviser roles."
 date: 2024-10-26 20:01:21.529834+00:00
 ---

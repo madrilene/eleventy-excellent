@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-05-29"
+permalink: "/archive/throwback-thursday-for-2025-05-29/"
 description: "Chalk AI scored a Series A just 18 months post-seed, aiming to innovate beyond Snowflake and Databricks!"
 date: 2025-05-29 23:08:58.795173+00:00
 ---

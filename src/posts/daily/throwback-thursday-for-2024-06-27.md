@@ -1,5 +1,6 @@
 ---
 title: "Throwback Thursday for 2024-06-27"
+permalink: "/archive/throwback-thursday-for-2024-06-27/"
 description: "Throwback Thursday Edition: Reflecting on past predictions and news coverage to see how they panned out."
 date: 2024-06-27 18:56:47.684164+00:00
 ---

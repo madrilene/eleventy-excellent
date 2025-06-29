@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-09-22"
-description: "This week's edition dives into market insights, AI funding, and Google's new passkey management!"
+permalink: "/archive/hot-fudge-sunday-for-2024-09-22/"
+description: "This week&#39;s edition dives into market insights, AI funding, and Google&#39;s new passkey management!"
 date: 2024-09-22 19:04:05+00:00
 ---
 

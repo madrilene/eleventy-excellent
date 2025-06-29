@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-03-21"
-description: "I'm intrigued by Apple's efforts to revamp Siri for a more useful future after 15 years."
+permalink: "/archive/final-thoughts-friday-for-2025-03-21/"
+description: "I&#39;m intrigued by Apple&#39;s efforts to revamp Siri for a more useful future after 15 years."
 date: 2025-03-23 23:14:04.708711+00:00
 ---
 

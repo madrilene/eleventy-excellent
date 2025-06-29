@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-04-08"
+permalink: "/archive/hot-takes-tuesday-for-2025-04-08/"
 description: "Funding insights: Tailscale impresses as a VPN exception amid a tricky drone warfare landscape."
 date: 2025-04-09 04:03:29.571006+00:00
 ---

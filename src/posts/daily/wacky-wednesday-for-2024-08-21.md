@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-08-21"
+permalink: "/archive/wacky-wednesday-for-2024-08-21/"
 description: "A curated list of interesting links from various Slack communities, including history of male witches, European cooking, and acid generator."
 date: 2024-08-22 05:04:05.964191+00:00
 ---

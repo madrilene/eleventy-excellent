@@ -1,5 +1,6 @@
 ---
 title: "Final Thoughts Friday for 2024-07-12"
+permalink: "/archive/final-thoughts-friday-for-2024-07-12/"
 description: "Recapping the week, navigating coffee meetups, and planning future events while updating websites and experimenting with social platforms."
 date: 2024-07-12 19:51:46.572624+00:00
 ---

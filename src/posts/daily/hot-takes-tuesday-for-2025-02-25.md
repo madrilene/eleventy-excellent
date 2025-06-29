@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-02-25"
+permalink: "/archive/hot-takes-tuesday-for-2025-02-25/"
 description: "Celebrating rural ISPs while urging big telecoms to focus on innovative strategies over lawsuits."
 date: 2025-02-26 03:06:18.026897+00:00
 ---

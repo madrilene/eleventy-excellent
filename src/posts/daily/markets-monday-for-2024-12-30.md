@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2024-12-30"
+permalink: "/archive/markets-monday-for-2024-12-30/"
 description: "This week’s Market Monday focuses on key indicators from Yahoo Finance and a spicy stock recap."
 date: 2024-12-31 03:54:00.705605+00:00
 ---

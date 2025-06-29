@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-10-22"
+permalink: "/archive/hot-takes-tuesday-for-2024-10-22/"
 description: "Exploring how AI could transform farming diversity and accelerate cancer treatment innovations!"
 date: 2024-10-23 04:07:24.755910+00:00
 ---

@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-05-27"
+permalink: "/archive/hot-takes-tuesday-for-2025-05-27/"
 description: "Tech stocks shifted post-Memorial Day, highlighted by two long-awaited acquisitions."
 date: 2025-05-28 02:47:02.160676+00:00
 ---

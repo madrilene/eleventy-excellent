@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-08-23"
+permalink: "/archive/final-thoughts-friday-for-2024-08-23/"
 description: "Tech events, thankfulness, and big tech stories covered in this edition."
 date: 2024-08-24 00:20:22.592482+00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-05-11"
-description: "I'm gearing up for Qlik Connect and offering readers a meaty 🥩 webinar on 
-🔐 💸 cybersecurity insurance trends!"
+permalink: "/archive/hot-fudge-sunday-for-2025-05-11/"
+description: "I&#39;m gearing up for Qlik Connect and offering readers a meaty 🥩 webinar on  🔐 💸 cybersecurity insurance trends!"
 date: 2025-05-11 17:45:10+00:00
 ---
 

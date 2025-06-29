@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-02-06"
+permalink: "/archive/throwback-thursday-for-2025-02-06/"
 description: "Throwback to January 2025: the costly drama of distillation vs. hyperscale AI models!"
 date: 2025-02-08 03:26:27.128380+00:00
 ---

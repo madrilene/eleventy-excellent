@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-02-24"
-description: "This edition recaps market insights using Yahoo Finance's stock screener for tech trends."
+permalink: "/archive/markets-monday-for-2025-02-24/"
+description: "This edition recaps market insights using Yahoo Finance&#39;s stock screener for tech trends."
 date: 2025-02-25 03:15:45.740710+00:00
 ---
 

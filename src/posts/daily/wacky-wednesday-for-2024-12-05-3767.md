@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-12-11"
+permalink: "/archive/wacky-wednesday-for-2024-12-05-3767/"
 description: "This week’s email highlights the most intriguing links I found in Slack communities!"
 date: 2024-12-12 04:42:42.343557+00:00
 ---

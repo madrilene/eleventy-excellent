@@ -1,6 +1,7 @@
 ---
 title: "Hot Takes Tuesday for 2024-06-25"
-description: "AI dominates tech funding and M&A moves, shaping a future of bioengineered indicators and internal data mastery."
+permalink: "/archive/hot-takes-tuesday-for-2024-06-25/"
+description: "AI dominates tech funding and M&amp;A moves, shaping a future of bioengineered indicators and internal data mastery."
 date: 2024-06-25 20:42:49.935358+00:00
 ---
 

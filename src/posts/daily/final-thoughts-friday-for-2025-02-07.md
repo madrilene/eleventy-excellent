@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-02-07"
+permalink: "/archive/final-thoughts-friday-for-2025-02-07/"
 description: "This week was all about hot headlines regarding disclosure and due diligence controversies."
 date: 2025-02-08 23:17:24.789943+00:00
 ---

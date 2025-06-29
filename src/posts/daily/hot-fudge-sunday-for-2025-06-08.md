@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-06-08"
-description: "NexusTek's launch on Azure Marketplace and exclusive NYC events highlight this week's updates!"
+permalink: "/archive/hot-fudge-sunday-for-2025-06-08/"
+description: "NexusTek&#39;s launch on Azure Marketplace and exclusive NYC events highlight this week&#39;s updates!"
 date: 2025-06-08 20:21:59+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-01-02"
+permalink: "/archive/throwback-thursday-for-2025-01-02/"
 description: "Reflecting on my telecom career, I explore the evolution of broadband and the ongoing digital divide."
 date: 2025-01-03 05:07:29.577081+00:00
 ---

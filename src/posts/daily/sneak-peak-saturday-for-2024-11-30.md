@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-11-30"
-description: "Amid Friday's frenzy, discover the hidden gems you might have missed in slow news!"
+permalink: "/archive/sneak-peak-saturday-for-2024-11-30/"
+description: "Amid Friday&#39;s frenzy, discover the hidden gems you might have missed in slow news!"
 date: 2024-11-30 23:06:32.440267+00:00
 ---
 

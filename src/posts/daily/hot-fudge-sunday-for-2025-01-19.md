@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-01-19"
+permalink: "/archive/hot-fudge-sunday-for-2025-01-19/"
 description: "This edition spotlights professionals eager for new opportunities—connect and collaborate!"
 date: 2025-01-19 19:30:00+00:00
 ---

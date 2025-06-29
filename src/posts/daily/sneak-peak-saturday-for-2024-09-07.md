@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-09-07"
-description: "Caught in the Friday rush, here are the stories you might've missed amidst the peak news frenzy!"
+permalink: "/archive/sneak-peak-saturday-for-2024-09-07/"
+description: "Caught in the Friday rush, here are the stories you might&#39;ve missed amidst the peak news frenzy!"
 date: 2024-09-07 19:09:22.376093+00:00
 ---
 

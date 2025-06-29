@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-02-17"
-description: "I'm analyzing market trends using Yahoo Finance data for Technology stocks this week."
+permalink: "/archive/markets-monday-for-2025-02-17/"
+description: "I&#39;m analyzing market trends using Yahoo Finance data for Technology stocks this week."
 date: 2025-02-18 03:58:36.261514+00:00
 ---
 

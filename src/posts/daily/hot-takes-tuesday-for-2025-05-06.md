@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-05-06"
-description: "Exploring AI's impact on law, the eternal mystery of code, and quantumania!"
+permalink: "/archive/hot-takes-tuesday-for-2025-05-06/"
+description: "Exploring AI&#39;s impact on law, the eternal mystery of code, and quantumania!"
 date: 2025-05-07 03:06:09.731059+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-03-06"
+permalink: "/archive/throwback-thursday-for-2025-03-06/"
 description: "This edition highlights McDonald’s tech evolution, from mobile ordering to predictive analytics."
 date: 2025-03-08 04:57:39.672696+00:00
 ---

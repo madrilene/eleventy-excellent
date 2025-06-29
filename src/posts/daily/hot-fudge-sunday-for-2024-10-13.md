@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-10-13"
+permalink: "/archive/hot-fudge-sunday-for-2024-10-13/"
 description: "Just back from NYC, celebrating my consultancy growth and sharing great moments from the trip!"
 date: 2024-10-13 16:25:00+00:00
 ---

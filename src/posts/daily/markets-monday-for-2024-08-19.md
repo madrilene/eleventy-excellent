@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2024-08-19"
+permalink: "/archive/markets-monday-for-2024-08-19/"
 description: "Analyzing past and future tech market trends in Markets Monday newsletter."
 date: 2024-08-24 17:55:37.255263+00:00
 ---

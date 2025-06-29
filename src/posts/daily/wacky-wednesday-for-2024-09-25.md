@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-09-25"
-description: "This week's highlights include lab-grown diamonds and caffeinated ramen!"
+permalink: "/archive/wacky-wednesday-for-2024-09-25/"
+description: "This week&#39;s highlights include lab-grown diamonds and caffeinated ramen!"
 date: 2024-09-25 23:16:11.301087+00:00
 ---
 

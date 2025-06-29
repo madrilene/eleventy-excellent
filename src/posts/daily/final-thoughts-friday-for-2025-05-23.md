@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-05-23"
-description: "Waymo hits 10M paid rides, but it's just a small fraction compared to the gig economy giants!"
+permalink: "/archive/final-thoughts-friday-for-2025-05-23/"
+description: "Waymo hits 10M paid rides, but it&#39;s just a small fraction compared to the gig economy giants!"
 date: 2025-05-25 07:05:27.495379+00:00
 ---
 

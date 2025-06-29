@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-02-11"
+permalink: "/archive/hot-takes-tuesday-for-2025-02-11/"
 description: "Exploring the resurgence of chip manufacturing in the US amid tariff challenges and tech ambitions."
 date: 2025-02-12 02:56:35.658804+00:00
 ---

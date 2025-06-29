@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-11-26"
+permalink: "/archive/hot-takes-tuesday-for-2024-11-26/"
 description: "I highlight two exciting funding rounds for Cradle and Halcyon, plus a thought-provoking Bluesky thread."
 date: 2024-11-27 01:23:13.017164+00:00
 ---

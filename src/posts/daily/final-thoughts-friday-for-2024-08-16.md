@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-08-16"
+permalink: "/archive/final-thoughts-friday-for-2024-08-16/"
 description: "Four upcoming events, SXSW panel, tech news highlights, and personal updates."
 date: 2024-08-16 20:24:02.885311+00:00
 ---

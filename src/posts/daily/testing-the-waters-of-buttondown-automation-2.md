@@ -1,5 +1,6 @@
 ---
 title: "Testing the waters of Buttondown Automation #2"
+permalink: "/archive/testing-the-waters-of-buttondown-automation-2/"
 description: "Exploring new automation features and potential syndication in this edition!"
 date: 2024-08-02 23:03:35.068372+00:00
 ---

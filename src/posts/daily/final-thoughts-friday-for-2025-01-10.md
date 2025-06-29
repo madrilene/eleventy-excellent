@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-01-10"
+permalink: "/archive/final-thoughts-friday-for-2025-01-10/"
 description: "This week, I explored the implications of drones on wheels and the rise of software-defined vehicles."
 date: 2025-01-11 22:25:50.729140+00:00
 ---

@@ -1,5 +1,6 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-07-27"
+permalink: "/archive/sneak-peak-saturday-for-2024-07-27/"
 description: "🏖️ We’re taking a break this week for the summer 🏖️"
 date: 2024-07-27 11:10:21+00:00
 ---

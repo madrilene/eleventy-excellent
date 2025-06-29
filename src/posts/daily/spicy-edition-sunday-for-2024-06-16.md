@@ -1,6 +1,7 @@
 ---
 title: "Spicy Edition Sunday for 2024-06-16"
-description: "Uncover spicy inspiration and tech updates in this week's Fudge Sunday edition! 🔥"
+permalink: "/archive/spicy-edition-sunday-for-2024-06-16/"
+description: "Uncover spicy inspiration and tech updates in this week&#39;s Fudge Sunday edition! 🔥"
 date: 2024-06-16 18:33:50.273802+00:00
 ---
 

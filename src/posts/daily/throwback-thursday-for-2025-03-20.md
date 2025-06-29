@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2025-03-20"
-description: "This edition dives into the fallout when a CEO's words cost billions and the eventual recovery."
+permalink: "/archive/throwback-thursday-for-2025-03-20/"
+description: "This edition dives into the fallout when a CEO&#39;s words cost billions and the eventual recovery."
 date: 2025-03-23 23:03:25.388344+00:00
 ---
 

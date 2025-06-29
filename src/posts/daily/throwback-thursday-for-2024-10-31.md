@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-10-31"
+permalink: "/archive/throwback-thursday-for-2024-10-31/"
 description: "Reflecting on the rise and fall of short URLs and QR codes since 2010."
 date: 2024-11-02 02:40:17.039101+00:00
 ---

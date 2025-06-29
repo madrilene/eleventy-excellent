@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-11-22"
+permalink: "/archive/final-thoughts-friday-for-2024-11-22/"
 description: "I celebrated my new role at NexusTek on LinkedIn and shared my tech news highlights for the week."
 date: 2024-11-23 16:05:26.291673+00:00
 ---

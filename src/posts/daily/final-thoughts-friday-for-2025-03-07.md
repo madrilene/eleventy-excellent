@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-03-07"
-description: "Apple's AI Siri faces more delays, raising concerns about its quality and future."
+permalink: "/archive/final-thoughts-friday-for-2025-03-07/"
+description: "Apple&#39;s AI Siri faces more delays, raising concerns about its quality and future."
 date: 2025-03-09 04:35:32.031272+00:00
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-01-27"
+permalink: "/archive/markets-monday-for-2025-01-27/"
 description: "This edition reviews key market indicators and highlights a Yahoo Finance heat map for tech stocks."
 date: 2025-01-28 04:08:34.268233+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-06-01"
-description: "This week's digest covers market movements post-Memorial Day and exciting new tech acquisitions."
+permalink: "/archive/hot-fudge-sunday-for-2025-06-01/"
+description: "This week&#39;s digest covers market movements post-Memorial Day and exciting new tech acquisitions."
 date: 2025-06-01 20:27:45+00:00
 ---
 

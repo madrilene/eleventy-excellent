@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-03-24"
-description: "This week's Market Monday dives into tech stock trends via Yahoo Finance's key indicators."
+permalink: "/archive/markets-monday-for-2025-03-24/"
+description: "This week&#39;s Market Monday dives into tech stock trends via Yahoo Finance&#39;s key indicators."
 date: 2025-03-25 01:42:39.976602+00:00
 ---
 

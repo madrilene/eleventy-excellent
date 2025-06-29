@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-01-13"
+permalink: "/archive/markets-monday-for-2025-01-13/"
 description: "This week’s Market Monday highlights a calm return as I analyze key tech indicators from Yahoo Finance."
 date: 2025-01-14 03:41:00.198263+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-10-27"
-description: "This week's Hot Fudge covers market insights, AI in farming, and quirky stories from the web."
+permalink: "/archive/hot-fudge-sunday-for-2024-10-27/"
+description: "This week&#39;s Hot Fudge covers market insights, AI in farming, and quirky stories from the web."
 date: 2024-10-27 20:20:00+00:00
 ---
 

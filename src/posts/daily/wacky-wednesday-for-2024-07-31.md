@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-07-31"
+permalink: "/archive/wacky-wednesday-for-2024-07-31/"
 description: "🏖️ We’re taking a break this week for the summer 🏖️"
 date: 2024-07-31 22:08:50.729833+00:00
 ---

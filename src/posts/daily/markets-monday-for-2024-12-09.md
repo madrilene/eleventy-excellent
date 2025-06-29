@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2024-12-09"
-description: "This week's market recap highlights fewer green stocks in tech than last week."
+permalink: "/archive/markets-monday-for-2024-12-09/"
+description: "This week&#39;s market recap highlights fewer green stocks in tech than last week."
 date: 2024-12-10 03:09:57.308425+00:00
 ---
 

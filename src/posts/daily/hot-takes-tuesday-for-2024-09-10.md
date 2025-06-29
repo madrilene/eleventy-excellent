@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-09-10"
+permalink: "/archive/hot-takes-tuesday-for-2024-09-10/"
 description: "This week, big funding numbers hint at exciting shifts in AI and tech investments."
 date: 2024-09-11 05:40:20.216970+00:00
 ---

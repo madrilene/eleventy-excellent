@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-10-01"
+permalink: "/archive/hot-takes-tuesday-for-2024-10-01/"
 description: "Sharing my hot takes on two intriguing investment stories that caught my eye this week!"
 date: 2024-10-01 23:38:28.784976+00:00
 ---

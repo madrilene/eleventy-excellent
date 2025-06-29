@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-03-04"
-description: "Here's my take on the rise of vertical M&A and the new normal of AI funding."
+permalink: "/archive/hot-takes-tuesday-for-2025-03-04/"
+description: "Here&#39;s my take on the rise of vertical M&amp;A and the new normal of AI funding."
 date: 2025-03-05 23:21:07.298394+00:00
 ---
 

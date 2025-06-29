@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-04-15"
+permalink: "/archive/hot-takes-tuesday-for-2025-04-15/"
 description: "Exploring funding insights: AI safety gains traction, but big cloud bills loom."
 date: 2025-04-16 04:34:25.021265+00:00
 ---

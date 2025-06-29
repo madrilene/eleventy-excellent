@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-08-13"
+permalink: "/archive/hot-takes-tuesday-for-2024-08-13/"
 description: "Quick take on SXSW PanelPicker and startup funding trends."
 date: 2024-08-13 14:28:50.320562+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2024-11-11"
-description: "This week's Market Monday highlights major stock milestones as the Dow hits 44K and S&P 500 reaches 6K."
+permalink: "/archive/markets-monday-for-2024-11-11/"
+description: "This week&#39;s Market Monday highlights major stock milestones as the Dow hits 44K and S&amp;P 500 reaches 6K."
 date: 2024-11-13 04:06:48.531822+00:00
 ---
 

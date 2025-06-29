@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-09-08"
+permalink: "/archive/hot-fudge-sunday-for-2024-09-08/"
 description: "This edition dives into tech market insights and fascinating throwbacks!"
 date: 2024-09-08 15:50:00+00:00
 ---

@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2025-04-14"
+permalink: "/archive/markets-monday-for-2025-04-14/"
 description: "This edition reviews key market indicators and highlights significant technology stocks for the week."
 date: 2025-04-15 04:16:51.016077+00:00
 ---

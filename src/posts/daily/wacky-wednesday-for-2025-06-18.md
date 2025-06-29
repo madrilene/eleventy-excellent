@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2025-06-18"
-description: "This week’s highlight is a safe-for-work link from Honda's 2025 🚀 updates."
+permalink: "/archive/wacky-wednesday-for-2025-06-18/"
+description: "This week’s highlight is a safe-for-work link from Honda&#39;s 2025 🚀 updates."
 date: 2025-06-18 23:31:47.318176+00:00
 ---
 

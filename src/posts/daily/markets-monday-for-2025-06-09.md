@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-06-09"
-description: "This week, I'm diving into a spicier mix of love and rockets!"
+permalink: "/archive/markets-monday-for-2025-06-09/"
+description: "This week, I&#39;m diving into a spicier mix of love and rockets!"
 date: 2025-06-10 02:06:53.327172+00:00
 ---
 

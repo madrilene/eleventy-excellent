@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-07-30"
+permalink: "/archive/hot-takes-tuesday-for-2024-07-30/"
 description: "🏖️ We’re taking a break this week for the summer 🏖️"
 date: 2024-07-31 03:10:09.057968+00:00
 ---

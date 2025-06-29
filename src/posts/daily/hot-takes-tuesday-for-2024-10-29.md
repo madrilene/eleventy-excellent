@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-10-29"
+permalink: "/archive/hot-takes-tuesday-for-2024-10-29/"
 description: "This edition features my thoughts on two intriguing tech valuations and their potential implications."
 date: 2024-10-30 05:17:05.515967+00:00
 ---

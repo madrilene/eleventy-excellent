@@ -1,6 +1,7 @@
 ---
 title: "📈 Markets Monday for 2025-05-19"
-description: "This edition highlights my weekly market analysis using Yahoo Finance's key indicators."
+permalink: "/archive/markets-monday-for-2025-05-19/"
+description: "This edition highlights my weekly market analysis using Yahoo Finance&#39;s key indicators."
 date: 2025-05-20 03:27:17.310758+00:00
 ---
 

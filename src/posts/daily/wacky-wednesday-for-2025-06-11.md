@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2025-06-11"
-description: "Every Wednesday, I share a safe-for-work link from Slack communities; this week's is about novelty glasses!"
+permalink: "/archive/wacky-wednesday-for-2025-06-11/"
+description: "Every Wednesday, I share a safe-for-work link from Slack communities; this week&#39;s is about novelty glasses!"
 date: 2025-06-12 01:49:47+00:00
 ---
 

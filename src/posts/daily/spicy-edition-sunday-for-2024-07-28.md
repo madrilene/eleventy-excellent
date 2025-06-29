@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Spicy Edition Sunday for 2024-07-28"
+permalink: "/archive/spicy-edition-sunday-for-2024-07-28/"
 description: "🏖️ We’re taking a break this week for the summer 🏖️"
 date: 2024-07-28 10:14:14+00:00
 ---

@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-03-13"
+permalink: "/archive/throwback-thursday-for-2025-03-13/"
 description: "This edition explores a groundbreaking translator ear device that could redefine communication!"
 date: 2025-03-13 23:25:26.730410+00:00
 ---

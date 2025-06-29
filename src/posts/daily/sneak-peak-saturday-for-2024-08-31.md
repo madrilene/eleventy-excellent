@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-08-31"
-description: "Friday's edition covers missed news items with a touch of peak patronizing publishing."
+permalink: "/archive/sneak-peak-saturday-for-2024-08-31/"
+description: "Friday&#39;s edition covers missed news items with a touch of peak patronizing publishing."
 date: 2024-08-31 21:17:35.999956+00:00
 ---
 

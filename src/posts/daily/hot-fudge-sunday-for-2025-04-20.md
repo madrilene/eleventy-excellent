@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-04-20"
-description: "I'm spotlighting alumni successes in my network and sharing insights from AI Infrastructure Field Day!"
+permalink: "/archive/hot-fudge-sunday-for-2025-04-20/"
+description: "I&#39;m spotlighting alumni successes in my network and sharing insights from AI Infrastructure Field Day!"
 date: 2025-04-21 00:30:00+00:00
 ---
 

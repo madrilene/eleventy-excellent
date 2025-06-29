@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-11-23"
-description: "This week, I'm highlighting under-the-radar stories that often slip through Friday's news crack."
+permalink: "/archive/sneak-peak-saturday-for-2024-11-23/"
+description: "This week, I&#39;m highlighting under-the-radar stories that often slip through Friday&#39;s news crack."
 date: 2024-11-23 16:07:59.254878+00:00
 ---
 

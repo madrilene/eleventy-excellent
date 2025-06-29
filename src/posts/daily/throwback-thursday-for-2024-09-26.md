@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-09-26"
-description: "Reflecting on how iOS and webOS evolved from the iPhone 3GS and Palm Pre's launch 15 years ago."
+permalink: "/archive/throwback-thursday-for-2024-09-26/"
+description: "Reflecting on how iOS and webOS evolved from the iPhone 3GS and Palm Pre&#39;s launch 15 years ago."
 date: 2024-09-27 03:58:32.418092+00:00
 ---
 

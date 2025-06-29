@@ -1,6 +1,7 @@
 ---
 title: "🔙 Throwback Thursday for 2024-10-24"
-description: "The Raspberry Pi's evolution is impressive!"
+permalink: "/archive/throwback-thursday-for-2024-10-24/"
+description: "The Raspberry Pi&#39;s evolution is impressive!"
 date: 2024-10-26 05:58:40.136275+00:00
 ---
 

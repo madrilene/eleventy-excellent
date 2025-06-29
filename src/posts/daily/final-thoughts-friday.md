@@ -1,5 +1,6 @@
 ---
 title: "Final Thoughts Friday"
+permalink: "/archive/final-thoughts-friday/"
 description: "Looking back at the week with an eye to the future"
 date: 2024-06-07 22:24:46.226198+00:00
 ---

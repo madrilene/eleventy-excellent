@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-05-25"
-description: "I'm simplifying the newsletter format based on reader feedback while covering key market insights and career updates."
+permalink: "/archive/hot-fudge-sunday-for-2025-05-25/"
+description: "I&#39;m simplifying the newsletter format based on reader feedback while covering key market insights and career updates."
 date: 2025-05-26 15:33:24.702951+00:00
 ---
 

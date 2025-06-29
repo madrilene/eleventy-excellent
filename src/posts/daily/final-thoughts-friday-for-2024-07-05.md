@@ -1,5 +1,6 @@
 ---
 title: "Final Thoughts Friday for 2024-07-05"
+permalink: "/archive/final-thoughts-friday-for-2024-07-05/"
 description: "Final Thoughts Friday for 2024-07-05 Looking back at the week with an eye to the future. For July, I am having a weekly coffee meetup and have decided to go..."
 date: 2024-07-05 14:52:33.300964+00:00
 ---

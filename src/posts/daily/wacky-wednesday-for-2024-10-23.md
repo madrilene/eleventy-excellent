@@ -1,6 +1,7 @@
 ---
 title: "🤪 Wacky Wednesday for 2024-10-23"
-description: "This week's roundup features intriguing links from various Slack communities, safe for work!"
+permalink: "/archive/wacky-wednesday-for-2024-10-23/"
+description: "This week&#39;s roundup features intriguing links from various Slack communities, safe for work!"
 date: 2024-10-25 00:10:34.581908+00:00
 ---
 

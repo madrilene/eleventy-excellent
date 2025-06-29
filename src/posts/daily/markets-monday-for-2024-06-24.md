@@ -1,5 +1,6 @@
 ---
 title: "Markets Monday for 2024-06-24"
+permalink: "/archive/markets-monday-for-2024-06-24/"
 description: "Tech market analysis with Siri, Yahoo Finance heat maps, and filtering tips for better stock screener results."
 date: 2024-06-24 21:55:30.363799+00:00
 ---

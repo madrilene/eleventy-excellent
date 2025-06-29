@@ -1,5 +1,6 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2025-03-25"
+permalink: "/archive/hot-takes-tuesday-for-2025-03-25/"
 description: "Exploring futuristic hybrid cloud scenarios tied to geographical data sovereignty."
 date: 2025-03-26 02:29:47.647466+00:00
 ---

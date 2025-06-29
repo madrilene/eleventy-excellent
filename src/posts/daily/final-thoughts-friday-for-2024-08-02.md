@@ -1,5 +1,6 @@
 ---
 title: "✅ Final Thoughts Friday for 2024-08-02"
+permalink: "/archive/final-thoughts-friday-for-2024-08-02/"
 description: "🏖️ We’re taking a break this week for the summer 🏖️"
 date: 2024-08-02 14:04:34.046358+00:00
 ---

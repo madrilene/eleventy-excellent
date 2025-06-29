@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-10-20"
+permalink: "/archive/hot-fudge-sunday-for-2024-10-20/"
 description: "I’m sharing updates on market trends, AI investments, and the rise of small modular reactors!"
 date: 2024-10-20 16:20:00+00:00
 ---

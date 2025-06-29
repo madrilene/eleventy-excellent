@@ -1,6 +1,7 @@
 ---
 title: "🔥 Hot Takes Tuesday for 2024-07-16"
-description: "Tech funding and M&A trends in AI, cybersecurity, and GenAI discussed with a touch of humor."
+permalink: "/archive/hot-takes-tuesday-for-2024-07-16/"
+description: "Tech funding and M&amp;A trends in AI, cybersecurity, and GenAI discussed with a touch of humor."
 date: 2024-07-17 03:25:05.142725+00:00
 ---
 

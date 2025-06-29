@@ -1,5 +1,6 @@
 ---
 title: "📈 Markets Monday for 2024-10-14"
+permalink: "/archive/markets-monday-for-2024-10-14/"
 description: "I discuss the rise of small modular reactors and recap key market indicators from Yahoo Finance."
 date: 2024-10-14 21:22:49.923456+00:00
 ---

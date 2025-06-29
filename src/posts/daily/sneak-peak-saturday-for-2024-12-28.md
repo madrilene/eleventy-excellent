@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-12-28"
-description: "Just a roundup of Friday's overlooked stories amid the weekend's media rush!"
+permalink: "/archive/sneak-peak-saturday-for-2024-12-28/"
+description: "Just a roundup of Friday&#39;s overlooked stories amid the weekend&#39;s media rush!"
 date: 2024-12-28 18:53:50.245132+00:00
 ---
 

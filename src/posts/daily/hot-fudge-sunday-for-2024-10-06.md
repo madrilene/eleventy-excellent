@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-10-06"
-description: "This week's digest covers market insights, tech funding, and quirky links from the web."
+permalink: "/archive/hot-fudge-sunday-for-2024-10-06/"
+description: "This week&#39;s digest covers market insights, tech funding, and quirky links from the web."
 date: 2024-10-06 16:30:00+00:00
 ---
 

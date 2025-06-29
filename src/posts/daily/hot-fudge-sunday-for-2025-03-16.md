@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-03-16"
-description: "This week's edition covers my workflow updates and highlights #OpenToWork professionals in my network."
+permalink: "/archive/hot-fudge-sunday-for-2025-03-16/"
+description: "This week&#39;s edition covers my workflow updates and highlights #OpenToWork professionals in my network."
 date: 2025-03-17 00:00:00+00:00
 ---
 

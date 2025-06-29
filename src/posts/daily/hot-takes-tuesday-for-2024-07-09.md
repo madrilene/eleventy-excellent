@@ -1,5 +1,6 @@
 ---
 title: "Hot Takes Tuesday for 2024-07-09"
+permalink: "/archive/hot-takes-tuesday-for-2024-07-09/"
 description: "Tech industry funding trends, gaming growth, robot overlords, and unique VC firm connections."
 date: 2024-07-10 00:56:51.192962+00:00
 ---

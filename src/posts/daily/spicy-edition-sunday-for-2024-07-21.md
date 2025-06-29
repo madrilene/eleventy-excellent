@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Spicy Edition Sunday for 2024-07-21"
+permalink: "/archive/spicy-edition-sunday-for-2024-07-21/"
 description: "Discover spicy insights on technology, news, and market trends in this edition of Fudge Sunday 🔥."
 date: 2024-07-21 13:37:10.225034+00:00
 ---

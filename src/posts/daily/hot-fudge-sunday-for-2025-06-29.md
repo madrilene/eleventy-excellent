@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-06-29"
-description: "Vacation edition update - I'm moving all hot.fudge.org content to fudge.org using Buttondown and python"
+permalink: "/archive/hot-fudge-sunday-for-2025-06-29/"
+description: "Vacation edition update - I&#39;m moving all hot.fudge.org content to fudge.org using Buttondown and python"
 date: 2025-06-29 13:00:00+00:00
 ---
 

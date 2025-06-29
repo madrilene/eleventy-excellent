@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-01-31"
-description: "This week, I explored the ups and downs of the AI boom's supremacy claims."
+permalink: "/archive/final-thoughts-friday-for-2025-01-31/"
+description: "This week, I explored the ups and downs of the AI boom&#39;s supremacy claims."
 date: 2025-02-02 00:10:16.135349+00:00
 ---
 

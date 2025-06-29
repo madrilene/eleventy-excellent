@@ -1,5 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2024-12-22"
+permalink: "/archive/hot-fudge-sunday-for-2024-12-22/"
 description: "This edition celebrates our new sponsor, NexusTek, sharing who is #opentowork, and exploring hot market trends!"
 date: 2024-12-22 23:30:00+00:00
 ---

@@ -1,6 +1,7 @@
 ---
 title: "✅ Final Thoughts Friday for 2025-05-30"
-description: "Exploring the stark divide between mundane task completion and AI's looming threat to employment."
+permalink: "/archive/final-thoughts-friday-for-2025-05-30/"
+description: "Exploring the stark divide between mundane task completion and AI&#39;s looming threat to employment."
 date: 2025-05-31 04:15:11.895040+00:00
 ---
 

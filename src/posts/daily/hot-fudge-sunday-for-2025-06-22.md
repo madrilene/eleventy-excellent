@@ -1,6 +1,7 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-06-22"
-description: "NexusTek wins two Pax8 awards, and I'm gearing up for my first vacation since 2024!"
+permalink: "/archive/hot-fudge-sunday-for-2025-06-22/"
+description: "NexusTek wins two Pax8 awards, and I&#39;m gearing up for my first vacation since 2024!"
 date: 2025-06-22 15:00:00+00:00
 ---
 

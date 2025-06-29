@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-01-25"
-description: "Amid Friday's frantic deadlines, catch up on the week’s overlooked news gems and memes!"
+permalink: "/archive/sneak-peak-saturday-for-2025-01-25/"
+description: "Amid Friday&#39;s frantic deadlines, catch up on the week’s overlooked news gems and memes!"
 date: 2025-01-25 17:06:35.239948+00:00
 ---
 

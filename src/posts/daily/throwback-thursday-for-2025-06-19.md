@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2025-06-19"
+permalink: "/archive/throwback-thursday-for-2025-06-19/"
 description: "Eutelsat is stepping up in the LEO broadband race alongside Project Kuiper!"
 date: 2025-06-20 01:44:41.213996+00:00
 ---

@@ -1,5 +1,6 @@
 ---
 title: "🔙 Throwback Thursday for 2024-07-18"
+permalink: "/archive/throwback-thursday-for-2024-07-18/"
 description: "Throwback Thursday covers past predictions and news coverage, highlighting the evolution of a cybersecurity success story."
 date: 2024-07-18 21:06:13.677225+00:00
 ---

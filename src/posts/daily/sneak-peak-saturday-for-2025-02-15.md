@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2025-02-15"
-description: "Friday brings peak news hustle, but don't miss these sneaky stories you might have overlooked!"
+permalink: "/archive/sneak-peak-saturday-for-2025-02-15/"
+description: "Friday brings peak news hustle, but don&#39;t miss these sneaky stories you might have overlooked!"
 date: 2025-02-16 03:25:57.744378+00:00
 ---
 

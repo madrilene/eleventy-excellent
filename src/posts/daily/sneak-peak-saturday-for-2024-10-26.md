@@ -1,6 +1,7 @@
 ---
 title: "🔮 Sneak Peak Saturday for 2024-10-26"
-description: "Fridays bring both a news peak and sneaky updates you won't want to miss!"
+permalink: "/archive/sneak-peak-saturday-for-2024-10-26/"
+description: "Fridays bring both a news peak and sneaky updates you won&#39;t want to miss!"
 date: 2024-10-26 20:08:49.111253+00:00
 ---
 

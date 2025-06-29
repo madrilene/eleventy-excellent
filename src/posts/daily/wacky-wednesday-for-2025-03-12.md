@@ -1,5 +1,6 @@
 ---
 title: "🤪 Wacky Wednesday for 2025-03-12"
+permalink: "/archive/wacky-wednesday-for-2025-03-12/"
 description: "This week, I’m sharing quirky links from Slack, including a Pokémon Cheeto and unique art insights!"
 date: 2025-03-13 00:58:41.358109+00:00
 ---
