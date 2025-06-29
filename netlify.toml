@@ -14,11 +14,10 @@ package = "netlify-plugin-cache"
     Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
 
 [[redirects]]
-  from = "/*"
-  to = "https://fudge.org/:splat"
-  status = 301
-  force = true
-  conditions = {Host = "hot.fudge.org"}
+    from = "https://hot.fudge.org/*"
+    to = "https://fudge.org/:splat"
+    status = 301
+    force = true
 
 [build]
   command = "npm run build:11ty"
