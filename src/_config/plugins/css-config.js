@@ -16,7 +16,6 @@ export const cssConfig = eleventyConfig => {
       cache: false
     },
     compile: async (inputContent, inputPath) => {
-      console.log('Eleventy processing:', inputPath);
       const paths = [];
       if (inputPath.endsWith('/src/assets/css/global/global.css')) {
         paths.push('src/_includes/css/global.css');
