@@ -6,6 +6,9 @@ export const jsConfig = eleventyConfig => {
 
   eleventyConfig.addExtension('js', {
     outputFileExtension: 'js',
+    compileOptions: {
+      cache: false
+    },
     compile: async (content, inputPath) => {
       // Skip processing if not in the designated scripts directories
       if (!inputPath.startsWith('./src/assets/scripts/')) {

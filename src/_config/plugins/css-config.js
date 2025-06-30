@@ -12,7 +12,11 @@ export const cssConfig = eleventyConfig => {
 
   eleventyConfig.addExtension('css', {
     outputFileExtension: 'css',
+    compileOptions: {
+      cache: false
+    },
     compile: async (inputContent, inputPath) => {
+      console.log('Eleventy processing:', inputPath);
       const paths = [];
       if (inputPath.endsWith('/src/assets/css/global/global.css')) {
         paths.push('src/_includes/css/global.css');
