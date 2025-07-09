@@ -5,7 +5,7 @@ description: "AI-focused funding is going into parking data, photonics, contact 
 date: 2025-07-09 03:15:34.089+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->💰 + 🤖 Funding for AI-anything companies continues.
+💰 + 🤖 Funding for AI-anything companies continues.
 
 * [AirGarage](https://www.techmeme.com/250708/p15#a250708p15) (AI parking data analysis): **$23M**
 * [Arago](https://www.techmeme.com/250708/p20#a250708p20) (photonic AI chip development): **$26M**
