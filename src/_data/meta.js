@@ -26,7 +26,7 @@ export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light 
 export const themeDark = '#2e2e2e'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
-  "Visible content: An Eleventy starter with CUBE CSS, Cube CSS, Every Layout, Design Tokens and Tailwind for uitility classes. A workflow for building modern and resilient websites, introduced by Andy Bell's project buildexcellentwebsit.es"; // alt text for default meta image"
+  "Visible content: Fudge Factor is the on again off again blog and steady running newsletter by Jay Cuthrell published at fudge.org"; // alt text for default meta image"
 export const blog = {
   // RSS feed
   name: 'Fudge Factor is the newsletter and blog of Jay Cuthrell',
