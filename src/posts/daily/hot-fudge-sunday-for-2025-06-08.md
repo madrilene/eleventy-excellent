@@ -5,7 +5,7 @@ description: "NexusTek&#39;s launch on Azure Marketplace and exclusive NYC event
 date: 2025-06-08 20:21:59+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->This week continues our new shortened format. Thanks again to readers for all the helpful replies and survey feedback.
+This week continues our new shortened format. Thanks again to readers for all the helpful replies and survey feedback.
 
 ## Last week
 

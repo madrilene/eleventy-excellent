@@ -5,7 +5,7 @@ description: "I’m spotlighting talented professionals open to new opportunitie
 date: 2025-01-26 17:00:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
+[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
 
 ---
 
@@ -317,7 +317,7 @@ A strategic HR professional with a contagious enthusiasm for empowering employee
    
 ## 🤪 Wacky Wednesday for 2025-01-22
  
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 
@@ -331,7 +331,7 @@ https://www.youtube.com/shorts/g3lE3q418mU
    
 ## 🔙 Throwback Thursday for 2025-01-23
  
-<!-- buttondown-editor-mode: plaintext -->One headline for a Thursday Throwback caught my eye. Specifically, the claim of ~5.6 Tbps of traffic during the peak of _one_ DDoS attack.
+One headline for a Thursday Throwback caught my eye. Specifically, the claim of ~5.6 Tbps of traffic during the peak of _one_ DDoS attack.
 
 https://www.techmeme.com/250122/p10#a250122p10
 
@@ -345,7 +345,7 @@ Also likely is those differences have turned into a different kind of data claim
    
 ## ✅ Final Thoughts Friday for 2025-01-24
  
-<!-- buttondown-editor-mode: plaintext -->This week turned another crank on the hype around Agentic AI, Agents, and Assistants — with new releases from the major players.
+This week turned another crank on the hype around Agentic AI, Agents, and Assistants — with new releases from the major players.
 
 https://www.techmeme.com/250123/p35#a250123p35
 

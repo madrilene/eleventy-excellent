@@ -5,7 +5,7 @@ description: "I&#39;m simplifying the newsletter format based on reader feedback
 date: 2025-05-26 15:33:24.702951+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->I surveyed readers about offering a shorter version of the newsletter. Results were mixed so I’m shortening the newsletter and moving sections around this week.
+I surveyed readers about offering a shorter version of the newsletter. Results were mixed so I’m shortening the newsletter and moving sections around this week.
 
 https://www.prnewswire.com/news-releases/nexustek-launches-new-private-cloud-offerings-to-power-the-next-era-of-digital-business-302460874.html
 

@@ -5,7 +5,7 @@ description: "I&#39;m diving into the latest on Amazon Kuiper&#39;s rapid evolut
 date: 2025-05-02 02:13:54.655810+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->📡 🛰️ One story caught my eye this week — Amazon Kuiper. 
+📡 🛰️ One story caught my eye this week — Amazon Kuiper. 
 
 https://www.techmeme.com/250428/p28#a250428p28
 

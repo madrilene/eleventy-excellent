@@ -5,7 +5,7 @@ description: "Celebrating alumni success and spotlighting those #OpenToWork in m
 date: 2025-05-04 21:49:36.141354+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->## Recap
+## Recap
 
 This week was a big week! 🎉 
 
@@ -82,7 +82,7 @@ Those in my network that are [#OpenToWork](https://www.linkedin.com/search/resul
    
 ## 🤪 Wacky Wednesday for 2025-04-30
  
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 
@@ -98,7 +98,7 @@ https://www.youtube.com/watch?v=qlrpeYdm9Ec
    
 ## 🔙 Throwback Thursday for 2025-05-01
  
-<!-- buttondown-editor-mode: plaintext -->📡 🛰️ One story caught my eye this week — Amazon Kuiper. 
+📡 🛰️ One story caught my eye this week — Amazon Kuiper. 
 
 https://www.techmeme.com/250428/p28#a250428p28
 
@@ -110,7 +110,7 @@ https://www.techmeme.com/190404/p8#a190404p8
    
 ## ✅ Final Thoughts Friday for 2025-05-02
  
-<!-- buttondown-editor-mode: plaintext -->🔐 + 🔮 The story that caught my eye this week was the move by Microsoft to accelerate the embrace of passkeys.
+🔐 + 🔮 The story that caught my eye this week was the move by Microsoft to accelerate the embrace of passkeys.
 
 https://www.techmeme.com/250502/p7#a250502p7
 

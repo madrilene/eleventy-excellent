@@ -5,7 +5,7 @@ description: "NexusTek wins two Pax8 awards, and I&#39;m gearing up for my first
 date: 2025-06-22 15:00:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->This week continues our new shortened format. Next week will be a shorter vacation edition of 🌶️ Hot Fudge Sunday.
+This week continues our new shortened format. Next week will be a shorter vacation edition of 🌶️ Hot Fudge Sunday.
 
 {{ subscribe_form }}
 
@@ -35,7 +35,7 @@ Wish me luck! 🤓
    
 ## 🔥 Hot Takes Tuesday for 2025-06-17
  
-<!-- buttondown-editor-mode: plaintext -->💰 + 🤖 Funding for AI-anything companies continues.
+💰 + 🤖 Funding for AI-anything companies continues.
 
 * [Sword Health](https://www.techmeme.com/250617/p17#a250617p17) (virtual physical therapy): **$40M**
 * [Pano AI](https://www.techmeme.com/250617/p35#a250617p35) (wildfire detection): **$44M**.

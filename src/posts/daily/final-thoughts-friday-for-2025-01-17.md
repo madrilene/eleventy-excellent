@@ -5,7 +5,7 @@ description: "This week, I&#39;m exploring the buzz around drones and the rise o
 date: 2025-01-18 06:58:13.933746+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->As this week ends, I'm thinking about the implications of drones and all things autonomous as the hype around Agentic AI reaches a fever pitch.
+As this week ends, I'm thinking about the implications of drones and all things autonomous as the hype around Agentic AI reaches a fever pitch.
 
 https://www.techmeme.com/250117/p15#a250117p15
 

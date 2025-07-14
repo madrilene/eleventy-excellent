@@ -5,7 +5,7 @@ description: "Reflecting on LinkedIn&#39;s rapid evolution in identity verificat
 date: 2025-04-25 04:45:37.010388+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Three years goes by fast and one story caught my eye this week.
+Three years goes by fast and one story caught my eye this week.
 
 Are you verified? 
 

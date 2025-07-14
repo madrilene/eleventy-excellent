@@ -5,7 +5,7 @@ description: "I&#39;m showcasing my network&#39;s talented professionals who are
 date: 2025-02-02 19:56:12.222128+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
+[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
 
 {{ subscribe_form }}
 
@@ -326,7 +326,7 @@ https://www.linkedin.com/posts/richard-arnesen_im-happy-to-share-that-im-startin
    
 ## 🔙 Throwback Thursday for 2025-01-30
  
-<!-- buttondown-editor-mode: plaintext -->One headline for a Thursday Throwback caught my eye.
+One headline for a Thursday Throwback caught my eye.
 
 https://www.techmeme.com/250130/p9#a250130p9
 
@@ -343,7 +343,7 @@ https://www.techmeme.com/250130/p9#a250130p9
    
 ## ✅ Final Thoughts Friday for 2025-01-31
  
-<!-- buttondown-editor-mode: plaintext -->This week turned out to be a moment of whipsawing and fragility in claims of supremacy all things AI boom related.
+This week turned out to be a moment of whipsawing and fragility in claims of supremacy all things AI boom related.
 
 https://www.techmeme.com/250126/p13#a250126p13
 
@@ -358,7 +358,7 @@ https://www.techmeme.com/250130/p57#a250130p57
    
 ## 🔮 Sneak Peak Saturday for 2025-02-01
  
-<!-- buttondown-editor-mode: plaintext -->By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
+By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
 
 #### Peak 🏔️ vs. Peek 👀
 

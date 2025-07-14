@@ -5,7 +5,7 @@ description: "I share the most intriguing safe-for-work links I find in Slack ea
 date: 2025-01-23 03:01:55.996465+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

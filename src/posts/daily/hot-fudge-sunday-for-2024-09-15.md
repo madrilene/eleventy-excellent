@@ -5,7 +5,7 @@ description: "This week&#39;s edition dives into tech market insights, funding h
 date: 2024-09-15 19:40:40.766968+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext --><blockquote class="pullquote"><p>🙏 A big thank you to our sponsors. 🙏<br>(Scroll to the end…)</p></blockquote><p><a href="https://hot.fudge.org">Hot Fudge Sunday</a> 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at <a href="https://hot.fudge.org">hot.fudge.org</a> in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.</p>
+<blockquote class="pullquote"><p>🙏 A big thank you to our sponsors. 🙏<br>(Scroll to the end…)</p></blockquote><p><a href="https://hot.fudge.org">Hot Fudge Sunday</a> 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at <a href="https://hot.fudge.org">hot.fudge.org</a> in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.</p>
 
 ---
    

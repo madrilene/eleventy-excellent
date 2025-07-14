@@ -5,7 +5,7 @@ description: "Tuning into Thursday Throwback for some intriguing insights on TSM
 date: 2025-01-17 06:04:26.248225+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Two headlines for a Thursday Throwback caught my eye.
+Two headlines for a Thursday Throwback caught my eye.
 
 https://www.techmeme.com/250116/p4#a250116p4
 

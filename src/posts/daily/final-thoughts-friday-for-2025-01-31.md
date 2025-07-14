@@ -5,7 +5,7 @@ description: "This week, I explored the ups and downs of the AI boom&#39;s supre
 date: 2025-02-02 00:10:16.135349+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->This week turned out to be a moment of whipsawing and fragility in claims of supremacy all things AI boom related.
+This week turned out to be a moment of whipsawing and fragility in claims of supremacy all things AI boom related.
 
 https://www.techmeme.com/250126/p13#a250126p13
 

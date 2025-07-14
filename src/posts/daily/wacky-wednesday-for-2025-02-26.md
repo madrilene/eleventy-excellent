@@ -5,7 +5,7 @@ description: "This week’s email features my top safe-for-work Slack links on a
 date: 2025-02-27 02:54:25.292684+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

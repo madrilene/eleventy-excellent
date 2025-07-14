@@ -5,7 +5,7 @@ description: "This edition highlights Vodafone&#39;s pioneering impact on mobile
 date: 2025-02-02 00:04:31.124413+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->One headline for a Thursday Throwback caught my eye.
+One headline for a Thursday Throwback caught my eye.
 
 https://www.techmeme.com/250130/p9#a250130p9
 

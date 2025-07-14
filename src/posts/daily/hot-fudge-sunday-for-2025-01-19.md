@@ -5,7 +5,7 @@ description: "This edition spotlights professionals eager for new opportunities�
 date: 2025-01-19 19:30:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
+[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
 
 ---
 
@@ -299,7 +299,7 @@ A strategic HR professional with a contagious enthusiasm for empowering employee
    
 ## 🤪 Wacky Wednesday for 2025-01-15
  
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 
@@ -316,7 +316,7 @@ https://www.youtube.com/watch?v=jis1MC5Tm8k
    
 ## 🔙 Throwback Thursday for 2025-01-16
  
-<!-- buttondown-editor-mode: plaintext -->Two headlines for a Thursday Throwback caught my eye.
+Two headlines for a Thursday Throwback caught my eye.
 
 https://www.techmeme.com/250116/p4#a250116p4
 
@@ -330,7 +330,7 @@ For context...
    
 ## ✅ Final Thoughts Friday for 2025-01-17
  
-<!-- buttondown-editor-mode: plaintext -->As this week ends, I'm thinking about the implications of drones and all things autonomous as the hype around Agentic AI reaches a fever pitch.
+As this week ends, I'm thinking about the implications of drones and all things autonomous as the hype around Agentic AI reaches a fever pitch.
 
 https://www.techmeme.com/250117/p15#a250117p15
 

@@ -5,7 +5,7 @@ description: "This week, I explore how Agent2Agent enhances collaboration in AI 
 date: 2025-04-12 05:38:33.790649+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->The story that caught my eye this week was Agent2Agent (A2A).
+The story that caught my eye this week was Agent2Agent (A2A).
 
 https://www.techmeme.com/250409/p42#a250409p42
 

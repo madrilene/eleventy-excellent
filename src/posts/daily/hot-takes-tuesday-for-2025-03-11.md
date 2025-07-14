@@ -5,7 +5,7 @@ description: "Exploring groundbreaking photonics chiplets and innovative &#39;Tu
 date: 2025-03-12 03:19:15.787086+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Two hot takes on two stories that caught my eye on Tuesday.
+Two hot takes on two stories that caught my eye on Tuesday.
 
 🌈 + 💰 Photonics chiplets promising 14.4Tbps are fascinating as is a $2.5B valuation. 
 

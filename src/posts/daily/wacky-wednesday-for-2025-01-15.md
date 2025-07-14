@@ -5,7 +5,7 @@ description: "This week&#39;s edition highlights cool links from Slack communiti
 date: 2025-01-16 06:44:11.014898+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

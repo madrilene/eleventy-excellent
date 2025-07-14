@@ -5,7 +5,7 @@ description: "This week’s email features my top Slack community links, all saf
 date: 2025-04-10 01:40:08.210117+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

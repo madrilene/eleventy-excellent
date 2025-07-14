@@ -5,7 +5,7 @@ description: "I curate the week&#39;s coolest Slack finds, all safe for work, ju
 date: 2025-03-27 04:16:40.587662+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

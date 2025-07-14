@@ -5,7 +5,7 @@ description: "This edition highlights the staggering scale of a recent DDoS atta
 date: 2025-01-24 07:37:37.828558+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->One headline for a Thursday Throwback caught my eye. Specifically, the claim of ~5.6 Tbps of traffic during the peak of _one_ DDoS attack.
+One headline for a Thursday Throwback caught my eye. Specifically, the claim of ~5.6 Tbps of traffic during the peak of _one_ DDoS attack.
 
 https://www.techmeme.com/250122/p10#a250122p10
 

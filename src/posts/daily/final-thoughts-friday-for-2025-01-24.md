@@ -5,7 +5,7 @@ description: "I dive into the latest buzz on Agentic AI and the new releases sha
 date: 2025-01-25 03:44:14.005154+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->This week turned another crank on the hype around Agentic AI, Agents, and Assistants — with new releases from the major players.
+This week turned another crank on the hype around Agentic AI, Agents, and Assistants — with new releases from the major players.
 
 https://www.techmeme.com/250123/p35#a250123p35
 

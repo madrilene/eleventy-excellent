@@ -5,7 +5,7 @@ description: "Uncover the spicy inspiration behind this week&#39;s Fudge Sunday 
 date: 2024-06-23 13:53:16.396437+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->{{ subscribe_form }}
+{{ subscribe_form }}
 
 # Spicy Edition Sunday for 2024-06-23
 

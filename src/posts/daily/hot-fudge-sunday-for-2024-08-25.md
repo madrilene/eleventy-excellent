@@ -5,7 +5,7 @@ description: "Tech market analysis, AI funding, M&amp;A trends, Slack community 
 date: 2024-08-25 13:30:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext --><blockquote class="pullquote"><p>🙏 A big thank you to our sponsors. 🙏<br>(Scroll to the end…)</p></blockquote><p><a href="https://hot.fudge.org">Hot Fudge Sunday</a> 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at <a href="https://hot.fudge.org">hot.fudge.org</a> in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.</p>
+<blockquote class="pullquote"><p>🙏 A big thank you to our sponsors. 🙏<br>(Scroll to the end…)</p></blockquote><p><a href="https://hot.fudge.org">Hot Fudge Sunday</a> 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at <a href="https://hot.fudge.org">hot.fudge.org</a> in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.</p>
 <hr>
 <h1>Hot Fudge Daily Digest</h1>
 <hr>

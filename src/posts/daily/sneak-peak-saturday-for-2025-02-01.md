@@ -5,7 +5,7 @@ description: "This week, I highlight overlooked stories amid the Friday news fre
 date: 2025-02-02 19:46:40.304060+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
+By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
 
 #### Peak 🏔️ vs. Peek 👀
 

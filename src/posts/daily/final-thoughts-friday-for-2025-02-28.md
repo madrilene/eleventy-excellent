@@ -5,7 +5,7 @@ description: "This week, I reflect on Skype&#39;s decline as Microsoft Teams tak
 date: 2025-03-01 03:05:32.463210+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->The story that caught my eye this week was the impending demise of Skype as Microsoft Teams consumes the remaining holdouts.
+The story that caught my eye this week was the impending demise of Skype as Microsoft Teams consumes the remaining holdouts.
 
 https://www.techmeme.com/250228/p10#a250228p10
 

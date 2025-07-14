@@ -5,7 +5,7 @@ description: "Every Wednesday, I share my top safe-for-work Slack links, from qu
 date: 2025-05-01 06:01:45.403682+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

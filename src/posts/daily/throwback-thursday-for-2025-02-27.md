@@ -5,7 +5,7 @@ description: "This week highlights AWS Ocelot quantum chip, echoing Microsoft Ma
 date: 2025-02-28 02:03:33.193598+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->One headline for a Thursday Throwback caught my eye.
+One headline for a Thursday Throwback caught my eye.
 
 ⚛️ + ☁️ Microsoft Majorana quantum chip news last week has been met with AWS Ocelot quantum chip news this week.
 

@@ -5,7 +5,7 @@ description: "Tech stocks shifted post-Memorial Day, highlighted by two long-awa
 date: 2025-05-28 02:47:02.160676+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Two hot takes on the market.
+Two hot takes on the market.
 
 Tuesday arrived with tech stock movement after Monday markets being closed for observance of Memorial Day.
 

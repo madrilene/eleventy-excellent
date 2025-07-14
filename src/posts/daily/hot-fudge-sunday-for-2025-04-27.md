@@ -5,7 +5,7 @@ description: "This week highlighted NexusTek&#39;s expansions, alumni successes,
 date: 2025-04-28 01:44:33.247326+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->## Recap
+## Recap
 
 This week was a big week! 🎉 
 
@@ -85,7 +85,7 @@ Those in my network that are [#OpenToWork](https://www.linkedin.com/search/resul
    
 ## 🔙 Throwback Thursday for 2025-04-24
  
-<!-- buttondown-editor-mode: plaintext -->Three years goes by fast and one story caught my eye this week.
+Three years goes by fast and one story caught my eye this week.
 
 Are you verified? 
 
@@ -114,7 +114,7 @@ https://www.techmeme.com/221025/p43#a221025p43
    
 ## 🔮 Sneak Peak Saturday for 2025-04-26
  
-<!-- buttondown-editor-mode: plaintext -->Ah, the Friday news dump. Let’s see the memes!
+Ah, the Friday news dump. Let’s see the memes!
 
 By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
 

@@ -5,7 +5,7 @@ description: "Big funding and M&amp;A moves in tech - from cutting-edge language
 date: 2024-06-11 18:02:45.773656+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext --># Hot Takes Tuesday for 2024-06-11
+# Hot Takes Tuesday for 2024-06-11
 
 Off the cuff analysis in a rapid fire format.
 

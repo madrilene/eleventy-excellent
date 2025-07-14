@@ -5,7 +5,7 @@ description: "I&#39;m spotlighting alumni successes in my network and sharing in
 date: 2025-04-21 00:30:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->## Reminder
+## Reminder
 
 This week I'll be at [AI Infrastructure Field Day 2](https://techfieldday.com/event/aiifd2/)! 🤓
 

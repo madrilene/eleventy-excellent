@@ -5,7 +5,7 @@ description: "I&#39;m gearing up for Qlik Connect and offering readers a meaty ð
 date: 2025-05-11 17:45:10+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->## Last week
+## Last week
 
 It was another a big week! ðŸŽ‰
 

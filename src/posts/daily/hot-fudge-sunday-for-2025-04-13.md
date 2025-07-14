@@ -5,7 +5,7 @@ description: "This week I reflect on my Job Search Council and celebrate network
 date: 2025-04-13 20:10:00+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
+[Hot Fudge Sunday](https://hot.fudge.org) 🤔 💡 🤯 🤓 is a free weekly newsletter containing a digest of the Hot Fudge Daily paid newsletter at [hot.fudge.org](https://hot.fudge.org) in a single easy to reach URL. This free weekly edition is posted every… wait for it… Sunday.
 
 {{ subscribe_form }}
 
@@ -79,7 +79,7 @@ Those in my network that are [#OpenToWork](https://www.linkedin.com/search/resul
    
 ## 🔥 Hot Takes Tuesday for 2025-04-08
  
-<!-- buttondown-editor-mode: plaintext -->Tariffs Tuesday? I'll let other newsletters handle that...
+Tariffs Tuesday? I'll let other newsletters handle that...
 
 Two hot takes on funding on Tuesday.
 
@@ -94,7 +94,7 @@ https://www.techmeme.com/250408/p23#a250408p23
    
 ## 🤪 Wacky Wednesday for 2025-04-09
  
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 
@@ -112,7 +112,7 @@ https://www.youtube.com/watch?v=Am-faoBgwt8
    
 ## ✅ Final Thoughts Friday for 2025-04-11
  
-<!-- buttondown-editor-mode: plaintext -->The story that caught my eye this week was Agent2Agent (A2A).
+The story that caught my eye this week was Agent2Agent (A2A).
 
 https://www.techmeme.com/250409/p42#a250409p42
 

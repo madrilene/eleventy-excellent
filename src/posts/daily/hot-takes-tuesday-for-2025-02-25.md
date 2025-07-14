@@ -5,7 +5,7 @@ description: "Celebrating rural ISPs while urging big telecoms to focus on innov
 date: 2025-02-26 03:06:18.026897+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Two hot takes on two stories that caught my eye on Tuesday.
+Two hot takes on two stories that caught my eye on Tuesday.
 
 My early career was in telecom and ISPs. However, this was not with the large telecom companies, but with the small rural and very much fiercely independent operators. The common name for these companies was rural local exchange companies or RLECs.
 

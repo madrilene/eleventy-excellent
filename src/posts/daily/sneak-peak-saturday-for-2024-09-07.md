@@ -5,7 +5,7 @@ description: "Caught in the Friday rush, here are the stories you might&#39;ve m
 date: 2024-09-07 19:09:22.376093+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext --><p>By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.</p>
+<p>By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.</p>
 <h4>Peak 🏔️ vs. Peek 👀</h4>
 <p>Then there is a trope, cliché, or bromide about slow news days and the quietly mentioned news updates sent on a Friday — to try and sneak it past wider coverage. Or, in a nutshell, peak patronizing publishing.</p>
 <p>In that spirit, here are a few stories that you might have missed on the slow news of a Friday.</p>

@@ -5,7 +5,7 @@ description: "This week, I&#39;m sharing insights from Qlik Connect and upcoming
 date: 2025-05-18 18:43:53.435037+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->This week I'm testing out a shorter version of the newsletter.
+This week I'm testing out a shorter version of the newsletter.
 
 {{ survey.shorter }}
 

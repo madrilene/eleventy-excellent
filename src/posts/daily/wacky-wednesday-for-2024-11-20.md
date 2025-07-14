@@ -5,7 +5,7 @@ description: "This week&#39;s email highlights intriguing Slack finds, from emus
 date: 2024-11-21 05:33:52.914841+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Each Wednesday I go through dozens of Slack communities.
+Each Wednesday I go through dozens of Slack communities.
 
 I then select the most interesting shared links.
 

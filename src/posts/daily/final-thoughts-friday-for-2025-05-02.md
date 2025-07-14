@@ -5,7 +5,7 @@ description: "This week I’m diving into Microsoft’s push to adopt passkeys f
 date: 2025-05-03 04:40:49.625894+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->🔐 + 🔮 The story that caught my eye this week was the move by Microsoft to accelerate the embrace of passkeys.
+🔐 + 🔮 The story that caught my eye this week was the move by Microsoft to accelerate the embrace of passkeys.
 
 https://www.techmeme.com/250502/p7#a250502p7
 

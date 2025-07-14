@@ -5,7 +5,7 @@ description: "This week’s edition dives into the Friday news dump and shares s
 date: 2025-04-27 02:38:40.076933+00:00
 ---
 
-<!-- buttondown-editor-mode: plaintext -->Ah, the Friday news dump. Let’s see the memes!
+Ah, the Friday news dump. Let’s see the memes!
 
 By Friday, everything seems to be reaching the peak of getting news turned in before a deadline or dread-line. It sometimes seems like we reach a fever pitch in news coverage throughout the week.
 
