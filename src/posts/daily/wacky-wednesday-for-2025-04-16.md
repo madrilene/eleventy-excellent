@@ -5,4 +5,4 @@ description: "Each Wednesday, I curate the week&#39;s best safe-for-work links f
 date: 2025-04-17 04:54:00.188964+00:00
 ---
 
-<!-- buttondown-editor-mode: fancy --><p></p><p>Each Wednesday I go through dozens of Slack communities.</p><p>I then select the most interesting shared links.</p><p>This will always be a safe for work list. 🙈</p><p>https://www.youtube.com/watch?v=lzPoG9H8Hlo</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ellecordova/reel/DFVjBa5v6wz/">https://www.instagram.com/ellecordova/reel/DFVjBa5v6wz/</a></p><p>https://www.youtube.com/watch?v=l6NkgMqN42E</p>
+<p></p><p>Each Wednesday I go through dozens of Slack communities.</p><p>I then select the most interesting shared links.</p><p>This will always be a safe for work list. 🙈</p><p>https://www.youtube.com/watch?v=lzPoG9H8Hlo</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ellecordova/reel/DFVjBa5v6wz/">https://www.instagram.com/ellecordova/reel/DFVjBa5v6wz/</a></p><p>https://www.youtube.com/watch?v=l6NkgMqN42E</p>

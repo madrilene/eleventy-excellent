@@ -5,4 +5,4 @@ description: "This week’s highlights cover funding, from vCISO services to sof
 date: 2025-04-26 02:00:07.726527+00:00
 ---
 
-<!-- buttondown-editor-mode: fancy --><p>🔐 + 💰 The stories that caught my eye this week were both ends of the security spectrum: Agentic AI advisory vCISO to attestation for a software supply chains </p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/250423/p25#a250423p25">https://www.techmeme.com/250423/p25#a250423p25</a></p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/250423/p23#a250423p23">https://www.techmeme.com/250423/p23#a250423p23</a></p>
+<p>🔐 + 💰 The stories that caught my eye this week were both ends of the security spectrum: Agentic AI advisory vCISO to attestation for a software supply chains </p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/250423/p25#a250423p25">https://www.techmeme.com/250423/p25#a250423p25</a></p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.techmeme.com/250423/p23#a250423p23">https://www.techmeme.com/250423/p23#a250423p23</a></p>
