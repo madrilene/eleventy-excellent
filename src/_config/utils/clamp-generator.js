@@ -18,7 +18,7 @@ export const clampGenerator = tokens => {
 
   return tokens.map(({name, min, max}) => {
     if (min === max) {
-      return `${min / rootSize}rem`;
+      return {name, value:`${min / rootSize}rem`};
     }
 
     // Convert the min and max sizes to rems
