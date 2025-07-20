@@ -1,6 +1,6 @@
 ---
 title: "🌶️ Hot Fudge Sunday for 2025-07-20"
-permalink: "/archive/hot-fudge-sunday-for-2025-07-13-copy/"
+permalink: "/archive/hot-fudge-sunday-for-2025-07-20/"
 description: "Exciting new podcast, AI company funding news, future ChromeOS & Android merge, and the crypto market's big moment"
 date: 2025-07-20 16:00:00.000+00:00
 ---
