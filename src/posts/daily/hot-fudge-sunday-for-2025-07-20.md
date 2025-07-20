@@ -24,7 +24,9 @@ I'll continue working on automation ideas for the newsletter.
 # Hot Fudge Daily Digest
    
 ---
+
 ## 📈 Markets Monday for 2025-07-14
+
 <p>
  Spicier!
 </p>
@@ -55,10 +57,7 @@ I'll continue working on automation ideas for the newsletter.
   https://finance.yahoo.com/research-hub/screener/9bda6c7b-fe9e-41ca-9da9-e281a4a9889a
  </a>
 </p>
-<p>
-</p>
-<p>
-</p>
+
 ## 🔥 Hot Takes Tuesday for 2025-07-15
  
 💰 + 🤖 Funding for AI-anything companies continues.
@@ -70,9 +69,9 @@ I'll continue working on automation ideas for the newsletter.
 - <a href="https://www.techmeme.com/250714/p14#a250714p14">Moonvalley</a> (ethical AI video models): **$84M**
 - <a href="https://www.techmeme.com/250715/p17#a250715p17">OpenEvidence</a> (AI search for doctors): **$210M**
 - <a href="https://www.techmeme.com/250715/p18#a250715p18">Thinking Machines Lab</a> (Mira Murati's AI startup): **$2B**
-   
+
 ## 🤪 Wacky Wednesday for 2025-07-16
- 
+
 The most interesting shared link in Slack communities:
 
 (safe for work link)
@@ -93,21 +92,12 @@ Less than 5 years later, Google launched ChromeOS.
 
 https://techcrunch.com/2009/10/13/a-first-glimpse-of-chrome-os-in-the-flesh-at-least-the-browser-part/
 
-
-   
 ## ✅ Final Thoughts Friday for 2025-07-18
- 
+
 💰 + ₿ The big tech story for the week was coverage of crypto market value exceeding $4T.
 
 https://www.techmeme.com/250718/p9#a250718p9
 
-
-
-
-
-
-
-   
 ## 🔮 Sneak Peak Saturday for 2025-07-19
 <p>
  I’ve selected a Friday news dump item that reached a peak level of trope, cliché, or bromide on the slowest news day that may be attempting to avoid wider coverage.
