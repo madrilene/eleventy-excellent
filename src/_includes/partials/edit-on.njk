@@ -7,3 +7,12 @@
     >.
   </p>
 {% endif %}
+{% if meta.viewSponsor.allow %}
+  <hr />
+  <p class="text-step-min-1" align="center">
+    <a href="{{ meta.viewSponsor.url }}" target="_blank" rel="noopener noreferrer"
+      ><img src="{{ meta.viewSponsor.logo }}" alt="{{ meta.viewSponsor.name }}" width="100" /></a
+    > <a href="{{ meta.viewSponsor.url }}" target="_blank" rel="noopener noreferrer"
+      >{{ meta.viewSponsor.infoText }}</a>
+  </p>
+{% endif %}

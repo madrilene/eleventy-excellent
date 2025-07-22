@@ -99,4 +99,11 @@ export const viewRepo = {
   allow: true,
   infoText: 'View this page on GitHub'
 };
+export const viewSponsor = {
+  allow: true,
+  name: 'NexusTek',
+  infoText: 'Thanks to NexusTek for sponsoring the free version of this newsletter post 🤓',
+  url: 'https://nexustek.com?utm_campaign=Blog%20Promotion&utm_source=email&utm_medium=newsletter&utm_term=nexustek&utm_content=jaycuthrell',
+  logo: '/assets/images/sponsors/nexustek.jpg'
+};
 export const easteregg = false;
