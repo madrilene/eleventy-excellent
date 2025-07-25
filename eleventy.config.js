@@ -47,7 +47,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(plugins.syntaxHighlight);
 
   eleventyConfig.addPlugin(plugins.webc, {
-    components: ['./src/_includes/webc/*.webc'],
+    components: ['./src/_includes/webc/**/*.webc'],
     useTransform: true
   });
 
