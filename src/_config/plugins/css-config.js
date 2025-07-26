@@ -6,43 +6,53 @@ import postcssImportExtGlob from 'postcss-import-ext-glob';
 import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 import cssnano from 'cssnano';
+import fg from 'fast-glob';
 
-export const cssConfig = eleventyConfig => {
-  eleventyConfig.addTemplateFormats('css');
+const buildCss = async (inputPath, outputPaths) => {
+  const inputContent = await fs.readFile(inputPath, 'utf-8');
 
-  eleventyConfig.addExtension('css', {
-    outputFileExtension: 'css',
-    compile: async (inputContent, inputPath) => {
-      const paths = [];
-      if (inputPath.endsWith('/src/assets/css/global/global.css')) {
-        paths.push('src/_includes/css/global.css');
-      } else if (inputPath.includes('/src/assets/css/local/')) {
-        const baseName = path.basename(inputPath);
-        paths.push(`src/_includes/css/${baseName}`);
-      } else if (inputPath.includes('/src/assets/css/components/')) {
-        const baseName = path.basename(inputPath);
-        paths.push(`dist/assets/css/components/${baseName}`);
-      } else {
-        return;
-      }
+  const result = await postcss([
+    postcssImportExtGlob,
+    postcssImport,
+    tailwindcss,
+    autoprefixer,
+    cssnano
+  ]).process(inputContent, { from: inputPath });
 
-      return async () => {
-        let result = await postcss([
-          postcssImportExtGlob,
-          postcssImport,
-          tailwindcss,
-          autoprefixer,
-          cssnano
-        ]).process(inputContent, {from: inputPath});
+  for (const outputPath of outputPaths) {
+    await fs.mkdir(path.dirname(outputPath), { recursive: true });
+    await fs.writeFile(outputPath, result.css);
+  }
 
-        // Write the output to all specified paths
-        for (const outputPath of paths) {
-          await fs.mkdir(path.dirname(outputPath), {recursive: true});
-          await fs.writeFile(outputPath, result.css);
-        }
+  return result.css;
+}
 
-        return result.css;
-      };
-    }
-  });
-};
+
+export const buildAllCss = async () => {
+  const tasks = [];
+
+  tasks.push(
+    buildCss(
+      'src/assets/css/global/global.css',
+      ['src/_includes/css/global.css']
+    )
+  );
+
+  const localCssFiles = await fg(['src/assets/css/local/*.css']);
+  for (const inputPath of localCssFiles) {
+    const baseName = path.basename(inputPath);
+    tasks.push(
+      buildCss(inputPath, [`src/_includes/css/${baseName}`])
+    );
+  }
+
+  const componentCssFiles = await fg(['src/assets/css/components/*.css']);
+  for (const inputPath of componentCssFiles) {
+    const baseName = path.basename(inputPath);
+    tasks.push(
+      buildCss(inputPath, [`dist/assets/css/components/${baseName}`])
+    );
+  }
+
+  await Promise.all(tasks);
+}
