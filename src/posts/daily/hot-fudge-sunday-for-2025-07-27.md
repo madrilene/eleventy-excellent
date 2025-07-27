@@ -17,11 +17,7 @@ https://www.brighttalk.com/webcast/20887/648732?utm_source=hot-fudge-daily&amp;u
 
 I'll be traveling and the newsletter daily posts will be done from 37k feet, airports, hotels, etc. ✈️ 💺
 
----
-   
 # Hot Fudge Daily Digest
-   
----
 
 ## 📈 Markets Monday for 2025-07-21
 
@@ -238,8 +234,6 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   https://commercial.allianz.com/news-and-insights/reports/allianz-risk-barometer.html
  </a>
 </p>
-
----
 
 <h1 data-pm-slice="1 3 []">
  #OpenToWork Weekly
