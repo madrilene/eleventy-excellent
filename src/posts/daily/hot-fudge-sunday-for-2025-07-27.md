@@ -24,6 +24,7 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
 ---
 
 ## 📈 Markets Monday for 2025-07-21
+
 <p>
  Less spicy.
 </p>
@@ -51,7 +52,9 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   https://finance.yahoo.com/research-hub/screener/9bda6c7b-fe9e-41ca-9da9-e281a4a9889a
  </a>
 </p>
+
 ## 🔥 Hot Takes Tuesday for 2025-07-22
+
 <p>
  💰 + 🤖 Funding for AI-anything companies continues.
 </p>
@@ -145,7 +148,9 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   </p>
  </li>
 </ul>
+
 ## 🤪 Wacky Wednesday for 2025-07-23
+
 <p>
  The most interesting shared link in Slack communities:
 </p>
@@ -181,7 +186,9 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   https://www.techmeme.com/220830/p16#a220830p16
  </a>
 </p>
+
 ## ✅ Final Thoughts Friday for 2025-07-25
+
 <p>
  💰 + 🤖 The big tech story for the week was Google capex forecast jumping from $75B to $85B.
 </p>
@@ -198,7 +205,9 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   https://techstrong.ai/aiops/ai-infrastructure-gets-googleier/
  </a>
 </p>
+
 ## 🔮 Sneak Peak Saturday for 2025-07-26
+
 <p>
  Typically, I select a Friday news dump item that reached a peak level of trope, cliché, or bromide on the slowest news day that may be attempting to avoid wider coverage.
 </p>
