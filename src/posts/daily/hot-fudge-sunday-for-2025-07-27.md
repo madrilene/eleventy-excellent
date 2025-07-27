@@ -160,7 +160,9 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
 <p>
  https://www.youtube.com/watch?v=3e6motL4QMc
 </p>
+
 ## 🔙 Throwback Thursday for 2025-07-24
+
 <p>
  One outage story that caught my eye today: Starlink
 </p>
