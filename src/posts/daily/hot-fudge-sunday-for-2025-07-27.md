@@ -236,11 +236,12 @@ I'll be traveling and the newsletter daily posts will be done from 37k feet, air
   https://commercial.allianz.com/news-and-insights/reports/allianz-risk-barometer.html
  </a>
 </p>
+
 ---
+
 <h1 data-pm-slice="1 3 []">
  #OpenToWork Weekly
 </h1>
----
 
 I participated in a [#NeverSearchAlone](https://www.youtube.com/watch?v=OH3nzRdwYPA) [#JSC](https://www.phyl.org/jsc) after rebooting [Cuthrell Consulting](https://cuthrell.consulting) and [joining NexusTek](https://cuthrell.consulting/blog/jay-cuthrell-joins-nexustek/).
 
