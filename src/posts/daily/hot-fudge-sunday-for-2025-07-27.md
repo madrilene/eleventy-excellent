@@ -2,7 +2,7 @@
 title: "🌶️ Hot Fudge Sunday for 2025-07-27"
 permalink: "/archive/hot-fudge-sunday-for-2025-07-27/"
 description: "My favorite new podcast, market updates, AI funding, a wacky clip, Starlink's outage, and more"
-date: 2025-07-27 19:08:47.190+00:00
+date: 2025-07-27
 ---
 
 {{ subscribe_form }}

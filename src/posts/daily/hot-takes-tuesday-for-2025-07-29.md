@@ -2,7 +2,7 @@
 title: "🔥 Hot Takes Tuesday for 2025-07-29"
 permalink: "/archive/hot-takes-tuesday-for-2025-07-29/"
 description: "Another week and another roundup of AI firms raking in fresh funding"
-date: 2025-07-30 02:40:59.147+00:00
+date: 2025-07-29
 ---
 
 🤖 + 💰 AI, AI, and more AI funding continues.
