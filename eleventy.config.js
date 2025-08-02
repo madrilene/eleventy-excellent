@@ -20,19 +20,15 @@ import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
 import shortcodes from './src/_config/shortcodes.js';
-import {buildAllCss} from './src/_config/plugins/css-config.js';
-import {buildAllJs} from './src/_config/plugins/js-config.js';
-
-
-
 
 export default async function (eleventyConfig) {
-
+  // --------------------- Events: before build
   eleventyConfig.on('eleventy.before', async () => {
-    await buildAllCss();
-    await buildAllJs();
+    await events.buildAllCss();
+    await events.buildAllJs();
   });
 
+  // --------------------- custom wtach targets
   eleventyConfig.addWatchTarget('./src/assets/**/*.{css,js,svg,png,jpeg}');
   eleventyConfig.addWatchTarget('./src/_includes/**/*.{webc}');
 
@@ -95,7 +91,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('image', shortcodes.imageShortcode);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
-  // --------------------- Events ---------------------
+  // --------------------- Events: after build
   if (process.env.ELEVENTY_RUN_MODE === 'serve') {
     eleventyConfig.on('eleventy.after', events.svgToJpeg);
   }
