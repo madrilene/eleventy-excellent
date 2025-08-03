@@ -15,7 +15,7 @@ Thank you for reading Fudge Sunday! Subscribe to get new posts each week:
 
 Why? Previously, I’ve used the *shot and chaser* format to show how the prediction or topic turned out in the market.
 
-But, while my shot and chaser examples oftenprove to be accurate — that’s not always the case. So, this week we’re going to look at one prescient and one possibly problematic where I’ve maybe been (comically?) *incredibly inaccurate*. 😬🤣
+But, while my shot and chaser examples often prove to be accurate — that’s not always the case. So, this week we’re going to look at one prescient and one possibly problematic where I’ve maybe been (comically?) *incredibly inaccurate*. 😬🤣
 
 ## You showed your appreciation 🎶
 
