@@ -1,7 +1,7 @@
 /*
 CLUSTER
 More info: https://every-layout.dev/layouts/cluster/
-A layout that lets you distribute items with consitent
+A layout that lets you distribute items with consistent
 spacing, regardless of their size
 
 CUSTOM PROPERTIES AND CONFIGURATION
@@ -9,7 +9,7 @@ CUSTOM PROPERTIES AND CONFIGURATION
 between each item.
 
 --cluster-horizontal-alignment (flex-start) How items should align
-horizontally. Can be any acceptable flexbox aligmnent value.
+horizontally. Can be any acceptable flexbox alignment value.
 
 --cluster-vertical-alignment How items should align vertically.
 Can be any acceptable flexbox alignment value.
