@@ -2,7 +2,7 @@
 title: "🔮 Sneak Peak Saturday for 2025-08-09"
 permalink: "/archive/sneak-peak-saturday-for-2025-08-09/"
 description: "Exploring the drama of tech backdoors and a sudden win for NVIDIA"
-date: 2025-08-09 16:55:40.782+00:00
+date: 2025-08-09
 ---
 
 Friday arrives and the bury begins, or was it stage craft with storytelling savvy?

@@ -2,7 +2,7 @@
 title: "✅ Final Thoughts Friday for 2025-08-08"
 permalink: "/archive/final-thoughts-friday-for-2025-08-08/"
 description: "Laws on power grid resilience and data center site selection"
-date: 2025-08-08 22:42:27.119+00:00
+date: 2025-08-08
 ---
 
 I believe the biggest story this week was electrical power grid resilience and the law within data center friendly states like Texas.
