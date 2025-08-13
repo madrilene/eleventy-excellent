@@ -2,7 +2,7 @@
 title: "📈 Markets Monday for 2025-08-11"
 permalink: "/archive/markets-monday-for-2025-08-11/"
 description: "Making slow weekly progress on my screener"
-date: 2025-08-12 00:52:33.397+00:00
+date: 2025-08-11
 ---
 
 My second attempt at the screener approximation of Yahoo Finance screener is getting a little closer. More to do.

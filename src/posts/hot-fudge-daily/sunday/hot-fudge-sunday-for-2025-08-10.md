@@ -2,7 +2,7 @@
 title: "🌶️ Hot Fudge Sunday for 2025-08-10"
 permalink: "/archive/hot-fudge-sunday-for-2025-08-10/"
 description: "A fresh newsletter format of weekly market insights"
-date: 2025-08-10 21:46:35.388+00:00
+date: 2025-08-10 
 ---
 
 I'm testing a new format this week for the digest.
