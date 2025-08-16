@@ -17,7 +17,7 @@ Curious? Check out my past [PanelPicker 101](/archive/sxsw-2025-senior-moments/)
 
 ✅ I just submitted my PanelPicker proposal for SXSW 2026
 
-🦸 Title: "[Look, up in the sky! It's Super SMB!](https://participate.sxsw.com/flow/sxsw/sxsw26/community-voting-sxsw/page/community-voting/session/1750894477655001RMA9)"
+🦸 Title: "Look, up in the sky! It's Super SMB!"
 
 🎭 Intended Audience: Managed Intelligence Providers (MIPs) are evolving from Managed Service Providers (MSPs) to enable Superpowers for Small Medium Business (SMB) distinct competitive advantage over larger Enterprise companies.
 
