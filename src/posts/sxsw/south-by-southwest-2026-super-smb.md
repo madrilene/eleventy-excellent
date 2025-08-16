@@ -3,9 +3,11 @@ title: "SXSW 2026: Look, up in the sky! It's Super SMB!"
 description: 'A look at my SXSW 2026 PanelPicker submission'
 date: 2025-07-23
 ---
-I submitted a proposal for a panel at SXSW 2026. If you are reading this, I would make the argument that [you should submit a panel too](https://panelpicker.sxsw.com).
+[I submitted a proposal](https://participate.sxsw.com/flow/sxsw/sxsw26/community-voting-sxsw/page/community-voting/session/1750894477655001RMA9) for a panel at SXSW 2026. If you are reading this, I would make the argument that [you should submit a panel too](https://panelpicker.sxsw.com).
 
 I am serious. If you haven't spoken at SXSW before, [you should submit a panel](https://panelpicker.sxsw.com).
+
+Oh... [please vote 🗳️ / heart ❤️ my submission](https://participate.sxsw.com/flow/sxsw/sxsw26/community-voting-sxsw/page/community-voting/session/1750894477655001RMA9) too!
 
 ## Getting Informed
 
@@ -15,7 +17,7 @@ Curious? Check out my past [PanelPicker 101](/archive/sxsw-2025-senior-moments/)
 
 ✅ I just submitted my PanelPicker proposal for SXSW 2026
 
-🦸 Title: "Look, up in the sky! It's Super SMB!"
+🦸 Title: "[Look, up in the sky! It's Super SMB!](https://participate.sxsw.com/flow/sxsw/sxsw26/community-voting-sxsw/page/community-voting/session/1750894477655001RMA9)"
 
 🎭 Intended Audience: Managed Intelligence Providers (MIPs) are evolving from Managed Service Providers (MSPs) to enable Superpowers for Small Medium Business (SMB) distinct competitive advantage over larger Enterprise companies.
 
@@ -32,7 +34,3 @@ Curious? Check out my past [PanelPicker 101](/archive/sxsw-2025-senior-moments/)
 📺 Sample: 2010 A Service Odyssey with Jay Cuthrell (2025)
 
 https://www.youtube.com/watch?v=lhQS4NoOWOw
-
-## Disclosure
-
-I am linking to my [disclosure](https://jaycuthrell.com/disclosure/).
