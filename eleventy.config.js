@@ -54,7 +54,7 @@ export default async function (eleventyConfig) {
     
   // Add the opengraph-unfurl plugin
   eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
-    allowedDomains: ['github.com', 'techmeme.com', 'linkedin.com', 'cnet.com']
+    allowedDomains: ['github.com', 'techmeme.com', 'linkedin.com', 'en.wikipedia.org', 'cnet.com']
   });
   
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
