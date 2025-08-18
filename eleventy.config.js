@@ -52,6 +52,11 @@ export default async function (eleventyConfig) {
     }
   });
     
+  // Add the opengraph-unfurl plugin
+  eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
+    allowedDomains: ['github.com', 'techmeme.com', 'linkedin.com', 'en.wikipedia.org', 'brighttalk.com', 'prnewswire.com', 'cnet.com']
+  });
+  
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
   eleventyConfig.addPlugin(plugins.rss);
   eleventyConfig.addPlugin(plugins.syntaxHighlight);
