@@ -17,6 +17,10 @@ Also, [Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) of [ESP, a
 
 https://www.nexustek.com/insights/ai-cloud-technology-modern-restaurants
 
+Finally, [Jason Thatcher](https://www.linkedin.com/in/jason-thatcher-464a4a35a/) of [NexusTek](https://www.nexustek.com/solutions/managed-detection-response) joined [NexusTek Winners Circle](https://www.brighttalk.com/channel/20887/) to share perspectives on [why managed detection and response (MDR) gives back time to busy security teams](https://www.brighttalk.com/webcast/20887/650826).
+
+https://www.brighttalk.com/webcast/20887/650826
+
 ## This week
 
 No travel! I'm looking forward to refinements on automation.
