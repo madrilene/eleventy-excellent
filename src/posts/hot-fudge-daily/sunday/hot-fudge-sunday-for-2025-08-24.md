@@ -1,86 +1,115 @@
 ---
-title: "🌶️ Hot Fudge Sunday for 2025-08-17"
-permalink: "/archive/hot-fudge-sunday-for-2025-08-17/"
-description: "Updates to workflows, tech throwbacks and more"
-date: 2025-08-17 13:05:49.720+00:00
+title: "🌶️ Hot Fudge Sunday for 2025-08-24"
+permalink: "/archive/hot-fudge-sunday-for-2025-08-24/"
+description: "Microsoft licensing changes, dining tech, markets, AI, history, and more"
+date: 2025-08-24
 ---
 
 {{ subscribe_form }}
 
-## Last Week
+## Last week
 
-I made several updates to the workflow last week.
+I was fortunate to contribute a few comments for [NexusTek, in an article on CNBC regarding recent Microsoft licensing changes](https://www.cnbc.com/2025/08/20/microsoft-guidance-probably-includes-gutting-volume-discounts-analyst.html). We also published more details on [NexusTek Insights](https://www.nexustek.com/insights/microsofts-licensing-evolution-and-what-it-means-for-customers).
 
-- Hot Fudge Daily is now free and posted on [fudge.org](https://fudge.org).
-- [Unfurling of URLs](https://github.com/JayCuthrell/fudge-org-eleventy-excellent-4.3.0/commit/dcb93011f05c4f32fa6494aefcd66fd592c8cedb) is adding some splash to the look and feel.
-- [Buttondown APIs](https://buttondown.com/refer/jaycuthrell) are powering my writing workflow and Sunday email deliveries.
+https://www.nexustek.com/insights/microsofts-licensing-evolution-and-what-it-means-for-customers
 
-## This Week
+Also, [Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) of [ESP, a NexusTek company](https://www.nexustek.com/esp) shared his thoughts on how [technology is making dining experiences smarter than ever before](https://www.nexustek.com/insights/ai-cloud-technology-modern-restaurants).
 
-Once again, I will be making updates from the road.
+https://www.nexustek.com/insights/ai-cloud-technology-modern-restaurants
 
-✈️
+## This week
 
-💺
+No travel! I'm looking forward to refinements on automation.
 
-🛜
+---
+   
+# Hot Fudge Daily Digest
+   
+---
+## 📈 Markets Monday for 2025-08-18
+ 
+Another week of iteration on my screener shows progress.
 
-🤓
+Of course. Here is the enriched markdown table with clickable Google Finance links for each symbol.
 
-## 📈 Markets Monday for 2025-08-11
+| Symbol | Company Name | % Change |
+| :--- | :--- | ---: |
+| [APLD](https://www.google.com/finance/quote/APLD:NASDAQ) | Applied Digital Corp | 13.77% |
+| [DUOL](https://www.google.com/finance/quote/DUOL:NASDAQ) | Duolingo Inc | 11.45% |
+| [RIOT](https://www.google.com/finance/quote/RIOT:NASDAQ) | Riot Platforms Inc | 8.04% |
+| [BTDR](https://www.google.com/finance/quote/BTDR:NASDAQ) | Bitdeer Technologies Group | 6.75% |
+| [LQDA](https://www.google.com/finance/quote/LQDA:NASDAQ) | Liquidia Corp | 6.39% |
+| [TEM](https://www.google.com/finance/quote/TEM:NASDAQ) | Tempus AI Inc | 5.95% |
+| [TTD](https://www.google.com/finance/quote/TTD:NASDAQ) | Trade Desk Inc | 5.15% |
+| [UUUU](https://www.google.com/finance/quote/UUUU:NYSEAMERICAN) | Energy Fuels Inc | 5.14% |
 
-My second attempt at the screener approximation of Yahoo Finance screener is getting a little closer. More to do.
+Comparison...
 
-| Symbol | Name | % Change |
-| :--- | :---: | ---: |
-| [GRND](https://www.google.com/finance/quote/GRND:NYSE) | Grindr Inc | 7.38% |
-| [IONQ](https://www.google.com/finance/quote/IONQ:NYSE) | IONQ Inc | 6.88% |
+![Yahoo Screener](https://assets.buttondown.email/images/4efc60f3-7208-4bac-a116-2e5643b9bc9e.png?w=960&amp;fit=max)
 
-By comparison... 
+   
+## 🔥 Hot Takes Tuesday for 2025-08-19
+ 
+💰 + 🤖 Funding for AI-anything companies continues
 
-![Yahoo Finance Screener](https://assets.buttondown.email/images/352ab6d6-ae50-40e2-a457-127eb9c39a74.png?w=960&amp;fit=max)
+* [Firecrawl](https://www.techmeme.com/250819/p32#a250819p32) (open-source web crawler): **$14.5M**
+* [Keychain](https://www.techmeme.com/250819/p13#a250819p13) (AI manufacturing management): **$30M**
+* [Pylon](https://www.techmeme.com/250819/p23#a250819p23) (AI customer service automation): **$31M**
+* [Functionize](https://www.techmeme.com/250819/p16#a250819p16) (AI software testing): **$41M**
+* [Eight Sleep](https://www.techmeme.com/250819/p9#a250819p9) (AI-powered mattress cover): **$100M**
 
+   
+## 🤪 Wacky Wednesday for 2025-08-20
+ 
+And the random video of the week goes to...
 
-## 🔥 Hot Takes Tuesday for 2025-08-12
-
-💰 + 🤖 Funding for AI-anything companies continues.
-
-* [Tahoe Therapeutics](https://www.techmeme.com/250811/p12#a250811p12) (building AI models of cells): **$30M**
-* [Profound](https://www.techmeme.com/250812/p31#a250812p31) (optimizing brands for AI search): **$35M**
-* [Squint](https://www.techmeme.com/250812/p33#a250812p33) (AI and AR for manufacturing): **$40M**
-* [Merge Labs](https://www.techmeme.com/250812/p27#a250812p27) (OpenAI backed rival to Neuralink): **$250M**
-
-## 🤪 Wacky Wednesday for 2025-08-13
-
-https://www.youtube.com/watch?v=tLpQ5bcxouw
-
-## 🔙 Throwback Thursday for 2025-08-14
-
-Looking back on this day in tech history... Let's take a look at what was making starkly different headlines in the tech world on this day many years ago.
+https://www.youtube.com/watch?v=fpCO6CUH8Zc
+   
+## 🔙 Throwback Thursday for 2025-08-21
+ 
+A look back at a decade of Apple App Store vs. Epic Games
 
 ### 2025
 
-Google and Oracle trade AI clouds and models
+https://www.techmeme.com/250821/p35#a250821p35
 
-https://www.linkedin.com/news/story/oracle-google-strike-ai-deal-6495180/
+### 2020
 
+https://www.techmeme.com/200821/p17#a200821p17
 
-### 2010
+### 2015
 
-Google and Oracle trade legal blows and barbs
-
-https://www.cnet.com/culture/why-oracle-not-sun-sued-google-over-java/
-
-## ✅ Final Thoughts Friday for 2025-08-15
-
-I believe the biggest story this week was the reported deal that would require a 👀 15% *(originally 20% depending on the news source)* 👀 cut of revenue that would be paid directly to... a government. In this instance, the US government and two companies; NVIDIA and AMD.
-
-https://www.techmeme.com/250811/p10#a250811p10
-
-Of course, allegations, actions, and historical instances of pay-to-play is not a new thing. For such a young country, [100 years of US history goes by](https://www.senate.gov/artandhistory/senate-stories/one-hundred-years-since-teapot-dome.htm) in the blink of an eye. So, if *"data is the new oil"* holds true, the future of our AI value chain might rhyme with history.
+https://www.techmeme.com/200813/p22#a200813p22
 
 
-# #OpenToWork Weekly
+   
+## ✅ Final Thoughts Friday for 2025-08-22
+ 
+The biggest story of the week is Intel and the U.S. government.
+
+https://www.techmeme.com/250822/p20#a250822p20
+
+The second biggest story is the market reaction.
+
+![INTC was up 5%](https://assets.buttondown.email/images/42b1eabc-5299-411a-843a-8284e70813bb.png?w=960&amp;fit=max)
+
+
+
+
+   
+## 🔮 Sneak Peak Saturday for 2025-08-23
+ 
+In case you missed this one in the Friday news dump:
+
+https://www.techmeme.com/250822/p28#a250822p28
+
+Balkanization of Internet has been a recurring dystopian theme since at least as far back as the 1990s. A "403 Forbidden" due to political power [is still possible in the United States](https://en.wikipedia.org/wiki/Internet_censorship_in_the_United_States#State_laws) even in the year 205.
+
+https://en.wikipedia.org/wiki/Splinternet
+   
+
+
+# OpenToWork Weekly
 
 I participated in a [#NeverSearchAlone](https://www.youtube.com/watch?v=OH3nzRdwYPA) [#JSC](https://www.phyl.org/jsc) after rebooting [Cuthrell Consulting](https://cuthrell.consulting) and [joining NexusTek](https://cuthrell.consulting/blog/jay-cuthrell-joins-nexustek/).
 
@@ -103,6 +132,7 @@ I added those [#OpenToWork](https://www.linkedin.com/search/results/content/?key
 
 Those in my network that are [#OpenToWork](https://www.linkedin.com/search/results/content/?keywords=%23OpenToWork&amp;origin=FACETED_SEARCH&amp;postedBy=%5B%22first%22%5D&amp;sid=TbC&amp;sortBy=%22date_posted%22):
 
+- [Scott Place - High Performance Sales Rep](https://www.linkedin.com/in/scottplace/)
 - [Trevor Schulz - 20+ Years in Tech Sales | Loyal, Dedicated, and Ready to Work Today](https://www.linkedin.com/in/trevorschulz/)
 - [Brian Booden - Ranked #1 in the UK for Qlik and DataViz Content](https://www.linkedin.com/in/qlikluminary/)
 - [Elizabeth Quintanilla - Fractional CMO, Digital Marketing Consultant &amp; Coach, Marketing Gunslinger](https://www.linkedin.com/in/elizabethquintanilla/)
