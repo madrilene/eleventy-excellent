@@ -45,7 +45,7 @@ First funding… and then something fun.
 
 💰 + 🤖 + 🍪 + ⚛️ Funding flows for AI, electronics, and quantum companies.
 
-* [Kite](https://www.google.com/search?q=https://www.techmeme.com/250902/p4%23a250902p4) (Agentic AI web infrastructure): **$18M**
+* [Kite](https://www.linkedin.com/posts/gokiteai_were-thrilled-to-announce-our-18m-series-activity-7368623628382334978-CtUF?utm_source=share&utm_medium=member_desktop&rcm=ACoAACk1T7oBu6QkP2p3bHgknv3R55ktER0dzqc) (Agentic AI web infrastructure): **$18M**
 * [Aurasell](https://www.techmeme.com/250831/p3#a250831p3) (AI sales automation): **$30M**
 * [OpenLight](https://www.techmeme.com/250831/p8#a250831p8) (silicon photonic chips): **$34M**
 * [Phasecraft](https://www.techmeme.com/250902/p1#a250902p1) (quantum computing algorithms): **$34M**
