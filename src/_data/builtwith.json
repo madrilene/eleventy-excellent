@@ -186,5 +186,11 @@
     "filename": "construccionescarrascosa",
     "link": "https://construccionescarrascosa.com",
     "builtbylene": true
-  }
+  },
+    {
+    "name": "pedromelorocha.pt",
+    "description": "Portuguese backend developer writing about code, tech, and life",
+    "filename": "pedromelorocha",
+    "link": "https://pedromelorocha.pt"
+    }
 ]
