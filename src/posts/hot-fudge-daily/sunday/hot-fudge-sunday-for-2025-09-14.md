@@ -9,7 +9,7 @@ date: 2025-09-14
 
 I migrated from Mastodon and decided on [GoToSocial](https://codeberg.org/superseriousbusiness/gotosocial). It was pretty smooth but the Fediverse is still [early days](https://cuthrell.com/@jay/statuses/01K510H6R4NR22EVJA4TFDTEWR).
 
-[Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) at [ESP, a NexusTek company](https://www.nexustek.com/esp) shared insights on the [top cybersecurity challenges in Hospitality](https://www.nexustek.com/insights/cybersecurity-challenges-in-hospitality)
+[Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) at [ESP, a NexusTek company](https://www.nexustek.com/esp) shared insights on the [top cybersecurity challenges in Hospitality](https://www.nexustek.com/insights/cybersecurity-challenges-in-hospitality).
 
 https://www.nexustek.com/insights/cybersecurity-challenges-in-hospitality
 
