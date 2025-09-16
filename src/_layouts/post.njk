@@ -4,7 +4,7 @@ schema: BlogPosting
 ---
 
 <div class="region" style="--region-space-top: var(--space-xl-2xl)">
-  <div class="wrapper flow prose">
+  <div class="wrapper flow prose" data-pagefind-body data-pagefind-filter="type:Post" data-pagefind-meta="type:Post">
     <h1 class="gradient-text">{{ title }}</h1>
 
     {% if image %}
@@ -37,7 +37,7 @@ schema: BlogPosting
   <!--  h-card infos: https://indieweb.org/authorship -->
   <div hidden class="h-entry">
     <a class="u-url" href="{{ page.url | url | absoluteUrl(meta.url) }}">{{ title }}</a>
-    <a class="p-name u-url" rel="author" href="{{ meta.url }}">{{ meta.author.name }}</a>
+    <a class="p-name u-url" rel="author" href="{{ meta.url }}" data-pagefind-meta="author">{{ meta.author.name }}</a>
     <img
       eleventy:ignore
       class="u-author h-card"
