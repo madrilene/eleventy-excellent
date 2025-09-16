@@ -1,0 +1,38 @@
+---
+title: Search
+permalink: /search/index.html
+description: 'Search the Eleventy Excellent website.'
+layout: page
+---
+
+<search>
+  <form role="search" action="https://duckduckgo.com" method="GET" id="search">
+    <fieldset>
+      <label for="q" class="hidden">Search</label>
+      <input id="q" type="search" name="q" placeholder="Search" autofocus>
+      <input type="hidden" name="sites" value="{{meta.domain}}">
+      <input type="submit" value="Search" class="hidden">
+    </fieldset>
+
+    <div class="filter-and-results filter-and-results--hidden" id="filter-and-results">
+      <fieldset class="types">
+        <label><input type="checkbox" name="Page">Page</label>
+        <label><input type="checkbox" name="Post">Post</label>
+      </fieldset>
+      <div class="results-area">
+        <header id="results-count"></header>
+        <div class="results" id="results"></div>
+      </div>
+    </div>
+  </form>
+</search>
+
+
+{% css "local" %}
+  {% include "css/forms.css" %}
+  {% include "css/search.css" %} 
+  {% include "css/custom-card.css" %}
+{% endcss %}
+{% js "defer" %}
+  {% include "scripts/search.js" %}
+{% endjs %} 

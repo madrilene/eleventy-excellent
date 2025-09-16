@@ -1,0 +1,33 @@
+form#search {
+  .filter-and-results {
+    display: flex;
+    flex-direction: row;
+
+    &.filter-and-results--hidden {
+      display: none;
+    }
+
+    fieldset.types {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      font-size: smaller;
+    }
+
+    .results-area {
+      padding-right: 0.7em;
+    }
+  }
+}
+
+@media screen(ltsm) {
+  form#search {
+    .filter-and-results {
+      flex-direction: column;
+
+      .results-area {
+        padding-right: 0;
+      }
+    }
+  }
+}

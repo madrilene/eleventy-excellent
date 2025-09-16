@@ -11,6 +11,12 @@ form > * + * {
   background: var(--color-bg-accent);
   color: var(--color-text);
   width: 100%;
+  outline: 1px solid var(--focus-color, currentColor);
+  outline-offset: var(--focus-offset, 0.3ch);
+
+  &:focus-visible {
+    outline: 3px solid var(--focus-color, currentColor);
+  }
 
   &::placeholder {
     color: var(--color-mid);
@@ -37,7 +43,7 @@ label:has(input) {
 }
 
 label:has(input) + label:has(input) {
-  --flow-spce: var(--space-s-m);
+  --flow-space: var(--space-s-m);
 }
 
 /* Slightly adjusts the vertical position of the check/radio */
@@ -55,7 +61,7 @@ label input:disabled + * {
 }
 
 fieldset {
-  border: var(--stroke);
+  border: none;
   padding: var(--space-m);
 }
 
