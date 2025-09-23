@@ -55,5 +55,11 @@
       <script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
       <custom-easteregg></custom-easteregg>
     {%- endif -%}
+
+    <!-- pagefind result highlighting -->
+    <script type="module">
+      await import('/pagefind/pagefind-highlight.js');
+      new PagefindHighlight({ highlightParam: "highlight" });
+    </script>
   </body>
 </html>
