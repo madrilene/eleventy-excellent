@@ -20,7 +20,7 @@ For example, back in 2022, I wondered out loud how impactful [OTel](https://fud
 
 In 2024, OTel is even more interesting. Packaging of OTel for wider adoption is still a thing too. i.e. ADOT. [^ADOT] (this roadmap will need to migrate to the newer GitHub projects format in a couple of weeks)
 
-[^ADOT]:[AWS Distro for OpenTelemetry Collector]((https://github.com/orgs/aws-observability/projects/4?utm_source=hot-fudge-daily&utm_medium=email))
+[^ADOT]:[AWS Distro for OpenTelemetry Collector](https://github.com/orgs/aws-observability/projects/4?utm_source=hot-fudge-daily&utm_medium=email)
 
 ### Markets, Headlines, and Reality
 

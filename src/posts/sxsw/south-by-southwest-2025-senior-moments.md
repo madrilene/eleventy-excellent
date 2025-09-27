@@ -38,7 +38,7 @@ Third thing…
 
 ---
 
-This week we take a look at my [South by Southwest® (SXSW®)](https://en.wikipedia.org/wiki/South\_by\_Southwest) 2025 [PanelPicker]((https://panelpicker.sxsw.com)) submission.
+This week we take a look at my [South by Southwest® (SXSW®)](https://en.wikipedia.org/wiki/South\_by\_Southwest) 2025 [PanelPicker](https://panelpicker.sxsw.com) submission.
 
 # Getting Informed
 
