@@ -28,7 +28,7 @@ blog:
       <div class="feature |  region region-space-l">
         <custom-masonry layout="50-50">
           {% set itemList = collections.allPosts %}
-					{% asyncEach item in itemList.slice(0, 10) %}
+					{% asyncEach item in itemList.slice(0, 20) %}
             {% set headingLevel = "h3" %}
 						{% include "partials/card-blog.njk" %}
 					{% endeach %}
