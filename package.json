@@ -59,8 +59,6 @@
     "markdown-it-link-attributes": "^4.0.1",
     "markdown-it-mark": "^4.0.0",
     "markdown-it-prism": "^3.0.0",
-    "netlify-plugin-cache": "^1.0.3",
-    "node-fetch": "^3.3.2",
     "postcss": "^8.5.5",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.0",
