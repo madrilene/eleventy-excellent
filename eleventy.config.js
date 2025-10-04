@@ -7,6 +7,9 @@
  * @returns {Object} -
  */
 
+import path from "node:path";
+import fs from "node:fs";
+
 // register dotenv for process.env.* variables to pickup
 import dotenv from 'dotenv';
 dotenv.config();
@@ -44,6 +47,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(plugins.drafts);
   eleventyConfig.addPlugin(embedEverything, {
     add: ['bluesky', 'mastodon', 'soundcloud'],
+    // directory: '.cache/embed-everything/',
+    // duration: '1d',
     // Add the mandatory "server" value required for Mastodon.
 		mastodon: {
 			options: {
@@ -67,6 +72,8 @@ eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
   });
 
   eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
+    
+    outputDir: '.cache/@11ty/img/',
     formats: ['webp', 'jpeg'],
     widths: ['auto'],
     htmlOptions: {

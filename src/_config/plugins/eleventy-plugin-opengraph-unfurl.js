@@ -1,8 +1,6 @@
 // Using ES Module syntax for imports
-import fetch from 'node-fetch';
+import EleventyFetch from '@11ty/eleventy-fetch'; // Use EleventyFetch for caching
 import { JSDOM } from 'jsdom';
-import fs from 'fs';
-import path from 'path';
 import { URL } from 'url';
 
 // Sleep utility function to add a delay
@@ -13,30 +11,30 @@ function normalizeDomain(domain) {
   return domain.startsWith('www.') ? domain.substring(4) : domain;
 }
 
-// Cache directory
-const cacheDir = '.cache/opengraph-unfurl';
-if (!fs.existsSync(cacheDir)) {
-  fs.mkdirSync(cacheDir, { recursive: true });
+// Function to get a random number between a min and max
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-async function getOpenGraphData(url) {
-  const cacheKey = Buffer.from(url).toString('base64');
-  const cacheFile = path.join(cacheDir, cacheKey);
-
-  // Check cache first
-  if (fs.existsSync(cacheFile)) {
-    console.log(`[eleventy-plugin-opengraph-unfurl] Using cache for: ${url}`);
-    return JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
-  }
-
-  // Add a random delay to avoid overwhelming the target server
-  const delay = Math.floor(Math.random() * 500) + 100; // Random delay between 100ms and 600ms
-  await sleep(delay);
-
+async function getOpenGraphData(url, cacheDir) {
   try {
+    // Add a random delay to avoid overwhelming the target server
+    const delay = Math.floor(Math.random() * 500) + 100; // Random delay between 100ms and 600ms
+    await sleep(delay);
+
     console.log(`[eleventy-plugin-opengraph-unfurl] Fetching data for: ${url}`);
-    const response = await fetch(url);
-    const html = await response.text();
+    
+    // Set a random cache duration between 180 and 365 days
+    const cacheDuration = `${getRandomInt(180, 365)}d`;
+
+    // Use EleventyFetch to get the data, which handles caching automatically
+    const html = await EleventyFetch(url, {
+      duration: cacheDuration, 
+      type: 'text',
+      directory: '.cache/eleventy-fetch/'
+      // directory: cacheDirectory // Use the configurable cache directory
+    });
+
     const dom = new JSDOM(html);
     const meta = dom.window.document.head.querySelectorAll('meta');
 
@@ -49,9 +47,6 @@ async function getOpenGraphData(url) {
         ogData[key] = content;
       }
     });
-
-    // Write to cache
-    fs.writeFileSync(cacheFile, JSON.stringify(ogData, null, 2));
 
     return ogData;
   } catch (error) {
@@ -79,7 +74,13 @@ function renderOpenGraphUnfurlCard(data, url) {
 }
 
 export default function(eleventyConfig, options = {}) {
-  const { allowedDomains = [] } = options;
+  // Set default options
+  const defaultOptions = {
+    allowedDomains: [],
+    cacheDirectory: '.cache/opengraph-unfurl/'
+  };
+
+  const { allowedDomains, cacheDirectory } = { ...defaultOptions, ...options };
 
   eleventyConfig.addTransform('opengraph-unfurl', async function(content, outputPath) {
     if (outputPath && outputPath.endsWith('.html')) {
@@ -92,29 +93,27 @@ export default function(eleventyConfig, options = {}) {
       if (matches.length > 0) {
         console.log(`[eleventy-plugin-opengraph-unfurl] Processing unfurls for: ${outputPath}`);
         console.log(`[eleventy-plugin-opengraph-unfurl] Found ${matches.length} links to unfurl.`);
-        const ogDataList = [];
-
-        // Process each match sequentially with a delay
-        for (const match of matches) {
+        
+        // Process all matches in parallel
+        const promises = matches.map(async (match) => {
           const url = match[1];
           const domain = new URL(url).hostname;
           
           if (allowedDomains.includes(normalizeDomain(domain))) {
-            const ogData = await getOpenGraphData(url);
-            ogDataList.push(ogData);
+            const ogData = await getOpenGraphData(url, cacheDirectory);
+            return renderOpenGraphUnfurlCard(ogData, url);
           } else {
             console.log(`[eleventy-plugin-opengraph-unfurl] Skipping unfurl for ${url}. Domain not in allowed list.`);
-            ogDataList.push(null);
+            return match[0]; // Return the original paragraph if the domain is not allowed
           }
-        }
-        
-        let i = 0;
-        return content.replace(regex, () => {
-          const ogData = ogDataList[i];
-          const url = matches[i][1];
-          i++;
-          return renderOpenGraphUnfurlCard(ogData, url);
         });
+
+        // Wait for all promises to resolve
+        const replacements = await Promise.all(promises);
+
+        // Replace all matches in the content
+        let i = 0;
+        return content.replace(regex, () => replacements[i++]);
       }
     }
     return content;
