@@ -11,6 +11,9 @@ const ALLOWED_DOMAINS = [
     'www.techmeme.com', 'www.nexustek.com', 'en.wikipedia.org',
 ];
 
+// Helper function to create a delay
+const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 async function fetchOpenGraphData(url) {
   try {
     const html = await EleventyFetch(url, { duration: "1y", type: "buffer" });
@@ -23,26 +26,31 @@ async function fetchOpenGraphData(url) {
 }
 
 export default async function() {
-  console.log("Fetching all unfurl data...");
+  console.log(`Fetching unfurl data for ${uniqueLinks.length} links...`);
   const unfurlData = {};
   
-  const promises = uniqueLinks.map(async (url) => {
+  // --- This is the updated section ---
+  // We replace Promise.all with a sequential for...of loop
+  let count = 0;
+  for (const url of uniqueLinks) {
+    count++;
+    console.log(`[${count}/${uniqueLinks.length}] Processing: ${url}`);
     try {
       const urlObject = new URL(url);
-      if (!ALLOWED_DOMAINS.includes(urlObject.hostname)) return;
+      if (!ALLOWED_DOMAINS.includes(urlObject.hostname)) continue;
 
       const data = await fetchOpenGraphData(url);
       if (data && data.success) {
         unfurlData[url] = data;
       }
+      // Wait for 200 milliseconds before the next request to be polite
+      await wait(200); 
     } catch (error) {
       console.error(`[unfurls.js] Error processing URL ${url}:`, error.message);
     }
-  });
+  }
+  // --- End of updated section ---
 
-  await Promise.all(promises);
-
-  // Ensure cache directory exists and write the results to our own cache file
   await fs.mkdir(path.dirname(CACHE_PATH), { recursive: true });
   await fs.writeFile(CACHE_PATH, JSON.stringify(unfurlData, null, 2));
 
