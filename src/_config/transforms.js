@@ -9,10 +9,8 @@ export default {
 
       console.log(`\n[Unfurl Debug] Processing: ${this.page.inputPath}`);
 
-      // This regex looks for a <p> tag that ONLY contains an <a> tag
-      // where the link text is the same as the href. e.g. <p><a href="https://11ty.dev">https://11ty.dev</a></p>
-      const LINK_IN_PARAGRAPH_REGEX = /<p><a href="(.+?)">\1<\/a><\/p>/g;
-      
+      const LINK_IN_PARAGRAPH_REGEX = /<p><a href="([^"]+)"[^>]*>[^<]+<\/a><\/p>/g;
+   
       const matches = Array.from(content.matchAll(LINK_IN_PARAGRAPH_REGEX));
 
       if (matches.length === 0) {
