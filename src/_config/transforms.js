@@ -1,13 +1,14 @@
 // src/_config/transforms.js
 export default {
   unfurl: (eleventyConfig) => {
-    // The fix is to change "async function" to "function"
+    // Use a standard 'function' to get the correct 'this' context from Eleventy
     eleventyConfig.addTransform("unfurl", function (content) {
+      // Check if this is a post and an HTML file before doing anything
       if (!this.page.inputPath.startsWith('./src/posts/') || !this.page.outputPath.endsWith(".html")) {
         return content;
       }
 
-      // This is our more flexible regex that correctly finds the links
+      // This is our flexible regex that finds the correct links
       const LINK_IN_PARAGRAPH_REGEX = /<p><a href="([^"]+)"[^>]*>[^<]+<\/a><\/p>/g;
       
       const matches = Array.from(content.matchAll(LINK_IN_PARAGRAPH_REGEX));
