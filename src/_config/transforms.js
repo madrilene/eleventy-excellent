@@ -1,12 +1,13 @@
 // src/_config/transforms.js
 export default {
   unfurl: (eleventyConfig) => {
-    // We've changed "async function" to a regular "function"
+    // The fix is to change "async function" to "function"
     eleventyConfig.addTransform("unfurl", function (content) {
       if (!this.page.inputPath.startsWith('./src/posts/') || !this.page.outputPath.endsWith(".html")) {
         return content;
       }
 
+      // This is our more flexible regex that correctly finds the links
       const LINK_IN_PARAGRAPH_REGEX = /<p><a href="([^"]+)"[^>]*>[^<]+<\/a><\/p>/g;
       
       const matches = Array.from(content.matchAll(LINK_IN_PARAGRAPH_REGEX));
@@ -31,7 +32,7 @@ export default {
       let processedContent = content;
       for (const match of matches) {
         const [fullMatch, url] = match;
-        // Now, this.ctx will be defined correctly!
+        // This line will now work correctly
         const allUnfurls = this.ctx.unfurls; 
         const unfurlData = allUnfurls[url];
         
