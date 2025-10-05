@@ -23,26 +23,39 @@ export default {
 
       if (matches.length === 0) return content;
       
-      const createCard = (data) => `
-        <div class="unfurl-card">
-          <a href="${data.ogUrl}" target="_blank" rel="noopener noreferrer">
-            ${data.ogImage ? `<img src="${data.ogImage.url}" alt="">` : ''}
-            <strong>${data.ogTitle || 'No Title'}</strong>
-            <p>${data.ogDescription || ''}</p>
-            <small>${new URL(data.ogUrl).hostname}</small>
-          </a>
-        </div>
-      `;
+      const createCard = (data, fallbackUrl) => {
+        // Use the ogUrl if it exists, otherwise use the original URL as a fallback.
+        const displayUrl = data.ogUrl || fallbackUrl;
+        let hostname = '';
+
+        try {
+          // Safely create the hostname
+          hostname = new URL(displayUrl).hostname;
+        } catch (e) {
+          console.error(`[Unfurl Transform] Could not parse URL: ${displayUrl}`);
+        }
+
+        return `
+          <div class="unfurl-card">
+            <a href="${displayUrl}" target="_blank" rel="noopener noreferrer">
+              ${data.ogImage ? `<img src="${data.ogImage.url}" alt="">` : ''}
+              <strong>${data.ogTitle || 'No Title'}</strong>
+              <p>${data.ogDescription || ''}</p>
+              <small>${hostname}</small>
+            </a>
+          </div>
+        `;
+      };
 
       let processedContent = content;
       for (const match of matches) {
         const [fullMatch, url] = match;
-        // Use our direct cache instead of this.ctx
         const allUnfurls = unfurlDataCache; 
         const unfurlData = allUnfurls[url];
         
         if (unfurlData) {
-          const cardHtml = createCard(unfurlData);
+          // Pass the original URL as a fallback
+          const cardHtml = createCard(unfurlData, url);
           processedContent = processedContent.replace(fullMatch, cardHtml);
         }
       }
