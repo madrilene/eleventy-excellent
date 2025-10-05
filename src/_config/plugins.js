@@ -25,7 +25,7 @@ export default {
   webc,
   eleventyImageTransformPlugin,
   markdownLib,
-  opengraphUnfurl,
+  //opengraphUnfurl,
   drafts,
   htmlConfig,
   cssConfig,
