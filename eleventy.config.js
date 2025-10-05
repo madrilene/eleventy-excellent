@@ -50,7 +50,7 @@ export default async function (eleventyConfig) {
 				server: 'cuthrell.com',
 			}
     }
-  });
+  }); // <-- CORRECTED SYNTAX
     
   // Add the opengraph-unfurl plugin
   eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
@@ -67,9 +67,9 @@ export default async function (eleventyConfig) {
     useTransform: true
   });
 
-  // NOTE: You can now remove the 'eleventyImageTransformPlugin' as it's replaced by the new transform below.
-  // eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, { ... });
-
+  // NOTE: The 'eleventyImageTransformPlugin' is no longer needed.
+  // The new transform below handles all images.
+  
   // NEW: Asynchronous Image Transform to process all images
   eleventyConfig.addTransform('processImages', async function (content) {
     if (this.page.outputPath && this.page.outputPath.endsWith('.html')) {
@@ -82,7 +82,6 @@ export default async function (eleventyConfig) {
 
       await Promise.all(
         images.map(async (img) => {
-          // Ignore images already inside a <picture> element
           if (img.parentElement.tagName.toLowerCase() === 'picture') {
             return;
           }
@@ -94,7 +93,6 @@ export default async function (eleventyConfig) {
           if (src) {
             try {
               const pictureElement = await imageShortcode(src, alt, title);
-              // We need to parse the new HTML and replace the original img tag
               const pictureFragment = JSDOM.fragment(pictureElement);
               img.replaceWith(pictureFragment);
             } catch (e) {
@@ -135,23 +133,18 @@ export default async function (eleventyConfig) {
   eleventyConfig.on('eleventy.after', events.svgToJpeg);
 
   // --------------------- Passthrough File Copy
-  // -- same path
   ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/css', 'src/assets/og-images'].forEach(path =>
     eleventyConfig.addPassthroughCopy(path)
   );
 
   eleventyConfig.addPassthroughCopy({
-    // -- to root
     'src/assets/images/favicon/*': '/',
-
-    // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': 'assets/components/'
   });
 
   // --------------------- general config
   return {
     markdownTemplateEngine: 'njk',
-
     dir: {
       output: 'dist',
       input: 'src',

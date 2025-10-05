@@ -4,14 +4,13 @@ import path from 'node:path';
 const stringifyAttributes = attributeMap => {
   return Object.entries(attributeMap)
     .map(([attribute, value]) => {
-      if (typeof value === 'undefined') return '';
+      if (typeof value === 'undefined' || value === null) return '';
       return `${attribute}="${value}"`;
     })
     .join(' ');
 };
 
-// This is your original async shortcode, now with 'export' added.
-// It's used for the {% image %} shortcode in .njk files.
+// This is now the one and only image function, fully asynchronous.
 export async function imageShortcode(
   src,
   alt = '',
@@ -57,12 +56,12 @@ export async function imageShortcode(
     loading,
     'decoding': loading === 'eager' ? 'sync' : 'async',
     ...(imageClass && {class: imageClass}),
-    'eleventy:ignore': ''
   });
 
-  const pictureElement = `<picture> ${imageSources}<img ${imageAttributes}></picture>`;
+  const pictureElement = `<picture>${imageSources}<img ${imageAttributes}></picture>`;
 
+  // Use the 'caption' variable (passed from the title attribute in markdown)
   return caption
-    ? `<figure slot="image" ${containerClass ? `class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
+    ? `<figure ${containerClass ? `class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
     : pictureElement;
 }
