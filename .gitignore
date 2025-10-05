@@ -17,3 +17,6 @@ src/assets/og-images/*.jpeg
 
 # python env
 .venv
+
+# Local testing; prevents committing the test configuration
+.eleventyignore
