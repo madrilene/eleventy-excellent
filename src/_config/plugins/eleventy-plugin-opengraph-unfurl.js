@@ -16,7 +16,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-async function getOpenGraphData(url, cacheDir) {
+async function getOpenGraphData(url, cacheDirectory) {
   try {
     // Add a random delay to avoid overwhelming the target server
     const delay = Math.floor(Math.random() * 500) + 100; // Random delay between 100ms and 600ms
@@ -31,7 +31,7 @@ async function getOpenGraphData(url, cacheDir) {
     const html = await EleventyFetch(url, {
       duration: cacheDuration, 
       type: 'text',
-      directory: '.cache/eleventy-fetch/'
+      directory: cacheDirectory
       // directory: cacheDirectory // Use the configurable cache directory
     });
 
