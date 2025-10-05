@@ -23,16 +23,15 @@ export async function imageShortcode(
   sizes = 'auto',
   formats = ['avif', 'webp', 'jpeg']
 ) {
-  // Prepend "./src" if not present
-  if (!src.startsWith('./src')) {
-    src = `./src${src}`;
-  }
+  // Correctly handle local vs. remote URLs
+  const isRemote = src.startsWith('http');
+  const finalSrc = (!isRemote && !src.startsWith('./src')) ? `./src${src}` : src;
 
-  const metadata = await Image(src, {
+  const metadata = await Image(finalSrc, {
     widths: [...widths],
     formats: [...formats],
     urlPath: '/assets/images/',
-    outputDir: '.cache/@11ty/img/',
+    outputDir: './dist/assets/images/',
     filenameFormat: (id, src, width, format, options) => {
       const extension = path.extname(src);
       const name = path.basename(src, extension);
@@ -66,44 +65,4 @@ export async function imageShortcode(
   return caption
     ? `<figure slot="image" ${containerClass ? `class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
     : pictureElement;
-}
-
-// NEW: This is the synchronous version for Markdown processing.
-export function imageShortcodeSync(
-  src,
-  alt = '',
-  attributes = {}
-) {
-    // Prepend "./src" if not present
-    if (!src.startsWith('./src')) {
-        src = `./src${src}`;
-    }
-
-    const options = {
-        widths: [650, 960, 1400],
-        formats: ['avif', 'webp', 'jpeg'],
-        urlPath: '/assets/images/',
-        outputDir: '.cache/@11ty/img/',
-        filenameFormat: (id, src, width, format, options) => {
-            const extension = path.extname(src);
-            const name = path.basename(src, extension);
-            return `${name}-${width}w.${format}`;
-        }
-    };
-
-    // Run the synchronous image processor
-    Image(src, options);
-
-    // Get metadata synchronously
-    const metadata = Image.statsSync(src, options);
-
-    const imageAttributes = {
-        alt,
-        sizes: 'auto',
-        loading: 'lazy',
-        decoding: 'async',
-        ...attributes
-    };
-
-    return Image.generateHTML(metadata, imageAttributes);
 }

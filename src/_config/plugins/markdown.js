@@ -9,8 +9,6 @@ import markdownItFootnote from 'markdown-it-footnote';
 import markdownitMark from 'markdown-it-mark';
 import markdownitAbbr from 'markdown-it-abbr';
 import {slugifyString} from '../filters/slugify.js';
-// 1. Import the SYNCHRONOUS image shortcode
-import { imageShortcodeSync } from '../shortcodes/image.js';
 
 export const markdownLib = markdownIt({
   html: true,
@@ -46,13 +44,19 @@ export const markdownLib = markdownIt({
   .use(markdownItFootnote)
   .use(markdownitMark)
   .use(markdownitAbbr)
-  .use(md => {
-       // 2. Modify your existing image rule
-    md.renderer.rules.image = (tokens, idx, options, env, self) => {
-      const token = tokens[idx];
-      const src = token.attrGet('src');
-      const alt = self.renderInlineAsText(token.children, options, env);
-      const caption = token.attrGet('title');
+
+  markdownLib.renderer.rules.image = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    const src = token.attrGet('src');
+    const alt = self.renderInlineAsText(token.children, options, env);
+    const caption = token.attrGet('title');
+
+     // Create a standard <img> tag. The transform will replace this.
+  let attrs = `src="${src}" alt="${alt}"`;
+  if (caption) {
+    attrs += ` title="${caption}"`;
+  }
+  return `<img ${attrs}>`;
 
       // Collect any other attributes from the markdown image syntax
       const attributes = token.attrs.reduce((acc, attr) => {
@@ -60,10 +64,6 @@ export const markdownLib = markdownIt({
         return acc;
       }, {});
 
-      // Call the synchronous image shortcode to get the <picture> element
-      const pictureElement = imageShortcodeSync(src, alt, attributes);
-
-      // 3. Keep your custom <figure> and <figcaption> logic
       if (caption) {
         return `<figure>${pictureElement}<figcaption>${caption}</figcaption></figure>`;
       }
