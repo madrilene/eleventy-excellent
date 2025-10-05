@@ -23,10 +23,13 @@ async function gatherLinks() {
   const linksArray = Array.from(uniqueLinks);
   console.log(`Found ${linksArray.length} unique standalone links.`);
 
-  await fs.mkdir('./src/_data', { recursive: true });
-
-  await fs.writeFile('./src/_data/unique_links.json', JSON.stringify(linksArray, null, 2));
-  console.log("Unique links saved to src/_data/unique_links.json");
+  // --- THIS IS THE CORRECTED PATH ---
+  const dataDir = './src/_data';
+  await fs.mkdir(dataDir, { recursive: true });
+  
+  const outputPath = `${dataDir}/unique_links.json`;
+  await fs.writeFile(outputPath, JSON.stringify(linksArray, null, 2));
+  console.log(`Unique links saved to ${outputPath}`);
 }
 
 gatherLinks();
