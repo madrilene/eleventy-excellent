@@ -9,6 +9,7 @@ import markdownItFootnote from 'markdown-it-footnote';
 import markdownitMark from 'markdown-it-mark';
 import markdownitAbbr from 'markdown-it-abbr';
 import {slugifyString} from '../filters/slugify.js';
+import { imageShortcode } from '../shortcodes/image.js'; // Import the image shortcode
 
 export const markdownLib = markdownIt({
   html: true,

@@ -10,7 +10,7 @@ const stringifyAttributes = attributeMap => {
     .join(' ');
 };
 
-export const imageShortcode = async (
+export async function imageShortcode(
   src,
   alt = '',
   caption = '',

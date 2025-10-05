@@ -79,7 +79,7 @@ eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
     widths: ['auto'],
     // Add these caching options
     cache: {
-    dir: ".cache/eleventy-img/",
+    dir: ".cache/@11ty/img/",
     duration: "365d"
   },
     htmlOptions: {
