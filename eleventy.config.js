@@ -3,6 +3,8 @@
  */
 
 import path from "node:path";
+import fs from "node:fs";
+
 // NEW: Import JSDOM for the image transform
 import { JSDOM } from 'jsdom';
 // NEW: Import the async image shortcode
@@ -24,6 +26,9 @@ import shortcodes from './src/_config/shortcodes.js';
 import embedEverything from "eleventy-plugin-embed-everything";
 
 export default async function (eleventyConfig) {
+
+  // --------------------- setup persistent image cache
+
   eleventyConfig.addWatchTarget('./src/assets/**/*.{css,js,svg,png,jpeg}');
   eleventyConfig.addWatchTarget('./src/_includes/**/*.{webc}');
 
@@ -67,9 +72,6 @@ export default async function (eleventyConfig) {
     useTransform: true
   });
 
-  // NOTE: The 'eleventyImageTransformPlugin' is no longer needed.
-  // The new transform below handles all images.
-  
   // NEW: Asynchronous Image Transform to process all images
   eleventyConfig.addTransform('processImages', async function (content) {
     if (this.page.outputPath && this.page.outputPath.endsWith('.html')) {
@@ -131,6 +133,14 @@ export default async function (eleventyConfig) {
 
   // --------------------- Make OG Images ---------------------
   eleventyConfig.on('eleventy.after', events.svgToJpeg);
+
+  // --------------------- Persist the image cache
+
+  eleventyConfig.on("eleventy.after", () => {
+		fs.cpSync(".cache/images/", path.join(eleventyConfig.directories.output, "./dist/assets/images/"), {
+			recursive: true
+		});
+	});
 
   // --------------------- Passthrough File Copy
   ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/css', 'src/assets/og-images'].forEach(path =>

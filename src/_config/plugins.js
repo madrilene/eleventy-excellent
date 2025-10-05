@@ -4,6 +4,7 @@ import rss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import webc from '@11ty/eleventy-plugin-webc';
 import {eleventyImageTransformPlugin} from '@11ty/eleventy-img';
+import { cpSync } from "node:fs";
 
 // custom
 import {markdownLib} from './plugins/markdown.js';

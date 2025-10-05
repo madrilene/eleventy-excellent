@@ -31,6 +31,13 @@ export async function imageShortcode(
     formats: [...formats],
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',
+    // Use a persistent cache to avoid reprocessing unchanged images
+    cacheOptions: {
+      duration: '30d',
+      directory: '.cache/images/',
+      removeUrlQueryParams: false,
+    },
+    // Define a custom filename format to include width and format
     filenameFormat: (id, src, width, format, options) => {
       const extension = path.extname(src);
       const name = path.basename(src, extension);
