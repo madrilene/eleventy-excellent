@@ -63,6 +63,49 @@ export default async function (eleventyConfig) {
   //  cacheDirectory: path.join('.cache', 'opengraph-unfurl')
   // });
 
+  eleventyConfig.addTransform("unfurl", async function (content) {
+    // Only run this transform on HTML pages
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    // This regex finds a paragraph tag that ONLY contains a link
+    // where the link's text is the same as its href.
+    const LINK_IN_PARAGRAPH_REGEX = /<p><a href="(.+?)">\1<\/a><\/p>/g;
+
+    // A function to build our card HTML
+    const createCard = (data) => {
+      return `
+        <div class="unfurl-card" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; margin: 16px 0; display: block; text-decoration: none; color: inherit;">
+          <a href="${data.ogUrl}" target="_blank" rel="noopener noreferrer">
+            ${data.ogImage ? `<img src="${data.ogImage.url}" alt="" style="max-width: 100%; border-radius: 4px;">` : ''}
+            <strong style="display: block; font-size: 1.1em; margin-top: 8px;">${data.ogTitle || 'No Title'}</strong>
+            <p style="font-size: 0.9em; color: #555;">${data.ogDescription || ''}</p>
+            <small style="font-size: 0.8em; color: #777;">${new URL(data.ogUrl).hostname}</small>
+          </a>
+        </div>
+      `;
+    };
+
+    // Find all matches and replace them
+    const promises = [];
+    content.replace(LINK_IN_PARAGRAPH_REGEX, (match, url) => {
+      const promise = (async () => {
+        const allUnfurls = this.ctx.unfurls; // Access the global data from _data/unfurls.js
+        const unfurlData = allUnfurls[url];
+        
+        if (unfurlData) {
+          const cardHtml = createCard(unfurlData);
+          content = content.replace(match, cardHtml);
+        }
+      })();
+      promises.push(promise);
+    });
+
+    await Promise.all(promises);
+    return content;
+  });
+
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
   eleventyConfig.addPlugin(plugins.rss);
   eleventyConfig.addPlugin(plugins.syntaxHighlight);

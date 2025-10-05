@@ -19,5 +19,4 @@ https://www.cbsnews.com/news/south-carolina-emus-missing-horry-county/
 
 https://www.youtube.com/watch?v=D6S_TMd7Jkw
 
-https://lanparty.house/![gettyimages-1130356655.jpg](https://assets.buttondown.email/images/ff99a402-8bcd-495f-b866-8181b31a8b3d.jpg?w=960&fit=max)
-
+https://lanparty.house/

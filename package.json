@@ -16,6 +16,7 @@
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
+    "links": "node _scripts/gather-links.js",
     "start": "npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty",
     "debug": "cross-env DEBUG=Eleventy* ELEVENTY_ENV=production eleventy"
@@ -35,6 +36,7 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@11ty/is-land": "^4.0.1",
     "eleventy-plugin-embed-everything": "^1.21.0",
+    "fast-glob": "^3.3.3",
     "lite-youtube-embed": "^0.3.3",
     "tailwindcss": "^3.4.17"
   },
