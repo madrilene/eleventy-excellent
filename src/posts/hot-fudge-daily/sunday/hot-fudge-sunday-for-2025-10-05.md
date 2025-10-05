@@ -7,7 +7,7 @@ date: 2025-10-05
 
 ## Last Week
 
-[Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) at [ESP, a NexusTek company](https://www.nexustek.com/esp) shared deep hospitality industry insights in [Now Showing: Front Row for Hospitality IT’s Greatest Challenges](https://www.nexustek.com/insights/hospitality-it-challenges-now-showing) and [From Farm to Table to Tech: The Secret Sauce for Today’s Restaurant Success](https://www.nexustek.com/insights/restaurant-technology-success-esp-nexustek).
+Last week, [Jason Pullo](https://www.linkedin.com/in/jason-pullo-61927b9/) at [ESP, a NexusTek company](https://www.nexustek.com/esp) shared deep hospitality industry insights in [Now Showing: Front Row for Hospitality IT’s Greatest Challenges](https://www.nexustek.com/insights/hospitality-it-challenges-now-showing) and [From Farm to Table to Tech: The Secret Sauce for Today’s Restaurant Success](https.nexustek.com/insights/restaurant-technology-success-esp-nexustek).
 
 https://www.nexustek.com/insights/restaurant-technology-success-esp-nexustek
 
