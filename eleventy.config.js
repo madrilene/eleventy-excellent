@@ -57,12 +57,12 @@ export default async function (eleventyConfig) {
     }
   }); // <-- CORRECTED SYNTAX
     
-  // Add the opengraph-unfurl plugin
-  eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
-    allowedDomains: ['techmeme.com', 'youtube.com', 'spotify.com', 'fudge.org', 'linkedin.com', 'nexustek.com', 'prnewswire.com', 'cnet.com', 'en.wikipedia.org', 'techcrunch.com', 'bsky.app', 'techfieldday.com', 'gartner.com', 'hot.fudge.org', 'techstrong.ai', 'newscientist.com', 'microsoft.com', 'theguardian.com', 'apnews.com', 'arstechnica.com', 'laughingsquid.com', 'sciencehistory.org', 'gizmodo.com', 'readwrite.com', 'theregister.com', 'zdnet.com', 'theverge.com', 'techradar.com', '9to5mac.com', '9to5google.com', 'venturebeat.com', 'thenextweb.com', 'bloomberg.com', 'cnbc.com', 'reuters.com', 'wsj.com', 'nytimes.com', 'washingtonpost.com', 'forbes.com', 'businessinsider.com', 'economist.com', 'time.com', 'wired.com', 'theatlantic.com', 'theinformation.com', 'protocol.com'],
-    cacheDirectory: path.join('.cache', 'opengraph-unfurl')
-  });
-  
+  // Refactor the opengraph-unfurl plugin
+  // eleventyConfig.addPlugin(plugins.opengraphUnfurl, {
+  //  allowedDomains: ['techmeme.com', 'youtube.com', 'spotify.com', 'fudge.org', 'linkedin.com', 'nexustek.com', 'prnewswire.com', 'cnet.com', 'en.wikipedia.org', 'techcrunch.com', 'bsky.app', 'techfieldday.com', 'gartner.com', 'hot.fudge.org', 'techstrong.ai', 'newscientist.com', 'microsoft.com', 'theguardian.com', 'apnews.com', 'arstechnica.com', 'laughingsquid.com', 'sciencehistory.org', 'gizmodo.com', 'readwrite.com', 'theregister.com', 'zdnet.com', 'theverge.com', 'techradar.com', '9to5mac.com', '9to5google.com', 'venturebeat.com', 'thenextweb.com', 'bloomberg.com', 'cnbc.com', 'reuters.com', 'wsj.com', 'nytimes.com', 'washingtonpost.com', 'forbes.com', 'businessinsider.com', 'economist.com', 'time.com', 'wired.com', 'theatlantic.com', 'theinformation.com', 'protocol.com'],
+  //  cacheDirectory: path.join('.cache', 'opengraph-unfurl')
+  // });
+
   eleventyConfig.addPlugin(plugins.EleventyRenderPlugin);
   eleventyConfig.addPlugin(plugins.rss);
   eleventyConfig.addPlugin(plugins.syntaxHighlight);
