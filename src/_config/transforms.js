@@ -1,24 +1,29 @@
-// src/_config/transforms.js
+import fs from 'fs';
+import path from 'path';
+
+// Read our custom cache file when Eleventy starts
+const CACHE_PATH = path.join(process.cwd(), '.cache/unfurls.json');
+let unfurlDataCache = {};
+try {
+  const cacheFile = fs.readFileSync(CACHE_PATH, 'utf8');
+  unfurlDataCache = JSON.parse(cacheFile);
+} catch (error) {
+  console.log('[Unfurl Transform] Cache not found. It will be created on the next build.');
+}
+
 export default {
   unfurl: (eleventyConfig) => {
-    // Use a standard 'function' to get the correct 'this' context from Eleventy
     eleventyConfig.addTransform("unfurl", function (content) {
-      // Check if this is a post and an HTML file before doing anything
       if (!this.page.inputPath.startsWith('./src/posts/') || !this.page.outputPath.endsWith(".html")) {
         return content;
       }
 
-      // This is our flexible regex that finds the correct links
       const LINK_IN_PARAGRAPH_REGEX = /<p><a href="([^"]+)"[^>]*>[^<]+<\/a><\/p>/g;
-      
       const matches = Array.from(content.matchAll(LINK_IN_PARAGRAPH_REGEX));
 
-      if (matches.length === 0) {
-        return content;
-      }
+      if (matches.length === 0) return content;
       
-      const createCard = (data) => {
-        return `
+      const createCard = (data) => `
         <div class="unfurl-card">
           <a href="${data.ogUrl}" target="_blank" rel="noopener noreferrer">
             ${data.ogImage ? `<img src="${data.ogImage.url}" alt="">` : ''}
@@ -27,14 +32,13 @@ export default {
             <small>${new URL(data.ogUrl).hostname}</small>
           </a>
         </div>
-        `;
-      };
+      `;
 
       let processedContent = content;
       for (const match of matches) {
         const [fullMatch, url] = match;
-        // This line will now work correctly
-        const allUnfurls = this.ctx.unfurls; 
+        // Use our direct cache instead of this.ctx
+        const allUnfurls = unfurlDataCache; 
         const unfurlData = allUnfurls[url];
         
         if (unfurlData) {
