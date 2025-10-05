@@ -22,6 +22,7 @@ import {getAllPosts, showInSitemap, tagList} from './src/_config/collections.js'
 import events from './src/_config/events.js';
 import filters from './src/_config/filters.js';
 import plugins from './src/_config/plugins.js';
+import transforms from './src/_config/transforms.js';
 import shortcodes from './src/_config/shortcodes.js';
 import embedEverything from "eleventy-plugin-embed-everything";
 
@@ -31,6 +32,13 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget('./src/assets/**/*.{css,js,svg,png,jpeg}');
   eleventyConfig.addWatchTarget('./src/_includes/**/*.{webc}');
+
+  // --------------------- Custom Transforms
+
+  // Transforms
+  Object.keys(transforms).forEach((transform) => {
+    transforms[transform](eleventyConfig);
+  });
 
   // --------------------- layout aliases
   eleventyConfig.addLayoutAlias('base', 'base.njk');

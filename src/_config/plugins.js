@@ -9,7 +9,7 @@ import { cpSync } from "node:fs";
 // custom
 import {markdownLib} from './plugins/markdown.js';
 import {drafts} from './plugins/drafts.js';
-import opengraphUnfurl from './plugins/eleventy-plugin-opengraph-unfurl.js';
+//import opengraphUnfurl from './plugins/eleventy-plugin-opengraph-unfurl.js';
 
 // Custom transforms
 import {htmlConfig} from './plugins/html-config.js';
