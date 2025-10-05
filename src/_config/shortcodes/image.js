@@ -10,6 +10,8 @@ const stringifyAttributes = attributeMap => {
     .join(' ');
 };
 
+// This is your original async shortcode, now with 'export' added.
+// It's used for the {% image %} shortcode in .njk files.
 export async function imageShortcode(
   src,
   alt = '',
@@ -20,7 +22,7 @@ export async function imageShortcode(
   widths = [650, 960, 1400],
   sizes = 'auto',
   formats = ['avif', 'webp', 'jpeg']
-) => {
+) {
   // Prepend "./src" if not present
   if (!src.startsWith('./src')) {
     src = `./src${src}`;
@@ -62,6 +64,46 @@ export async function imageShortcode(
   const pictureElement = `<picture> ${imageSources}<img ${imageAttributes}></picture>`;
 
   return caption
-    ? `<figure slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
-    : `<picture slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${imageSources}<img ${imageAttributes}></picture>`;
-};
+    ? `<figure slot="image" ${containerClass ? `class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
+    : pictureElement;
+}
+
+// NEW: This is the synchronous version for Markdown processing.
+export function imageShortcodeSync(
+  src,
+  alt = '',
+  attributes = {}
+) {
+    // Prepend "./src" if not present
+    if (!src.startsWith('./src')) {
+        src = `./src${src}`;
+    }
+
+    const options = {
+        widths: [650, 960, 1400],
+        formats: ['avif', 'webp', 'jpeg'],
+        urlPath: '/assets/images/',
+        outputDir: '.cache/@11ty/img/',
+        filenameFormat: (id, src, width, format, options) => {
+            const extension = path.extname(src);
+            const name = path.basename(src, extension);
+            return `${name}-${width}w.${format}`;
+        }
+    };
+
+    // Run the synchronous image processor
+    Image(src, options);
+
+    // Get metadata synchronously
+    const metadata = Image.statsSync(src, options);
+
+    const imageAttributes = {
+        alt,
+        sizes: 'auto',
+        loading: 'lazy',
+        decoding: 'async',
+        ...attributes
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+}

@@ -20,3 +20,4 @@ src/assets/og-images/*.jpeg
 
 # Local testing; prevents committing the test configuration
 .eleventyignore
+build.log

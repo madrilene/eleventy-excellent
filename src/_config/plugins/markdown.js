@@ -9,7 +9,8 @@ import markdownItFootnote from 'markdown-it-footnote';
 import markdownitMark from 'markdown-it-mark';
 import markdownitAbbr from 'markdown-it-abbr';
 import {slugifyString} from '../filters/slugify.js';
-import { imageShortcode } from '../shortcodes/image.js'; // Import the image shortcode
+// 1. Import the SYNCHRONOUS image shortcode
+import { imageShortcodeSync } from '../shortcodes/image.js';
 
 export const markdownLib = markdownIt({
   html: true,
@@ -46,21 +47,28 @@ export const markdownLib = markdownIt({
   .use(markdownitMark)
   .use(markdownitAbbr)
   .use(md => {
-    md.renderer.rules.image = (tokens, idx) => {
+       // 2. Modify your existing image rule
+    md.renderer.rules.image = (tokens, idx, options, env, self) => {
       const token = tokens[idx];
       const src = token.attrGet('src');
-      const alt = token.content || '';
+      const alt = self.renderInlineAsText(token.children, options, env);
       const caption = token.attrGet('title');
 
-      // Collect attributes
-      const attributes = token.attrs || [];
-      const hasEleventyWidths = attributes.some(([key]) => key === 'eleventy:widths');
-      if (!hasEleventyWidths) {
-        attributes.push(['eleventy:widths', '650,960,1400']);
-      }
+      // Collect any other attributes from the markdown image syntax
+      const attributes = token.attrs.reduce((acc, attr) => {
+        acc[attr[0]] = attr[1];
+        return acc;
+      }, {});
 
-      const attributesString = attributes.map(([key, value]) => `${key}="${value}"`).join(' ');
-      const imgTag = `<img src="${src}" alt="${alt}" ${attributesString}>`;
-      return caption ? `<figure>${imgTag}<figcaption>${caption}</figcaption></figure>` : imgTag;
+      // Call the synchronous image shortcode to get the <picture> element
+      const pictureElement = imageShortcodeSync(src, alt, attributes);
+
+      // 3. Keep your custom <figure> and <figcaption> logic
+      if (caption) {
+        return `<figure>${pictureElement}<figcaption>${caption}</figcaption></figure>`;
+      }
+      return pictureElement;
     };
   });
+
+export default markdownLib;
