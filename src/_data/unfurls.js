@@ -1,32 +1,34 @@
-// _data/unfurls.js
-const EleventyFetch = require("@11ty/eleventy-fetch");
-const ogs = require('open-graph-scraper');
-const uniqueLinks = require('./unique_links.json');
+import EleventyFetch from "@11ty/eleventy-fetch";
+import ogs from 'open-graph-scraper';
+// This import path assumes `unique_links.json` is in the same `src/_data` directory
+import uniqueLinks from './unique_links.json' assert { type: "json" };
 
 const ALLOWED_DOMAINS = [
+	'fudge.org',
+	'hot.fudge.org',
+	'www.theverge.com',
+	'www.youtube.com',
   'www.techmeme.com',
   'fudge.org',
   'www.nexustek.com',
-  'www.prnewswire.com',
   'en.wikipedia.org',
-  'www.youtube.com',
-  'www.linkedin.com',
-  // Add all other domains you trust here
 ];
 
 async function fetchOpenGraphData(url) {
-  // Use eleventy-fetch to cache the results
-  const html = await EleventyFetch(url, {
-    // --- THIS IS THE UPDATED LINE ---
-    duration: "1y", // Cache for 1 year
-    type: "buffer"
-  });
-
-  const { result } = await ogs({ html });
-  return result;
+  try {
+    const html = await EleventyFetch(url, {
+      duration: "1y",
+      type: "buffer"
+    });
+    const { result } = await ogs({ html });
+    return result;
+  } catch(e) {
+    console.error(`[unfurls.js] Error fetching OpenGraph data for ${url}:`, e.message);
+    return null;
+  }
 }
 
-module.exports = async function() {
+export default async function() {
   console.log("Fetching all unfurl data...");
   const unfurlData = {};
   
@@ -34,21 +36,18 @@ module.exports = async function() {
     try {
       const urlObject = new URL(url);
       if (!ALLOWED_DOMAINS.includes(urlObject.hostname)) {
-        console.log(`Skipping disallowed domain: ${urlObject.hostname}`);
         return;
       }
-
       const data = await fetchOpenGraphData(url);
-      if (data.success) {
+      if (data && data.success) {
         unfurlData[url] = data;
       }
     } catch (error) {
-      console.error(`Error unfurling ${url}:`, error.message);
+      console.error(`[unfurls.js] Error processing URL ${url}:`, error.message);
     }
   });
 
   await Promise.all(promises);
-  
   console.log(`Successfully unfurled ${Object.keys(unfurlData).length} links.`);
   return unfurlData;
 };
