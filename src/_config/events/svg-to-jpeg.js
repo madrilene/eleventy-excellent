@@ -18,7 +18,7 @@ export const svgToJpeg = async function () {
       const outputFilename = filename.substring(0, filename.length - 4);
       if (filename.endsWith('.svg') & !existsSync(path.join(ogImagesDir, outputFilename))) {
         const imageUrl = socialPreviewImagesDir + filename;
-        console.log('making opengraph images');
+        console.log('making opengraph images', imageUrl + ' to ' + outputFilename + '.jpeg');
         await Image(imageUrl, {
           formats: ['jpeg'],
           outputDir: socialPreviewImagesDir,
