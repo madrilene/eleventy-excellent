@@ -1,7 +1,10 @@
+{% set headingLevel = headingLevel | default("h2") %}
+{% set definedDate = definedDate | default(item.date) %}
+
 <custom-card clickable>
-  <h2 slot="headline" class="text-step-2">
+  <{{ headingLevel }} slot="headline" class="text-step-2">
     <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-  </h2>
+  </{{ headingLevel }}>
   <span slot="date"> {% include "partials/date.njk" %} </span>
   <p slot="content">{{ item.data.description }}</p>
 </custom-card>
