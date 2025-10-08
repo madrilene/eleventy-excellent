@@ -17,7 +17,7 @@ blog:
   </header>
 
   <article class="full | region">
-    <div class="wrapper flow prose">
+    <div class="prose wrapper flow">
       <h2 id="an-eleventy-starter">An Eleventy starter</h2>
       <p>
         Built around a CSS workflow that emphasizes guiding browser styling rather than micromanaging it. It
@@ -26,7 +26,7 @@ blog:
         connection speeds, and usage contexts.
       </p>
       <p>
-        <strong>This is <a href="https://github.com/madrilene/eleventy-excellent/">version 4</a>.</strong> I keep a
+        <strong>This is <a href="https://github.com/madrilene/eleventy-excellent/">version {{ pkg.version }}</a>.</strong> I keep a
         <a href="https://github.com/madrilene/eleventy-excellent/tree/v1">branch of v1</a>,
         <a href="https://github.com/madrilene/eleventy-excellent/tree/v2">v2</a> and <a href="https://github.com/madrilene/eleventy-excellent/tree/v3">v3</a>. I  tried to <a href="/get-started/#docs-lol">document most features and methodologies</a>.
       </p>
@@ -35,7 +35,7 @@ blog:
   </article>
 
   <section class="full | region">
-    <div class="wrapper flow prose">
+    <div class="prose wrapper flow">
       <h2>{{ blog.title }}</h2>
       {% if blog.intro %}
         <p>{{ blog.intro }}</p>
