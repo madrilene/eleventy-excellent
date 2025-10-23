@@ -1,11 +1,5 @@
 [
   {
-    "name": "Refugio Libertad",
-    "description": "Organisation of workers in the popular economy who live in rural areas in Córdoba (Argentina).",
-    "filename": "refugiolibertad",
-    "link": "https://refugio.libre.org.ar"
-  },
-  {
     "name": "Lene Saile",
     "description": "My personal site! Really, this website came before the starter, and I built the starter based on it.",
     "filename": "lenesaile",
@@ -187,10 +181,16 @@
     "link": "https://construccionescarrascosa.com",
     "builtbylene": true
   },
-    {
+  {
     "name": "pedromelorocha.pt",
     "description": "Portuguese backend developer writing about code, tech, and life",
     "filename": "pedromelorocha",
     "link": "https://pedromelorocha.pt"
-    }
+  },
+  {
+    "name": "drumsonlive.com",
+    "description": "Pedro and Echedey offer a great percussion show",
+    "filename": "drumsonlive",
+    "link": "https://www.drumsonlive.com"
+  }
 ]
