@@ -14,7 +14,7 @@
     "favicons": "node ./src/_config/setup/generate-favicons.js",
     "colors": "node ./src/_config/setup/create-colors.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
-    "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
+    "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --quiet",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "npm run dev:11ty",
     "build": "npm run clean && npm run build:11ty"
@@ -43,7 +43,7 @@
     "cssnano": "^7.1.1",
     "dayjs": "^1.11.18",
     "dotenv": "^17.2.3",
-    "esbuild": "^0.25.10",
+    "esbuild": "^0.25.11",
     "fast-glob": "^3.3.3",
     "html-minifier-terser": "^7.2.0",
     "js-yaml": "^4.1.0",
