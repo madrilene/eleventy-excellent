@@ -191,6 +191,7 @@
     "name": "drumsonlive.com",
     "description": "Pedro and Echedey offer a great percussion show",
     "filename": "drumsonlive",
-    "link": "https://www.drumsonlive.com"
+    "link": "https://www.drumsonlive.com",
+    "builtbylene": true
   }
 ]
