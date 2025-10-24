@@ -71,6 +71,10 @@ is-land:not(:defined) .details .control {
   font-size: var(--size-step-0);
 }
 
+.details details > h4 {
+  color: var(--color-text-accent);
+}
+
 /* Hide default marker */
 .details summary::-webkit-details-marker,
 .details summary::marker {
