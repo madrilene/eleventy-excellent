@@ -1,9 +1,9 @@
 ---
 title: 'Accessibility Statement'
-description: 'Our commitment to digital accessibility and how to report accessibility issues.'
-date: 2025-01-09
-layout: page.njk
-permalink: /accessibility/
+description: 'Commitment to digital accessibility and how to report accessibility issues.'
+date: "Last Modified"
+permalink: /accessibility/index.html
+layout: page
 ---
 
 Accessibility design is about ensuring equal access for people with disabilities. It is about removing barriers to access.
@@ -33,4 +33,4 @@ I very much welcome your feedback and suggestions on the accessibility of this s
 
 ---
 
-*Last updated: October 23, 2025*
+*Last updated: {{ page.date | formatDate('MMMM D, YYYY') }}*
