@@ -13,7 +13,7 @@ title: Video
 `@posterSize` (optional, default: 'auto') size passed in to custom poster
 `@jsapi` (optional, default: 'undefined') Enables [JavaScript API support](https://github.com/paulirish/lite-youtube-embed?tab=readme-ov-file#access-the-youtube-iframe-player-api).
 
-```
+```html
 <custom-youtube
   @slug="Ah6je_bBSH8"
   @label="Alberto Ballesteros - Artista Sin Obra">
@@ -34,13 +34,17 @@ title: Video
 
 ```html
 <custom-peertube
-  @instance="fair.tube"
-  @slug="8opkviMc2iDUYMwJzG1FQ4"
-  @embed-slug="3bd0b70e-7890-4216-a123-2052363645ff"
-  @label='Back at the Herperduin 💦 - 28/09/2024'>
+  @instance="peertube.tv"
+  @slug="s2oueWPpbhhUrWM6tewHYf"
+  @embed-slug="d2bf34fc-6cee-455e-86dc-b7e8979fd1a2"
+  @label='Morgan the Organ on Tour'>
 </custom-peertube>
 ```
-
 <div>
-<custom-peertube @instance="fair.tube" @slug="8opkviMc2iDUYMwJzG1FQ4" @embed-slug="3bd0b70e-7890-4216-a123-2052363645ff" @label='Back at the Herperduin 💦 - 28/09/2024'></custom-peertube>
+<custom-peertube
+  @instance="peertube.tv"
+  @slug="s2oueWPpbhhUrWM6tewHYf"
+  @embed-slug="d2bf34fc-6cee-455e-86dc-b7e8979fd1a2"
+  @label='Morgan the Organ on Tour'>
+</custom-peertube>
 </div>
