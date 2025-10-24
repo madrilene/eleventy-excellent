@@ -1,0 +1,52 @@
+---
+eleventyExcludeFromCollections: true
+layout: false
+permalink: "pa11y.json"
+---
+
+{#
+  Generates pa11y accessibility test config in test environment.
+  Tests all pages by default, or custom paths if defined in meta.tests.pa11y.customPaths
+#}
+{%- set useCustomPaths = meta.tests.pa11y.customPaths and meta.tests.pa11y.customPaths.length > 0 -%}
+
+{%- if useCustomPaths -%}
+  {%- set urls = [] -%}
+  {%- for path in meta.tests.pa11y.customPaths -%}
+    {%- set url = 'http://localhost:8080' + path -%}
+    {%- set pageData = null -%}
+    {%- for page in collections.all -%}
+      {%- if page.url == path -%}
+        {%- set pageData = page.data -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- set urls = (urls.push({
+      url: url,
+      ignore: pageData.pa11yIgnore or []
+    }), urls) -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- set urls = [] -%}
+  {%- for page in collections.showInSitemap -%}
+    {%- if page.url and page.data.excludeFromSitemap != true and page.url.startsWith('/') -%}
+      {%- set url = 'http://localhost:8080' + page.url -%}
+      {%- set urls = (urls.push({
+        url: url,
+        ignore: page.data.pa11yIgnore or []
+      }), urls) -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- set config = {
+  defaults: {
+    standard: "WCAG2AA",
+    timeout: 10000,
+    ignore: meta.tests.pa11y.globalIgnore or [],
+    chromeLaunchConfig: {
+      args: ["--no-sandbox", "--disable-setuid-sandbox"]
+    }
+  },
+  urls: urls
+} -%}
+{{- config | dump(2) | safe }}

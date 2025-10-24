@@ -17,7 +17,11 @@
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "npm run dev:11ty",
-    "build": "npm run clean && npm run build:11ty"
+    "build": "npm run clean && npm run build:11ty",
+    "pa11y:build": "npm run clean && cross-env ELEVENTY_ENV=test eleventy",
+    "pa11y:test": "sleep 3 && pa11y-ci --config ./dist/pa11y.json",
+    "pa11y:serve": "ELEVENTY_ENV=test eleventy --serve --ignore-initial",
+    "test:a11y": "npm run pa11y:build && (npm run pa11y:serve &) && sleep 5 && npm run pa11y:test"
   },
   "keywords": [],
   "repository": {
@@ -57,6 +61,7 @@
     "markdown-it-mark": "^4.0.0",
     "markdown-it-prism": "^3.0.0",
     "netlify-plugin-cache": "^1.0.3",
+    "pa11y-ci": "^4.0.1",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-import": "^16.1.1",
