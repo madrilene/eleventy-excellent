@@ -8,7 +8,7 @@ Additional colors, variants and gradients for custom properties are automaticall
 
 In the [style guide](/styleguide/) you can see how everything turns out.
 
-**Special case: colors**
+### Special case: colors
 
 As of version 4.0, you can create colors dynamically. Run `npm run colors` after setting your color values in `src/_data/designTokens/colorsBase.json`. This will create / overwrite the required `colors.json` file in the same directory. These colors become custom properties (e.g. `--color-gray-100`) and utility classes similar to the Tailwind CSS syntax (for example `bg-gray-100`, `text-gray-900`).
 

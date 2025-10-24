@@ -32,7 +32,7 @@ title: Video
 `@slug` unique video identifier for direct links in the `<custom-peertube-link>` fallback
 `@label` Used for accessibility and the `<custom-peertube-link>` fallback.
 
-```
+```html
 <custom-peertube
   @instance="fair.tube"
   @slug="8opkviMc2iDUYMwJzG1FQ4"

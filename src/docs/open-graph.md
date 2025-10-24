@@ -59,7 +59,7 @@ export const svgToJpeg = async function () {
 };
 ```
 
-**Regenerating OG images**
+### Regenerating OG images
 
 As you make changes, possibly adjust the title of your post or delete it, the images add up in `src/assets/og-images`. To delete this folder and regenerate all images, you can run `npm run clean:og`.
 

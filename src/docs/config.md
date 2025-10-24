@@ -33,7 +33,7 @@ export default {
 
 ```
 
-**Integration in Eleventy Config**
+### Integration in Eleventy Config
 
 In the main Eleventy configuration file (`eleventy.config.js`), these modules are imported:
 

@@ -1,6 +1,5 @@
 ---
 title: Details
-usage: "{% set itemList = collections.docs %}{% include 'partials/details.njk' %}"
 ---
 
 The `<custom-details>` WebC component has a corresponding Nunjucks include.
@@ -12,12 +11,16 @@ On page load, it checks if a hash corresponding to a details ID exists in the UR
 
 The sorting is set by default on "alphabetic", but you can also pass in "shuffle" or "reverse" as a parameter (directly in the `details.njk` partial).
 
-**Usage**
+### Usage
 
+{% raw %}
+```jinja2
+{% set itemList = collections.docs %}
+{% set headingLevel = "h2" %} {# optional, defaults to false #}
+{% include 'partials/details.njk' %}
 ```
-{{ usage | safe }}
-```
+{% endraw %}
 
-**Example**
+### Example
 
 You are in the middle of a custom details component!

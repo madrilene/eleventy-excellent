@@ -12,7 +12,7 @@ Optional: pass in `layout="50-50"` to set a 50% width for each column.
 
 If no JavaScript is available, the grid will fall back to the regular grid layout defined in `src/assets/css/global/compositions/grid.css`.
 
-```
+```js
 <custom-masonry> (children) </custom-masonry>
 <custom-masonry layout="50-50"> (children) </custom-masonry>
 ```

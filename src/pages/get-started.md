@@ -19,6 +19,7 @@ The [blog posts](/blog/) also explain / show some features that aren't covered h
 
 <!-- loop docs -->
 {% set itemList = collections.docs %}
+{% set headingLevel = "h2" %}
 {% include 'partials/details.njk' %}
 
 {% css "local" %}

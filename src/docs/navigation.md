@@ -6,7 +6,7 @@ Edit your navigation items in `src/_data/navigation.js`.
 
 You have two options for mobile navigation: by default, the navigation on small displays is converted to small pills that wrap. This does not require any additional JavaScript.
 
-**Drawer Menu**
+### Drawer Menu
 
 You can activate a drawer menu for mobile in `src/_data/meta.js`:
 
@@ -29,7 +29,7 @@ Adjust your menu breakpoint in `src/_data/designTokens/viewports.json`
 }
 ```
 
-**Submenu**
+### Submenu
 
 You can activate submenus in `src/_data/meta.js`:
 
