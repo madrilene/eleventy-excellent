@@ -2,7 +2,7 @@
 title: Images
 ---
 
-Using the [Eleventy Image](https://www.11ty.dev/docs/plugins/image/) plugin, there are three ways to handle image optimization: HTML Transform, Markdown syntax, and a Nunjucks shortcode. [See the dedicated blog post to dive deeper.](/blog/post-with-an-image/)
+Using the [Eleventy Image](https://www.11ty.dev/docs/plugins/image/) plugin, there are three ways to handle image optimization: HTML Transform, Markdown syntax, and Nunjucks shortcodes. [See the dedicated blog post to dive (much) deeper.](/blog/post-with-an-image/)
 
 Have a look at the [Attribute Overrides](https://www.11ty.dev/docs/plugins/image/#attribute-overrides) for the HTML Transform methods (1 and 2) for per instance overrides. Adding `eleventy:ignore` to an `<img>` element for example, skips this image.
 
@@ -21,14 +21,18 @@ The Markdown syntax creates the `<img>` element that the _HTML Transform plugin_
 ![alt text](/path/to/image.jpg)
 ```
 
-### 3. Nunjucks Shortcode
+### 3. Nunjucks Shortcodes
 
-In Nunjucks templates you can also use a shortcode.
+In Nunjucks templates you can also use shortcodes (`image` and `imageKeys`).
 
 {% raw %}
 
 ```jinja2
 {% image '/path/to/image.jpg', 'alt text' %}
+{% imageKeys {
+  "alt": "alt text",
+  "src": "/path/to/image.jpg"
+} %}
 ```
 
 {% endraw %}
