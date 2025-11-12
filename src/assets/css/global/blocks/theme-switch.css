@@ -8,7 +8,7 @@
   --button-bg: var(--_color-contrast);
   --button-color: var(--color-dark);
   --button-border-color: var(--_color-contrast);
-  outline-color: var(--_color-contrast);
+  --focus-color: var(--_color-contrast);
 }
 
 /* Hide without JS */

@@ -152,7 +152,6 @@ html:has(dialog[open]:modal) {
   }
 }
 
-/* View transition */
 @view-transition {
   navigation: auto;
 }
