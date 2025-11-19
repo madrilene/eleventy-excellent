@@ -37,3 +37,19 @@ It makes visible when your code[ wrapped in `<is-land>` elements](https://github
 ### Cascade layers
 
 We now use cascade layers! Up until now, I used the `:where()` pseudo-class to create low specificity selectors for the reset and compositions. [Mayank inspired me](https://mayank.co/blog/css-reset-layer/) to change to cascade layers. We have two major bundles of CSS: everything included in "global" In `src/assets/css/global/global.css` is now organized in cascade layers. The "local" bundle is for per-page or component CSS, and does not use cascade layers - it has thus a higher specificity, independent of any selector specificity in the global CSS.
+
+### Tailwind CSS
+
+You will find that Tailwind CSS does not work as you might expect here. I explain this in [one of the blog posts](/blog/what-is-tailwind-css-doing-here/).
+
+If you are working with **VS Code** I recommend installing the [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) addon, as it works also for the custom utility classes.
+
+If the IntelliSense does not seem to work in Nunjucks files, try adding this to your VS Code settings:
+```json
+  "tailwindCSS.includeLanguages": {
+    "jinja-html": "html",
+    "jinja": "html",
+    "njk": "html"
+  },
+```
+
