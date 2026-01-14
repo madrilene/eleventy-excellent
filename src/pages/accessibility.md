@@ -20,7 +20,7 @@ Compliance depends on how users implement and customize the starter for their sp
 
 ## Testing
 
-[pa11y-ci](https://github.com/pa11y/pa11y-ci) is used to run automated accessibility tests, [see the Docs](/docs/tests/).
+[pa11y-ci](https://github.com/pa11y/pa11y-ci) is used to run automated accessibility tests, [see the Docs](/get-started/#tests).
 
 ## Feedback
 
