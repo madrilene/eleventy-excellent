@@ -9,8 +9,8 @@ export default {
       url: '/get-started/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
+      text: 'Page with hero',
+      url: '/page-with-hero/'
     },
     {
       text: 'Blog',
