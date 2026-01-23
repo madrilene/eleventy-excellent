@@ -2,7 +2,32 @@
 layout: base
 ---
 
-<div class="region wrapper flow prose" style="--region-space-top: var(--space-xl-2xl)">
-  <h1 class="gradient-text">{{ title }}</h1>
-  {{ content | safe }}
+<div class="wrapper">
+  {% if hero.image %}
+    <custom-hero {{ hero.modifiers }}>
+      {%
+        imageKeys {
+          "src": hero.image,
+          "alt": hero.alt or title,
+          "caption": hero.caption or null,
+          "loading": "eager"
+        }
+      %}
+      <div slot="content" webc:nokeep>
+        <h1 class="text-gray-100">{{ hero.title }}</h1>
+        {% if hero.cta %}
+          <a href="{{ hero.cta_url }}" class="button" data-button-variant="primary">{{ hero.cta }}</a>
+        {% endif %}
+      </div>
+    </custom-hero>
+  {% endif %}
+
+  <div class="region flow prose" style="--region-space-top: var(--space-xl-2xl)">
+    {% if not hero.image %}<h1 class="gradient-text">{{ title }}</h1>{% endif %}
+    {{ content | safe }}
+  </div>
 </div>
+
+{%- css "local" -%}
+  {%- include 'css/custom-hero.css' -%}
+{%- endcss -%}

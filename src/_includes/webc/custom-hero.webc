@@ -1,0 +1,6 @@
+<custom-hero class="wrapper" webc:root>
+  <slot name="image"></slot>
+  <div class="content | flow">
+    <slot name="content"></slot>
+  </div>
+</custom-hero>
