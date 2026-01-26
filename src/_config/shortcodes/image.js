@@ -24,9 +24,14 @@ const processImage = async options => {
     containerClass,
     imageClass,
     widths = [650, 960, 1400],
-    sizes = 'auto',
+    sizes,
     formats = ['avif', 'webp', 'jpeg']
   } = options;
+
+  // Set sizes based on loading (if not provided)
+  if (sizes == null) {
+    sizes = loading === 'lazy' ? 'auto' : '100vw';
+  }
 
   // Prepend "./src" if not present
   if (!src.startsWith('./src')) {
