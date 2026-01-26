@@ -9,7 +9,15 @@ schema: BlogPosting
 
     {% if image %}
       <!-- image -->
-      {% image image, alt or "", credit, "eager", "feature" %}
+      {%
+        imageKeys {
+          "src": image,
+          "alt": alt or "",
+          "credit": credit,
+          "loading": "eager",
+          "containerClass": "feature"
+        }
+      %}
     {% endif %}
 
     <p class="meta | cluster gutter-xs-s">

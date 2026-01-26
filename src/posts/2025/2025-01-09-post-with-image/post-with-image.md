@@ -3,6 +3,9 @@ title: 'Post with an image'
 description: "We can use Markdown, Nunjucks shortcodes or pure HTML to add images to posts and pages."
 date: 2025-01-09
 tags: ['image', 'feature']
+image: '/assets/images/gallery/asturias-1.jpg'
+alt: 'A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape'
+credit: A photo I took.
 ---
 
 Using the powerful [Eleventy Image plugin](https://www.11ty.dev/docs/plugins/image/), we have three ways to optimize images: <a href="#html-transform">HTML Transform</a>, <a href="#markdown-syntax">Markdown syntax</a>, and <a href="#nunjucks-shortcodes">Nunjucks shortcodes</a>.
