@@ -35,7 +35,7 @@ document.addEventListener('click', event => {
 // avoid drawer flashing on page load
 document.addEventListener('DOMContentLoaded', function () {
   setTimeout(() => {
-    list.removeAttribute('no-flash');
+    list.removeAttribute('data-no-flash');
   }, 100);
 });
 

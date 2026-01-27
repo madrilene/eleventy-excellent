@@ -43,7 +43,7 @@
   visibility: var(--nav-list-visibility);
 }
 
-.mainnav ul[no-flash] {
+.mainnav ul[data-no-flash] {
   transition: none;
 }
 
