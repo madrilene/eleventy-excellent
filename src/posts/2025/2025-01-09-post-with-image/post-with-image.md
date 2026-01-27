@@ -178,24 +178,12 @@ The shortcode can be much terser than the HTML syntax, while the HTML syntax is 
 
 {% endraw %}
 
-{% set image = '/assets/images/gallery/asturias-1.jpg' %}
-{% set alt = 'A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape' %}
+{% image "/assets/images/gallery/asturias-1.jpg", "A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape", "Example image using the positional shortcode", "eager", "feature", "grayscale" %}
 
-{% set credits = ['Example image using the positional shortcode', 'Example image using the HTML syntax'] %}
-
-{% for credit in credits %}
-  {% if loop.index == 1 %}
-    {% image image, alt or "", credit, "eager", "feature", "grayscale" %}
-  {% else %}
-    <figure class="feature">
-      <img src="{{ image }}" alt="{{ alt or '' }}" loading="eager" decoding="sync" class="grayscale">
-      {% if credit %}
-        <figcaption>{{ credit }}</figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-
-{% endfor %}
+<figure class="feature">
+  <img src="/assets/images/gallery/asturias-1.jpg" alt="A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape" loading="eager" decoding="sync" class="grayscale">
+    <figcaption>Example image using the HTML syntax</figcaption>
+</figure>
 
 More:
 - https://www.11ty.dev/docs/plugins/image/
