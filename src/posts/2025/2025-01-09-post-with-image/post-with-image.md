@@ -183,7 +183,7 @@ The shortcode can be much terser than the HTML syntax, while the HTML syntax is 
 {% image "/assets/images/gallery/asturias-1.jpg", "A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape", "Example image using the positional shortcode", "eager", "feature", "grayscale" %}
 
 <figure class="feature">
-  <img src="/assets/images/gallery/asturias-1.jpg" alt="A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape" loading="eager" decoding="sync" class="grayscale">
+  <img src="/assets/images/gallery/asturias-1.jpg" alt="A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape" loading="eager" decoding="sync" class="grayscale" sizes="100vw">
     <figcaption>Example image using the HTML syntax</figcaption>
 </figure>
 
