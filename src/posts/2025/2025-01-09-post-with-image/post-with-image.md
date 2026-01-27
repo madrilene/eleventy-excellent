@@ -23,13 +23,13 @@ We can pass in overrides for every instance and use attributes. By default all i
 
 Another thing to note is the  `widths: ['auto']` setting, which by default only includes the original size image. We can set the dedicated `widths` to be used by adding `eleventy:widths="800,1200"` on the element. For images with [Markdown syntax](/blog/post-with-an-image/#markdown-syntax), I set fixed `widths` so we don't need to set a value on every instance.
 
-`sizes` defaults to `auto`, which is applied to all lazy loading images. For eager-loading images, the value is equivalent to `100vw` See: https://github.com/whatwg/html/pull/8008. We can _still_ overwrite this, by setting the `sizes` attribute directly on the `<img>` element, with something specific like `sizes="(max-width: 615px) 50vw, 100vw"`.
-
+`sizes` defaults to `auto`, which is by default applied to all lazy loading images. See: https://github.com/whatwg/html/pull/8008. We can overwrite this, by setting the `sizes` attribute directly on the `<img>` element, with something specific like `sizes="(max-width: 615px) 50vw, 100vw"`. Note:
+The `sizes` attribute is required if `widths` has more than one entry. No default value for is added for `sizes` for eagerly loaded images, so we need to set it explicitly.
 ```html
-<img src="./co-located-image.jpg" alt="alt text" eleventy:widths="200,600" loading="eager" decoding="sync">
+<img src="./co-located-image.jpg" alt="alt text" eleventy:widths="200,600" sizes="100vw" loading="eager" decoding="sync">
 ```
 
-<img src="./asturias-1.jpg" alt="A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape" eleventy:widths="200,600" sizes="(max-width: 615px) 50vw, 100vw" loading="eager" decoding="sync">
+<img src="./asturias-1.jpg" alt="A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape" eleventy:widths="200,600" sizes="100vw" loading="eager" decoding="sync">
 
 **Extra benefit:** we can use both relative and absolute image sources.
 One downside is that it comes with a higher build cost due to the post-processing step.
@@ -54,12 +54,16 @@ We can also add custom attributes here ([Kudos to Aleksandr](https://www.aleksan
 
 ```markdown
 ![alt text](/path/to/image){attrs}
-![Close-up...](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" class="grayscale"}
+![Close-up...](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" sizes="100vw" class="grayscale"}
 ```
 
-![Close-up of a delicate white flower with a yellow center, surrounded by green leaves](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" class="grayscale"}
+![Close-up of a delicate white flower with a yellow center, surrounded by green leaves](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" sizes="100vw" class="grayscale"}
+
+As the Markdown syntax is based on the HTML Transform, we must also add a custom `sizes` attribute to the image if we want to eager-load the image.
 
 ## Nunjucks shortcodes
+
+There are two Nunjucks shortcodes available: `image` and `imageKeys`. All skipped or left out parameters are set to their default values: an empty string if no `alt` text is passed, `loading = 'lazy'`, the `<picture>` element gets its set of images from the default `widths=[650,960,1400]` and compares to a condition of `sizes="auto"` (for lazy loading images) or `100vw` (for eager loading images), formats are `['avif', 'webp', 'jpeg']`.
 
 ### Positional parameters Shortcode
 
@@ -74,8 +78,6 @@ The most basic version contains only the path to the image.
 ```
 
 {% endraw %}
-
-All skipped parameters are set to their default values: an empty string if no `alt` text is passed, `loading = 'lazy'`, the `<picture>` element gets its set of images from the default `widths=[650,960,1400]` and compares to a condition of `sizes="auto"`, formats are `['avif', 'webp', 'jpeg']`.
 
 We can pass in manually all the conditions, and add `null` to skip. The arguments include classes for the outer container ( `<picture>` or `<figure>` element), and for the `<img>` element.
 
@@ -190,3 +192,5 @@ More:
 - https://www.youtube.com/watch?v=e0OHgC677ec
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 - https://coryd.dev/posts/2024/setting-up-image-transforms-in-eleventy
+- https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes
+- https://ericportis.com/posts/2023/auto-sizes-pretty-much-requires-width-and-height/
