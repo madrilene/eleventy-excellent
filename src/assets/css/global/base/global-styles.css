@@ -39,6 +39,7 @@ h3 {
 
 h1 {
   font-size: var(--size-step-6);
+  line-height: var(--leading-extrafine);
 }
 
 h2 {
