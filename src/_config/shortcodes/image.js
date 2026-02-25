@@ -24,9 +24,14 @@ const processImage = async options => {
     containerClass,
     imageClass,
     widths = [650, 960, 1400],
-    sizes = 'auto',
+    sizes,
     formats = ['avif', 'webp', 'jpeg']
   } = options;
+
+  // Set sizes based on loading (if not provided)
+  if (sizes == null) {
+    sizes = loading === 'lazy' ? 'auto' : '100vw';
+  }
 
   // Prepend "./src" if not present
   if (!src.startsWith('./src')) {
@@ -62,15 +67,15 @@ const processImage = async options => {
     alt,
     loading,
     'decoding': loading === 'eager' ? 'sync' : 'async',
-    ...(imageClass && {class: imageClass}),
+    ...(imageClass && { class: imageClass }),
     'eleventy:ignore': ''
   });
 
   const pictureElement = `<picture> ${imageSources}<img ${imageAttributes}></picture>`;
 
-  return caption
-    ? `<figure slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>`
-    : `<picture slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${imageSources}<img ${imageAttributes}></picture>`;
+  return caption ?
+    `<figure slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${pictureElement}<figcaption>${caption}</figcaption></figure>` :
+    `<picture slot="image"${containerClass ? ` class="${containerClass}"` : ''}>${imageSources}<img ${imageAttributes}></picture>`;
 };
 
 // Positional parameters (legacy)

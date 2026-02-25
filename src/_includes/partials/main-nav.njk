@@ -3,7 +3,7 @@
 {% set subMenu = meta.navigation.subMenu %}
 
 <nav id="mainnav" class="mainnav" aria-label="{{ meta.navigation.ariaTop }}">
-  <ul class="cluster" role="list" no-flash>
+  <ul class="cluster" role="list" data-no-flash>
     {% for item in navigation.top %}
       {% if item.submenu %}
         <li class="relative">

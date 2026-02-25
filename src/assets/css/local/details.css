@@ -68,7 +68,8 @@ is-land:not(:defined) .details .control {
 }
 
 .details details > h3 {
-  font-size: var(--size-step-0);
+  --flow-space: var(--space-xl-2xl);
+  font-size: calc(var(--size-step-0) * 1.2);
 }
 
 .details details > h4 {

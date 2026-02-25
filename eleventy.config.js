@@ -78,8 +78,7 @@ export default async function(eleventyConfig) {
     htmlOptions: {
       imgAttributes: {
         loading: 'lazy',
-        decoding: 'async',
-        sizes: 'auto'
+        decoding: 'async'
       },
       pictureAttributes: {}
     }

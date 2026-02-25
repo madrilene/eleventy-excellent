@@ -14,7 +14,6 @@ If you want to know exactly how it all works, [read this article on piccalil.li]
 The aim is to spread the idea and use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
 
 - buildexcellentwebsit.es
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
 - Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
 
 ## Watch the talk

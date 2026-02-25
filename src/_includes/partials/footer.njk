@@ -23,7 +23,13 @@
 
       <nav class="cluster" aria-label="{{ meta.navigation.ariaPlatforms }}">
         <!-- gets the first item from the feed loop set in meta -->
-        <a href="{{ meta.blog.feedLinks[0].url }}" rel="alternate" type="{{ meta.blog.feedLinks[0].type }}">
+        <a
+          href="{{ meta.blog.feedLinks[0].url }}"
+          rel="alternate"
+          type="{{ meta.blog.feedLinks[0].type }}"
+          class="button"
+          data-icon
+        >
           <span class="visually-hidden">{{ meta.blog.feedLinks[0].title }}</span>
           {% svg "misc/rss" %}
         </a>
@@ -31,7 +37,7 @@
         {% for key, value in personal.platforms %}
           {% if value != "" %}
             <!-- regular platforms -->
-            <a class="no-indicator" href="{{ value }}" rel="me">
+            <a class="no-indicator button" data-icon href="{{ value }}" rel="me">
               <span class="visually-hidden">{{ key | capitalize }}</span>
               {% svg 'platform/' + key %}
             </a>
