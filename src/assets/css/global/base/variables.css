@@ -8,7 +8,7 @@
   --wrapper-width: 85rem;
   --tracking: -0.04ch;
   --tracking-s: -0.075ch;
-  --tracking-wide: 0.04ch;
+  --tracking-wide: 0.09ch;
   --stroke: 1px solid var(--color-bg-accent);
 
   --gradient-conic: conic-gradient(var(--color-primary) 0 28%,
