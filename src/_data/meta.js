@@ -95,13 +95,6 @@ export const tests = {
     globalIgnore: []
   }
 };
-export const tests = {
-  pa11y: {
-    // keep customPaths empty if you want to test all pages
-    customPaths: ['/', '/about/', '/blog/', '/styleguide/'],
-    globalIgnore: []
-  }
-};
 export const viewRepo = {
   // this is for the view/edit on github link. The value in the package.json will be pulled in.
   allow: true,
