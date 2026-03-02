@@ -1,6 +1,8 @@
 ---
 title: 'Open Graph images'
 description: 'When you share your blog posts, a thumbnail image might appear. This starter generates these images for your blog posts automatically.'
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
 date: 2023-01-25
 tags:
   - image

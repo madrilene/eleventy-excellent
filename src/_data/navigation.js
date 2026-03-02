@@ -8,10 +8,6 @@ export default {
       url: '/get-started/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
       text: 'Posts',
       url: '/posts/',
       submenu: [{

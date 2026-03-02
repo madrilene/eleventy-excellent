@@ -1,6 +1,8 @@
 ---
 title: Post with some code
 description: Syntax Highlighting is achieved by a pack of Eleventy plugins. No browser/client JavaScript, highlight transformations are all done at build-time.
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
 date: 2022-09-01
 tags:
   - syntax highlighting

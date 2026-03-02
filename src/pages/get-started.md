@@ -1,6 +1,8 @@
 ---
 title: Get started
 permalink: /get-started/index.html
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
 description: 'You can use this starter as a template for your blog and you are ready to go! But there are some adjustments you have to make.'
 layout: page
 ---

@@ -1,5 +1,9 @@
 .site-footer {
   --cluster-horizontal-alignment: center;
+    font-weight: var(--font-bold);
+    font-size: var(--size-step-min-2);
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-wide);
 }
 
 /* increase tab size */

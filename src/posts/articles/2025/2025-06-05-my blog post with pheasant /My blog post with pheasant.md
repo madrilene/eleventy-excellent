@@ -1,7 +1,9 @@
 ---
 title: 'My blog post with pheasant'
 description: "You can use Markdown, a Nunjucks shortcode or pure HTML to add images to your posts and pages."
-draft: false
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+draft: true
 date: 2025-06-05
 updatedDate: 2026-01-06
 tags: ['image', 'feature']

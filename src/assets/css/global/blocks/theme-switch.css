@@ -1,10 +1,10 @@
 .theme-switch h2 {
-  font-size: var(--size-step-min-1);
+  font-size: var(--size-step-min-2);
   font-family: var(--font-base);
 }
 
 .theme-switch .button[aria-pressed='true'] {
-  --_color-contrast: var(--color-tertiary);
+  --_color-contrast: var(--color-orange-200);
   --button-bg: var(--_color-contrast);
   --button-color: var(--color-dark);
   --button-hover-color: var(--color-dark);
