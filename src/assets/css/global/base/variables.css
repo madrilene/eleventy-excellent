@@ -11,14 +11,18 @@
   --tracking-wide: 0.09ch;
   --stroke: 1px solid var(--color-bg-accent);
 
-  --gradient-conic: conic-gradient(var(--color-primary) 0 28%,
-      var(--color-secondary) 0 67%,
-      var(--color-tertiary) 0 100%);
-  --gradient-stripes: linear-gradient(45deg,
-      var(--color-gray-900) 0 75%,
-      var(--color-primary) 0 85%,
-      var(--color-secondary) 0 92%,
-      var(--color-tertiary) 0 100%);
+  --gradient-conic: conic-gradient(
+    var(--color-primary) 0 28%,
+    var(--color-secondary) 0 67%,
+    var(--color-tertiary) 0 100%
+  );
+  --gradient-stripes: linear-gradient(
+    45deg,
+    var(--color-gray-900) 0 75%,
+    var(--color-primary) 0 85%,
+    var(--color-secondary) 0 92%,
+    var(--color-tertiary) 0 100%
+  );
 
   --color-light: var(--color-gray-100);
   --color-dark: var(--color-gray-900);
@@ -43,43 +47,46 @@
   --color-bg-accent-2: var(--color-gray-300);
   /* border top for body */
   --color-border-top: var(--color-themecolor-light);
-
   --color-logo-icon: var(--color-themecolor-dark);
+
+  --color-code-bg: color-mix(in oklab, var(--color-bg) 97%, rgb(0, 0, 0));
+  --code-border-color: color-mix(in oklab, var(--color-bg) 96%, rgb(0, 0, 0));
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: var(--color-themecolor-lightest);
+    --color-text: var(--color-gray-200);
     --color-bg: var(--color-gray-900);
 
     --color-primary: var(--color-red-subdued);
     --color-secondary: var(--color-blue-subdued);
     --color-tertiary: var(--color-green-subdued);
 
-    --color-text-accent: var(--color-gray-300);
+    --color-text-accent: var(--color-gray-200);
     --color-bg-accent: var(--color-gray-700);
     --color-bg-accent-2: var(--color-gray-600);
     /* border top for body */
     --color-border-top: var(--color-orange-900);
-
     --color-logo-icon: var(--color-orange-700);
+
+    --color-code-bg: color-mix(in oklab, var(--color-bg) 80%, rgb(0, 0, 0));
+    --code-border-color: color-mix(in oklab, var(--color-bg) 95%, rgb(255, 255, 255));
   }
 }
 
 :root[data-theme='dark'] {
-  --color-text: var(--color-themecolor-dark);
+  --color-text: var(--color-gray-200);
   --color-bg: var(--color-gray-900);
 
   --color-primary: var(--color-red-subdued);
   --color-secondary: var(--color-blue-subdued);
   --color-tertiary: var(--color-green-subdued);
 
-  --color-text-accent: var(--color-gray-300);
+  --color-text-accent: var(--color-gray-200);
   --color-bg-accent: var(--color-gray-700);
   --color-bg-accent-2: var(--color-gray-600);
   /* border top for body */
   --color-border-top: var(--color-orange-900);
   --color-logo-icon: var(--color-orange-700);
-
 }

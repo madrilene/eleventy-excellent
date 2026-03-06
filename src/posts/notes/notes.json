@@ -3,6 +3,6 @@
   "tags": "posts",
   "category": "note",
   "permalink": "/notes/{{ title | slugify }}/index.html",
-  "eleventyExcludeFromCollections": true,
-  "excludeFromSitemap": true
+  "eleventyExcludeFromCollections": false,
+  "excludeFromSitemap": false
 }

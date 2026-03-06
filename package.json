@@ -38,8 +38,8 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@11ty/is-land": "^4.0.1",
     "@photogabble/eleventy-plugin-interlinker": "^1.1.0",
-    "markdown-it-wikilinks-plus": "github:actuallysomecat/markdown-it-wikilinks-plus",
     "lite-youtube-embed": "^0.3.4",
+    "markdown-it-wikilinks-plus": "github:actuallysomecat/markdown-it-wikilinks-plus",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {

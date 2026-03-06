@@ -1,18 +1,22 @@
 ---
-title: 'Post with an image'
-description: "We can use Markdown, Nunjucks shortcodes or pure HTML to add images to posts and pages."
-eleventyExcludeFromCollections: false
-excludeFromSitemap: false
+title: "A11Y article One"
+description: "descr"
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
 date: 2025-01-09
-updateDate: 2026-03-06
-draft: false
-image: '/assets/images/gallery/asturias-2.jpg'
-tags: ['image', 'feature']
+publishDate:
+updateDate:
+draft: true
+image:
+tags:
+  - a11y
+  - feature
 ---
 
 Using the powerful [Eleventy Image plugin](https://www.11ty.dev/docs/plugins/image/), we have three ways to optimize images: <a href="#html-transform">HTML Transform</a>, <a href="#markdown-syntax">Markdown syntax</a>, and <a href="#nunjucks-shortcodes">Nunjucks shortcodes</a>.
 
 <a name="html-transform"></a>
+
 ## HTML Transform
 
 Transforms any `<img>` or `<picture>` tags in HTML files as a post-processing step. Find the default settings directly in `eleventy.config.js`.
@@ -51,7 +55,7 @@ In `src/_config/plugins/markdown.js` I customized the Markdown rendering for ima
 ![Close-up...](/assets/images/gallery/asturias-4.jpg) 'I used a portrait lens for this one'
 ```
 
-![Inside game screen](./INSIDE_01.jpg 'Inside game screen-capture caption')
+![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg 'I used a portrait lens for this one')
 
 We can also add custom attributes here ([Kudos to Aleksandr](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/)), to overwrite the default `widths`, have the image eagerly loaded, or add a `class` attribute, etc.
 
@@ -60,7 +64,7 @@ We can also add custom attributes here ([Kudos to Aleksandr](https://www.aleksan
 ![Close-up...](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" class="grayscale"}
 ```
 
-![Close-up of a delicate white flower with a yellow center, surrounded by green leaves](./asturias-1.jpg){loading="eager" decoding="sync" eleventy:widths="400" class="grayscale"}
+![Close-up of a delicate white flower with a yellow center, surrounded by green leaves](/assets/images/gallery/asturias-2.jpg){loading="eager" decoding="sync" eleventy:widths="400" class="grayscale"}
 
 ## Nunjucks shortcodes
 

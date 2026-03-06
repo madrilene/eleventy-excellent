@@ -56,7 +56,7 @@ blockquote {
   font-size: var(--size-step-2);
 }
 
-blockquote>*+* {
+blockquote > * + * {
   margin-block-start: var(--space-m-l);
 }
 
@@ -98,16 +98,16 @@ figcaption {
   padding-block-end: var(--space-xs);
 }
 
-figcaption:after {
+/* figcaption:after {
   border-block: var(--stroke);
   content: '';
   display: block;
   margin-block: var(--space-xs);
   /* block-size: 1rem; */
-  inline-size: 50%;
+/* inline-size: 50%;
   margin-inline: auto;
   opacity: 0.8;
-}
+} */
 
 a {
   text-decoration-thickness: 0.15ex;
