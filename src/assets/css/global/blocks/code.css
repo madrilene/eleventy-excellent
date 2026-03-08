@@ -13,12 +13,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color-code-orange: hsl(30, 70%, 60%);
-    --color-code-blue: hsla(210, 90%, 15%, 1);
-    --color-code-indigo: hsla(260, 48%, 56%, 1);
-    --color-code-violet: hsla(314, 70%, 40%, 1);
-    --color-code-pink: hsl(350, 80%, 40%);
-    --color-code-gray: hsla(0, 0%, 30%, 0.75); /* updated to maintain a 5:1*/
+    --color-code-orange: hsl(30, 85%, 55%);
+    --color-code-blue: hsla(210, 95%, 25%, 0.8);
+    --color-Code-indigo: hsla(260, 50%, 65%, 0.9);
+    --color-code-violet: hsla(314, 80%, 45%, 1);
+    --color-Code-pink: hsl(350, 90%, 40%);
+    --color-code-gray: hsla(0, 0%, 35%, 0.85);
     --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
     --code-border-size: var(--border-thickness);
     --code-border-style: solid;
@@ -26,12 +26,12 @@
 }
 
 :root[data-theme='light'] {
-  --color-code-orange: hsl(30, 70%, 40%);
-  --color-code-blue: hsla(210, 90%, 15%, 1);
-  --color-code-indigo: hsla(260, 48%, 56%, 1);
-  --color-code-violet: hsla(314, 70%, 40%, 1);
-  --color-code-pink: hsl(350, 80%, 40%);
-  --color-code-gray: hsla(0, 0%, 30%, 0.75); /* updated to maintain a 5:1*/
+  --color-code-orange: hsl(30, 85%, 55%);
+  --color-code-blue: hsla(210, 95%, 25%, 0.8);
+  --color-Code-indigo: hsla(260, 50%, 65%, 0.9);
+  --color-code-violet: hsla(314, 80%, 45%, 1);
+  --color-Code-pink: hsl(350, 90%, 40%);
+  --color-code-gray: hsla(0, 0%, 35%, 0.85);
   --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
   --code-border-size: var(--border-thickness);
   --code-border-style: solid;
