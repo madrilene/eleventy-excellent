@@ -15,9 +15,9 @@
   :root {
     --color-code-orange: hsl(30, 85%, 55%);
     --color-code-blue: hsla(210, 95%, 25%, 0.8);
-    --color-Code-indigo: hsla(260, 50%, 65%, 0.9);
+    --color-code-indigo: hsla(260, 50%, 65%, 0.9);
     --color-code-violet: hsla(314, 80%, 45%, 1);
-    --color-Code-pink: hsl(350, 90%, 40%);
+    --color-code-pink: hsl(350, 90%, 30%);
     --color-code-gray: hsla(0, 0%, 35%, 0.85);
     --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
     --code-border-size: var(--border-thickness);
@@ -28,9 +28,9 @@
 :root[data-theme='light'] {
   --color-code-orange: hsl(30, 85%, 55%);
   --color-code-blue: hsla(210, 95%, 25%, 0.8);
-  --color-Code-indigo: hsla(260, 50%, 65%, 0.9);
+  --color-code-indigo: hsla(260, 50%, 65%, 0.9);
   --color-code-violet: hsla(314, 80%, 45%, 1);
-  --color-Code-pink: hsl(350, 90%, 40%);
+  --color-code-pink: hsl(350, 90%, 30%);
   --color-code-gray: hsla(0, 0%, 35%, 0.85);
   --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
   --code-border-size: var(--border-thickness);
