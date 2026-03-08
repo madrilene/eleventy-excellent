@@ -1,6 +1,7 @@
 ---
 title: 'Post with an image'
 description: "We can use Markdown, Nunjucks shortcodes or pure HTML to add images to posts and pages."
+
 eleventyExcludeFromCollections: false
 excludeFromSitemap: false
 date: 2025-01-09
@@ -12,7 +13,6 @@ tags: ['image', 'feature']
 
 Using the powerful [Eleventy Image plugin](https://www.11ty.dev/docs/plugins/image/), we have three ways to optimize images: <a href="#html-transform">HTML Transform</a>, <a href="#markdown-syntax">Markdown syntax</a>, and <a href="#nunjucks-shortcodes">Nunjucks shortcodes</a>.
 
-<a name="html-transform"></a>
 ## HTML Transform
 
 Transforms any `<img>` or `<picture>` tags in HTML files as a post-processing step. Find the default settings directly in `eleventy.config.js`.
@@ -54,6 +54,13 @@ In `src/_config/plugins/markdown.js` I customized the Markdown rendering for ima
 ![Inside game screen](./INSIDE_01.jpg 'Inside game screen-capture caption')
 
 We can also add custom attributes here ([Kudos to Aleksandr](https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/)), to overwrite the default `widths`, have the image eagerly loaded, or add a `class` attribute, etc.
+
+{% imageKeys {
+  "src": "/assets/images/blog/bear.jpeg",
+  "alt": "Bear",
+  "caption": "A bear example for the named parameters shortcode.",
+  "containerClass": "feature"
+} %}
 
 ```markdown
 ![alt text](/path/to/image){attrs}

@@ -28,7 +28,7 @@
   --color-dark: var(--color-gray-900);
   --color-mid: var(--color-gray-400);
 
-  --color-logo-icon: var(--color-orange-800);
+  --color-logo-icon: var(--color-orange-500);
   --color-border-height: 1rem;
 }
 
@@ -38,7 +38,7 @@
   --color-text: var(--color-themecolor-darkest);
   --color-bg: var(--color-themecolor-lightest);
 
-  --color-primary: var(--color-red);
+  --color-primary: var(--color-orange-300);
   --color-secondary: var(--color-blue);
   --color-tertiary: var(--color-green);
 
@@ -59,7 +59,7 @@
     --color-text: var(--color-gray-200);
     --color-bg: var(--color-gray-900);
 
-    --color-primary: var(--color-red-subdued);
+    --color-primary: var(--color-orange-500);
     --color-secondary: var(--color-blue-subdued);
     --color-tertiary: var(--color-green-subdued);
 

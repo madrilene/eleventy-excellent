@@ -1,11 +1,40 @@
 :root {
   --color-code-orange: hsl(30, 70%, 60%);
-  /* lighten a bit for dark theme */
-  --color-code-blue: color-mix(in oklab, var(--color-blue) 70%, var(--color-themecolor-lightest));
-  --color-code-indigo: hsl(260, 48%, 56%);
-  --color-code-violet: hsl(314, 70%, 60%);
+  --color-code-blue: hsla(210, 90%, 95%, 0.8);
+  --color-code-indigo: hsla(260, 48%, 56%, 0.8);
+  --color-code-violet: hsla(314, 70%, 60%, 0.9);
   --color-code-pink: hsl(350, 70%, 60%);
-  --color-code-gray: hsl(0, 0%, 58%);
+  --color-code-pink: hsl(350, 70%, 60%);
+  --color-code-gray: hsla(0, 0%, 70%, 0.75); /* updated to maintain a 5:1*/
+  --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
+  --code-border-size: var(--border-thickness);
+  --code-border-style: solid;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-code-orange: hsl(30, 70%, 60%);
+    --color-code-blue: hsla(210, 90%, 15%, 0.8);
+    --color-code-indigo: hsla(260, 48%, 56%, 0.8);
+    --color-code-violet: hsla(314, 70%, 60%, 0.9);
+    --color-code-pink: hsl(350, 70%, 60%);
+    --color-code-pink: hsl(350, 70%, 60%);
+    --color-code-gray: hsla(0, 0%, 30%, 0.75); /* updated to maintain a 5:1*/
+    --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
+    --code-border-size: var(--border-thickness);
+    --code-border-style: solid;
+  }
+}
+
+:root[data-theme='light'] {
+  --color-code-orange: hsl(30, 70%, 40%);
+  --color-code-blue: hsla(210, 90%, 15%, 0.8);
+  --color-code-indigo: hsla(260, 48%, 56%, 0.8);
+  --color-code-violet: hsla(314, 70%, 60%, 0.9);
+  --color-code-pink: hsl(350, 70%, 60%);
+  --color-code-pink: hsl(350, 70%, 60%);
+  --color-code-gray: hsla(0, 0%, 30%, 0.75); /* updated to maintain a 5:1*/
+  --color-code-text: color-mix(in oklab, var(--color-text-accent) 90%, black);
   --code-border-size: var(--border-thickness);
   --code-border-style: solid;
 }
@@ -63,7 +92,7 @@ pre[class*='language-'] {
 }
 
 .token.attr-value {
-  color: var(--color-text-accent);
+  color: var(--color-code-text);
 }
 
 .token.attribute {
@@ -146,7 +175,7 @@ pre[class*='language-'] {
 }
 
 .token.number {
-  color: var(--color-text-accent);
+  color: var(--color-code-text);
 }
 
 .token.operator {
@@ -182,7 +211,7 @@ pre[class*='language-'] {
 }
 
 .token.string {
-  color: var(--color-text-accent);
+  color: var(--color-code-text);
 }
 
 .token.symbol {

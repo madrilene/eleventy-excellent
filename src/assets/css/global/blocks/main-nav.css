@@ -39,9 +39,7 @@
   inset-inline-end: 0;
   inline-size: var(--nav-list-width);
   opacity: var(--nav-list-opacity);
-  transition:
-    opacity 0.2 var(--nav-list-timing-function),
-    visibility 0.2s ease-in-out;
+  transition: opacity 0.2 var(--nav-list-timing-function), visibility 0.2s ease-in-out;
   visibility: var(--nav-list-visibility);
 }
 
@@ -50,13 +48,11 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .mainnav>ul {
+  .mainnav > ul {
     --nav-list-transform: translateX(100%);
     --nav-list-opacity: 1;
     transform: var(--nav-list-transform);
-    transition:
-      transform 0.3s var(--nav-list-timing-function),
-      visibility 0.2s linear;
+    transition: transform 0.3s var(--nav-list-timing-function), visibility 0.2s linear;
   }
 
   .mainnav svg {
@@ -75,7 +71,7 @@
   line-height: var(--leading-flat);
 }
 
-.mainnav [data-drawer-toggle][aria-expanded='true']+ul {
+.mainnav [data-drawer-toggle][aria-expanded='true'] + ul {
   --cluster-wrap: nowrap;
   --nav-list-visibility: visible;
   --nav-list-transform: translateX(0);
@@ -109,7 +105,7 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
 .mainnav :is(a, [data-submenu-toggle]) {
   /* configuration */
   --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-text);
+  --nav-item-text-color: color-mix(in oklab, var(--color-text) 70%, black);
   --nav-item-padding: var(--space-xs) var(--space-2xs);
   --nav-item-decoration-color: transparent;
   --nav-item-font-size: var(--size-step-min-2);
@@ -156,12 +152,12 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
   --nav-item-background: var(--color-bg);
-  --nav-item-text-color: var(--color-primary);
+  --nav-item-text-color: var(--color-text);
   --nav-item-decoration-color: var(--color-themecolordark);
 }
 
 /* current parent (if submenu) */
-li:has(ul a[aria-current='page'])>[data-submenu-toggle] {
+li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
   --nav-item-background: var(--color-bg);
   --nav-item-text-color: var(--color-text);
   --nav-item-decoration-color: var(--color-orange-500);
@@ -169,7 +165,7 @@ li:has(ul a[aria-current='page'])>[data-submenu-toggle] {
 
 /* sub menu */
 
-.mainnav [data-submenu-toggle][aria-expanded='false']+ul {
+.mainnav [data-submenu-toggle][aria-expanded='false'] + ul {
   display: none;
 }
 
@@ -220,9 +216,9 @@ li:has(ul a[aria-current='page'])>[data-submenu-toggle] {
 
   .mainnav [aria-current='page'],
   .mainnav [data-state='active'],
-  li:has(ul a[aria-current='page'])>[data-submenu-toggle] {
+  li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
     --nav-item-background: transparent;
-    --nav-item-text-color: var(--color-primary);
+    --nav-item-text-color: var(--color-text);
     --nav-item-decoration-color: var(--color-orange-500);
   }
 

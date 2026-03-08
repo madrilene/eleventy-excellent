@@ -6,8 +6,10 @@
   font-weight: var(--font-bold);
   /* letter-spacing: .1rem; */
   letter-spacing: var(--tracking-wide);
+  transition: all 0.2 var(--nav-list-timing-function), visibility 0.2s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
+  color: color-mix(in oklab, var(--color-text) 70%, black);
 }
 
 .logo svg {
@@ -16,3 +18,22 @@
   /* fill: var(--color-themecolordarkest); */
   fill: var(--color-logo-icon);
 }
+
+.logo:hover svg,
+body.pageIndex .logo svg {
+  /* fill: var(--color-themecolordarkest); */
+  fill: var(--color-orange-500);
+  color: var(--color-text);
+}
+
+.logo:hover {
+  color: var(--color-text);
+}
+
+body.pageIndex .logo {
+  color: var(--color-text);
+}
+
+/* a.logo {
+  --nav-item-text-color: color-mix(in oklab, var(--color-text) 70%, black);
+} */
