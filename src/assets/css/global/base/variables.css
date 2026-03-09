@@ -36,6 +36,7 @@
 :root,
 :root[data-theme='light'] {
   --color-text: var(--color-themecolor-darkest);
+  --color-headline: var(--color-themecolor-darkest);
   --color-bg: var(--color-themecolor-lightest);
 
   --color-primary: var(--color-orange-300);
@@ -51,12 +52,16 @@
 
   --color-code-bg: color-mix(in oklab, var(--color-bg) 97%, rgb(0, 0, 0));
   --code-border-color: color-mix(in oklab, var(--color-bg) 96%, rgb(0, 0, 0));
+
+  --color-link-underline: var(--color-orange-600);
+  --color-link-underline-hover: var(--color-red-subdued);
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: var(--color-gray-200);
+    --color-text: var(--color-gray-250);
+    --color-headline: var(--color-gray-200);
     --color-bg: var(--color-gray-900);
 
     --color-primary: var(--color-orange-500);
@@ -72,11 +77,15 @@
 
     --color-code-bg: color-mix(in oklab, var(--color-bg) 80%, rgb(0, 0, 0));
     --code-border-color: color-mix(in oklab, var(--color-bg) 95%, rgb(255, 255, 255));
+
+    --color-link-text: var(--color-orange-500);
+    --color-link-underline-hover: var(--color-red-subdued);
   }
 }
 
 :root[data-theme='dark'] {
-  --color-text: var(--color-gray-200);
+  --color-text: var(--color-gray-250);
+  --color-headline: var(--color-gray-200);
   --color-bg: var(--color-gray-900);
 
   --color-primary: var(--color-red-subdued);
@@ -89,4 +98,7 @@
   /* border top for body */
   --color-border-top: var(--color-orange-900);
   --color-logo-icon: var(--color-orange-700);
+
+  --color-link-text: var(--color-orange-500);
+  --color-link-underline-hover: var(--color-red-subdued);
 }

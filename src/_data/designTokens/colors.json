@@ -1,13 +1,18 @@
 {
   "title": "Colors",
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. neutral and vibrant colors are converted to color palettes, fixed colors are kept as they are",
-  "items": [{
+  "items": [
+    {
       "name": "Gray 100",
       "value": "#f7f8fb"
     },
     {
       "name": "Gray 200",
       "value": "#e3e5e7"
+    },
+    {
+      "name": "Gray 250",
+      "value": "#C8CACC"
     },
     {
       "name": "Gray 300",

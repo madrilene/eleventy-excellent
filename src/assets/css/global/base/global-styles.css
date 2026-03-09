@@ -35,6 +35,7 @@ h3 {
   font-weight: var(--font-bold);
   line-height: var(--leading-fine);
   letter-spacing: var(--tracking);
+  color: var(--color-headline);
 }
 
 h1 {
@@ -112,12 +113,14 @@ figcaption {
 } */
 
 a {
-  text-decoration-thickness: 0.15ex;
-  text-underline-offset: 0.2ch;
+  text-decoration-thickness: 0.2ex;
+  text-underline-offset: 0.3ch;
+  text-decoration-color: var(--color-primary);
+  transition: all 0.2 ease-out;
 }
 
 a:not([class]):hover {
-  text-decoration: none;
+  color: var(--color-primary);
 }
 
 :focus {
