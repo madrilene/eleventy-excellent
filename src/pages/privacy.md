@@ -11,9 +11,7 @@ layout: page
 I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
 
 **What background data is collected?**
-~~This This This site does not use any third party tracking scripts.~~
-
-I have added [Umami](https://umami.is) stats. You can [read the Umami FAQ here](https://umami.is/docs#frequently-asked-questions) and [view the generated statistics page here](https://cloud.umami.is/share/EpMwNCW0zOa00kXX).
+I have added [Umami](https://umami.is) stats. You can [read the Umami FAQ here](https://umami.is/docs#frequently-asked-questions) and [view the generated statistics page here](https://cloud.umami.is/analytics/eu/share/2y7pRo0KJghXn70C).
 
 Note that cookies are not used at all on this site.
 
