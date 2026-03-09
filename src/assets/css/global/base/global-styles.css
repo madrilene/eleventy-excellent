@@ -113,6 +113,7 @@ figcaption {
 } */
 
 a {
+  /* font-weight: 500; */
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.3ch;
   text-decoration-color: var(--color-primary);
