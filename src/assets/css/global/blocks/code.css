@@ -1,5 +1,5 @@
 :root {
-  --color-code-orange: hsl(30, 70%, 60%);
+  --color-code-orange: hsl(30, 95%, 30%);
   --color-code-blue: hsla(210, 90%, 95%, 0.8);
   --color-code-indigo: hsla(260, 48%, 56%, 0.8);
   --color-code-violet: hsla(314, 70%, 60%, 0.9);
@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color-code-orange: hsl(30, 85%, 55%);
+    --color-code-orange: hsl(30, 95%, 30%);
     --color-code-blue: hsla(210, 95%, 25%, 0.8);
     --color-code-indigo: hsla(260, 50%, 65%, 0.9);
     --color-code-violet: hsla(314, 80%, 45%, 1);
@@ -26,7 +26,7 @@
 }
 
 :root[data-theme='light'] {
-  --color-code-orange: hsl(30, 85%, 55%);
+  --color-code-orange: hsl(30, 95%, 30%);
   --color-code-blue: hsla(210, 95%, 25%, 0.8);
   --color-code-indigo: hsla(260, 50%, 65%, 0.9);
   --color-code-violet: hsla(314, 80%, 45%, 1);
