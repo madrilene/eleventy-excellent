@@ -4,9 +4,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src:
-    local('Source Serif'),
-    url('/assets/fonts/source-serif/source-serif.woff2') format('woff2');
+  src: local('Source Serif'), url('/assets/fonts/source-serif/source-serif.woff2') format('woff2');
 }
 
 @font-face {
@@ -19,7 +17,6 @@
   /* size-adjust: 118%;
   ascent-override: 103%;
   descent-override: 30%; */
-
 }
 
 /* Source sans with Arial as fallback for body text */
@@ -28,14 +25,13 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 1000;
-  src:
-    local('Source Sans'),
-    url('/assets/fonts/source-sans/source-sans.woff2') format('woff2');
+  src: local('Source Sans'), url('/assets/fonts/source-sans/source-sans.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Source Sans Fallback';
   src: local('Arial'), local('ArialMT');
+  size-adjust: 93.7639%;
   ascent-override: 109.2105%;
   descent-override: 42.6604%;
   line-gap-override: 0%;
@@ -51,17 +47,14 @@
   font-style: italic;
   font-display: swap;
   font-weight: 100 1000;
-  src:
-    url('/assets/fonts/source-sans/source-sans-italic.woff2') format('woff2');
+  src: url('/assets/fonts/source-sans/source-sans-italic.woff2') format('woff2');
 }
 
 /* Source code pro with no fallback */
 @font-face {
   font-family: 'Source Code Pro';
   font-display: swap;
-  src:
-    local('Source Code Pro'),
-    url('/assets/fonts/source-code-pro/source-code-pro.woff2') format('woff2');
+  src: local('Source Code Pro'), url('/assets/fonts/source-code-pro/source-code-pro.woff2') format('woff2');
 }
 
 @font-face {
