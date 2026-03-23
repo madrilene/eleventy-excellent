@@ -1,42 +1,25 @@
 {
   "title": "Colors",
   "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. neutral and vibrant colors are converted to color palettes, fixed colors are kept as they are",
-  "palette": [{
-      "name": "themeColorDarkest",
-      "value": "#495464"
-    },
-    {
-      "name": "themeColorDark",
-      "value": "#bbbfca"
-    },
-    {
-      "name": "themeColorLight",
-      "value": "#e8e8e8"
-    },
-    {
-      "name": "themeColorLightest",
-      "value": "#f4f4f2"
-    }
+  "palette": [
+    { "name": "themeColor-Darkest", "value": "#495464" },
+    { "name": "themeColor-Dark", "value": "#bbbfca" },
+    { "name": "themeColor-Mid", "value": "#9ba3b4" },
+    { "name": "themeColor-Light", "value": "#dddee8" },
+    { "name": "themeColor-Lightest", "value": "#f4f4f2" }
   ],
-  "shades_neutral": [{
-    "name": "Gray",
-    "value": "#495464"
-  }],
-  "shades_vibrant": [{
-    "name": "Orange",
-    "value": "#EF7E40"
-  }],
-  "light_dark": [{
-      "name": "Red",
-      "value": "#644B49"
-    },
-    {
-      "name": "Blue",
-      "value": "#245375"
-    },
-    {
-      "name": "Green",
-      "value": "#626449"
-    }
+  "shades_neutral": [
+    { "name": "Gray", "value": "#495464" }
+  ],
+  "shades_vibrant": [
+    { "name": "Orange", "value": "#EF7E40" }
+  ],
+  "light_dark": [
+    { "name": "Red", "value": "#644B49" },
+    { "name": "Blue", "value": "#245375" },
+    { "name": "Green", "value": "#626449" }
+  ],
+  "standalone": [
+    { "group": "gray", "label": "250", "value": "#C8CACC" }
   ]
 }

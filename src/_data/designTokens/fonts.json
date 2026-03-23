@@ -1,20 +1,15 @@
 {
-  "title": "Fonts",
-  "description": "Source Serif for headlines",
-  "items": [{
-      "name": "Display",
-      "description": "Source serif 700 with Georgia Bold as fallback",
-      "value": ["Source Serif", "Source Serif Fallback", "serif"]
-    },
-    {
-      "name": "Base",
-      "description": "Source Sans 3 VF with Arial as fallback ",
-      "value": ["Source Sans", "Source Sans Fallback", "sans-serif"]
-    },
-    {
-      "name": "Mono",
-      "description": "Source Code Pro with Courier New as fallback",
-      "value": ["Source Code Pro", "Source Code Pro Fallback", "Dank Mono", "Fira Code", "Fira Mono", "Menlo", "Consolas", "Monaco", "monospace"]
-    }
-  ]
+  "$type": "fontFamily",
+  "display": {
+    "$value": ["Source Serif", "Source Serif Fallback", "serif"],
+    "$description": "Source serif 700 with Georgia Bold as fallback"
+  },
+  "base": {
+    "$value": ["Source Sans", "Source Sans Fallback", "sans-serif"],
+    "$description": "Source Sans 3 VF with Arial as fallback"
+  },
+  "mono": {
+    "$value": ["Source Code Pro", "Source Code Pro Fallback", "Dank Mono", "Fira Code", "Fira Mono", "Menlo", "Consolas", "Monaco", "monospace"],
+    "$description": "Source Code Pro with Courier New as fallback"
+  }
 }

@@ -1,122 +1,97 @@
 {
-  "title": "Colors",
-  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print. neutral and vibrant colors are converted to color palettes, fixed colors are kept as they are",
-  "items": [
-    {
-      "name": "Gray 100",
-      "value": "#f7f8fb"
+  "$type": "color",
+  "gray": {
+    "100": {
+      "$value": "#f7f8fb"
     },
-    {
-      "name": "Gray 200",
-      "value": "#e3e5e7"
+    "200": {
+      "$value": "#e3e5e7"
     },
-    {
-      "name": "Gray 250",
-      "value": "#C8CACC"
+    "250": {
+      "$value": "#C8CACC"
     },
-    {
-      "name": "Gray 300",
-      "value": "#acaeb1"
+    "300": {
+      "$value": "#acaeb1"
     },
-    {
-      "name": "Gray 400",
-      "value": "#7d8085"
+    "400": {
+      "$value": "#7d8085"
     },
-    {
-      "name": "Gray 500",
-      "value": "#606368"
+    "500": {
+      "$value": "#606368"
     },
-    {
-      "name": "Gray 600",
-      "value": "#44484d"
+    "600": {
+      "$value": "#44484d"
     },
-    {
-      "name": "Gray 700",
-      "value": "#383b3f"
+    "700": {
+      "$value": "#383b3f"
     },
-    {
-      "name": "Gray 800",
-      "value": "#2b2e32"
+    "800": {
+      "$value": "#2b2e32"
     },
-    {
-      "name": "Gray 900",
-      "value": "#141619"
-    },
-    {
-      "name": "Orange 100",
-      "value": "#ffece1"
-    },
-    {
-      "name": "Orange 200",
-      "value": "#ffdec3"
-    },
-    {
-      "name": "Orange 300",
-      "value": "#ffb78a"
-    },
-    {
-      "name": "Orange 400",
-      "value": "#f68f5a"
-    },
-    {
-      "name": "Orange 500",
-      "value": "#d0621e"
-    },
-    {
-      "name": "Orange 600",
-      "value": "#a73c00"
-    },
-    {
-      "name": "Orange 700",
-      "value": "#8c2100"
-    },
-    {
-      "name": "Orange 800",
-      "value": "#711a00"
-    },
-    {
-      "name": "Orange 900",
-      "value": "#320100"
-    },
-    {
-      "name": "Red",
-      "value": "#644B49"
-    },
-    {
-      "name": "Red Subdued",
-      "value": "#614d4b"
-    },
-    {
-      "name": "Blue",
-      "value": "#245375"
-    },
-    {
-      "name": "Blue Subdued",
-      "value": "#2f536e"
-    },
-    {
-      "name": "Green",
-      "value": "#626449"
-    },
-    {
-      "name": "Green Subdued",
-      "value": "#62644e"
-    },
-    {
-      "name": "themeColor-Darkest",
-      "value": "#495464"
-    },
-    {
-      "name": "themeColor-Dark",
-      "value": "#bbbfca"
-    },
-    {
-      "name": "themeColor-Light",
-      "value": "#e8e8e8"
-    },
-    {
-      "name": "themeColor-Lightest",
-      "value": "#f4f4f2"
+    "900": {
+      "$value": "#141619"
     }
-  ]
+  },
+  "orange": {
+    "100": {
+      "$value": "#ffece1"
+    },
+    "200": {
+      "$value": "#ffdec3"
+    },
+    "300": {
+      "$value": "#ffb78a"
+    },
+    "400": {
+      "$value": "#f68f5a"
+    },
+    "500": {
+      "$value": "#d0621e"
+    },
+    "600": {
+      "$value": "#a73c00"
+    },
+    "700": {
+      "$value": "#8c2100"
+    },
+    "800": {
+      "$value": "#711a00"
+    },
+    "900": {
+      "$value": "#320100"
+    }
+  },
+  "red": {
+    "$value": "#644B49",
+    "subdued": {
+      "$value": "#614d4b"
+    }
+  },
+  "blue": {
+    "$value": "#245375",
+    "subdued": {
+      "$value": "#2f536e"
+    }
+  },
+  "green": {
+    "$value": "#626449",
+    "subdued": {
+      "$value": "#62644e"
+    }
+  },
+  "themecolor-darkest": {
+    "$value": "#495464"
+  },
+  "themecolor-dark": {
+    "$value": "#bbbfca"
+  },
+  "themecolor-mid": {
+    "$value": "#9ba3b4"
+  },
+  "themecolor-light": {
+    "$value": "#dddee8"
+  },
+  "themecolor-lightest": {
+    "$value": "#f4f4f2"
+  }
 }
