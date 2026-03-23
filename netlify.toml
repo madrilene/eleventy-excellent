@@ -15,6 +15,7 @@ package = "netlify-plugin-cache"
 
 [[headers]]
     for = "*.woff2"
+    for = "/assets/scripts/components/*.js"
       [headers.values]
       Cache-Control = "max-age=31536000,public,must-revalidate"
 
