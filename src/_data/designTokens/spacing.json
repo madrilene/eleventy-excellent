@@ -13,11 +13,11 @@
   "xl": { "$value": { "min": 38, "max": 56 } },
   "2xl": { "$value": { "min": 57, "max": 84 } },
   "3xl": { "$value": { "min": 95, "max": 140 } },
-  "xs---s": { "$value": { "min": 5, "max": 14 } },
-  "s---m": { "$value": { "min": 10, "max": 21 } },
-  "m---l": { "$value": { "min": 14, "max": 31 } },
-  "l---xl": { "$value": { "min": 19, "max": 56 } },
-  "l---2xl": { "$value": { "min": 19, "max": 84 } },
-  "xl---2xl": { "$value": { "min": 38, "max": 84 } },
-  "2xl---3xl": { "$value": { "min": 57, "max": 140 } }
+  "xs-s": { "$value": { "min": 5, "max": 14 } },
+  "s-m": { "$value": { "min": 10, "max": 21 } },
+  "m-l": { "$value": { "min": 14, "max": 31 } },
+  "l-xl": { "$value": { "min": 19, "max": 56 } },
+  "l-2xl": { "$value": { "min": 19, "max": 84 } },
+  "xl-2xl": { "$value": { "min": 38, "max": 84 } },
+  "2xl-3xl": { "$value": { "min": 57, "max": 140 } }
 }
