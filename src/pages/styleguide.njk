@@ -67,10 +67,8 @@ customGradients:
     <section class="section__inner wrapper flow region">
       <h2 class="heading-line">Colors</h2>
 
-      <p>{{ designTokens.colors.description }}</p>
-
       <ul role="list">
-        {%- for color in designTokens.colors.items -%}
+        {%- for color in designTokens.colors | dtcgItems -%}
           <li>
             <div style="background-color: var(--color-{{ color.name | slugify }}"></div>
 
@@ -120,7 +118,7 @@ customGradients:
     <h2 class="heading-line">Fonts</h2>
 
     <ul class="fonts flow">
-      {%- for font in designTokens.fonts.items -%}
+      {%- for font in designTokens.fonts | dtcgItems -%}
         <li class="font" style="font-family: var(--font-{{ font.name | slugify }})">
           <h3 style="font-family: var(--font-{{ font.name | slugify }})">{{ font.name }}</h3>
           <p>{{ font.description }}</p>
@@ -136,12 +134,12 @@ customGradients:
       <h2 class="heading-line">Sizes</h2>
 
       <p>
-        {{ designTokens.textSizes.description }}. Fluid type and space scales were
-        <a href="{{ designTokens.textSizes.meta.scaleGenerator }}">generated with Utopia</a>.
+        Fluid type and space scales were
+        <a href="{{ designTokens.textSizes.$extensions.scaleGenerator }}">generated with Utopia</a>.
       </p>
 
       <table class="sizes flow">
-        {%- for size in designTokens.textSizes.items -%}
+        {%- for size in designTokens.textSizes | dtcgItems -%}
           <tr>
             <th scope="row">
               <h3>{{ size.name }}</h3>
@@ -165,13 +163,12 @@ customGradients:
     <h2 class="heading-line">Spacing</h2>
 
     <p>
-      {{ designTokens.spacing.description }}<br />
       Fluid type and space scales were
-      <a href="{{ designTokens.spacing.meta.scaleGenerator }}">generated with Utopia</a>.
+      <a href="{{ designTokens.spacing.$extensions.scaleGenerator }}">generated with Utopia</a>.
     </p>
 
     <table class="spacing flow">
-      {%- for space in designTokens.spacing.items -%}
+      {%- for space in designTokens.spacing | dtcgItems -%}
         <tr>
           <th scope="row">
             <h3>{{ space.name }}</h3>

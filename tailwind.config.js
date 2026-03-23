@@ -4,8 +4,7 @@ import plugin from 'tailwindcss/plugin';
 import postcss from 'postcss';
 import postcssJs from 'postcss-js';
 
-import {clampGenerator} from './src/_config/utils/clamp-generator.js';
-import {tokensToTailwind} from './src/_config/utils/tokens-to-tailwind.js';
+import {dtcgToTailwind, dtcgFluidToTailwind} from './src/_config/utils/dtcg-to-tailwind.js';
 
 // Raw design tokens
 import colorTokens from './src/_data/designTokens/colors.json';
@@ -18,13 +17,13 @@ import textWeightTokens from './src/_data/designTokens/textWeights.json';
 import viewportTokens from './src/_data/designTokens/viewports.json';
 
 // Process design tokens
-const colors = tokensToTailwind(colorTokens.items);
-const borderRadius = tokensToTailwind(borderRadiusTokens.items);
-const fontFamily = tokensToTailwind(fontTokens.items);
-const fontSize = tokensToTailwind(clampGenerator(textSizeTokens.items));
-const fontWeight = tokensToTailwind(textWeightTokens.items);
-const lineHeight = tokensToTailwind(textLeadingTokens.items);
-const spacing = tokensToTailwind(clampGenerator(spacingTokens.items));
+const colors = dtcgToTailwind(colorTokens);
+const borderRadius = dtcgToTailwind(borderRadiusTokens);
+const fontFamily = dtcgToTailwind(fontTokens);
+const fontSize = dtcgFluidToTailwind(textSizeTokens);
+const fontWeight = dtcgToTailwind(textWeightTokens);
+const lineHeight = dtcgToTailwind(textLeadingTokens);
+const spacing = dtcgFluidToTailwind(spacingTokens);
 
 export default {
   content: ['./src/**/*.{html,js,md,njk,liquid,webc}'],
