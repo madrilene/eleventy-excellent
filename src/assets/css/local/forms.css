@@ -37,7 +37,7 @@ label:has(input) {
 }
 
 label:has(input) + label:has(input) {
-  --flow-spce: var(--space-s-m);
+  --flow-space: var(--space-s-m);
 }
 
 /* Slightly adjusts the vertical position of the check/radio */

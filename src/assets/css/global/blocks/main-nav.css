@@ -39,7 +39,7 @@
   inset-inline-end: 0;
   inline-size: var(--nav-list-width);
   opacity: var(--nav-list-opacity);
-  transition: opacity 0.2 var(--nav-list-timing-function), visibility 0.2s ease-in-out;
+  transition: opacity 0.2s var(--nav-list-timing-function), visibility 0.2s ease-in-out;
   visibility: var(--nav-list-visibility);
 }
 

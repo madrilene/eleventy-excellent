@@ -117,7 +117,7 @@ a {
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.3ch;
   text-decoration-color: var(--color-primary);
-  transition: all 0.2 ease-out;
+  transition: color 0.2s ease-out, text-decoration-color 0.2s ease-out;
 }
 
 a:not([class]):hover {
