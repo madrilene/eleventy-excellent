@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: pageIndex
 permalink: /index.html
-title: "Hej! I'm Johan."
+title: 'Johan Edlund'
 description: 'Personal website.'
 sizes: '(max-width: 615px) 50vw, 100vw'
 widths: [400, 520]
@@ -9,25 +9,45 @@ blog:
   title: 'Blog'
   intro: "I'm showing the last 4 blog posts, but there might be more!"
 ---
-<p>I've been make websites since 2000. Nowadays I focus on <abbr title="Conversion Rate Optimization">CRO</abbr>, <abbr title="Search Engine Optimization">SEO</abbr> and accessibility.</p>
 
-<p>I believe that we can reach a classless, moneyless society based on mutual respect if we follow the advice of Jesus Christ. This Kingdom of God is within each of us.</p>
+<p class="intro">
+  I design and develop for the web with a focus on <abbr title="Conversion Rate Optimization">CRO</abbr>,
+  <abbr title="Search Engine Optimization">SEO</abbr> and accessibility.
+</p>
 
-<p>I like running and orienteering, 3-cushion billiards, reading Tolstoy, instrumental music and vegan food.</p>
 
-<article class="full section" style="--spot-color: var(--color-bg-accent)">
-  {% svg "divider/soft-top", null, "divider" %}
 
-  <section class="feature section__inner wrapper">
-      <div class="feature | region region-space-l">
-        <custom-masonry layout="thirds">
-          {# {% set itemList = collections.allArticles %} #}
-          {% set itemList = collections.posts | reverse %}
-					{% asyncEach item in itemList.slice(0, 40) %}
-						{% include "partials/card-blog.njk" %}
-					{% endeach %}
-        </custom-masonry>
-      </div>
-    </div>
-  </section>
-</article>
+<div class="region feature">
+<custom-masonry>
+   <div style="background-color: var(--color-primary); aspect-ratio: 3/2;"></div>
+    <div></div>
+    <div style="background-color: var(--color-tertiary); aspect-ratio: 4/5;"></div>
+    <div style="background-color: var(--color-primary);"></div>
+    <div></div>
+    <div style="background-color: var(--color-secondary); aspect-ratio: 5/4;"></div>
+    <div></div>
+    <div style="background-color: var(--color-secondary);"></div>
+    <div style="background-color: var(--color-primary); aspect-ratio: 16/9;"></div>
+    <div></div>
+    <div style="background-color: var(--color-primary); aspect-ratio: 3/2;"></div>
+    <div></div>
+    <div style="background-color: var(--color-tertiary); aspect-ratio: 4/5;"></div>
+    <div style="background-color: var(--color-primary);"></div>
+    <div></div>
+    <div style="background-color: var(--color-secondary); aspect-ratio: 5/4;"></div>
+    <div></div>
+    <div style="background-color: var(--color-secondary);"></div>
+    <div style="background-color: var(--color-primary); aspect-ratio: 16/9;"></div>
+    <div></div>
+</custom-masonry>
+</div>
+
+
+<style>
+  custom-masonry div {
+    inline-size: min(30rem, 100%);
+    aspect-ratio: 1;
+    background-color: var(--color-text);
+  }
+</style>
+
