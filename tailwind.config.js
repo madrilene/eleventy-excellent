@@ -17,6 +17,16 @@ import textLeadingTokens from './src/_data/designTokens/textLeading.json';
 import textWeightTokens from './src/_data/designTokens/textWeights.json';
 import viewportTokens from './src/_data/designTokens/viewports.json';
 
+const tokenPrefixes = {
+  colors: colorTokens.prefix ?? 'color',
+  borderRadius: borderRadiusTokens.prefix ?? 'border-radius',
+  spacing: spacingTokens.prefix ?? 'space',
+  fontSize: textSizeTokens.prefix ?? 'size',
+  lineHeight: textLeadingTokens.prefix ?? 'leading',
+  fontFamily: fontTokens.prefix ?? 'font',
+  fontWeight: textWeightTokens.prefix ?? 'font'
+};
+
 // Process design tokens
 const colors = tokensToTailwind(colorTokens.items);
 const borderRadius = tokensToTailwind(borderRadiusTokens.items);
@@ -95,13 +105,13 @@ export default {
       const currentConfig = config();
 
       const groups = [
-        {key: 'colors', prefix: 'color'},
-        {key: 'borderRadius', prefix: 'border-radius'},
-        {key: 'spacing', prefix: 'space'},
-        {key: 'fontSize', prefix: 'size'},
-        {key: 'lineHeight', prefix: 'leading'},
-        {key: 'fontFamily', prefix: 'font'},
-        {key: 'fontWeight', prefix: 'font'}
+        {key: 'colors', prefix: tokenPrefixes.colors},
+        {key: 'borderRadius', prefix: tokenPrefixes.borderRadius},
+        {key: 'spacing', prefix: tokenPrefixes.spacing},
+        {key: 'fontSize', prefix: tokenPrefixes.fontSize},
+        {key: 'lineHeight', prefix: tokenPrefixes.lineHeight},
+        {key: 'fontFamily', prefix: tokenPrefixes.fontFamily},
+        {key: 'fontWeight', prefix: tokenPrefixes.fontWeight}
       ];
 
       groups.forEach(({key, prefix}) => {

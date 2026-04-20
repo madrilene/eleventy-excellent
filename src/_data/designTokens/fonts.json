@@ -1,6 +1,7 @@
 {
   "title": "Fonts",
   "description": "Each array of fonts creates a priority-based order. The first font in the array should be the ideal font, followed by sensible, web-safe fallbacks",
+  "prefix": "font",
   "items": [
     {
       "name": "Display",

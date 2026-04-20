@@ -1,6 +1,7 @@
 {
   "title": "Leading",
   "description": "Ratio-based leading/line-height values",
+  "prefix": "leading",
   "items": [
     {
       "name": "Flat",

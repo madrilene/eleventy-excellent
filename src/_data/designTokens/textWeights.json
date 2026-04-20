@@ -1,6 +1,7 @@
 {
   "title": "Text Weights",
   "description": "Helper classes and custom properties for common font weights",
+  "prefix": "font",
   "meta": {},
   "items": [
     {
