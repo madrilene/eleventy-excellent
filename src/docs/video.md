@@ -15,12 +15,12 @@ title: Video
 
 ```html
 <custom-youtube
-  @slug="Ah6je_bBSH8"
-  @label="Alberto Ballesteros - Artista Sin Obra">
+  @slug="4jY5Zn_pz0M"
+  @label="Alberto Ballesteros - Si veo que me animo">
 </custom-youtube>
 ```
 
-<div><custom-youtube @slug="Ah6je_bBSH8" @label="Alberto Ballesteros - Artista Sin Obra"> </custom-youtube></div>
+<div><custom-youtube @slug="4jY5Zn_pz0M" @label="Alberto Ballesteros - Si veo que me animo"> </custom-youtube></div>
 
 ### PeerTube
 
