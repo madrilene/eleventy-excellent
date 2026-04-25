@@ -48,7 +48,7 @@
 }
 
 .prose mark {
-  background-color: var(--color-tertiary);
+  background-color: var(--color-accent-green);
   color: var(--color-dark);
 }
 
@@ -60,7 +60,7 @@
 
 /* marker only for "regular lists" */
 .prose :is(ul:not([class]):not([role='list'])) li::marker {
-  color: var(--color-primary);
+  color: var(--color-accent-orange);
   content: '– ';
 }
 
@@ -73,7 +73,7 @@
 }
 
 .prose ol li::marker {
-  color: var(--color-primary);
+  color: var(--color-accent-orange);
 }
 
 .prose img {

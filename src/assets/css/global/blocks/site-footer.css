@@ -19,5 +19,5 @@
 }
 
 .site-footer .creator a:hover svg {
-  color: var(--color-primary);
+  color: var(--color-accent-orange);
 }

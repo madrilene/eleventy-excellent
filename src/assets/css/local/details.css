@@ -47,7 +47,7 @@ is-land:not(:defined) .details .control {
 .details summary::before {
   content: '+';
   display: block;
-  color: var(--color-primary);
+  color: var(--color-accent-orange);
   font-family: var(--font-mono);
   font-size: var(--size-step-1);
   font-weight: var(--font-regular);

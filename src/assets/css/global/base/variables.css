@@ -12,16 +12,16 @@
   --stroke: 1px solid var(--color-bg-accent);
 
   --gradient-conic: conic-gradient(
-    var(--color-primary) 0 28%,
-    var(--color-secondary) 0 67%,
-    var(--color-tertiary) 0 100%
+    var(--color-accent-orange) 0 28%,
+    var(--color-accent-blue) 0 67%,
+    var(--color-accent-green) 0 100%
   );
   --gradient-stripes: linear-gradient(
     45deg,
     var(--color-gray-900) 0 75%,
-    var(--color-primary) 0 85%,
-    var(--color-secondary) 0 92%,
-    var(--color-tertiary) 0 100%
+    var(--color-accent-orange) 0 85%,
+    var(--color-accent-blue) 0 92%,
+    var(--color-accent-green) 0 100%
   );
 
   --color-light: var(--color-gray-100);
@@ -39,9 +39,9 @@
   --color-headline: var(--color-base-darkest);
   --color-bg: var(--color-base-lightest);
 
-  --color-primary: var(--color-orange-500);
-  --color-secondary: var(--color-blue);
-  --color-tertiary: var(--color-green);
+  --color-accent-orange: var(--color-orange-500);
+  --color-accent-blue: var(--color-blue);
+  --color-accent-green: var(--color-green);
 
   --color-text-accent: var(--color-gray-700);
   --color-bg-accent: white;
@@ -64,9 +64,9 @@
     --color-headline: var(--color-gray-200);
     --color-bg: var(--color-gray-900);
 
-    --color-primary: var(--color-orange-500);
-    --color-secondary: var(--color-blue-subdued);
-    --color-tertiary: var(--color-green-subdued);
+    --color-accent-orange: var(--color-orange-500);
+    --color-accent-blue: var(--color-blue-subdued);
+    --color-accent-green: var(--color-green-subdued);
 
     --color-text-accent: var(--color-gray-200);
     --color-bg-accent: var(--color-gray-700);
@@ -88,9 +88,9 @@
   --color-headline: var(--color-gray-200);
   --color-bg: var(--color-gray-900);
 
-  --color-primary: var(--color-red-subdued);
-  --color-secondary: var(--color-blue-subdued);
-  --color-tertiary: var(--color-green-subdued);
+  --color-accent-orange: var(--color-orange-500);
+  --color-accent-blue: var(--color-blue-subdued);
+  --color-accent-green: var(--color-green-subdued);
 
   --color-text-accent: var(--color-gray-200);
   --color-bg-accent: var(--color-gray-700);

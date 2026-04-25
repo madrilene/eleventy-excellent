@@ -262,8 +262,8 @@ assumes that the button doesn’t exist without JS, making the list the first ch
 .mainnav ul:first-child [aria-current='page'],
 .mainnav ul:first-child [data-state='active'] {
   --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-primary);
-  --nav-item-decoration-color: var(--color-primary);
+  --nav-item-text-color: var(--color-accent-orange);
+  --nav-item-decoration-color: var(--color-accent-orange);
 }
 
 /* make menu wrap without drawer */

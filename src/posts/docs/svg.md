@@ -12,13 +12,13 @@ The `svg.js` shortcode, introduced in version 3, allows for the seamless inclusi
 {% raw %}
 ```jinja2
 {% svg "path", "aria-name", "class-name", "inline-style" %}
-{% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-tertiary);" %}
+{% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-accent-green);" %}
 ```
 {% endraw %}
 
-{% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-tertiary);" %}
+{% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-accent-green);" %}
 
 The star icon resoves to:
 
-`<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24" aria-label="A yellow star icon" style="block-size: 4ex; fill: var(--color-tertiary)" class="spin"><path> (...) </path></svg>`
+`<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24" aria-label="A yellow star icon" style="block-size: 4ex; fill: var(--color-accent-green)" class="spin"><path> (...) </path></svg>`
 
