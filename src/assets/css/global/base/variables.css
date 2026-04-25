@@ -16,6 +16,13 @@
     var(--color-accent-blue) 0 67%,
     var(--color-accent-green) 0 100%
   );
+  --gradient-slate: linear-gradient(
+    90deg,
+    var(--color-base-darkest),
+    var(--color-base-dark),
+    var(--color-base-light),
+    var(--color-base-lightest)
+  );
   --gradient-stripes: linear-gradient(
     45deg,
     var(--color-gray-900) 0 75%,
