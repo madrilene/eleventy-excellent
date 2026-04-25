@@ -1,6 +1,6 @@
 # johanedlund.se — Backlog
 
-Last updated: 2026-04-24
+Last updated: 2026-04-25
 
 ---
 
@@ -27,7 +27,6 @@ One-paragraph description of what's being done and why. Reference files or skill
 
 - Domain switch: when does the site move from `jedee.netlify.app` to `johanedlund.se`?
 - Is the Soli Deo Gloria footer mark live yet, or still a plan?
-- Should `--color-primary` keep its theme-dependent identity (orange in light + auto-dark, red in forced-dark), or stabilise on one hue? See the design-token naming article.
 
 ---
 
@@ -47,6 +46,10 @@ One-paragraph description of what's being done and why. Reference files or skill
 *Strikethrough finished items with a short note on how they resolved. Acts as recent memory.*
 
 - ~~Tried importing the repo into Claude Design~~ — done 2026-04-24. Import failed. Concluded DTCG JSON isn't what Claude Design ingests — it extracts from rendered evidence (repo, screenshots, brand brief). Deferred to Deferred section below.
+- ~~Token naming cleanup pass~~ — done 2026-04-25. Renamed `themecolor-*` palette family to `base-*` (dropped unused Mid stop) and fixed the broken `--color-themecolordark` reference in `main-nav.css`. Cleaned up dead `--color-themecolordarkest` comments in `site-logo.css`. Skipped the proposed `theme.*` DTCG nesting in favor of a flat `base-*` rename. Branch: `refactor/base-color-tokens`.
+- ~~Resolved `--color-primary` theme-dependent identity~~ — done 2026-04-25. Stabilized on a single hue: dropped the forced-dark swap to `red-subdued`, so `--color-accent-orange` now points at `orange-500` across all three themes. Same commit also renamed `--color-primary/secondary/tertiary` to `--color-accent-orange/blue/green` to stop overstating their importance — the actual brand tone is the slate, not the accents.
+- ~~Replaced dead `--gradient-rainbow`~~ — done 2026-04-25. The variable was referenced by the site-footer creator-link hover and the styleguide gradients list but never defined. Replaced with `--gradient-slate`, a left-to-right linear-gradient through the four `base-*` tones. The footer hover effect now actually renders.
+- ~~Grouped styleguide colors by primitive type~~ — done 2026-04-25. The Colors section was a single flat list of every generated palette key. Split into four labeled groups (Base palette, Neutral shades, Vibrant shades, Accent colors) driven by a `colorGroups` frontmatter list.
 
 ---
 
@@ -56,9 +59,4 @@ One-paragraph description of what's being done and why. Reference files or skill
 
 - Migrate from `jedee.netlify.app` domain → `johanedlund.se` (pending decision on timing)
 - Claude Design handoff — revisit once the site has a more substantial component surface; until then, the extraction target is too thin.
-- Token naming cleanup pass (five concrete items from the design-token naming article, listed below). Not urgent; system works today.
-  - [ ] Fix live broken reference `--color-themecolordark` in `src/assets/css/global/blocks/main-nav.css:156` (should be `--color-themecolor-dark`).
-  - [ ] Normalise `themeColor` casing across `colorsBase.json` and `colors.json` to a single spelling.
-  - [ ] Rename `--code-border-color` → `--color-code-border` for prefix consistency.
-  - [ ] Nest the `themecolor-*` palette under a `theme.*` DTCG group so it reads as one coherent brand scale.
-  - [ ] Clean up the commented-out `--color-themecolordarkest` references in `src/assets/css/global/blocks/site-logo.css:18, 24` (dead code).
+- Rename `--code-border-color` → `--color-code-border` for prefix consistency. Surfaced during the 2026-04-25 token refactor; left out of that branch since it's an unrelated naming nit.

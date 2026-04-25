@@ -108,7 +108,7 @@ Layout: `post` | Category: `listening` | Permalink: `/listening/{{ title | slugi
 All tokens live in `src/_data/designTokens/*.json` and are consumed by the Tailwind config to generate CSS custom properties and utility classes.
 
 **Colors** (`colorsBase.json` → `npm run colors` → `colors.json`):
-- `palette`: Fixed themeColor family — Darkest `#495464`, Dark `#bbbfca`, Mid `#9ba3b4`, Light `#dddee8`, Lightest `#f4f4f2`
+- `palette`: Base family — `darkest` `#495464`, `dark` `#bbbfca`, `light` `#dddee8`, `lightest` `#f4f4f2`. Composed into the semantic accent variables (`--color-accent-orange/blue/green`) in `src/assets/css/global/base/variables.css`.
 - `shades_neutral`: Gray `#495464` → generates a 100–900 palette
 - `shades_vibrant`: Orange `#EF7E40` → generates a 100–900 palette
 - `light_dark`: Red, Blue, Green — each gets a `subdued` variant for dark themes
