@@ -16,6 +16,19 @@ customGradients:
   - property: '--gradient-rainbow'
   - property: '--gradient-conic'
   - property: '--gradient-stripes'
+colorGroups:
+  - heading: 'Base palette'
+    description: 'Foundational theme tones. Composed into the semantic theme variables in variables.css.'
+    prefix: 'base'
+  - heading: 'Neutral shades'
+    description: 'Gray scale generated from a single base in OKLCH space. Includes the standalone gray-250.'
+    prefix: 'gray'
+  - heading: 'Vibrant shades'
+    description: 'Orange scale generated from a single base in OKLCH space.'
+    prefix: 'orange'
+  - heading: 'Accent colors'
+    description: 'Each has a chroma-reduced subdued variant used in dark theme.'
+    prefixes: ['red', 'blue', 'green']
 ---
 
 <!-- Inspired by: https://stevenwoodson.com/blog/eleventy-style-guide-generator-step-by-step-guide-adding-to-an-existing-site/ -->
@@ -67,20 +80,26 @@ customGradients:
     <section class="section__inner wrapper flow region">
       <h2 class="heading-line">Colors</h2>
 
-      <ul role="list">
-        {%- for color in designTokens.colors | dtcgItems -%}
-          <li>
-            <div style="background-color: var(--color-{{ color.name | slugify }}"></div>
-
-            <p>
-              <code
-                >#{{ color.value | slugify }}<br />
-                var(--color-{{ color.name | slugify }})</code
-              >
-            </p>
-          </li>
-        {%- endfor -%}
-      </ul>
+      {%- for group in colorGroups -%}
+        {%- if group.description -%}<p{% if not loop.first %} class="mt-l-xl"{% endif %}>{{ group.description }}</p>{%- endif -%}
+        <ul role="list">
+          {%- for color in designTokens.colors | dtcgItems -%}
+            {%- set slug = color.name | slugify -%}
+            {%- set bracket = slug.split('-')[0] -%}
+            {%- if (group.prefix and bracket == group.prefix) or (group.prefixes and bracket in group.prefixes) -%}
+              <li>
+                <div style="background-color: var(--color-{{ slug }})"></div>
+                <p>
+                  <code
+                    >#{{ color.value | slugify }}<br />
+                    var(--color-{{ slug }})</code
+                  >
+                </p>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      {%- endfor -%}
 
       <h3 class="heading-line | mt-l-xl">Custom colors</h3>
       <p>in <code>variables.css</code>. Some only change for dark theme.</p>
