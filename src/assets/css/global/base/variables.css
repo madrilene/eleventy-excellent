@@ -35,9 +35,9 @@
 /* Light theme */
 :root,
 :root[data-theme='light'] {
-  --color-text: var(--color-themecolor-darkest);
-  --color-headline: var(--color-themecolor-darkest);
-  --color-bg: var(--color-themecolor-lightest);
+  --color-text: var(--color-base-darkest);
+  --color-headline: var(--color-base-darkest);
+  --color-bg: var(--color-base-lightest);
 
   --color-primary: var(--color-orange-500);
   --color-secondary: var(--color-blue);
@@ -47,8 +47,8 @@
   --color-bg-accent: white;
   --color-bg-accent-2: var(--color-gray-300);
   /* border top for body */
-  --color-border-top: var(--color-themecolor-light);
-  --color-logo-icon: var(--color-themecolor-dark);
+  --color-border-top: var(--color-base-light);
+  --color-logo-icon: var(--color-base-dark);
 
   --color-code-bg: color-mix(in oklab, var(--color-bg) 97%, rgb(0, 0, 0));
   --code-border-color: color-mix(in oklab, var(--color-bg) 96%, rgb(0, 0, 0));

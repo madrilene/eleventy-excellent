@@ -153,7 +153,7 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
 .mainnav [data-state='active'] {
   --nav-item-background: var(--color-bg);
   --nav-item-text-color: var(--color-text);
-  --nav-item-decoration-color: var(--color-themecolordark);
+  --nav-item-decoration-color: var(--color-base-dark);
 }
 
 /* current parent (if submenu) */

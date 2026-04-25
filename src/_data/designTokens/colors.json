@@ -79,19 +79,16 @@
       "$value": "#62644e"
     }
   },
-  "themecolor-darkest": {
+  "base-darkest": {
     "$value": "#495464"
   },
-  "themecolor-dark": {
+  "base-dark": {
     "$value": "#bbbfca"
   },
-  "themecolor-mid": {
-    "$value": "#9ba3b4"
-  },
-  "themecolor-light": {
+  "base-light": {
     "$value": "#dddee8"
   },
-  "themecolor-lightest": {
+  "base-lightest": {
     "$value": "#f4f4f2"
   }
 }
