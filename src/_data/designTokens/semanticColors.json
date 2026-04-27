@@ -1,0 +1,22 @@
+{
+  "$type": "color",
+  "$description": "Semantic color tokens that swap between light and dark themes. Names mirror the --color-* CSS variables in src/assets/css/global/base/variables.css. Values reference palette tokens from colors.json via {curly.brackets} so any palette change cascades automatically. Pushed to Penpot's theme/light and theme/dark sets by build-penpot-tokens.js.",
+  "themes": {
+    "light": {
+      "bg":          "{color.base.lightest}",
+      "bg-accent":   "#ffffff",
+      "bg-accent-2": "{color.gray.300}",
+      "text":        "{color.base.darkest}",
+      "text-accent": "{color.gray.700}",
+      "headline":    "{color.base.darkest}"
+    },
+    "dark": {
+      "bg":          "{color.gray.900}",
+      "bg-accent":   "{color.gray.700}",
+      "bg-accent-2": "{color.gray.600}",
+      "text":        "{color.gray.250}",
+      "text-accent": "{color.gray.200}",
+      "headline":    "{color.gray.200}"
+    }
+  }
+}

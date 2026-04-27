@@ -34,4 +34,5 @@ src/_obsidian
 /src/posts/articles/-drafts
 
 .claude
+.omc
 _raw/

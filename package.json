@@ -14,6 +14,7 @@
     "fallback-font-style": "node ./src/_config/setup/fallback-font-style.js",
     "favicons": "node ./src/_config/setup/generate-favicons.js",
     "colors": "node ./src/_config/setup/create-colors.js",
+    "penpot:tokens": "node ./src/_config/setup/build-penpot-tokens.js",
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve",
     "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
