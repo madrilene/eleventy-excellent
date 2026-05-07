@@ -193,5 +193,12 @@
     "filename": "drumsonlive",
     "link": "https://www.drumsonlive.com",
     "builtbylene": true
+  },
+  {
+    "name": "dyvenia.com",
+    "description": "Data consulting and implementation for analytics and AI",
+    "filename": "dyvenia",
+    "link": "https://dyvenia.com",
+    "builtbylene": true
   }
 ]
