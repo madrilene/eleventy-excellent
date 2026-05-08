@@ -27,7 +27,7 @@ Compliance depends on how users implement and customize the starter for their sp
 I very much welcome your feedback and suggestions on the accessibility of this starter project. Please let me know if you encounter any accessibility barriers:
 
 - **GitHub Issues**: [Report accessibility issues](https://github.com/madrilene/eleventy-excellent/issues)
-- **Email**: {{ meta.creator.email }}
+- **Email**: {{ personal.email }}
 
 **Response Time**: I aim to respond to feedback within one week.
 

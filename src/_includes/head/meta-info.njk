@@ -25,9 +25,11 @@
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
 
-{% if personal.platforms.mastodon %}
-  <!-- Mastodon verified site -->
-  <link rel="me" href="{{ personal.platforms.mastodon }}" />
+{% if meta.author.me and meta.author.me.length %}
+  <!-- rel=me profiles -->
+  {% for url in meta.author.me %}
+    <link rel="me" href="{{ url }}" />
+  {% endfor %}
 {% endif %}
 
 {% if meta.author.fediverse %}

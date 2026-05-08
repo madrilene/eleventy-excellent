@@ -7,13 +7,17 @@ export const siteType = 'Person'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
+// for the site content author, used in <head> meta and post h-card microformat
 export const author = {
   name: 'Lene Saile', // i.e. Lene Saile - page / blog author's name. Must be set.
   avatar: '/icon-512x512.png', // path to the author's avatar. In this case just using a favicon.
-  email: 'hola@lenesaile.com', // i.e. hola@lenesaile.com - email of the author
-  website: 'https://www.lenesaile.com', // i.e. https.://www.lenesaile.com - the personal site of the author
-  fediverse: '@lene@front-end.social' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  fediverse: '@lene@front-end.social', // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+  me: [
+    // loop over verified rel=me profiles in the HTML <head>
+    'https://front-end.social/@lene'
+  ]
 };
+// for the site developer, used for footer credits and humans.txt info
 export const creator = {
   name: 'Lene Saile', // i.e. Lene Saile - creator's (developer) name.
   email: 'hola@lenesaile.com',
