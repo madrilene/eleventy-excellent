@@ -190,6 +190,7 @@ The shortcode can be much terser than the HTML syntax, while the HTML syntax is 
 More:
 - https://www.11ty.dev/docs/plugins/image/
 - https://www.youtube.com/watch?v=e0OHgC677ec
+- https://piccalil.li/blog/the-end-of-responsive-images/
 - https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 - https://coryd.dev/posts/2024/setting-up-image-transforms-in-eleventy
 - https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes
