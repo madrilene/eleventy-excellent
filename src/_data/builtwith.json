@@ -200,5 +200,12 @@
     "filename": "dyvenia",
     "link": "https://dyvenia.com",
     "builtbylene": true
+  },
+  {
+    "name": "aila.ngo",
+    "description": "The American Indian Law Alliance (AILA) was founded in 1989; it is an Indigenous, non-profit, non-partisan organization that works with Indigenous nations, communities, and organizations in our struggle for sovereignty, human rights, and social justice for our peoples.",
+    "filename": "aila",
+    "link": "https://aila.ngo",
+    "builtbylene": false
   }
 ]
