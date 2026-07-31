@@ -93,6 +93,15 @@ export const greenweb = {
   ],
   services: [{domain: 'netlify.com', serviceType: 'cdn'}]
 };
+export const robots = {
+  // Which AI bots are disallowed in robots.txt. The user agent lists are sourced from
+  // https://github.com/ai-robots-txt/ai.robots.txt and live in `src/common/robots.njk`.
+  // Bots that scrape your content for AI training and AI search indexes.
+  blockAiCrawlers: true,
+  // On-demand AI assistants and browsing agents, fetching a page because a user asked for it
+  // (e.g. ChatGPT-User, Claude-User, Operator). Set to false to allow agentic browsing on your site.
+  blockAiAgents: true
+};
 export const tests = {
   pa11y: {
     // keep customPaths empty if you want to test all pages
