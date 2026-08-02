@@ -50,7 +50,9 @@ const processImage = async options => {
     }
   });
 
-  const lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
+  // fall back to the last requested format when jpeg is not among them
+  const lowsrcFormat = metadata.jpeg || Object.values(metadata).pop();
+  const lowsrc = lowsrcFormat[lowsrcFormat.length - 1];
 
   const imageSources = Object.values(metadata)
     .map(imageFormat => {
