@@ -1,5 +1,19 @@
 import Image from '@11ty/eleventy-img';
+import sharp from 'sharp';
 import path from 'node:path';
+
+// avif and jpeg cannot carry an animation
+const animatedFormats = ['webp', 'gif'];
+
+const isAnimated = async src => {
+  try {
+    const {pages} = await sharp(src).metadata();
+    return pages > 1;
+  } catch {
+    // unreadable, or not an image at all: let eleventy-img report it
+    return false;
+  }
+};
 
 const stringifyAttributes = attributeMap => {
   return Object.entries(attributeMap)
@@ -38,9 +52,17 @@ const processImage = async options => {
     src = `./src${src}`;
   }
 
+  // an animated source keeps its animation, which rules out the still formats
+  const animated = await isAnimated(src);
+  if (animated) {
+    const keep = formats.filter(format => animatedFormats.includes(format));
+    formats = keep.length ? keep : ['webp'];
+  }
+
   const metadata = await Image(src, {
     widths: [...widths],
     formats: [...formats],
+    sharpOptions: animated ? {animated: true} : {},
     urlPath: '/assets/images/',
     outputDir: './dist/assets/images/',
     filenameFormat: (id, src, width, format, options) => {
