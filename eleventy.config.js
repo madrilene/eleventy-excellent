@@ -4,7 +4,6 @@
  * Hint VS Code for eleventyConfig autocompletion.
  * © Henry Desroches - https://gist.github.com/xdesro/69583b25d281d055cd12b144381123bf
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig -
- * @returns {Object} -
  */
 
 // register dotenv for process.env.* variables to pickup
@@ -118,16 +117,16 @@ export default async function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV != 'test') {
     eleventyConfig.ignores.add('src/common/pa11y.njk');
   }
-
-  // --------------------- general config
-  return {
-    markdownTemplateEngine: 'njk',
-
-    dir: {
-      output: 'dist',
-      input: 'src',
-      includes: '_includes',
-      layouts: '_layouts'
-    }
-  };
 }
+
+// https://www.11ty.dev/docs/config-shapes/#callback-function
+export const config = {
+  markdownTemplateEngine: 'njk',
+
+  dir: {
+    output: 'dist',
+    input: 'src',
+    includes: '_includes',
+    layouts: '_layouts'
+  }
+};
