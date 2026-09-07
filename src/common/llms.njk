@@ -1,29 +1,24 @@
----
-permalink: /llms.txt
-eleventyExcludeFromCollections: true
-excludeFromSitemap: true
----
 {#-
   Machine-readable summary of this site for LLMs and AI agents,
   following the llms.txt convention: https://llmstxt.org/
-  Checked by the "Agentic browsing" category in Lighthouse (Chrome 150+).
+  Enable via meta.robots.generateLlmsTxt.
 -#}
-# {{ meta.siteName | safe }}
+# {{ meta.siteName }}
 
-> {{ meta.siteDescription | safe }}
+> {{ meta.siteDescription }}
 
 ## Pages
 {% for page in collections.showInSitemap %}
 {%- if '/pages/' in page.inputPath and page.url and page.url != '/' and page.data.excludeFromSitemap != true %}
 {%- if not page.data.pagination or page.data.pagination.pageNumber == 0 %}
-- [{{ page.data.title | safe }}]({{ meta.url }}{{ page.url }}){% if page.data.description %}: {{ page.data.description | safe }}{% endif %}
+- [{{ page.data.title }}]({{ meta.url }}{{ page.url }}){% if page.data.description %}: {{ page.data.description }}{% endif %}
 {%- endif %}
 {%- endif %}
 {%- endfor %}
 
 ## Blog
 {% for post in collections.allPosts %}
-- [{{ post.data.title | safe }}]({{ meta.url }}{{ post.url }}){% if post.data.description %}: {{ post.data.description | safe }}{% endif %}
+- [{{ post.data.title }}]({{ meta.url }}{{ post.url }}){% if post.data.description %}: {{ post.data.description }}{% endif %}
 {%- endfor %}
 
 ## Optional

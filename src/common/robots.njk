@@ -3,13 +3,16 @@ permalink: /robots.txt
 eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 ---
+User-agent: *
+Disallow: /404.html
+
+Sitemap: {{ meta.url }}/sitemap.xml
+
 {#-
-  AI bot user agents, sourced from https://github.com/ai-robots-txt/ai.robots.txt
-  They are split into two groups, each controlled by a flag in `meta.robots`:
-  - aiCrawlers: bots that scrape content for AI training and AI search indexes
-  - aiAgents: on-demand assistants and browsing agents that fetch a page because a user asked for it.
-    Allowing these makes your site usable for agentic browsing.
+  AI bot lists from https://github.com/ai-robots-txt/ai.robots.txt
+  Toggled via meta.robots.allowAiCrawlers / allowAiAgents.
 -#}
+{%- if not meta.robots.allowAiCrawlers %}
 {%- set aiCrawlers = [
   'AI2Bot', 'Ai2Bot-Dolma', 'aiHitBot', 'Amazonbot', 'Andibot', 'anthropic-ai', 'Applebot',
   'Applebot-Extended', 'bedrockbot', 'Brightbot 1.0', 'Bytespider', 'CCBot', 'Claude-SearchBot',
@@ -25,20 +28,15 @@ excludeFromSitemap: true
   'Timpibot', 'VelenPublicWebCrawler', 'Webzio-Extended', 'wpbot', 'YandexAdditional',
   'YandexAdditionalBot', 'YouBot'
 ] -%}
+# AI training and data scraper bots
+{% for bot in aiCrawlers %}User-agent: {{ bot }}
+{% endfor %}Disallow: /
+{% endif %}
+{%- if not meta.robots.allowAiAgents %}
 {%- set aiAgents = [
   'ChatGPT-User', 'Claude-User', 'DuckAssistBot', 'Meta-ExternalFetcher', 'meta-externalfetcher',
   'MistralAI-User/1.0', 'NovaAct', 'Operator', 'Perplexity-User'
 ] -%}
-User-agent: *
-Disallow: /404.html
-
-Sitemap: {{ meta.url }}/sitemap.xml
-{% if meta.robots.blockAiCrawlers %}
-# AI training and data scraper bots - https://github.com/ai-robots-txt/ai.robots.txt
-{% for bot in aiCrawlers %}User-agent: {{ bot }}
-{% endfor %}Disallow: /
-{% endif %}
-{%- if meta.robots.blockAiAgents %}
 # On-demand AI assistants and browsing agents
 {% for bot in aiAgents %}User-agent: {{ bot }}
 {% endfor %}Disallow: /
