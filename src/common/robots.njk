@@ -14,29 +14,50 @@ Sitemap: {{ meta.url }}/sitemap.xml
 -#}
 {%- if not meta.robots.allowAiCrawlers %}
 {%- set aiCrawlers = [
-  'AI2Bot', 'Ai2Bot-Dolma', 'aiHitBot', 'Amazonbot', 'Andibot', 'anthropic-ai', 'Applebot',
-  'Applebot-Extended', 'bedrockbot', 'Brightbot 1.0', 'Bytespider', 'CCBot', 'Claude-SearchBot',
-  'Claude-Web', 'ClaudeBot', 'cohere-ai', 'cohere-training-data-crawler', 'Cotoyogi', 'Crawlspace',
-  'Diffbot', 'EchoboxBot', 'FacebookBot', 'facebookexternalhit', 'Factset_spyderbot', 'FirecrawlAgent',
-  'FriendlyCrawler', 'Google-CloudVertexBot', 'Google-Extended', 'GoogleOther', 'GoogleOther-Image',
-  'GoogleOther-Video', 'GPTBot', 'iaskspider/2.0', 'ICC-Crawler', 'ImagesiftBot', 'img2dataset',
-  'ISSCyberRiskCrawler', 'Kangaroo Bot', 'meta-externalagent', 'Meta-ExternalAgent',
-  'MyCentralAIScraperBot', 'OAI-SearchBot', 'omgili', 'omgilibot', 'PanguBot', 'Panscient',
-  'panscient.com', 'PerplexityBot', 'PetalBot', 'PhindBot', 'Poseidon Research Crawler', 'QualifiedBot',
-  'QuillBot', 'quillbot.com', 'SBIntuitionsBot', 'Scrapy', 'SemrushBot', 'SemrushBot-BA', 'SemrushBot-CT',
-  'SemrushBot-OCOB', 'SemrushBot-SI', 'SemrushBot-SWA', 'Sidetrade indexer bot', 'TikTokSpider',
-  'Timpibot', 'VelenPublicWebCrawler', 'Webzio-Extended', 'wpbot', 'YandexAdditional',
-  'YandexAdditionalBot', 'YouBot'
+  'AI2Bot', 'AI2Bot-DeepResearchEval', 'AIWebIndex', 'AddSearchBot', 'Ai2Bot-Dolma',
+  'Amazonbot', 'Amzn-SearchBot', 'Andibot', 'Anomura', 'ApifyBot',
+  'ApifyWebsiteContentCrawler', 'Applebot', 'Applebot-Extended', 'Aranet-SearchBot', 'Awario',
+  'AzureAI-SearchBot', 'Bravebot', 'Brightbot', 'Brightbot 1.0', 'BuddyBot',
+  'Bytespider', 'CCBot', 'Channel3Bot', 'ChatGLM-Spider', 'Claude-SearchBot',
+  'Claude-Web', 'ClaudeBot', 'CloudVertexBot', 'Cloudflare-AutoRAG', 'Cotoyogi',
+  'CragCrawler', 'Crawl4AI', 'Crawlspace', 'Datenbank Crawler', 'DeepSeekBot',
+  'Diffbot', 'DoubaoBot', 'ERNIEBot', 'Echobot Bot', 'EchoboxBot',
+  'ExaBot', 'ExaSearchBot', 'FacebookBot', 'Factset_spyderbot', 'FirecrawlAgent',
+  'FriendlyCrawler', 'GPTBot', 'Gemini-Deep-Research', 'Google-CloudVertexBot', 'Google-Extended',
+  'Google-Firebase', 'GoogleOther', 'GoogleOther-Image', 'GoogleOther-Video', 'HenkBot',
+  'ICC-Crawler', 'ISSCyberRiskCrawler', 'ImagesiftBot', 'Kangaroo Bot', 'Kimi-SearchBot',
+  'KimiBot', 'KlaviyoAIBot', 'KunatoCrawler', 'LAIONDownloader', 'LCC',
+  'Lightpanda', 'LinerBot', 'Linguee Bot', 'LinkupBot', 'Meta-ExternalAgent',
+  'MistralAI-Index', 'MistralAI-Training', 'MyCentralAIScraperBot', 'NagetBot', 'OAI-AdsBot',
+  'OAI-SearchBot', 'OpenAI', 'PanguBot', 'Panscient', 'PerplexityBot',
+  'PetalBot', 'PhindBot', 'Poggio-Citations', 'Poseidon Research Crawler', 'QualifiedBot',
+  'Querit-SearchBot', 'QueritBot', 'QuillBot', 'QwenBot', 'Reflectionbot',
+  'SBIntuitionsBot', 'Scrapy', 'SemrushBot-OCOB', 'SemrushBot-SWA', 'ShapBot',
+  'Sidetrade indexer bot', 'Spider', 'TavilyBot', 'Terra Cotta', 'TerraCotta',
+  'Thinkbot', 'TikTokSpider', 'Timpibot', 'TongyiBot', 'UseAI',
+  'VelenPublicWebCrawler', 'WARDBot', 'WRTNBot', 'Webzio-Extended', 'YaK',
+  'YandexAdditional', 'YandexAdditionalBot', 'YiyanBot', 'YouBot', 'ZanistaBot',
+  'aiHitBot', 'amazon-QBusiness', 'amazon-kendra', 'anthropic-ai', 'atlassian-bot',
+  'bedrockbot', 'bigsur.ai', 'cohere-ai', 'cohere-training-data-crawler', 'facebookexternalhit',
+  'iAskBot', 'iaskspider', 'iaskspider/2.0', 'imageSpider', 'img2dataset',
+  'laion-huggingface-processor', 'meta-externalagent', 'meta-webindexer', 'netEstate Imprint Crawler', 'newsai',
+  'omgili', 'omgilibot', 'panscient.com', 'quillbot.com', 'webzio-extended',
+  'wpbot'
+] -%}
+{%- set aiAgents = [
+  'AgentTimes', 'AmazonBuyForMe', 'Amzn-User', 'ChatGPT Agent', 'ChatGPT-User',
+  'Claude-Code', 'Claude-User', 'Code', 'Cursor', 'Devin',
+  'Diffbot-User', 'DuckAssistBot', 'GeistHaus-PageFetcher', 'Google-Agent', 'Google-Gemini-CLI',
+  'Google-NotebookLM', 'GoogleAgent-Mariner', 'GoogleAgent-URLContext', 'Kimi-User', 'Manus-User',
+  'Meta-ExternalFetcher', 'MistralAI-User', 'MistralAI-User/1.0', 'Mozilla-Tabstack', 'NotebookLM',
+  'NovaAct', 'Operator', 'Perplexity-User', 'Shap-User', 'Trae',
+  'TwinAgent', 'kagi-fetcher', 'meta-externalfetcher', 'opencode'
 ] -%}
 # AI training and data scraper bots
 {% for bot in aiCrawlers %}User-agent: {{ bot }}
 {% endfor %}Disallow: /
 {% endif %}
 {%- if not meta.robots.allowAiAgents %}
-{%- set aiAgents = [
-  'ChatGPT-User', 'Claude-User', 'DuckAssistBot', 'Meta-ExternalFetcher', 'meta-externalfetcher',
-  'MistralAI-User/1.0', 'NovaAct', 'Operator', 'Perplexity-User'
-] -%}
 # On-demand AI assistants and browsing agents
 {% for bot in aiAgents %}User-agent: {{ bot }}
 {% endfor %}Disallow: /
