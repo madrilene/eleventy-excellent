@@ -1,13 +1,13 @@
-import markdownIt from 'markdown-it';
-import markdownItAttrs from 'markdown-it-attrs';
-import markdownItPrism from 'markdown-it-prism';
-import markdownItAnchor from 'markdown-it-anchor';
 import markdownItClass from '@toycode/markdown-it-class';
-import markdownItLinkAttributes from 'markdown-it-link-attributes';
+import markdownIt from 'markdown-it';
+import markdownitAbbr from 'markdown-it-abbr';
+import markdownItAnchor from 'markdown-it-anchor';
+import markdownItAttrs from 'markdown-it-attrs';
 import {full as markdownItEmoji} from 'markdown-it-emoji';
 import markdownItFootnote from 'markdown-it-footnote';
+import markdownItLinkAttributes from 'markdown-it-link-attributes';
 import markdownitMark from 'markdown-it-mark';
-import markdownitAbbr from 'markdown-it-abbr';
+import markdownItPrism from 'markdown-it-prism';
 import {slugifyString} from '../filters/slugify.js';
 
 export const markdownLib = markdownIt({
