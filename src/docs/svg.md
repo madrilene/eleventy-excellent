@@ -4,21 +4,36 @@ title: SVG
 
 All SVG icons used in the starter are in `src/assets/svg`. There is a directory dedicated to the dividers, the platform icons and a general folder called "misc".
 
-### Shortcode
+### Shortcodes
 
-The `svg.js` shortcode, introduced in version 3, allows for the seamless inclusion of SVG files. Located in `src/_config/shortcodes/svg.js`, this shortcode requires only the folder and file name of the SVG, omitting the file extension. By default, SVGs are injected with an `aria-hidden="true"` attribute. The SVGs should be stored in the `src/assets/svg` directory, and referenced using the format `"folder/svg-name"`.
+The `svg.js` shortcodes, introduced in version 3, allow for the seamless inclusion of SVG files. Located in `src/_config/shortcodes/svg.js`, they require only the folder and file name of the SVG, omitting the file extension. By default, SVGs are treated as decorative (`aria-hidden="true"`, `focusable="false"`, `tabindex="-1"`). Pass a `title` for informative icons (`role="img"`, `<title>`, `aria-labelledby`). The SVGs should be stored in the `src/assets/svg` directory, and referenced using the format `"folder/svg-name"`.
 
+There are two shortcodes: `svg` (positional parameters) and `svgKeys` (named parameters). Prefer a decorative SVG next to visible or `visually-hidden` text inside links and buttons. Use `title` for standalone icons that need their own accessible name.
 
 {% raw %}
 ```jinja2
-{% svg "path", "aria-name", "class-name", "inline-style" %}
+{% svg "path", "title", "class-name", "inline-style" %}
 {% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-tertiary);" %}
+{% svgKeys {
+  "src": "misc/star",
+  "title": "A blue star icon",
+  "className": "spin",
+  "styleName": "block-size: 4ex; fill: var(--color-secondary);"
+} %}
 ```
 {% endraw %}
 
 {% svg "misc/star", "A yellow star icon", "spin", "block-size: 4ex; fill: var(--color-tertiary);" %}
 
-The star icon resolves to:
+{% svgKeys {
+  "src": "misc/star",
+  "title": "A blue star icon",
+  "className": "spin",
+  "styleName": "block-size: 4ex; fill: var(--color-secondary);"
+} %}
 
-`<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24" aria-label="A yellow star icon" style="block-size: 4ex; fill: var(--color-tertiary)" class="spin"><path> (...) </path></svg>`
+The star icon resolves to something like:
 
+```html
+<svg … role="img" aria-labelledby="svg-title-a-yellow-star-icon" class="spin" style="…"><title id="svg-title-a-yellow-star-icon">A yellow star icon</title><path>…</path></svg>
+```

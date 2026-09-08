@@ -82,7 +82,7 @@ const processImage = async options => {
 };
 
 // Positional parameters (legacy)
-export const imageShortcode = async (
+export const imagePositionalShortcode = async (
   src,
   alt,
   caption,

@@ -48,7 +48,9 @@ They are then used to register filters and shortcodes with Eleventy, using this 
 eleventyConfig.addFilter('toIsoString', filters.toISOString);
 eleventyConfig.addFilter('formatDate', filters.formatDate);
 // More filters...
-eleventyConfig.addShortcode('svg', shortcodes.svgShortcode);
+eleventyConfig.addShortcode('svg', shortcodes.svgPositionalShortcode);
+eleventyConfig.addShortcode('svgKeys', shortcodes.svgKeysShortcode);
+// More shortcodes...
 ```
 
 This method hopefully keeps the Eleventy config clean and focused, only concerning itself with the registration of functionalities, while the logic and definition remain abstracted in their respective modules.
