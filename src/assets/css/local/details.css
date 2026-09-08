@@ -29,7 +29,7 @@ is-land:not(:defined) .details .control {
 .details summary,
 .details summary :is(h1, h2, h3) {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   line-height: 1.2;
   gap: 0 var(--space-m);
   cursor: pointer;
