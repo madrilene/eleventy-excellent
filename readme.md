@@ -37,8 +37,7 @@ https://eleventy-excellent.netlify.app/
 - Automatically generated Open Graph images for blog posts _([see blog post](https://eleventy-excellent.netlify.app/blog/open-graph-images/))_
 - Tailwind CSS - but not how you might expect _([see blog post](https://eleventy-excellent.netlify.app/blog/what-is-tailwind-css-doing-here/))_
 - XML-sitemap
-- llms.txt, a machine-readable site summary for LLMs and AI agents, generated from your content
-- Configurable blocking of AI bots: training crawlers and on-demand agents, separately
+- Opt-in `/llms.txt` site summary, plus configurable crawl rules in `robots.txt`
 - dayjs handling dates & times
 - Bundling via esbuild
 - RSS feed (now you can add more than one)
