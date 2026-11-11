@@ -7,7 +7,6 @@ import {full as markdownItEmoji} from 'markdown-it-emoji';
 import markdownItFootnote from 'markdown-it-footnote';
 import markdownItLinkAttributes from 'markdown-it-link-attributes';
 import markdownitMark from 'markdown-it-mark';
-import markdownItPrism from 'markdown-it-prism';
 import {slugifyString} from '../filters/slugify.js';
 
 export const markdownLib = markdownIt({
@@ -18,9 +17,6 @@ export const markdownLib = markdownIt({
 })
   .disable('code')
   .use(markdownItAttrs)
-  .use(markdownItPrism, {
-    defaultLanguage: 'plaintext'
-  })
   .use(markdownItAnchor, {
     slugify: slugifyString,
     tabIndex: false,
