@@ -15,6 +15,7 @@ If you end up using this starter, feel free to send me a link, I'd love to see i
     - [Install dependencies](#install-dependencies)
     - [Working locally](#working-locally)
     - [Creating a production build](#creating-a-production-build)
+    - [Deploying to Wasmer Edge](#deploying-to-wasmer-edge)
   - [Built with Eleventy Excellent](#built-with-eleventy-excellent)
   - [Credits and Thank yous](#credits-and-thank-yous)
 
@@ -82,6 +83,12 @@ Minify JS, CSS and HTML.
 ```
 npm run build
 ```
+
+### Deploying to Wasmer Edge
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=madrilene%2Feleventy-excellent)
+
+Import into Wasmer to build and host the `dist` output on Wasmer Edge. The link imports this public repository; it does not copy it into your GitHub account, so import your own copy or fork to customize the site and redeploy on push. The headers in `netlify.toml` / `vercel.json` and the Netlify `_redirects` file are not applied by Wasmer.
 
 ## Built with Eleventy Excellent
 
