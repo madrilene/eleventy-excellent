@@ -69,7 +69,7 @@
   text-decoration-color: var(--button-decoration-color-hover);
 }
 
-.button:active {
+.button:active:not([data-button-variant^='text']) {
   transform: scale(99%);
 }
 
