@@ -1,7 +1,6 @@
 <script webc:type="render" webc:is="template">
   import Image from '@11ty/eleventy-img';
   import {optimize} from 'svgo';
-  import slugify from 'slugify';
 
   export default async function () {
     const meta = await Image(this.src, {
@@ -18,7 +17,8 @@
 
       for (const prop in this.webc.attributes) {
         if (!excludeAttributes.includes(prop)) {
-          const attribute = slugify(prop, {lower: true, strict: true}); // Use slugify directly here
+          // expose dashed attrs as kebab-case
+          const attribute = prop.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`).toLowerCase();
           const value = this.webc.attributes[prop];
 
           arr.push({[attribute]: value});
@@ -40,5 +40,5 @@
     const result = optimize(svgContents, {plugins});
 
     return result.data;
-  };
+  }
 </script>
