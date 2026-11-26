@@ -107,13 +107,18 @@ figcaption:after {
   opacity: 0.8;
 }
 
-a {
-  text-decoration-thickness: 0.15ex;
-  text-underline-offset: 0.2ch;
+a:not([class]) {
+  --link-decoration-color: currentColor;
+  --link-decoration-color-hover: var(--color-primary);
+  text-decoration-line: underline;
+  text-decoration-color: var(--link-decoration-color);
+  text-decoration-thickness: var(--stroke-width);
+  text-underline-offset: var(--underline-offset);
+  transition: text-decoration-color var(--transition-duration) var(--transition-timing);
 }
 
 a:not([class]):hover {
-  text-decoration: none;
+  --link-decoration-color: var(--link-decoration-color-hover);
 }
 
 :focus {
