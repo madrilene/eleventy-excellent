@@ -3,7 +3,7 @@
   --spot-color: color-mix(in oklab, var(--color-bg) 97%, var(--color-text));
 }
 
-.styleguide code {
+.styleguide li code {
   font-size: var(--size-step-min-2);
 }
 

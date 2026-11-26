@@ -32,35 +32,82 @@ customGradients:
 
   <section class="flow region region-space-m">
     <h2 class="heading-line">Buttons</h2>
+    <p>
+      Use <code>class="button"</code> on <code>&lt;a&gt;</code> / <code>&lt;button&gt;</code> /
+      <code>&lt;span&gt;</code> with the visible label in a child <code>&lt;span&gt;</code> (for
+      <code>text-box</code>).
+      <br />
+      More options: <code>data-button-variant</code>, <code>data-button-size</code>,
+      <code>data-button-radius</code>. Add icons with
+      <code>{% raw %}{% svg %}{% endraw %}</code>.<br />Icon-only: add <code>data-icon</code>.
+    </p>
     <ul class="cluster" role="list">
       <li>
-        <a href="#" class="button">Default button</a>
+        <a href="#" class="button"><span>Default button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-button-variant="primary">primary button</a>
+        <a href="#" class="button" data-button-variant="primary"><span>primary button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-button-variant="secondary">secondary button</a>
+        <a href="#" class="button" data-button-variant="secondary"><span>secondary button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-button-variant="tertiary">tertiary button</a>
+        <a href="#" class="button" data-button-variant="tertiary"><span>tertiary button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-ghost-button>Ghost button</a>
+        <a href="#" class="button" data-button-variant="ghost"><span>Ghost button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-button-radius="hard">Hard edges</a>
+        <a href="#" class="button" data-button-radius="hard"><span>Hard edges</span></a>
       </li>
       <li>
-        <a href="#" class="button"> {% svg "misc/star" %} Button with icon </a>
-      </li>
-      <li>
-        <a href="#" class="button" data-small-button>small button</a>
-      </li>
-      <li>
-        <a href="#" class="button" data-icon
-          ><span class="visually-hidden">Icon button</span>{% svg "misc/star" %}</a
+        <a href="#" class="button"
+          >{% svg "misc/star" %}<span>Button with icon</span>{% svg "misc/arrow-right" %}</a
         >
+      </li>
+      <li>
+        <a href="#" class="button" data-button-size="small"><span>small button</span></a>
+      </li>
+      <li>
+        <a href="#" class="button" data-button-size="large"><span>large button</span></a>
+      </li>
+      <li>
+        <a href="#" class="button" data-icon>
+          <span class="visually-hidden">Icon button</span>
+          {% svg "misc/star" %}
+        </a>
+      </li>
+      <li>
+        <a href="#" class="button" data-icon data-button-variant="primary">
+          <span class="visually-hidden">Icon button</span>
+          {% svg "misc/star" %}
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          class="button"
+          data-icon
+          data-button-variant="secondary"
+          data-button-size="small"
+          data-button-radius="hard"
+        >
+          <span class="visually-hidden">Icon button</span>
+          {% svg "misc/star" %}
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+          class="button"
+          data-icon
+          data-button-variant="tertiary"
+          data-button-size="large"
+          data-button-radius="full"
+        >
+          <span class="visually-hidden">Icon button</span>
+          {% svg "misc/star" %}
+        </a>
       </li>
     </ul>
   </section>
