@@ -2,20 +2,35 @@
   <div class="gallery | grid mt-l-xl gutter-xs">
     {%- for item in gallery -%}
       <dialog class="flow modal{{ loop.index }}">
-        <div class="cluster justify-center flow-space-m gutter-s">
-          <button data-nav="prev" class="button text-step-1" data-button-variant="primary">
+        <div class="cluster justify-center flow-space-m gutter-m">
+          <button
+            data-nav="prev"
+            class="button"
+            data-button-variant="secondary"
+            data-button-radius="full"
+            data-button-size="large"
+            data-button-icon
+          >
             <span class="visually-hidden">{{ meta.dialog.previous }}</span>{% svg "misc/arrow-left" %}
           </button>
           <button data-close class="button" autofocus data-button-variant="primary">
             <span>{{ meta.dialog.close }}</span>
           </button>
-          <button data-nav="next" class="button text-step-1" data-button-variant="primary">
+          <button
+            data-nav="next"
+            class="button"
+            data-button-variant="secondary"
+            data-button-radius="full"
+            data-button-size="large"
+            data-button-icon
+          >
             <span class="visually-hidden">{{ meta.dialog.next }}</span>{% svg "misc/arrow-right" %}
           </button>
         </div>
         {%- image item.image, item.alt, item.caption -%}
       </dialog>
-      <button data-index="{{ loop.index }}">{%- image item.image, item.alt -%}</button>
+      <!-- prettier-ignore -->
+      <button data-index="{{ loop.index }}" style="--gallery-object-position: {{ item.objectPosition | default('center') }}">{%- image item.image, item.alt -%}</button>
     {%- endfor -%}
   </div>
 

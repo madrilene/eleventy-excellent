@@ -7,6 +7,10 @@
 .gallery dialog + button {
   all: unset;
   cursor: pointer;
+  transition: opacity var(--transition-duration) var(--transition-timing);
+}
+.gallery dialog + button:hover {
+  opacity: 0.9;
 }
 
 .gallery dialog + button:focus-visible {
@@ -23,6 +27,7 @@
 .gallery dialog + button img {
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: var(--gallery-object-position, center);
 }
 
 /* Don't indicate interactivity without JS */
@@ -32,7 +37,7 @@ is-land:not(:defined) .gallery dialog + button {
 
 .gallery dialog::backdrop {
   background-image: var(--gradient-stripes);
-  opacity: 0.9;
+  opacity: 0.95;
   filter: brightness(50%);
 }
 
