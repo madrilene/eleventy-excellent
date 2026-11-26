@@ -1,16 +1,28 @@
 <is-land on:idle
   ><div
     role="region"
-    class="theme-switch | cluster gutter-s mt-xs"
+    class="theme-switch | cluster gutter-s mt-s-m"
     style="--cluster-horizontal-alignment: center;"
     aria-labelledby="theme-switcher-label"
     data-theme-switcher
   >
     <h2 id="theme-switcher-label">{{ meta.themeSwitch.title }}</h2>
-    <button class="button" id="light-theme-toggle" data-theme="light" data-button-variant="ghost" data-button-size="small">
+    <button
+      class="button"
+      id="light-theme-toggle"
+      data-theme="light"
+      data-button-variant="ghost"
+      data-button-size="small"
+    >
       <span>{{ meta.themeSwitch.light }}</span>
     </button>
-    <button class="button" id="dark-theme-toggle" data-theme="dark" data-button-variant="ghost" data-button-size="small">
+    <button
+      class="button"
+      id="dark-theme-toggle"
+      data-theme="dark"
+      data-button-variant="ghost"
+      data-button-size="small"
+    >
       <span>{{ meta.themeSwitch.dark }}</span>
     </button>
   </div>
