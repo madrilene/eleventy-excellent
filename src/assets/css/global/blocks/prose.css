@@ -83,10 +83,7 @@
 @media screen(ltsm) {
   .prose > *,
   .prose a {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    overflow-wrap: anywhere;
     hyphens: auto;
   }
 }
