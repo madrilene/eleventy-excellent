@@ -15,7 +15,7 @@
     display: none;
   }
 </style>
-<custom-youtube webc:root class="flow">
+<figure webc:root="override" class="flow flow-space-s">
   <is-land on:visible class="video-wrapper">
     <lite-youtube
       :videoid="slug"
@@ -55,5 +55,7 @@
       <script type="module" src="/assets/components/lite-yt-embed.js"></script>
     </template>
   </is-land>
-</custom-youtube>
-<custom-youtube-link @raw="label" :label="label" :href="getLinkUrl(slug, start)"></custom-youtube-link>
+  <figcaption webc:if="label">
+    <custom-youtube-link @raw="label" :label="label" :href="getLinkUrl(slug, start)"></custom-youtube-link>
+  </figcaption>
+</figure>

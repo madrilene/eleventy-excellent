@@ -21,7 +21,7 @@
     display: block;
   }
 
-  custom-peertube .video-wrapper {
+  .peertube-embed .video-wrapper {
     overflow: hidden;
     position: relative;
     aspect-ratio: 16 / 9;
@@ -29,8 +29,8 @@
     border-radius: 0.2em;
   }
 
-  custom-peertube .pt-facade,
-  custom-peertube iframe {
+  .peertube-embed .pt-facade,
+  .peertube-embed iframe {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -38,7 +38,7 @@
     border: 0;
   }
 
-  custom-peertube .pt-facade {
+  .peertube-embed .peertube-facade {
     display: grid;
     place-items: center;
     padding: 0;
@@ -48,16 +48,16 @@
     background: #111 center / cover;
   }
 
-  is-land[ready] .pt-facade {
+  .peertube-embed is-land[ready] .peertube-facade {
     background-image: linear-gradient(rgb(0 0 0 / 0.4), rgb(0 0 0 / 0.4)), var(--pt-poster);
   }
 </style>
 
-<custom-peertube webc:root class="flow">
+<figure webc:root="override" class="peertube-embed | flow flow-space-s">
   <is-land on:visible class="video-wrapper">
     <button
       type="button"
-      class="pt-facade"
+      class="peertube-facade"
       :style="`--pt-poster: url('${getPosterUrl(instance, slug)}')`"
       :data-src="getEmbedLinkUrl(instance, embedSlug, start)"
       :aria-label="`Play${label ? `: ${label}` : ''}`"
@@ -68,7 +68,7 @@
     <template data-island="once" webc:raw>
       <script type="module">
         document.addEventListener('click', e => {
-          const btn = e.target.closest('.pt-facade');
+          const btn = e.target.closest('.peertube-facade');
           if (!btn) return;
           const iframe = document.createElement('iframe');
           iframe.src = `${btn.dataset.src}&autoplay=1`;
@@ -80,10 +80,11 @@
       </script>
     </template>
   </is-land>
-</custom-peertube>
-
-<custom-peertube-link
-  @raw="label"
-  :label="label"
-  :href="getLinkUrl(instance,slug, start)"
-></custom-peertube-link>
+  <figcaption webc:if="label">
+    <custom-peertube-link
+      @raw="label"
+      :label="label"
+      :href="getLinkUrl(instance,slug, start)"
+    ></custom-peertube-link>
+  </figcaption>
+</figure>

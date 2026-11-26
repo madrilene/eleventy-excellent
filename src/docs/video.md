@@ -37,14 +37,15 @@ title: Video
   @instance="peertube.tv"
   @slug="s2oueWPpbhhUrWM6tewHYf"
   @embed-slug="d2bf34fc-6cee-455e-86dc-b7e8979fd1a2"
-  @label='Morgan the Organ on Tour'>
+  @label="Morgan the Organ on Tour">
 </custom-peertube>
 ```
+
 <div>
-<custom-peertube
-  @instance="peertube.tv"
-  @slug="s2oueWPpbhhUrWM6tewHYf"
-  @embed-slug="d2bf34fc-6cee-455e-86dc-b7e8979fd1a2"
-  @label='Morgan the Organ on Tour'>
-</custom-peertube>
+  <custom-peertube
+    @instance="peertube.tv"
+    @slug="s2oueWPpbhhUrWM6tewHYf"
+    @embed-slug="d2bf34fc-6cee-455e-86dc-b7e8979fd1a2"
+    @label="Morgan the Organ on Tour"
+  ></custom-peertube>
 </div>
