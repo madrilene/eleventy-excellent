@@ -36,6 +36,7 @@ is-land:not(:defined) .details .control {
   list-style: none;
   font-weight: var(--font-bold);
   font-size: var(--size-step-2);
+  transition: color var(--transition-duration) var(--transition-timing);
 }
 
 .details summary:hover,
@@ -68,7 +69,7 @@ is-land:not(:defined) .details .control {
 }
 
 .details details > h3 {
-  --flow-space: var(--space-xl-2xl);
+  --flow-space: var(--space-l);
   font-size: calc(var(--size-step-0) * 1.2);
 }
 
