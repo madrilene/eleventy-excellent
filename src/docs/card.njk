@@ -12,13 +12,13 @@ title: Card
 <h3>Available slots:</h3>
 <ul>
   <li>
-    <code>image</code>: has <code>slot="image"</code> on the
-    container (<code>picture</code> or <code>figure</code>) by default)
+    <code>image</code>: has <code>slot="image"</code> on the container (<code>picture</code> or
+    <code>figure</code>) by default)
   </li>
   <li><code>headline</code>: display the card's main title</li>
   <li>
-    <code>date</code> and <code>tag</code>: Grouped within the classes <code>meta</code> and <code>cluster</code> for date and tagging
-    information
+    <code>date</code> and <code>tag</code>: Grouped within the classes <code>meta</code> and
+    <code>cluster</code> for date and tagging information
   </li>
   <li><code>content</code></li>
   <li><code>footer</code>: for links or whatever footer information</li>
@@ -34,7 +34,8 @@ title: Card
 
 <h3>Usage</h3>
 
-<pre><code>{% raw %}<!--prettier-ignore-->&lt;custom-card&gt;
+<pre><code>{% raw %}
+  <!--prettier-ignore-->&lt;custom-card&gt;
 {% image "path-to-img", "alt-text" %}
 &lt;span slot="date"&gt;&lt;/span&gt;
 &lt;span slot="tag" class="button"&gt;&lt;/span&gt;
@@ -50,7 +51,7 @@ title: Card
   <custom-card>
     {% image "./src/assets/images/gallery/asturias-3.jpg", "Close-up of a delicate white flower with a yellow center, surrounded by green leaves" %}
     <span slot="date">1516</span>
-    <span slot="tag" class="button" data-small-button>Default</span>
+    <span slot="tag" class="button" data-button-size="small"><span>Default</span></span>
     <h4 slot="headline">Utopia</h4>
     <p slot="content">
       Among them, there is no sort of traffic, no knowledge of letters, no understanding of numbers, no name
@@ -64,8 +65,8 @@ title: Card
     {% image "./src/assets/images/gallery/asturias-3.jpg", "Close-up of a delicate white flower with a yellow center, surrounded by green leaves" %}
     <span slot="date">18.02.1984</span>
     <div slot="tag" webc:nokeep>
-      <span class="button" data-small-button>clickable</span
-      ><span class="button" data-small-button>square image</span>
+      <span class="button" data-button-size="small"><span>clickable</span></span
+      ><span class="button" data-button-size="small"><span>square image</span></span>
     </div>
     <footer slot="footer"><a href="#">Link in the footer makes whole card a link</a></footer>
     <h4 slot="headline">The order does not matter</h4>

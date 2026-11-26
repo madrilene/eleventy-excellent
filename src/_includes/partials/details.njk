@@ -4,8 +4,8 @@
 
 <div class="details flow">
   <ul class="control | cluster" aria-label="{{ meta.details.aria }}" role="list">
-    <li><button data-expand-all class="button" data-small-button>{{ meta.details.expand }}</button></li>
-    <li><button data-collapse-all class="button" data-small-button>{{ meta.details.collapse }}</button></li>
+    <li><button data-expand-all class="button" data-button-size="small"><span>{{ meta.details.expand }}</span></button></li>
+    <li><button data-collapse-all class="button" data-button-size="small"><span>{{ meta.details.collapse }}</span></button></li>
   </ul>
 
   {%- for item in itemList | alphabetic -%}

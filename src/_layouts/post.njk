@@ -23,7 +23,7 @@ schema: BlogPosting
     <p class="meta | cluster gutter-xs-s">
       <!-- draft status -->
       {%- if draft -%}
-        <span class="button" data-small-button data-button-variant="tertiary">draft</span>
+        <span class="button" data-button-size="small" data-button-variant="tertiary"><span>draft</span></span>
       {%- endif %}
       <!-- date -->
       {% set definedDate = date %} {% include "partials/date.njk" %}
@@ -33,7 +33,9 @@ schema: BlogPosting
       %}
         <!-- tags -->
         {% for tag in tags %}{% if tag != "posts" %}
-          <a class="button" href="/tags/{{ tag | slugify }}/" data-small-button> {{ tag }} </a>
+          <a class="button" href="/tags/{{ tag | slugify }}/" data-button-size="small"
+            ><span>{{ tag }}</span></a
+          >
         {% endif %}{% endfor %}
       {% endif %}
     </p>
