@@ -1,23 +1,21 @@
 custom-card {
   --gutter: var(--space-xs-s);
   background-color: var(--spot-color, var(--color-bg-accent));
-  border: 4px solid var(--color-bg-accent);
+  border-width: var(--stroke-width-emphasis);
+  border-style: solid;
+  border-color: transparent;
   color: var(--color-text);
-  padding: var(--space-s-m);
+  padding: var(--space-s);
   border-radius: var(--border-radius-medium);
   max-inline-size: unset;
   display: grid;
   grid-template-rows: [image] max-content [headline] max-content [meta] max-content [desc] auto [footer] max-content;
+  transition: border-color var(--transition-duration) var(--transition-timing);
 }
 
 /* avoid flow space being added to unused elements with nested slots */
 custom-card > :empty {
   display: none;
-}
-
-custom-card ::selection {
-  color: var(--color-dark);
-  background-color: var(--color-secondary);
 }
 
 custom-card :is(h2, h3) {
@@ -69,7 +67,6 @@ custom-card :is(a, p, h2, h3) {
 
 custom-card[no-padding] {
   background-color: transparent;
-  border: 4px solid var(--color-bg-accent);
   padding: 0;
   border-radius: none;
 }
@@ -84,7 +81,7 @@ custom-card[img-square] img {
 
 custom-card[clickable]:hover,
 custom-card[clickable]:focus-within {
-  border: 4px solid var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 custom-card[clickable]:focus-within a:focus {

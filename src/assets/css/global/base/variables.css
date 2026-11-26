@@ -9,8 +9,12 @@
   --tracking: -0.04ch;
   --tracking-s: -0.075ch;
   --tracking-wide: 0.04ch;
-  --stroke-width: 0.15ex;
+  --stroke-width: 0.15rem;
+  --stroke-width-relative: 0.15ex;
+  --stroke-width-icons: 0.125rem;
+  --stroke-width-emphasis: 0.25rem;
   --stroke: var(--stroke-width) solid var(--color-bg-accent);
+  --underline-offset: 0.2ch;
 
   --gradient-rainbow: linear-gradient(90deg, #cf4662 10%, #fbbe25 30%, #62c95c 50%, #08bccb 75%, #a977d5 90%);
   --gradient-conic: conic-gradient(

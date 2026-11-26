@@ -4,7 +4,7 @@
   height="0.9em"
   fill="var(--color-bg)"
   stroke="currentColor"
-  stroke-width="2"
+  stroke-width="var(--stroke-width-icons)"
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
