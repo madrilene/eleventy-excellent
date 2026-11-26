@@ -32,7 +32,7 @@
           rel="alternate"
           type="{{ meta.blog.feedLinks[0].type }}"
           class="button"
-          data-icon
+          data-button-icon
         >
           <span class="visually-hidden">{{ meta.blog.feedLinks[0].title }}</span>
           {% svg "misc/rss" %}
@@ -41,7 +41,7 @@
         {% for key, value in personal.platforms %}
           {% if value != "" %}
             <!-- regular platforms -->
-            <a class="no-indicator button" data-icon href="{{ value }}" rel="me">
+            <a class="no-indicator button" data-button-icon href="{{ value }}" rel="me">
               <span class="visually-hidden">{{ key | capitalize }}</span>
               {% svg 'platform/' + key %}
             </a>

@@ -39,7 +39,7 @@ customGradients:
       <br />
       More options: <code>data-button-variant</code>, <code>data-button-size</code>,
       <code>data-button-radius</code>. Add icons with
-      <code>{% raw %}{% svg %}{% endraw %}</code>.<br />Icon-only: add <code>data-icon</code>.
+      <code>{% raw %}{% svg %}{% endraw %}</code>.<br />Icon-only: add <code>data-button-icon</code>.
     </p>
     <ul class="cluster" role="list">
       <li>
@@ -78,13 +78,13 @@ customGradients:
         <a href="#" class="button" data-button-size="large"><span>large button</span></a>
       </li>
       <li>
-        <a href="#" class="button" data-icon>
+        <a href="#" class="button" data-button-icon>
           <span class="visually-hidden">Icon button</span>
           {% svg "misc/star" %}
         </a>
       </li>
       <li>
-        <a href="#" class="button" data-icon data-button-variant="primary">
+        <a href="#" class="button" data-button-icon data-button-variant="primary">
           <span class="visually-hidden">Icon button</span>
           {% svg "misc/star" %}
         </a>
@@ -93,7 +93,7 @@ customGradients:
         <a
           href="#"
           class="button"
-          data-icon
+          data-button-icon
           data-button-variant="secondary"
           data-button-size="small"
           data-button-radius="hard"
@@ -106,7 +106,7 @@ customGradients:
         <a
           href="#"
           class="button"
-          data-icon
+          data-button-icon
           data-button-variant="tertiary"
           data-button-size="large"
           data-button-radius="full"

@@ -153,14 +153,14 @@
 }
 
 /* icon only */
-.button[data-icon] {
+.button[data-button-icon] {
   --button-padding: var(--space-2xs);
   aspect-ratio: 1;
   display: inline-grid;
   place-items: center;
 }
 
-.button[data-icon]:not([data-button-variant]) {
+.button[data-button-icon]:not([data-button-variant]) {
   --button-bg: var(--color-bg);
   --button-border-color: var(--color-bg);
   --button-color: var(--color-text);
