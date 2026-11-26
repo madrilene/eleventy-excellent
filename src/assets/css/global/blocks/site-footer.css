@@ -2,10 +2,10 @@
   --cluster-horizontal-alignment: center;
 }
 
-/* increase tab size */
-.site-footer a:not(.creator a) {
-  padding: var(--space-xs);
+.site-footer .brand {
+  --cluster-vertical-alignment: baseline;
 }
+
 .site-footer .creator a:hover {
   color: transparent;
   background-image: var(--gradient-rainbow);

@@ -85,7 +85,7 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
   overflow: hidden;
 }
 
-.mainnav span {
+.mainnav [data-drawer-toggle] span {
   font-weight: var(--font-bold);
   text-transform: uppercase;
   font-family: var(--font-display);
@@ -102,36 +102,16 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
   transform: rotate(45deg);
 }
 
-.mainnav :is(a, [data-submenu-toggle]) {
-  /* configuration */
-  --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-text);
-  --nav-item-padding: var(--space-xs) var(--space-2xs);
-  --nav-item-decoration-color: transparent;
-  --nav-item-font-size: var(--size-step-0);
-  --nav-item-font-weight: var(--font-bold);
-
-  background: var(--nav-item-background);
-  color: var(--nav-item-text-color);
-  font-size: var(--nav-item-font-size);
-  padding: var(--nav-item-padding);
-  display: block;
-  border-radius: var(--border-radius-medium);
-  text-decoration-line: underline;
-  text-decoration-color: var(--nav-item-decoration-color);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 0.2em;
+.mainnav :is(a.button, [data-submenu-toggle]) {
+  inline-size: 100%;
 }
 
-.mainnav:has(.nav-sublist) :is(a, [data-submenu-toggle]) {
-  font-weight: var(--nav-item-font-weight);
+.mainnav:has(.nav-sublist) :is(a.button, [data-submenu-toggle]) {
+  --button-font-weight: var(--font-bold);
 }
 
 .mainnav [data-submenu-toggle] {
   gap: var(--space-2xs);
-  display: flex;
-  inline-size: 100%;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -139,24 +119,24 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
   margin-inline-end: calc(var(--gap) - var(--nav-list-padding-inline));
 }
 
-.mainnav :is(a, [data-submenu-toggle]):hover {
-  --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-text);
-  --nav-item-decoration-color: var(--color-bg-accent-2);
-}
-
+/* Current page (drawer bg + primary underline/text) */
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --nav-item-background: var(--color-bg);
-  --nav-item-text-color: var(--color-primary);
-  --nav-item-decoration-color: var(--color-primary);
+  --button-bg: var(--color-bg);
+  --button-hover-bg: var(--color-bg);
+  --button-color: var(--color-primary);
+  --button-hover-color: var(--color-primary);
+  --button-decoration-color: var(--color-primary);
+  --button-decoration-color-hover: var(--color-primary);
 }
 
-/* current parent (if submenu) */
 li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
-  --nav-item-background: var(--color-bg);
-  --nav-item-text-color: var(--color-text);
-  --nav-item-decoration-color: var(--color-text);
+  --button-bg: var(--color-bg);
+  --button-hover-bg: var(--color-bg);
+  --button-color: var(--color-text);
+  --button-hover-color: var(--color-text);
+  --button-decoration-color: var(--color-text);
+  --button-decoration-color-hover: var(--color-text);
 }
 
 /* sub menu */
@@ -184,7 +164,7 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
 }
 
 .mainnav .nav-sublist a {
-  --nav-item-font-weight: var(--font-regular);
+  --button-font-weight: var(--font-regular);
 }
 
 @media screen(navigation) {
@@ -193,8 +173,8 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
     --nav-button-display: none;
   }
 
-  .mainnav :is(a, [data-submenu-toggle]) {
-    --nav-item-font-weight: var(--font-regular);
+  .mainnav:has(.nav-sublist) :is(a.button, [data-submenu-toggle]) {
+    --button-font-weight: var(--font-regular);
   }
 
   .mainnav ul {
@@ -210,16 +190,15 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
     --nav-list-opacity: 1;
   }
 
+  .mainnav :is(a.button, [data-submenu-toggle]) {
+    inline-size: auto;
+  }
+
   .mainnav [aria-current='page'],
   .mainnav [data-state='active'],
   li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
-    --nav-item-background: transparent;
-    --nav-item-text-color: var(--color-primary);
-    --nav-item-decoration-color: var(--color-primary);
-  }
-
-  .mainnav [data-submenu-toggle] {
-    inline-size: auto;
+    --button-bg: transparent;
+    --button-hover-bg: transparent;
   }
 
   .mainnav [data-submenu-toggle] svg {
@@ -255,11 +234,14 @@ assumes that the button doesn’t exist without JS, making the list the first ch
   --nav-list-opacity: 1;
 }
 
+.mainnav ul:first-child :is(a.button, [data-submenu-toggle]) {
+  inline-size: auto;
+}
+
 .mainnav ul:first-child [aria-current='page'],
 .mainnav ul:first-child [data-state='active'] {
-  --nav-item-background: transparent;
-  --nav-item-text-color: var(--color-primary);
-  --nav-item-decoration-color: var(--color-primary);
+  --button-bg: transparent;
+  --button-hover-bg: transparent;
 }
 
 /* make menu wrap without drawer */

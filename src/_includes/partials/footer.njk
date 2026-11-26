@@ -1,14 +1,18 @@
 <footer class="site-footer mt-l-xl p-s-m">
   <div class="wrapper">
-    <div class="cluster gutter-xs">
-      <nav class="cluster text-step-0" aria-label="{{ meta.navigation.ariaBottom }}">
+    <div class="cluster gutter-s">
+      <div class="brand | cluster gutter-2xs">
         &copy; {% year %}
-        <a href="/" {{ indicateActiveHome }}
-          ><span class="font-display">{{ meta.siteName }}</span> <small>{{ pkg.version }}</small>
+        <a href="/" class="button" data-button-variant="text" {{ indicateActiveHome }}>
+          <span class="font-display">{{ meta.siteName }}</span>
         </a>
-
+        <small>{{ pkg.version }}</small>
+      </div>
+      <nav class="cluster gutter-xs" aria-label="{{ meta.navigation.ariaBottom }}">
         {% for item in navigation.bottom %}
           <a
+            class="button"
+            data-button-variant="text-underline"
             href="{{ item.url }}"
             {{
               helpers.getLinkActiveState(item.url,
@@ -16,7 +20,7 @@
               |
               safe
             }}
-            >{{ item.text }}</a
+            ><span>{{ item.text }}</span></a
           >
         {% endfor %}
       </nav>

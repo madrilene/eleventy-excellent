@@ -5,7 +5,7 @@
   --button-color: color-mix(in oklab, var(--button-bg) 10%, var(--color-bg));
   --button-hover-bg: color-mix(in oklab, var(--button-bg) 90%, var(--color-bg));
   --button-hover-color: var(--button-color);
-  --button-border-width: var(--border-thicknes, var(--stroke-width));
+  --button-border-width: var(--stroke-width);
   --button-border-style: solid;
   --button-border-color: color-mix(in oklab, var(--button-bg) 80%, var(--color-text));
   --button-radius: var(--border-radius-small);
@@ -18,6 +18,11 @@
   --button-tracking: normal;
   --button-icon-size: 1.2cap;
   --button-transition: var(--transition-duration) var(--transition-timing);
+  --button-decoration-line: none;
+  --button-decoration-color: transparent;
+  --button-decoration-color-hover: transparent;
+  --button-decoration-thickness: var(--stroke-width);
+  --button-underline-offset: var(--underline-offset);
 
   display: inline-flex;
   align-items: center;
@@ -29,7 +34,10 @@
   border-style: var(--button-border-style);
   border-color: var(--button-border-color);
   border-radius: var(--button-radius);
-  text-decoration: none;
+  text-decoration-line: var(--button-decoration-line);
+  text-decoration-color: var(--button-decoration-color);
+  text-decoration-thickness: var(--button-decoration-thickness);
+  text-underline-offset: var(--button-underline-offset);
   font-family: var(--button-font-family);
   font-weight: var(--button-font-weight);
   font-size: var(--button-font-size);
@@ -39,7 +47,8 @@
   transition:
     border-color var(--button-transition),
     background-color var(--button-transition),
-    color var(--button-transition);
+    color var(--button-transition),
+    text-decoration-color var(--button-transition);
 }
 
 .button > span {
@@ -57,6 +66,7 @@
 .button[data-state='active'] {
   background: var(--button-hover-bg);
   color: var(--button-hover-color);
+  text-decoration-color: var(--button-decoration-color-hover);
 }
 
 .button:active {
@@ -94,6 +104,29 @@
   --_ghost-hover-bg: color-mix(in oklab, var(--button-bg) 95%, var(--color-dark));
   background: var(--_ghost-hover-bg);
   color: var(--button-color);
+}
+
+/* Text / text-underline: underline via decoration-color (never removed) */
+.button[data-button-variant='text'],
+.button[data-button-variant='text-underline'] {
+  --button-bg: transparent;
+  --button-hover-bg: transparent;
+  --button-border-width: 0;
+  --button-border-color: transparent;
+  --button-color: var(--color-text);
+  --button-hover-color: var(--color-text);
+  --button-padding: var(--space-xs) var(--space-2xs);
+  --button-radius: var(--border-radius-medium);
+  --button-decoration-line: underline;
+  --button-decoration-color-hover: var(--color-bg-accent-2);
+}
+
+.button[data-button-variant='text'] {
+  --button-decoration-color: transparent;
+}
+
+.button[data-button-variant='text-underline'] {
+  --button-decoration-color: currentColor;
 }
 
 /* Size steps */

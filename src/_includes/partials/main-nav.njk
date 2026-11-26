@@ -7,19 +7,27 @@
     {% for item in navigation.top %}
       {% if item.submenu %}
         <li class="relative">
-          <button data-submenu-toggle aria-expanded="false" aria-controls="mainnav-{{ loop.index }}-sub">
-            {{ item.text }} {% svg "misc/chev-down" %}
+          <button
+            class="button"
+            data-button-variant="text"
+            data-submenu-toggle
+            aria-expanded="false"
+            aria-controls="mainnav-{{ loop.index }}-sub"
+          >
+            <span>{{ item.text }}</span> {% svg "misc/chev-down" %}
           </button>
           <ul class="nav-sublist | cluster" id="mainnav-{{ loop.index }}-sub">
             {% for subitem in item.submenu %}
               <li>
                 <a
+                  class="button"
+                  data-button-variant="text"
                   href="{{ subitem.url }}"
                   {{
                     helpers.getLinkActiveState(subitem.url, page.url)
                     | safe
                   }}
-                  >{{ subitem.text }}</a
+                  ><span>{{ subitem.text }}</span></a
                 >
               </li>
             {% endfor %}
@@ -28,6 +36,8 @@
       {% else %}
         <li>
           <a
+            class="button"
+            data-button-variant="text"
             href="{{ item.url }}"
             {{
               helpers.getLinkActiveState(item.url,
@@ -35,7 +45,7 @@
               |
               safe
             }}
-            >{{ item.text }}</a
+            ><span>{{ item.text }}</span></a
           >
         </li>
       {% endif %}
