@@ -29,7 +29,7 @@
     border-radius: 0.2em;
   }
 
-  .peertube-embed .pt-facade,
+  .peertube-embed .peertube-facade,
   .peertube-embed iframe {
     position: absolute;
     inset: 0;
