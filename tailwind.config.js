@@ -104,7 +104,7 @@ export default {
   },
 
   // Prevents Tailwind's core components
-  blocklist: ['container'],
+  blocklist: ['container', 'grid'],
 
   // Prevents Tailwind from generating that wall of empty custom properties
   experimental: {

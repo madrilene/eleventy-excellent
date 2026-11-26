@@ -6,6 +6,8 @@ class CustomMasonry extends HTMLElement {
   }
 
   connectedCallback() {
+    if (CSS.supports('display', 'grid-lanes')) return;
+
     // Defer initial layout to ensure styles are applied
     requestAnimationFrame(() => {
       this.layoutMasonry();

@@ -24,8 +24,13 @@ to change how empty grid tracks are handled */
 }
 
 .grid[data-rows='masonry'] {
-  grid-template-rows: masonry;
   align-items: start;
+}
+
+@supports (display: grid-lanes) {
+  .grid[data-rows='masonry'] {
+    display: grid-lanes;
+  }
 }
 
 .grid[data-layout='50-50'] {
