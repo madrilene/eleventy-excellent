@@ -82,7 +82,7 @@ strong {
 
 hr {
   border: none;
-  height: 1px;
+  height: var(--stroke-width);
   width: 10%;
   margin-block: var(--flow-space, var(--space-m-l));
   margin-inline-start: 0;

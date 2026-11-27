@@ -1,6 +1,4 @@
-/* Global variables.  */
-
-/* Basic variable definitions for color schemes */
+/* Global variables */
 :root {
   --gutter: var(--space-m-l);
   --transition-duration: 250ms;
@@ -9,9 +7,9 @@
   --tracking: -0.04ch;
   --tracking-s: -0.075ch;
   --tracking-wide: 0.04ch;
-  --stroke-width: 0.15rem;
+  --stroke-width: clamp(0.1rem, 0.08rem + 0.08vw, 0.15rem);
   --stroke-width-relative: 0.15ex;
-  --stroke-width-icons: 0.125rem;
+  --stroke-width-icons: clamp(0.09rem, 0.08rem + 0.08vw, 0.125rem);
   --stroke-width-emphasis: 0.25rem;
   --stroke: var(--stroke-width) solid var(--color-bg-accent);
   --underline-offset: 0.2ch;
