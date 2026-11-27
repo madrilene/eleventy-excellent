@@ -5,30 +5,40 @@
     <ol class="pagination | cluster" role="list">
       <li>
         {% if pagination.href.previous %}
-          <a href="{{ pagination.href.previous }}"> {{ meta[metaKey].paginationPrevious }} </a>
+          <a class="button" data-button-variant="ghost" href="{{ pagination.href.previous }}">
+            <span>{{ meta[metaKey].paginationPrevious }}</span>
+          </a>
         {% else %}
-          {{ meta[metaKey].paginationPrevious }}
+          <span class="button" data-button-variant="ghost" aria-disabled="true">
+            <span>{{ meta[metaKey].paginationPrevious }}</span>
+          </span>
         {% endif %}
       </li>
       {% if meta[metaKey].paginationNumbers %}
         {%- for pageEntry in pagination.pages -%}
           <li>
             <a
+              class="button"
+              data-button-variant="ghost"
               href="{{ pagination.hrefs[ loop.index0 ] }}"
               id="link_{{ loop.index }}"
               aria-labelledby="prefix link_{{ loop.index }}"
               {% if page.url == pagination.hrefs[ loop.index0 ] %}aria-current="page"{% endif %}
             >
-              {{ loop.index }}</a
-            >
+              <span>{{ loop.index }}</span>
+            </a>
           </li>
         {%- endfor -%}
       {% endif %}
       <li>
         {% if pagination.href.next %}
-          <a href="{{ pagination.href.next }}">{{ meta[metaKey].paginationNext }}</a>
+          <a class="button" data-button-variant="ghost" href="{{ pagination.href.next }}">
+            <span>{{ meta[metaKey].paginationNext }}</span>
+          </a>
         {% else %}
-          {{ meta[metaKey].paginationNext }}
+          <span class="button" data-button-variant="ghost" aria-disabled="true">
+            <span>{{ meta[metaKey].paginationNext }}</span>
+          </span>
         {% endif %}
       </li>
     </ol>

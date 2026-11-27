@@ -1,15 +1,16 @@
+.theme-switch {
+  --focus-color: var(--color-tertiary);
+}
+
 .theme-switch h2 {
   font-size: var(--size-step-min-1);
   font-family: var(--font-base);
 }
 
-.theme-switch .button[aria-pressed='true'] {
-  --_color-contrast: var(--color-tertiary);
-  --button-bg: var(--_color-contrast);
-  --button-color: var(--color-dark);
-  --button-hover-color: var(--color-dark);
-  --button-border-color: var(--_color-contrast);
-  --focus-color: var(--_color-contrast);
+.theme-switch .button {
+  --button-selected-bg: var(--color-tertiary);
+  --button-selected-color: var(--color-dark);
+  --button-selected-border-color: var(--color-tertiary);
 }
 
 /* Hide without JS */

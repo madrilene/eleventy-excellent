@@ -5,9 +5,13 @@
   --button-color: color-mix(in oklab, var(--button-bg) 10%, var(--color-bg));
   --button-hover-bg: color-mix(in oklab, var(--button-bg) 90%, var(--color-bg));
   --button-hover-color: var(--button-color);
+  --button-selected-bg: var(--button-bg);
+  --button-selected-color: var(--button-hover-color);
   --button-border-width: var(--stroke-width);
   --button-border-style: solid;
   --button-border-color: color-mix(in oklab, var(--button-bg) 80%, var(--color-text));
+  --button-hover-border-color: var(--button-hover-bg);
+  --button-selected-border-color: var(--button-selected-bg);
   --button-radius: var(--border-radius-small);
   --button-gap: var(--space-xs);
   --button-padding: var(--space-s) var(--space-m);
@@ -20,9 +24,13 @@
   --button-transition: var(--transition-duration) var(--transition-timing);
   --button-decoration-line: none;
   --button-decoration-color: transparent;
-  --button-decoration-color-hover: transparent;
+  --button-hover-decoration-color: transparent;
+  --button-selected-decoration-color: transparent;
   --button-decoration-thickness: var(--stroke-width);
   --button-underline-offset: var(--underline-offset);
+
+  --focus-color: var(--button-focus-color);
+  --button-focus-color: currentColor;
 
   display: inline-flex;
   align-items: center;
@@ -59,16 +67,6 @@
   block-size: var(--button-icon-size);
 }
 
-/* Hover/focus/active */
-.button:hover,
-.button[aria-current='page'],
-.button[aria-pressed='true'],
-.button[data-state='active'] {
-  background: var(--button-hover-bg);
-  color: var(--button-hover-color);
-  text-decoration-color: var(--button-decoration-color-hover);
-}
-
 .button:active:not([data-button-variant^='text']) {
   transform: scale(99%);
 }
@@ -94,16 +92,12 @@
 
 .button[data-button-variant='ghost'] {
   --button-bg: var(--color-bg);
-  --button-border-color: var(--color-text);
+  --button-border-color: var(--color-bg-accent-2);
   --button-color: var(--color-text);
-  --button-hover-color: var(--color-bg);
-}
-
-.button[data-button-variant='ghost']:hover {
-  --_ghost-hover-bg: var(--color-bg);
-  --_ghost-hover-bg: color-mix(in oklab, var(--button-bg) 95%, var(--color-dark));
-  background: var(--_ghost-hover-bg);
-  color: var(--button-color);
+  --button-hover-bg: color-mix(in oklab, var(--button-bg) 95%, var(--color-text));
+  --button-hover-color: var(--button-color);
+  --button-hover-border-color: var(--button-border-color);
+  --button-selected-border-color: var(--color-text);
 }
 
 /* Text / text-underline: underline via decoration-color (never removed) */
@@ -118,7 +112,8 @@
   --button-padding: var(--space-xs) var(--space-2xs);
   --button-radius: var(--border-radius-medium);
   --button-decoration-line: underline;
-  --button-decoration-color-hover: var(--color-bg-accent-2);
+  --button-hover-decoration-color: var(--color-mid);
+  --button-selected-decoration-color: var(--color-text);
 }
 
 .button[data-button-variant='text'] {
@@ -126,7 +121,7 @@
 }
 
 .button[data-button-variant='text-underline'] {
-  --button-decoration-color: currentColor;
+  --button-decoration-color: var(--color-bg-accent-2);
 }
 
 /* Size steps */
@@ -166,4 +161,30 @@
   --button-color: var(--color-text);
   --button-hover-color: var(--color-primary);
   --button-radius: 50%;
+}
+
+/* states: disabled, selected, hover */
+.button[aria-disabled='true'],
+.button[disabled] {
+  --button-decoration-color: transparent;
+  opacity: 0.7;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.button[aria-current='page'],
+.button[aria-pressed='true'],
+.button[data-state='active'] {
+  --button-focus-color: var(--button-selected-bg);
+  background: var(--button-selected-bg);
+  color: var(--button-selected-color);
+  text-decoration-color: var(--button-selected-decoration-color);
+  border-color: var(--button-selected-border-color);
+}
+
+.button:hover {
+  background: var(--button-hover-bg);
+  color: var(--button-hover-color);
+  text-decoration-color: var(--button-hover-decoration-color);
+  border-color: var(--button-hover-border-color);
 }

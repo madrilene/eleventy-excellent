@@ -127,7 +127,7 @@ body:has([data-drawer-toggle][aria-expanded='true']) {
   --button-color: var(--color-primary);
   --button-hover-color: var(--color-primary);
   --button-decoration-color: var(--color-primary);
-  --button-decoration-color-hover: var(--color-primary);
+  --button-hover-decoration-color: var(--color-primary);
 }
 
 li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
@@ -136,7 +136,7 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
   --button-color: var(--color-text);
   --button-hover-color: var(--color-text);
   --button-decoration-color: var(--color-text);
-  --button-decoration-color-hover: var(--color-text);
+  --button-hover-decoration-color: var(--color-text);
 }
 
 /* sub menu */
