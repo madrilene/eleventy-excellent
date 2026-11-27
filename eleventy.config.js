@@ -100,6 +100,8 @@ export default async function (eleventyConfig) {
     eleventyConfig.on('eleventy.after', events.svgToJpeg);
   }
 
+  eleventyConfig.on('eleventy.after', events.tableSawWrapper);
+
   // --------------------- Passthrough File Copy
 
   // -- same path
@@ -113,6 +115,7 @@ export default async function (eleventyConfig) {
 
     // -- node_modules
     'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`,
+    'node_modules/@zachleat/table-saw/table-saw.js': `assets/components/table-saw.js`,
     'node_modules/@11ty/is-land/dist/is-land.min.js': `assets/components/is-land.min.js`
   });
 

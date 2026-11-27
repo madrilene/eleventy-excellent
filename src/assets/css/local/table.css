@@ -1,96 +1,57 @@
+table-saw {
+  display: block;
+  max-inline-size: 100%;
+  overflow-x: auto;
+}
+
 table {
-  border: 0;
+  border: var(--stroke);
+  border-collapse: collapse;
   inline-size: 100%;
 }
 
-table br {
-  display: none;
-}
-
-thead {
-  border: none;
-  clip: rect(0 0 0 0);
-  block-size: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  inline-size: 1px;
-}
-
-tr {
-  border: var(--stroke);
-  display: block;
-  margin-block-end: var(--space-s);
-}
-
-th,
-td {
-  padding: var(--space-xs) var(--space-s);
-  vertical-align: sub;
-}
-
-td {
-  border-block-end: var(--stroke);
-  display: block;
-  text-align: start;
-}
-
-td::before {
-  content: attr(data-label);
-  float: start;
+th {
+  text-align: left;
   font-weight: var(--font-bold);
+  line-height: var(--leading-fine);
 }
 
-td:last-child {
-  border-block-end: 0;
+thead th {
+  padding-block: var(--space-s);
+}
+
+td,
+th {
+  padding: var(--space-xs);
+  min-inline-size: 10rem;
+  overflow-wrap: anywhere;
+}
+
+th:not(:only-of-type) {
+  border-block-end: var(--stroke);
+  background: var(--color-bg-accent);
+}
+
+th:only-of-type {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0,
+    transparent 2px,
+    color-mix(in oklab, var(--color-text) 12%, transparent) 3px,
+    color-mix(in oklab, var(--color-text) 2%, transparent) 4px
+  );
+}
+
+tr:not(:first-of-type) {
+  border-block-start: var(--stroke);
 }
 
 @media screen(sm) {
-  table {
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    table-layout: fixed;
+  :is(th, td) ~ :is(th, td) {
+    border-inline-start: var(--stroke);
   }
 
-  table br {
-    display: block;
-  }
-
-  thead {
-    position: static;
-    text-align: start;
-    display: table-header-group;
-  }
-
-  caption {
-    margin: var(--space-xs) 0 var(--space-s);
-  }
-
-  tr {
-    border: 0;
-    padding: var(--space-xs);
-    margin: 0;
-    display: table-row;
-  }
-
-  tr:not(:last-child) {
-    border-block-end: var(--stroke);
-  }
-
-  td {
-    border: none;
-  }
-
-  td::before {
-    display: none;
-  }
-
-  th,
-  td {
-    padding: var(--space-s);
-    text-align: start;
-    display: table-cell;
+  tr + tr :is(th, td) {
+    border-block-start: var(--stroke);
   }
 }
