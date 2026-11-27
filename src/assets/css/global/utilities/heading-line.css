@@ -7,9 +7,9 @@
 .heading-line::after {
   content: '';
   flex-grow: 1;
-  block-size: var(--stroke-width);
-  background: var(--color-bg-accent-2);
+  block-size: 1px;
+  background: var(--stroke-color);
   margin-block-start: auto;
   transform: translateY(-0.25em);
-  margin-left: var(--space-s);
+  margin-inline-start: var(--space-s);
 }

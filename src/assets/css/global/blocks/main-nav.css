@@ -208,11 +208,10 @@ li:has(ul a[aria-current='page']) > [data-submenu-toggle] {
   .mainnav .nav-sublist {
     --nav-sublist-position: absolute;
     --nav-sublist-background: var(--color-bg);
-    --nav-sublist-border: var(--color-text);
     --nav-sublist-width: max-content;
     --nav-list-padding-block: var(--space-xs);
     --nav-list-padding-inline: var(--space-xs);
-    border: 3px solid var(--nav-sublist-border);
+    border: var(--stroke);
     inset-block-start: var(--space-xl);
     inset-inline-start: var(--space-2xs);
   }

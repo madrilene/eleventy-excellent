@@ -1,9 +1,7 @@
 custom-card {
   --gutter: var(--space-xs-s);
   background-color: var(--spot-color, var(--color-bg-accent));
-  border-width: var(--stroke-width-emphasis);
-  border-style: solid;
-  border-color: transparent;
+  border: var(--stroke-width-emphasis) solid transparent;
   color: var(--color-text);
   padding: var(--space-s);
   border-radius: var(--border-radius-medium);

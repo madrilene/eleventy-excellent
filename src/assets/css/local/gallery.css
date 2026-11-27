@@ -14,7 +14,7 @@
 }
 
 .gallery dialog + button:focus-visible {
-  outline: 3px solid var(--focus-color, currentColor);
+  outline: var(--focus-stroke-width, var(--stroke-width-emphasis)) solid var(--focus-color, currentColor);
   outline-offset: var(--focus-offset, 0.3ch);
 }
 
