@@ -195,23 +195,27 @@ customGradients:
         <a href="{{ designTokens.textSizes.meta.scaleGenerator }}">generated with Utopia</a>.
       </p>
 
-      <table class="sizes flow">
-        {%- for size in designTokens.textSizes.items -%}
+      <table class="sizes">
+        <thead>
           <tr>
-            <th scope="row">
-              <h3>{{ size.name }}</h3>
-            </th>
-            <td>
-              <span class="flow">
-                <p>{{ size.min }}px to {{ size.max }}px</p>
-                <code>var(--size-{{ size.name | slugify }})</code>
-              </span>
-            </td>
-            <td class="sizes-example">
-              <p style="font-size:var(--size-{{ size.name | slugify }})">{{ size.name }}</p>
-            </td>
+            <th scope="col">Name</th>
+            <th scope="col">Range</th>
+            <th scope="col">Custom property</th>
+            <th scope="col">Example</th>
           </tr>
-        {%- endfor -%}
+        </thead>
+        <tbody>
+          {%- for size in designTokens.textSizes.items -%}
+            <tr>
+              <th scope="row">{{ size.name }}</th>
+              <td>{{ size.min }}px to {{ size.max }}px</td>
+              <td><code>var(--size-{{ size.name | slugify }})</code></td>
+              <td class="sizes-example">
+                <p style="font-size:var(--size-{{ size.name | slugify }})">{{ size.name }}</p>
+              </td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
       </table>
     </section>
   </div>
@@ -225,26 +229,30 @@ customGradients:
       <a href="{{ designTokens.spacing.meta.scaleGenerator }}">generated with Utopia</a>.
     </p>
 
-    <table class="spacing flow">
-      {%- for space in designTokens.spacing.items -%}
+    <table class="spacing">
+      <thead>
         <tr>
-          <th scope="row">
-            <h3>{{ space.name }}</h3>
-          </th>
-          <td>
-            <span class="flow">
-              <p>{{ space.min }}px to {{ space.max }}px</p>
-              <code>var(--space-{{ space.name | slugify }})</code>
-            </span>
-          </td>
-          <td>
-            <div
-              class="space"
-              style="height:var(--space-{{ space.name | slugify }}); width:var(--space-{{ space.name | slugify }});"
-            ></div>
-          </td>
+          <th scope="col">Name</th>
+          <th scope="col">Range</th>
+          <th scope="col">Custom property</th>
+          <th scope="col">Example</th>
         </tr>
-      {%- endfor -%}
+      </thead>
+      <tbody>
+        {%- for space in designTokens.spacing.items -%}
+          <tr>
+            <th scope="row">{{ space.name }}</th>
+            <td>{{ space.min }}px to {{ space.max }}px</td>
+            <td><code>var(--space-{{ space.name | slugify }})</code></td>
+            <td>
+              <div
+                class="space"
+                style="height:var(--space-{{ space.name | slugify }}); width:var(--space-{{ space.name | slugify }});"
+              ></div>
+            </td>
+          </tr>
+        {%- endfor -%}
+      </tbody>
     </table>
   </section>
 </article>
