@@ -13,6 +13,12 @@
   --button-selected-border-color: var(--color-tertiary);
 }
 
+.theme-switch .button[aria-pressed='true'] {
+  --button-hover-bg: color-mix(in oklab, var(--button-selected-bg) 95%, var(--color-dark));
+  --button-hover-color: var(--button-selected-color);
+  --button-hover-border-color: var(--button-hover-bg);
+}
+
 /* Hide without JS */
 is-land:not(:defined) .theme-switch {
   display: none;
